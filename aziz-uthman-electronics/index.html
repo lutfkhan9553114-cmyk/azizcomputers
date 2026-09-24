@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Aziz Uthman Electronics — Computer Hardware & Accessories in Dubai</title>
+<meta name="description" content="Laptops, graphics cards, processors, monitors and PC accessories in Dubai. Genuine stock, warranty, same-day delivery and cash on delivery across the UAE.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400;6..96,500;6..96,600&family=IBM+Plex+Mono:wght@500&family=Public+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<script>
+/* Sets the theme before the page paints, so there is no flash of the wrong
+   colours. The full logic lives in assets/js/app.js. */
+(function () {
+  try {
+    var t = localStorage.getItem('aziz.theme');
+    if (t !== 'light' && t !== 'dark') {
+      t = (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) ? 'dark' : 'light';
+    }
+    document.documentElement.setAttribute('data-theme', t);
+  } catch (e) { document.documentElement.setAttribute('data-theme', 'light'); }
+})();
+</script>
+<link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+<div id="site-header"></div>
+
+<main>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="wrap">
+      <div>
+        <span class="hero-eyebrow">TRADING IN DUBAI SINCE DAY ONE</span>
+        <h1>Components you can hold before you buy them.</h1>
+        <p>Graphics cards, processors, laptops and peripherals — stocked in Bur Dubai, delivered across the Emirates, and backed by warranty you can walk into a shop to claim.</p>
+        <div class="hero-actions">
+          <a class="btn btn-gold" href="shop.html">Shop all products</a>
+          <a class="btn btn-outline" style="border-color:#3A3F47;color:#EDEDE8" href="shop.html?deals=1">See this week's deals</a>
+        </div>
+        <dl class="hero-stats">
+          <div><dt>Delivery</dt><dd>Same day</dd></div>
+          <div><dt>Payment</dt><dd>On delivery</dd></div>
+          <div><dt>Warranty</dt><dd>In-store</dd></div>
+        </dl>
+      </div>
+      <div class="hero-card" id="hero-card"></div>
+    </div>
+  </section>
+
+  <!-- WHY CHOOSE US -->
+  <section class="usp"><div class="wrap" id="usp-strip"></div></section>
+
+  <!-- CATEGORIES -->
+  <section class="section">
+    <div class="wrap">
+      <div class="section-head">
+        <div>
+          <div class="rule-gold"></div>
+          <h2>Shop by category</h2>
+          <p>Sixteen departments, from full systems down to a single cable.</p>
+        </div>
+        <a class="link-more" href="shop.html">Browse everything</a>
+      </div>
+      <div class="cat-grid" id="category-grid"></div>
+    </div>
+  </section>
+
+  <!-- FEATURED -->
+  <section class="section section--tight">
+    <div class="wrap">
+      <div class="section-head">
+        <div>
+          <div class="rule-gold"></div>
+          <h2>Picked by our counter staff</h2>
+          <p>What we recommend most often, and why it keeps coming back into stock.</p>
+        </div>
+        <a class="link-more" href="shop.html">All products</a>
+      </div>
+      <div class="grid-products cols-4" id="featured-grid"></div>
+    </div>
+  </section>
+
+  <!-- BANNERS -->
+  <section class="section section--tight">
+    <div class="wrap">
+      <div class="banner-grid" id="banner-grid"></div>
+    </div>
+  </section>
+
+  <!-- DEALS -->
+  <section class="section section--tight">
+    <div class="wrap">
+      <div class="section-head">
+        <div>
+          <div class="rule-gold"></div>
+          <h2>On offer now</h2>
+          <p>Live discounts. Prices change when stock changes.</p>
+        </div>
+        <a class="link-more" href="shop.html?deals=1">All deals</a>
+      </div>
+      <div class="grid-products cols-4" id="deals-grid"></div>
+    </div>
+  </section>
+
+  <!-- NEW ARRIVALS -->
+  <section class="section section--tight">
+    <div class="wrap">
+      <div class="section-head">
+        <div>
+          <div class="rule-gold"></div>
+          <h2>Just landed</h2>
+          <p>New lines on the shelves this month.</p>
+        </div>
+        <a class="link-more" href="shop.html?new=1">All new arrivals</a>
+      </div>
+      <div class="grid-products cols-4" id="new-grid"></div>
+    </div>
+  </section>
+
+  <!-- BRANDS -->
+  <section class="section section--tight">
+    <div class="wrap">
+      <div class="section-head">
+        <div>
+          <div class="rule-gold"></div>
+          <h2>Brands we carry</h2>
+          <p>Looking for something we don't list? We can usually source it.</p>
+        </div>
+      </div>
+      <div class="brand-strip" id="brand-strip"></div>
+    </div>
+  </section>
+
+  <!-- STORE INFO -->
+  <section class="section">
+    <div class="wrap">
+      <div class="store-grid">
+        <div id="store-info"></div>
+        <div class="store-map" id="store-map"></div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<div id="site-footer"></div>
+
+<script src="assets/js/config.js"></script>
+<script src="assets/js/products.js"></script>
+<script src="assets/js/app.js"></script>
+<script src="assets/js/pages.js"></script>
+<script>Pages.home();</script>
+</body>
+</html>

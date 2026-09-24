@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Page not found | Aziz Uthman Electronics</title>
+<meta name="robots" content="noindex">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400;6..96,500;6..96,600&family=IBM+Plex+Mono:wght@500&family=Public+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<script>
+/* Sets the theme before the page paints, so there is no flash of the wrong
+   colours. The full logic lives in assets/js/app.js. */
+(function () {
+  try {
+    var t = localStorage.getItem('aziz.theme');
+    if (t !== 'light' && t !== 'dark') {
+      t = (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) ? 'dark' : 'light';
+    }
+    document.documentElement.setAttribute('data-theme', t);
+  } catch (e) { document.documentElement.setAttribute('data-theme', 'light'); }
+})();
+</script>
+<link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+<div id="site-header"></div>
+<main>
+  <div class="wrap">
+    <div class="empty" style="margin:80px auto;max-width:640px">
+      <h3>We can't find that page</h3>
+      <p>The link may be old, or the product may have been discontinued. Try the catalogue instead.</p>
+      <div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap">
+        <a class="btn btn-primary btn-sm" href="index.html">Go to the homepage</a>
+        <a class="btn btn-outline btn-sm" href="shop.html">Browse products</a>
+      </div>
+    </div>
+  </div>
+</main>
+<div id="site-footer"></div>
+<script src="assets/js/config.js"></script>
+<script src="assets/js/products.js"></script>
+<script src="assets/js/app.js"></script>
+<script src="assets/js/pages.js"></script>
+<script>Pages.notFound();</script>
+</body>
+</html>

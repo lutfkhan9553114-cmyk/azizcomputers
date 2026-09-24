@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Checkout | Aziz Uthman Electronics</title>
+<meta name="description" content="Complete your order. Cash on delivery, card on delivery, bank transfer or collection from our Dubai shop.">
+<meta name="robots" content="noindex">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400;6..96,500;6..96,600&family=IBM+Plex+Mono:wght@500&family=Public+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<script>
+/* Sets the theme before the page paints, so there is no flash of the wrong
+   colours. The full logic lives in assets/js/app.js. */
+(function () {
+  try {
+    var t = localStorage.getItem('aziz.theme');
+    if (t !== 'light' && t !== 'dark') {
+      t = (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) ? 'dark' : 'light';
+    }
+    document.documentElement.setAttribute('data-theme', t);
+  } catch (e) { document.documentElement.setAttribute('data-theme', 'light'); }
+})();
+</script>
+<link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+<div id="site-header"></div>
+
+<main>
+  <div class="page-head">
+    <div class="wrap">
+      <h1>Checkout</h1>
+      <p>Fill in your delivery details. We confirm every order on WhatsApp before it is dispatched — nothing is charged on this page.</p>
+    </div>
+  </div>
+
+  <div class="wrap" id="checkout-root">
+    <div class="checkout-layout">
+
+      <div id="checkout-form">
+        <div class="panel">
+          <h2>Delivery details</h2>
+          <p class="panel-sub">We only use these to deliver and confirm your order.</p>
+
+          <div class="field" id="f-name">
+            <label for="i-name">Full name</label>
+            <input id="i-name" type="text" autocomplete="name" placeholder="Ahmed Al Marzooqi">
+            <span class="error">Enter the name the driver should ask for.</span>
+          </div>
+
+          <div class="field-row">
+            <div class="field" id="f-phone">
+              <label for="i-phone">Mobile number</label>
+              <input id="i-phone" type="tel" inputmode="tel" autocomplete="tel" placeholder="05X XXX XXXX">
+              <span class="error">Enter a valid UAE mobile number.</span>
+            </div>
+            <div class="field" id="f-email">
+              <label for="i-email">Email <span style="font-weight:400;color:var(--ink-3)">(optional)</span></label>
+              <input id="i-email" type="email" autocomplete="email" placeholder="you@example.com">
+              <span class="error">That email address does not look right.</span>
+            </div>
+          </div>
+
+          <div class="field" id="f-address">
+            <label for="i-address">Delivery address</label>
+            <textarea id="i-address" rows="3" autocomplete="street-address" placeholder="Building / villa, street, area, nearest landmark"></textarea>
+            <span class="error">Add a building and area so the driver can find you.</span>
+          </div>
+
+          <div class="field" id="f-city">
+            <label for="i-city">Emirate / city</label>
+            <select id="i-city">
+              <option value="Dubai">Dubai</option>
+              <option value="Abu Dhabi">Abu Dhabi</option>
+              <option value="Sharjah">Sharjah</option>
+              <option value="Ajman">Ajman</option>
+              <option value="Umm Al Quwain">Umm Al Quwain</option>
+              <option value="Ras Al Khaimah">Ras Al Khaimah</option>
+              <option value="Fujairah">Fujairah</option>
+              <option value="Al Ain">Al Ain</option>
+            </select>
+            <span class="error">Choose your emirate.</span>
+          </div>
+
+          <div class="field">
+            <label for="i-notes">Order notes <span style="font-weight:400;color:var(--ink-3)">(optional)</span></label>
+            <textarea id="i-notes" rows="2" placeholder="Preferred delivery time, gate code, invoice name for a company order…"></textarea>
+          </div>
+        </div>
+
+        <div class="panel">
+          <h2>Payment method</h2>
+          <p class="panel-sub">Online card payment is not connected yet — those options are shown but disabled until the gateway is live.</p>
+          <div class="pay-options" id="payment-options"></div>
+          <div class="note" style="margin-top:16px">
+            Pressing the button below opens WhatsApp with your complete order. We reply with stock confirmation,
+            the final delivery slot and — for bank transfer — our account details.
+          </div>
+          <button class="btn btn-whatsapp btn-block" type="button" id="place-order" style="margin-top:18px">Place order on WhatsApp</button>
+        </div>
+      </div>
+
+      <div>
+        <div class="panel summary" id="order-summary"></div>
+      </div>
+
+    </div>
+  </div>
+</main>
+
+<div id="site-footer"></div>
+
+<script src="assets/js/config.js"></script>
+<script src="assets/js/products.js"></script>
+<script src="assets/js/app.js"></script>
+<script src="assets/js/pages.js"></script>
+<script>Pages.checkout();</script>
+</body>
+</html>
