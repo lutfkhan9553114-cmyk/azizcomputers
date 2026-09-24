@@ -273,3 +273,4 @@ tags, semantic HTML, alt text, `ElectronicsStore` structured data on every page 
 - Total JavaScript is roughly 60 KB unminified with no dependencies; images are lazy
   loaded; fonts load from Google Fonts with system fallbacks.
 - Everything is served as static files, so any CDN caches it for free.
+ 
