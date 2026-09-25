@@ -42,9 +42,9 @@ const storeConfig = {
 
   /* ---- 3. OPENING HOURS ------------------------------------------------ */
   hours: [
-    { day: 'Saturday – Thursday', time: '9:30 AM – 9:30 PM' },
-    { day: 'Friday', time: '2:00 PM – 9:30 PM' },
-    { day: 'Public holidays', time: 'Call to confirm' }
+    { day: 'Saturday – Thursday', time: '10:00 AM – 06:00 PM' },
+    { day: 'Friday', time: '10:00 AM – 06:00 PM' },
+    { day: 'Public holidays', time: 'Sunday Off }
   ],
 
   /* ---- 4. SOCIAL LINKS (leave '' to hide the icon) --------------------- */
