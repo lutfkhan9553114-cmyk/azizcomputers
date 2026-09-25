@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>About Us | Aziz Uthman Electronics</title>
+<meta name="description" content="Aziz Uthman Computers & Requisites Trading Co. L.L.C. — computer hardware supplier in Bur Dubai serving homes, offices and trade customers.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400;6..96,500;6..96,600&family=IBM+Plex+Mono:wght@500&family=Public+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<script>
+/* Sets the theme before the page paints, so there is no flash of the wrong
+   colours. The full logic lives in assets/js/app.js. */
+(function () {
+  try {
+    var t = localStorage.getItem('aziz.theme');
+    if (t !== 'light' && t !== 'dark') {
+      t = (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) ? 'dark' : 'light';
+    }
+    document.documentElement.setAttribute('data-theme', t);
+  } catch (e) { document.documentElement.setAttribute('data-theme', 'light'); }
+})();
+</script>
+<link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+<div id="site-header"></div>
+
+<main>
+  <div class="page-head">
+    <div class="wrap">
+      <h1>About us</h1>
+      <p>Replace this page with your own story — the structure below is ready for it.</p>
+    </div>
+  </div>
+
+  <div class="wrap">
+    <div class="prose">
+      <p>Aziz Uthman Computers &amp; Requisites Trading Co. L.L.C. supplies computer hardware, components and
+      accessories from our shop in Bur Dubai. We serve walk-in customers, home builders, small offices and
+      trade buyers who need parts in hand quickly rather than a two-week import wait.</p>
+
+      <p>The business is built on a simple idea: if it is listed, it is on the shelf. Stock levels on this site
+      reflect what is physically in the shop, so when you order, you are ordering something we can put in a
+      driver's hands the same day.</p>
+
+      <h2>What we do</h2>
+      <ul>
+        <li>Retail and trade supply of components, laptops, monitors and peripherals</li>
+        <li>Custom PC builds assembled, cable-managed and stress-tested in-house</li>
+        <li>Upgrades, diagnostics and warranty handling for machines bought from us</li>
+        <li>Bulk quotations with tax invoice for offices and institutions across the UAE</li>
+      </ul>
+
+      <h2>How we work</h2>
+      <div class="value-grid">
+        <div class="value-card">
+          <h3>Honest stock</h3>
+          <p>We would rather tell you an item is three days away than take an order we cannot fill today.</p>
+        </div>
+        <div class="value-card">
+          <h3>Warranty you can walk into</h3>
+          <p>A shop address means a warranty claim is a conversation, not a support ticket.</p>
+        </div>
+        <div class="value-card">
+          <h3>Advice before the sale</h3>
+          <p>Tell us the budget and the workload. We will say when the cheaper part is the right one.</p>
+        </div>
+      </div>
+
+      <h2>Trade and corporate</h2>
+      <p>We supply offices, schools and IT contractors with workstations, monitors and networking equipment,
+      delivered with a proper tax invoice. Send your requirement list and we will quote line by line.</p>
+
+      <p style="margin-top:28px;display:flex;gap:10px;flex-wrap:wrap" id="about-contact"></p>
+    </div>
+  </div>
+</main>
+
+<div id="site-footer"></div>
+
+<script src="assets/js/config.js"></script>
+<script src="assets/js/products.js"></script>
+<script src="assets/js/app.js"></script>
+<script src="assets/js/pages.js"></script>
+<script>Pages.about();</script>
+</body>
+</html>
