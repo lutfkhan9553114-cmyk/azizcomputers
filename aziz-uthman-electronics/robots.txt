@@ -1,5 +1,0 @@
-User-agent: *
-Allow: /
-Disallow: /checkout.html
-
-Sitemap: https://www.azizcomputers.com/sitemap.xml
