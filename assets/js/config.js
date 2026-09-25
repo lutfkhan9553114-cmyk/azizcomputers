@@ -44,7 +44,7 @@ const storeConfig = {
   hours: [
     { day: 'Saturday – Thursday', time: '10:00 AM – 06:00 PM' },
     { day: 'Friday', time: '10:00 AM – 06:00 PM' },
-    { day: 'Public holidays', time: 'Sunday Off }
+    { day: 'Public holidays', time: 'Sunday Off' }
   ],
 
   /* ---- 4. SOCIAL LINKS (leave '' to hide the icon) --------------------- */
