@@ -11,7 +11,7 @@ const storeConfig = {
   /* ---- 1. BUSINESS IDENTITY ------------------------------------------- */
   businessName: 'Aziz Computers',
   legalName: 'Aziz Computers & Requisites Trading Co. L.L.C.',
-  tagline: 'COMPUTERS & REQUISITES · DUBAI',
+  tagline: 'AND REQUISITES TRADING CO · DUBAI',
   shortDescription:
     'Computer hardware, components and accessories supplied to homes, offices and trade customers across the UAE.',
 
