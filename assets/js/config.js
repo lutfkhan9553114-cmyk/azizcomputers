@@ -11,7 +11,7 @@ const storeConfig = {
   /* ---- 1. BUSINESS IDENTITY ------------------------------------------- */
   businessName: 'Aziz Computers',
   legalName: 'Aziz Computers & Requisites Trading Co. L.L.C.',
-  tagline: 'AND REQUISITES TRADING CO · DUBAI',
+  tagline: ' AND REQUISITES TRADING CO · DUBAI ',
   shortDescription:
     'Computer hardware, components and accessories supplied to homes, offices and trade customers across the UAE.',
 
@@ -44,7 +44,7 @@ const storeConfig = {
   hours: [
     { day: 'Saturday – Thursday', time: '10:00 AM – 06:00 PM' },
     { day: 'Friday', time: '10:00 AM – 06:00 PM' },
-    { day: 'Public holidays', time: 'Sunday Off' }
+    { day: 'Public holidays & Sunday', time: 'Closed' }
   ],
 
   /* ---- 4. SOCIAL LINKS (leave '' to hide the icon) --------------------- */
