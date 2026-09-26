@@ -186,7 +186,11 @@ const categories = [
 /* ==========================================================================
    BRANDS — used by the shop filters and the homepage brand strip.
    ========================================================================== */
-const BRANDS = [
+// Plain string array for product filtering logic
+const BRANDS = ['HP', 'Lenovo', 'Acer', 'Dell', 'Asus', 'MSI', 'NVIDIA', 'Microsoft', 'Apple', 'Samsung'];
+
+// Dedicated logo array for the homepage brand strip
+const BRAND_LOGOS = [
   { name: 'HP', logo: 'assets/images/Brands/hp.svg' },
   { name: 'Lenovo', logo: 'assets/images/Brands/lenovo.svg' },
   { name: 'Acer', logo: 'assets/images/Brands/acer.svg' },

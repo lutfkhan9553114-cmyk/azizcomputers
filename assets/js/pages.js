@@ -80,18 +80,11 @@ var Pages = (function () {
         '<a class="btn btn-gold btn-sm" href="' + esc(b.href) + '">' + esc(b.cta) + '</a></div></div>';
     }).join(''));
 
-   /* brands */
-set('#brand-strip', BRANDS.map(function (b) {
-  var brandName = typeof b === 'object' ? b.name : b;
-  var brandLogo = typeof b === 'object' ? b.logo : null;
-
-  if (brandLogo) {
-    return '<a class="brand-pill" href="shop.html?brand=' + encodeURIComponent(brandName) + '">' +
-      '<img src="' + esc(brandLogo) + '" alt="' + esc(brandName) + '">' +
-    '</a>';
-  }
-
-  return '<a class="brand-pill" href="shop.html?brand=' + encodeURIComponent(brandName) + '">' + esc(brandName) + '</a>';
+  /* brands */
+set('#brand-strip', BRAND_LOGOS.map(function (b) {
+  return '<a class="brand-pill" href="shop.html?brand=' + encodeURIComponent(b.name) + '">' +
+    '<img src="' + esc(b.logo) + '" alt="' + esc(b.name) + '">' +
+  '</a>';
 }).join(''));
 
     /* store info block */
