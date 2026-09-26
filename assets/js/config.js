@@ -187,4 +187,7 @@ const categories = [
    BRANDS — used by the shop filters and the homepage brand strip.
    ========================================================================== */
 // Plain string array for product filtering logic
-const BRANDS = ['HP', 'Lenovo', 'Acer', 'Dell', 'Asus', 'MSI', 'NVIDIA', 'Microsoft', 'Apple', 'Samsung'];
+const brands = [
+  'HP', 'Lenovo', 'Acer', 'Dell', 'Asus', 'MSI', 'NIVIDIA',
+   'Microsoft', 'Apple', 'Samsung',
+];
