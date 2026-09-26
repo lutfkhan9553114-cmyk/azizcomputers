@@ -81,9 +81,11 @@ var Pages = (function () {
     }).join(''));
 
     /* brands */
-    set('#brand-strip', brands.map(function (b) {
-      return '<a class="brand-pill" href="shop.html?brand=' + encodeURIComponent(b) + '">' + esc(b) + '</a>';
-    }).join(''));
+set('#brand-strip', BRANDS.map(function (b) {
+  return '<a class="brand-pill" href="shop.html?brand=' + encodeURIComponent(b.name) + '">' +
+    '<img src="' + esc(b.logo) + '" alt="' + esc(b.name) + '" style="max-height: 24px; width: auto;">' +
+  '</a>';
+}).join(''));
 
     /* store info block */
     var a = storeConfig.address;

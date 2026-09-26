@@ -978,3 +978,10 @@ p{margin:0;}
   margin:14px 18px;border-color:var(--line);color:var(--ink);
   padding:10px 14px;font-size:13px;
 }
+.brand-pill img,
+.brand-badge img {
+  max-height: 24px;
+  width: auto;
+  object-fit: contain;
+  filter: brightness(0) invert(1);
+}
