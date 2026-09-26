@@ -666,22 +666,4 @@ const products = [
     newProduct: false,
     tags: ['cooling', 'aio', 'liquid cooler']
   }
-  {
-  id: 'hp-001',                     // must be unique
-  name: 'Hp EliteBook Ultra G1q8 AI Laptop',
-  slug: 'Hp EliteBook Ultra',         // must be unique, lowercase, dashes only
-  brand: 'HP',                   // must exist in the brands list in config.js
-  category: 'laptops',        // must match a category slug in config.js
-  price: 5469,                       // normal price in AED, VAT included
-  salePrice: 4669,                   // discounted price, or null for no discount
-  images: ['assets/images/products/HP_EliteBook_Ultra_G1q_AI_PC_14.webp'],
-  shortDescription: 'HP EliteBook Ultra G1q 14 inch Touch Notebook Next Gen AI PC',
-  description: 'Hp EliteBook Ultra G1q8 AI Laptop, Snapdragon X Plus X1P-42-100 Processor, 16 GB RAM, 512 GB SSD, 14" 2.2K Display, Windows 11 Pro, English Backlit Keyboard, 1 Year Warranty | 9M4E6AT',
-  specifications: { 'Memory': '16GB , 512GB ', 'Warranty': '1 years' },
-  stock: 5,                          // 0 shows "Out of stock" and blocks adding to cart
-  sku: 'Hp Elitebook 9M4E6AT',
-  featured: true,                    // shows on the homepage
-  newProduct: true,                 // adds the "New" badge
-  tags: ['laptop', 'elitebook']            // extra search keywords
-},
 ];
