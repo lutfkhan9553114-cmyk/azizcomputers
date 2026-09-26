@@ -124,7 +124,9 @@ set('#brand-strip', BRAND_LOGOS.map(function (b) {
     var cat = A.param('category');
     if (cat) { shopState.categories = [cat]; }
     var br = A.param('brand');
-    if (br) { shopState.brands = [br]; }
+   if (br) {
+  shopState.brands = [br.toLowerCase()];
+}
     shopState.q = A.param('q') || '';
     shopState.deals = A.param('deals') === '1';
     shopState.newOnly = A.param('new') === '1';
@@ -164,12 +166,16 @@ set('#brand-strip', BRAND_LOGOS.map(function (b) {
         '<span>' + esc(c.name) + '</span><span class="n">' + n + '</span></label>';
     }).join('');
 
-    var brandList = brands.map(function (b) {
-      var n = C.all().filter(function (p) { return p.brand === b; }).length;
-      return '<label class="filter-opt"><input type="checkbox" data-filter="brand" value="' + esc(b) + '"' +
-        (shopState.brands.indexOf(b) !== -1 ? ' checked' : '') + '>' +
-        '<span>' + esc(b) + '</span><span class="n">' + n + '</span></label>';
-    }).join('');
+   var brandList = brands.map(function (b) {
+  var bName = typeof b === 'object' ? b.name : b;
+  var n = C.all().filter(function (p) { 
+    var pBrand = typeof p.brand === 'object' ? p.brand.name : p.brand;
+    return pBrand === bName; 
+  }).length;
+  return '<label class="filter-opt"><input type="checkbox" data-filter="brand" value="' + esc(bName) + '"' +
+    (shopState.brands.indexOf(bName) !== -1 ? ' checked' : '') + '>' +
+    '<span>' + esc(bName) + '</span><span class="n">' + n + '</span></label>';
+}).join('');
 
     host.innerHTML =
       '<div class="filter-group"><h3>CATEGORY</h3><div class="filter-list">' + catList + '</div></div>' +
