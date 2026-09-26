@@ -186,7 +186,15 @@ const categories = [
 /* ==========================================================================
    BRANDS — used by the shop filters and the homepage brand strip.
    ========================================================================== */
-const brands = [
-  'HP', 'Lenovo', 'Acer', 'Dell', 'Asus', 'MSI', 'NIVIDIA',
-   'Microsoft', 'Apple', 'Samsung',
+const BRANDS = [
+  { name: 'HP', logo: 'assets/images/Brands/hp.svg' },
+  { name: 'Lenovo', logo: 'assets/images/Brands/lenovo.svg' },
+  { name: 'Acer', logo: 'assets/images/Brands/acer.svg' },
+  { name: 'Dell', logo: 'assets/images/Brands/dell.svg' },
+  { name: 'Asus', logo: 'assets/images/Brands/asus.svg' },
+  { name: 'MSI', logo: 'assets/images/Brands/msi.svg' },
+  { name: 'NVIDIA', logo: 'assets/images/Brands/nvidia.svg' },
+  { name: 'Microsoft', logo: 'assets/images/Brands/microsoft.svg' },
+  { name: 'Apple', logo: 'assets/images/Brands/apple.svg' },
+  { name: 'Samsung', logo: 'assets/images/Brands/samsung.svg' }
 ];
