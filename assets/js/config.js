@@ -71,10 +71,10 @@ const storeConfig = {
      "online: false" means it is handled manually (COD, bank transfer, etc.)
      "online: true" needs a payment gateway — see README section 8. */
   paymentMethods: [
-    { id: 'cod',      label: 'Cash on Delivery', note: 'Pay the driver in cash when your order arrives.', online: false, enabled: true },
-    { id: 'card_pos', label: 'Card on Delivery', note: 'Card machine available on delivery in Dubai and Sharjah.', online: false, enabled: true },
-    { id: 'transfer', label: 'Bank Transfer',    note: 'We send account details on WhatsApp after you place the order.', online: false, enabled: true },
-    { id: 'store',    label: 'Pay at the Shop',  note: 'Reserve online and pay when you collect from Bur Dubai.', online: false, enabled: true },
+    { id: 'cod',      label: 'Cash on Delivery', note: 'Pay the driver in cash when your order arrives.', online: true, enabled: true },
+    { id: 'card_pos', label: 'Card on Delivery', note: 'Card machine available on delivery in Dubai and Sharjah.', online: true, enabled: true },
+    { id: 'transfer', label: 'Bank Transfer',    note: 'We send account details on WhatsApp after you place the order.', online: true, enabled: true },
+    { id: 'store',    label: 'Pay at the Shop',  note: 'Reserve online and pay when you collect from Bur Dubai.', online: true, enabled: true },
     { id: 'card',     label: 'Card Online (Visa / Mastercard)', note: 'Coming soon — gateway not connected yet.', online: true, enabled: false },
     { id: 'tabby',    label: 'Tabby — 4 payments', note: 'Coming soon — gateway not connected yet.', online: true, enabled: false }
   ],
