@@ -154,37 +154,32 @@ const products = [
     tags: ['cpu', 'gaming', 'value']
   },
   {
-    id: 'lap-001',
-    name: 'Stratos Blade 15 Gaming Laptop — 16GB / 1TB',
-    slug: 'stratos-blade-15-gaming-laptop',
-    brand: 'Stratos',
-    category: 'laptops',
-    subcategory: 'Gaming Laptop',
-    price: 5499,
-    salePrice: 4999,
-    images: [
-      'https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=900&q=70',
-      'https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=900&q=70'
-    ],
-    shortDescription: '15.6" 165Hz display, 8-core CPU and a 8GB discrete GPU.',
+    id: 'aio-001',
+    name: 'Lenovo AIO A100 All-in-One Desktop PC – 23.8″ FHD IPS Display, Intel Core i3-N305, 16GB DDR4 RAM, 512GB SSD, Wi-Fi 6, Windows 11 Pro, Wireless Keyboard & Mouse - Cloud Grey',
+    slug: 'Lenovo AIO A100 All-in-One Desktop PC',
+    brand: 'Lenovo',
+    category: 'Computer',
+    subcategory: 'Desktop',
+    price: 2499,
+    salePrice: 2299,
+    images:['/assets/images/products/allinone.jpg'],
+    shortDescription: 'The Lenovo AIO A100 All-in-One Desktop PC. Featuring a sleek and modern Cloud Grey chassis, this compact yet capable system is perfect for home offices, classrooms, or daily productivity tasks.',
     description:
-      'A thin gaming and creator laptop with a 165Hz panel, per-key backlighting and two M.2 slots for later expansion. Comes with a 230W adapter and a 12-month regional warranty.',
+      'The Lenovo AIO A100 All-in-One Desktop PC. Featuring a sleek and modern Cloud Grey chassis, this compact yet capable system is perfect for home offices, classrooms, or daily productivity tasks. Powered by the Intel Core i3-N305 processor, and backed by 16GB DDR4 RAM and a fast 512GB SSD, the AIO A100 offers reliable multitasking, fast boot times, and smooth everyday computing. Its stunning 23.8" Full HD IPS display delivers vibrant visuals with wide viewing angles—ideal for work, streaming, and video calls. With Wi-Fi 6 for high-speed wireless connectivity, Windows 11 Pro for advanced productivity and security, and included wireless keyboard & mouse, this all-in-one PC is ready to go right out of the box. Whether you're working, learning, or browsing, the Lenovo A100 keeps things simple, stylish, and efficient',
     specifications: {
-      'Display': '15.6" QHD 165Hz, 100% sRGB',
-      'Processor': '8-core mobile CPU',
-      'Graphics': '8GB discrete GPU',
-      'Memory': '16GB DDR5 (2 slots, expandable to 64GB)',
-      'Storage': '1TB NVMe SSD (second M.2 slot free)',
-      'Ports': '2 × USB-C, 2 × USB-A, HDMI 2.1, RJ-45',
-      'Battery': '90Wh',
-      'Weight': '2.1 kg',
+      'Display': 'Display resolution	1920x1080',
+      'Processor': 'Processor model	Intel N305',
+      'Graphics': 'Intel Graphics',
+      'Memory': '16GB DDR4',
+      'Storage': '512GB NVMe SSD',
+      'Weight': '4.5 kg',
       'Warranty': '1 year'
     },
-    stock: 4,
-    sku: 'STR-LAP-B15',
+    stock: 20,
+    sku: 'AIO-A100-001',
     featured: true,
     newProduct: true,
-    tags: ['laptop', 'gaming', '165hz']
+    tags: ['All-in-one', 'Lenovo-Aio', '24inch all-in-1']
   },
   {
     id: 'lap-002',
