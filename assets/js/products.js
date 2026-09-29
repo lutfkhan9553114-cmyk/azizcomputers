@@ -156,22 +156,25 @@ const products = [
   {
     id: 'aio-001',
     name: 'Lenovo AIO A100 All-in-One Desktop PC – 23.8″ FHD IPS Display, Intel Core i3-N305, 16GB DDR4 RAM, 512GB SSD, Wi-Fi 6, Windows 11 Pro, Wireless Keyboard & Mouse - Cloud Grey',
-    slug: 'Lenovo AIO A100 All-in-One Desktop PC',
+    slug: 'lenovo-aio-a100-desktop-pc',
     brand: 'Lenovo',
-    category: 'Computer',
-    subcategory: 'Desktop',
+    category: 'desktops',
+    subcategory: 'All-in-One Desktop',
     price: 2499,
     salePrice: 2299,
-    images:['/assets/images/products/allinone.jpg'],
+    images: ['assets/images/products/allinone.jpg'],
     shortDescription: 'The Lenovo AIO A100 All-in-One Desktop PC. Featuring a sleek and modern Cloud Grey chassis, this compact yet capable system is perfect for home offices, classrooms, or daily productivity tasks.',
     description:
-      'The Lenovo AIO A100 All-in-One Desktop PC. Featuring a sleek and modern Cloud Grey chassis, this compact yet capable system is perfect for home offices, classrooms, or daily productivity tasks. Powered by the Intel Core i3-N305 processor, and backed by 16GB DDR4 RAM and a fast 512GB SSD, the AIO A100 offers reliable multitasking, fast boot times, and smooth everyday computing. Its stunning 23.8" Full HD IPS display delivers vibrant visuals with wide viewing angles—ideal for work, streaming, and video calls. With Wi-Fi 6 for high-speed wireless connectivity, Windows 11 Pro for advanced productivity and security, and included wireless keyboard & mouse, this all-in-one PC is ready to go right out of the box. Whether you're working, learning, or browsing, the Lenovo A100 keeps things simple, stylish, and efficient',
+      'The Lenovo AIO A100 All-in-One Desktop PC. Featuring a sleek and modern Cloud Grey chassis, this compact yet capable system is perfect for home offices, classrooms, or daily productivity tasks. Powered by the Intel Core i3-N305 processor, and backed by 16GB DDR4 RAM and a fast 512GB SSD, the AIO A100 offers reliable multitasking, fast boot times, and smooth everyday computing. Its stunning 23.8" Full HD IPS display delivers vibrant visuals with wide viewing angles—ideal for work, streaming, and video calls. With Wi-Fi 6 for high-speed wireless connectivity, Windows 11 Pro for advanced productivity and security, and included wireless keyboard & mouse, this all-in-one PC is ready to go right out of the box. Whether you\'re working, learning, or browsing, the Lenovo A100 keeps things simple, stylish, and efficient.',
     specifications: {
-      'Display': 'Display resolution	1920x1080',
-      'Processor': 'Processor model	Intel N305',
-      'Graphics': 'Intel Graphics',
+      'Display': '23.8" Full HD (1920×1080) IPS',
+      'Processor': 'Intel Core i3-N305',
+      'Graphics': 'Intel UHD Graphics',
       'Memory': '16GB DDR4',
       'Storage': '512GB NVMe SSD',
+      'Connectivity': 'Wi-Fi 6',
+      'Operating System': 'Windows 11 Pro',
+      'Included': 'Wireless keyboard & mouse',
       'Weight': '4.5 kg',
       'Warranty': '1 year'
     },
@@ -179,7 +182,7 @@ const products = [
     sku: 'AIO-A100-001',
     featured: true,
     newProduct: true,
-    tags: ['All-in-one', 'Lenovo-Aio', '24inch all-in-1']
+    tags: ['all-in-one', 'lenovo', 'desktop pc', '24 inch']
   },
   {
     id: 'lap-002',
