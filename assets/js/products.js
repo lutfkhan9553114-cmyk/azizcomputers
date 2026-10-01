@@ -663,7 +663,7 @@ const products = [
     featured: false,
     newProduct: false,
     tags: ['cooling', 'aio', 'liquid cooler']
-  }
+  },
  {
     id: 'lap-001',
     name: 'Lenovo Legion 5 15IRX10 Gaming Laptop, 15.3" WUXGA 165Hz IPS Display, Intel Core i7-13650HX, 16GB DDR5 RAM, 1TB SSD, NVIDIA GeForce RTX 5060 8GB GDDR7, White Backlit Keyboard, Eclipse Black',
