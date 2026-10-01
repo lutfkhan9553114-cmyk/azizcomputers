@@ -677,7 +677,7 @@ const products = [
 	'assets/images/products/legion-5.1.jpg'],
     shortDescription: 'Lenovo Legion 5 15IRX10 Gaming Laptop delivers powerful gaming and productivity performance with an Intel Core i7-13650HX processor featuring 14 cores, 20 threads, and up to 4.9GHz boost speed. Equipped with 16GB DDR5-4800 RAM and a fast 1TB PCIe 4.0 NVMe SSD, it provides smooth multitasking and fast storage performance.',
     description:
-      'Lenovo Legion 5 15IRX10 Gaming Laptop delivers powerful gaming and productivity performance with an Intel Core i7-13650HX processor featuring 14 cores, 20 threads, and up to 4.9GHz boost speed. Equipped with 16GB DDR5-4800 RAM and a fast 1TB PCIe 4.0 NVMe SSD, it provides smooth multitasking and fast storage performance. Experience next-generation graphics with NVIDIA GeForce RTX 5060 8GB GDDR7 GPU, featuring 115W TGP, 2497MHz Boost Clock, and 572 AI TOPS for enhanced gaming and AI-powered workloads. The 15.3" WUXGA IPS display offers 1920x1200 resolution, 165Hz refresh rate, 100% sRGB color accuracy, Dolby Vision, and anti-glare technology for immersive visuals. Designed for gamers and creators, this Eclipse Black laptop features a white backlit keyboard, 720p HD webcam with E-shutter, HARMAN speakers optimized with Nahimic Audio, Wi-Fi 6 connectivity, and a premium Legion cooling design..',
+      'Lenovo Legion 5 15IRX10 Gaming Laptop delivers powerful gaming and productivity performance with an Intel Core i7-13650HX processor featuring 14 cores, 20 threads, and up to 4.9GHz boost speed. Equipped with 16GB DDR5-4800 RAM and a fast 1TB PCIe 4.0 NVMe SSD, it provides smooth multitasking and fast storage performance. Experience next-generation graphics with NVIDIA GeForce RTX 5060 8GB GDDR7 GPU, featuring 115W TGP, 2497MHz Boost Clock, and 572 AI TOPS for enhanced gaming and AI-powered workloads. The 15.3" WUXGA IPS display offers 1920x1200 resolution, 165Hz refresh rate, 100% sRGB color accuracy, Dolby Vision, and anti-glare technology for immersive visuals. Designed for gamers and creators, this Eclipse Black laptop features a white backlit keyboard, 720p HD webcam with E-shutter, HARMAN speakers optimized with Nahimic Audio, Wi-Fi 6 connectivity, and a premium Legion cooling design.',
     specifications: {
       'Display': '15.3" WUXGA 165Hz IPS Display-1920x1200',
       'Processor': 'Intel Core i7-13650HX',
@@ -694,6 +694,6 @@ const products = [
     sku: 'LAP-LEG5-001',
     featured: true,
     newProduct: true,
-    tags: ['laptops', 'lenovo', 'notebook', 'gamming']
+    tags: ['laptops', 'lenovo', 'notebook', 'gaming']
   },
 ];
