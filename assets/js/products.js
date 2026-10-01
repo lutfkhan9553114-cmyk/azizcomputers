@@ -695,5 +695,5 @@ const products = [
     featured: true,
     newProduct: true,
     tags: ['laptops', 'lenovo', 'notebook', 'gaming']
-  },
+  }
 ];
