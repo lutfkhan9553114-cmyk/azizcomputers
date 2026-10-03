@@ -60,7 +60,7 @@
   --ease:cubic-bezier(.32,.72,.28,1);
 
   /* type */
-  --display:'Bodoni Moda', Georgia, 'Times New Roman', serif;
+  --display: 'Playfair Display', Georgia, serif;
   --sans:'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif;
   --mono:'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
 
