@@ -278,8 +278,8 @@ const categories = [
     image: 'https://images.unsplash.com/photo-1590658268037-6bf12165a8df?auto=format&fit=crop&w=500&q=70' },
   { slug: 'networking',     name: 'Networking',       group: 'Peripherals', icon: 'wifi',     featured: false,
     image: 'https://images.unsplash.com/photo-1606904825846-647eb07f5be2?auto=format&fit=crop&w=500&q=70' },
-  { slug: 'accessories',    name: 'Accessories',      group: 'Peripherals', icon: 'plug',     featured: true,
-    image: 'https://images.unsplash.com/photo-1625842268584-8f3296236761?auto=format&fit=crop&w=500&q=70' }
+  { slug: 'docking-station',    name: 'Docking Station',      group: 'Systems', icon: 'desktop',     featured: true,
+    image: 'assets/images/docking-station.jpg' }
 ];
 
 /* ==========================================================================
