@@ -153,11 +153,11 @@ const storeConfig = {
        cta     button text shown over the slide (optional)
        href    where the slide links to
      Delete any slide you don't want, or add more — no limit beyond 10 shown. */
-  heroCarouselInterval: 20000, // ms between automatic slide changes
+  heroCarouselInterval: 10000, // ms between automatic slide changes
   heroCarousel: [
     { type: 'image', kicker: 'THIS WEEK', title: 'Gaming laptops from AED 2,999', cta: 'Shop laptops',
       href: 'shop.html?category=laptops', alt: 'Gaming laptop deal',
-      src: 'https://images.unsplash.com/photo-1603302576837-37561b2e2302?auto=format&fit=crop&w=1600&q=70' },
+      src: 'assets/images/gaming-laptop-ad.jpg' },
     { type: 'image', kicker: 'DEAL OF THE WEEK', title: 'Up to 25% off graphics cards', cta: 'See the deals',
       href: 'shop.html?deals=1', alt: 'Graphics card discount',
       src: 'https://images.unsplash.com/photo-1591488320449-011701bb6704?auto=format&fit=crop&w=1600&q=70' },
