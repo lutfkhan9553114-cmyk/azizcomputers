@@ -607,7 +607,7 @@ const products = [
     name: 'Vertex 100W USB-C Docking Station, 11-in-1',
     slug: 'vertex-100w-usb-c-dock-11-in-1',
     brand: 'Vertex',
-    category: 'accessories',
+    category: 'docking-station',
     subcategory: 'Docking Station',
     price: 349,
     salePrice: 299,
@@ -631,7 +631,7 @@ const products = [
     sku: 'VTX-ACC-DK11',
     featured: true,
     newProduct: false,
-    tags: ['dock', 'usb-c', 'accessories', 'laptop']
+    tags: ['dock', 'usb-c', 'stations', 'laptop']
   },
   {
     id: 'cool-001',
