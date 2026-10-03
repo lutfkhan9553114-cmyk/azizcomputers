@@ -155,7 +155,7 @@ const storeConfig = {
      Delete any slide you don't want, or add more — no limit beyond 10 shown. */
   heroCarouselInterval: 10000, // ms between automatic slide changes
   heroCarousel: [
-    { type: 'image', kicker: 'THIS WEEK', title: 'Gaming laptops from AED 2,999', cta: 'Shop laptops',
+    { type: 'image', kicker: 'THIS WEEK', title: 'Gaming laptops Are Here', cta: 'Shop laptops',
       href: 'shop.html?category=laptops', alt: 'Gaming laptop deal',
       src: 'assets/images/gaming-laptop-ad.jpg' },
     { type: 'image', kicker: 'DEAL OF THE WEEK', title: 'Up to 25% off graphics cards', cta: 'See the deals',
