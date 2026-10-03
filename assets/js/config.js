@@ -155,7 +155,7 @@ const storeConfig = {
      Delete any slide you don't want, or add more — no limit beyond 10 shown. */
   heroCarouselInterval: 10000, // ms between automatic slide changes
   heroCarousel: [
-    { type: 'image', kicker: 'THIS WEEK', title: 'Gaming laptops from AED 2,999', cta: 'Shop laptops',
+    { type: 'image', kicker: 'THIS WEEK', title: 'Gaming laptops Are Here', cta: 'Shop laptops',
       href: 'shop.html?category=laptops', alt: 'Gaming laptop deal',
       src: 'assets/images/gaming-laptop-ad.jpg' },
     { type: 'image', kicker: 'DEAL OF THE WEEK', title: 'Up to 25% off graphics cards', cta: 'See the deals',
@@ -278,8 +278,8 @@ const categories = [
     image: 'https://images.unsplash.com/photo-1590658268037-6bf12165a8df?auto=format&fit=crop&w=500&q=70' },
   { slug: 'networking',     name: 'Networking',       group: 'Peripherals', icon: 'wifi',     featured: false,
     image: 'https://images.unsplash.com/photo-1606904825846-647eb07f5be2?auto=format&fit=crop&w=500&q=70' },
-  { slug: 'accessories',    name: 'Accessories',      group: 'Peripherals', icon: 'plug',     featured: true,
-    image: 'https://images.unsplash.com/photo-1625842268584-8f3296236761?auto=format&fit=crop&w=500&q=70' }
+  { slug: 'docking-station',    name: 'Docking Station',      group: 'Systems', icon: 'desktop',     featured: true,
+    image: 'assets/images/docking-station.jpg' }
 ];
 
 /* ==========================================================================
