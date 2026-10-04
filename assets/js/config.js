@@ -276,8 +276,8 @@ const categories = [
     image: 'https://images.unsplash.com/photo-1527814050087-3793815479db?auto=format&fit=crop&w=500&q=70' },
   { slug: 'towers',        name: 'Desktop CPUs',      group: 'Systems',    icon: 'case',     featured: false,
     image: 'https://images.unsplash.com/photo-1755182528946-1dad8a79f44d?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' },
-  { slug: 'networking',     name: 'Networking',       group: 'Peripherals', icon: 'wifi',     featured: false,
-    image: 'https://images.unsplash.com/photo-1606904825846-647eb07f5be2?auto=format&fit=crop&w=500&q=70' },
+  { slug: 'mobile-workstation', name: 'Mobile WorkStation', group: 'Systems', icon: 'laptops',  featured: false,
+    image: 'https://sm.pcmag.com/pcmag_uk/guide/t/the-best-m/the-best-mobile-workstations-for-2026_heft.jpg' },
   { slug: 'docking-station',    name: 'Docking Station',      group: 'Systems', icon: 'desktop',     featured: true,
     image: 'assets/images/docking-station.jpg' }
 ];
