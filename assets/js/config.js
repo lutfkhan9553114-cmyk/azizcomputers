@@ -27,9 +27,9 @@ const storeConfig = {
   email: 'info@azizcomputers.com',
 
   address: {
-    line1: 'Shop No 6 Al Mazroui Building',
-    line2: 'Near Sindhi Restaurant Souk Al Kabeer Bur',
-    city: 'Dubai',
+    line1: 'OFFICE 65, FLOOR 03, AL ASHRAM BUILDING',
+    line2: 'BEHIND YOUSAF BHAI PERFUMES, AL SOUQ AL KABEER, BUR DUBAI',
+    city: 'DUBAI',
     country: 'United Arab Emirates',
     poBox: 'P.O. Box 00000'
   },
