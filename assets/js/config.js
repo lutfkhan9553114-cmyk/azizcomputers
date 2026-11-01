@@ -37,8 +37,8 @@ const storeConfig = {
   /* Paste the "Embed a map" iframe SRC from Google Maps here.
      Google Maps -> Share -> Embed a map -> copy the src="..." value only. */
   googleMapsEmbed:
-    'https://www.google.com/maps?q=Computer%20Street%20Bur%20Dubai&output=embed',
-  googleMapsUrl: 'https://maps.google.com/?q=Computer+Street+Bur+Dubai',
+    'https://maps.app.goo.gl/5Bpn8HPvSHrXnfBn6',
+  googleMapsUrl: 'https://maps.app.goo.gl/5Bpn8HPvSHrXnfBn6',
 
   /* ---- 3. OPENING HOURS ------------------------------------------------ */
   hours: [
