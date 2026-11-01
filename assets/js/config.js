@@ -37,8 +37,8 @@ const storeConfig = {
   /* Paste the "Embed a map" iframe SRC from Google Maps here.
      Google Maps -> Share -> Embed a map -> copy the src="..." value only. */
   googleMapsEmbed:
-    'https://www.google.com/maps?q=Computer%20Street%20Bur%20Dubai&output=embed',
-  googleMapsUrl: 'https://maps.google.com/?q=Computer+Street+Bur+Dubai',
+    'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2851.874249270878!2d55.29045757415609!3d25.26041832913945!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f433e3043d3b9%3A0x4cd5f4f8c9b62167!2sAshram%20Building%20-%20Al%20Souq%20Al%20Kabeer%20-%20Al%20Fahidi%20-%20Dubai%20-%20United%20Arab%20Emirates!5e1!3m2!1sen!2s!4v1793542157016!5m2!1sen!2s',
+  googleMapsUrl: 'https://maps.app.goo.gl/5Bpn8HPvSHrXnfBn6',
 
   /* ---- 3. OPENING HOURS ------------------------------------------------ */
   hours: [
