@@ -4977,29 +4977,6 @@ const products = [
     tags: ['laptop', 'hp', 'amazon', 'ultrabook']
   },
   {
-    id: 'B0DN6NPJHH',
-    name: 'Pampers Rash Protection Culotte Pants Diapers Size 5, 12-18kg Box 210 Count',
-    slug: 'pampers-rash-protection-culotte-pants-diapers-size-5-12-18kg-box-210-count',
-    brand: 'Generic',
-    category: 'laptops',
-    subcategory: 'Ultrabook',
-    price: 245,
-    salePrice: 245,
-    images: ['https://m.media-amazon.com/images/I/81Hg5318nfL._AC_SL1500_.jpg'],
-    shortDescription: 'Pampers Rash Protection Culotte Pants Diapers Size 5, 12-18kg Box 210 Count',
-    description: 'Pampers Rash Protection Culotte Pants Diapers Size 5, 12-18kg Box 210 Count',
-    specifications: {
-      'SKU': 'B0DN6NPJHH',
-      'Category': 'Laptop',
-      'Brand': 'Generic'
-    },
-    stock: 10,
-    sku: 'B0DN6NPJHH',
-    featured: false,
-    newProduct: true,
-    tags: ['laptop', 'generic', 'amazon', 'ultrabook']
-  },
-  {
     id: 'B0FG39BZ93',
     name: 'Lenovo (Upgraded) ThinkPad E14 Gen 7 Business Laptop (14" WUXGA+ Anti-Glare, Intel Core Ultra 7 255H, 16 GB DDR5-5600, 512GB SSD, Backlit, Fingerprint, Win 11 Pro, Black',
     slug: 'lenovo-upgraded-thinkpad-e14-gen-7-business-laptop-14-wuxga-anti-glare-intel-core-ultra-7-255h-16-gb-ddr5-5600-512gb-ssd-backlit-fingerprint-win-11-pro-black',
