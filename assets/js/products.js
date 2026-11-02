@@ -7369,6 +7369,29 @@ const products = [
     tags: ['laptop', 'mobile-workstation', 'dell', 'aziz-computers']
   },
   {
+    id: 'AZIZ-MW-2026-002',
+    name: 'Asus ProArt P16 H7607BA SR142W 1',
+    slug: 'asus-proart-p16-h7607ba-sr142w-11',
+    brand: 'ASUS',
+    category: 'laptops',
+    subcategory: 'Mobile Workstation',
+    price: 786500,
+    salePrice: 747175,
+    images: ['https://www.alershadonline.com/cdn/shop/files/Asus-ProArt-P16-H7607BA-SR142W-1.jpg?v=1791472531&width=460'],
+    shortDescription: 'Asus ProArt P16 H7607BA SR142W 1 - High performance professional mobile workstation.',
+    description: 'Professional grade Asus ProArt P16 H7607BA SR142W 1 designed for intensive CAD, 3D rendering, simulation, and software development workloads.',
+    specifications: {
+      'Category': 'Mobile Workstation',
+      'Brand': 'ASUS',
+      'Source': 'Aziz Computers Catalog'
+    },
+    stock: 10,
+    sku: 'AZIZ-MW-2026-002',
+    featured: false,
+    newProduct: true,
+    tags: ['laptop', 'mobile-workstation', 'asus', 'aziz-computers']
+  },
+  {
     id: 'AZIZ-MW-2026-003',
     name: 'Dell Pro Max 18 Plus Workstation Laptop MB18250U9641NV AE 1',
     slug: 'dell-pro-max-18-plus-workstation-laptop-mb18250u9641nv-ae-1',
@@ -8220,6 +8243,29 @@ const products = [
     tags: ['laptop', 'mobile-workstation', 'hp', 'aziz-computers']
   },
   {
+    id: 'AZIZ-MW-2026-040',
+    name: 'Asus ProArt P14 H7407BA SM211W 1',
+    slug: 'asus-proart-p14-h7407ba-sm211w-12',
+    brand: 'ASUS',
+    category: 'laptops',
+    subcategory: 'Mobile Workstation',
+    price: 755500,
+    salePrice: 717725,
+    images: ['https://www.alershadonline.com/cdn/shop/files/Asus-ProArt-P14-H7407BA-SM211W-1.jpg?v=1791472552&width=460'],
+    shortDescription: 'Asus ProArt P14 H7407BA SM211W 1 - High performance professional mobile workstation.',
+    description: 'Professional grade Asus ProArt P14 H7407BA SM211W 1 designed for intensive CAD, 3D rendering, simulation, and software development workloads.',
+    specifications: {
+      'Category': 'Mobile Workstation',
+      'Brand': 'ASUS',
+      'Source': 'Aziz Computers Catalog'
+    },
+    stock: 10,
+    sku: 'AZIZ-MW-2026-040',
+    featured: false,
+    newProduct: true,
+    tags: ['laptop', 'mobile-workstation', 'asus', 'aziz-computers']
+  },
+  {
     id: 'AZIZ-MW-2026-041',
     name: 'B30L4ES 2',
     slug: 'b30l4es-2',
@@ -8951,6 +8997,29 @@ const products = [
     },
     stock: 10,
     sku: 'AZIZ-MW-2026-072',
+    featured: false,
+    newProduct: true,
+    tags: ['laptop', 'mobile-workstation', 'hp', 'aziz-computers']
+  },
+  {
+    id: 'AZIZ-MW-2026-073',
+    name: '8T0U7EA 2',
+    slug: '8t0u7ea-21',
+    brand: 'HP',
+    category: 'laptops',
+    subcategory: 'Mobile Workstation',
+    price: 840000,
+    salePrice: 798000,
+    images: ['https://www.alershadonline.com/cdn/shop/files/8T0U7EA-2-1757682181158.png?v=1770229284&width=460'],
+    shortDescription: '8T0U7EA 2 - High performance professional mobile workstation.',
+    description: 'Professional grade 8T0U7EA 2 designed for intensive CAD, 3D rendering, simulation, and software development workloads.',
+    specifications: {
+      'Category': 'Mobile Workstation',
+      'Brand': 'HP',
+      'Source': 'Aziz Computers Catalog'
+    },
+    stock: 10,
+    sku: 'AZIZ-MW-2026-073',
     featured: false,
     newProduct: true,
     tags: ['laptop', 'mobile-workstation', 'hp', 'aziz-computers']
