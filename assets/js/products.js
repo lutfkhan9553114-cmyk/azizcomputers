@@ -1421,7 +1421,7 @@ const products = [
     salePrice: 749,
     images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/HP-NVIDIA-RTX-A400-Graphics-Card-AV8J3AA-2_ffb9addf-1904-4822-ac65-673dfe7fdd25.webp?v=1772896426, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/HP-NVIDIA-RTX-A400-Graphics-Card-AV8J3AA-3_f6844403-0282-480d-8924-42aed8a0b4a2.webp?v=1772896426'],
     shortDescription: 'HP NVIDIA RTX A400 Graphics Card with Mini Bracket, 768 CUDA Cores, GDDR6 4GB 64-bit Memory, 4x Mini DisplayPort Outputs, PCI Express 4.0, 96 GB/s Memory Bandwidth, Single Slot Low-Profile Design, 1 Year Warranty | AV8J3AA',
-    description: '<ul>\n<li>NVIDIA RTX A400</li>\n<li>Memory: 4GB GDDR6</li>\n<li>CUDA Cores: 768</li>\n<li>Tensor Cores: 24 (3rd Generation)</li>\n<li>RT Cores: 6 (2nd Generation)</li>\n<li>AI Performance: 33.6 AI TOPS</li>\n<li>Single-Precision Performance: 2.7 TFLOPS</li>\n<li>Bus Standard: PCI Express 4.0 x4</li>\n<li>Memory Bandwidth: 96 GB/s</li>\n<li>Memory Interface: 64-bit</li>\n<li>Architecture: NVIDIA Ampere</li>\n<li>1 Year Warranty</li>\n</ul>',
+    description: '<ul>\n<li>NVIDIA RTX A400</li>\n<li>Memory: 4GB GDDR6</li>\n<li>CUDA Cores: 768</li>\n<li>Tensor Cores: 24 (3rd Generation)</li>\n<li>RT Cores: 6 (2nd Generation)</li>\n<li>AI Performance: 33.6 AI TOPS</li>\n<li>Single-Precision Performance: 2.7 TFLOPS</li>\n<li>Bus Standard: PCI Express 4.0 x4</li>\n<li>Memory Bandwidth: 96 GB/s</li>\n<li>Memory Interface: 64-bit</li>\n<li>Architecture: NVIDIA Ampere</li>\n<li>1 Year Warranty</li>\n</ul>',
     specifications: {
 
     },
@@ -1442,7 +1442,7 @@ const products = [
     salePrice: 2829,
     images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/8D6B8AA-1.png?v=1789034828, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/8D6B8AA-4.png?v=1789034828, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/8D6B8AA-5.png?v=1789034828, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/8D6B8AA-3.png?v=1789034828, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/8D6B8AA-2.png?v=1789034828'],
     shortDescription: 'HP Nvidia RTX 2000 Ada Workstation Graphics Card, GDDR6 16 GB 128-bit Memory, 4 x Mini DP 1.4a Outputs, PCI Express 4.0, 224  GB/s Memory Bandwidth, 1 Year Warranty | 8D6B8AA',
-    description: '<ul>\n<li>NVIDIA RTX 2000 Ada</li>\n<li>Memory: GDDR6 16 GB</li>\n<li>Memory Interface: 128-bit</li>\n<li>Boost Clock: N/A</li>\n<li>CUDA Cores: 2816</li>\n<li>Tensor Cores: 88 (4th Generation)</li>\n<li>RT Cores: 22 (3rd Generation)</li>\n<li>AI Performance: N/A</li>\n<li>Memory Bandwidth: 224  GB/s</li>\n</ul>',
+    description: '<ul>\n<li>NVIDIA RTX 2000 Ada</li>\n<li>Memory: GDDR6 16 GB</li>\n<li>Memory Interface: 128-bit</li>\n<li>Boost Clock: N/A</li>\n<li>CUDA Cores: 2816</li>\n<li>Tensor Cores: 88 (4th Generation)</li>\n<li>RT Cores: 22 (3rd Generation)</li>\n<li>AI Performance: N/A</li>\n<li>Memory Bandwidth: 224  GB/s</li>\n</ul>',
     specifications: {
 
     },
@@ -1463,7 +1463,7 @@ const products = [
     salePrice: 1999,
     images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Zotac-Twin-Edge-GeForce-RTX-5060-OC-Graphics-Card-ZT-B50600Q-10M-1_20e3796b-3233-483b-8b8b-587d2fdacf27.webp?v=1790594024, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Zotac-Twin-Edge-GeForce-RTX-5060-OC-Graphics-Card-ZT-B50600Q-10M-2_75324144-d0a2-421f-88dd-4f59f9ab82e1.webp?v=1790594024, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Zotac-Twin-Edge-GeForce-RTX-5060-OC-Graphics-Card-ZT-B50600Q-10M-3_16fe0f00-1f54-4d0f-9993-353ce650a232.webp?v=1790594024, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Zotac-Twin-Edge-GeForce-RTX-5060-OC-Graphics-Card-ZT-B50600Q-10M-4_fc9e9184-65d4-44e0-9b98-4351934ed5bc.webp?v=1790594024, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Zotac-Twin-Edge-GeForce-RTX-5060-OC-Graphics-Card-ZT-B50600Q-10M-5_8d4597e2-5d40-472f-b04b-d3470daf3813.webp?v=1790594024, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Zotac-Twin-Edge-GeForce-RTX-5060-OC-Graphics-Card-ZT-B50600Q-10M-6_d66dd3c3-968d-4887-afa4-8212d43b3445.webp?v=1790594024'],
     shortDescription: 'Zotac Twin Edge GeForce RTX 5060 OC Graphics Card, GDDR7 8GB 128-bit Memory, DisplayPort, HDMI Outputs, PCI Express 5.0, IceStorm Cooling System, White , 1 Year Warranty | ZT-B50600Q-10M',
-    description: '<ul>\n<li>Graphics Engine: NVIDIA GeForce RTX 5060</li>\n<li>Engine Clock: 2527 MHz</li>\n<li>Video Memory: 8GB GDDR7</li>\n<li>AI Performance: 614 AI TOPs</li>\n<li>CUDA Cores: 3840</li>\n<li>Memory Speed: 28 Gbps</li>\n<li>Memory Interface: 128-bit</li>\n<li>Bus Standard: PCIe 5.0</li>\n</ul>',
+    description: '<ul>\n<li>Graphics Engine: NVIDIA GeForce RTX 5060</li>\n<li>Engine Clock: 2527 MHz</li>\n<li>Video Memory: 8GB GDDR7</li>\n<li>AI Performance: 614 AI TOPs</li>\n<li>CUDA Cores: 3840</li>\n<li>Memory Speed: 28 Gbps</li>\n<li>Memory Interface: 128-bit</li>\n<li>Bus Standard: PCIe 5.0</li>\n</ul>',
     specifications: {
 
     },
@@ -1484,7 +1484,7 @@ const products = [
     salePrice: 1939,
     images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Zotac-Gaming-RTX-5060-Twin-Edge-Plus-ZT-B50600E2-10M-1_2cb0d1bb-be67-4ae1-ba75-af365244c1c4.webp?v=1789992601, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Zotac-Gaming-RTX-5060-Twin-Edge-Plus-ZT-B50600E2-10M-2_573c0de3-072f-4239-a23d-f8493a2097b9.webp?v=1789992601, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Zotac-Gaming-RTX-5060-Twin-Edge-Plus-ZT-B50600E2-10M-3_2f83445e-7324-4635-b637-8b3ae74b7583.webp?v=1789992601, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Zotac-Gaming-RTX-5060-Twin-Edge-Plus-ZT-B50600E2-10M-4_54d63b81-02d2-4b11-88e3-692a4279b383.webp?v=1789992601, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Zotac-Gaming-RTX-5060-Twin-Edge-Plus-ZT-B50600E2-10M-5_df3f717f-c10b-4113-bd68-edae375ccb29.webp?v=1789992601, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Zotac-Gaming-RTX-5060-Twin-Edge-Plus-ZT-B50600E2-10M-6_a637f5f7-42c6-4ea6-8047-84535b35266e.webp?v=1789992601'],
     shortDescription: 'Zotac Gaming GeForce RTX 5060 Twin Edge Plus Graphics Card, GDDR7 8GB 128-bit Memory, HDMI & DP Outputs, PCI Express 5.0, 2497 MHz Engine Clock, 28 Gbps Memory Clock, 1 Year Warranty | ZT-B50600E2-10M',
-    description: '<ul>\n<li>Graphics Engine: NVIDIA GeForce RTX 5060</li>\n<li>Engine Clock: 2497 MHz</li>\n<li>Video Memory: 8GB GDDR7</li>\n<li>AI Performance: 614 AI TOPS</li>\n<li>CUDA Cores: 3840</li>\n<li>Memory Speed: 28 Gbps</li>\n<li>Memory Interface: 128-bit</li>\n<li>Bus Standard: PCIe 5.0</li>\n</ul>',
+    description: '<ul>\n<li>Graphics Engine: NVIDIA GeForce RTX 5060</li>\n<li>Engine Clock: 2497 MHz</li>\n<li>Video Memory: 8GB GDDR7</li>\n<li>AI Performance: 614 AI TOPS</li>\n<li>CUDA Cores: 3840</li>\n<li>Memory Speed: 28 Gbps</li>\n<li>Memory Interface: 128-bit</li>\n<li>Bus Standard: PCIe 5.0</li>\n</ul>',
     specifications: {
 
     },
@@ -1505,7 +1505,7 @@ const products = [
     salePrice: 2009,
     images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Zotac-Gaming-RTX-5060-Twin-Edge-ZT-B50600E-10M-1_dec5b32d-1324-4b20-a90b-95d16f9e3c16.webp?v=1789992593, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Zotac-Gaming-RTX-5060-Twin-Edge-ZT-B50600E-10M-2_84937bc7-183b-4ae4-9005-c4acd9c215be.webp?v=1789992593, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Zotac-Gaming-RTX-5060-Twin-Edge-ZT-B50600E-10M-3_990771fc-7ff9-4b9f-b461-cca5c63ff909.webp?v=1789992593, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Zotac-Gaming-RTX-5060-Twin-Edge-ZT-B50600E-10M-4_81242646-4f4a-4b26-ab84-618b326011b0.webp?v=1789992593, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Zotac-Gaming-RTX-5060-Twin-Edge-ZT-B50600E-10M-5_7090b434-71c9-4619-a170-bb2012ed2dd5.webp?v=1789992593, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Zotac-Gaming-RTX-5060-Twin-Edge-ZT-B50600E-10M-6_e6bcef6d-6fbe-4d67-938d-45c9373b68f0.webp?v=1789992594'],
     shortDescription: 'Zotac Gaming GeForce RTX 5060 Twin Edge Graphics Card, GDDR7 8GB 128-bit Memory, HDMI & DP Outputs, PCI Express 5.0, 2497 MHz Engine Clock, 28 Gbps Memory Clock, 1 Year Warranty | ZT-B50600E-10M',
-    description: '<ul>\n<li>Graphics Engine: NVIDIA GeForce RTX 5060</li>\n<li>Engine Clock: 2497 MHz</li>\n<li>Video Memory: 8GB GDDR7</li>\n<li>AI Performance: 614 AI TOPS</li>\n<li>CUDA Cores: 3840</li>\n<li>Memory Speed: 28 Gbps</li>\n<li>Memory Interface: 128-bit</li>\n<li>Bus Standard: PCIe 5.0</li>\n</ul>',
+    description: '<ul>\n<li>Graphics Engine: NVIDIA GeForce RTX 5060</li>\n<li>Engine Clock: 2497 MHz</li>\n<li>Video Memory: 8GB GDDR7</li>\n<li>AI Performance: 614 AI TOPS</li>\n<li>CUDA Cores: 3840</li>\n<li>Memory Speed: 28 Gbps</li>\n<li>Memory Interface: 128-bit</li>\n<li>Bus Standard: PCIe 5.0</li>\n</ul>',
     specifications: {
 
     },
@@ -1526,7 +1526,7 @@ const products = [
     salePrice: 2009,
     images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/ZT-B50600H-10M-2-1752340107783.png?v=1770247990, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/ZT-B50600H-10M-1_d398524c-1c71-4669-a2be-b0f70b1b95e1.webp?v=1793360662, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/ZT-B50600H-10M-2_ddaac862-84df-4d39-b3e8-18ff3ecf5078.webp?v=1793360662, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/ZT-B50600H-10M-3_aa424213-f567-408d-82f0-1ff5b9ade6e3.webp?v=1793360662, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/ZT-B50600H-10M-4_408beac0-a8fa-47d5-95f9-3979a78bef37.webp?v=1793360662, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/ZT-B50600H-10M-5_598444ed-6306-4ce7-9767-2b0253c51167.webp?v=1793360662, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/ZT-B50600H-10M-6_0c22eb4c-1f68-4a69-94c3-073f2a1690d8.webp?v=1793360662'],
     shortDescription: 'Zotac Gaming GeForce RTX 5060 Twin Edge OC Edition Graphics Card, GDDR7 8 GB 128-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2527 MHz Boost Clock, 28  GBps Memory Clock, 1 Year Warranty | ZT-B50600H-10M',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5060</li>\n<li>Memory: GDDR7 8 GB</li>\n<li>Memory Interface: 128-bit</li>\n<li>Boost Clock: Up to 2527 MHz</li>\n<li>CUDA Cores: 3840</li>\n<li>AI Performance: N/A</li>\n<li>Memory Speed: 28  GBps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Power Connectors: 1 x 8-pin</li>\n</ul>',
+    description: '<ul>\n<li>NVIDIA GeForce RTX 5060</li>\n<li>Memory: GDDR7 8 GB</li>\n<li>Memory Interface: 128-bit</li>\n<li>Boost Clock: Up to 2527 MHz</li>\n<li>CUDA Cores: 3840</li>\n<li>AI Performance: N/A</li>\n<li>Memory Speed: 28  GBps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Power Connectors: 1 x 8-pin</li>\n</ul>',
     specifications: {
 
     },
@@ -1547,7 +1547,7 @@ const products = [
     salePrice: 2009,
     images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5060-GV-N5060EAGLEMAX-OC-8-2.webp?v=1772595642, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5060-GV-N5060EAGLEMAX-OC-8-3.webp?v=1772595642, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5060-GV-N5060EAGLEMAX-OC-8-1.webp?v=1772595642, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5060-GV-N5060EAGLEMAX-OC-8-4.webp?v=1772029096, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5060-GV-N5060EAGLEMAX-OC-8-5.webp?v=1772029095, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5060-GV-N5060EAGLEMAX-OC-8-6.webp?v=1772029095'],
     shortDescription: 'Gigabyte EAGLE MAX OC GeForce RTX 5060 Graphics Card, GDDR7 8GB 128-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2550 MHz Core Clock, 28 Gbps Memory Clock, TrIple Windforce Hawk Fans, 1 Year Warranty | GV-N5060EAGLEMAX-OC-8',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5060</li>\n<li>Memory: GDDR7 8GB</li>\n<li>Engine Clock: 2550 MHz</li>\n<li>CUDA Core: 3840</li>\n<li>AI Performance: 614 TOPs</li>\n<li>Memory Speed: 28 Gbps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 128-bit</li>\n<li>Power Connectors: 1 x 8-pin</li>\n<li>1 Year Warranty</li>\n</ul>',
+    description: '<ul>\n<li>NVIDIA GeForce RTX 5060</li>\n<li>Memory: GDDR7 8GB</li>\n<li>Engine Clock: 2550 MHz</li>\n<li>CUDA Core: 3840</li>\n<li>AI Performance: 614 TOPs</li>\n<li>Memory Speed: 28 Gbps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 128-bit</li>\n<li>Power Connectors: 1 x 8-pin</li>\n<li>1 Year Warranty</li>\n</ul>',
     specifications: {
 
     },
@@ -1568,7 +1568,7 @@ const products = [
     salePrice: 1969,
     images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5060-GV-N5060WF2MAX-OC-8GD-2.webp?v=1772595600, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5060-GV-N5060WF2MAX-OC-8GD-3.webp?v=1772595600, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5060-GV-N5060WF2MAX-OC-8GD-1.webp?v=1772595600, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5060-GV-N5060WF2MAX-OC-8GD-4.webp?v=1772595600, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5060-GV-N5060WF2MAX-OC-8GD-6.webp?v=1772029095, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5060-GV-N5060WF2MAX-OC-8GD-5.webp?v=1772029095'],
     shortDescription: 'Gigabyte WINDFORCE MAX OC GeForce RTX 5060 Graphics Card, GDDR7 8GB 128-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2512 MHz Core Clock, 28 Gbps Memory Clock, Dual Windforce Hawk Fans, 1 Year Warranty | GV-N5060WF2MAX-OC-8GD',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5060</li>\n<li>Memory: GDDR7 8GB</li>\n<li>Engine Clock: 2512 MHz</li>\n<li>CUDA Core: 3840</li>\n<li>AI Performance: 614 TOPs</li>\n<li>Memory Speed: 28 Gbps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 128-bit</li>\n<li>Power Connectors: 1 x 8-pin</li>\n<li>1 Year Warranty</li>\n</ul>',
+    description: '<ul>\n<li>NVIDIA GeForce RTX 5060</li>\n<li>Memory: GDDR7 8GB</li>\n<li>Engine Clock: 2512 MHz</li>\n<li>CUDA Core: 3840</li>\n<li>AI Performance: 614 TOPs</li>\n<li>Memory Speed: 28 Gbps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 128-bit</li>\n<li>Power Connectors: 1 x 8-pin</li>\n<li>1 Year Warranty</li>\n</ul>',
     specifications: {
 
     },
@@ -1589,7 +1589,7 @@ const products = [
     salePrice: 6039,
     images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5070Ti-GV-N507TGAMING-OC-16-1-1762424162975_d877e264-0021-4d59-a486-b4dd3434ed93.webp?v=1773247447, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5070Ti-GV-N507TGAMING-OC-16-2-1762424163008.webp?v=1773247447, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5070Ti-GV-N507TGAMING-OC-16-3-1762424163008.webp?v=1773247447, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5070Ti-GV-N507TGAMING-OC-16-4-1762424163012.webp?v=1773247447, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5070Ti-GV-N507TGAMING-OC-16-5-1762424163012.webp?v=1773247447, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5070Ti-GV-N507TGAMING-OC-16-6-1762424163013.webp?v=1773247447'],
     shortDescription: 'Gigabyte GAMING OC GeForce RTX 5070 Ti Graphics Card, GDDR7 16GB 256-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2588 MHz Core Clock, 28 Gbps Memory Clock, Triple Windforce Hawk Fans, RGB Halo, Dual BIOS, 1 Year Warranty |',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5070 Ti</li>\n<li>Memory: GDDR7 16GB</li>\n<li>Engine Clock: 2588 MHz</li>\n<li>CUDA Core: 8960</li>\n<li>AI Performance: 1406 TOPS</li>\n<li>Memory Speed: 28 Gbps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 256-bit</li>\n<li>Power Connectors: 1 x 16-pin</li>\n<li>1 Year Warranty</li>\n</ul>',
+    description: '<ul>\n<li>NVIDIA GeForce RTX 5070 Ti</li>\n<li>Memory: GDDR7 16GB</li>\n<li>Engine Clock: 2588 MHz</li>\n<li>CUDA Core: 8960</li>\n<li>AI Performance: 1406 TOPS</li>\n<li>Memory Speed: 28 Gbps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 256-bit</li>\n<li>Power Connectors: 1 x 16-pin</li>\n<li>1 Year Warranty</li>\n</ul>',
     specifications: {
 
     },
@@ -1610,7 +1610,7 @@ const products = [
     salePrice: 1979,
     images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5060-GV-N5060WF2-OC-8GD-1.webp?v=1778333485, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5060-GV-N5060WF2-OC-8GD-2.webp?v=1778333484, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5060-GV-N5060WF2-OC-8GD-3.webp?v=1778333484, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5060-GV-N5060WF2-OC-8GD-4.webp?v=1778333484, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5060-GV-N5060WF2-OC-8GD-5.webp?v=1778333485, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5060-GV-N5060WF2-OC-8GD-6.webp?v=1778333484'],
     shortDescription: 'Gigabyte WINDFORCE OC GeForce RTX 5060 Graphics Card, GDDR7 8GB 128-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2512 MHz Core Clock, 28 Gbps Memory Clock, 1 Year Warranty | GV-N5060WF2-OC-8GD',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5060</li>\n<li>Memory: GDDR7 8GB</li>\n<li>Engine Clock: 2512 MHz</li>\n<li>CUDA Core: 3840</li>\n<li>AI Performance: 614 TOPs</li>\n<li>Memory Speed: 28 Gbps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 128-bit</li>\n<li>Power Connectors: 1 x 8-pin</li>\n<li>1 Year Warranty</li>\n</ul>',
+    description: '<ul>\n<li>NVIDIA GeForce RTX 5060</li>\n<li>Memory: GDDR7 8GB</li>\n<li>Engine Clock: 2512 MHz</li>\n<li>CUDA Core: 3840</li>\n<li>AI Performance: 614 TOPs</li>\n<li>Memory Speed: 28 Gbps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 128-bit</li>\n<li>Power Connectors: 1 x 8-pin</li>\n<li>1 Year Warranty</li>\n</ul>',
     specifications: {
 
     },
@@ -1631,7 +1631,7 @@ const products = [
     salePrice: 3729,
     images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5070-GV-N5070EAGLE-OC-ICE-1-1762424162566_23af2fcb-df33-4e34-a07a-ccf4754fc8fd.webp?v=1773247449, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5070-GV-N5070EAGLE-OC-ICE-2-1762424162566.webp?v=1773247448, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5070-GV-N5070EAGLE-OC-ICE-3-1762424162605.webp?v=1773247448, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5070-GV-N5070EAGLE-OC-ICE-4-1762424162640.webp?v=1773247448, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5070-GV-N5070EAGLE-OC-ICE-5-1762424162641.webp?v=1773247449, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5070-GV-N5070EAGLE-OC-ICE-6-1762424162642.webp?v=1773247448'],
     shortDescription: 'Gigabyte EAGLE OC ICE GeForce RTX 5070 Small Form Factor Graphics Card, GDDR7 12GB 192-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2587 MHz Core Clock, 28 Gbps Memory Clock, Triple Windforce Hawk Fans, White, 1 Year Warranty |',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5070</li>\n<li>Memory: GDDR7 12GB</li>\n<li>Engine Clock: 2587 MHz</li>\n<li>CUDA Core: 6144</li>\n<li>AI Performance: 988 TOPS</li>\n<li>Memory Speed: 28 Gbps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 192-bit</li>\n<li>Power Connectors: 1 x 16-pin</li>\n<li>1 Year Warranty</li>\n</ul>',
+    description: '<ul>\n<li>NVIDIA GeForce RTX 5070</li>\n<li>Memory: GDDR7 12GB</li>\n<li>Engine Clock: 2587 MHz</li>\n<li>CUDA Core: 6144</li>\n<li>AI Performance: 988 TOPS</li>\n<li>Memory Speed: 28 Gbps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 192-bit</li>\n<li>Power Connectors: 1 x 16-pin</li>\n<li>1 Year Warranty</li>\n</ul>',
     specifications: {
 
     },
@@ -1652,7 +1652,7 @@ const products = [
     salePrice: 2179,
     images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Msi-RTX-5060-Ti-VENTUS-2X-OC-PLUS-Graphics-Card-912-V536-023-2-1766568185915.webp?v=1770248387, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Msi-RTX-5060-Ti-VENTUS-2X-OC-PLUS-Graphics-Card-912-V536-023-1_5d312082-eb1f-47d8-b53f-6d4c32a063b9.webp?v=1793360659, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Msi-RTX-5060-Ti-VENTUS-2X-OC-PLUS-Graphics-Card-912-V536-023-2_046a02be-e492-4b5c-8e0c-25ca6266a300.webp?v=1793360659, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Msi-RTX-5060-Ti-VENTUS-2X-OC-PLUS-Graphics-Card-912-V536-023-3_d095bbee-09d9-4a8f-80cc-b83f711f4e22.webp?v=1793360659, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Msi-RTX-5060-Ti-VENTUS-2X-OC-PLUS-Graphics-Card-912-V536-023-4_670b38c4-817d-4dff-9196-ea7c62af8898.webp?v=1793360659, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Msi-RTX-5060-Ti-VENTUS-2X-OC-PLUS-Graphics-Card-912-V536-023-5_36772dc9-3411-4613-ac31-7a99722174b3.webp?v=1793360659'],
     shortDescription: 'Msi GeForce RTX 5060 Ti VENTUS 2X OC PLUS Graphics Card, GDDR7 8GB 128-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2617 MHz OC Boost Clock, 28 Gbps Memory Clock, Dual Stormforce Fans, 1 Year Warranty | 912-V536-023',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5060 Ti</li>\n<li>Memory: GDDR7 8GB</li>\n<li>Memory Interface: 128-bit</li>\n<li>Extreme Performance: 2617 MHz (MSI Center)</li>\n<li>Engine Clock Boost: 2602 MHz</li>\n<li>CUDA Core: 4608</li>\n<li>Memory Speed: 28 Gbps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Power Connectors: 1 x 8-pin</li>\n<li>1 Year Warranty</li>\n</ul>',
+    description: '<ul>\n<li>NVIDIA GeForce RTX 5060 Ti</li>\n<li>Memory: GDDR7 8GB</li>\n<li>Memory Interface: 128-bit</li>\n<li>Extreme Performance: 2617 MHz (MSI Center)</li>\n<li>Engine Clock Boost: 2602 MHz</li>\n<li>CUDA Core: 4608</li>\n<li>Memory Speed: 28 Gbps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Power Connectors: 1 x 8-pin</li>\n<li>1 Year Warranty</li>\n</ul>',
     specifications: {
 
     },
@@ -1673,7 +1673,7 @@ const products = [
     salePrice: 4019,
     images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-RTX-5070-EAGLE-OC-GV-N5070EAGLE-OC-12GD-1_480eb18e-ad5f-44a8-b21f-744c22476df7.webp?v=1789992593, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-RTX-5070-EAGLE-OC-GV-N5070EAGLE-OC-12GD-2_519ae75d-284c-4045-8502-eb152151761a.webp?v=1789992593, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-RTX-5070-EAGLE-OC-GV-N5070EAGLE-OC-12GD-3_703448c3-cdec-49c3-ad98-e98f3dbd26eb.webp?v=1789992593, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-RTX-5070-EAGLE-OC-GV-N5070EAGLE-OC-12GD-4_6b6552ae-c603-402c-bf51-beb4ca75f355.webp?v=1789992593, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-RTX-5070-EAGLE-OC-GV-N5070EAGLE-OC-12GD-5_1d1d2b96-4526-440e-af52-224a139d7b12.webp?v=1789992593, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-RTX-5070-EAGLE-OC-GV-N5070EAGLE-OC-12GD-6_f0a2233a-e863-45bc-959d-4251297fefbe.webp?v=1789992593'],
     shortDescription: 'Gigabyte GeForce RTX 5070 EAGLE OC SFF Graphics Card, GDDR7 12GB 192-bit Memory, HDMI & DP Outputs, PCI Express 5.0, 2587 MHz Engine Clock, 28 Gbps Memory Clock, 1 Year Warranty | GV-N5070EAGLE-OC-12GD',
-    description: '<ul>\n<li>Graphics Engine: NVIDIA GeForce RTX 5070</li>\n<li>Engine Clock: 2587 MHz</li>\n<li>Video Memory: 12GB GDDR7</li>\n<li>AI Performance: 1406 AI TOPS</li>\n<li>CUDA Cores: 6144</li>\n<li>Memory Speed: 28 Gbps</li>\n<li>Memory Interface: 192-bit</li>\n<li>Bus Standard: PCIe 5.0</li>\n</ul>',
+    description: '<ul>\n<li>Graphics Engine: NVIDIA GeForce RTX 5070</li>\n<li>Engine Clock: 2587 MHz</li>\n<li>Video Memory: 12GB GDDR7</li>\n<li>AI Performance: 1406 AI TOPS</li>\n<li>CUDA Cores: 6144</li>\n<li>Memory Speed: 28 Gbps</li>\n<li>Memory Interface: 192-bit</li>\n<li>Bus Standard: PCIe 5.0</li>\n</ul>',
     specifications: {
 
     },
@@ -1694,7 +1694,7 @@ const products = [
     salePrice: 3799,
     images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/MSI-RTX-5070-Warcraft-Edition-OC-Graphics-Card-912-V532-255-1_10392f04-f21c-4585-9519-2c55255ef62a.webp?v=1790594032, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/MSI-RTX-5070-Warcraft-Edition-OC-Graphics-Card-912-V532-255-2_a2b05bdc-77df-4b9a-bd3f-b3847ae1da11.webp?v=1790594033, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/MSI-RTX-5070-Warcraft-Edition-OC-Graphics-Card-912-V532-255-3_45f9509a-6292-42ea-a282-ddd7d4f30674.webp?v=1790594032, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/MSI-RTX-5070-Warcraft-Edition-OC-Graphics-Card-912-V532-255-4_6824c30e-b165-4680-813d-074e1de27fdd.webp?v=1790594032, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/MSI-RTX-5070-Warcraft-Edition-OC-Graphics-Card-912-V532-255-5_99801bf3-78d1-40be-bc70-4c72b126e195.webp?v=1790594032, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/MSI-RTX-5070-Warcraft-Edition-OC-Graphics-Card-912-V532-255-6_a0cfee79-523b-44fa-af7a-e48db4178f56.webp?v=1790594032'],
     shortDescription: 'MSI GeForce RTX 5070 World of Warcraft Midnight Edition OC Graphics Card, GDDR7 12GB 192-bit Memory, DisplayPort, HDMI Outputs, PCI Express 5.0, 1 Year Warranty | 912-V532-255',
-    description: '<ul>\n<li>Graphics Engine: NVIDIA GeForce RTX 5070</li>\n<li>Engine Clock: 2625 MHz</li>\n<li>Video Memory: 12GB GDDR7</li>\n<li>AI Performance: 1406 AI TOPS</li>\n<li>CUDA Cores: 6144</li>\n<li>Memory Speed: 28 Gbps</li>\n<li>Memory Interface: 192-bit</li>\n<li>Bus Standard: PCIe 5.0</li>\n</ul>',
+    description: '<ul>\n<li>Graphics Engine: NVIDIA GeForce RTX 5070</li>\n<li>Engine Clock: 2625 MHz</li>\n<li>Video Memory: 12GB GDDR7</li>\n<li>AI Performance: 1406 AI TOPS</li>\n<li>CUDA Cores: 6144</li>\n<li>Memory Speed: 28 Gbps</li>\n<li>Memory Interface: 192-bit</li>\n<li>Bus Standard: PCIe 5.0</li>\n</ul>',
     specifications: {
 
     },
@@ -1715,7 +1715,7 @@ const products = [
     salePrice: 2119,
     images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/ZT-B50610H-10M-2-1752340108162.png?v=1770248056, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/ZT-B50610H-10M-1_2a186b54-0a46-4c51-87e5-33883a0c2d0d.webp?v=1793360661, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/ZT-B50610H-10M-2_7da75aa0-c818-4b32-a900-e6b35770bc37.webp?v=1793360661, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/ZT-B50610H-10M-3_2cfb6686-8604-4dc5-80ab-018cdc652e4d.webp?v=1793360661, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/ZT-B50610H-10M-4_68fb2482-1d0f-4eae-997f-0d2a14ed515e.webp?v=1793360661, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/ZT-B50610H-10M-5_ad3ceb25-0934-47e0-bee0-67d11dd150d1.webp?v=1793360661, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/ZT-B50610H-10M-6_f1ee331b-d9b2-4892-8cbc-100894c784db.webp?v=1793360661'],
     shortDescription: 'Zotac Gaming GeForce RTX 5060 Ti Twin Edge OC Edition Graphics Card, GDDR7 8 GB 128-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2602 MHz Boost Clock, 28  GBps Memory Clock, 1 Year Warranty | ZT-B50610H-10M',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5060 Ti</li>\n<li>Memory: GDDR7 8 GB</li>\n<li>Memory Interface: 128-bit</li>\n<li>Boost Clock: Up to 2602 MHz</li>\n<li>CUDA Cores: 4608</li>\n<li>AI Performance: N/A</li>\n<li>Memory Speed: 28  GBps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Power Connectors: 1 x 8-pin</li>\n</ul>',
+    description: '<ul>\n<li>NVIDIA GeForce RTX 5060 Ti</li>\n<li>Memory: GDDR7 8 GB</li>\n<li>Memory Interface: 128-bit</li>\n<li>Boost Clock: Up to 2602 MHz</li>\n<li>CUDA Cores: 4608</li>\n<li>AI Performance: N/A</li>\n<li>Memory Speed: 28  GBps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Power Connectors: 1 x 8-pin</li>\n</ul>',
     specifications: {
 
     },
@@ -1736,7 +1736,7 @@ const products = [
     salePrice: 3259,
     images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/PNY-NVIDIA-RTX-PRO-2000-Blackwell-Workstation-Graphics-Card-VCNRTXPRO2000-SB-2_1b02f624-54bc-4ab2-b4dc-ad64f9c71c78.webp?v=1772896414, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/PNY-NVIDIA-RTX-PRO-2000-Blackwell-Workstation-Graphics-Card-VCNRTXPRO2000-SB-3_7b60553b-253c-4e91-b060-2ef614659482.webp?v=1772896414, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/PNY-NVIDIA-RTX-PRO-2000-Blackwell-Workstation-Graphics-Card-VCNRTXPRO2000-SB-4_2e40b05f-8d62-40c4-89af-13ba31dd2b64.webp?v=1772896414'],
     shortDescription: 'PNY NVIDIA RTX PRO 2000 Blackwell Workstation Graphics Card, 4352 CUDA Cores, GDDR7 16GB 128-bit Memory, 4x Mini DisplayPort 2.1 Outputs, PCI Express 5.0, 288 GB/s Memory Bandwidth, Single Slot Blower Cooling System, 1 Year Warranty | VCNRTXPRO2000-SB',
-    description: '<ul>\n<li>NVIDIA RTX PRO 2000 Blackwell</li>\n<li>Memory: 16GB GDDR7 with ECC</li>\n<li>CUDA Cores: 4352</li>\n<li>Tensor Cores: 136 (5th Generation)</li>\n<li>RT Cores: 34 (4th Generation)</li>\n<li>AI Performance: 545 AI TOPS</li>\n<li>Single-Precision Performance: 17 TFLOPS</li>\n<li>Bus Standard: PCI Express 5.0 x8</li>\n<li>Memory Bandwidth: 288 GB/s</li>\n<li>Memory Interface: 128-bit</li>\n<li>Architecture: NVIDIA Blackwell</li>\n<li>1 Year Warranty</li>\n</ul>',
+    description: '<ul>\n<li>NVIDIA RTX PRO 2000 Blackwell</li>\n<li>Memory: 16GB GDDR7 with ECC</li>\n<li>CUDA Cores: 4352</li>\n<li>Tensor Cores: 136 (5th Generation)</li>\n<li>RT Cores: 34 (4th Generation)</li>\n<li>AI Performance: 545 AI TOPS</li>\n<li>Single-Precision Performance: 17 TFLOPS</li>\n<li>Bus Standard: PCI Express 5.0 x8</li>\n<li>Memory Bandwidth: 288 GB/s</li>\n<li>Memory Interface: 128-bit</li>\n<li>Architecture: NVIDIA Blackwell</li>\n<li>1 Year Warranty</li>\n</ul>',
     specifications: {
 
     },
@@ -1757,7 +1757,7 @@ const products = [
     salePrice: 3789,
     images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-4070Ti-Super-GV-N407TSGAMING-OC-1-1-1762526146399_102a426a-0eb9-4fcf-a699-8440bc9d174d.webp?v=1773247450, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-4070Ti-Super-GV-N407TSGAMING-OC-1-2-1762526146435.webp?v=1773247450, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-4070Ti-Super-GV-N407TSGAMING-OC-1-3-1762526146442.webp?v=1773247450, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-4070Ti-Super-GV-N407TSGAMING-OC-1-4-1762526146445.webp?v=1773247450, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-4070Ti-Super-GV-N407TSGAMING-OC-1-5-1762526146445.webp?v=1773247450, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-4070Ti-Super-GV-N407TSGAMING-OC-1-6-1762526146461.webp?v=1773247450'],
     shortDescription: 'Gigabyte GAMING OC GeForce RTX 4070 Ti Super Graphics Card, GDDR6X 16GB 256-bit Memory, HDMI 2.1a & DP 1.4a Outputs, PCI Express 4.0, 2655 MHz Core Clock, 21 Gbps Memory Clock, RGB Fusion, Dual BIOS, Triple Fan Windforce Cooling System, 1 Year Warranty',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 4070 Ti Super</li>\n<li>Memory: GDDR6X 16GB</li>\n<li>Engine Clock: 2655 MHz</li>\n<li>CUDA Core: 8448</li>\n<li>AI Performance: 706 TOPS</li>\n<li>Memory Speed: 21 Gbps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 256-bit</li>\n<li>Power Connectors: 1 x 16-pin</li>\n<li>1 Year Warranty</li>\n</ul>',
+    description: '<ul>\n<li>NVIDIA GeForce RTX 4070 Ti Super</li>\n<li>Memory: GDDR6X 16GB</li>\n<li>Engine Clock: 2655 MHz</li>\n<li>CUDA Core: 8448</li>\n<li>AI Performance: 706 TOPS</li>\n<li>Memory Speed: 21 Gbps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 256-bit</li>\n<li>Power Connectors: 1 x 16-pin</li>\n<li>1 Year Warranty</li>\n</ul>',
     specifications: {
 
     },
@@ -1778,7 +1778,7 @@ const products = [
     salePrice: 33829,
     images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0LW0-M0NA00-2-1746384957232.png?v=1770246484, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0LW0-M0NA00-1_fd6d184a-396b-4e74-a3f5-dd627867079b.webp?v=1793360596, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0LW0-M0NA00-2_9e87feca-b23e-4abf-97d3-70e5e8501c9c.webp?v=1793360597, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0LW0-M0NA00-3_30eeaa84-30d6-43b1-b4c1-d5613f4d1d00.webp?v=1793360597, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0LW0-M0NA00-4_bab29ca6-849e-48e8-a534-8a8bf7c96ec8.webp?v=1793360597, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0LW0-M0NA00-5_20f06221-3987-4a82-a5fb-488e46b1bf81.webp?v=1793360596, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0LW0-M0NA00-6_fa97baef-1f0f-4bfb-ae1d-4042a97fcd39.webp?v=1793360597, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0LW0-M0NA00-7_31168197-0381-4b89-b40a-19f7957ba220.webp?v=1793360597'],
     shortDescription: 'ASUS ROG Astral GeForce RTX 5090 32 GB GDDR7 OC Edition Graphic Card | 90YV0LW0-M0NA00',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5090</li>\n<li>32 GB GDDR7</li>\n<li>Memory Speed: 28  GBps</li>\n<li>Engine Clock: 2610 MHz</li>\n<li>CUDA Cores: 21760</li>\n<li>Memory Interface: 512-bit</li>\n</ul>',
+    description: '<ul>\n<li>NVIDIA GeForce RTX 5090</li>\n<li>32 GB GDDR7</li>\n<li>Memory Speed: 28  GBps</li>\n<li>Engine Clock: 2610 MHz</li>\n<li>CUDA Cores: 21760</li>\n<li>Memory Interface: 512-bit</li>\n</ul>',
     specifications: {
 
     },
@@ -1799,7 +1799,7 @@ const products = [
     salePrice: 2229,
     images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/MSI-GeForce-RTX-5060Ti-912-V536-024-001-2-1762264115831.webp?v=1770247201'],
     shortDescription: 'Msi GeForce RTX 5060 Ti VENTUS 2X OC PLUS Graphics Card, GDDR7 8GB 128-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2617 MHz OC Boost Clock, 28 Gbps Memory Clock, 1 Year Warranty | 912-V536-024-001',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5060 Ti</li>\n<li>Memory: GDDR7 8GB</li>\n<li>Memory Interface: 128-bit</li>\n<li>Extreme Performance: 2617 MHz (MSI Center)</li>\n<li>Engine Clock Boost: 2602 MHz</li>\n<li>CUDA Core: 4608</li>\n<li>Memory Speed: 28 Gbps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Power Connectors: 1 x 8-pin</li>\n<li>1 Year Warranty</li>\n</ul>',
+    description: '<ul>\n<li>NVIDIA GeForce RTX 5060 Ti</li>\n<li>Memory: GDDR7 8GB</li>\n<li>Memory Interface: 128-bit</li>\n<li>Extreme Performance: 2617 MHz (MSI Center)</li>\n<li>Engine Clock Boost: 2602 MHz</li>\n<li>CUDA Core: 4608</li>\n<li>Memory Speed: 28 Gbps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Power Connectors: 1 x 8-pin</li>\n<li>1 Year Warranty</li>\n</ul>',
     specifications: {
 
     },
@@ -1820,7 +1820,7 @@ const products = [
     salePrice: 3999,
     images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-Radeon-RX-9070-XT-OC-Graphics-Card-GV-R907XGAMING-OC-ICE-1_c6db8cb0-e800-46df-b954-9bc819286a4c.webp?v=1790594032, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-Radeon-RX-9070-XT-OC-Graphics-Card-GV-R907XGAMING-OC-ICE-2_636d331f-30d4-4959-9bae-bdc3a7eb7fd6.webp?v=1790594032, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-Radeon-RX-9070-XT-OC-Graphics-Card-GV-R907XGAMING-OC-ICE-3_50b63f2c-185a-40c9-8b28-c55c05f3f7e0.webp?v=1790594032, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-Radeon-RX-9070-XT-OC-Graphics-Card-GV-R907XGAMING-OC-ICE-4_03699d0d-47d8-47b4-9c67-d295f79d2ea7.webp?v=1790594033, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-Radeon-RX-9070-XT-OC-Graphics-Card-GV-R907XGAMING-OC-ICE-5_a1673a7b-133b-4240-8e07-6b5f4c36a05d.webp?v=1790594032, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-Radeon-RX-9070-XT-OC-Graphics-Card-GV-R907XGAMING-OC-ICE-6_838fd8e2-a732-4c19-b22e-349d2d38866f.webp?v=1790594032'],
     shortDescription: 'Gigabyte Radeon RX 9070 XT Gaming OC Ice Graphics Card, GDDR6 16GB 256-bit Memory, DisplayPort, HDMI Outputs, PCI Express 5.0, WINDFORCE Cooling System, White, 1 Year Warranty | GV-R907XGAMING-OC-ICE',
-    description: '<ul>\n<li>Graphics Engine: AMD Radeon RX 9070 XT</li>\n<li>Engine Clock: Up to 3060 MHz Boost</li>\n<li>Video Memory: 16GB GDDR6</li>\n<li>Stream Processors: 4096</li>\n<li>Memory Speed: 20 Gbps</li>\n<li>Memory Interface: 256-bit</li>\n<li>Bus Standard: PCIe 5.0</li>\n</ul>',
+    description: '<ul>\n<li>Graphics Engine: AMD Radeon RX 9070 XT</li>\n<li>Engine Clock: Up to 3060 MHz Boost</li>\n<li>Video Memory: 16GB GDDR6</li>\n<li>Stream Processors: 4096</li>\n<li>Memory Speed: 20 Gbps</li>\n<li>Memory Interface: 256-bit</li>\n<li>Bus Standard: PCIe 5.0</li>\n</ul>',
     specifications: {
 
     },
@@ -1841,7 +1841,7 @@ const products = [
     salePrice: 1979,
     images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-RTX-5060-Eagle-OC-Graphics-Card-GV-N5060EAGLE-OC-8GD-1_0b5a17ca-2760-425d-9fc5-93a04b07e347.webp?v=1790594031, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-RTX-5060-Eagle-OC-Graphics-Card-GV-N5060EAGLE-OC-8GD-2_4549e09e-b7c4-41d6-b69d-ef5fd14bd855.webp?v=1790594030, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-RTX-5060-Eagle-OC-Graphics-Card-GV-N5060EAGLE-OC-8GD-3_260bb4cf-ee5d-4d41-b659-627b285a4120.webp?v=1790594030, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-RTX-5060-Eagle-OC-Graphics-Card-GV-N5060EAGLE-OC-8GD-4_332eb67a-96e0-457f-9fab-340e0f00b11d.webp?v=1790594030, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-RTX-5060-Eagle-OC-Graphics-Card-GV-N5060EAGLE-OC-8GD-5_6ca17fa9-0032-4f31-b28f-0ef86cb69e71.webp?v=1790594030, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-RTX-5060-Eagle-OC-Graphics-Card-GV-N5060EAGLE-OC-8GD-6_2281e39c-e8be-47be-a583-2092623868f9.webp?v=1790594030'],
     shortDescription: 'Gigabyte GeForce RTX 5060 Eagle OC Graphics Card, GDDR7 8GB 128-bit Memory, DisplayPort, HDMI Outputs, PCI Express 5.0, WINDFORCE Cooling System, 1 Year Warranty | GV-N5060EAGLE-OC-8GD',
-    description: '<ul>\n<li>Graphics Engine: NVIDIA GeForce RTX 5060</li>\n<li>Engine Clock: 2550 MHz</li>\n<li>Video Memory: 8GB GDDR7</li>\n<li>AI Performance: 614 AI TOPS</li>\n<li>CUDA Cores: 3840</li>\n<li>Memory Speed: 28 Gbps</li>\n<li>Memory Interface: 128-bit</li>\n<li>Bus Standard: PCIe 5.0</li>\n</ul>',
+    description: '<ul>\n<li>Graphics Engine: NVIDIA GeForce RTX 5060</li>\n<li>Engine Clock: 2550 MHz</li>\n<li>Video Memory: 8GB GDDR7</li>\n<li>AI Performance: 614 AI TOPS</li>\n<li>CUDA Cores: 3840</li>\n<li>Memory Speed: 28 Gbps</li>\n<li>Memory Interface: 128-bit</li>\n<li>Bus Standard: PCIe 5.0</li>\n</ul>',
     specifications: {
 
     },
@@ -1862,7 +1862,7 @@ const products = [
     salePrice: 7599,
     images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/MSI-RTX-5080-Ventus-3X-OC-Graphics-Card-912-V531-658-1_8875f9fc-6d9b-4c80-9230-a88d1ab3249b.webp?v=1790594024, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/MSI-RTX-5080-Ventus-3X-OC-Graphics-Card-912-V531-658-2_16d0077c-3280-4747-b1b6-fcfdec376624.webp?v=1790594023, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/MSI-RTX-5080-Ventus-3X-OC-Graphics-Card-912-V531-658-3_a501ee05-2481-4703-ba04-95503e6425d9.webp?v=1790594023, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/MSI-RTX-5080-Ventus-3X-OC-Graphics-Card-912-V531-658-4_1b4e8fb5-464f-449b-a34f-2e51ac4d7f8c.webp?v=1790594023, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/MSI-RTX-5080-Ventus-3X-OC-Graphics-Card-912-V531-658-5_b5f19b1c-7cce-4a88-ba67-a77a9200c7fe.webp?v=1790594023, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/MSI-RTX-5080-Ventus-3X-OC-Graphics-Card-912-V531-658-6_f07559c0-1a47-4ee9-9c5c-2f1adb15f48d.webp?v=1790594023'],
     shortDescription: 'MSI GeForce RTX 5080 Ventus 3X OC Graphics Card, GDDR7 16GB 256-bit Memory, DisplayPort, HDMI Outputs, PCI Express 5.0, Torx Fan Cooling System, 1 Year Warranty | 912-V531-658',
-    description: '<ul>\n<li>Graphics Engine: NVIDIA GeForce RTX 5080</li>\n<li>Engine Clock: 2655 MHz</li>\n<li>Video Memory: 16GB GDDR7</li>\n<li>AI Performance: 1801 TOPs</li>\n<li>CUDA Cores: 10,752</li>\n<li>Memory Speed: 30 Gbps</li>\n<li>Memory Interface: 256-bit</li>\n<li>Bus Standard: PCIe 5.0</li>\n</ul>',
+    description: '<ul>\n<li>Graphics Engine: NVIDIA GeForce RTX 5080</li>\n<li>Engine Clock: 2655 MHz</li>\n<li>Video Memory: 16GB GDDR7</li>\n<li>AI Performance: 1801 TOPs</li>\n<li>CUDA Cores: 10,752</li>\n<li>Memory Speed: 30 Gbps</li>\n<li>Memory Interface: 256-bit</li>\n<li>Bus Standard: PCIe 5.0</li>\n</ul>',
     specifications: {
 
     },
@@ -1883,7 +1883,7 @@ const products = [
     salePrice: 5259,
     images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-AORUS-GeForce-RTX-5070-Ti-MASTER-16G-Graphics-Card-GV-N507TAORUS-M-16GD-1_bde80631-d84f-463e-89c6-a9368e45f3c2.webp?v=1789992601, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-AORUS-GeForce-RTX-5070-Ti-MASTER-16G-Graphics-Card-GV-N507TAORUS-M-16GD-2_0fe44113-2c07-4284-8441-fe6aaa5db66e.webp?v=1789992601, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-AORUS-GeForce-RTX-5070-Ti-MASTER-16G-Graphics-Card-GV-N507TAORUS-M-16GD-3_e0aa7d14-2770-4dc7-98c7-9d93a22e55a8.webp?v=1789992600, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-AORUS-GeForce-RTX-5070-Ti-MASTER-16G-Graphics-Card-GV-N507TAORUS-M-16GD-4_06066c16-659e-48ec-a64a-4503a0daca8b.webp?v=1789992601, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-AORUS-GeForce-RTX-5070-Ti-MASTER-16G-Graphics-Card-GV-N507TAORUS-M-16GD-5_e7fd3085-693b-4ee5-ac27-a0f77fa05a54.webp?v=1789992601, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-AORUS-GeForce-RTX-5070-Ti-MASTER-16G-Graphics-Card-GV-N507TAORUS-M-16GD-6_7e3d342c-84ef-47b6-9bf1-0d40e593372b.webp?v=1789992600'],
     shortDescription: 'Gigabyte AORUS GeForce RTX 5070 Ti MASTER 16G Graphics Card, 16GB GDDR7, 256-bit Memory, HDMI 2.1b & DP 2.1b, PCI Express 5.0, 2670 MHz Core Clock, 28 Gbps, 1 Year Warranty | GV-N507TAORUS-M-16GD',
-    description: '<ul>\n <li>NVIDIA® GeForce RTX 5070 Ti</li>\n <li>Memory: 16GB GDDR7</li>\n <li>Memory Bus: 256-bit</li>\n <li>Core Clock: 2670 MHz</li>\n <li>CUDA Cores: 8960 Units</li>\n <li>Memory Speed: 28 Gbps</li>\n <li>Digital Max Resolution: 7680 x 4320</li>\n <li>Power Connectors: 16-pin (12V-2x6) x 1</li>\n <li>1 Year Warranty</li>\n </ul>',
+    description: '<ul>\n <li>NVIDIA® GeForce RTX 5070 Ti</li>\n <li>Memory: 16GB GDDR7</li>\n <li>Memory Bus: 256-bit</li>\n <li>Core Clock: 2670 MHz</li>\n <li>CUDA Cores: 8960 Units</li>\n <li>Memory Speed: 28 Gbps</li>\n <li>Digital Max Resolution: 7680 x 4320</li>\n <li>Power Connectors: 16-pin (12V-2x6) x 1</li>\n <li>1 Year Warranty</li>\n </ul>',
     specifications: {
 
     },
@@ -1904,7 +1904,7 @@ const products = [
     salePrice: 2229,
     images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5060-Ti-EAGLE-MAX-OC-8G-Graphics-Card-GV-N506TEAGLEMAX-OC-8-1_c1f15fb3-8caa-4926-a4cf-56225c653958.webp?v=1789992599, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5060-Ti-EAGLE-MAX-OC-8G-Graphics-Card-GV-N506TEAGLEMAX-OC-8-2_5540ec13-3dcf-4246-80a6-2bfad7655525.webp?v=1789992600, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5060-Ti-EAGLE-MAX-OC-8G-Graphics-Card-GV-N506TEAGLEMAX-OC-8-3_1f4f5437-349d-4f51-81ab-7789f933269e.webp?v=1789992600, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5060-Ti-EAGLE-MAX-OC-8G-Graphics-Card-GV-N506TEAGLEMAX-OC-8-4_f421d05a-1985-40b3-8604-bea6f1a684c0.webp?v=1789992600, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5060-Ti-EAGLE-MAX-OC-8G-Graphics-Card-GV-N506TEAGLEMAX-OC-8-5_25e2c589-3555-4412-9b0c-40c1e305c8c3.webp?v=1789992600, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5060-Ti-EAGLE-MAX-OC-8G-Graphics-Card-GV-N506TEAGLEMAX-OC-8-6_442c788d-19ac-4698-acfe-3a08a5f24858.webp?v=1789992600'],
     shortDescription: 'Gigabyte GeForce RTX 5060 Ti EAGLE MAX OC 8G Graphics Card, 8GB GDDR7, 128-bit Memory, HDMI 2.1b & DP 2.1b, PCI Express 5.0, 2617 MHz Core Clock, 28 Gbps, 1 Year Warranty | GV-N506TEAGLEMAX-OC-8',
-    description: '<ul>\n <li>NVIDIA® GeForce RTX 5060 Ti</li>\n <li>Memory: 8GB GDDR7</li>\n <li>Memory Bus: 128-bit</li>\n <li>Core Clock: 2617 MHz</li>\n <li>CUDA Cores: 4608 Units</li>\n <li>Memory Speed: 28 Gbps</li>\n <li>Digital Max Resolution: 7680 x 4320</li>\n <li>Power Connectors: 8-pin x 1</li>\n <li>1 Year Warranty</li>\n </ul>',
+    description: '<ul>\n <li>NVIDIA® GeForce RTX 5060 Ti</li>\n <li>Memory: 8GB GDDR7</li>\n <li>Memory Bus: 128-bit</li>\n <li>Core Clock: 2617 MHz</li>\n <li>CUDA Cores: 4608 Units</li>\n <li>Memory Speed: 28 Gbps</li>\n <li>Digital Max Resolution: 7680 x 4320</li>\n <li>Power Connectors: 8-pin x 1</li>\n <li>1 Year Warranty</li>\n </ul>',
     specifications: {
 
     },
@@ -1925,7 +1925,7 @@ const products = [
     salePrice: 3529,
     images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/MSI-RTX-5070-VENTUS-2X-OC-White-912-V532-004-1_efe50bde-97a9-4b80-8faf-b2164cca2907.webp?v=1789992593, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/MSI-RTX-5070-VENTUS-2X-OC-White-912-V532-004-2_ad523d49-03cb-4748-ac93-2757d6cfdf74.webp?v=1789992593, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/MSI-RTX-5070-VENTUS-2X-OC-White-912-V532-004-3_a61255a8-87b5-4d5a-bf17-782d5601681a.webp?v=1789992593, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/MSI-RTX-5070-VENTUS-2X-OC-White-912-V532-004-4_ec0a9dd0-0f49-46dd-8c1e-2b54f83e47d7.webp?v=1789992593, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/MSI-RTX-5070-VENTUS-2X-OC-White-912-V532-004-5_accccfe4-c9ff-48bb-89d1-ec74b6e7bf93.webp?v=1789992593, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/MSI-RTX-5070-VENTUS-2X-OC-White-912-V532-004-6_622e7370-256b-42bf-8a9b-4fdcbc848301.webp?v=1789992593'],
     shortDescription: 'MSI GeForce RTX 5070 VENTUS 2X OC White Graphics Card, GDDR7 12GB 192-bit Memory, HDMI & DP Outputs, PCI Express 5.0, 2557 MHz Engine Clock, 28 Gbps Memory Clock, White, 1 Year Warranty | 912-V532-004',
-    description: '<ul>\n<li>Graphics Engine: NVIDIA GeForce RTX 5070</li>\n<li>Engine Clock: 2557 MHz</li>\n<li>Video Memory: 12GB GDDR7</li>\n<li>AI Performance: 1406 AI TOPS</li>\n<li>CUDA Cores: 6144</li>\n<li>Memory Speed: 28 Gbps</li>\n<li>Memory Interface: 192-bit</li>\n<li>Bus Standard: PCIe 5.0</li>\n</ul>',
+    description: '<ul>\n<li>Graphics Engine: NVIDIA GeForce RTX 5070</li>\n<li>Engine Clock: 2557 MHz</li>\n<li>Video Memory: 12GB GDDR7</li>\n<li>AI Performance: 1406 AI TOPS</li>\n<li>CUDA Cores: 6144</li>\n<li>Memory Speed: 28 Gbps</li>\n<li>Memory Interface: 192-bit</li>\n<li>Bus Standard: PCIe 5.0</li>\n</ul>',
     specifications: {
 
     },
@@ -1946,7 +1946,7 @@ const products = [
     salePrice: 3529,
     images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/MSI-RTX-5070-VENTUS-2X-OC-912-V532-009-1_c2d892ac-f89c-4d83-a91e-4aa618256514.webp?v=1789992593, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/MSI-RTX-5070-VENTUS-2X-OC-912-V532-009-2_b4889768-f989-4cd6-a60c-1044de153be6.webp?v=1789992593, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/MSI-RTX-5070-VENTUS-2X-OC-912-V532-009-3_08389d76-ad33-46da-a8da-789993460722.webp?v=1789992593, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/MSI-RTX-5070-VENTUS-2X-OC-912-V532-009-4_4a49df36-20ce-42d0-b628-c1d4cfe79300.webp?v=1789992593, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/MSI-RTX-5070-VENTUS-2X-OC-912-V532-009-5_d87295e5-cb02-49c3-866a-0e52cd88b7f6.webp?v=1789992593, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/MSI-RTX-5070-VENTUS-2X-OC-912-V532-009-6_66bd21f8-1179-4f60-b6de-27375ad7a09d.webp?v=1789992592'],
     shortDescription: 'MSI GeForce RTX 5070 VENTUS 2X OC Graphics Card, GDDR7 12GB 192-bit Memory, HDMI & DP Outputs, PCI Express 5.0, 2557 MHz Engine Clock, 28 Gbps Memory Clock, 1 Year Warranty | 912-V532-009',
-    description: '<ul>\n<li>Graphics Engine: NVIDIA GeForce RTX 5070</li>\n<li>Engine Clock: 2557 MHz</li>\n<li>Video Memory: 12GB GDDR7</li>\n<li>AI Performance: 1406 AI TOPS</li>\n<li>CUDA Cores: 6144</li>\n<li>Memory Speed: 28 Gbps</li>\n<li>Memory Interface: 192-bit</li>\n<li>Bus Standard: PCIe 5.0</li>\n</ul>',
+    description: '<ul>\n<li>Graphics Engine: NVIDIA GeForce RTX 5070</li>\n<li>Engine Clock: 2557 MHz</li>\n<li>Video Memory: 12GB GDDR7</li>\n<li>AI Performance: 1406 AI TOPS</li>\n<li>CUDA Cores: 6144</li>\n<li>Memory Speed: 28 Gbps</li>\n<li>Memory Interface: 192-bit</li>\n<li>Bus Standard: PCIe 5.0</li>\n</ul>',
     specifications: {
 
     },
@@ -1967,7 +1967,7 @@ const products = [
     salePrice: 4129,
     images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/ASRock-Radeon-RX-9070-XT-Taichi-OC-Graphics-Card-90-GA5HZZ-00UANF-1_47d2a330-0a53-494d-9954-9dbb4780c6ef.webp?v=1787141889, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/ASRock-Radeon-RX-9070-XT-Taichi-OC-Graphics-Card-90-GA5HZZ-00UANF-2_72549395-5217-4da7-97e3-8653916ab469.webp?v=1787141890, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/ASRock-Radeon-RX-9070-XT-Taichi-OC-Graphics-Card-90-GA5HZZ-00UANF-3_1cebfbad-65c9-42f8-b6e8-f33b51520653.webp?v=1787141889, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/ASRock-Radeon-RX-9070-XT-Taichi-OC-Graphics-Card-90-GA5HZZ-00UANF-4_24a602b2-69a6-46de-ae0b-d6209e12054d.webp?v=1787141890, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/ASRock-Radeon-RX-9070-XT-Taichi-OC-Graphics-Card-90-GA5HZZ-00UANF-5_c2f2ffe5-59f8-4e83-9bc7-6dac35671649.webp?v=1787141889'],
     shortDescription: 'ASRock AMD Radeon RX 9070 XT Taichi OC Graphics Card, 16GB GDDR6, Boost Clock Up to 3100MHz, 4096 Stream Processors, PCI Express 5.0, 1 Year Warranty | 90-GA5HZZ-00UANF',
-    description: '<ul>\n<li>Graphics: AMD Radeon RX 9070 XT</li>\n<li>Graphics Memory: 16GB GDDR6</li>\n<li>Boost Clock: Up to 3100MHz</li>\n<li>Game Clock: 2570MHz</li>\n<li>Stream Processors: 4096</li>\n<li>Memory Speed: 20Gbps</li>\n<li>Memory Interface: 256-bit</li>\n<li>Interface: PCI Express 5.0</li>\n<li>Maximum Resolution: 7680 × 4320</li>\n<li>Maximum Displays: 4</li>\n<li>Recommended PSU: 850W</li>\n<li>Warranty: 1 Year</li>\n</ul>',
+    description: '<ul>\n<li>Graphics: AMD Radeon RX 9070 XT</li>\n<li>Graphics Memory: 16GB GDDR6</li>\n<li>Boost Clock: Up to 3100MHz</li>\n<li>Game Clock: 2570MHz</li>\n<li>Stream Processors: 4096</li>\n<li>Memory Speed: 20Gbps</li>\n<li>Memory Interface: 256-bit</li>\n<li>Interface: PCI Express 5.0</li>\n<li>Maximum Resolution: 7680 × 4320</li>\n<li>Maximum Displays: 4</li>\n<li>Recommended PSU: 850W</li>\n<li>Warranty: 1 Year</li>\n</ul>',
     specifications: {
 
     },
@@ -1988,7 +1988,7 @@ const products = [
     salePrice: 2009,
     images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/GIGABYTE-RTX-5060-Ti-WINDFORCE-OC-8G-Graphics-Card-GV-N506TWF2OC-8GD-1_62daefb6-807c-44f3-be25-d9e56b17df39.webp?v=1787141890, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/GIGABYTE-RTX-5060-Ti-WINDFORCE-OC-8G-Graphics-Card-GV-N506TWF2OC-8GD-2_bacb1a48-e997-4ae0-a243-0246b6690680.webp?v=1787141890, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/GIGABYTE-RTX-5060-Ti-WINDFORCE-OC-8G-Graphics-Card-GV-N506TWF2OC-8GD-3_0c6ef4ad-8908-4ea2-b8f2-b3a5fa435cd2.webp?v=1787141890, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/GIGABYTE-RTX-5060-Ti-WINDFORCE-OC-8G-Graphics-Card-GV-N506TWF2OC-8GD-4_e4e37d32-1719-4e4c-bae1-b3002e42c4b8.webp?v=1787141890, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/GIGABYTE-RTX-5060-Ti-WINDFORCE-OC-8G-Graphics-Card-GV-N506TWF2OC-8GD-5_d26359d9-5226-4454-b44c-b3545020f9da.webp?v=1787141890, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/GIGABYTE-RTX-5060-Ti-WINDFORCE-OC-8G-Graphics-Card-GV-N506TWF2OC-8GD-6_7a2fd794-2d5b-4c71-89c8-9083ce7a04fe.webp?v=1787141890'],
     shortDescription: 'GIGABYTE GeForce RTX 5060 Ti WINDFORCE OC 8G Graphics Card, 8GB GDDR7, Boost Clock 2587MHz, 4608 CUDA Cores, PCI Express 5.0, 1 Year Warranty | GV-N506TWF2OC-8GD',
-    description: '<ul>\n<li>Graphics: NVIDIA GeForce RTX 5060 Ti</li>\n<li>Graphics Memory: 8GB GDDR7</li>\n<li>Boost Clock: 2587MHz</li>\n<li>CUDA Cores: 4608</li>\n<li>Memory Speed: 28Gbps</li>\n<li>Memory Interface: 128-bit</li>\n<li>Interface: PCI Express 5.0</li>\n<li>Maximum Resolution: 7680 × 4320</li>\n<li>Maximum Displays: 4</li>\n<li>Recommended PSU: 650W</li>\n<li>Warranty: 1 Year</li>\n</ul>',
+    description: '<ul>\n<li>Graphics: NVIDIA GeForce RTX 5060 Ti</li>\n<li>Graphics Memory: 8GB GDDR7</li>\n<li>Boost Clock: 2587MHz</li>\n<li>CUDA Cores: 4608</li>\n<li>Memory Speed: 28Gbps</li>\n<li>Memory Interface: 128-bit</li>\n<li>Interface: PCI Express 5.0</li>\n<li>Maximum Resolution: 7680 × 4320</li>\n<li>Maximum Displays: 4</li>\n<li>Recommended PSU: 650W</li>\n<li>Warranty: 1 Year</li>\n</ul>',
     specifications: {
 
     },
@@ -2009,7 +2009,7 @@ const products = [
     salePrice: 21729,
     images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/GIGABYTE-AORUS-RTX-5090-AI-BOX-GV-N5090IXEB-32GD-1_46ceec01-4830-420d-a664-7c27efaf231f.webp?v=1787141891, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/GIGABYTE-AORUS-RTX-5090-AI-BOX-GV-N5090IXEB-32GD-2_82c381ab-7bf1-45e3-927b-b8d47e13a750.webp?v=1787141891, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/GIGABYTE-AORUS-RTX-5090-AI-BOX-GV-N5090IXEB-32GD-3_1f2ba7d6-9101-4fd5-ada3-12043cd60fb6.webp?v=1787141891, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/GIGABYTE-AORUS-RTX-5090-AI-BOX-GV-N5090IXEB-32GD-4_9ebf5917-f054-41bf-882e-1b3f46c5abfe.webp?v=1787141891, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/GIGABYTE-AORUS-RTX-5090-AI-BOX-GV-N5090IXEB-32GD-5_57b28531-6cf0-4fef-b1ab-f62cdc54261a.webp?v=1787141891, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/GIGABYTE-AORUS-RTX-5090-AI-BOX-GV-N5090IXEB-32GD-6_a06b0293-927f-401c-a280-ce79276c8639.webp?v=1787141891'],
     shortDescription: 'GIGABYTE AORUS RTX 5090 AI BOX Water-Cooled External Graphics Card, 2407 GPU Clock, 32GB GDDR7 RAM, Thunderbolt 5, 850W Power Supply, Smart Deploy Multi-GPU, 1 Year Warranty | GV-N5090IXEB-32GD',
-    description: '<ul>\n<li>Graphics: NVIDIA GeForce RTX 5090</li>\n<li>Graphics Memory: 32GB GDDR7</li>\n<li>Boost Clock: 2407MHz</li>\n<li>CUDA Cores: 21,760</li>\n<li>Memory Speed: 28Gbps</li>\n<li>Memory Interface: 512-bit</li>\n<li>Interface: PCI Express 5.0</li>\n<li>Maximum Resolution: 7680 × 4320</li>\n<li>Maximum Displays: 4</li>\n<li>Video Outputs: 3 x DisplayPort 2.1, 1 x HDMI 2.1</li>\n<li>USB Ports: Thunderbolt 5 Type-C, USB 3.2 Gen 2 Type-C</li>\n<li>Power Supply: 850W, &gt;90% Efficiency</li>\n<li>Warranty: 1 Year</li>\n</ul>',
+    description: '<ul>\n<li>Graphics: NVIDIA GeForce RTX 5090</li>\n<li>Graphics Memory: 32GB GDDR7</li>\n<li>Boost Clock: 2407MHz</li>\n<li>CUDA Cores: 21,760</li>\n<li>Memory Speed: 28Gbps</li>\n<li>Memory Interface: 512-bit</li>\n<li>Interface: PCI Express 5.0</li>\n<li>Maximum Resolution: 7680 × 4320</li>\n<li>Maximum Displays: 4</li>\n<li>Video Outputs: 3 x DisplayPort 2.1, 1 x HDMI 2.1</li>\n<li>USB Ports: Thunderbolt 5 Type-C, USB 3.2 Gen 2 Type-C</li>\n<li>Power Supply: 850W, &gt;90% Efficiency</li>\n<li>Warranty: 1 Year</li>\n</ul>',
     specifications: {
 
     },
@@ -2030,7 +2030,7 @@ const products = [
     salePrice: 3249,
     images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Palit-RTX-5060-Ti-Infinity-3-Graphics-Card-NE7506T019T1-GB2061S-1_698a8f29-1cd2-4b16-92fa-9f964b560da3.webp?v=1787141891, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Palit-RTX-5060-Ti-Infinity-3-Graphics-Card-NE7506T019T1-GB2061S-2_41ec40b6-0182-40c9-8aba-c505900eb96b.webp?v=1787141891, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Palit-RTX-5060-Ti-Infinity-3-Graphics-Card-NE7506T019T1-GB2061S-3_40eec95b-1bd9-4187-aacf-591c35bde364.webp?v=1787141891, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Palit-RTX-5060-Ti-Infinity-3-Graphics-Card-NE7506T019T1-GB2061S-4_37ac5c4a-65e5-4f3d-9070-180b12b19f56.webp?v=1787141891, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Palit-RTX-5060-Ti-Infinity-3-Graphics-Card-NE7506T019T1-GB2061S-5_a4d7e58f-df3d-4f4a-bd70-03f20f37c29a.webp?v=1787141891, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Palit-RTX-5060-Ti-Infinity-3-Graphics-Card-NE7506T019T1-GB2061S-6_3707aa42-dd14-4da3-942e-9a99c48f4cf7.webp?v=1787141891'],
     shortDescription: 'Palit GeForce RTX 5060 Ti Infinity 3 Graphics Card, 16GB GDDR7, Boost Clock Up to 2572MHz, 4608 CUDA Cores, PCI Express 5.0, 1 Year Warranty | NE7506T019T1-GB2061S',
-    description: '<ul>\n<li>Graphics: NVIDIA GeForce RTX 5060 Ti</li>\n<li>Graphics Memory: 16GB GDDR7</li>\n<li>Boost Clock: Up to 2572MHz</li>\n<li>Graphics Clock: 2407MHz</li>\n<li>CUDA Cores: 4608</li>\n<li>Memory Speed: 28Gbps</li>\n<li>Memory Interface: 128-bit</li>\n<li>Interface: PCI Express 5.0</li>\n<li>Maximum Resolution: 7680 × 4320</li>\n<li>Maximum Displays: 4</li>\n<li>Recommended PSU: 600W</li>\n<li>Warranty: 1 Year</li>\n</ul>',
+    description: '<ul>\n<li>Graphics: NVIDIA GeForce RTX 5060 Ti</li>\n<li>Graphics Memory: 16GB GDDR7</li>\n<li>Boost Clock: Up to 2572MHz</li>\n<li>Graphics Clock: 2407MHz</li>\n<li>CUDA Cores: 4608</li>\n<li>Memory Speed: 28Gbps</li>\n<li>Memory Interface: 128-bit</li>\n<li>Interface: PCI Express 5.0</li>\n<li>Maximum Resolution: 7680 × 4320</li>\n<li>Maximum Displays: 4</li>\n<li>Recommended PSU: 600W</li>\n<li>Warranty: 1 Year</li>\n</ul>',
     specifications: {
 
     },
@@ -2051,7 +2051,7 @@ const products = [
     salePrice: 1409,
     images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Zotac-Gaming-Twin-Edge-GeForce-RTX-4060-ZT-D40600E-10M-1_ed4794f5-7133-4f27-8257-5a8a3e904fd4.webp?v=1784132530, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Zotac-Gaming-Twin-Edge-GeForce-RTX-4060-ZT-D40600E-10M-2_6d6d34c6-7c5d-4a07-93a0-2de0548a2139.webp?v=1784132530, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Zotac-Gaming-Twin-Edge-GeForce-RTX-4060-ZT-D40600E-10M-3_c9e882e7-bbb8-468f-9525-d053d2ea8c53.webp?v=1784132530, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Zotac-Gaming-Twin-Edge-GeForce-RTX-4060-ZT-D40600E-10M-4_b5566dcb-f01b-442d-a43a-9bb191234438.webp?v=1784132530, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Zotac-Gaming-Twin-Edge-GeForce-RTX-4060-ZT-D40600E-10M-5_93c5c1c5-86af-44b1-a04b-f8531af05186.webp?v=1784132530, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Zotac-Gaming-Twin-Edge-GeForce-RTX-4060-ZT-D40600E-10M-6_3a1053e3-2433-419a-8085-ebc2c4194b3d.webp?v=1784132530'],
     shortDescription: 'Zotac Gaming Twin Edge GeForce RTX 4060 Graphics Card, GDDR6 8GB 128-bit Memory, DisplayPort 1.4a, HDMI Outputs, PCI Express 4.0, IceStorm 2.0 Cooling System, 242 AI TOPS, 1 Year Warranty | ZT-D40600E-10M',
-    description: '<ul>\n<li>GPU: NVIDIA GeForce RTX 4060</li>\n<li>Boost Clock: 2460MHz</li>\n<li>Memory: 8GB GDDR6</li>\n<li>Memory Speed: 17Gbps</li>\n<li>Memory Bus: 128-bit</li>\n<li>AI Performance: 242 TOPS</li>\n<li>CUDA Cores: 3072</li>\n<li>Interface: PCI Express 4.0</li>\n<li>Connectivity: DisplayPort 1.4a, HDMI</li>\n</ul>',
+    description: '<ul>\n<li>GPU: NVIDIA GeForce RTX 4060</li>\n<li>Boost Clock: 2460MHz</li>\n<li>Memory: 8GB GDDR6</li>\n<li>Memory Speed: 17Gbps</li>\n<li>Memory Bus: 128-bit</li>\n<li>AI Performance: 242 TOPS</li>\n<li>CUDA Cores: 3072</li>\n<li>Interface: PCI Express 4.0</li>\n<li>Connectivity: DisplayPort 1.4a, HDMI</li>\n</ul>',
     specifications: {
 
     },
@@ -2072,7 +2072,7 @@ const products = [
     salePrice: 2709,
     images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/MSI-GeForce-RTX-2060-Gaming-Z-6G-Graphics-Card-912-V375-009-1_918767be-abb6-4bbc-a9ba-6d27e893fbe2.webp?v=1784132530, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/MSI-GeForce-RTX-2060-Gaming-Z-6G-Graphics-Card-912-V375-009-2_ccc65c8c-7401-4424-b681-759b52375adb.webp?v=1784132530, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/MSI-GeForce-RTX-2060-Gaming-Z-6G-Graphics-Card-912-V375-009-3_ffd2afda-a32b-4f95-a7d5-53a27cb9ac12.webp?v=1784132530, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/MSI-GeForce-RTX-2060-Gaming-Z-6G-Graphics-Card-912-V375-009-4_f5d3d64c-6540-40c4-8fc0-914d1ea5b075.webp?v=1784132530, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/MSI-GeForce-RTX-2060-Gaming-Z-6G-Graphics-Card-912-V375-009-5_b0be5ced-f0ea-4577-a4cd-997a8565a2f8.webp?v=1784132531'],
     shortDescription: 'MSI GeForce RTX 2060 Gaming Z 6G Graphics Card, GDDR6 6GB 192-bit Memory, DisplayPort v1.4a, HDMI Outputs, PCI Express 3.0, Twin Frozr 7 Cooling System, 1 Year Warranty | 912-V375-009',
-    description: '<ul>\n<li>GPU: NVIDIA GeForce RTX 2060</li>\n<li>Boost Clock: 1830MHz</li>\n<li>Memory: 6GB GDDR6</li>\n<li>Memory Speed: 14Gbps</li>\n<li>Memory Bus: 192-bit</li>\n<li>CUDA Cores: 1920</li>\n<li>Interface: PCI Express 3.0</li>\n<li>Connectivity: DisplayPort 1.4a, HDMI</li>\n</ul>',
+    description: '<ul>\n<li>GPU: NVIDIA GeForce RTX 2060</li>\n<li>Boost Clock: 1830MHz</li>\n<li>Memory: 6GB GDDR6</li>\n<li>Memory Speed: 14Gbps</li>\n<li>Memory Bus: 192-bit</li>\n<li>CUDA Cores: 1920</li>\n<li>Interface: PCI Express 3.0</li>\n<li>Connectivity: DisplayPort 1.4a, HDMI</li>\n</ul>',
     specifications: {
 
     },
@@ -2093,7 +2093,7 @@ const products = [
     salePrice: 1149,
     images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/MSI-GeForce-RTX-3050-Ventus-2X-XS-OC-Graphics-Card-912-V809-4419-1_129b1ec1-a118-444f-ac0b-70b7adae58c0.webp?v=1784132531, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/MSI-GeForce-RTX-3050-Ventus-2X-XS-OC-Graphics-Card-912-V809-4419-2_48fd31c9-48c6-42f2-b299-39e431d8229d.webp?v=1784132530, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/MSI-GeForce-RTX-3050-Ventus-2X-XS-OC-Graphics-Card-912-V809-4419-3_a2c79c2f-1fed-44bc-8e94-a4b5c72642f8.webp?v=1784132530, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/MSI-GeForce-RTX-3050-Ventus-2X-XS-OC-Graphics-Card-912-V809-4419-4_59fcc1b0-8883-41d0-8d4f-19c2fea2f20f.webp?v=1784132530, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/MSI-GeForce-RTX-3050-Ventus-2X-XS-OC-Graphics-Card-912-V809-4419-5_4da8cb37-76f6-4c74-aed8-41b22ee8ddb8.webp?v=1784132530'],
     shortDescription: 'MSI GeForce RTX 3050 Ventus 2X XS OC Graphics Card, GDDR6 8GB 128-bit Memory, DisplayPort v1.4a, HDMI, DL-DVI-D Outputs, PCI Express 4.0, 1 Year Warranty | 912-V809-4419',
-    description: '<ul>\n<li>GPU: NVIDIA GeForce RTX 3050</li>\n<li>Boost Clock: 1807MHz</li>\n<li>Memory: 8GB GDDR6</li>\n<li>Memory Speed: 14Gbps</li>\n<li>Memory Bus: 96-bit</li>\n<li>CUDA Cores: 2304</li>\n<li>Interface: PCI Express 4.0</li>\n<li>Connectivity: DisplayPort 1.4a, HDMI, DL-DVI-D</li>\n</ul>',
+    description: '<ul>\n<li>GPU: NVIDIA GeForce RTX 3050</li>\n<li>Boost Clock: 1807MHz</li>\n<li>Memory: 8GB GDDR6</li>\n<li>Memory Speed: 14Gbps</li>\n<li>Memory Bus: 96-bit</li>\n<li>CUDA Cores: 2304</li>\n<li>Interface: PCI Express 4.0</li>\n<li>Connectivity: DisplayPort 1.4a, HDMI, DL-DVI-D</li>\n</ul>',
     specifications: {
 
     },
@@ -2114,7 +2114,7 @@ const products = [
     salePrice: 25999,
     images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/GV-N5090AORUS-IF-32GD-1-1.png?v=1783691337, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/GV-N5090AORUS-IF-32GD-5.png?v=1783691336, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/GV-N5090AORUS-IF-32GD-7.png?v=1783691336, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/GV-N5090AORUS-IF-32GD-10.png?v=1783691336, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/GV-N5090AORUS-IF-32GD-3.png?v=1783691336, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/GV-N5090AORUS-IF-32GD-4.png?v=1783691336, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/GV-N5090AORUS-IF-32GD-9.png?v=1783691336, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/GV-N5090AORUS-IF-32GD-2.png?v=1783691336, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/GV-N5090AORUS-IF-32GD-6.png?v=1783691336, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/GV-N5090AORUS-IF-32GD-8.png?v=1783691336, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/GV-N5090AORUS-IF-32GD-1.png?v=1783691337'],
     shortDescription: 'Gigabyte AORUS GeForce RTX 5090 INFINITY Graphics Card, GDDR7 32GB 512-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, Windforce HyperBoost Cooling System, 3352 AI TOPS, RGB Halo, Black, 1 Year Warranty | GV-N5090AORUS-IF-32GD',
-    description: '<ul>\n<li>GPU: NVIDIA GeForce RTX 5090</li>\n<li>Boost Clock: 2730MHz</li>\n<li>Memory: 32GB GDDR7</li>\n<li>Memory Speed: 28Gbps</li>\n<li>Memory Bus: 512-bit</li>\n<li>AI Performance: 3352 TOPs</li>\n<li>CUDA Cores: 21760</li>\n<li>Interface: PCI Express 5.0</li>\n<li>Connectivity: HDMI 2.1b, DisplayPort 2.1b</li>\n<li>Maximum Resolution: 7680 × 4320</li>\n<li>Maximum Displays: 4</li>\n<li>Recommended PSU: 1000W</li>\n<li>Warranty: 1 Year</li>\n</ul>',
+    description: '<ul>\n<li>GPU: NVIDIA GeForce RTX 5090</li>\n<li>Boost Clock: 2730MHz</li>\n<li>Memory: 32GB GDDR7</li>\n<li>Memory Speed: 28Gbps</li>\n<li>Memory Bus: 512-bit</li>\n<li>AI Performance: 3352 TOPs</li>\n<li>CUDA Cores: 21760</li>\n<li>Interface: PCI Express 5.0</li>\n<li>Connectivity: HDMI 2.1b, DisplayPort 2.1b</li>\n<li>Maximum Resolution: 7680 × 4320</li>\n<li>Maximum Displays: 4</li>\n<li>Recommended PSU: 1000W</li>\n<li>Warranty: 1 Year</li>\n</ul>',
     specifications: {
 
     },
@@ -2135,7 +2135,7 @@ const products = [
     salePrice: 2299,
     images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-AMD-Radeon-RX-9060-XT-GAMING-OC-Graphics-Card-GV-R9060XTGAMING-OC-1-1_7a776000-c0c5-44c9-acae-b34c08e3e7db.webp?v=1782735682, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-AMD-Radeon-RX-9060-XT-GAMING-OC-Graphics-Card-GV-R9060XTGAMING-OC-1-2_9be6eeec-414e-4e04-a209-47fefdf41dc2.webp?v=1782735682, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-AMD-Radeon-RX-9060-XT-GAMING-OC-Graphics-Card-GV-R9060XTGAMING-OC-1-3_169a1271-2ced-41ac-8208-544cf6a0c11f.webp?v=1782735682, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-AMD-Radeon-RX-9060-XT-GAMING-OC-Graphics-Card-GV-R9060XTGAMING-OC-1-4_79aa1f40-3e66-45d0-bbcc-a5dc4930f3ec.webp?v=1782735682, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-AMD-Radeon-RX-9060-XT-GAMING-OC-Graphics-Card-GV-R9060XTGAMING-OC-1-5_cf379ace-d1da-40ec-8337-715fd922b291.webp?v=1782735682, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-AMD-Radeon-RX-9060-XT-GAMING-OC-Graphics-Card-GV-R9060XTGAMING-OC-1-6_1b5aafc6-bd84-48e0-b200-17072ef29e39.webp?v=1782735682'],
     shortDescription: 'Gigabyte AMD Radeon RX 9060 XT GAMING OC Graphics Card, GDDR6 16GB 128-bit Memory, DisplayPort 2.1a & HDMI 2.1b, PCI Express 5.0, Up to 3320 MHz Boost Clock, 20 Gbps Memory Clock, WINDFORCE Cooling System, 1 Year Warranty | GV-R9060XTGAMING-OC-1',
-    description: '<ul>\n<li>Graphics Engine: AMD Radeon RX 9060 XT</li>\n<li>Boost Clock Speed: Up to 3320 MHz</li>\n<li>Memory Size: 16GB GDDR6</li>\n<li>Memory Bus: 128-bit</li>\n<li>Memory Clock Speed: 20 Gbps</li>\n<li>Interface: PCI Express 5.0</li>\n<li>Ports: DisplayPort 2.1a, HDMI 2.1b</li>\n<li>Cooling System: WINDFORCE Cooling System</li>\n<li>1 Year Warranty</li>\n</ul>',
+    description: '<ul>\n<li>Graphics Engine: AMD Radeon RX 9060 XT</li>\n<li>Boost Clock Speed: Up to 3320 MHz</li>\n<li>Memory Size: 16GB GDDR6</li>\n<li>Memory Bus: 128-bit</li>\n<li>Memory Clock Speed: 20 Gbps</li>\n<li>Interface: PCI Express 5.0</li>\n<li>Ports: DisplayPort 2.1a, HDMI 2.1b</li>\n<li>Cooling System: WINDFORCE Cooling System</li>\n<li>1 Year Warranty</li>\n</ul>',
     specifications: {
 
     },
@@ -2156,7 +2156,7 @@ const products = [
     salePrice: 2529,
     images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-AMD-Radeon-RX-9060-XT-GAMING-OC-ICE-Graphics-Card-GV-906XGAMING-OC-ICE-1_e24bd488-a7a0-486f-a06b-e516fe7f1e1e.webp?v=1782735682, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-AMD-Radeon-RX-9060-XT-GAMING-OC-ICE-Graphics-Card-GV-906XGAMING-OC-ICE-2_640d749c-816a-42e1-a7b5-4e8aba739f24.webp?v=1782735682, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-AMD-Radeon-RX-9060-XT-GAMING-OC-ICE-Graphics-Card-GV-906XGAMING-OC-ICE-3_8eb55b7a-a366-4212-9b4d-63232565dac3.webp?v=1782735682, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-AMD-Radeon-RX-9060-XT-GAMING-OC-ICE-Graphics-Card-GV-906XGAMING-OC-ICE-4_145c892c-4658-4026-a4a0-727dbb775b8a.webp?v=1782735682, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-AMD-Radeon-RX-9060-XT-GAMING-OC-ICE-Graphics-Card-GV-906XGAMING-OC-ICE-5_107d6cfe-33f5-450f-b512-7cd589bed6e5.webp?v=1782735682, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-AMD-Radeon-RX-9060-XT-GAMING-OC-ICE-Graphics-Card-GV-906XGAMING-OC-ICE-6_a21a2843-0905-47dd-9805-095e4b022365.webp?v=1782735683'],
     shortDescription: 'Gigabyte AMD Radeon RX 9060 XT GAMING OC ICE Graphics Card, GDDR6 16GB 128-bit Memory, DisplayPort 2.1a & HDMI 2.1b, PCI Express 5.0, Up to 3320 MHz Boost Clock, 20 Gbps Memory Clock, WINDFORCE Cooling System, White, 1 Year Warranty | GV-906XGAMING-OC-ICE',
-    description: '<ul>\n<li>Graphics Engine: AMD Radeon RX 9060 XT</li>\n<li>Boost Clock Speed: Up to 3320 MHz</li>\n<li>Memory Size: 16GB GDDR6</li>\n<li>Memory Bus: 128-bit</li>\n<li>Memory Clock Speed: 20 Gbps</li>\n<li>Interface: PCI Express 5.0</li>\n<li>Ports: DisplayPort 2.1a, HDMI 2.1b</li>\n<li>Color: White</li>\n<li>1 Year Warranty</li>\n</ul>',
+    description: '<ul>\n<li>Graphics Engine: AMD Radeon RX 9060 XT</li>\n<li>Boost Clock Speed: Up to 3320 MHz</li>\n<li>Memory Size: 16GB GDDR6</li>\n<li>Memory Bus: 128-bit</li>\n<li>Memory Clock Speed: 20 Gbps</li>\n<li>Interface: PCI Express 5.0</li>\n<li>Ports: DisplayPort 2.1a, HDMI 2.1b</li>\n<li>Color: White</li>\n<li>1 Year Warranty</li>\n</ul>',
     specifications: {
 
     },
@@ -2177,7 +2177,7 @@ const products = [
     salePrice: 2459,
     images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-RTX-5060-Ti-WINDFORCE-MAX-OC-Graphics-Card-GV-N506TWF2MAX-OC-16G-1_98e5f3f8-e0eb-45c0-96e4-b8b3563f42d0.webp?v=1775914327, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-RTX-5060-Ti-WINDFORCE-MAX-OC-Graphics-Card-GV-N506TWF2MAX-OC-16G-2_fbf20582-564b-4529-b7fc-939ef5a60f1d.webp?v=1775914327, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-RTX-5060-Ti-WINDFORCE-MAX-OC-Graphics-Card-GV-N506TWF2MAX-OC-16G-3_fff85774-a5e7-448c-ba39-527d3f3847fd.webp?v=1775914327, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-RTX-5060-Ti-WINDFORCE-MAX-OC-Graphics-Card-GV-N506TWF2MAX-OC-16G-4_f292ba98-173b-439f-bc4c-c51d84329c43.webp?v=1775914327, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-RTX-5060-Ti-WINDFORCE-MAX-OC-Graphics-Card-GV-N506TWF2MAX-OC-16G-5_492b7521-ec30-4269-ad9c-a72e76fdc2ed.webp?v=1775914327, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-RTX-5060-Ti-WINDFORCE-MAX-OC-Graphics-Card-GV-N506TWF2MAX-OC-16G-6_b4113e29-abbd-4e45-8e86-5124a70e0198.webp?v=1775914327'],
     shortDescription: 'Gigabyte GeForce RTX 5060 Ti WINDFORCE MAX OC Graphics Card, GDDR7 16GB 128-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, Dual Fan Windforce Cooling System, 772 AI TOPS, 1 Year Warranty | GV-N506TWF2MAX-OC-16G',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5060 Ti</li>\n<li>Memory: 16GB GDDR7</li>\n<li>CUDA Cores: 4608</li>\n<li>AI Performance: 772 AI TOPS</li>\n<li>Bus Standard: PCI Express 5.0</li>\n<li>Core Clock: 2587 MHz</li>\n<li>Memory Speed: 28 Gbps</li>\n<li>Memory Interface: 128-bit</li>\n<li>1 Year Warranty</li>\n</ul>',
+    description: '<ul>\n<li>NVIDIA GeForce RTX 5060 Ti</li>\n<li>Memory: 16GB GDDR7</li>\n<li>CUDA Cores: 4608</li>\n<li>AI Performance: 772 AI TOPS</li>\n<li>Bus Standard: PCI Express 5.0</li>\n<li>Core Clock: 2587 MHz</li>\n<li>Memory Speed: 28 Gbps</li>\n<li>Memory Interface: 128-bit</li>\n<li>1 Year Warranty</li>\n</ul>',
     specifications: {
 
     },
@@ -2198,7 +2198,7 @@ const products = [
     salePrice: 7369,
     images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-AORUS-GeForce-RTX-5080-MASTER-Graphics-Card-GV-N5080AORUS-M-16GD-1_3bc4c9da-76e1-4a35-9711-d5f9ef10b0ec.webp?v=1775914327, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-AORUS-GeForce-RTX-5080-MASTER-Graphics-Card-GV-N5080AORUS-M-16GD-2_94664195-4f0c-4472-a317-99f750726c44.webp?v=1775914327, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-AORUS-GeForce-RTX-5080-MASTER-Graphics-Card-GV-N5080AORUS-M-16GD-3_ffcde506-856e-40c6-b072-2b80f8b8e810.webp?v=1775914327, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-AORUS-GeForce-RTX-5080-MASTER-Graphics-Card-GV-N5080AORUS-M-16GD-4_1134ff3a-4fae-4479-9de8-113f9a5e03cf.webp?v=1775914328, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-AORUS-GeForce-RTX-5080-MASTER-Graphics-Card-GV-N5080AORUS-M-16GD-5_6c5d4650-dda9-46fd-8064-eb745c19436a.webp?v=1775914327, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-AORUS-GeForce-RTX-5080-MASTER-Graphics-Card-GV-N5080AORUS-M-16GD-6_d5f9f4aa-be9d-464e-9a10-4ae8d2edccb7.webp?v=1775914327'],
     shortDescription: 'Gigabyte AORUS GeForce RTX 5080 MASTER Graphics Card, GDDR7 16GB 256-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, Triple Fan Windforce Cooling System, 1801 AI TOPS, 1 Year Warranty | GV-N5080AORUS-M-16GD',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5080</li>\n<li>Memory: 16GB GDDR7</li>\n<li>CUDA Cores: 10752</li>\n<li>AI Performance: 1801 AI TOPS</li>\n<li>Bus Standard: PCI Express 5.0</li>\n<li>Core Clock: 2805 MHz</li>\n<li>Memory Speed: 30 Gbps</li>\n<li>Memory Interface: 256-bit</li>\n<li>Architecture: NVIDIA Blackwell</li>\n<li>Ray Tracing Performance: 171 TFLOPS</li>\n<li>1 Year Warranty</li>\n</ul>',
+    description: '<ul>\n<li>NVIDIA GeForce RTX 5080</li>\n<li>Memory: 16GB GDDR7</li>\n<li>CUDA Cores: 10752</li>\n<li>AI Performance: 1801 AI TOPS</li>\n<li>Bus Standard: PCI Express 5.0</li>\n<li>Core Clock: 2805 MHz</li>\n<li>Memory Speed: 30 Gbps</li>\n<li>Memory Interface: 256-bit</li>\n<li>Architecture: NVIDIA Blackwell</li>\n<li>Ray Tracing Performance: 171 TFLOPS</li>\n<li>1 Year Warranty</li>\n</ul>',
     specifications: {
 
     },
@@ -2219,7 +2219,7 @@ const products = [
     salePrice: 17849,
     images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-AORUS-GeForce-RTX-5090-MASTER-ICE-Graphics-Card-GV-5090AORUSST-ICE-32-1_da50d65a-88fa-47ed-8e5d-62d3a4daf78a.webp?v=1775914327, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-AORUS-GeForce-RTX-5090-MASTER-ICE-Graphics-Card-GV-5090AORUSST-ICE-32-2_2d116f0d-12b8-4316-ac89-c098d96ac953.webp?v=1775914327, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-AORUS-GeForce-RTX-5090-MASTER-ICE-Graphics-Card-GV-5090AORUSST-ICE-32-3_69745e7a-fcd9-4743-81d0-172e1af26f3e.webp?v=1775914327, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-AORUS-GeForce-RTX-5090-MASTER-ICE-Graphics-Card-GV-5090AORUSST-ICE-32-4_aba7c697-975c-4db4-935f-d90d76b8a7f6.webp?v=1775914327, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-AORUS-GeForce-RTX-5090-MASTER-ICE-Graphics-Card-GV-5090AORUSST-ICE-32-5_21a19044-1d4c-48fe-92f9-471ecc851275.webp?v=1775914326, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-AORUS-GeForce-RTX-5090-MASTER-ICE-Graphics-Card-GV-5090AORUSST-ICE-32-6_d87ed944-b57c-43b5-b1c3-befedc7fa3c4.webp?v=1775914327'],
     shortDescription: 'Gigabyte AORUS GeForce RTX 5090 MASTER ICE Graphics Card, GDDR7 32GB 512-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, Triple Fan Windforce Cooling System, 3352 AI TOPS, White, 1 Year Warranty | GV-5090AORUSST-ICE-32',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5090</li>\n<li>Memory: 32GB GDDR7</li>\n<li>CUDA Cores: 21760</li>\n<li>AI Performance: 3352 AI TOPS</li>\n<li>Bus Standard: PCI Express 5.0</li>\n<li>Core Clock: 2655 MHz</li>\n<li>Memory Speed: 28 Gbps</li>\n<li>Memory Interface: 512-bit</li>\n<li>Architecture: NVIDIA Blackwell</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Maximum Display Support: 4</li>\n<li>1 Year Warranty</li>\n</ul>',
+    description: '<ul>\n<li>NVIDIA GeForce RTX 5090</li>\n<li>Memory: 32GB GDDR7</li>\n<li>CUDA Cores: 21760</li>\n<li>AI Performance: 3352 AI TOPS</li>\n<li>Bus Standard: PCI Express 5.0</li>\n<li>Core Clock: 2655 MHz</li>\n<li>Memory Speed: 28 Gbps</li>\n<li>Memory Interface: 512-bit</li>\n<li>Architecture: NVIDIA Blackwell</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Maximum Display Support: 4</li>\n<li>1 Year Warranty</li>\n</ul>',
     specifications: {
 
     },
@@ -2240,7 +2240,7 @@ const products = [
     salePrice: 7579,
     images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Asus-ProArt-GeForce-RTX-5080-OC-Edition-Graphics-Card-90YV0N30-M0NA00-1_6bcd3a2d-ce37-4857-b8e1-9b60375d6be5.webp?v=1774533370, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Asus-ProArt-GeForce-RTX-5080-OC-Edition-Graphics-Card-90YV0N30-M0NA00-2_79b5a985-7104-450d-853f-9a386bd20d16.webp?v=1774533370, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Asus-ProArt-GeForce-RTX-5080-OC-Edition-Graphics-Card-90YV0N30-M0NA00-3_20d38639-c50a-453b-94a9-0c5df003c194.webp?v=1774533370, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Asus-ProArt-GeForce-RTX-5080-OC-Edition-Graphics-Card-90YV0N30-M0NA00-4_7906cfbe-9336-476b-bb20-e7ebdc108925.webp?v=1774533370, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Asus-ProArt-GeForce-RTX-5080-OC-Edition-Graphics-Card-90YV0N30-M0NA00-5_b781bc16-45c2-4af3-94b6-71fd3cd6f2bd.webp?v=1774533370, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Asus-ProArt-GeForce-RTX-5080-OC-Edition-Graphics-Card-90YV0N30-M0NA00-6_956ee19a-5b62-452f-9d69-b73230ed9cc9.webp?v=1774533370'],
     shortDescription: 'Asus ProArt GeForce RTX 5080 OC Edition Graphics Card, GDDR7 16GB 256-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, Triple Fan Axial-tech Cooling System, 1801 AI TOPS, 1 Year Warranty | 90YV0N30-M0NA00',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5080</li>\n<li>Memory: 16GB GDDR7</li>\n<li>CUDA Cores: 10752</li>\n<li>AI Performance: 1801 AI TOPS</li>\n<li>Bus Standard: PCI Express 5.0</li>\n<li>Engine Clock OC mode: 2730 MHz</li>\n<li>Engine Clock Default mode: 2700 MHz (Boost Clock)</li>\n<li>Memory Speed: 30 Gbps</li>\n<li>Memory Interface: 256-bit</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Maximum Display Support: 4</li>\n<li>Recommended PSU: 850W</li>\n<li>1 Year Warranty</li>\n</ul>',
+    description: '<ul>\n<li>NVIDIA GeForce RTX 5080</li>\n<li>Memory: 16GB GDDR7</li>\n<li>CUDA Cores: 10752</li>\n<li>AI Performance: 1801 AI TOPS</li>\n<li>Bus Standard: PCI Express 5.0</li>\n<li>Engine Clock OC mode: 2730 MHz</li>\n<li>Engine Clock Default mode: 2700 MHz (Boost Clock)</li>\n<li>Memory Speed: 30 Gbps</li>\n<li>Memory Interface: 256-bit</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Maximum Display Support: 4</li>\n<li>Recommended PSU: 850W</li>\n<li>1 Year Warranty</li>\n</ul>',
     specifications: {
 
     },
@@ -2261,7 +2261,7 @@ const products = [
     salePrice: 2029,
     images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Asus-Dual-GeForce-RTX-5060-Ti-OC-Edition-Graphics-Card-90YV0MP3-M0NA00-1_252b6c23-580a-45de-99f7-8989ba9ddf0c.webp?v=1774533367, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Asus-Dual-GeForce-RTX-5060-Ti-OC-Edition-Graphics-Card-90YV0MP3-M0NA00-2_62d845d4-9931-404c-9a0f-9199dc2a6cfc.webp?v=1774533367, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Asus-Dual-GeForce-RTX-5060-Ti-OC-Edition-Graphics-Card-90YV0MP3-M0NA00-3_7647a58f-91e6-4d76-910d-f9dfe24e29ec.webp?v=1774533368, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Asus-Dual-GeForce-RTX-5060-Ti-OC-Edition-Graphics-Card-90YV0MP3-M0NA00-4_ac50b997-0a1f-4581-a56b-3e6d8abb7eb6.webp?v=1774533368'],
     shortDescription: 'Asus Dual GeForce RTX 5060 Ti OC Edition Graphics Card, GDDR7 8GB 128-bit Memory, HDMI 2.1b & DP 2.1b Outputs, Dual Fan Axial-tech Cooling System, 759 AI TOPS, 1 Year Warranty | 90YV0MP3-M0NA00',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5060 Ti</li>\n<li>Memory: 16GB GDDR7</li>\n<li>CUDA Cores: 4608</li>\n<li>AI Performance: 759 AI TOPS</li>\n<li>Bus Standard: PCI Express 5.0</li>\n<li>Engine Clock OC mode: 2602 MHz</li>\n<li>Engine Clock Default mode: 2572 MHz (Boost Clock)</li>\n<li>Memory Speed: 28 Gbps</li>\n<li>Memory Interface: 128-bit</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Maximum Display Support: 4</li>\n<li>Recommended PSU: 550W</li>\n<li>1 Year Warranty</li>\n</ul>',
+    description: '<ul>\n<li>NVIDIA GeForce RTX 5060 Ti</li>\n<li>Memory: 16GB GDDR7</li>\n<li>CUDA Cores: 4608</li>\n<li>AI Performance: 759 AI TOPS</li>\n<li>Bus Standard: PCI Express 5.0</li>\n<li>Engine Clock OC mode: 2602 MHz</li>\n<li>Engine Clock Default mode: 2572 MHz (Boost Clock)</li>\n<li>Memory Speed: 28 Gbps</li>\n<li>Memory Interface: 128-bit</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Maximum Display Support: 4</li>\n<li>Recommended PSU: 550W</li>\n<li>1 Year Warranty</li>\n</ul>',
     specifications: {
 
     },
@@ -2282,7 +2282,7 @@ const products = [
     salePrice: 32119,
     images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Asus-ROG-Matrix-Platinum-GeForce-RTX-5090-Graphics-Card-90YV0NF2-M0NA00-1_6b9644cf-9c4c-488e-8fc4-9091facfece2.webp?v=1774532907, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Asus-ROG-Matrix-Platinum-GeForce-RTX-5090-Graphics-Card-90YV0NF2-M0NA00-2_61c51cd5-967f-4f86-95bf-d3808ffbbd65.webp?v=1774532907, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Asus-ROG-Matrix-Platinum-GeForce-RTX-5090-Graphics-Card-90YV0NF2-M0NA00-3_d8ef3c70-1647-4f73-8038-feaac061409a.webp?v=1774532907, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Asus-ROG-Matrix-Platinum-GeForce-RTX-5090-Graphics-Card-90YV0NF2-M0NA00-4_0971f0c4-772f-4c70-b2bc-8b764b410b4e.webp?v=1774532907, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Asus-ROG-Matrix-Platinum-GeForce-RTX-5090-Graphics-Card-90YV0NF2-M0NA00-5_3ce5d97a-8fee-44ef-b341-85809d8f5604.webp?v=1774532907, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Asus-ROG-Matrix-Platinum-GeForce-RTX-5090-Graphics-Card-90YV0NF2-M0NA00-6_a332d9fc-1cce-4eb6-9bb4-45b7caf14921.webp?v=1774532907'],
     shortDescription: 'Asus ROG Matrix Platinum GeForce RTX 5090 Graphics Card, GDDR7 32GB 512-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2760 MHz OC Core Clock, 28 Gbps Memory Clock, Liquid Cooled 360mm AIO System, 3352 AI TOPS, 1 Year Warranty | 90YV0NF2-M0NA00',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5090</li>\n<li>Memory: 32GB GDDR7</li>\n<li>CUDA Cores: 21760</li>\n<li>AI Performance: 3352 AI TOPS</li>\n<li>Bus Standard: PCI Express 5.0</li>\n<li>Engine Clock OC mode: 2760 MHz</li>\n<li>Engine Clock Default mode: 2730 MHz (Boost Clock)</li>\n<li>Memory Speed: 28 Gbps</li>\n<li>Memory Interface: 512-bit</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Maximum Display Support: 4</li>\n<li>Recommended PSU: 1000W</li>\n<li>1 Year Warranty</li>\n</ul>',
+    description: '<ul>\n<li>NVIDIA GeForce RTX 5090</li>\n<li>Memory: 32GB GDDR7</li>\n<li>CUDA Cores: 21760</li>\n<li>AI Performance: 3352 AI TOPS</li>\n<li>Bus Standard: PCI Express 5.0</li>\n<li>Engine Clock OC mode: 2760 MHz</li>\n<li>Engine Clock Default mode: 2730 MHz (Boost Clock)</li>\n<li>Memory Speed: 28 Gbps</li>\n<li>Memory Interface: 512-bit</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Maximum Display Support: 4</li>\n<li>Recommended PSU: 1000W</li>\n<li>1 Year Warranty</li>\n</ul>',
     specifications: {
 
     },
@@ -2303,7 +2303,7 @@ const products = [
     salePrice: 7699,
     images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Asus-Noctua-OC-Edition-GeForce-RTX-5080-Graphics-Card-90YV0M32-M0NA00-1_bebff2ad-4951-4407-9dca-4f96690bf739.webp?v=1774532908, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Asus-Noctua-OC-Edition-GeForce-RTX-5080-Graphics-Card-90YV0M32-M0NA00-2_fb2bb307-4052-4278-949f-2fdab7821613.webp?v=1774532908, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Asus-Noctua-OC-Edition-GeForce-RTX-5080-Graphics-Card-90YV0M32-M0NA00-3_a431eef8-bdd8-4473-98c7-6b6c7dc9ef80.webp?v=1774532908, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Asus-Noctua-OC-Edition-GeForce-RTX-5080-Graphics-Card-90YV0M32-M0NA00-4_580eb643-1e6d-424b-81e4-4a6b8d0cd403.webp?v=1774532908, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Asus-Noctua-OC-Edition-GeForce-RTX-5080-Graphics-Card-90YV0M32-M0NA00-5_0cd8f688-2a26-4b26-8257-dc7ea987fa4b.webp?v=1774532908, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Asus-Noctua-OC-Edition-GeForce-RTX-5080-Graphics-Card-90YV0M32-M0NA00-6_3f2073c8-00a8-4e4b-a27b-70bf7a888bf8.webp?v=1774532908'],
     shortDescription: 'Asus Noctua OC Edition GeForce RTX 5080 Graphics Card, GDDR7 16GB 256-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2730 MHz OC Core Clock, 30 Gbps Memory Clock, Dual Noctua NF-A12x25 PWM Fans, 1801 AI TOPS, 1 Year Warranty | 90YV0M32-M0NA00',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5080</li>\n<li>Memory: 16GB GDDR7</li>\n<li>CUDA Cores: 10752</li>\n<li>AI Performance: 1801 AI TOPS</li>\n<li>Bus Standard: PCI Express 5.0</li>\n<li>Engine Clock OC mode: 2730 MHz</li>\n<li>Engine Clock Default mode: 2700 MHz (Boost Clock)</li>\n<li>Memory Speed: 30 Gbps</li>\n<li>Memory Interface: 256-bit</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Maximum Display Support: 4</li>\n<li>Recommended PSU: 850W</li>\n<li>1 Year Warranty</li>\n</ul>',
+    description: '<ul>\n<li>NVIDIA GeForce RTX 5080</li>\n<li>Memory: 16GB GDDR7</li>\n<li>CUDA Cores: 10752</li>\n<li>AI Performance: 1801 AI TOPS</li>\n<li>Bus Standard: PCI Express 5.0</li>\n<li>Engine Clock OC mode: 2730 MHz</li>\n<li>Engine Clock Default mode: 2700 MHz (Boost Clock)</li>\n<li>Memory Speed: 30 Gbps</li>\n<li>Memory Interface: 256-bit</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Maximum Display Support: 4</li>\n<li>Recommended PSU: 850W</li>\n<li>1 Year Warranty</li>\n</ul>',
     specifications: {
 
     },
@@ -2324,7 +2324,7 @@ const products = [
     salePrice: 17279,
     images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/PNY-NVIDIA-RTX-PRO-5000-Blackwell-Workstation-Graphics-Card-VCNRTXPRO5000-EDU-2_1f051a20-ccd8-4889-9902-c109ffacf74d.webp?v=1772896420'],
     shortDescription: 'PNY NVIDIA RTX PRO 5000 Blackwell Workstation Graphics Card, 14,080 CUDA Cores, GDDR7 48GB 384-bit Memory, 4x DisplayPort 2.1 Outputs, PCI Express 5.0, 1344 GB/s Memory Bandwidth, Blower Active Fan Cooling System, 1 Year Warranty | VCNRTXPRO5000-EDU',
-    description: '<ul>\n<li>NVIDIA RTX PRO 5000 Blackwell</li>\n<li>Memory: 48GB GDDR7 with ECC</li>\n<li>CUDA Cores: 14080</li>\n<li>Tensor Cores: 440 (5th Generation)</li>\n<li>RT Cores: 110 (4th Generation)</li>\n<li>AI Performance: 2064 AI TOPS</li>\n<li>Single-Precision Performance: 65 TFLOPS</li>\n<li>RT Core Performance: 196 TFLOPS</li>\n<li>Bus Standard: PCI Express 5.0 x16</li>\n<li>Memory Bandwidth: 1344 GB/s</li>\n<li>Memory Interface: 384-bit</li>\n<li>Architecture: NVIDIA Blackwell</li>\n<li>1 Year Warranty</li>\n</ul>',
+    description: '<ul>\n<li>NVIDIA RTX PRO 5000 Blackwell</li>\n<li>Memory: 48GB GDDR7 with ECC</li>\n<li>CUDA Cores: 14080</li>\n<li>Tensor Cores: 440 (5th Generation)</li>\n<li>RT Cores: 110 (4th Generation)</li>\n<li>AI Performance: 2064 AI TOPS</li>\n<li>Single-Precision Performance: 65 TFLOPS</li>\n<li>RT Core Performance: 196 TFLOPS</li>\n<li>Bus Standard: PCI Express 5.0 x16</li>\n<li>Memory Bandwidth: 1344 GB/s</li>\n<li>Memory Interface: 384-bit</li>\n<li>Architecture: NVIDIA Blackwell</li>\n<li>1 Year Warranty</li>\n</ul>',
     specifications: {
 
     },
@@ -2345,7 +2345,7 @@ const products = [
     salePrice: 1699,
     images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-3050-WINDFORCE-OC-V2-Graphics-Card-GV-N3050WF2OCV2-8GD-2_2a8b3835-34fc-49d3-8eca-180183efe6aa.webp?v=1772896392, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-3050-WINDFORCE-OC-V2-Graphics-Card-GV-N3050WF2OCV2-8GD-3_673d86e4-d900-4c7a-ae64-f5e927d064b5.webp?v=1772896392, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-3050-WINDFORCE-OC-V2-Graphics-Card-GV-N3050WF2OCV2-8GD-4_c9020028-2be5-4445-b49e-34e077d37fbf.webp?v=1772896392, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-3050-WINDFORCE-OC-V2-Graphics-Card-GV-N3050WF2OCV2-8GD-5_4c915c48-4825-410e-96e1-5ceb0347d6c8.webp?v=1772896391, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-3050-WINDFORCE-OC-V2-Graphics-Card-GV-N3050WF2OCV2-8GD-6_9eb408dc-85cd-48a0-b890-399018a3ddf5.webp?v=1772896392'],
     shortDescription: 'Gigabyte GeForce RTX 3050 WINDFORCE OC V2 Graphics Card, GDDR6 6GB 96-bit Memory, HDMI 2.1 & DP 1.4 Outputs, PCI Express 4.0, 1792 MHz Core Clock, 14000 MHz Memory Clock, Dual Fan Windforce Cooling System, 1 Year Warranty | GV-N3050WF2OCV2-8GD',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 3050</li>\n<li>Memory: 6GB GDDR6</li>\n<li>CUDA Cores: 2304</li>\n<li>Bus Standard: PCI Express 4.0</li>\n<li>Core Clock: 1792 MHz</li>\n<li>Memory Speed: 14000 MHz (14 Gbps)</li>\n<li>Memory Interface: 96-bit</li>\n<li>Architecture: NVIDIA Ampere</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>1 Year Warranty</li>\n</ul>',
+    description: '<ul>\n<li>NVIDIA GeForce RTX 3050</li>\n<li>Memory: 6GB GDDR6</li>\n<li>CUDA Cores: 2304</li>\n<li>Bus Standard: PCI Express 4.0</li>\n<li>Core Clock: 1792 MHz</li>\n<li>Memory Speed: 14000 MHz (14 Gbps)</li>\n<li>Memory Interface: 96-bit</li>\n<li>Architecture: NVIDIA Ampere</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>1 Year Warranty</li>\n</ul>',
     specifications: {
 
     },
@@ -2366,7 +2366,7 @@ const products = [
     salePrice: 3459,
     images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Asus-Prime-Radeon-RX-9070-EVO-OC-Edition-Graphics-Card-90YV0MQ0-M0NA00-2_17eca4d0-c2c1-4411-b43e-67a4735759ee.webp?v=1772896383, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Asus-Prime-Radeon-RX-9070-EVO-OC-Edition-Graphics-Card-90YV0MQ0-M0NA00-3_bb2e083f-4961-4ffc-832d-935d14d522b5.webp?v=1772896383, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Asus-Prime-Radeon-RX-9070-EVO-OC-Edition-Graphics-Card-90YV0MQ0-M0NA00-4_aec03d49-9639-4699-9859-98742c7cb6e1.webp?v=1772896383, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Asus-Prime-Radeon-RX-9070-EVO-OC-Edition-Graphics-Card-90YV0MQ0-M0NA00-5_b797d8dc-2d9f-4871-afec-db815d74de6a.webp?v=1772896383, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Asus-Prime-Radeon-RX-9070-EVO-OC-Edition-Graphics-Card-90YV0MQ0-M0NA00-6_1ec546b5-78ed-4247-8f2f-76ed76ad308c.webp?v=1772896383'],
     shortDescription: 'Asus Prime Radeon RX 9070 EVO OC Edition Graphics Card, GDDR6 16GB 256-bit Memory, HDMI 2.1 & DP 2.1 Outputs, PCI Express 5.0, 2610 MHz OC Mode Core Clock, 20 Gbps Memory Clock, 578 AI TOPS, 1 Year Warranty | 90YV0MQ0-M0NA00',
-    description: '<ul>\n<li>AMD Radeon RX 9070</li>\n<li>Memory: 16GB GDDR6</li>\n<li>Stream Processors: 3584</li>\n<li>AI Performance: 578 AI TOPS (Peak FP8 with Sparsity)</li>\n<li>Bus Standard: PCI Express 5.0</li>\n<li>Engine Clock OC mode: up to 2610 MHz</li>\n<li>Engine Clock Default mode: up to 2590 MHz (Boost Clock)</li>\n<li>Memory Speed: 20 Gbps</li>\n<li>Memory Interface: 256-bit</li>\n<li>Architecture: AMD RDNA 4</li>\n<li>1 Year Warranty</li>\n</ul>',
+    description: '<ul>\n<li>AMD Radeon RX 9070</li>\n<li>Memory: 16GB GDDR6</li>\n<li>Stream Processors: 3584</li>\n<li>AI Performance: 578 AI TOPS (Peak FP8 with Sparsity)</li>\n<li>Bus Standard: PCI Express 5.0</li>\n<li>Engine Clock OC mode: up to 2610 MHz</li>\n<li>Engine Clock Default mode: up to 2590 MHz (Boost Clock)</li>\n<li>Memory Speed: 20 Gbps</li>\n<li>Memory Interface: 256-bit</li>\n<li>Architecture: AMD RDNA 4</li>\n<li>1 Year Warranty</li>\n</ul>',
     specifications: {
 
     },
@@ -2387,7 +2387,7 @@ const products = [
     salePrice: 25269,
     images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Asus-TUF-Gaming-GeForce-RTX-5090-OC-Edition-Graphics-Card-90YV0LY0-M0NA00-2_5e37f788-18bc-433a-9aed-bb5ce0f3066d.webp?v=1772896376, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Asus-TUF-Gaming-GeForce-RTX-5090-OC-Edition-Graphics-Card-90YV0LY0-M0NA00-3_c9f70e4a-e164-430f-81b8-a0394c81cce2.webp?v=1772896376, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Asus-TUF-Gaming-GeForce-RTX-5090-OC-Edition-Graphics-Card-90YV0LY0-M0NA00-4_b84c972a-fcab-4682-8ffa-b3d41141de59.webp?v=1772896376, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Asus-TUF-Gaming-GeForce-RTX-5090-OC-Edition-Graphics-Card-90YV0LY0-M0NA00-5_906f8dbc-0062-41f7-b4ad-e0924bfec0a0.webp?v=1772896376, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Asus-TUF-Gaming-GeForce-RTX-5090-OC-Edition-Graphics-Card-90YV0LY0-M0NA00-6_bd5f6435-7730-43df-8244-ca6dfe6f2d5e.webp?v=1772896376'],
     shortDescription: 'Asus TUF Gaming GeForce RTX 5090 OC Edition Graphics Card, GDDR7 32GB 512-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2580 MHz OC Mode Core Clock, 28 Gbps Memory Clock, 3352 AI TOPS, 1 Year Warranty | 90YV0LY0-M0NA00',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5090</li>\n<li>Memory: 32GB GDDR7</li>\n<li>CUDA Cores: 21760</li>\n<li>AI Performance: 3352 AI TOPS</li>\n<li>Bus Standard: PCI Express 5.0</li>\n<li>Engine Clock OC mode: 2580 MHz</li>\n<li>Engine Clock Default mode: 2550 MHz (Boost Clock)</li>\n<li>Memory Speed: 28 Gbps</li>\n<li>Memory Interface: 512-bit</li>\n<li>1 Year Warranty</li>\n</ul>',
+    description: '<ul>\n<li>NVIDIA GeForce RTX 5090</li>\n<li>Memory: 32GB GDDR7</li>\n<li>CUDA Cores: 21760</li>\n<li>AI Performance: 3352 AI TOPS</li>\n<li>Bus Standard: PCI Express 5.0</li>\n<li>Engine Clock OC mode: 2580 MHz</li>\n<li>Engine Clock Default mode: 2550 MHz (Boost Clock)</li>\n<li>Memory Speed: 28 Gbps</li>\n<li>Memory Interface: 512-bit</li>\n<li>1 Year Warranty</li>\n</ul>',
     specifications: {
 
     },
@@ -2408,7 +2408,7 @@ const products = [
     salePrice: 4329,
     images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Asus-ProArt-GeForce-RTX-5070-Ti-OC-Edition-Graphics-Card-90YV0NR0-M0NA00-2_bf17b3b3-3320-4906-a43c-33277bff94ec.webp?v=1772896357, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Asus-ProArt-GeForce-RTX-5070-Ti-OC-Edition-Graphics-Card-90YV0NR0-M0NA00-3_081c03be-9755-4de9-b1ed-74a066c722a2.webp?v=1772896357, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Asus-ProArt-GeForce-RTX-5070-Ti-OC-Edition-Graphics-Card-90YV0NR0-M0NA00-4_e535d254-327d-463f-a5e7-eea1f248ebfa.webp?v=1772896357, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Asus-ProArt-GeForce-RTX-5070-Ti-OC-Edition-Graphics-Card-90YV0NR0-M0NA00-5_e864f434-2e42-4542-8eb0-1be4341286ac.webp?v=1772896357, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Asus-ProArt-GeForce-RTX-5070-Ti-OC-Edition-Graphics-Card-90YV0NR0-M0NA00-6_ff6ce760-a4eb-431c-b609-0bce68c91e64.webp?v=1772896357'],
     shortDescription: 'Asus ProArt GeForce RTX 5070 Ti OC Edition Graphics Card, GDDR7 16GB 256-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2610 MHz OC Mode Core Clock, 28 Gbps Memory Clock, 1406 AI TOPS, 1 Year Warranty | 90YV0NR0-M0NA00',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5070 Ti</li>\n<li>Memory: 16GB GDDR7</li>\n<li>CUDA Cores: 8960</li>\n<li>AI Performance: 1406 AI TOPS</li>\n<li>Bus Standard: PCI Express 5.0</li>\n<li>Engine Clock OC mode: 2610 MHz</li>\n<li>Engine Clock Default mode: 2588 MHz (Boost Clock)</li>\n<li>Memory Speed: 28 Gbps</li>\n<li>Memory Interface: 256-bit</li>\n<li>1 Year Warranty</li>\n</ul>',
+    description: '<ul>\n<li>NVIDIA GeForce RTX 5070 Ti</li>\n<li>Memory: 16GB GDDR7</li>\n<li>CUDA Cores: 8960</li>\n<li>AI Performance: 1406 AI TOPS</li>\n<li>Bus Standard: PCI Express 5.0</li>\n<li>Engine Clock OC mode: 2610 MHz</li>\n<li>Engine Clock Default mode: 2588 MHz (Boost Clock)</li>\n<li>Memory Speed: 28 Gbps</li>\n<li>Memory Interface: 256-bit</li>\n<li>1 Year Warranty</li>\n</ul>',
     specifications: {
 
     },
@@ -2429,7 +2429,7 @@ const products = [
     salePrice: 1449,
     images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Asus-Prime-GeForce-RTX-5050-OC-Edition-Graphics-Card-90YV0N70-M0NA00-2_6348b3b2-3741-43b8-8c1c-919f55edc236.webp?v=1772896349, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Asus-Prime-GeForce-RTX-5050-OC-Edition-Graphics-Card-90YV0N70-M0NA00-3_3b3822ca-4c3e-4a41-9cd1-25332e821f80.webp?v=1772896349, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Asus-Prime-GeForce-RTX-5050-OC-Edition-Graphics-Card-90YV0N70-M0NA00-4_2fa28046-6b6b-43c4-a03b-c06d583f9db2.webp?v=1772896349, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Asus-Prime-GeForce-RTX-5050-OC-Edition-Graphics-Card-90YV0N70-M0NA00-5_d34f49f0-8143-42ab-9e5a-e0b57356d75e.webp?v=1772896349, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Asus-Prime-GeForce-RTX-5050-OC-Edition-Graphics-Card-90YV0N70-M0NA00-6_5c6cd853-04f3-4b46-91ca-b70d6943fe2b.webp?v=1772896349'],
     shortDescription: 'Asus Prime GeForce RTX 5050 OC Edition Graphics Card, GDDR6 8GB 128-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2707 MHz OC Mode Core Clock, 20 Gbps Memory Clock, 421 AI TOPS, 1 Year Warranty | 90YV0N70-M0NA00',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5050</li>\n<li>Memory: 8GB GDDR6</li>\n<li>CUDA Cores: 2560</li>\n<li>AI Performance: 421 AI TOPS</li>\n<li>Bus Standard: PCI Express 5.0</li>\n<li>Engine Clock OC mode: 2707 MHz</li>\n<li>Engine Clock Default mode: 2677 MHz (Boost Clock)</li>\n<li>Memory Speed: 20 Gbps</li>\n<li>Memory Interface: 128-bit</li>\n<li>1 Year Warranty</li>\n</ul>',
+    description: '<ul>\n<li>NVIDIA GeForce RTX 5050</li>\n<li>Memory: 8GB GDDR6</li>\n<li>CUDA Cores: 2560</li>\n<li>AI Performance: 421 AI TOPS</li>\n<li>Bus Standard: PCI Express 5.0</li>\n<li>Engine Clock OC mode: 2707 MHz</li>\n<li>Engine Clock Default mode: 2677 MHz (Boost Clock)</li>\n<li>Memory Speed: 20 Gbps</li>\n<li>Memory Interface: 128-bit</li>\n<li>1 Year Warranty</li>\n</ul>',
     specifications: {
 
     },
@@ -2450,7 +2450,7 @@ const products = [
     salePrice: 4789,
     images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5070Ti-GV-N507TEAGLEOC-ICE-1-1-1762424162932_4694fcaf-9f10-4553-895e-79ff16c65b94.webp?v=1772867304, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5070Ti-GV-N507TEAGLEOC-ICE-1-2-1762424162933.webp?v=1772867305, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5070Ti-GV-N507TEAGLEOC-ICE-1-3-1762424162951.webp?v=1772867304, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5070Ti-GV-N507TEAGLEOC-ICE-1-4-1762424162951.webp?v=1772867304, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5070Ti-GV-N507TEAGLEOC-ICE-1-5-1762424162974.webp?v=1772867304, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5070Ti-GV-N507TWF30C-16GD-1-1762424163039_1ac1eca9-dcc8-43dd-a4a8-95f5a388b5e6.webp?v=1772867304'],
     shortDescription: 'Gigabyte EAGLE OC ICE GeForce RTX 5070 Ti Small Form Factor Graphics Card, GDDR7 16GB 256-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2542 MHz Core Clock, 28 Gbps Memory Clock, Triple Windforce Hawk Fans, Dual BIOS, White, 1 Year Warranty',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5070 Ti</li>\n<li>Memory: GDDR7 16GB</li>\n<li>Engine Clock: 2542 MHz</li>\n<li>CUDA Core: 8960</li>\n<li>AI Performance: 1406 TOPS</li>\n<li>Memory Speed: 28 Gbps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 256-bit</li>\n<li>Power Connectors: 1 x 16-pin</li>\n<li>1 Year Warranty</li>\n</ul>',
+    description: '<ul>\n<li>NVIDIA GeForce RTX 5070 Ti</li>\n<li>Memory: GDDR7 16GB</li>\n<li>Engine Clock: 2542 MHz</li>\n<li>CUDA Core: 8960</li>\n<li>AI Performance: 1406 TOPS</li>\n<li>Memory Speed: 28 Gbps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 256-bit</li>\n<li>Power Connectors: 1 x 16-pin</li>\n<li>1 Year Warranty</li>\n</ul>',
     specifications: {
 
     },
@@ -2471,7 +2471,7 @@ const products = [
     salePrice: 4669,
     images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5070Ti-GV-N507TWF30C-16GD-1-1762424163039_59001dd7-6b27-4e9e-aaf2-9677b7b2068f.webp?v=1772867305, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5070Ti-GV-N507TWF30C-16GD-3-1762424163112.webp?v=1772867305, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5070Ti-GV-N507TWF30C-16GD-4-1762424163414.webp?v=1772867305'],
     shortDescription: 'Gigabyte WINDFORCE OC GeForce RTX 5070 Ti Small Form Factor Graphics Card, GDDR7 16GB 256-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2497 MHz Core Clock, 28 Gbps Memory Clock, Triple Windforce Hawk Fans, Dual BIOS, 1 Year Warranty |',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5070 Ti</li>\n<li>Memory: GDDR7 16GB</li>\n<li>Engine Clock: 2497 MHz</li>\n<li>CUDA Core: 8960</li>\n<li>AI Performance: 1406 TOPS</li>\n<li>Memory Speed: 28 Gbps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 256-bit</li>\n<li>Power Connectors: 1 x 16-pin</li>\n<li>1 Year Warranty</li>\n</ul>',
+    description: '<ul>\n<li>NVIDIA GeForce RTX 5070 Ti</li>\n<li>Memory: GDDR7 16GB</li>\n<li>Engine Clock: 2497 MHz</li>\n<li>CUDA Core: 8960</li>\n<li>AI Performance: 1406 TOPS</li>\n<li>Memory Speed: 28 Gbps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 256-bit</li>\n<li>Power Connectors: 1 x 16-pin</li>\n<li>1 Year Warranty</li>\n</ul>',
     specifications: {
 
     },
@@ -2492,7 +2492,7 @@ const products = [
     salePrice: 4269,
     images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5070Ti-GV-N507TWF3-16GD-2-1762424163014.webp?v=1771137122'],
     shortDescription: 'Gigabyte WINDFORCE GeForce RTX 5070 Ti Small Form Factor Graphics Card, GDDR7 16GB 256-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2452 MHz Core Clock, 28 Gbps Memory Clock, Triple Windforce Hawk Fans, Dual BIOS, 1 Year Warranty |',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5070 Ti</li>\n<li>Memory: GDDR7 16GB</li>\n<li>Engine Clock: 2452 MHz</li>\n<li>CUDA Core: 8960</li>\n<li>AI Performance: 1406 TOPS</li>\n<li>Memory Speed: 28 Gbps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 256-bit</li>\n<li>Power Connectors: 1 x 16-pin</li>\n<li>1 Year Warranty</li>\n</ul>',
+    description: '<ul>\n<li>NVIDIA GeForce RTX 5070 Ti</li>\n<li>Memory: GDDR7 16GB</li>\n<li>Engine Clock: 2452 MHz</li>\n<li>CUDA Core: 8960</li>\n<li>AI Performance: 1406 TOPS</li>\n<li>Memory Speed: 28 Gbps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 256-bit</li>\n<li>Power Connectors: 1 x 16-pin</li>\n<li>1 Year Warranty</li>\n</ul>',
     specifications: {
 
     },
@@ -2513,7 +2513,7 @@ const products = [
     salePrice: 4569,
     images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5070Ti-GV-N507TEAGLE-OC-16G-1-1762424162911_c0051fca-0b4b-4396-b08e-ce16f8d0da01.webp?v=1773247448, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5070Ti-GV-N507TEAGLE-OC-16G-2-1762424162918.webp?v=1773247448, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5070Ti-GV-N507TEAGLE-OC-16G-3-1762424162925.webp?v=1773247448, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5070Ti-GV-N507TEAGLE-OC-16G-4-1762424162929.webp?v=1773247448, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5070Ti-GV-N507TEAGLE-OC-16G-5-1762424162931.webp?v=1773247448, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5070Ti-GV-N507TEAGLE-OC-16G-6-1762424162931.webp?v=1773247448'],
     shortDescription: 'Gigabyte EAGLE OC GeForce RTX 5070 Ti Small Form Factor Graphics Card, GDDR7 16GB 256-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2588 MHz Core Clock, 28 Gbps Memory Clock, Triple Windforce Hawk Fans, Dual BIOS, 1 Year Warranty |',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5070 Ti</li>\n<li>Memory: GDDR7 16GB</li>\n<li>Engine Clock: 2542 MHz</li>\n<li>CUDA Core: 8960</li>\n<li>AI Performance: 1406 TOPS</li>\n<li>Memory Speed: 28 Gbps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 256-bit</li>\n<li>Power Connectors: 1 x 16-pin</li>\n<li>1 Year Warranty</li>\n</ul>',
+    description: '<ul>\n<li>NVIDIA GeForce RTX 5070 Ti</li>\n<li>Memory: GDDR7 16GB</li>\n<li>Engine Clock: 2542 MHz</li>\n<li>CUDA Core: 8960</li>\n<li>AI Performance: 1406 TOPS</li>\n<li>Memory Speed: 28 Gbps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 256-bit</li>\n<li>Power Connectors: 1 x 16-pin</li>\n<li>1 Year Warranty</li>\n</ul>',
     specifications: {
 
     },
@@ -2534,7 +2534,7 @@ const products = [
     salePrice: 4959,
     images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5070Ti-GV-N507TAERO-OC-16GD-2-1762424162838.webp?v=1771137103'],
     shortDescription: 'Gigabyte AERO OC GeForce RTX 5070 Ti RGB Graphics Card, GDDR7 16GB 256-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2588 MHz Core Clock, 28 Gbps Memory Clock, Triple Windforce Hawk Fans, Dual BIOS, White, 1 Year Warranty |',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5070 Ti</li>\n<li>Memory: GDDR7 16GB</li>\n<li>Engine Clock: 2588 MHz</li>\n<li>CUDA Core: 8960</li>\n<li>AI Performance: 1406 TOPS</li>\n<li>Memory Speed: 28 Gbps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 256-bit</li>\n<li>Power Connectors: 1 x 16-pin</li>\n<li>1 Year Warranty</li>\n</ul>',
+    description: '<ul>\n<li>NVIDIA GeForce RTX 5070 Ti</li>\n<li>Memory: GDDR7 16GB</li>\n<li>Engine Clock: 2588 MHz</li>\n<li>CUDA Core: 8960</li>\n<li>AI Performance: 1406 TOPS</li>\n<li>Memory Speed: 28 Gbps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 256-bit</li>\n<li>Power Connectors: 1 x 16-pin</li>\n<li>1 Year Warranty</li>\n</ul>',
     specifications: {
 
     },
@@ -2555,7 +2555,7 @@ const products = [
     salePrice: 3619,
     images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-Radeon-RX-9070XT-GV-R9070XTGAMINGOC-16-1-1762526147485_b7b7fbc4-6727-4427-a728-aeab472c6773.webp?v=1773247449, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-Radeon-RX-9070XT-GV-R9070XTGAMINGOC-16-2-1762526147485.webp?v=1773247449, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-Radeon-RX-9070XT-GV-R9070XTGAMINGOC-16-3-1762526147501.webp?v=1773247449, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-Radeon-RX-9070XT-GV-R9070XTGAMINGOC-16-4-1762526147526.webp?v=1773247449, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-Radeon-RX-9070XT-GV-R9070XTGAMINGOC-16-6-1762526147526.webp?v=1773247449'],
     shortDescription: 'Gigabyte GAMING OC AMD Radeon RX 9070 XT Graphics Card, GDDR6 16GB 256-bit Memory, HDMI 2.1b & DP 2.1a Outputs, PCI Express 5.0, 3060 MHz Boost Clock, 20 Gbps Memory Clock, Triple Fan Windforce Cooling System, Dual BIOS, RGB Lighting, 1 Year Warranty |',
-    description: '<ul>\n<li>AMD Radeon RX 9070 XT</li>\n<li>Memory: GDDR6 16GB</li>\n<li>Boost Clock: 3060 MHz</li>\n<li>Stream Processors: 4096</li>\n<li>AI Performance: 779 TOPS</li>\n<li>Memory Speed: 20 Gbps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 256-bit</li>\n<li>Power Connectors: 3 x 8-pin</li>\n<li>1 Year Warranty</li>\n</ul>',
+    description: '<ul>\n<li>AMD Radeon RX 9070 XT</li>\n<li>Memory: GDDR6 16GB</li>\n<li>Boost Clock: 3060 MHz</li>\n<li>Stream Processors: 4096</li>\n<li>AI Performance: 779 TOPS</li>\n<li>Memory Speed: 20 Gbps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 256-bit</li>\n<li>Power Connectors: 3 x 8-pin</li>\n<li>1 Year Warranty</li>\n</ul>',
     specifications: {
 
     },
@@ -2576,7 +2576,7 @@ const products = [
     salePrice: 3819,
     images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-Radeon-RX-9070XT-GV-R9070XTAORUS-E-16G-2-1762526147454.webp?v=1771137077'],
     shortDescription: 'Gigabyte AORUS ELITE AMD Radeon RX 9070 XT Graphics Card, GDDR6 16GB 256-bit Memory, HDMI 2.1b & DP 2.1a Outputs, PCI Express 5.0, 3100 MHz Boost Clock, 20 Gbps Memory Clock, Triple Fan Windforce Cooling System, Dual BIOS, RGB Halo, 1 Year Warranty |',
-    description: '<ul>\n<li>AMD Radeon RX 9070 XT</li>\n<li>Memory: GDDR6 16GB</li>\n<li>Boost Clock: 3100 MHz</li>\n<li>Stream Processors: 4096</li>\n<li>AI Performance: 779 TOPS</li>\n<li>Memory Speed: 20 Gbps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 256-bit</li>\n<li>Power Connectors: 3 x 8-pin</li>\n<li>1 Year Warranty</li>\n</ul>',
+    description: '<ul>\n<li>AMD Radeon RX 9070 XT</li>\n<li>Memory: GDDR6 16GB</li>\n<li>Boost Clock: 3100 MHz</li>\n<li>Stream Processors: 4096</li>\n<li>AI Performance: 779 TOPS</li>\n<li>Memory Speed: 20 Gbps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 256-bit</li>\n<li>Power Connectors: 3 x 8-pin</li>\n<li>1 Year Warranty</li>\n</ul>',
     specifications: {
 
     },
@@ -2597,7 +2597,7 @@ const products = [
     salePrice: 3789,
     images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-4070Ti-Super-GV-N407TSEAGLE-OC-16G-1-1762526146312_14e670ee-93bd-4c84-911e-bed565726a92.webp?v=1773247451, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-4070Ti-Super-GV-N407TSEAGLE-OC-16G-2-1762526146313.webp?v=1773247451'],
     shortDescription: 'Gigabyte EAGLE OC GeForce RTX 4070 Ti Super Graphics Card, GDDR6X 16GB 256-bit Memory, HDMI 2.1a & DP 1.4a Outputs, PCI Express 4.0, 2640 MHz Core Clock, 21 Gbps Memory Clock, RGB Fusion, Dual BIOS, Triple Fan Windforce Cooling System, 1 Year Warranty |',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 4070 Ti Super</li>\n<li>Memory: GDDR6X 16GB</li>\n<li>Engine Clock: 2640 MHz</li>\n<li>CUDA Core: 8448</li>\n<li>AI Performance: 706 TOPS</li>\n<li>Memory Speed: 21 Gbps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 256-bit</li>\n<li>Power Connectors: 1 x 16-pin</li>\n<li>1 Year Warranty</li>\n</ul>',
+    description: '<ul>\n<li>NVIDIA GeForce RTX 4070 Ti Super</li>\n<li>Memory: GDDR6X 16GB</li>\n<li>Engine Clock: 2640 MHz</li>\n<li>CUDA Core: 8448</li>\n<li>AI Performance: 706 TOPS</li>\n<li>Memory Speed: 21 Gbps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 256-bit</li>\n<li>Power Connectors: 1 x 16-pin</li>\n<li>1 Year Warranty</li>\n</ul>',
     specifications: {
 
     },
@@ -2618,7 +2618,7 @@ const products = [
     salePrice: 17279,
     images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5090-GV-N5090AORUSX-W-32GD-1-1762526147349_c1ac1d00-7ba6-4f3c-acbb-801030a2bddd.webp?v=1773247452, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5090-GV-N5090AORUSX-W-32GD-2-1762526147365.webp?v=1773247452, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5090-GV-N5090AORUSX-W-32GD-3-1762526147371.webp?v=1773247452, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5090-GV-N5090AORUSX-W-32GD-4-1762526147371.webp?v=1773247452, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5090-GV-N5090AORUSX-W-32GD-5-1762526147375.webp?v=1773247452, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5090-GV-N5090AORUSX-W-32GD-6-1762526147407.webp?v=1773247452'],
     shortDescription: 'Gigabyte AORUS GeForce RTX 5090 XTREME WATERFORCE Graphics Card, GDDR7 32GB 512-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2655 MHz Core Clock, 28 Gbps Memory Clock, Waterforce All-In-One Cooling System, 1 Year Warranty |',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5090</li>\n<li>Memory: GDDR7 32GB</li>\n<li>Engine Clock: 2655 MHz</li>\n<li>CUDA Core: 21760</li>\n<li>AI Performance: 3352 TOPS</li>\n<li>Memory Speed: 28 Gbps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 512-bit</li>\n<li>Power Connectors: 1 x 16-pin</li>\n<li>1 Year Warranty</li>\n</ul>',
+    description: '<ul>\n<li>NVIDIA GeForce RTX 5090</li>\n<li>Memory: GDDR7 32GB</li>\n<li>Engine Clock: 2655 MHz</li>\n<li>CUDA Core: 21760</li>\n<li>AI Performance: 3352 TOPS</li>\n<li>Memory Speed: 28 Gbps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 512-bit</li>\n<li>Power Connectors: 1 x 16-pin</li>\n<li>1 Year Warranty</li>\n</ul>',
     specifications: {
 
     },
@@ -2639,7 +2639,7 @@ const products = [
     salePrice: 16709,
     images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5090-GV-N5090AORUS-M-ICE-3-1-1762526146915_06857c17-84bc-4837-a994-ff46990b70cf.webp?v=1773247453, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5090-GV-N5090AORUS-M-ICE-3-2-1762526147208.webp?v=1773247453, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5090-GV-N5090AORUS-M-ICE-3-3-1762526147336.webp?v=1773247453, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5090-GV-N5090AORUS-M-ICE-3-4-1762526147348.webp?v=1773247453, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5090-GV-N5090AORUS-M-ICE-3-5-1762526147348.webp?v=1773247453, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5090-GV-N5090AORUS-M-ICE-3-6-1762526147349.webp?v=1773247453'],
     shortDescription: 'Gigabyte AORUS MASTER ICE GeForce RTX 5090 Graphics Card, GDDR7 32GB 512-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2655 MHz Core Clock, 28 Gbps Memory Clock, Triple Windforce Hawk Fans, LCD Edge View, RGB Halo, Dual BIOS, White, 1 Year',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5090</li>\n<li>Memory: GDDR7 32GB</li>\n<li>Engine Clock: 2655 MHz</li>\n<li>CUDA Core: 21760</li>\n<li>AI Performance: 3352 TOPS</li>\n<li>Memory Speed: 28 Gbps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 512-bit</li>\n<li>Power Connectors: 1 x 16-pin</li>\n<li>1 Year Warranty</li>\n</ul>',
+    description: '<ul>\n<li>NVIDIA GeForce RTX 5090</li>\n<li>Memory: GDDR7 32GB</li>\n<li>Engine Clock: 2655 MHz</li>\n<li>CUDA Core: 21760</li>\n<li>AI Performance: 3352 TOPS</li>\n<li>Memory Speed: 28 Gbps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 512-bit</li>\n<li>Power Connectors: 1 x 16-pin</li>\n<li>1 Year Warranty</li>\n</ul>',
     specifications: {
 
     },
@@ -2660,7 +2660,7 @@ const products = [
     salePrice: 6039,
     images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5080-GV-N5080WF3-16GD-2-1762526146738.webp?v=1771137033'],
     shortDescription: 'Gigabyte WINDFORCE GeForce RTX 5080 Small Form Factor Graphics Card, GDDR7 16GB 256-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2617 MHz Core Clock, 30 Gbps Memory Clock, Triple Windforce Hawk Fans, Dual BIOS, 1 Year Warranty |',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5080</li>\n<li>Memory: GDDR7 16GB</li>\n<li>Engine Clock: 2617 MHz</li>\n<li>CUDA Core: 10752</li>\n<li>AI Performance: 1801 TOPS</li>\n<li>Memory Speed: 30 Gbps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 256-bit</li>\n<li>Power Connectors: 1 x 16-pin</li>\n<li>1 Year Warranty</li>\n</ul>',
+    description: '<ul>\n<li>NVIDIA GeForce RTX 5080</li>\n<li>Memory: GDDR7 16GB</li>\n<li>Engine Clock: 2617 MHz</li>\n<li>CUDA Core: 10752</li>\n<li>AI Performance: 1801 TOPS</li>\n<li>Memory Speed: 30 Gbps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 256-bit</li>\n<li>Power Connectors: 1 x 16-pin</li>\n<li>1 Year Warranty</li>\n</ul>',
     specifications: {
 
     },
@@ -2681,7 +2681,7 @@ const products = [
     salePrice: 6229,
     images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5080-GV-N5080WF3OC-16GD-2-1762526146761.webp?v=1771137027'],
     shortDescription: 'Gigabyte WINDFORCE OC GeForce RTX 5080 Small Form Factor Graphics Card, GDDR7 16GB 256-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2670 MHz Core Clock, 30 Gbps Memory Clock, Triple Windforce Hawk Fans, Dual BIOS, 1 Year Warranty |',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5080</li>\n<li>Memory: GDDR7 16GB</li>\n<li>Engine Clock: 2670 MHz</li>\n<li>CUDA Core: 10752</li>\n<li>AI Performance: 1801 TOPS</li>\n<li>Memory Speed: 30 Gbps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 256-bit</li>\n<li>Power Connectors: 1 x 16-pin</li>\n<li>1 Year Warranty</li>\n</ul>',
+    description: '<ul>\n<li>NVIDIA GeForce RTX 5080</li>\n<li>Memory: GDDR7 16GB</li>\n<li>Engine Clock: 2670 MHz</li>\n<li>CUDA Core: 10752</li>\n<li>AI Performance: 1801 TOPS</li>\n<li>Memory Speed: 30 Gbps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 256-bit</li>\n<li>Power Connectors: 1 x 16-pin</li>\n<li>1 Year Warranty</li>\n</ul>',
     specifications: {
 
     },
@@ -2702,7 +2702,7 @@ const products = [
     salePrice: 7409,
     images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5080-GV-N5080AORUSM-ICE-16-1-1762526146524_0bb41caf-0421-481c-aaa4-4186f59d2321.webp?v=1773247454, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5080-GV-N5080AORUSM-ICE-16-2-1762526146525.webp?v=1773247453, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5080-GV-N5080AORUSM-ICE-16-3-1762526146558.webp?v=1773247453, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5080-GV-N5080AORUSM-ICE-16-4-1762526146614.webp?v=1773247453, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5080-GV-N5080AORUSM-ICE-16-5-1762526146619.webp?v=1773247453, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5080-GV-N5080AORUSM-ICE-16-6-1762526146620.webp?v=1773247453'],
     shortDescription: 'Gigabyte AORUS GeForce RTX 5080 MASTER ICE Graphics Card, GDDR7 16GB 256-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2805 MHz Core Clock, 30 Gbps Memory Clock, Triple Windforce Hawk Fans, LCD Edge View, RGB Halo, Dual BIOS, White, 1 Year',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5080</li>\n<li>Memory: GDDR7 16GB</li>\n<li>Engine Clock: 2805 MHz</li>\n<li>CUDA Core: 10752</li>\n<li>AI Performance: 1801 TOPS</li>\n<li>Memory Speed: 30 Gbps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 256-bit</li>\n<li>Power Connectors: 1 x 16-pin</li>\n<li>1 Year Warranty</li>\n</ul>',
+    description: '<ul>\n<li>NVIDIA GeForce RTX 5080</li>\n<li>Memory: GDDR7 16GB</li>\n<li>Engine Clock: 2805 MHz</li>\n<li>CUDA Core: 10752</li>\n<li>AI Performance: 1801 TOPS</li>\n<li>Memory Speed: 30 Gbps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 256-bit</li>\n<li>Power Connectors: 1 x 16-pin</li>\n<li>1 Year Warranty</li>\n</ul>',
     specifications: {
 
     },
@@ -2723,7 +2723,7 @@ const products = [
     salePrice: 7179,
     images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5080-GV-N5080AEROOC-16GD-1-1762526146461_4f60a770-0f54-428f-9b3c-6e441618bed3.webp?v=1773247454, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5080-GV-N5080AEROOC-16GD-2-1762526146462.webp?v=1773247454, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5080-GV-N5080AEROOC-16GD-3-1762526146479.webp?v=1773247454, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5080-GV-N5080AEROOC-16GD-4-1762526146522.webp?v=1773247454, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5080-GV-N5080AEROOC-16GD-5-1762526146522.webp?v=1773247454, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5080-GV-N5080AEROOC-16GD-6-1762526146524.webp?v=1773247454'],
     shortDescription: 'Gigabyte AERO OC GeForce RTX 5080 Small Form Factor Graphics Card, GDDR7 16GB 256-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2730 MHz Core Clock, 30 Gbps Memory Clock, Triple Windforce Hawk Fans, Dual BIOS, White, 1 Year Warranty |',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5080</li>\n<li>Memory: GDDR7 16GB</li>\n<li>Engine Clock: 2730 MHz</li>\n<li>CUDA Core: 10752</li>\n<li>AI Performance: 1801 TOPS</li>\n<li>Memory Speed: 30 Gbps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 256-bit</li>\n<li>Power Connectors: 1 x 16-pin</li>\n<li>1 Year Warranty</li>\n</ul>',
+    description: '<ul>\n<li>NVIDIA GeForce RTX 5080</li>\n<li>Memory: GDDR7 16GB</li>\n<li>Engine Clock: 2730 MHz</li>\n<li>CUDA Core: 10752</li>\n<li>AI Performance: 1801 TOPS</li>\n<li>Memory Speed: 30 Gbps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 256-bit</li>\n<li>Power Connectors: 1 x 16-pin</li>\n<li>1 Year Warranty</li>\n</ul>',
     specifications: {
 
     },
@@ -2744,7 +2744,7 @@ const products = [
     salePrice: 3559,
     images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5070-GV-N5070GAMING-OC-12G-1.webp?v=1772598069, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5070-GV-N5070GAMING-OC-12G-2.webp?v=1772598069, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5070-GV-N5070GAMING-OC-12G-4.webp?v=1772598069, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5070-GV-N5070GAMING-OC-12G-6.webp?v=1772029096, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5070-GV-N5070GAMING-OC-12G-3.webp?v=1772029097, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5070-GV-N5070GAMING-OC-12G-5.webp?v=1772029096'],
     shortDescription: 'Gigabyte GAMING OC GeForce RTX 5070 Graphics Card, GDDR7 12GB 192-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2625 MHz Core Clock, 28 Gbps Memory Clock, Triple Windforce Hawk Fans, RGB Halo, Dual BIOS, 1 Year Warranty | GV-N5070GAMING-OC-12G',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5070</li>\n<li>Memory: GDDR7 12GB</li>\n<li>Engine Clock: 2625 MHz</li>\n<li>CUDA Core: 6144</li>\n<li>AI Performance: 988 TOPS</li>\n<li>Memory Speed: 28 Gbps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 192-bit</li>\n<li>Power Connectors: 1 x 16-pin</li>\n<li>1 Year Warranty</li>\n</ul>',
+    description: '<ul>\n<li>NVIDIA GeForce RTX 5070</li>\n<li>Memory: GDDR7 12GB</li>\n<li>Engine Clock: 2625 MHz</li>\n<li>CUDA Core: 6144</li>\n<li>AI Performance: 988 TOPS</li>\n<li>Memory Speed: 28 Gbps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 192-bit</li>\n<li>Power Connectors: 1 x 16-pin</li>\n<li>1 Year Warranty</li>\n</ul>',
     specifications: {
 
     },
@@ -2765,7 +2765,7 @@ const products = [
     salePrice: 3999,
     images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5070-GV-N5070WF3OC-12GD-1-1762424162802_d8680478-228f-4896-863d-83462c85c29e.webp?v=1773247476, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5070-GV-N5070WF3OC-12GD-2-1762424162830.webp?v=1773247476, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5070-GV-N5070WF3OC-12GD-3-1762424162831.webp?v=1773247476, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5070-GV-N5070WF3OC-12GD-4-1762424162835.webp?v=1773247476, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5070-GV-N5070WF3OC-12GD-5-1762424162836.webp?v=1773247476, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5070-GV-N5070WF3OC-12GD-6-1762424162836.webp?v=1773247476'],
     shortDescription: 'Gigabyte WINDFORCE OC GeForce RTX 5070 Small Form Factor Graphics Card, GDDR7 12GB 192-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2542 MHz Core Clock, 28 Gbps Memory Clock, Triple Windforce Hawk Fans, 1 Year Warranty | GV-N5070WF3OC-12GD',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5070</li>\n<li>Memory: GDDR7 12GB</li>\n<li>Engine Clock: 2542 MHz</li>\n<li>CUDA Core: 6144</li>\n<li>AI Performance: 988 TOPS</li>\n<li>Memory Speed: 28 Gbps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 192-bit</li>\n<li>Power Connectors: 1 x 16-pin</li>\n<li>1 Year Warranty</li>\n</ul>',
+    description: '<ul>\n<li>NVIDIA GeForce RTX 5070</li>\n<li>Memory: GDDR7 12GB</li>\n<li>Engine Clock: 2542 MHz</li>\n<li>CUDA Core: 6144</li>\n<li>AI Performance: 988 TOPS</li>\n<li>Memory Speed: 28 Gbps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 192-bit</li>\n<li>Power Connectors: 1 x 16-pin</li>\n<li>1 Year Warranty</li>\n</ul>',
     specifications: {
 
     },
@@ -2786,7 +2786,7 @@ const products = [
     salePrice: 2879,
     images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/71GvM_M0tzL._AC_SY450.jpg?v=1771226735'],
     shortDescription: 'Gigabyte GAMING OC GeForce RTX 5060 Ti Graphics Card, GDDR7 16GB 128-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2647 MHz Core Clock, 28 Gbps Memory Clock, Triple RGB Windforce Hawk Fans, Dual BIOS, 1 Year Warranty | GV-N506TGAMINGOC-16GD',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5060 Ti</li>\n<li>Memory: GDDR7 16GB</li>\n<li>Engine Clock: 2647 MHz</li>\n<li>CUDA Core: 4608</li>\n<li>AI Performance: 785 TOPS</li>\n<li>Memory Speed: 28 Gbps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 128-bit</li>\n<li>Power Connectors: 1 x 8-pin</li>\n<li>1 Year Warranty</li>\n</ul>',
+    description: '<ul>\n<li>NVIDIA GeForce RTX 5060 Ti</li>\n<li>Memory: GDDR7 16GB</li>\n<li>Engine Clock: 2647 MHz</li>\n<li>CUDA Core: 4608</li>\n<li>AI Performance: 785 TOPS</li>\n<li>Memory Speed: 28 Gbps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 128-bit</li>\n<li>Power Connectors: 1 x 8-pin</li>\n<li>1 Year Warranty</li>\n</ul>',
     specifications: {
 
     },
@@ -2807,7 +2807,7 @@ const products = [
     salePrice: 2879,
     images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/716ZhAjyNiL._AC_SY450.jpg?v=1771226737'],
     shortDescription: 'Gigabyte GeForce RTX 5060 Ti AERO OC Graphics Card, GDDR7 16GB 128-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2647 MHz Core Clock, 28 Gbps Memory Clock, Triple Windforce RGB Hawk Fans, Dual Bios, White, 1 Year Warranty | GV-N506TAEROOC-16GD',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5060 Ti</li>\n<li>Memory: GDDR7 16GB</li>\n<li>Engine Clock: 2647 MHz</li>\n<li>CUDA Core: 4608</li>\n<li>AI Performance: 785 TOPS</li>\n<li>Memory Speed: 28 Gbps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 128-bit</li>\n<li>Power Connectors: 1 x 8-pin</li>\n<li>1 Year Warranty</li>\n</ul>',
+    description: '<ul>\n<li>NVIDIA GeForce RTX 5060 Ti</li>\n<li>Memory: GDDR7 16GB</li>\n<li>Engine Clock: 2647 MHz</li>\n<li>CUDA Core: 4608</li>\n<li>AI Performance: 785 TOPS</li>\n<li>Memory Speed: 28 Gbps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 128-bit</li>\n<li>Power Connectors: 1 x 8-pin</li>\n<li>1 Year Warranty</li>\n</ul>',
     specifications: {
 
     },
@@ -2828,7 +2828,7 @@ const products = [
     salePrice: 2069,
     images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5060Ti-GV-N506TAERO-OC-8GD-1-1762424161635_bb22252e-ee5c-477b-a084-88f3545b5e42.webp?v=1773247477, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5060Ti-GV-N506TAERO-OC-8GD-2-1762424161697.webp?v=1773247477, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5060Ti-GV-N506TAERO-OC-8GD-3-1762424161959.webp?v=1773247477, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5060Ti-GV-N506TAERO-OC-8GD-4-1762424162008.webp?v=1773247476, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5060Ti-GV-N506TAERO-OC-8GD-5-1762424162008.webp?v=1773247477, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5060Ti-GV-N506TAERO-OC-8GD-6-1762424162009.webp?v=1773247477'],
     shortDescription: 'Gigabyte GeForce RTX 5060 Ti AERO OC Graphics Card, GDDR7 8GB 128-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2647 MHz Core Clock, 28 Gbps Memory Clock, Triple Windforce RGB Hawk Fans, Dual Bios, White, 1 Year Warranty | GV-N506TAERO-OC-8GD',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5060 Ti</li>\n<li>Memory: GDDR7 8GB</li>\n<li>Engine Clock: 2647 MHz</li>\n<li>CUDA Core: 4608</li>\n<li>AI Performance: 785 TOPS</li>\n<li>Memory Speed: 28 Gbps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 128-bit</li>\n<li>Power Connectors: 1 x 8-pin</li>\n<li>1 Year Warranty</li>\n</ul>',
+    description: '<ul>\n<li>NVIDIA GeForce RTX 5060 Ti</li>\n<li>Memory: GDDR7 8GB</li>\n<li>Engine Clock: 2647 MHz</li>\n<li>CUDA Core: 4608</li>\n<li>AI Performance: 785 TOPS</li>\n<li>Memory Speed: 28 Gbps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 128-bit</li>\n<li>Power Connectors: 1 x 8-pin</li>\n<li>1 Year Warranty</li>\n</ul>',
     specifications: {
 
     },
@@ -2849,7 +2849,7 @@ const products = [
     salePrice: 2959,
     images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-Radeon-RX-9070-GV-R9070GAMING-OC-16G-1-1762526147441_e0fe7660-b3dd-41aa-b76d-e77e19f0fa5b.webp?v=1773247478, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-Radeon-RX-9070-GV-R9070GAMING-OC-16G-2-1762526147447.webp?v=1773247477, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-Radeon-RX-9070-GV-R9070GAMING-OC-16G-3-1762526147450.webp?v=1773247477, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-Radeon-RX-9070-GV-R9070GAMING-OC-16G-4-1762526147451.webp?v=1773247478, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-Radeon-RX-9070-GV-R9070GAMING-OC-16G-5-1762526147452.webp?v=1773247477, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-Radeon-RX-9070-GV-R9070GAMING-OC-16G-6-1762526147453.webp?v=1773247477'],
     shortDescription: 'Gigabyte GAMING OC AMD Radeon RX 9070 Graphics Card, GDDR6 16GB 256-bit Memory, HDMI 2.1b & DP 2.1a Outputs, PCI Express 5.0, 2700 MHz Boost Clock, 20 Gbps Memory Clock, Triple Fan Windforce Cooling System, 1 Year Warranty | GV-R9070GAMING-OC-16G',
-    description: '<ul>\n<li>AMD Radeon RX 9070</li>\n<li>Memory: GDDR6 16GB</li>\n<li>Boost Clock: 2700 MHz</li>\n<li>Stream Processors: 3584</li>\n<li>AI Performance: 578 TOPS</li>\n<li>Memory Speed: 20 Gbps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 256-bit</li>\n<li>Power Connectors: 2 x 8-pin</li>\n<li>1 Year Warranty</li>\n</ul>',
+    description: '<ul>\n<li>AMD Radeon RX 9070</li>\n<li>Memory: GDDR6 16GB</li>\n<li>Boost Clock: 2700 MHz</li>\n<li>Stream Processors: 3584</li>\n<li>AI Performance: 578 TOPS</li>\n<li>Memory Speed: 20 Gbps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 256-bit</li>\n<li>Power Connectors: 2 x 8-pin</li>\n<li>1 Year Warranty</li>\n</ul>',
     specifications: {
 
     },
@@ -2870,7 +2870,7 @@ const products = [
     salePrice: 2829,
     images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-4070-Super-GV-N407SWF3OC-12GD-1-1762526146182_7d02ee61-eae6-4c42-a3c4-c6f4e49ada4d.webp?v=1773247479, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-4070-Super-GV-N407SWF3OC-12GD-2-1762526146211.webp?v=1773247479, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-4070-Super-GV-N407SWF3OC-12GD-3-1762526146220.webp?v=1773247479, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-4070-Super-GV-N407SWF3OC-12GD-4-1762526146246.webp?v=1773247479, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-4070-Super-GV-N407SWF3OC-12GD-5-1762526146246.webp?v=1773247479, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-4070-Super-GV-N407SWF3OC-12GD-6-1762526146248.webp?v=1773247479'],
     shortDescription: 'Gigabyte WINDFORCE OC GeForce RTX 4070 Super Graphics Card, GDDR6X 12GB 192-bit Memory, HDMI 2.1a & DP 1.4a Outputs, PCI Express 4.0, 2505 MHz Core Clock, 21 Gbps Memory Clock, Triple Fan Windforce Cooling System, 1 Year Warranty | GV-N407SWF3OC-12GD',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 4070 Super</li>\n<li>Memory: GDDR6X 12GB</li>\n<li>Engine Clock: 2505 MHz</li>\n<li>CUDA Core: 7168</li>\n<li>AI Performance: 568 TOPS</li>\n<li>Memory Speed: 21 Gbps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 192-bit</li>\n<li>Power Connectors: 1 x 16-pin</li>\n<li>1 Year Warranty</li>\n</ul>',
+    description: '<ul>\n<li>NVIDIA GeForce RTX 4070 Super</li>\n<li>Memory: GDDR6X 12GB</li>\n<li>Engine Clock: 2505 MHz</li>\n<li>CUDA Core: 7168</li>\n<li>AI Performance: 568 TOPS</li>\n<li>Memory Speed: 21 Gbps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 192-bit</li>\n<li>Power Connectors: 1 x 16-pin</li>\n<li>1 Year Warranty</li>\n</ul>',
     specifications: {
 
     },
@@ -2891,7 +2891,7 @@ const products = [
     salePrice: 16709,
     images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5090-GV-N5090GAMING-OC-32-1-1762526147408_01307da3-af62-404c-83cc-64bcbac5b56a.webp?v=1773247480, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5090-GV-N5090GAMING-OC-32-2-1762526147409.webp?v=1773247479, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5090-GV-N5090GAMING-OC-32-3-1762526147420.webp?v=1773247480, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5090-GV-N5090GAMING-OC-32-4-1762526147425.webp?v=1773247479, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5090-GV-N5090GAMING-OC-32-5-1762526147425.webp?v=1773247480, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5090-GV-N5090GAMING-OC-32-6-1762526147426.webp?v=1773247480'],
     shortDescription: 'Gigabyte GAMING OC GeForce RTX 5090 Graphics Card, GDDR7 32GB 512-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2550 MHz Core Clock, 28 Gbps Memory Clock, Triple Windforce Hawk Fans, RGB Halo, Dual BIOS, 1 Year Warranty | GV-N5090GAMING-OC-32',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5090</li>\n<li>Memory: GDDR7 32GB</li>\n<li>Engine Clock: 2550 MHz</li>\n<li>CUDA Core: 21760</li>\n<li>AI Performance: 3352 TOPS</li>\n<li>Memory Speed: 28 Gbps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 512-bit</li>\n<li>Power Connectors: 1 x 16-pin</li>\n<li>1 Year Warranty</li>\n</ul>',
+    description: '<ul>\n<li>NVIDIA GeForce RTX 5090</li>\n<li>Memory: GDDR7 32GB</li>\n<li>Engine Clock: 2550 MHz</li>\n<li>CUDA Core: 21760</li>\n<li>AI Performance: 3352 TOPS</li>\n<li>Memory Speed: 28 Gbps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 512-bit</li>\n<li>Power Connectors: 1 x 16-pin</li>\n<li>1 Year Warranty</li>\n</ul>',
     specifications: {
 
     },
@@ -2912,7 +2912,7 @@ const products = [
     salePrice: 15079,
     images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/8D6B6AA-1_b0a5eb6e-af3a-4fbd-9e3c-9a4a5a4089d8.webp?v=1772033842'],
     shortDescription: 'HP Nvidia RTX 5000 Ada Generation Workstation Graphics Card, GDDR6 32 GB 256-bit Memory, 4 x DP 1.4a Outputs, PCI Express 4.0, 2.5 GHz Boost Clock, 576  GB/s Memory Bandwidth, 1 Year Warranty | 8D6B6AA',
-    description: '<ul>\n<li>NVIDIA RTX 5000 Ada</li>\n<li>Memory: GDDR6 32 GB</li>\n<li>Memory Interface: 256-bit</li>\n<li>Boost Clock: 2.5 GHz</li>\n<li>CUDA Cores: 12800</li>\n<li>Tensor Cores: 400 (4th Generation)</li>\n<li>RT Cores: 100 (3rd Generation)</li>\n<li>AI Performance: N/A</li>\n<li>Memory Bandwidth: 576  GB/s</li>\n<li>Power Connectors: 1 x 16-pin</li>\n</ul>',
+    description: '<ul>\n<li>NVIDIA RTX 5000 Ada</li>\n<li>Memory: GDDR6 32 GB</li>\n<li>Memory Interface: 256-bit</li>\n<li>Boost Clock: 2.5 GHz</li>\n<li>CUDA Cores: 12800</li>\n<li>Tensor Cores: 400 (4th Generation)</li>\n<li>RT Cores: 100 (3rd Generation)</li>\n<li>AI Performance: N/A</li>\n<li>Memory Bandwidth: 576  GB/s</li>\n<li>Power Connectors: 1 x 16-pin</li>\n</ul>',
     specifications: {
 
     },
@@ -2933,7 +2933,7 @@ const products = [
     salePrice: 2859,
     images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/NE75070T19K9-GB2050A-2-1752340110905.png?v=1770248561'],
     shortDescription: 'Palit GeForce RTX 5070 GamingPro OC Edition Graphics Card, GDDR7 12 GB 192-bit Memory, HDMI 2.1b, DP 2.1b Outputs, PCI Express 5.0, 2572 MHz Boost Clock, 28  GBps Memory Clock, 1 Year Warranty | NE75070T19K9- GB2050A',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5070</li>\n<li>Memory: GDDR7 12 GB</li>\n<li>Memory Interface: 192-bit</li>\n<li>Clock Speed: 2325 MHz</li>\n<li>Boost Clock:  2572 MHz</li>\n<li>CUDA Cores: 6144</li>\n<li>AI Performance: N/A</li>\n<li>Memory Speed: 28  GBps</li>\n<li>Maximum Digital Resolution: 4K at 480Hz or 8K at 120Hz with DSC</li>\n<li>Power Connector: 1 x 16-pin</li>\n</ul>',
+    description: '<ul>\n<li>NVIDIA GeForce RTX 5070</li>\n<li>Memory: GDDR7 12 GB</li>\n<li>Memory Interface: 192-bit</li>\n<li>Clock Speed: 2325 MHz</li>\n<li>Boost Clock:  2572 MHz</li>\n<li>CUDA Cores: 6144</li>\n<li>AI Performance: N/A</li>\n<li>Memory Speed: 28  GBps</li>\n<li>Maximum Digital Resolution: 4K at 480Hz or 8K at 120Hz with DSC</li>\n<li>Power Connector: 1 x 16-pin</li>\n</ul>',
     specifications: {
 
     },
@@ -2954,7 +2954,7 @@ const products = [
     salePrice: 2729,
     images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/NE75070019K9-GB2050A-2-1752340111692.png?v=1770248548'],
     shortDescription: 'Palit GeForce RTX 5070 GamingPro Edition Graphics Card, GDDR7 12 GB 192-bit Memory, HDMI 2.1b, DP 2.1b Outputs, PCI Express 5.0, 2512 MHz Boost Clock, 28  GBps Memory Clock, 1 Year Warranty | NE75070019K9- GB2050A',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5070</li>\n<li>Memory: GDDR7 12 GB</li>\n<li>Memory Interface: 192-bit</li>\n<li>Clock Speed: 2325 MHz</li>\n<li>Boost Clock:  2512 MHz</li>\n<li>CUDA Cores: 6144</li>\n<li>AI Performance: N/A</li>\n<li>Memory Speed: 28  GBps</li>\n<li>Maximum Digital Resolution: 4K at 480Hz or 8K at 120Hz with DSC</li>\n<li>Power Connector: 1 x 16-pin</li>\n</ul>',
+    description: '<ul>\n<li>NVIDIA GeForce RTX 5070</li>\n<li>Memory: GDDR7 12 GB</li>\n<li>Memory Interface: 192-bit</li>\n<li>Clock Speed: 2325 MHz</li>\n<li>Boost Clock:  2512 MHz</li>\n<li>CUDA Cores: 6144</li>\n<li>AI Performance: N/A</li>\n<li>Memory Speed: 28  GBps</li>\n<li>Maximum Digital Resolution: 4K at 480Hz or 8K at 120Hz with DSC</li>\n<li>Power Connector: 1 x 16-pin</li>\n</ul>',
     specifications: {
 
     },
@@ -2975,7 +2975,7 @@ const products = [
     salePrice: 1779,
     images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/NE7506T019P1-GB2062D-2-1752340110369.png?v=1770248535'],
     shortDescription: 'Palit GeForce RTX 5060 Ti Dual Edition Graphics Card, GDDR7 8 GB 128-bit Memory, HDMI 2.1b, DP 2.1b Outputs, PCI Express 5.0, 2573 MHz Boost Clock, 28  GBps Memory Clock, 1 Year Warranty | NE7506T019P1- GB2062D',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5060 Ti</li>\n<li>Memory: GDDR7 8 GB</li>\n<li>Memory Interface: 128-bit</li>\n<li>Clock Speed: 2407 MHz</li>\n<li>Boost Clock:  2573 MHz</li>\n<li>CUDA Cores: 4608</li>\n<li>AI Performance: N/A</li>\n<li>Memory Speed: 28  GBps</li>\n<li>Maximum Digital Resolution: 4K at 480Hz or 8K at 120Hz with DSC</li>\n<li>Power Connector: 1 x 8-pin</li>\n</ul>',
+    description: '<ul>\n<li>NVIDIA GeForce RTX 5060 Ti</li>\n<li>Memory: GDDR7 8 GB</li>\n<li>Memory Interface: 128-bit</li>\n<li>Clock Speed: 2407 MHz</li>\n<li>Boost Clock:  2573 MHz</li>\n<li>CUDA Cores: 4608</li>\n<li>AI Performance: N/A</li>\n<li>Memory Speed: 28  GBps</li>\n<li>Maximum Digital Resolution: 4K at 480Hz or 8K at 120Hz with DSC</li>\n<li>Power Connector: 1 x 8-pin</li>\n</ul>',
     specifications: {
 
     },
@@ -2996,7 +2996,7 @@ const products = [
     salePrice: 29209,
     images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/VCNRTX6000ADA-EDU-SB-2-1752340112257.png?v=1770248399'],
     shortDescription: 'PNY Nvidia RTX 6000 Ada Workstation Graphics Card, GDDR6 48 GB 384-bit Memory, DP 1.4a Outputs, PCI Express 4.0, 960  GB/s Memory Bandwidth, 1 Year Warranty | VCNRTX6000ADA-EDU-SB',
-    description: '<ul>\n<li>NVIDIA RTX 6000 Ada</li>\n<li>Memory: GDDR6 48 GB</li>\n<li>Memory Interface: 384-bit</li>\n<li>Boost Clock: 2.5 GHz</li>\n<li>CUDA Cores: 18176</li>\n<li>Tensor Cores: 568 (4th Generation)</li>\n<li>RT Cores: RT Cores: 142 (3rd Generation)</li>\n<li>AI Performance: N/A</li>\n<li>Memory Bandwidth: 960  GB/s</li>\n<li>Power Connectors: 1 x 16-pin</li>\n</ul>',
+    description: '<ul>\n<li>NVIDIA RTX 6000 Ada</li>\n<li>Memory: GDDR6 48 GB</li>\n<li>Memory Interface: 384-bit</li>\n<li>Boost Clock: 2.5 GHz</li>\n<li>CUDA Cores: 18176</li>\n<li>Tensor Cores: 568 (4th Generation)</li>\n<li>RT Cores: RT Cores: 142 (3rd Generation)</li>\n<li>AI Performance: N/A</li>\n<li>Memory Bandwidth: 960  GB/s</li>\n<li>Power Connectors: 1 x 16-pin</li>\n</ul>',
     specifications: {
 
     },
@@ -3017,7 +3017,7 @@ const products = [
     salePrice: 6829,
     images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/VCG508016TFXPB1-O-2-1752340112146.png?v=1770248366, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/VCG508016TFXPB1-O-3-1752340112182.png?v=1770248366, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/VCG508016TFXPB1-O-4-1752340106757.png?v=1770248366'],
     shortDescription: 'PNY GeForce RTX 5080 EPIC-X Triple Fan OC Edition Graphics Card, GDDR7 16 GB 256-bit Memory, HDMI 2.1b, DP 2.1b Outputs, PCI Express 5.0, 2625 MHz Boost Clock, 960  GB/s Memory Bandwidth, 1 Year Warranty | VCG508016TFXPB1-O',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5080</li>\n<li>Memory: GDDR7 16 GB</li>\n<li>Memory Interface: 256-bit</li>\n<li>Boost Clock: 2625 MHz</li>\n<li>CUDA Cores: 10752</li>\n<li>AI Performance: N/A</li>\n<li>Memory Bandwidth: 960  GB/s</li>\n<li>Power Connectors: 1 x 16-pin</li>\n</ul>',
+    description: '<ul>\n<li>NVIDIA GeForce RTX 5080</li>\n<li>Memory: GDDR7 16 GB</li>\n<li>Memory Interface: 256-bit</li>\n<li>Boost Clock: 2625 MHz</li>\n<li>CUDA Cores: 10752</li>\n<li>AI Performance: N/A</li>\n<li>Memory Bandwidth: 960  GB/s</li>\n<li>Power Connectors: 1 x 16-pin</li>\n</ul>',
     specifications: {
 
     },
@@ -3038,7 +3038,7 @@ const products = [
     salePrice: 5579,
     images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/VCG5070T16TFXPB1-O-2-1752340106495.png?v=1770248343, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/VCG5070T16TFXPB1-O-3-1752340106499.png?v=1770248343, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/VCG5070T16TFXPB1-O-4-1752340106509.png?v=1770248343, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/VCG5070T16TFXPB1-O-5-1752340106514.png?v=1770248343, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/VCG5070T16TFXPB1-O-6-1752340106550.png?v=1770248343'],
     shortDescription: 'PNY GeForce RTX 5070 Ti VERTO Triple Fan OC Edition Graphics Card, GDDR7 16 GB 256-bit Memory, HDMI 2.1b, DP 2.1b Outputs, PCI Express 5.0, 2790 MHz Boost Clock, 896  GB/s Memory Bandwidth, 1 Year Warranty | VCG5070T16TFXPB1-O',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5070 Ti</li>\n<li>Memory: GDDR7 16 GB</li>\n<li>Memory Interface: 256-bit</li>\n<li>Boost Clock: 2790 MHz</li>\n<li>CUDA Cores: 8960</li>\n<li>AI Performance: N/A</li>\n<li>Memory Bandwidth: 896  GB/s</li>\n<li>Power Connectors: 1 x 16-pin</li>\n</ul>',
+    description: '<ul>\n<li>NVIDIA GeForce RTX 5070 Ti</li>\n<li>Memory: GDDR7 16 GB</li>\n<li>Memory Interface: 256-bit</li>\n<li>Boost Clock: 2790 MHz</li>\n<li>CUDA Cores: 8960</li>\n<li>AI Performance: N/A</li>\n<li>Memory Bandwidth: 896  GB/s</li>\n<li>Power Connectors: 1 x 16-pin</li>\n</ul>',
     specifications: {
 
     },
@@ -3059,7 +3059,7 @@ const products = [
     salePrice: 3559,
     images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/VCG507012TFXXPB1-O-2-1752340106726.png?v=1770248330, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/VCG507012TFXXPB1-O-3-1752340106734.png?v=1770248330, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/VCG507012TFXXPB1-O-4-1752340106740.png?v=1770248330'],
     shortDescription: 'PNY GeForce RTX 5070 Triple Fan OC Edition AR GB Graphics Card, GDDR7 12 GB 192-bit Memory, HDMI 2.1b, DP 2.1b Outputs, PCI Express 5.0, 2775 MHz Boost Clock, 672  GB/s Memory Bandwidth, 1 Year Warranty | VCG507012TFXXPB1-O',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5070</li>\n<li>Memory: GDDR7 12 GB</li>\n<li>Memory Interface: 192-bit</li>\n<li>Boost Clock: 2775 MHz</li>\n<li>CUDA Cores: 7168</li>\n<li>AI Performance: N/A</li>\n<li>Memory Bandwidth: 672  GB/s</li>\n<li>Power Connectors: 1 x 16-pin</li>\n</ul>',
+    description: '<ul>\n<li>NVIDIA GeForce RTX 5070</li>\n<li>Memory: GDDR7 12 GB</li>\n<li>Memory Interface: 192-bit</li>\n<li>Boost Clock: 2775 MHz</li>\n<li>CUDA Cores: 7168</li>\n<li>AI Performance: N/A</li>\n<li>Memory Bandwidth: 672  GB/s</li>\n<li>Power Connectors: 1 x 16-pin</li>\n</ul>',
     specifications: {
 
     },
@@ -3080,7 +3080,7 @@ const products = [
     salePrice: 1919,
     images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/VCG4060T16DFXPB1-E-2-1752340106389.png?v=1770248306'],
     shortDescription: 'PNY GeForce RTX 4060 Ti VERTO Dual Fan OC Edition Graphics Card, GDDR6 16 GB 128-bit Memory, HDMI 2.1, DP 1.4a Outputs, PCI Express 4.0, 2550 MHz Boost Clock, 288  GB/s Memory Bandwidth, 1 Year Warranty | VCG4060T16DFXPB1-E',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 4060 Ti</li>\n<li>Memory: GDDR6 16 GB</li>\n<li>Memory Interface: 128-bit</li>\n<li>Boost Clock: 2550 MHz</li>\n<li>CUDA Cores: 4352</li>\n<li>AI Performance: N/A</li>\n<li>Memory Bandwidth: 288  GB/s</li>\n<li>Power Connectors: 1 x 8-pin</li>\n</ul>',
+    description: '<ul>\n<li>NVIDIA GeForce RTX 4060 Ti</li>\n<li>Memory: GDDR6 16 GB</li>\n<li>Memory Interface: 128-bit</li>\n<li>Boost Clock: 2550 MHz</li>\n<li>CUDA Cores: 4352</li>\n<li>AI Performance: N/A</li>\n<li>Memory Bandwidth: 288  GB/s</li>\n<li>Power Connectors: 1 x 8-pin</li>\n</ul>',
     specifications: {
 
     },
@@ -3101,7 +3101,7 @@ const products = [
     salePrice: 659,
     images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/VCNT400-4GB-SB-2-1752340107038.png?v=1770248275'],
     shortDescription: 'PNY Nvidia Quadro T400 Workstation Graphics Card, Low Profile, GDDR6 4 GB 64-bit Memory, DP 1.4a Outputs, PCI Express 3.0, 80  GB/s Memory Bandwidth, 1 Year Warranty | VCNT400-4 GB-SB',
-    description: '<ul>\n<li>NVIDIA T400</li>\n<li>Memory: GDDR6 4 GB</li>\n<li>Memory Interface: 64-bit</li>\n<li>Boost Clock: N/A</li>\n<li>CUDA Cores: 384</li>\n<li>AI Performance: N/A</li>\n<li>Low Profile</li>\n<li>Memory Bandwidth: 80  GB/s</li>\n</ul>',
+    description: '<ul>\n<li>NVIDIA T400</li>\n<li>Memory: GDDR6 4 GB</li>\n<li>Memory Interface: 64-bit</li>\n<li>Boost Clock: N/A</li>\n<li>CUDA Cores: 384</li>\n<li>AI Performance: N/A</li>\n<li>Low Profile</li>\n<li>Memory Bandwidth: 80  GB/s</li>\n</ul>',
     specifications: {
 
     },
@@ -3122,7 +3122,7 @@ const products = [
     salePrice: 1839,
     images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/VCNT1000-8GB-PB-2-1752340107135.png?v=1770248266'],
     shortDescription: 'PNY Nvidia Quadro T1000 Workstation Graphics Card, Low Profile, GDDR6 8 GB 128-bit Memory, DP 1.4a Outputs, PCI Express 3.0, 160  GB/s Memory Bandwidth, 1 Year Warranty | VCNT1000-8 GB-PB',
-    description: '<ul>\n<li>NVIDIA T1000</li>\n<li>Memory: GDDR6 8 GB</li>\n<li>Memory Interface: 128-bit</li>\n<li>Boost Clock: N/A</li>\n<li>CUDA Cores: 896</li>\n<li>AI Performance: N/A</li>\n<li>Low Profile</li>\n<li>Memory Bandwidth: 160  GB/s</li>\n</ul>',
+    description: '<ul>\n<li>NVIDIA T1000</li>\n<li>Memory: GDDR6 8 GB</li>\n<li>Memory Interface: 128-bit</li>\n<li>Boost Clock: N/A</li>\n<li>CUDA Cores: 896</li>\n<li>AI Performance: N/A</li>\n<li>Low Profile</li>\n<li>Memory Bandwidth: 160  GB/s</li>\n</ul>',
     specifications: {
 
     },
@@ -3143,7 +3143,7 @@ const products = [
     salePrice: 15279,
     images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/SVCNRTX5000ADA-SB-2-1752340106345.png?v=1770248257'],
     shortDescription: 'PNY Nvidia RTX 5000 Ada Generation Workstation Graphics Card, GDDR6 32 GB 256-bit Memory, DP 1.4a Outputs, PCI Express 4.0, 2.5 GHz Boost Clock, 576  GB/s Memory Bandwidth, 1 Year Warranty | SVCNRTX5000ADA-SB',
-    description: '<ul>\n<li>NVIDIA RTX 5000 Ada</li>\n<li>Memory: GDDR6 32 GB</li>\n<li>Memory Interface: 256-bit</li>\n<li>Boost Clock: 2.5 GHz</li>\n<li>CUDA Cores: 12800</li>\n<li>Tensor Cores: 400 (4th Generation)</li>\n<li>RT Cores: 100 (3rd Generation)</li>\n<li>AI Performance: N/A</li>\n<li>Memory Bandwidth: 576  GB/s</li>\n<li>Power Connectors: 1 x 16-pin</li>\n</ul>',
+    description: '<ul>\n<li>NVIDIA RTX 5000 Ada</li>\n<li>Memory: GDDR6 32 GB</li>\n<li>Memory Interface: 256-bit</li>\n<li>Boost Clock: 2.5 GHz</li>\n<li>CUDA Cores: 12800</li>\n<li>Tensor Cores: 400 (4th Generation)</li>\n<li>RT Cores: 100 (3rd Generation)</li>\n<li>AI Performance: N/A</li>\n<li>Memory Bandwidth: 576  GB/s</li>\n<li>Power Connectors: 1 x 16-pin</li>\n</ul>',
     specifications: {
 
     },
@@ -3164,7 +3164,7 @@ const products = [
     salePrice: 10829,
     images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/SVCNRTX4500ADA-SB-2-1752340106320.png?v=1770248247, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/SVCNRTX4500ADA-SB-3-1752340106329.png?v=1770248247, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/SVCNRTX4500ADA-SB-4-1752340106338.png?v=1770248247'],
     shortDescription: 'PNY Nvidia RTX 4500 Ada Generation Workstation Graphics Card, GDDR6 24 GB 192-bit Memory, DP 1.4a Outputs, PCI Express 4.0, 2.6 GHz Boost Clock, 432  GB/s Memory Bandwidth, 1 Year Warranty | SVCNRTX4500ADA-SB',
-    description: '<ul>\n<li>NVIDIA RTX 4500 Ada</li>\n<li>Memory: GDDR6 24 GB</li>\n<li>Memory Interface: 192-bit</li>\n<li>Boost Clock: 2.6 GHz</li>\n<li>CUDA Cores: 7680</li>\n<li>Tensor Cores: 240 (4th Generation)</li>\n<li>RT Cores: 60 (3rd Generation)</li>\n<li>AI Performance: N/A</li>\n<li>Memory Bandwidth: 432  GB/s</li>\n<li>Power Connectors: 1 x 16-pin</li>\n</ul>',
+    description: '<ul>\n<li>NVIDIA RTX 4500 Ada</li>\n<li>Memory: GDDR6 24 GB</li>\n<li>Memory Interface: 192-bit</li>\n<li>Boost Clock: 2.6 GHz</li>\n<li>CUDA Cores: 7680</li>\n<li>Tensor Cores: 240 (4th Generation)</li>\n<li>RT Cores: 60 (3rd Generation)</li>\n<li>AI Performance: N/A</li>\n<li>Memory Bandwidth: 432  GB/s</li>\n<li>Power Connectors: 1 x 16-pin</li>\n</ul>',
     specifications: {
 
     },
@@ -3185,7 +3185,7 @@ const products = [
     salePrice: 5929,
     images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/SVCNRTX4000ADA-SB-2-1752340106288.png?v=1770248237'],
     shortDescription: 'PNY Nvidia RTX 4000 Ada Generation Workstation Graphics Card, GDDR6 20 GB 160-bit Memory, DP 1.4a Outputs, PCI Express 4.0, 1.57 GHz Boost Clock, 360  GB/s Memory Bandwidth, 1 Year Warranty | SVCNRTX4000ADA-SB',
-    description: '<ul>\n<li>NVIDIA RTX 4000 Ada</li>\n<li>Memory: GDDR6 20 GB</li>\n<li>Memory Interface: 160-bit</li>\n<li>Boost Clock: 1.57 GHz</li>\n<li>CUDA Cores: 6144</li>\n<li>Tensor Cores: 192 (4th Generation)</li>\n<li>RT Cores: 48 (3rd Generation)</li>\n<li>AI Performance: N/A</li>\n<li>Memory Bandwidth: 360  GB/s</li>\n</ul>',
+    description: '<ul>\n<li>NVIDIA RTX 4000 Ada</li>\n<li>Memory: GDDR6 20 GB</li>\n<li>Memory Interface: 160-bit</li>\n<li>Boost Clock: 1.57 GHz</li>\n<li>CUDA Cores: 6144</li>\n<li>Tensor Cores: 192 (4th Generation)</li>\n<li>RT Cores: 48 (3rd Generation)</li>\n<li>AI Performance: N/A</li>\n<li>Memory Bandwidth: 360  GB/s</li>\n</ul>',
     specifications: {
 
     },
@@ -3206,7 +3206,7 @@ const products = [
     salePrice: 6669,
     images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/ZT-B50800Q-10P-2-1752340109573.png?v=1770248227, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/ZT-B50800Q-10P-3-1752340109586.png?v=1770248227, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/ZT-B50800Q-10P-4-1752340109590.png?v=1770248227, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/ZT-B50800Q-10P-5-1752340109600.png?v=1770248227, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/ZT-B50800Q-10P-6-1752340109610.png?v=1770248227'],
     shortDescription: 'Zotac Gaming GeForce RTX 5080 SOLID OC Edition Graphics Card, GDDR7 16 GB 256-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2640 MHz Boost Clock, 30  GBps Memory Clock, White, 1 Year Warranty | ZT-B50800Q-10P',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5080</li>\n<li>Memory: GDDR7 16 GB</li>\n<li>Memory Interface: 256-bit</li>\n<li>Boost Clock: Up to 2640 MHz</li>\n<li>CUDA Cores: 10752</li>\n<li>AI Performance: N/A</li>\n<li>Memory Speed: 30  GBps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Power Connectors: 3 x 8-pin</li>\n<li>Color: White</li>\n</ul>',
+    description: '<ul>\n<li>NVIDIA GeForce RTX 5080</li>\n<li>Memory: GDDR7 16 GB</li>\n<li>Memory Interface: 256-bit</li>\n<li>Boost Clock: Up to 2640 MHz</li>\n<li>CUDA Cores: 10752</li>\n<li>AI Performance: N/A</li>\n<li>Memory Speed: 30  GBps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Power Connectors: 3 x 8-pin</li>\n<li>Color: White</li>\n</ul>',
     specifications: {
 
     },
@@ -3227,7 +3227,7 @@ const products = [
     salePrice: 3529,
     images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/ZT-B50700J-10P-2-1752340108739.png?v=1770248083, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/ZT-B50700J-10P-3-1752340108746.png?v=1770248083, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/ZT-B50700J-10P-4-1752340108757.png?v=1770248083, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/ZT-B50700J-10P-5-1752340108772.png?v=1770248083, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/ZT-B50700J-10P-6-1752340108785.png?v=1770248083'],
     shortDescription: 'Zotac Gaming GeForce RTX 5070 SOLID OC Edition Graphics Card, GDDR7 12 GB 192-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2542 MHz Boost Clock, 28  GBps Memory Clock, 1 Year Warranty | ZT-B50700J-10P',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5070</li>\n<li>Memory: GDDR7 12 GB</li>\n<li>Memory Interface: 192-bit</li>\n<li>Boost Clock: Up to 2542 MHz</li>\n<li>CUDA Cores: 6144</li>\n<li>AI Performance: N/A</li>\n<li>Memory Speed: 28  GBps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Power Connectors: 2 x 8-pin</li>\n</ul>',
+    description: '<ul>\n<li>NVIDIA GeForce RTX 5070</li>\n<li>Memory: GDDR7 12 GB</li>\n<li>Memory Interface: 192-bit</li>\n<li>Boost Clock: Up to 2542 MHz</li>\n<li>CUDA Cores: 6144</li>\n<li>AI Performance: N/A</li>\n<li>Memory Speed: 28  GBps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Power Connectors: 2 x 8-pin</li>\n</ul>',
     specifications: {
 
     },
@@ -3248,7 +3248,7 @@ const products = [
     salePrice: 1789,
     images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/ZT-B50610E-10M-2-1752340107962.png?v=1770248043'],
     shortDescription: 'Zotac Gaming GeForce RTX 5060 Ti Twin Edge Edition Graphics Card, GDDR7 8 GB 128-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2572 MHz Boost Clock, 28  GBps Memory Clock, 1 Year Warranty | ZT-B50610E-10M',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5060 Ti</li>\n<li>Memory: GDDR7 8 GB</li>\n<li>Memory Interface: 128-bit</li>\n<li>Boost Clock: Up to 2572 MHz</li>\n<li>CUDA Cores: 4608</li>\n<li>AI Performance: N/A</li>\n<li>Memory Speed: 28  GBps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Power Connectors: 1 x 8-pin</li>\n</ul>',
+    description: '<ul>\n<li>NVIDIA GeForce RTX 5060 Ti</li>\n<li>Memory: GDDR7 8 GB</li>\n<li>Memory Interface: 128-bit</li>\n<li>Boost Clock: Up to 2572 MHz</li>\n<li>CUDA Cores: 4608</li>\n<li>AI Performance: N/A</li>\n<li>Memory Speed: 28  GBps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Power Connectors: 1 x 8-pin</li>\n</ul>',
     specifications: {
 
     },
@@ -3269,7 +3269,7 @@ const products = [
     salePrice: 1889,
     images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/ZT-B50610F-10M-2-1752340108051.png?v=1770248030'],
     shortDescription: 'Zotac Gaming GeForce RTX 5060 Ti AMP Edition Graphics Card, GDDR7 8 GB 128-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2632 MHz Boost Clock, 28  GBps Memory Clock, 1 Year Warranty | ZT-B50610F-10M',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5060 Ti</li>\n<li>Memory: GDDR7 8 GB</li>\n<li>Memory Interface: 128-bit</li>\n<li>Boost Clock: Up to 2632 MHz</li>\n<li>CUDA Cores: 4608</li>\n<li>AI Performance: N/A</li>\n<li>Memory Speed: 28  GBps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Power Connectors: 1 x 8-pin</li>\n</ul>',
+    description: '<ul>\n<li>NVIDIA GeForce RTX 5060 Ti</li>\n<li>Memory: GDDR7 8 GB</li>\n<li>Memory Interface: 128-bit</li>\n<li>Boost Clock: Up to 2632 MHz</li>\n<li>CUDA Cores: 4608</li>\n<li>AI Performance: N/A</li>\n<li>Memory Speed: 28  GBps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Power Connectors: 1 x 8-pin</li>\n</ul>',
     specifications: {
 
     },
@@ -3290,7 +3290,7 @@ const products = [
     salePrice: 1529,
     images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/11350-04-20G-2-1752340106101.png?v=1770247929'],
     shortDescription: 'Sapphire PULSE AMD Radeon RX 9060 XT OC Edition Graphics Card, GDDR6 8 GB 128-bit Memory, HDMI 2.1 & DP 2.1a Outputs, PCI Express 5.0, 3290 MHz Boost Clock, 20  GBps Memory Clock, 1 Year Warranty | 11350-04-20G',
-    description: '<ul>\n<li>AMD Radeon RX 9060 XT</li>\n<li>Memory: GDDR6 8 GB</li>\n<li>Memory Interface: 128-bit</li>\n<li>Game Clock: Up to 2700 MHz</li>\n<li>Boost Clock: Up to 3290 MHz</li>\n<li>Stream Processors: 2048</li>\n<li>AI Performance: 32 CUs (3rd Gen RT + 2nd Gen AI Accelerators)</li>\n<li>Memory Speed: 20  GBps​</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Power Connectors: 1 x 8-pin</li>\n</ul>',
+    description: '<ul>\n<li>AMD Radeon RX 9060 XT</li>\n<li>Memory: GDDR6 8 GB</li>\n<li>Memory Interface: 128-bit</li>\n<li>Game Clock: Up to 2700 MHz</li>\n<li>Boost Clock: Up to 3290 MHz</li>\n<li>Stream Processors: 2048</li>\n<li>AI Performance: 32 CUs (3rd Gen RT + 2nd Gen AI Accelerators)</li>\n<li>Memory Speed: 20  GBps​</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Power Connectors: 1 x 8-pin</li>\n</ul>',
     specifications: {
 
     },
@@ -3311,7 +3311,7 @@ const products = [
     salePrice: 1759,
     images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/11350-02-20G-2-1752340105902.png?v=1770247917'],
     shortDescription: 'Sapphire PULSE AMD Radeon RX 9060 XT OC Edition Graphics Card, GDDR6 16 GB 128-bit Memory, HDMI 2.1 & DP 2.1a Outputs, PCI Express 5.0, 3290 MHz Boost Clock, 20  GBps Memory Clock, White, 1 Year Warranty | 11350-02-20G',
-    description: '<ul>\n<li>AMD Radeon RX 9060 XT</li>\n<li>Memory: GDDR6 16 GB</li>\n<li>Memory Interface: 128-bit</li>\n<li>Game Clock: Up to 2700 MHz</li>\n<li>Boost Clock: Up to 3290 MHz</li>\n<li>Stream Processors: 2048</li>\n<li>AI Performance: 32 CUs (3rd Gen RT + 2nd Gen AI Accelerators)</li>\n<li>Memory Speed: 20  GBps​</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Power Connectors: 1 x 8-pin</li>\n<li>Color: White</li>\n</ul>',
+    description: '<ul>\n<li>AMD Radeon RX 9060 XT</li>\n<li>Memory: GDDR6 16 GB</li>\n<li>Memory Interface: 128-bit</li>\n<li>Game Clock: Up to 2700 MHz</li>\n<li>Boost Clock: Up to 3290 MHz</li>\n<li>Stream Processors: 2048</li>\n<li>AI Performance: 32 CUs (3rd Gen RT + 2nd Gen AI Accelerators)</li>\n<li>Memory Speed: 20  GBps​</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Power Connectors: 1 x 8-pin</li>\n<li>Color: White</li>\n</ul>',
     specifications: {
 
     },
@@ -3332,7 +3332,7 @@ const products = [
     salePrice: 3249,
     images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/912-V532-054-2-1752340105306.png?v=1770247870'],
     shortDescription: 'Msi GeForce RTX 5070 VANGUARD SOC Edition Graphics Card, GDDR7 12 GB 192-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2655 MHz OC Boost Clock, 28  GBps Memory Clock, 1 Year Warranty | 912-V532-054',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5070</li>\n<li>Memory: GDDR7 12 GB</li>\n<li>Memory Interface: 192-bit</li>\n<li>Extreme Performance: 2655 MHz (MSI Center)</li>\n<li>Engine Clock Boost: 2640 MHz</li>\n<li>CUDA Core: 6144</li>\n<li>AI Performance: N/A</li>\n<li>Memory Speed: 28  GBps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Power Connectors: 1 x 16-pin</li>\n</ul>',
+    description: '<ul>\n<li>NVIDIA GeForce RTX 5070</li>\n<li>Memory: GDDR7 12 GB</li>\n<li>Memory Interface: 192-bit</li>\n<li>Extreme Performance: 2655 MHz (MSI Center)</li>\n<li>Engine Clock Boost: 2640 MHz</li>\n<li>CUDA Core: 6144</li>\n<li>AI Performance: N/A</li>\n<li>Memory Speed: 28  GBps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Power Connectors: 1 x 16-pin</li>\n</ul>',
     specifications: {
 
     },
@@ -3353,7 +3353,7 @@ const products = [
     salePrice: 3559,
     images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/912-V532-019-2-1752340105138.png?v=1770247843, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/912-V532-019-3-1752340105224.png?v=1770247843, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/912-V532-019-4-1752340105257.png?v=1770247843, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/912-V532-019-5-1752340105272.png?v=1770247843, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/912-V532-019-6-1752340105284.png?v=1770247843'],
     shortDescription: 'Msi GeForce RTX 5070 Gaming Trio OC Edition Graphics Card, GDDR7 12 GB 192-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2610 MHz OC Boost Clock, 28  GBps Memory Clock, 1 Year Warranty | 912-V532-019',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5070</li>\n<li>Memory: GDDR7 12 GB</li>\n<li>Memory Interface: 192-bit</li>\n<li>Extreme Performance: 2625 MHz (MSI Center)</li>\n<li>Engine Clock Boost: 2610 MHz</li>\n<li>CUDA Core: 6144</li>\n<li>AI Performance: N/A</li>\n<li>Memory Speed: 28  GBps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Power Connectors: 1 x 16-pin</li>\n</ul>',
+    description: '<ul>\n<li>NVIDIA GeForce RTX 5070</li>\n<li>Memory: GDDR7 12 GB</li>\n<li>Memory Interface: 192-bit</li>\n<li>Extreme Performance: 2625 MHz (MSI Center)</li>\n<li>Engine Clock Boost: 2610 MHz</li>\n<li>CUDA Core: 6144</li>\n<li>AI Performance: N/A</li>\n<li>Memory Speed: 28  GBps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Power Connectors: 1 x 16-pin</li>\n</ul>',
     specifications: {
 
     },
@@ -3374,7 +3374,7 @@ const products = [
     salePrice: 1809,
     images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/912-V515-024-2-1752340104739.png?v=1770247790'],
     shortDescription: 'Msi GeForce RTX 4060 Ti VENTUS 2X OC Edition Graphics Card, GDDR6 8 GB 128-bit Memory, HDMI 2.1a & DP 1.4a Outputs, PCI Express 4.0, 2565 MHz OC Boost Clock, 18  GBps Memory Clock, Black, 1 Year Warranty | 912-V515-024',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 4060 Ti</li>\n<li>Memory: GDDR6 8 GB</li>\n<li>Memory Interface: 128-bit</li>\n<li>Extreme Performance: 2580 MHz (MSI Center)</li>\n<li>Engine Clock Boost: 2565 MHz</li>\n<li>CUDA Core: 4352</li>\n<li>AI Performance: N/A</li>\n<li>Memory Speed: 18  GBps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Power Connectors: 1 x 8-pin</li>\n</ul>',
+    description: '<ul>\n<li>NVIDIA GeForce RTX 4060 Ti</li>\n<li>Memory: GDDR6 8 GB</li>\n<li>Memory Interface: 128-bit</li>\n<li>Extreme Performance: 2580 MHz (MSI Center)</li>\n<li>Engine Clock Boost: 2565 MHz</li>\n<li>CUDA Core: 4352</li>\n<li>AI Performance: N/A</li>\n<li>Memory Speed: 18  GBps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Power Connectors: 1 x 8-pin</li>\n</ul>',
     specifications: {
 
     },
@@ -3395,7 +3395,7 @@ const products = [
     salePrice: 25899,
     images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0LW2-M0NA00-1_fc73e763-0b62-4677-a872-35a8eeeac267.webp?v=1772033833, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0LW2-M0NA00-2_747e0334-1917-43d5-90a1-ae0cde78b642.webp?v=1772033833, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0LW2-M0NA00-3_bc6abc9c-fad4-415d-88c1-46987add651f.webp?v=1772033833, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0LW2-M0NA00-4_ab07e3aa-5f5c-4dc5-bb8e-888d7fc2a262.webp?v=1772033833, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0LW2-M0NA00-5_d4e80d2e-78b2-4d84-92d8-ff178bde93cb.webp?v=1772033833, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0LW2-M0NA00-6_d0d4c44f-c7e4-480d-a27d-4eda639ea8d2.webp?v=1772033833'],
     shortDescription: 'Asus ROG ASTRAL Liquid Cooled GeForce RTX 5090 OC Edition AR GB Graphics Card, GDDR7 32 GB 512-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2610 MHz Core Clock, 28  GBps Memory Clock, 360mm Radiator, 1 Year Warranty | 90YV0LW2-M0NA00',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5090</li>\n<li>Memory: GDDR7 32  GB</li>\n<li>Memory Interface: 512-bit</li>\n<li>Engine Clock OC mode: 2610 MHz</li>\n<li>Engine Clock Default mode: 2580 MHz (Boost Clock)</li>\n<li>CUDA Core: 21,760</li>\n<li>AI Performance: 3593 TOPs</li>\n<li>Memory Speed: 28  GBps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Cooling: 360mm Liquid Cooling</li>\n<li>Power Connectors: 1 x 16-pin</li>\n</ul>',
+    description: '<ul>\n<li>NVIDIA GeForce RTX 5090</li>\n<li>Memory: GDDR7 32  GB</li>\n<li>Memory Interface: 512-bit</li>\n<li>Engine Clock OC mode: 2610 MHz</li>\n<li>Engine Clock Default mode: 2580 MHz (Boost Clock)</li>\n<li>CUDA Core: 21,760</li>\n<li>AI Performance: 3593 TOPs</li>\n<li>Memory Speed: 28  GBps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Cooling: 360mm Liquid Cooling</li>\n<li>Power Connectors: 1 x 16-pin</li>\n</ul>',
     specifications: {
 
     },
@@ -3416,7 +3416,7 @@ const products = [
     salePrice: 3069,
     images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0LZ0-M0NA00-1_da52b01c-1071-4828-8263-a04140b3eddc.webp?v=1772033826, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0LZ0-M0NA00-2_4ff5fda8-00b5-44fd-bb24-3fc599316368.webp?v=1772033826, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0LZ0-M0NA00-3_597afff9-57ce-4a08-9674-9e3e577019cb.webp?v=1772033826, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0LZ0-M0NA00-4_22b1e437-a8d9-4e06-9f23-be7f71236abb.webp?v=1772033826, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0LZ0-M0NA00-5_964fd296-80f1-4641-a204-51319afbad42.webp?v=1772033826, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0LZ0-M0NA00-6_90aa3feb-c302-4e80-b535-8effc827e9f0.webp?v=1772033826'],
     shortDescription: 'Asus TUF Gaming GeForce RTX 5070 OC Edition AR GB Graphics Card, GDDR7 12 GB 512-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2685 MHz Core Clock, 28  GBps Memory Clock, 1 Year Warranty | 90YV0LZ0-M0NA00',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5070</li>\n<li>Memory: GDDR7 12 GB</li>\n<li>Memory Interface: 192-bit</li>\n<li>Engine Clock OC mode: 2640 MHz</li>\n<li>Engine Clock Default mode: 2610 MHz (Boost Clock)</li>\n<li>CUDA Core: 6144</li>\n<li>AI Performance: 1026 TOPs</li>\n<li>Memory Speed: 28  GBps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Power Connectors: 1 x 16-pin</li>\n</ul>',
+    description: '<ul>\n<li>NVIDIA GeForce RTX 5070</li>\n<li>Memory: GDDR7 12 GB</li>\n<li>Memory Interface: 192-bit</li>\n<li>Engine Clock OC mode: 2640 MHz</li>\n<li>Engine Clock Default mode: 2610 MHz (Boost Clock)</li>\n<li>CUDA Core: 6144</li>\n<li>AI Performance: 1026 TOPs</li>\n<li>Memory Speed: 28  GBps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Power Connectors: 1 x 16-pin</li>\n</ul>',
     specifications: {
 
     },
@@ -3437,7 +3437,7 @@ const products = [
     salePrice: 3309,
     images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0M80-M0NA00-1_21f1a28e-a0a1-40d1-b861-4d59f2b77d68.webp?v=1772033821, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0M80-M0NA00-2_9d9ceaba-1f0b-4b10-a319-c523d848b014.webp?v=1772033820, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0M80-M0NA00-3_3d39284d-d070-412b-97b1-291bdca05024.webp?v=1772033820, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0M80-M0NA00-4_df1faf7d-f875-4d0b-8342-5dd7cd0e42aa.webp?v=1772033820, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0M80-M0NA00-5_a48ae540-9ae8-4d9f-a046-0b18c31af804.webp?v=1772033821, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0M80-M0NA00-6_f9a15e23-1f70-4350-a0c2-a95de5a4a631.webp?v=1772033821'],
     shortDescription: 'Asus ROG STRIX AR GB GeForce RTX 5070 OC Gaming Graphics Card, GDDR7 12 GB 192-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2685 MHz Core Clock, 28  GBps Memory Clock, 1 Year Warranty | 90YV0M80-M0NA00',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5070</li>\n<li>Memory: GDDR7 12 GB</li>\n<li>Memory Interface: 192-bit</li>\n<li>Engine Clock OC mode: 2685 MHz</li>\n<li>Engine Clock Default mode: 2655 MHz (Boost Clock)</li>\n<li>CUDA Core: 6144</li>\n<li>AI Performance: 1044 TOPs</li>\n<li>Memory Speed: 28  GBps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Power Connectors: 1 x 16-pin</li>\n</ul>',
+    description: '<ul>\n<li>NVIDIA GeForce RTX 5070</li>\n<li>Memory: GDDR7 12 GB</li>\n<li>Memory Interface: 192-bit</li>\n<li>Engine Clock OC mode: 2685 MHz</li>\n<li>Engine Clock Default mode: 2655 MHz (Boost Clock)</li>\n<li>CUDA Core: 6144</li>\n<li>AI Performance: 1044 TOPs</li>\n<li>Memory Speed: 28  GBps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Power Connectors: 1 x 16-pin</li>\n</ul>',
     specifications: {
 
     },
@@ -3458,7 +3458,7 @@ const products = [
     salePrice: 3589,
     images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0M19-M0NA00-1.jpg?v=1788458379, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0M19-M0NA00-2.png?v=1788458381, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0M19-M0NA00-3.jpg?v=1788458379, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0M19-M0NA00-4.jpg?v=1788458379, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/NVIDIA-GFORCE.jpg?v=1788022503, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0M19-M0NA00-5.jpg?v=1788458379, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0M19-M0NA00-6.jpg?v=1788458379'],
     shortDescription: 'Asus PRIME GeForce RTX 5070 OC Edition Graphics Card, GDDR7 12 GB 192-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2587 MHz Core Clock, 28  GBps Memory Clock, SFF Compatible, White, 1 Year Warranty | 90YV0M19-M0NA00',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5070</li>\n<li>Memory: GDDR7 12 GB</li>\n<li>Memory Interface: 192-bit</li>\n<li>Engine Clock OC mode: 2587 MHz</li>\n<li>Engine Clock Default mode: 2557 MHz (Boost Clock)</li>\n<li>CUDA Core: 6144</li>\n<li>AI Performance: 1005 TOPs</li>\n<li>Memory Speed: 28  GBps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Power Connectors: 1 x 16-pin</li>\n<li>SFF: Compatible</li>\n<li>Color: White</li>\n</ul>',
+    description: '<ul>\n<li>NVIDIA GeForce RTX 5070</li>\n<li>Memory: GDDR7 12 GB</li>\n<li>Memory Interface: 192-bit</li>\n<li>Engine Clock OC mode: 2587 MHz</li>\n<li>Engine Clock Default mode: 2557 MHz (Boost Clock)</li>\n<li>CUDA Core: 6144</li>\n<li>AI Performance: 1005 TOPs</li>\n<li>Memory Speed: 28  GBps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Power Connectors: 1 x 16-pin</li>\n<li>SFF: Compatible</li>\n<li>Color: White</li>\n</ul>',
     specifications: {
 
     },
@@ -3479,7 +3479,7 @@ const products = [
     salePrice: 2779,
     images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0M11-M0NA00-1.png?v=1789223948, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0M11-M0NA00-2.png?v=1789223948, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0M11-M0NA00-3.png?v=1789223948, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0M11-M0NA00-4.png?v=1789223948, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0M11-M0NA00-5.png?v=1789223948, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0M11-M0NA00-6.png?v=1789223948'],
     shortDescription: 'Asus PRIME GeForce RTX 5070 Graphics Card, GDDR7 12 GB 192-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2542 MHz Core Clock, 28  GBps Memory Clock, SFF Compatible, 1 Year Warranty | 90YV0M11-M0NA00',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5070</li>\n<li>Memory: GDDR7 12 GB</li>\n<li>Engine Clock OC mode: 2542 MHz</li>\n<li>Engine Clock Default mode: 2512 MHz (Boost Clock)</li>\n<li>CUDA Core: 6144</li>\n<li>AI Performance: 988 TOPs</li>\n<li>Memory Speed: 28  GBps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Power Connectors: 1 x 16-pin</li>\n<li>SFF: Compatible</li>\n<li>Memory Interface: 192-bit</li>\n</ul>',
+    description: '<ul>\n<li>NVIDIA GeForce RTX 5070</li>\n<li>Memory: GDDR7 12 GB</li>\n<li>Engine Clock OC mode: 2542 MHz</li>\n<li>Engine Clock Default mode: 2512 MHz (Boost Clock)</li>\n<li>CUDA Core: 6144</li>\n<li>AI Performance: 988 TOPs</li>\n<li>Memory Speed: 28  GBps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Power Connectors: 1 x 16-pin</li>\n<li>SFF: Compatible</li>\n<li>Memory Interface: 192-bit</li>\n</ul>',
     specifications: {
 
     },
@@ -3500,7 +3500,7 @@ const products = [
     salePrice: 2879,
     images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0M17-M0NA00-1_d0312d69-c02e-4185-b725-de1d670a7b0b.webp?v=1772033815, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0M17-M0NA00-2_50fef4c7-86f2-46c0-93ae-fe036320bf0a.webp?v=1772033814, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0M17-M0NA00-3_e25afc42-7997-4622-a6eb-549433d4f7d5.webp?v=1772033814, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0M17-M0NA00-4_e20582e7-4080-44bc-a2e0-6cfb59850bb4.webp?v=1772033814, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0M17-M0NA00-5_301a0710-a53f-4f78-8f27-6f2c0a82a036.webp?v=1772033814, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0M17-M0NA00-6_d4c922d4-96ce-4268-befb-48bc5ff8d6cf.webp?v=1772033814'],
     shortDescription: 'Asus DUAL GeForce RTX 5070 OC Edition Graphics Card, GDDR7 12 GB 192-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2572 MHz Core Clock, 28  GBps Memory Clock, SFF Compatible, 1 Year Warranty | 90YV0M17-M0NA00',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5070</li>\n<li>Memory: GDDR7 12 GB</li>\n<li>Engine Clock OC mode: 2572 MHz</li>\n<li>Engine Clock Default mode: 2542 MHz (Boost Clock)</li>\n<li>CUDA Core: 6144</li>\n<li>AI Performance: 1000 TOPs</li>\n<li>Memory Speed: 28  GBps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>SFF: Compatible</li>\n<li>Memory Interface: 192-bit</li>\n</ul>',
+    description: '<ul>\n<li>NVIDIA GeForce RTX 5070</li>\n<li>Memory: GDDR7 12 GB</li>\n<li>Engine Clock OC mode: 2572 MHz</li>\n<li>Engine Clock Default mode: 2542 MHz (Boost Clock)</li>\n<li>CUDA Core: 6144</li>\n<li>AI Performance: 1000 TOPs</li>\n<li>Memory Speed: 28  GBps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>SFF: Compatible</li>\n<li>Memory Interface: 192-bit</li>\n</ul>',
     specifications: {
 
     },
@@ -3521,7 +3521,7 @@ const products = [
     salePrice: 2159,
     images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0MR0-M0NA00-1_f93418b5-c12e-402d-be73-f118e031bebe.webp?v=1772033808, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0MR0-M0NA00-2_8f12e99d-38ec-49fb-ae40-f1d493297161.webp?v=1772033808, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0MR0-M0NA00-3_b4cee8d6-dc94-4d0a-9525-86ae4653fec4.webp?v=1772033808, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0MR0-M0NA00-4_d2216bcf-7347-44df-b7ae-7fdb29ee6a8d.webp?v=1772033808'],
     shortDescription: 'Asus TUF Gaming GeForce RTX 5060 Ti OC Edition Graphics Card, GDDR7 8 GB 128-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2692 MHz Core Clock, 28  GBps Memory Clock, 1 Year Warranty | 90YV0MR0-M0NA00',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5060 Ti</li>\n<li>Memory: GDDR7 8 GB</li>\n<li>Engine Clock OC mode: 2692 MHz</li>\n<li>Engine Clock Default mode: 2662 MHz (Boost Clock)</li>\n<li>CUDA Core: 4608</li>\n<li>AI Performance: 785 TOPs</li>\n<li>Memory Speed: 28  GBps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 128-bit</li>\n</ul>',
+    description: '<ul>\n<li>NVIDIA GeForce RTX 5060 Ti</li>\n<li>Memory: GDDR7 8 GB</li>\n<li>Engine Clock OC mode: 2692 MHz</li>\n<li>Engine Clock Default mode: 2662 MHz (Boost Clock)</li>\n<li>CUDA Core: 4608</li>\n<li>AI Performance: 785 TOPs</li>\n<li>Memory Speed: 28  GBps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 128-bit</li>\n</ul>',
     specifications: {
 
     },
@@ -3542,7 +3542,7 @@ const products = [
     salePrice: 1999,
     images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0MP0-M0NA00-1_0908c075-a013-4288-8c23-47f8fc3a1245.webp?v=1772033803, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0MP0-M0NA00-2_835e6a5f-5426-42f7-b6b9-203b3b036399.webp?v=1772033803, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0MP0-M0NA00-3_e310f1d2-3220-4b29-9625-95b5161a2685.webp?v=1772033803, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0MP0-M0NA00-4_e4f0ab03-8cd0-4e82-9386-585000a4a205.webp?v=1772033803, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0MP0-M0NA00-5_c2cd7655-5b8b-45c7-aa34-8c1d0f0743d7.webp?v=1772033803, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0MP0-M0NA00-6_53accefa-b0f0-43c9-9f51-566bd75c7685.webp?v=1772033803'],
     shortDescription: 'Asus PRIME GeForce RTX 5060 Ti OC Edition Graphics Card, GDDR7 8 GB 128-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2647 MHz Core Clock, 28  GBps Memory Clock, 1 Year Warranty | 90YV0MP0-M0NA00',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5060 Ti</li>\n<li>Memory: GDDR7 8 GB</li>\n<li>Engine Clock OC mode: 2647 MHz</li>\n<li>Engine Clock Default mode: 2617 MHz (Boost Clock)</li>\n<li>CUDA Core: 4608</li>\n<li>AI Performance: 772 TOPs</li>\n<li>Memory Speed: 28  GBps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 128-bit</li>\n</ul>',
+    description: '<ul>\n<li>NVIDIA GeForce RTX 5060 Ti</li>\n<li>Memory: GDDR7 8 GB</li>\n<li>Engine Clock OC mode: 2647 MHz</li>\n<li>Engine Clock Default mode: 2617 MHz (Boost Clock)</li>\n<li>CUDA Core: 4608</li>\n<li>AI Performance: 772 TOPs</li>\n<li>Memory Speed: 28  GBps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 128-bit</li>\n</ul>',
     specifications: {
 
     },
@@ -3563,7 +3563,7 @@ const products = [
     salePrice: 1919,
     images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0MP2-M0NA00-1_52e3bbad-1c84-4a5a-bbe1-55807cbc47a9.webp?v=1772033796, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0MP2-M0NA00-2_953babf6-4ed0-496d-84fd-06d3e77e3c16.webp?v=1772033796, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0MP2-M0NA00-3_5f6d0e70-cc6b-4cf1-802f-9a8762bad7e2.webp?v=1772033796, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0MP2-M0NA00-4_2b5066cf-6235-48ff-a82c-0c0f34aa96e0.webp?v=1772033795'],
     shortDescription: 'Asus DUAL GeForce RTX 5060 Ti OC Edition Graphics Card, GDDR7 8 GB 128-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2632 MHz Core Clock, 28  GBps Memory Clock, 1 Year Warranty | 90YV0MP2-M0NA00',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5060 Ti</li>\n<li>Memory: GDDR7 8 GB</li>\n<li>Engine Clock OC mode: 2632 MHz</li>\n<li>Engine Clock Default mode: 2602 MHz (Boost Clock)</li>\n<li>CUDA Core: 4608</li>\n<li>AI Performance: 767 TOPs</li>\n<li>Memory Speed: 28  GBps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 128-bit</li>\n</ul>',
+    description: '<ul>\n<li>NVIDIA GeForce RTX 5060 Ti</li>\n<li>Memory: GDDR7 8 GB</li>\n<li>Engine Clock OC mode: 2632 MHz</li>\n<li>Engine Clock Default mode: 2602 MHz (Boost Clock)</li>\n<li>CUDA Core: 4608</li>\n<li>AI Performance: 767 TOPs</li>\n<li>Memory Speed: 28  GBps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 128-bit</li>\n</ul>',
     specifications: {
 
     },
@@ -3584,7 +3584,7 @@ const products = [
     salePrice: 2879,
     images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0MH2-M0NA00-1_2c4cf081-efc1-42a2-9a27-fd1ecf9317f6.webp?v=1772033790, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0MH2-M0NA00-2_3f5a3715-7b43-480e-a3db-a2c540e7a454.webp?v=1772033790, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0MH2-M0NA00-3_4f75ffee-c198-4375-95ff-2b2070336968.webp?v=1772033790, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0MH2-M0NA00-4_64d996b2-97ad-4fea-8b79-5166f8b1d0b3.webp?v=1772033790'],
     shortDescription: 'Asus PRIME GeForce RTX 5060 Ti OC Edition Graphics Card, GDDR7 16 GB 128-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2647 MHz Core Clock, 28  GBps Memory Clock, 1 Year Warranty | 90YV0MH2-M0NA00',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5060 Ti</li>\n<li>Memory: GDDR7 16 GB</li>\n<li>Engine Clock OC mode: 2647 MHz</li>\n<li>Engine Clock Default mode: 2617 MHz (Boost Clock)</li>\n<li>CUDA Core: 4608</li>\n<li>AI Performance: 772 TOPs</li>\n<li>Memory Speed: 28  GBps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 128-bit</li>\n</ul>',
+    description: '<ul>\n<li>NVIDIA GeForce RTX 5060 Ti</li>\n<li>Memory: GDDR7 16 GB</li>\n<li>Engine Clock OC mode: 2647 MHz</li>\n<li>Engine Clock Default mode: 2617 MHz (Boost Clock)</li>\n<li>CUDA Core: 4608</li>\n<li>AI Performance: 772 TOPs</li>\n<li>Memory Speed: 28  GBps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 128-bit</li>\n</ul>',
     specifications: {
 
     },
@@ -3605,7 +3605,7 @@ const products = [
     salePrice: 2949,
     images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0MG0-M0NA00-1_562c6ed6-2ff8-4285-a33d-eaeb2a1ce1da.webp?v=1772033784, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0MG0-M0NA00-2_ff3e73f0-f13b-4765-9d99-b9de8cc78625.webp?v=1772033784, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0MG0-M0NA00-3_51c5a7eb-5419-4596-84fd-f6968b79bb46.webp?v=1772033784, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0MG0-M0NA00-4_48f0338d-748f-41f0-beeb-d69b6e98d607.webp?v=1772033784'],
     shortDescription: 'Asus TUF Gaming GeForce RTX 5060 Ti OC Edition Graphics Card, GDDR7 16 GB 128-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2692 MHz Core Clock, 28  GBps Memory Clock, 1 Year Warranty | 90YV0MG0-M0NA00',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5060 Ti</li>\n<li>Memory: GDDR7 16 GB</li>\n<li>Engine Clock OC mode: 2692 MHz</li>\n<li>Engine Clock Default mode: 2662 MHz (Boost Clock)</li>\n<li>CUDA Core: 4608</li>\n<li>AI Performance: 785 TOPs</li>\n<li>Memory Speed: 28  GBps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 128-bit</li>\n</ul>',
+    description: '<ul>\n<li>NVIDIA GeForce RTX 5060 Ti</li>\n<li>Memory: GDDR7 16 GB</li>\n<li>Engine Clock OC mode: 2692 MHz</li>\n<li>Engine Clock Default mode: 2662 MHz (Boost Clock)</li>\n<li>CUDA Core: 4608</li>\n<li>AI Performance: 785 TOPs</li>\n<li>Memory Speed: 28  GBps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 128-bit</li>\n</ul>',
     specifications: {
 
     },
@@ -3626,7 +3626,7 @@ const products = [
     salePrice: 1749,
     images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0N00-M0NA00-1_a164fd19-9ef4-4af1-8fa4-c9f06e6b0778.webp?v=1772033778, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0N00-M0NA00-2_b01bc371-b8a3-45bb-ba27-97764c173b9b.webp?v=1772033778, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0N00-M0NA00-3_f8eed2d3-c5b5-46aa-b562-55fc71446d50.webp?v=1772033779, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0N00-M0NA00-4_6edd7581-7b1a-459e-91b4-f19c0d14fb5e.webp?v=1772033779, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0N00-M0NA00-5_ec4507ec-23a2-43d4-b57b-63d1e5fb15b2.webp?v=1772033779'],
     shortDescription: 'Asus TUF Gaming GeForce RTX 5060 OC Edition Graphics Card, GDDR7 8 GB 128-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2677 MHz Core Clock, 28  GBps Memory Clock, 1 Year Warranty | 90YV0N00-M0NA00',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5060</li>\n<li>Memory: GDDR7 8 GB</li>\n<li>Engine Clock OC mode: 2677 MHz</li>\n<li>Engine Clock Default mode: 2640 MHz (Boost Clock)</li>\n<li>CUDA Core: 3840</li>\n<li>AI Performance: 648 TOPs</li>\n<li>Memory Speed: 28  GBps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 128-bit</li>\n</ul>',
+    description: '<ul>\n<li>NVIDIA GeForce RTX 5060</li>\n<li>Memory: GDDR7 8 GB</li>\n<li>Engine Clock OC mode: 2677 MHz</li>\n<li>Engine Clock Default mode: 2640 MHz (Boost Clock)</li>\n<li>CUDA Core: 3840</li>\n<li>AI Performance: 648 TOPs</li>\n<li>Memory Speed: 28  GBps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 128-bit</li>\n</ul>',
     specifications: {
 
     },
@@ -3647,7 +3647,7 @@ const products = [
     salePrice: 1709,
     images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0N10-M0NA00-1_848bc0e4-7a28-4abe-a5df-1617e6d9daeb.webp?v=1772033773, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0N10-M0NA00-2_5f885cff-54f7-49a1-b951-5d37b284e60c.webp?v=1772033773, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0N10-M0NA00-3_a55a03c9-cca8-4d18-913a-706e610ae9c9.webp?v=1772033773, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0N10-M0NA00-4_4cb00ea5-eb50-4191-be00-8c37c887ebc1.webp?v=1772033773, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0N10-M0NA00-5_93a45875-3bd5-49f2-a0ac-a46db3a4880d.webp?v=1772033773, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0N10-M0NA00-6_845b0663-178a-4972-bcc2-1a70afd9e852.webp?v=1772033773'],
     shortDescription: 'Asus PRIME GeForce RTX 5060 OC Edition Graphics Card, GDDR7 8 GB 128-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2595 MHz Core Clock, 28  GBps Memory Clock, 1 Year Warranty | 90YV0N10-M0NA00',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5060</li>\n<li>Memory: GDDR7 8 GB</li>\n<li>Engine Clock OC mode: 2595 MHz</li>\n<li>Engine Clock Default mode: 2565 MHz (Boost Clock)</li>\n<li>CUDA Core: 3840</li>\n<li>AI Performance: 630 TOPs</li>\n<li>Memory Speed: 28  GBps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 128-bit</li>\n</ul>',
+    description: '<ul>\n<li>NVIDIA GeForce RTX 5060</li>\n<li>Memory: GDDR7 8 GB</li>\n<li>Engine Clock OC mode: 2595 MHz</li>\n<li>Engine Clock Default mode: 2565 MHz (Boost Clock)</li>\n<li>CUDA Core: 3840</li>\n<li>AI Performance: 630 TOPs</li>\n<li>Memory Speed: 28  GBps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 128-bit</li>\n</ul>',
     specifications: {
 
     },
@@ -3668,7 +3668,7 @@ const products = [
     salePrice: 1629,
     images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0N12-M0NA00-1-1752340104565.png?v=1771744767, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0N12-M0NA00-1_0e4362b5-a016-4357-b7c7-9da1e8719c67.webp?v=1793360601, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0N12-M0NA00-2_cb45ee8c-93df-4408-a8bb-446eacaad4e4.webp?v=1793360601, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0N12-M0NA00-3_2e858322-6ba1-4573-a3d1-02a01edbe843.webp?v=1793360601, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0N12-M0NA00-4_52bb8ff6-dfc1-4e74-a088-595cb15ab70f.webp?v=1793360601, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0N12-M0NA00-5_c578a7f5-9ecd-493e-bf70-88753a7093d0.webp?v=1793360601, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0N12-M0NA00-6_7a1e1a89-1778-422b-8f64-2314006f079d.webp?v=1793360601'],
     shortDescription: 'Asus Dual GeForce RTX 5060 OC Edition Graphics Card, GDDR7 8 GB 128-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2565 MHz Core Clock, 28  GBps Memory Clock, 1 Year Warranty | 90YV0N12-M0NA00',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5060</li>\n<li>Memory: GDDR7 8 GB</li>\n<li>Engine Clock OC mode: 2565 MHz</li>\n<li>Engine Clock Default mode: 2535MHz (Boost Clock)</li>\n<li>CUDA Core: 3840</li>\n<li>AI Performance: 623 TOPs</li>\n<li>Memory Speed: 28  GBps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 128-bit</li>\n</ul>',
+    description: '<ul>\n<li>NVIDIA GeForce RTX 5060</li>\n<li>Memory: GDDR7 8 GB</li>\n<li>Engine Clock OC mode: 2565 MHz</li>\n<li>Engine Clock Default mode: 2535MHz (Boost Clock)</li>\n<li>CUDA Core: 3840</li>\n<li>AI Performance: 623 TOPs</li>\n<li>Memory Speed: 28  GBps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 128-bit</li>\n</ul>',
     specifications: {
 
     },
@@ -3689,7 +3689,7 @@ const products = [
     salePrice: 3999,
     images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0KI0-M0NA00-1-1752340102593.png?v=1771744767, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0KI0-M0NA00-1_cde0dd79-993d-467f-b105-786159589ff3.webp?v=1793360611, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0KI0-M0NA00-2_dbca5494-9d99-4e0a-bcdd-2c29ce4345ff.webp?v=1793360611, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0KI0-M0NA00-3_8c5bdb7b-9293-4055-bd7e-103499fb1b37.webp?v=1793360610, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0KI0-M0NA00-4_790f3dba-0e53-40b3-a6e2-e9befdb97847.webp?v=1793360611, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0KI0-M0NA00-5_fa361ed3-002c-4c27-a114-ae7b7ef8331b.webp?v=1793360611, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0KI0-M0NA00-6_80995748-e7d5-4f15-aec1-6cf3d2b1c289.webp?v=1793360611'],
     shortDescription: 'Asus TUF Gaming GeForce RTX 4070 Ti SUPER Back-To-the-Future OC Edition Graphics Card, GDDR6X 16 GB 256-bit Memory, HDMI 2.1a & DP 1.4a Outputs, PCI Express 4.0, 2670 MHz Core Clock, 21  GBps Memory Clock, White, 1 Year Warranty | 90YV0KI0-M0NA00',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 4070 Ti SUPER</li>\n<li>Memory: GDDR6X 16 GB</li>\n<li>Engine Clock OC mode: 2670 MHz</li>\n<li>Engine Clock Default mode: 2640 MHz (boost)</li>\n<li>CUDA Core: 8448</li>\n<li>AI Performance: 714 TOPs</li>\n<li>Memory Speed: 21  GBps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 256-bit</li>\n<li>Color: White</li>\n</ul>',
+    description: '<ul>\n<li>NVIDIA GeForce RTX 4070 Ti SUPER</li>\n<li>Memory: GDDR6X 16 GB</li>\n<li>Engine Clock OC mode: 2670 MHz</li>\n<li>Engine Clock Default mode: 2640 MHz (boost)</li>\n<li>CUDA Core: 8448</li>\n<li>AI Performance: 714 TOPs</li>\n<li>Memory Speed: 21  GBps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 256-bit</li>\n<li>Color: White</li>\n</ul>',
     specifications: {
 
     },
@@ -3710,7 +3710,7 @@ const products = [
     salePrice: 3729,
     images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/ZT-D40710B-10P-1_9eeee2a6-f67d-4c3c-a7a8-055548315015.webp?v=1772033766, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/ZT-D40710B-10P-2_b5d34a2d-11c9-46da-b4ea-51771bc08f6c.webp?v=1772033766, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/ZT-D40710B-10P-3_cefc7193-c271-4bc2-9380-2bebc0ca2e0a.webp?v=1772033766, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/ZT-D40710B-10P-4_46eddab8-f3f9-4d71-9817-b4d938bf6044.webp?v=1772033766, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/ZT-D40710B-10P-5_90550723-3e93-432f-9d7a-1da6b1d298b9.webp?v=1772033766, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/ZT-D40710B-10P-6_cc918ba1-0b38-4bcb-85b0-db7eea6e35ee.webp?v=1772033766'],
     shortDescription: 'VGA ZOTAC RTX 4070Ti 12 GB DDR6 AMP EXTREME AIRO | ZT-D40710B-10P',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 4070Ti\n</li>\n<li>?GDDR6 12 GB</li>\n<li>21  GBps</li>\n<li>192Bit Memory Interface</li>\n</ul>',
+    description: '<ul>\n<li>NVIDIA GeForce RTX 4070Ti\n</li>\n<li>?GDDR6 12 GB</li>\n<li>21  GBps</li>\n<li>192Bit Memory Interface</li>\n</ul>',
     specifications: {
 
     },
@@ -3731,7 +3731,7 @@ const products = [
     salePrice: 4789,
     images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/VCNRTXA4000-SB-02.gif?v=1770220068, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/PNY-NVIDIA-RTX-A4000-Graphics-Card-VCNRTXA4000-SB-1_3d6216ac-6c74-4fd5-83ff-9a89c6559271.webp?v=1793451785, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/PNY-NVIDIA-RTX-A4000-Graphics-Card-VCNRTXA4000-SB-2_0cbd6bfb-d4a4-41e6-8d6f-30021c1a8fef.webp?v=1793451786, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/PNY-NVIDIA-RTX-A4000-Graphics-Card-VCNRTXA4000-SB-3_00269fab-4d59-4531-b44e-4140520806f3.webp?v=1793451787, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/PNY-NVIDIA-RTX-A4000-Graphics-Card-VCNRTXA4000-SB-4_970d2fd6-4c40-40be-b1fc-d196ccb3b72c.webp?v=1793451785, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/PNY-NVIDIA-RTX-A4000-Graphics-Card-VCNRTXA4000-SB-5_4732b17c-7d1b-448e-91d4-4bf214100179.webp?v=1793451785'],
     shortDescription: 'PNY NVIDIA RTX A4000 Graphics Card, 6144 CUDA Cores, GDDR6 16GB 256-bit Memory, 4x DP 1.4a Outputs, PCI Express 4.0, 14 Gbps Memory Clock, 1 Year Warranty | VCNRTXA4000-SB',
-    description: '<ul>\n<li>Graphics: NVIDIA RTX A4000</li>\n<li>Graphics Memory: 16GB GDDR6</li>\n<li>CUDA Cores: 6,144</li>\n<li>Memory Speed: 14Gbps</li>\n<li>Memory Interface: 256-bit</li>\n<li>Interface: PCI Express 4.0</li>\n<li>Video Outputs: 4 x DisplayPort 1.4a</li>\n<li>Power Consumption: 140W</li>\n<li>Warranty: 1 Year</li>\n</ul>',
+    description: '<ul>\n<li>Graphics: NVIDIA RTX A4000</li>\n<li>Graphics Memory: 16GB GDDR6</li>\n<li>CUDA Cores: 6,144</li>\n<li>Memory Speed: 14Gbps</li>\n<li>Memory Interface: 256-bit</li>\n<li>Interface: PCI Express 4.0</li>\n<li>Video Outputs: 4 x DisplayPort 1.4a</li>\n<li>Power Consumption: 140W</li>\n<li>Warranty: 1 Year</li>\n</ul>',
     specifications: {
 
     },
@@ -3752,7 +3752,7 @@ const products = [
     salePrice: 2939,
     images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/11323-01-40G-1_894af592-e7f0-4d24-a80f-235932529cc5.webp?v=1772033761, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/11323-01-40G-2_f099786a-0c91-4bc4-8497-1059040b9897.webp?v=1772033758, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/11323-01-40G-3_8056cc1d-de8f-4635-b592-adae3c1ab1ad.webp?v=1772033758, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/11323-01-40G-4_1a342ca8-a2b7-4004-a79b-32265f6b6c77.webp?v=1772033758, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/11323-01-40G-5_342584e1-3e28-4c02-b3f2-385636e91dce.webp?v=1772033758, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/11323-01-40G-6_3ebd0a1d-69f8-4f37-8315-65c282896e47.webp?v=1772033758'],
     shortDescription: 'SAPPHIRE AMD Radeon RX 7900 XT 20 GB GDDR6 NITRO PLUS Graphic Card | 11323-01-40G',
-    description: '<ul>\n<li>AMD Radeon™ RX 7900 XT</li>\n<li>20 GB GDDR6</li>\n<li>Memory Speed: 20  GBps</li>\n<li>Engine Clock: 2400 MHz</li>\n<li>CUDA Cores: 5376</li>\n<li>Memory Interface: 320-bits</li>\n</ul>',
+    description: '<ul>\n<li>AMD Radeon™ RX 7900 XT</li>\n<li>20 GB GDDR6</li>\n<li>Memory Speed: 20  GBps</li>\n<li>Engine Clock: 2400 MHz</li>\n<li>CUDA Cores: 5376</li>\n<li>Memory Interface: 320-bits</li>\n</ul>',
     specifications: {
 
     },
@@ -3773,7 +3773,7 @@ const products = [
     salePrice: 3389,
     images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0IV1-M0NA00-1_0fe154d8-4753-494b-9f3c-eaa7b7084dc5.webp?v=1772033752, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0IV1-M0NA00-2_86406b01-a8a1-4fb1-8ad9-f5a1f8ee4ff5.webp?v=1772033752, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0IV1-M0NA00-3_3aff1a7d-d139-460a-a232-5c43d0fd2b24.webp?v=1772033752, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0IV1-M0NA00-4_95b3e42a-5ed9-45e8-b17b-87684fa14456.webp?v=1772033752, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0IV1-M0NA00-5_8d1b513c-a0ac-42bd-a4e0-a878ad4da2ae.webp?v=1772033752, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0IV1-M0NA00-6_cc91a8dc-3d39-42c8-92e2-f71978c65c38.webp?v=1772033752'],
     shortDescription: 'ASUS TUF Gaming Radeon RX 7900 XT 20 GB GDDR6 OC Edition Graphic Card | 90YV0IV1-M0NA00',
-    description: '<ul>\n<li>AMD Radeon™ RX 7900 XT</li>\n<li>20 GB GDDR6</li>\n<li>Memory Speed: 20  GBps</li>\n<li>Engine Clock: 2535 MHz</li>\n<li>CUDA Cores: 5376</li>\n<li>Memory Interface: 320-bit</li>\n</ul>',
+    description: '<ul>\n<li>AMD Radeon™ RX 7900 XT</li>\n<li>20 GB GDDR6</li>\n<li>Memory Speed: 20  GBps</li>\n<li>Engine Clock: 2535 MHz</li>\n<li>CUDA Cores: 5376</li>\n<li>Memory Interface: 320-bit</li>\n</ul>',
     specifications: {
 
     },
@@ -3794,7 +3794,7 @@ const products = [
     salePrice: 1329,
     images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0GH6-M0NA00-1.png?v=1788788199, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0GH6-M0NA00-2.png?v=1788788199, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0GH6-M0NA00-3.png?v=1788788199, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0GH6-M0NA00-4.png?v=1788788199, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0GH6-M0NA00-5.png?v=1788788199, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0GH6-M0NA00-6.png?v=1788788199'],
     shortDescription: 'ASUS NVIDIA Dual GeForce RTX 3050 8 GB GDDR6 OC Edition Graphic Card | 90YV0GH6-M0NA00',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 3050</li>\n<li>8 GB GDDR6</li>\n<li>Memory Speed: 14  GBps</li>\n<li>Engine Clock: 1852 MHz</li>\n<li>CUDA Cores: 2560</li>\n<li>Memory Interface: 128-bit</li>\n</ul>',
+    description: '<ul>\n<li>NVIDIA GeForce RTX 3050</li>\n<li>8 GB GDDR6</li>\n<li>Memory Speed: 14  GBps</li>\n<li>Engine Clock: 1852 MHz</li>\n<li>CUDA Cores: 2560</li>\n<li>Memory Interface: 128-bit</li>\n</ul>',
     specifications: {
 
     },
@@ -3815,7 +3815,7 @@ const products = [
     salePrice: 1069,
     images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0K60-M0NA00-2-1746384958203.png?v=1770246515, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0K60-M0NA00-1_511fc6e1-ddd1-4be9-9d40-3765bbc5d859.webp?v=1793360630, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0K60-M0NA00-2_0906e305-bf0d-4430-8231-b8eb8583c2a6.webp?v=1793360629, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0K60-M0NA00-3_7001361f-eba1-4acb-94bf-3e0a4c1deed0.webp?v=1793360629, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0K60-M0NA00-4_95fde40c-bd02-44f5-b0f8-d6e9e369ba9f.webp?v=1793360629, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0K60-M0NA00-5_8486adbf-30fe-42ec-8e7b-510e4a213b5d.webp?v=1793360629, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0K60-M0NA00-6_7405c40a-6c5f-4d7d-bd01-81626a2d0956.webp?v=1793360629'],
     shortDescription: 'ASUS NVIDIA Dual GeForce RTX 3050 6 GB GDDR6 OC Edition Graphic Card | 90YV0K60-M0NA00',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 3050</li>\n<li>6 GB GDDR6</li>\n<li>Memory Speed: 14  GBps</li>\n<li>Engine Clock: 1537 MHz</li>\n<li>CUDA Cores: 2304</li>\n<li>Memory Interface: 96-bit</li>\n</ul>',
+    description: '<ul>\n<li>NVIDIA GeForce RTX 3050</li>\n<li>6 GB GDDR6</li>\n<li>Memory Speed: 14  GBps</li>\n<li>Engine Clock: 1537 MHz</li>\n<li>CUDA Cores: 2304</li>\n<li>Memory Interface: 96-bit</li>\n</ul>',
     specifications: {
 
     },
@@ -3836,7 +3836,7 @@ const products = [
     salePrice: 2709,
     images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0M10-M0NA00-1_44f36386-dca7-496b-a982-07555e500487.webp?v=1772033745, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0M10-M0NA00-2_d0060f64-923f-4856-b4ea-664d12147d36.webp?v=1772033745, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0M10-M0NA00-3_18cdf2e0-093e-4216-bafc-e9fee2986f1b.webp?v=1772033745, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0M10-M0NA00-4_0e21017c-36d7-46bf-ba2d-184a32fbd088.webp?v=1772033746, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0M10-M0NA00-5_524be0f8-dd3c-42dc-ba4b-9097515006f3.webp?v=1772033745, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0M10-M0NA00-6_86774c31-08cf-4511-a161-b0efa1adaad6.webp?v=1772033745'],
     shortDescription: 'ASUS PRIME GeForce RTX 5070 12 GB GDDR7 OC Edition Graphic Card | 90YV0M10-M0NA00',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5070</li>\n<li>12 GB GDDR7</li>\n<li>Memory Speed: 28  GBps</li>\n<li>Engine Clock: 2587 MHz</li>\n<li>CUDA Cores: 6144</li>\n<li>Memory Interface: 192-Bit</li>\n</ul>',
+    description: '<ul>\n<li>NVIDIA GeForce RTX 5070</li>\n<li>12 GB GDDR7</li>\n<li>Memory Speed: 28  GBps</li>\n<li>Engine Clock: 2587 MHz</li>\n<li>CUDA Cores: 6144</li>\n<li>Memory Interface: 192-Bit</li>\n</ul>',
     specifications: {
 
     },
@@ -3857,7 +3857,7 @@ const products = [
     salePrice: 3159,
     images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0FR7-M0NA00-02.gif?v=1770220026, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Asus-ROG-STRIX-RTX-3070-OC-Gaming-GPU-90YV0FR7-M0NA00-1_a74d6ed1-874a-4473-b8ed-fcbad4f426a3.webp?v=1793451786, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Asus-ROG-STRIX-RTX-3070-OC-Gaming-GPU-90YV0FR7-M0NA00-2_b61139de-5a9c-427f-9c73-92ba8409f994.webp?v=1793451786, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Asus-ROG-STRIX-RTX-3070-OC-Gaming-GPU-90YV0FR7-M0NA00-3_895df174-945b-4cf2-9cb4-44bad313ddb8.webp?v=1793451787, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Asus-ROG-STRIX-RTX-3070-OC-Gaming-GPU-90YV0FR7-M0NA00-4_aba677fc-acfb-4ee2-aedb-0ead6f700e62.webp?v=1793451786, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Asus-ROG-STRIX-RTX-3070-OC-Gaming-GPU-90YV0FR7-M0NA00-5_33aa8482-70aa-4d2b-9b60-bfebb0188fac.webp?v=1793451787'],
     shortDescription: 'Asus ROG STRIX GeForce RTX 3070 OC LHR Gaming Graphics Card, 5888 CUDA Cores, GDDR6 8GB 256-bit Memory, PCI Express 4.0, 1935 MHz Boost Clock, 14 Gbps Memory Clock, 1 Year Warranty | 90YV0FR7-M0NA00',
-    description: '<ul>\n<li>Graphics: NVIDIA GeForce RTX 3070</li>\n<li>Graphics Memory: 8GB GDDR6</li>\n<li>Boost Clock: 1935MHz</li>\n<li>Base Clock: 1500MHz</li>\n<li>CUDA Cores: 5,888</li>\n<li>Memory Speed: 14Gbps</li>\n<li>Memory Interface: 256-bit</li>\n<li>Interface: PCI Express 4.0</li>\n<li>Power Consumption: 220W</li>\n<li>Warranty: 1 Year</li>\n</ul>',
+    description: '<ul>\n<li>Graphics: NVIDIA GeForce RTX 3070</li>\n<li>Graphics Memory: 8GB GDDR6</li>\n<li>Boost Clock: 1935MHz</li>\n<li>Base Clock: 1500MHz</li>\n<li>CUDA Cores: 5,888</li>\n<li>Memory Speed: 14Gbps</li>\n<li>Memory Interface: 256-bit</li>\n<li>Interface: PCI Express 4.0</li>\n<li>Power Consumption: 220W</li>\n<li>Warranty: 1 Year</li>\n</ul>',
     specifications: {
 
     },
@@ -3878,7 +3878,7 @@ const products = [
     salePrice: 16999,
     images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0LWA-M0NA00-1_f11fe386-88ec-42c5-93a4-e0a4277b6785.webp?v=1772033739, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0LWA-M0NA00-2_ff995704-b538-45e9-80c1-546c2bffc5f6.webp?v=1772033739, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0LWA-M0NA00-3_73313f76-a16b-400a-b6fe-da90ee5112a2.webp?v=1772033739, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0LWA-M0NA00-4_2c9c7e3a-8059-4a88-9e13-2af6fb1964bc.webp?v=1772033739, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0LWA-M0NA00-5_888b7593-c966-423b-9983-fe2508ecbd27.webp?v=1772033739, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0LWA-M0NA00-6_6f16c7fa-220f-439e-8b49-c9a36ee0207b.webp?v=1772033739'],
     shortDescription: 'Asus ROG Astral GeForce RTX 5090 White OC Edition Graphics Card, GDDR7 32GB 512-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2580 MHz Core Clock, 28 Gbps Memory Clock, 1 Year Warranty | 90YV0LWA-M0NA00',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5090</li>\n<li>Memory: GDDR7 32GB</li>\n<li>Engine Clock OC mode: 2610 MHz</li>\n<li>Engine Clock Default mode: 2580 MHz (Boost Clock)</li>\n<li>CUDA Core: 21760</li>\n<li>AI Performance: 3352 TOPs</li>\n<li>Memory Speed: 28 Gbps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 512-bit</li>\n<li>Power Connectors: 1 x 16-pin</li>\n<li>Color: White</li>\n</ul>',
+    description: '<ul>\n<li>NVIDIA GeForce RTX 5090</li>\n<li>Memory: GDDR7 32GB</li>\n<li>Engine Clock OC mode: 2610 MHz</li>\n<li>Engine Clock Default mode: 2580 MHz (Boost Clock)</li>\n<li>CUDA Core: 21760</li>\n<li>AI Performance: 3352 TOPs</li>\n<li>Memory Speed: 28 Gbps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 512-bit</li>\n<li>Power Connectors: 1 x 16-pin</li>\n<li>Color: White</li>\n</ul>',
     specifications: {
 
     },
@@ -3899,7 +3899,7 @@ const products = [
     salePrice: 9289,
     images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0LV6-M0NM00-1_dd02a090-171d-4c7a-a24b-8801148c0048.webp?v=1772033732, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0LV6-M0NM00-2_e31ac402-c312-4b4e-a58a-7e5b38ff0cfc.webp?v=1772033732, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0LV6-M0NM00-3_ac154bfa-d614-4ad0-8bdb-5fcd9df90fff.webp?v=1772033732, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0LV6-M0NM00-4_007a86a3-640e-49b2-ab47-b99bd4dd48fd.webp?v=1772033732, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0LV6-M0NM00-5_889a1043-4d99-468a-be03-ecebaf0b045a.webp?v=1772033732, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0LV6-M0NM00-6_13ef145f-311a-46c2-ab36-d68197edceb5.webp?v=1772033732'],
     shortDescription: 'Asus ROG Astral GeForce RTX 5080 Dhahab CORE OC Edition Graphics Card, GDDR7 16GB 256-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2760 MHz Core Clock, 30 Gbps Memory Clock, 1 Year Warranty | 90YV0LV6-M0NM00',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5080</li>\n<li>Memory: GDDR7 16GB</li>\n<li>Engine Clock OC mode: 2790 MHz</li>\n<li>Engine Clock Default mode: 2760 MHz (Boost Clock)</li>\n<li>CUDA Core: 10752</li>\n<li>AI Performance: 1801 TOPs</li>\n<li>Memory Speed: 30 Gbps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 256-bit</li>\n<li>Power Connectors: 1 x 16-pin</li>\n</ul>',
+    description: '<ul>\n<li>NVIDIA GeForce RTX 5080</li>\n<li>Memory: GDDR7 16GB</li>\n<li>Engine Clock OC mode: 2790 MHz</li>\n<li>Engine Clock Default mode: 2760 MHz (Boost Clock)</li>\n<li>CUDA Core: 10752</li>\n<li>AI Performance: 1801 TOPs</li>\n<li>Memory Speed: 30 Gbps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 256-bit</li>\n<li>Power Connectors: 1 x 16-pin</li>\n</ul>',
     specifications: {
 
     },
@@ -3920,7 +3920,7 @@ const products = [
     salePrice: 4519,
     images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0MD3-M0NA00-1_f682a4cf-bd6b-479d-8035-6440dbdc459e.webp?v=1772033725, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0MD3-M0NA00-2_521e1e7a-8764-478d-a447-056c935ad178.webp?v=1772033725, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0MD3-M0NA00-3_721d76f4-ffa6-4aeb-9801-0e5b96b8995c.webp?v=1772033725, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0MD3-M0NA00-4_59a1feb9-c42a-444f-a3e5-fb93b871fb72.webp?v=1772033725, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0MD3-M0NA00-5_9a970deb-77e9-4dcf-8030-524d194f2ea3.webp?v=1772033725, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0MD3-M0NA00-6_e98b6851-a57d-4149-a35f-204f0bc41399.webp?v=1772033725'],
     shortDescription: 'Asus TUF Gaming GeForce RTX 5070 Ti White OC Edition Graphics Card, GDDR7 16GB 256-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2588 MHz Core Clock, 28 Gbps Memory Clock, 1 Year Warranty | 90YV0MD3-M0NA00',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5070 Ti</li>\n<li>Memory: GDDR7 16GB</li>\n<li>Engine Clock OC mode: 2610 MHz</li>\n<li>Engine Clock Default mode: 2588 MHz (Boost Clock)</li>\n<li>CUDA Core: 8960</li>\n<li>AI Performance: 1406 TOPs</li>\n<li>Memory Speed: 28 Gbps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 256-bit</li>\n<li>Power Connectors: 1 x 16-pin</li>\n<li>Color: White</li>\n</ul>',
+    description: '<ul>\n<li>NVIDIA GeForce RTX 5070 Ti</li>\n<li>Memory: GDDR7 16GB</li>\n<li>Engine Clock OC mode: 2610 MHz</li>\n<li>Engine Clock Default mode: 2588 MHz (Boost Clock)</li>\n<li>CUDA Core: 8960</li>\n<li>AI Performance: 1406 TOPs</li>\n<li>Memory Speed: 28 Gbps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 256-bit</li>\n<li>Power Connectors: 1 x 16-pin</li>\n<li>Color: White</li>\n</ul>',
     specifications: {
 
     },
@@ -3941,7 +3941,7 @@ const products = [
     salePrice: 4559,
     images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0MD0-M0NA00-1_b3f3a915-9a7a-484b-8eff-f20d943d9904.webp?v=1772033718, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0MD0-M0NA00-2_a91dc32d-ecf0-4e49-b90c-f3fcff3fdb07.webp?v=1772033718, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0MD0-M0NA00-3_71649caa-9cc5-41f8-9ff4-693fb8c48cc1.webp?v=1772033718, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0MD0-M0NA00-4_2c0a4b40-5771-43fa-bc59-b40c0d332ec4.webp?v=1772033718, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0MD0-M0NA00-5_29e3a4e9-7a95-4109-99d4-a07468f4676a.webp?v=1772033718, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0MD0-M0NA00-6_bff72d9c-4661-49a8-8569-46ea3e607160.webp?v=1772033718'],
     shortDescription: 'Asus TUF Gaming GeForce RTX 5070 Ti OC Edition Graphics Card, GDDR7 16GB 256-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2588 MHz Core Clock, 28 Gbps Memory Clock, 1 Year Warranty | 90YV0MD0-M0NA00',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5070 Ti</li>\n<li>Memory: GDDR7 16GB</li>\n<li>Engine Clock OC mode: 2610 MHz</li>\n<li>Engine Clock Default mode: 2588 MHz (Boost Clock)</li>\n<li>CUDA Core: 8960</li>\n<li>AI Performance: 1406 TOPs</li>\n<li>Memory Speed: 28 Gbps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 256-bit</li>\n<li>Power Connectors: 1 x 16-pin</li>\n</ul>',
+    description: '<ul>\n<li>NVIDIA GeForce RTX 5070 Ti</li>\n<li>Memory: GDDR7 16GB</li>\n<li>Engine Clock OC mode: 2610 MHz</li>\n<li>Engine Clock Default mode: 2588 MHz (Boost Clock)</li>\n<li>CUDA Core: 8960</li>\n<li>AI Performance: 1406 TOPs</li>\n<li>Memory Speed: 28 Gbps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 256-bit</li>\n<li>Power Connectors: 1 x 16-pin</li>\n</ul>',
     specifications: {
 
     },
@@ -3962,7 +3962,7 @@ const products = [
     salePrice: 4289,
     images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0MF0-M0NA00-1_b76050ef-5b55-4738-b3cc-d0ab3a00a0af.webp?v=1772033711, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0MF0-M0NA00-2_8edc1e3c-9804-4b58-9ffa-77312cc7fbe0.webp?v=1772033711, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0MF0-M0NA00-3_785f7e53-4cc2-49d7-96ed-0295e37fa30f.webp?v=1772033711, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0MF0-M0NA00-4_f85b46af-e786-4678-a9f0-4385d1df8064.webp?v=1772033711, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0MF0-M0NA00-5_b27f35c8-83b9-4d8f-90c5-1f5a4c8f30ad.webp?v=1772033711, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0MF0-M0NA00-6_8307d320-61a4-4145-9ad4-d7ab85412070.webp?v=1772033711'],
     shortDescription: 'Asus PRIME GeForce RTX 5070 Ti OC Edition Graphics Card, GDDR7 16GB 256-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2497 MHz Core Clock, 28 Gbps Memory Clock, 1 Year Warranty | 90YV0MF0-M0NA00',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5070 Ti</li>\n<li>Memory: GDDR7 16GB</li>\n<li>Engine Clock OC mode: 2527 MHz</li>\n<li>Engine Clock Default mode: 2497 MHz (Boost Clock)</li>\n<li>CUDA Core: 8960</li>\n<li>AI Performance: 1406 TOPs</li>\n<li>Memory Speed: 28 Gbps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 256-bit</li>\n<li>Power Connectors: 1 x 16-pin</li>\n</ul>',
+    description: '<ul>\n<li>NVIDIA GeForce RTX 5070 Ti</li>\n<li>Memory: GDDR7 16GB</li>\n<li>Engine Clock OC mode: 2527 MHz</li>\n<li>Engine Clock Default mode: 2497 MHz (Boost Clock)</li>\n<li>CUDA Core: 8960</li>\n<li>AI Performance: 1406 TOPs</li>\n<li>Memory Speed: 28 Gbps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 256-bit</li>\n<li>Power Connectors: 1 x 16-pin</li>\n</ul>',
     specifications: {
 
     },
@@ -3983,7 +3983,7 @@ const products = [
     salePrice: 2589,
     images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0MH0-M0NA00-1_b27dcc1a-4a2d-4656-b45c-06312b82a482.webp?v=1772033704, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0MH0-M0NA00-2_6a6f8973-3769-4ab0-9ec4-ab88ea4cb6f3.webp?v=1772033705, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0MH0-M0NA00-3_e368239c-83fd-4e91-b409-989c02497c4d.webp?v=1772033704, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0MH0-M0NA00-4_b2432657-3257-4af2-b6e1-afa35dc68372.webp?v=1772033704, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0MH0-M0NA00-5_06574b36-f0f9-4871-83a2-e271c0fb2921.webp?v=1772033704, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0MH0-M0NA00-6_fb2490ed-ea43-41b7-a851-31e3d3c8387d.webp?v=1772033704'],
     shortDescription: 'Asus Dual GeForce RTX 5060 Ti Graphics Card, GDDR7 16GB 128-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2572 MHz Core Clock, 28 Gbps Memory Clock, 1 Year Warranty | 90YV0MH0-M0NA00',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5060 Ti</li>\n<li>Memory: GDDR7 16GB</li>\n<li>Engine Clock OC mode: 2602 MHz</li>\n<li>Engine Clock Default mode: 2572 MHz (Boost Clock)</li>\n<li>CUDA Core: 4608</li>\n<li>AI Performance: 759 TOPs</li>\n<li>Memory Speed: 28 Gbps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 128-bit</li>\n<li>Power Connectors: 1 x 8-pin</li>\n</ul>',
+    description: '<ul>\n<li>NVIDIA GeForce RTX 5060 Ti</li>\n<li>Memory: GDDR7 16GB</li>\n<li>Engine Clock OC mode: 2602 MHz</li>\n<li>Engine Clock Default mode: 2572 MHz (Boost Clock)</li>\n<li>CUDA Core: 4608</li>\n<li>AI Performance: 759 TOPs</li>\n<li>Memory Speed: 28 Gbps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 128-bit</li>\n<li>Power Connectors: 1 x 8-pin</li>\n</ul>',
     specifications: {
 
     },
@@ -4004,7 +4004,7 @@ const products = [
     salePrice: 1699,
     images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0N72-M0NA00-1_cd998e73-ee45-49f2-98d3-f9ae1083e1ad.webp?v=1772033697, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0N72-M0NA00-2_cd23ddfe-609a-410a-958e-40480ed1c88d.webp?v=1772033697, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0N72-M0NA00-3_563c45e3-35f4-4c0e-b5f1-48cde6a1b4f0.webp?v=1772033697, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0N72-M0NA00-4_def4587c-48ff-4a10-b9a7-5a61165f38f3.webp?v=1772033697, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0N72-M0NA00-5_a2d30178-2d5c-4813-9981-adc60c327639.webp?v=1772033697, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0N72-M0NA00-6_94adb832-db04-40d5-ba91-f5e7b300f33f.webp?v=1772033697'],
     shortDescription: 'Asus Dual GeForce RTX 5050 OC Edition Graphics Card, GDDR6 8GB 128-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2647 MHz Core Clock, 20 Gbps Memory Clock, 1 Year Warranty | 90YV0N72-M0NA00',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5050</li>\n<li>Memory: GDDR6 8GB</li>\n<li>Engine Clock OC mode: 2677 MHz</li>\n<li>Engine Clock Default mode: 2647 MHz (Boost Clock)</li>\n<li>CUDA Core: 2560</li>\n<li>AI Performance: 421 TOPs</li>\n<li>Memory Speed: 20 Gbps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 128-bit</li>\n<li>Power Connectors: 1 x 8-pin</li>\n</ul>',
+    description: '<ul>\n<li>NVIDIA GeForce RTX 5050</li>\n<li>Memory: GDDR6 8GB</li>\n<li>Engine Clock OC mode: 2677 MHz</li>\n<li>Engine Clock Default mode: 2647 MHz (Boost Clock)</li>\n<li>CUDA Core: 2560</li>\n<li>AI Performance: 421 TOPs</li>\n<li>Memory Speed: 20 Gbps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 128-bit</li>\n<li>Power Connectors: 1 x 8-pin</li>\n</ul>',
     specifications: {
 
     },
@@ -4025,7 +4025,7 @@ const products = [
     salePrice: 1469,
     images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0N15-M0NA00-1_06b27f75-c7ce-4d5d-8858-aa633aeb28aa.webp?v=1772033691, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0N15-M0NA00-2_d376cadc-1d39-4ec7-996d-b51653e1f6a4.webp?v=1772033690, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0N15-M0NA00-3_79467bc7-5cf0-4a87-b3f9-75144f75eb6e.webp?v=1772033691, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0N15-M0NA00-4_a3dc6532-74d8-4405-adef-54be91030219.webp?v=1772033690, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0N15-M0NA00-5_9204326c-ed97-4cb0-ad52-2c846b78eda3.webp?v=1772033690, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0N15-M0NA00-6_5cec00ef-8f9f-4d44-9fe6-cfc059316856.webp?v=1772033691'],
     shortDescription: 'Asus Dual GeForce RTX 5060 White OC Edition Graphics Card, GDDR7 8GB 128-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2677 MHz Core Clock, 28 Gbps Memory Clock, 1 Year Warranty | 90YV0N15-M0NA00',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5060</li>\n<li>Memory: GDDR7 8GB</li>\n<li>Engine Clock OC mode: 2565 MHz</li>\n<li>Engine Clock Default mode: 2535 MHz (Boost Clock)</li>\n<li>CUDA Core: 3840</li>\n<li>AI Performance: 614 TOPs</li>\n<li>Memory Speed: 28 Gbps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 128-bit</li>\n<li>Power Connectors: 1 x 8-pin</li>\n</ul>',
+    description: '<ul>\n<li>NVIDIA GeForce RTX 5060</li>\n<li>Memory: GDDR7 8GB</li>\n<li>Engine Clock OC mode: 2565 MHz</li>\n<li>Engine Clock Default mode: 2535 MHz (Boost Clock)</li>\n<li>CUDA Core: 3840</li>\n<li>AI Performance: 614 TOPs</li>\n<li>Memory Speed: 28 Gbps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 128-bit</li>\n<li>Power Connectors: 1 x 8-pin</li>\n</ul>',
     specifications: {
 
     },
@@ -4046,7 +4046,7 @@ const products = [
     salePrice: 2749,
     images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5070-GV-N5070WF3-12GD-2.webp?v=1772596842, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5070-GV-N5070WF3-12GD-5.webp?v=1772596842, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5070-GV-N5070WF3-12GD-1.webp?v=1772596842, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5070-GV-N5070WF3-12GD-6.webp?v=1772029097, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5070-GV-N5070WF3-12GD-3.webp?v=1772029096, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5070-GV-N5070WF3-12GD-4.webp?v=1772029096'],
     shortDescription: 'Gigabyte WINDFORCE GeForce RTX 5070 Small Form Factor Graphics Card, GDDR7 12GB 192-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2512 MHz Core Clock, 28 Gbps Memory Clock, Triple Windforce Hawk Fans, 1 Year Warranty | GV-N5070WF3-12GD',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5070</li>\n<li>Memory: GDDR7 12GB</li>\n<li>Engine Clock: 2512 MHz</li>\n<li>CUDA Core: 6144</li>\n<li>AI Performance: 988 TOPS</li>\n<li>Memory Speed: 28 Gbps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 192-bit</li>\n<li>Power Connectors: 1 x 16-pin</li>\n<li>1 Year Warranty</li>\n</ul>',
+    description: '<ul>\n<li>NVIDIA GeForce RTX 5070</li>\n<li>Memory: GDDR7 12GB</li>\n<li>Engine Clock: 2512 MHz</li>\n<li>CUDA Core: 6144</li>\n<li>AI Performance: 988 TOPS</li>\n<li>Memory Speed: 28 Gbps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 192-bit</li>\n<li>Power Connectors: 1 x 16-pin</li>\n<li>1 Year Warranty</li>\n</ul>',
     specifications: {
 
     },
@@ -4067,7 +4067,7 @@ const products = [
     salePrice: 1329,
     images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5050-GV-N5050-OC-8GL-4.webp?v=1772596017, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5050-GV-N5050-OC-8GL-2.webp?v=1772596017, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5050-GV-N5050-OC-8GL-1.webp?v=1772596017, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5050-GV-N5050-OC-8GL-6.webp?v=1772029096, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5050-GV-N5050-OC-8GL-5.webp?v=1772029095, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5050-GV-N5050-OC-8GL-3.webp?v=1772029095'],
     shortDescription: 'Gigabyte OC GeForce RTX 5050 Low Profile Graphics Card, GDDR6 8GB 128-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2587 MHz Core Clock, 20 Gbps Memory Clock, 1 Year Warranty | GV-N5050-OC-8GL',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5050</li>\n<li>Memory: GDDR6 8GB</li>\n<li>Engine Clock: 2587 MHz</li>\n<li>CUDA Core: 2560</li>\n<li>AI Performance: 421 TOPS</li>\n<li>Memory Speed: 20 Gbps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 128-bit</li>\n<li>Power Connectors: 1 x 8-pin</li>\n<li>1 Year Warranty</li>\n</ul>',
+    description: '<ul>\n<li>NVIDIA GeForce RTX 5050</li>\n<li>Memory: GDDR6 8GB</li>\n<li>Engine Clock: 2587 MHz</li>\n<li>CUDA Core: 2560</li>\n<li>AI Performance: 421 TOPS</li>\n<li>Memory Speed: 20 Gbps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 128-bit</li>\n<li>Power Connectors: 1 x 8-pin</li>\n<li>1 Year Warranty</li>\n</ul>',
     specifications: {
 
     },
@@ -4088,7 +4088,7 @@ const products = [
     salePrice: 1999,
     images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5060Ti-GV-N506TWF2-8GD-2.webp?v=1772595945, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5060Ti-GV-N506TWF2-8GD-1.webp?v=1772595945, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5060Ti-GV-N506TWF2-8GD-4.webp?v=1772595945, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5060Ti-GV-N506TWF2-8GD-3.webp?v=1772029097, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5060Ti-GV-N506TWF2-8GD-5.webp?v=1772029096, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5060Ti-GV-N506TWF2-8GD-6.webp?v=1772029096'],
     shortDescription: 'Gigabyte WINDFORCE GeForce RTX 5060 Ti Graphics Card, GDDR7 8GB 128-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2572 MHz Core Clock, 28 Gbps Memory Clock, Dual RGB Windforce Hawk Fans, 1 Year Warranty | GV-N506TWF2-8GD',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5060 Ti</li>\n<li>Memory: GDDR7 8GB</li>\n<li>Engine Clock: 2572 MHz</li>\n<li>CUDA Core: 4608</li>\n<li>AI Performance: 785 TOPS</li>\n<li>Memory Speed: 28 Gbps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 128-bit</li>\n<li>Power Connectors: 1 x 8-pin</li>\n<li>1 Year Warranty</li>\n</ul>',
+    description: '<ul>\n<li>NVIDIA GeForce RTX 5060 Ti</li>\n<li>Memory: GDDR7 8GB</li>\n<li>Engine Clock: 2572 MHz</li>\n<li>CUDA Core: 4608</li>\n<li>AI Performance: 785 TOPS</li>\n<li>Memory Speed: 28 Gbps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 128-bit</li>\n<li>Power Connectors: 1 x 8-pin</li>\n<li>1 Year Warranty</li>\n</ul>',
     specifications: {
 
     },
@@ -4109,7 +4109,7 @@ const products = [
     salePrice: 1949,
     images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5060Ti-GV-N506TEAGLE-OC-ICE-2.webp?v=1772595902, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5060Ti-GV-N506TEAGLE-OC-ICE-1.webp?v=1772595902, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5060Ti-GV-N506TEAGLE-OC-ICE-4.webp?v=1772029097, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5060Ti-GV-N506TEAGLE-OC-ICE-6.webp?v=1772029097, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5060Ti-GV-N506TEAGLE-OC-ICE-5.webp?v=1772029096, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5060Ti-GV-N506TEAGLE-OC-ICE-3.webp?v=1772029096'],
     shortDescription: 'Gigabyte EAGLE OC ICE GeForce RTX 5060 Ti Graphics Card, GDDR7 8GB 128-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2617 MHz Core Clock, 28 Gbps Memory Clock, Dual Windforce Hawk Fans, White, 1 Year Warranty | GV-N506TEAGLE-OC-ICE',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5060 Ti</li>\n<li>Memory: GDDR7 8GB</li>\n<li>Engine Clock: 2617 MHz</li>\n<li>CUDA Core: 4608</li>\n<li>AI Performance: 785 TOPS</li>\n<li>Memory Speed: 28 Gbps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 128-bit</li>\n<li>Power Connectors: 1 x 8-pin</li>\n<li>1 Year Warranty</li>\n</ul>',
+    description: '<ul>\n<li>NVIDIA GeForce RTX 5060 Ti</li>\n<li>Memory: GDDR7 8GB</li>\n<li>Engine Clock: 2617 MHz</li>\n<li>CUDA Core: 4608</li>\n<li>AI Performance: 785 TOPS</li>\n<li>Memory Speed: 28 Gbps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 128-bit</li>\n<li>Power Connectors: 1 x 8-pin</li>\n<li>1 Year Warranty</li>\n</ul>',
     specifications: {
 
     },
@@ -4130,7 +4130,7 @@ const products = [
     salePrice: 2119,
     images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5060Ti-GV-N506TEAGLE-OC-8GD-4.webp?v=1772595865, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5060Ti-GV-N506TEAGLE-OC-8GD-1.webp?v=1772595865, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5060Ti-GV-N506TEAGLE-OC-8GD-6.webp?v=1772029096, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5060Ti-GV-N506TEAGLE-OC-8GD-3.webp?v=1772029096, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5060Ti-GV-N506TEAGLE-OC-8GD-5.webp?v=1772029095, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5060Ti-GV-N506TEAGLE-OC-8GD-2.webp?v=1772029095'],
     shortDescription: 'Gigabyte EAGLE OC GeForce RTX 5060 Ti Graphics Card, GDDR7 8GB 128-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2617 MHz Core Clock, 28 Gbps Memory Clock, Dual Windforce Hawk Fans, 1 Year Warranty | GV-N506TEAGLE-OC-8GD',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5060 Ti</li>\n<li>Memory: GDDR7 8GB</li>\n<li>Engine Clock: 2617 MHz</li>\n<li>CUDA Core: 4608</li>\n<li>AI Performance: 785 TOPS</li>\n<li>Memory Speed: 28 Gbps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 128-bit</li>\n<li>Power Connectors: 1 x 8-pin</li>\n<li>1 Year Warranty</li>\n</ul>',
+    description: '<ul>\n<li>NVIDIA GeForce RTX 5060 Ti</li>\n<li>Memory: GDDR7 8GB</li>\n<li>Engine Clock: 2617 MHz</li>\n<li>CUDA Core: 4608</li>\n<li>AI Performance: 785 TOPS</li>\n<li>Memory Speed: 28 Gbps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 128-bit</li>\n<li>Power Connectors: 1 x 8-pin</li>\n<li>1 Year Warranty</li>\n</ul>',
     specifications: {
 
     },
@@ -4151,7 +4151,7 @@ const products = [
     salePrice: 2529,
     images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5060Ti-GV-N506TEAGLEMAXOC-16-1_2b42bf90-bf11-4ef0-8c6d-92557acd506d.webp?v=1776503041, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5060Ti-GV-N506TEAGLEMAXOC-16-2_6f3eedd1-1f0c-41ae-8c2c-9a073526718c.webp?v=1776503041, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5060Ti-GV-N506TEAGLEMAXOC-16-3_db1bd2f6-447d-458d-8a56-41d9af912f28.webp?v=1776503040, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5060Ti-GV-N506TEAGLEMAXOC-16-4_395eee04-2a10-4e6e-94f3-0074638a164e.webp?v=1776503041, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5060Ti-GV-N506TEAGLEMAXOC-16-5_d37a8d35-b127-40ce-abf4-bd4fd0a15b29.webp?v=1776503041, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5060Ti-GV-N506TEAGLEMAXOC-16-6_5a904fd8-46c2-4887-8752-1ae3d02c0e18.webp?v=1776503040'],
     shortDescription: 'Gigabyte EAGLE MAX OC GeForce RTX 5060 Ti Graphics Card, GDDR7 16GB 128-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2617 MHz Core Clock, 28 Gbps Memory Clock, Triple Windforce Hawk Fans, 1 Year Warranty | GV-N506TEAGLEMAXOC-16',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5060 Ti</li>\n<li>Memory: GDDR7 16GB</li>\n<li>Engine Clock: 2617 MHz</li>\n<li>CUDA Core: 4608</li>\n<li>AI Performance: 785 TOPS</li>\n<li>Memory Speed: 28 Gbps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 128-bit</li>\n<li>Power Connectors: 1 x 8-pin</li>\n<li>1 Year Warranty</li>\n</ul>',
+    description: '<ul>\n<li>NVIDIA GeForce RTX 5060 Ti</li>\n<li>Memory: GDDR7 16GB</li>\n<li>Engine Clock: 2617 MHz</li>\n<li>CUDA Core: 4608</li>\n<li>AI Performance: 785 TOPS</li>\n<li>Memory Speed: 28 Gbps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 128-bit</li>\n<li>Power Connectors: 1 x 8-pin</li>\n<li>1 Year Warranty</li>\n</ul>',
     specifications: {
 
     },
@@ -4172,7 +4172,7 @@ const products = [
     salePrice: 1999,
     images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5060-GV-N5060EAGLE-OC-ICE-5.webp?v=1772595760, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5060-GV-N5060EAGLE-OC-ICE-2.webp?v=1772595760, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5060-GV-N5060EAGLE-OC-ICE-3.webp?v=1772595760, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5060-GV-N5060EAGLE-OC-ICE-1.webp?v=1772595760, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5060-GV-N5060EAGLE-OC-ICE-6.webp?v=1772029095, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5060-GV-N5060EAGLE-OC-ICE-4.webp?v=1772029095'],
     shortDescription: 'Gigabyte EAGLE OC ICE GeForce RTX 5060 Graphics Card, GDDR7 8GB 128-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2550 MHz Core Clock, 28 Gbps Memory Clock, Dual Windforce Hawk Fans, White, 1 Year Warranty | GV-N5060EAGLE-OC-ICE',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5060</li>\n<li>Memory: GDDR7 8GB</li>\n<li>Engine Clock: 2550 MHz</li>\n<li>CUDA Core: 3840</li>\n<li>AI Performance: 614 TOPs</li>\n<li>Memory Speed: 28 Gbps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 128-bit</li>\n<li>Power Connectors: 1 x 8-pin</li>\n<li>1 Year Warranty</li>\n</ul>',
+    description: '<ul>\n<li>NVIDIA GeForce RTX 5060</li>\n<li>Memory: GDDR7 8GB</li>\n<li>Engine Clock: 2550 MHz</li>\n<li>CUDA Core: 3840</li>\n<li>AI Performance: 614 TOPs</li>\n<li>Memory Speed: 28 Gbps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 128-bit</li>\n<li>Power Connectors: 1 x 8-pin</li>\n<li>1 Year Warranty</li>\n</ul>',
     specifications: {
 
     },
@@ -4193,7 +4193,7 @@ const products = [
     salePrice: 1719,
     images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5060-GV-N5060AERO-OC-8GD-2.webp?v=1772595699, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5060-GV-N5060AERO-OC-8GD-4.webp?v=1772595699, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5060-GV-N5060AERO-OC-8GD-1.webp?v=1772029096, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5060-GV-N5060AERO-OC-8GD-3.webp?v=1772029096, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5060-GV-N5060AERO-OC-8GD-5.webp?v=1772029096, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5060-GV-N5060AERO-OC-8GD-6.webp?v=1772029095'],
     shortDescription: 'Gigabyte AERO OC GeForce RTX 5060 Graphics Card, GDDR7 8GB 128-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2595 MHz Core Clock, 28 Gbps Memory Clock, TrIple Windforce Hawk Fans, Dual BIOS, White, 1 Year Warranty | GV-N5060AERO-OC-8GD',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5060</li>\n<li>Memory: GDDR7 8GB</li>\n<li>Engine Clock: 2595 MHz</li>\n<li>CUDA Core: 3840</li>\n<li>AI Performance: 614 TOPs</li>\n<li>Memory Speed: 28 Gbps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 128-bit</li>\n<li>Power Connectors: 1 x 8-pin</li>\n<li>1 Year Warranty</li>\n</ul>',
+    description: '<ul>\n<li>NVIDIA GeForce RTX 5060</li>\n<li>Memory: GDDR7 8GB</li>\n<li>Engine Clock: 2595 MHz</li>\n<li>CUDA Core: 3840</li>\n<li>AI Performance: 614 TOPs</li>\n<li>Memory Speed: 28 Gbps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 128-bit</li>\n<li>Power Connectors: 1 x 8-pin</li>\n<li>1 Year Warranty</li>\n</ul>',
     specifications: {
 
     },
@@ -4214,7 +4214,7 @@ const products = [
     salePrice: 1629,
     images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/PNY-GeForce-RTX-5060-Gaming-Graphics-Card-VCG50608DFXPB1-O-2-1762355161419.webp?v=1770247550'],
     shortDescription: 'PNY GeForce RTX 5060 OC Dual Fan Graphics Card, GDDR7 8GB 128-bit Memory, HDMI & DP Outputs, PCI Express 5.0, 2535 MHz Engine Clock, 28 Gbps Memory Clock, 1 Year Warranty | VCG50608DFXPB1-O',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5060</li>\n<li>Memory: GDDR7 8GB</li>\n<li>Memory Interface: 128-bit</li>\n<li>Engine Clock Boost: 2535 MHz</li>\n<li>CUDA Core: 3840</li>\n<li>Memory Speed: 28 Gbps</li>\n<li>Power Connectors: 1 x 8-pin</li>\n<li>1 Year Warranty</li>\n</ul>',
+    description: '<ul>\n<li>NVIDIA GeForce RTX 5060</li>\n<li>Memory: GDDR7 8GB</li>\n<li>Memory Interface: 128-bit</li>\n<li>Engine Clock Boost: 2535 MHz</li>\n<li>CUDA Core: 3840</li>\n<li>Memory Speed: 28 Gbps</li>\n<li>Power Connectors: 1 x 8-pin</li>\n<li>1 Year Warranty</li>\n</ul>',
     specifications: {
 
     },
@@ -4235,7 +4235,7 @@ const products = [
     salePrice: 2479,
     images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/PNY-NVIDIA-RTX-A2000-Workstation-Graphics-Card-VCNRTXA2000-12GB-SB-2-1762355161420.webp?v=1770247537'],
     shortDescription: 'PNY NVIDIA RTX A2000 Ampere Ray Tracing Workstation OEM Graphic Card, GDDR6 12GB 192-bit Memory, 4 x Mini DP Outputs, PCI Express 4.0, 6001 MHz Memory Clock, 1 Year Warranty | VCNRTXA2000-12GB-SB',
-    description: '<ul>\n<li>NVIDIA GeForce RTX A2000</li>\n<li>?GDDR6 12 GB</li>\n</ul>',
+    description: '<ul>\n<li>NVIDIA GeForce RTX A2000</li>\n<li>?GDDR6 12 GB</li>\n</ul>',
     specifications: {
 
     },
@@ -4256,7 +4256,7 @@ const products = [
     salePrice: 6949,
     images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Zotac-GeForce-RTX-5080-Gaming-Graphics-Card-ZT-B50800J2-10P-2-1762355162413.webp?v=1770247529, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Zotac-GeForce-RTX-5080-Gaming-Graphics-Card-ZT-B50800J2-10P-3-1762355162413.webp?v=1770247529, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Zotac-GeForce-RTX-5080-Gaming-Graphics-Card-ZT-B50800J2-10P-4-1762355162413.webp?v=1770247529, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Zotac-GeForce-RTX-5080-Gaming-Graphics-Card-ZT-B50800J2-10P-5-1762355162414.webp?v=1770247529, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Zotac-GeForce-RTX-5080-Gaming-Graphics-Card-ZT-B50800J2-10P-6-1762355162414.webp?v=1770247529'],
     shortDescription: 'Zotac Gaming NVIDIA GeForce RTX 5080 SOLID CORE OC Graphics Card, GDDR7 16GB 256-bit Memory, HDMI & DP Outputs, PCI Express 5.0, 2640 MHz Engine Clock, 30 Gbps Memory Clock, 1 Year Warranty | ZT-B50800J2-10P',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5080</li>\n<li>Memory: GDDR7 16GB</li>\n<li>Memory Interface: 256-bit</li>\n<li>Engine Clock Boost: 2640 MHz</li>\n<li>CUDA Cores: 10752</li>\n<li>AI TOPS: 1801</li>\n<li>Memory Speed: 30 Gbps</li>\n<li>Power Connectors: 1 x 16-pin</li>\n<li>1 Year Warranty</li>\n</ul>',
+    description: '<ul>\n<li>NVIDIA GeForce RTX 5080</li>\n<li>Memory: GDDR7 16GB</li>\n<li>Memory Interface: 256-bit</li>\n<li>Engine Clock Boost: 2640 MHz</li>\n<li>CUDA Cores: 10752</li>\n<li>AI TOPS: 1801</li>\n<li>Memory Speed: 30 Gbps</li>\n<li>Power Connectors: 1 x 16-pin</li>\n<li>1 Year Warranty</li>\n</ul>',
     specifications: {
 
     },
@@ -4277,7 +4277,7 @@ const products = [
     salePrice: 1289,
     images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Zotac-GeForce-RTX-5050-Gaming-Graphics-Card-ZT-B50500H-10M-2-1762355162366.webp?v=1770247503, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Zotac-GeForce-RTX-5050-Gaming-Graphics-Card-ZT-B50500H-10M-3-1762355162366.webp?v=1770247504, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Zotac-GeForce-RTX-5050-Gaming-Graphics-Card-ZT-B50500H-10M-4-1762355162407.webp?v=1770247503, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Zotac-GeForce-RTX-5050-Gaming-Graphics-Card-ZT-B50500H-10M-5-1762355162408.webp?v=1770247503, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Zotac-GeForce-RTX-5050-Gaming-Graphics-Card-ZT-B50500H-10M-6-1762355162409.webp?v=1770247503'],
     shortDescription: 'Zotac Gaming NVIDIA GeForce RTX 5050 Twin Edge OC Graphics Card, GDDR6 8GB 128-bit Memory, HDMI & DP Outputs, PCI Express 5.0, 2602 MHz Engine Clock, 20 Gbps Memory Clock, 1 Year Warranty | ZT-B50500H-10M',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5050</li>\n<li>Memory: GDDR6 8GB</li>\n<li>Memory Interface: 128-bit</li>\n<li>Engine Clock Boost: 2602 MHz</li>\n<li>CUDA Cores: 2560</li>\n<li>AI TOPS: 421</li>\n<li>Memory Speed: 20 Gbps</li>\n<li>Power Connectors: 1 x 8-pin</li>\n<li>1 Year Warranty</li>\n</ul>',
+    description: '<ul>\n<li>NVIDIA GeForce RTX 5050</li>\n<li>Memory: GDDR6 8GB</li>\n<li>Memory Interface: 128-bit</li>\n<li>Engine Clock Boost: 2602 MHz</li>\n<li>CUDA Cores: 2560</li>\n<li>AI TOPS: 421</li>\n<li>Memory Speed: 20 Gbps</li>\n<li>Power Connectors: 1 x 8-pin</li>\n<li>1 Year Warranty</li>\n</ul>',
     specifications: {
 
     },
@@ -4298,7 +4298,7 @@ const products = [
     salePrice: 1199,
     images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/ASRock-Radeon-RX-6600-90-GA2RZZ-00UANF-1-1762526145337.webp?v=1771744770'],
     shortDescription: 'ASRock AMD Radeon RX 6600 Challenger D Graphics Card, GDDR6 8GB 128-bit Memory, HDMI & DP Outputs, PCI Express 4.0, 2491 MHz Boost Clock, 14 Gbps Memory Clock, 1 Year Warranty | 90-GA2RZZ-00UANF',
-    description: '<ul>\n<li>AMD Radeon RX 6600</li>\n<li>Memory: GDDR6 8GB</li>\n<li>Boost Clock: 2491 MHz</li>\n<li>Stream Processors: 1792</li>\n<li>Memory Speed: 14 Gbps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 128-bit</li>\n<li>Power Connectors: 1 x 8-pin</li>\n<li>1 Year Warranty</li>\n</ul>',
+    description: '<ul>\n<li>AMD Radeon RX 6600</li>\n<li>Memory: GDDR6 8GB</li>\n<li>Boost Clock: 2491 MHz</li>\n<li>Stream Processors: 1792</li>\n<li>Memory Speed: 14 Gbps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 128-bit</li>\n<li>Power Connectors: 1 x 8-pin</li>\n<li>1 Year Warranty</li>\n</ul>',
     specifications: {
 
     },
@@ -4319,7 +4319,7 @@ const products = [
     salePrice: 5639,
     images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Asus-GeForce-RTX-5080-90YV0LX0-M0NA00-1-1762526145462.webp?v=1771744771, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Asus-GeForce-RTX-5080-90YV0LX0-M0NA00-1_61d2b1b6-77c8-4d61-9608-5e675c69c6f4.webp?v=1793360606, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Asus-GeForce-RTX-5080-90YV0LX0-M0NA00-2_7dcc1789-1537-4f7f-97da-fcb12cee907b.webp?v=1793360605, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Asus-GeForce-RTX-5080-90YV0LX0-M0NA00-3_5584eab4-8bb0-4275-819a-68280e0a3f01.webp?v=1793360605, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Asus-GeForce-RTX-5080-90YV0LX0-M0NA00-4_b406957d-92ff-45b3-9755-3f2155434ef3.webp?v=1793360605, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Asus-GeForce-RTX-5080-90YV0LX0-M0NA00-5_939a576b-e9bf-4e4a-bb88-0b35c16e3d43.webp?v=1793360605, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Asus-GeForce-RTX-5080-90YV0LX0-M0NA00-6_11e4fbb1-8f73-4310-acc0-8e48de747c0c.webp?v=1793360605'],
     shortDescription: 'Asus PRIME GeForce RTX 5080 Graphics Card, GDDR7 16GB 256-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2655 MHz Core Clock, 30 Gbps Memory Clock, Triple Axial-Tech Fans, 1 Year Warranty | 90YV0LX0-M0NA00',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5080</li>\n<li>Memory: GDDR7 16GB</li>\n<li>Engine Clock: 2655 MHz</li>\n<li>CUDA Core: 10752</li>\n<li>AI Performance: 1801 TOPS</li>\n<li>Memory Speed: 30 Gbps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 256-bit</li>\n<li>Power Connectors: 1 x 16-pin</li>\n<li>1 Year Warranty</li>\n</ul>',
+    description: '<ul>\n<li>NVIDIA GeForce RTX 5080</li>\n<li>Memory: GDDR7 16GB</li>\n<li>Engine Clock: 2655 MHz</li>\n<li>CUDA Core: 10752</li>\n<li>AI Performance: 1801 TOPS</li>\n<li>Memory Speed: 30 Gbps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 256-bit</li>\n<li>Power Connectors: 1 x 16-pin</li>\n<li>1 Year Warranty</li>\n</ul>',
     specifications: {
 
     },
@@ -4340,7 +4340,7 @@ const products = [
     salePrice: 259,
     images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-GT-710-GV-N710D3-2GL-3.webp?v=1772595546, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-GT-710-GV-N710D3-2GL-2.webp?v=1772595546, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-GT-710-GV-N710D3-2GL-1.webp?v=1772595546, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-GT-710-GV-N710D3-2GL-5.webp?v=1772029095, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-GT-710-GV-N710D3-2GL-4.webp?v=1772029094'],
     shortDescription: 'Gigabyte GeForce GT 710 Graphics Card, DDR3 2GB 64-bit Memory, HDMI 2.1b, DVI, D-Sub Outputs, PCI Express 2.0, 954 MHz Boost Clock, 1600 MHz Memory Clock, 1 Year Warranty | GV-N710D3-2GL',
-    description: '<ul>\n<li>NVIDIA GeForce GT 710</li>\n<li>Memory: DDR3 2GB</li>\n<li>Core Clock: 954 MHz</li>\n<li>CUDA Core: 192</li>\n<li>Memory Speed: 1600 MHz</li>\n<li>Digital Max Resolution: 4096 X 2160</li>\n<li>Memory Interface: 64-bit</li>\n<li>1 Year Warranty</li>\n</ul>',
+    description: '<ul>\n<li>NVIDIA GeForce GT 710</li>\n<li>Memory: DDR3 2GB</li>\n<li>Core Clock: 954 MHz</li>\n<li>CUDA Core: 192</li>\n<li>Memory Speed: 1600 MHz</li>\n<li>Digital Max Resolution: 4096 X 2160</li>\n<li>Memory Interface: 64-bit</li>\n<li>1 Year Warranty</li>\n</ul>',
     specifications: {
 
     },
@@ -4361,7 +4361,7 @@ const products = [
     salePrice: 7119,
     images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5080-GV-N5080GAMING-OC-16G-1_d7a54561-6265-4e34-b432-2dfd33b32055.webp?v=1776503042, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5080-GV-N5080GAMING-OC-16G-2_0b999481-bb6f-4dda-bfb8-aa561a9b0891.webp?v=1776503042, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5080-GV-N5080GAMING-OC-16G-3_2250b2a4-7555-4cd4-9ef7-1b1b254d3763.webp?v=1776503042, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5080-GV-N5080GAMING-OC-16G-4_2c6a47b4-7ef5-473f-955a-98847817701a.webp?v=1776503042, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5080-GV-N5080GAMING-OC-16G-5_f8f3bb60-3d17-4c4f-b104-8b4d4067da20.webp?v=1776503042, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5080-GV-N5080GAMING-OC-16G-6_bf604e1f-3e04-4610-9bda-de518bb8618d.webp?v=1776503042'],
     shortDescription: 'Gigabyte GAMING OC GeForce RTX 5080 Graphics Card, GDDR7 16GB 256-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2730 MHz Core Clock, 30 Gbps Memory Clock, Triple Windforce Hawk Fans, RGB Halo, 1 Year Warranty | GV-N5080GAMING-OC-16G',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5080</li>\n<li>Memory: GDDR7 16GB</li>\n<li>Engine Clock: 2730 MHz</li>\n<li>CUDA Core: 10752</li>\n<li>AI Performance: 1801 TOPS</li>\n<li>Memory Speed: 30 Gbps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 256-bit</li>\n<li>Power Connectors: 1 x 16-pin</li>\n<li>1 Year Warranty</li>\n</ul>',
+    description: '<ul>\n<li>NVIDIA GeForce RTX 5080</li>\n<li>Memory: GDDR7 16GB</li>\n<li>Engine Clock: 2730 MHz</li>\n<li>CUDA Core: 10752</li>\n<li>AI Performance: 1801 TOPS</li>\n<li>Memory Speed: 30 Gbps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 256-bit</li>\n<li>Power Connectors: 1 x 16-pin</li>\n<li>1 Year Warranty</li>\n</ul>',
     specifications: {
 
     },
@@ -4382,7 +4382,7 @@ const products = [
     salePrice: 1689,
     images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/MSI-GeForce-RTX-5060-Gaming-Graphics-Card-912-V537-021-2-1762355161411.webp?v=1770247379'],
     shortDescription: 'MSI GeForce RTX 5060 Gaming Trio OC Graphics Card, GDDR7 8GB 128-bit Memory, HDMI & DP Outputs, PCI Express 5.0, 2625 MHz Engine Clock, 28 Gbps Memory Clock, 1 Year Warranty | 912-V537-021',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5060</li>\n<li>Memory: GDDR7 8GB</li>\n<li>Memory Interface: 128-bit</li>\n<li>Engine Clock Boost: 2625 MHz</li>\n<li>CUDA Core: 3840</li>\n<li>Memory Speed: 28 Gbps</li>\n<li>Power Connectors: 1 x 8-pin</li>\n<li>1 Year Warranty</li>\n</ul>',
+    description: '<ul>\n<li>NVIDIA GeForce RTX 5060</li>\n<li>Memory: GDDR7 8GB</li>\n<li>Memory Interface: 128-bit</li>\n<li>Engine Clock Boost: 2625 MHz</li>\n<li>CUDA Core: 3840</li>\n<li>Memory Speed: 28 Gbps</li>\n<li>Power Connectors: 1 x 8-pin</li>\n<li>1 Year Warranty</li>\n</ul>',
     specifications: {
 
     },
@@ -4403,7 +4403,7 @@ const products = [
     salePrice: 1549,
     images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/MSI-GeForce-RTX-5060-Gaming-Graphics-Card-912-V537-023-2-1762355161414.webp?v=1770247366'],
     shortDescription: 'MSI GeForce RTX 5060 Gaming OC Graphics Card, GDDR7 8GB 128-bit Memory, HDMI & DP Outputs, PCI Express 5.0, 2640 MHz Engine Clock, 28 Gbps Memory Clock, 1 Year Warranty | 912-V537-023',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5060</li>\n<li>Memory: GDDR7 8GB</li>\n<li>Memory Interface: 128-bit</li>\n<li>Engine Clock Boost: 2640 MHz</li>\n<li>CUDA Core: 3840</li>\n<li>Memory Speed: 28 Gbps</li>\n<li>Power Connectors: 1 x 8-pin</li>\n<li>1 Year Warranty</li>\n</ul>',
+    description: '<ul>\n<li>NVIDIA GeForce RTX 5060</li>\n<li>Memory: GDDR7 8GB</li>\n<li>Memory Interface: 128-bit</li>\n<li>Engine Clock Boost: 2640 MHz</li>\n<li>CUDA Core: 3840</li>\n<li>Memory Speed: 28 Gbps</li>\n<li>Power Connectors: 1 x 8-pin</li>\n<li>1 Year Warranty</li>\n</ul>',
     specifications: {
 
     },
@@ -4424,7 +4424,7 @@ const products = [
     salePrice: 72639,
     images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/900-5G144-2200-000-2-1758386238431.png?v=1770247336, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/900-5G144-2200-000-3-1758386238481.png?v=1770247336, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/900-5G144-2200-000-4-1758386238464.png?v=1770247336, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/900-5G144-2200-000-5-1758386238497.png?v=1770247336'],
     shortDescription: 'Nvidia RTX PRO 6000 Blackwell Workstation Edition Graphics Card, 24064 Cuda Cores, GDDR7 96GB 512-bit Memory, 1792 GB/sec Memory Clock, 4x Display Port Outputs, PCI Express 5.0, 4000 AI TOPs, 1 Year Warranty | 900-5G144-2200-000',
-    description: '<ul>\n<li>NVIDIA RTX PRO 6000 Blackwell</li>\n<li>Memory: 96GB GDDR7</li>\n<li>Memory Interface: 512-bit</li>\n<li>Memory Bandwidth: 1792 GB/sec</li>\n<li>Single-precision performance: 125 TFLOPS</li>\n<li>RT Core performance: 380 TFLOPS</li>\n<li>AI TOPS: 4000</li>\n<li>CUDA Cores: 24064</li>\n<li>Digital Max Resolution: 7680 x 4320 @ 60 Hz</li>\n</ul>',
+    description: '<ul>\n<li>NVIDIA RTX PRO 6000 Blackwell</li>\n<li>Memory: 96GB GDDR7</li>\n<li>Memory Interface: 512-bit</li>\n<li>Memory Bandwidth: 1792 GB/sec</li>\n<li>Single-precision performance: 125 TFLOPS</li>\n<li>RT Core performance: 380 TFLOPS</li>\n<li>AI TOPS: 4000</li>\n<li>CUDA Cores: 24064</li>\n<li>Digital Max Resolution: 7680 x 4320 @ 60 Hz</li>\n</ul>',
     specifications: {
 
     },
@@ -4445,7 +4445,7 @@ const products = [
     salePrice: 1469,
     images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/PNY-GeForce-RTX-5060-VCG50608TFXXPB1-O-2-1762264115882.webp?v=1770247274'],
     shortDescription: 'PNY GeForce RTX 5060 ARGB EPIC-X RGB OC Triple Fan Graphics Card, GDDR7 8GB 128-bit Memory, HDMI & DP Outputs, PCI Express 5.0, 2580 MHz Engine Clock, 28 Gbps Memory Clock, 1 Year Warranty | VCG50608TFXXPB1-O',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5060</li>\n<li>Memory: GDDR7 8GB</li>\n<li>Memory Interface: 128-bit</li>\n<li>Engine Clock Boost: 2580 MHz</li>\n<li>CUDA Core: 3840</li>\n<li>Memory Speed: 28 Gbps</li>\n<li>Power Connectors: 1 x 8-pin</li>\n<li>1 Year Warranty</li>\n</ul>',
+    description: '<ul>\n<li>NVIDIA GeForce RTX 5060</li>\n<li>Memory: GDDR7 8GB</li>\n<li>Memory Interface: 128-bit</li>\n<li>Engine Clock Boost: 2580 MHz</li>\n<li>CUDA Core: 3840</li>\n<li>Memory Speed: 28 Gbps</li>\n<li>Power Connectors: 1 x 8-pin</li>\n<li>1 Year Warranty</li>\n</ul>',
     specifications: {
 
     },
@@ -4466,7 +4466,7 @@ const products = [
     salePrice: 1069,
     images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Zotac-GeForce-RTX-3050-ZT-A30510H-10L-2-1762264115887.webp?v=1770247262, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Zotac-GeForce-RTX-3050-ZT-A30510H-10L-3-1762264115887.webp?v=1770247262, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Zotac-GeForce-RTX-3050-ZT-A30510H-10L-4-1762264115887.webp?v=1770247262, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Zotac-GeForce-RTX-3050-ZT-A30510H-10L-5-1762264115888.webp?v=1770247262, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Zotac-GeForce-RTX-3050-ZT-A30510H-10L-6-1762264116081.webp?v=1770247262'],
     shortDescription: 'Zotac Gaming GeForce RTX 3050 Twin Edge OC Graphics Card, GDDR6 6GB 96-bit Memory, HDMI 2.1 & DP 2.1a Outputs, PCI Express 4.0, 1477 MHz Engine Clock, 14 Gbps Memory Clock, 1 Year Warranty | ZT-A30510H-10L',
-    description: '<ul>\n<li>GeForce RTX 3050 6 GB</li>\n<li>6 GB GDDR6</li>\n<li>Memory Speed: 14  GBps</li>\n<li>Engine Clock: 1477 MHz</li>\n<li>CUDA Cores: 2304</li>\n<li>Memory Interface: 96-bit</li>\n</ul>',
+    description: '<ul>\n<li>GeForce RTX 3050 6 GB</li>\n<li>6 GB GDDR6</li>\n<li>Memory Speed: 14  GBps</li>\n<li>Engine Clock: 1477 MHz</li>\n<li>CUDA Cores: 2304</li>\n<li>Memory Interface: 96-bit</li>\n</ul>',
     specifications: {
 
     },
@@ -4487,7 +4487,7 @@ const products = [
     salePrice: 6329,
     images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-AORUS-RTX-5070-Ti-INFINITY-GV-N507TAORUS-IF-16GD-1_8d6b3f5a-dcac-4ac6-b772-3b236bf2b2cc.webp?v=1793440609, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-AORUS-RTX-5070-Ti-INFINITY-GV-N507TAORUS-IF-16GD-2_d367b2c3-1725-4a53-85be-f2bfbd3bd5ee.webp?v=1793440609, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-AORUS-RTX-5070-Ti-INFINITY-GV-N507TAORUS-IF-16GD-3_94c1184d-a949-4e73-9667-f702d912bd76.webp?v=1793440608, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-AORUS-RTX-5070-Ti-INFINITY-GV-N507TAORUS-IF-16GD-4_e9a24c7e-c440-4fd2-93cf-98456cf237c1.webp?v=1793440608, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-AORUS-RTX-5070-Ti-INFINITY-GV-N507TAORUS-IF-16GD-5_708f64a8-faf1-4962-8b94-cc6234c56b7b.webp?v=1793440609, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-AORUS-RTX-5070-Ti-INFINITY-GV-N507TAORUS-IF-16GD-6_ae6dcc1c-ac69-48ef-acec-347eec42bd80.webp?v=1793440609'],
     shortDescription: 'Gigabyte AORUS GeForce RTX 5070 Ti INFINITY Graphics Card, 8960 CUDA Cores, GDDR7 16GB 256-bit Memory, PCI Express 5.0, 2670 MHz Boost Clock, 28 Gbps Memory Clock, 1 Year Warranty | GV-N507TAORUS-IF-16GD',
-    description: '<ul>\n<li>Graphics: NVIDIA GeForce RTX 5070 Ti</li>\n<li>Boost Clock: 2670MHz</li>\n<li>Graphics Memory: 16GB GDDR7</li>\n<li>AI Performance: 1406 AI TOPS</li>\n<li>CUDA Cores: 8960</li>\n<li>Memory Speed: 28Gbps</li>\n<li>Memory Interface: 256-bit</li>\n<li>Interface: PCI Express 5.0</li>\n</ul>',
+    description: '<ul>\n<li>Graphics: NVIDIA GeForce RTX 5070 Ti</li>\n<li>Boost Clock: 2670MHz</li>\n<li>Graphics Memory: 16GB GDDR7</li>\n<li>AI Performance: 1406 AI TOPS</li>\n<li>CUDA Cores: 8960</li>\n<li>Memory Speed: 28Gbps</li>\n<li>Memory Interface: 256-bit</li>\n<li>Interface: PCI Express 5.0</li>\n</ul>',
     specifications: {
 
     },
@@ -4508,7 +4508,7 @@ const products = [
     salePrice: 18419,
     images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/HP-NVIDIA-RTX-PRO-4500-Blackwell-B11F2AA-1_8f657132-8213-4dfa-9ead-f7c68c98bc8c.webp?v=1793440614, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/HP-NVIDIA-RTX-PRO-4500-Blackwell-B11F2AA-2_70ab1a84-e1d7-4d2f-a384-f7f2b9653e57.webp?v=1793440614, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/HP-NVIDIA-RTX-PRO-4500-Blackwell-B11F2AA-3_b199e2b4-1a63-400e-b56d-529dfd5bcbaf.webp?v=1793440614'],
     shortDescription: 'HP NVIDIA RTX PRO 4500 Blackwell Workstation Graphics Card, 10496 CUDA Cores, GDDR7 32GB 256-bit Memory, PCI Express 5.0, 2407 MHz Boost Clock, 28 Gbps Memory Clock, 1 Year Warranty | B11F2AA',
-    description: '<ul>\n<li>Graphics: NVIDIA RTX PRO 4500 Blackwell</li>\n<li>Base Clock: 1635MHz</li>\n<li>Boost Clock: 2407MHz</li>\n<li>Graphics Memory: 32GB GDDR7</li>\n<li>CUDA Cores: 10496</li>\n<li>Memory Speed: 28Gbps</li>\n<li>Memory Interface: 256-bit</li>\n<li>Interface: PCI Express 5.0</li>\n</ul>',
+    description: '<ul>\n<li>Graphics: NVIDIA RTX PRO 4500 Blackwell</li>\n<li>Base Clock: 1635MHz</li>\n<li>Boost Clock: 2407MHz</li>\n<li>Graphics Memory: 32GB GDDR7</li>\n<li>CUDA Cores: 10496</li>\n<li>Memory Speed: 28Gbps</li>\n<li>Memory Interface: 256-bit</li>\n<li>Interface: PCI Express 5.0</li>\n</ul>',
     specifications: {
 
     },
@@ -4529,7 +4529,7 @@ const products = [
     salePrice: 4549,
     images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-AORUS-RTX-5070-INFINITY-GV-N5070AORUS-IF-12GD-1_4a0ce0be-58b3-482f-8d77-e98e3bce6066.webp?v=1793440607, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-AORUS-RTX-5070-INFINITY-GV-N5070AORUS-IF-12GD-2_bd9eaaf8-3665-44b2-b8fd-1a2ee2e269e5.webp?v=1793440608, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-AORUS-RTX-5070-INFINITY-GV-N5070AORUS-IF-12GD-3_aaec27ff-7de4-407a-b404-c2b4965369a3.webp?v=1793440608, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-AORUS-RTX-5070-INFINITY-GV-N5070AORUS-IF-12GD-4_4ca7133a-2567-422a-be6d-01d455e2bdc7.webp?v=1793440608, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-AORUS-RTX-5070-INFINITY-GV-N5070AORUS-IF-12GD-5_f7029574-f4d4-47bd-8927-e9e4cafaab0c.webp?v=1793440608, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-AORUS-RTX-5070-INFINITY-GV-N5070AORUS-IF-12GD-6_1aaf623a-95da-4a90-a8bf-6ad04490ed51.webp?v=1793440608'],
     shortDescription: 'Gigabyte AORUS GeForce RTX 5070 INFINITY Graphics Card, 6144 CUDA Cores, GDDR7 12GB 192-bit Memory, PCI Express 5.0, 2715 MHz Boost Clock, 28 Gbps Memory Clock, 1 Year Warranty | GV-N5070AORUS-IF-12GD',
-    description: '<ul>\n<li>Graphics: NVIDIA GeForce RTX 5070</li>\n<li>Boost Clock: 2715MHz</li>\n<li>Graphics Memory: 12GB GDDR7</li>\n<li>AI Performance: 1406 AI TOPS</li>\n<li>CUDA Cores: 6144</li>\n<li>Memory Speed: 28Gbps</li>\n<li>Memory Interface: 192-bit</li>\n<li>Interface: PCI Express 5.0</li>\n</ul>',
+    description: '<ul>\n<li>Graphics: NVIDIA GeForce RTX 5070</li>\n<li>Boost Clock: 2715MHz</li>\n<li>Graphics Memory: 12GB GDDR7</li>\n<li>AI Performance: 1406 AI TOPS</li>\n<li>CUDA Cores: 6144</li>\n<li>Memory Speed: 28Gbps</li>\n<li>Memory Interface: 192-bit</li>\n<li>Interface: PCI Express 5.0</li>\n</ul>',
     specifications: {
 
     },
@@ -6401,5 +6401,2696 @@ const products = [
     featured: false,
     newProduct: true,
     tags: ['laptop', 'hp', 'amazon', 'ultrabook']
+  },
+  {
+    id: 'ALERSHAD-WS-001',
+    name: 'Dell Pro Max 18 Plus Workstation Laptop MB18250U9321NV AE 1_39a6384d 7fe1 42fd 8477 dc4ecb8162a5',
+    slug: 'dell-pro-max-18-plus-workstation-laptop-mb18250u9321nv-ae-1_39a6384d-7fe1-42fd-8477-dc4ecb8162a5',
+    brand: 'Dell',
+    category: 'laptops',
+    subcategory: 'Mobile Workstation',
+    price: 4500,
+    salePrice: 4500,
+    images: ['https://www.alershadonline.com/cdn/shop/files/Dell-Pro-Max-18-Plus-Workstation-Laptop-MB18250U9321NV-AE-1_39a6384d-7fe1-42fd-8477-dc4ecb8162a5.webp?v=1789832870&width=460'],
+    shortDescription: 'Dell Pro Max 18 Plus Workstation Laptop MB18250U9321NV AE 1_39a6384d 7fe1 42fd 8477 dc4ecb8162a5',
+    description: 'Dell Pro Max 18 Plus Workstation Laptop MB18250U9321NV AE 1_39a6384d 7fe1 42fd 8477 dc4ecb8162a5 - High performance mobile workstation imported from Alershad Online.',
+    specifications: {
+      'SKU': 'ALERSHAD-WS-001',
+      'Category': 'Mobile Workstation',
+      'Brand': 'Dell'
+    },
+    stock: 10,
+    sku: 'ALERSHAD-WS-001',
+    featured: false,
+    newProduct: true,
+    tags: ['laptop', 'mobile-workstation', 'alershad', 'dell']
+  },
+  {
+    id: 'ALERSHAD-WS-002',
+    name: 'Asus ProArt P16 H7607BA SR142W 1',
+    slug: 'asus-proart-p16-h7607ba-sr142w-1',
+    brand: 'ASUS',
+    category: 'laptops',
+    subcategory: 'Mobile Workstation',
+    price: 4500,
+    salePrice: 4500,
+    images: ['https://www.alershadonline.com/cdn/shop/files/Asus-ProArt-P16-H7607BA-SR142W-1.jpg?v=1791472531&width=460'],
+    shortDescription: 'Asus ProArt P16 H7607BA SR142W 1',
+    description: 'Asus ProArt P16 H7607BA SR142W 1 - High performance mobile workstation imported from Alershad Online.',
+    specifications: {
+      'SKU': 'ALERSHAD-WS-002',
+      'Category': 'Mobile Workstation',
+      'Brand': 'ASUS'
+    },
+    stock: 10,
+    sku: 'ALERSHAD-WS-002',
+    featured: false,
+    newProduct: true,
+    tags: ['laptop', 'mobile-workstation', 'alershad', 'asus']
+  },
+  {
+    id: 'ALERSHAD-WS-003',
+    name: 'Dell Pro Max 18 Plus Workstation Laptop MB18250U9641NV AE 1_a1f97ad9 3891 45f3 a602 ccd97a398f9b',
+    slug: 'dell-pro-max-18-plus-workstation-laptop-mb18250u9641nv-ae-1_a1f97ad9-3891-45f3-a602-ccd97a398f9b',
+    brand: 'Dell',
+    category: 'laptops',
+    subcategory: 'Mobile Workstation',
+    price: 4500,
+    salePrice: 4500,
+    images: ['https://www.alershadonline.com/cdn/shop/files/Dell-Pro-Max-18-Plus-Workstation-Laptop-MB18250U9641NV-AE-1_a1f97ad9-3891-45f3-a602-ccd97a398f9b.webp?v=1789832870&width=460'],
+    shortDescription: 'Dell Pro Max 18 Plus Workstation Laptop MB18250U9641NV AE 1_a1f97ad9 3891 45f3 a602 ccd97a398f9b',
+    description: 'Dell Pro Max 18 Plus Workstation Laptop MB18250U9641NV AE 1_a1f97ad9 3891 45f3 a602 ccd97a398f9b - High performance mobile workstation imported from Alershad Online.',
+    specifications: {
+      'SKU': 'ALERSHAD-WS-003',
+      'Category': 'Mobile Workstation',
+      'Brand': 'Dell'
+    },
+    stock: 10,
+    sku: 'ALERSHAD-WS-003',
+    featured: false,
+    newProduct: true,
+    tags: ['laptop', 'mobile-workstation', 'alershad', 'dell']
+  },
+  {
+    id: 'ALERSHAD-WS-004',
+    name: 'Dell Pro Max 16 Plus Workstation Laptop MB16250U9641NV AE 1_9ceec606 7ef2 4347 a06a 13d305d9091d',
+    slug: 'dell-pro-max-16-plus-workstation-laptop-mb16250u9641nv-ae-1_9ceec606-7ef2-4347-a06a-13d305d9091d',
+    brand: 'Dell',
+    category: 'laptops',
+    subcategory: 'Mobile Workstation',
+    price: 4500,
+    salePrice: 4500,
+    images: ['https://www.alershadonline.com/cdn/shop/files/Dell-Pro-Max-16-Plus-Workstation-Laptop-MB16250U9641NV-AE-1_9ceec606-7ef2-4347-a06a-13d305d9091d.webp?v=1789832870&width=460'],
+    shortDescription: 'Dell Pro Max 16 Plus Workstation Laptop MB16250U9641NV AE 1_9ceec606 7ef2 4347 a06a 13d305d9091d',
+    description: 'Dell Pro Max 16 Plus Workstation Laptop MB16250U9641NV AE 1_9ceec606 7ef2 4347 a06a 13d305d9091d - High performance mobile workstation imported from Alershad Online.',
+    specifications: {
+      'SKU': 'ALERSHAD-WS-004',
+      'Category': 'Mobile Workstation',
+      'Brand': 'Dell'
+    },
+    stock: 10,
+    sku: 'ALERSHAD-WS-004',
+    featured: false,
+    newProduct: true,
+    tags: ['laptop', 'mobile-workstation', 'alershad', 'dell']
+  },
+  {
+    id: 'ALERSHAD-WS-005',
+    name: 'Dell Pro Max 16 Premium Workstation Laptop MA16250U7321NV AE 1_9141f955 f8d3 44e0 b05c 31959281019f',
+    slug: 'dell-pro-max-16-premium-workstation-laptop-ma16250u7321nv-ae-1_9141f955-f8d3-44e0-b05c-31959281019f',
+    brand: 'Dell',
+    category: 'laptops',
+    subcategory: 'Mobile Workstation',
+    price: 4500,
+    salePrice: 4500,
+    images: ['https://www.alershadonline.com/cdn/shop/files/Dell-Pro-Max-16-Premium-Workstation-Laptop-MA16250U7321NV-AE-1_9141f955-f8d3-44e0-b05c-31959281019f.webp?v=1789832862&width=460'],
+    shortDescription: 'Dell Pro Max 16 Premium Workstation Laptop MA16250U7321NV AE 1_9141f955 f8d3 44e0 b05c 31959281019f',
+    description: 'Dell Pro Max 16 Premium Workstation Laptop MA16250U7321NV AE 1_9141f955 f8d3 44e0 b05c 31959281019f - High performance mobile workstation imported from Alershad Online.',
+    specifications: {
+      'SKU': 'ALERSHAD-WS-005',
+      'Category': 'Mobile Workstation',
+      'Brand': 'Dell'
+    },
+    stock: 10,
+    sku: 'ALERSHAD-WS-005',
+    featured: false,
+    newProduct: true,
+    tags: ['laptop', 'mobile-workstation', 'alershad', 'dell']
+  },
+  {
+    id: 'ALERSHAD-WS-006',
+    name: 'Dell Pro Max 16 Plus Workstation Laptop MB16250U9321NV AE 1_1085fc99 4e25 4b67 ac1f 76662c1a9823',
+    slug: 'dell-pro-max-16-plus-workstation-laptop-mb16250u9321nv-ae-1_1085fc99-4e25-4b67-ac1f-76662c1a9823',
+    brand: 'Dell',
+    category: 'laptops',
+    subcategory: 'Mobile Workstation',
+    price: 4500,
+    salePrice: 4500,
+    images: ['https://www.alershadonline.com/cdn/shop/files/Dell-Pro-Max-16-Plus-Workstation-Laptop-MB16250U9321NV-AE-1_1085fc99-4e25-4b67-ac1f-76662c1a9823.webp?v=1789832861&width=460'],
+    shortDescription: 'Dell Pro Max 16 Plus Workstation Laptop MB16250U9321NV AE 1_1085fc99 4e25 4b67 ac1f 76662c1a9823',
+    description: 'Dell Pro Max 16 Plus Workstation Laptop MB16250U9321NV AE 1_1085fc99 4e25 4b67 ac1f 76662c1a9823 - High performance mobile workstation imported from Alershad Online.',
+    specifications: {
+      'SKU': 'ALERSHAD-WS-006',
+      'Category': 'Mobile Workstation',
+      'Brand': 'Dell'
+    },
+    stock: 10,
+    sku: 'ALERSHAD-WS-006',
+    featured: false,
+    newProduct: true,
+    tags: ['laptop', 'mobile-workstation', 'alershad', 'dell']
+  },
+  {
+    id: 'ALERSHAD-WS-007',
+    name: 'Dell Pro Max 16 Workstation Laptop MC16250U9321NV AE 1_800fdd16 3e0a 4de5 91e8 6094f559edef',
+    slug: 'dell-pro-max-16-workstation-laptop-mc16250u9321nv-ae-1_800fdd16-3e0a-4de5-91e8-6094f559edef',
+    brand: 'Dell',
+    category: 'laptops',
+    subcategory: 'Mobile Workstation',
+    price: 4500,
+    salePrice: 4500,
+    images: ['https://www.alershadonline.com/cdn/shop/files/Dell-Pro-Max-16-Workstation-Laptop-MC16250U9321NV-AE-1_800fdd16-3e0a-4de5-91e8-6094f559edef.webp?v=1789832861&width=460'],
+    shortDescription: 'Dell Pro Max 16 Workstation Laptop MC16250U9321NV AE 1_800fdd16 3e0a 4de5 91e8 6094f559edef',
+    description: 'Dell Pro Max 16 Workstation Laptop MC16250U9321NV AE 1_800fdd16 3e0a 4de5 91e8 6094f559edef - High performance mobile workstation imported from Alershad Online.',
+    specifications: {
+      'SKU': 'ALERSHAD-WS-007',
+      'Category': 'Mobile Workstation',
+      'Brand': 'Dell'
+    },
+    stock: 10,
+    sku: 'ALERSHAD-WS-007',
+    featured: false,
+    newProduct: true,
+    tags: ['laptop', 'mobile-workstation', 'alershad', 'dell']
+  },
+  {
+    id: 'ALERSHAD-WS-008',
+    name: 'Dell Pro Max 16 Premium Workstation Laptop MA16250U9641NV AE 1_18eb8d34 8f52 4f63 8c13 a31a133b976a',
+    slug: 'dell-pro-max-16-premium-workstation-laptop-ma16250u9641nv-ae-1_18eb8d34-8f52-4f63-8c13-a31a133b976a',
+    brand: 'Dell',
+    category: 'laptops',
+    subcategory: 'Mobile Workstation',
+    price: 4500,
+    salePrice: 4500,
+    images: ['https://www.alershadonline.com/cdn/shop/files/Dell-Pro-Max-16-Premium-Workstation-Laptop-MA16250U9641NV-AE-1_18eb8d34-8f52-4f63-8c13-a31a133b976a.webp?v=1789832861&width=460'],
+    shortDescription: 'Dell Pro Max 16 Premium Workstation Laptop MA16250U9641NV AE 1_18eb8d34 8f52 4f63 8c13 a31a133b976a',
+    description: 'Dell Pro Max 16 Premium Workstation Laptop MA16250U9641NV AE 1_18eb8d34 8f52 4f63 8c13 a31a133b976a - High performance mobile workstation imported from Alershad Online.',
+    specifications: {
+      'SKU': 'ALERSHAD-WS-008',
+      'Category': 'Mobile Workstation',
+      'Brand': 'Dell'
+    },
+    stock: 10,
+    sku: 'ALERSHAD-WS-008',
+    featured: false,
+    newProduct: true,
+    tags: ['laptop', 'mobile-workstation', 'alershad', 'dell']
+  },
+  {
+    id: 'ALERSHAD-WS-009',
+    name: 'Lenovo ThinkPad P16s Gen 5 Workstation 21XE001YGR 1_a16cc926 9ef2 4696 9103 ed1925db9f38',
+    slug: 'lenovo-thinkpad-p16s-gen-5-workstation-21xe001ygr-1_a16cc926-9ef2-4696-9103-ed1925db9f38',
+    brand: 'Lenovo',
+    category: 'laptops',
+    subcategory: 'Mobile Workstation',
+    price: 4500,
+    salePrice: 4500,
+    images: ['https://www.alershadonline.com/cdn/shop/files/Lenovo-ThinkPad-P16s-Gen-5-Workstation-21XE001YGR-1_a16cc926-9ef2-4696-9103-ed1925db9f38.webp?v=1786641143&width=460'],
+    shortDescription: 'Lenovo ThinkPad P16s Gen 5 Workstation 21XE001YGR 1_a16cc926 9ef2 4696 9103 ed1925db9f38',
+    description: 'Lenovo ThinkPad P16s Gen 5 Workstation 21XE001YGR 1_a16cc926 9ef2 4696 9103 ed1925db9f38 - High performance mobile workstation imported from Alershad Online.',
+    specifications: {
+      'SKU': 'ALERSHAD-WS-009',
+      'Category': 'Mobile Workstation',
+      'Brand': 'Lenovo'
+    },
+    stock: 10,
+    sku: 'ALERSHAD-WS-009',
+    featured: false,
+    newProduct: true,
+    tags: ['laptop', 'mobile-workstation', 'alershad', 'lenovo']
+  },
+  {
+    id: 'ALERSHAD-WS-010',
+    name: 'Lenovo ThinkPad P14s Gen 7 Mobile Workstation 21XJ001NGR 1_9ff913a5 b98f 4ec0 8535 3d7f857325cb',
+    slug: 'lenovo-thinkpad-p14s-gen-7-mobile-workstation-21xj001ngr-1_9ff913a5-b98f-4ec0-8535-3d7f857325cb',
+    brand: 'Lenovo',
+    category: 'laptops',
+    subcategory: 'Mobile Workstation',
+    price: 4500,
+    salePrice: 4500,
+    images: ['https://www.alershadonline.com/cdn/shop/files/Lenovo-ThinkPad-P14s-Gen-7-Mobile-Workstation-21XJ001NGR-1_9ff913a5-b98f-4ec0-8535-3d7f857325cb.webp?v=1786641143&width=460'],
+    shortDescription: 'Lenovo ThinkPad P14s Gen 7 Mobile Workstation 21XJ001NGR 1_9ff913a5 b98f 4ec0 8535 3d7f857325cb',
+    description: 'Lenovo ThinkPad P14s Gen 7 Mobile Workstation 21XJ001NGR 1_9ff913a5 b98f 4ec0 8535 3d7f857325cb - High performance mobile workstation imported from Alershad Online.',
+    specifications: {
+      'SKU': 'ALERSHAD-WS-010',
+      'Category': 'Mobile Workstation',
+      'Brand': 'Lenovo'
+    },
+    stock: 10,
+    sku: 'ALERSHAD-WS-010',
+    featured: false,
+    newProduct: true,
+    tags: ['laptop', 'mobile-workstation', 'alershad', 'lenovo']
+  },
+  {
+    id: 'ALERSHAD-WS-011',
+    name: 'Lenovo ThinkPad P16s Gen 5 Workstation 21XE0022GR 1_61492565 3603 4be2 be2c 99630eb75169',
+    slug: 'lenovo-thinkpad-p16s-gen-5-workstation-21xe0022gr-1_61492565-3603-4be2-be2c-99630eb75169',
+    brand: 'Lenovo',
+    category: 'laptops',
+    subcategory: 'Mobile Workstation',
+    price: 4500,
+    salePrice: 4500,
+    images: ['https://www.alershadonline.com/cdn/shop/files/Lenovo-ThinkPad-P16s-Gen-5-Workstation-21XE0022GR-1_61492565-3603-4be2-be2c-99630eb75169.webp?v=1786641144&width=460'],
+    shortDescription: 'Lenovo ThinkPad P16s Gen 5 Workstation 21XE0022GR 1_61492565 3603 4be2 be2c 99630eb75169',
+    description: 'Lenovo ThinkPad P16s Gen 5 Workstation 21XE0022GR 1_61492565 3603 4be2 be2c 99630eb75169 - High performance mobile workstation imported from Alershad Online.',
+    specifications: {
+      'SKU': 'ALERSHAD-WS-011',
+      'Category': 'Mobile Workstation',
+      'Brand': 'Lenovo'
+    },
+    stock: 10,
+    sku: 'ALERSHAD-WS-011',
+    featured: false,
+    newProduct: true,
+    tags: ['laptop', 'mobile-workstation', 'alershad', 'lenovo']
+  },
+  {
+    id: 'ALERSHAD-WS-012',
+    name: 'HP ZBook Ultra 14 G1a Mobile Workstation HP ZBU R AI 390 1_ffb66d11 b07f 46bb 9a7c 5fc3123c74f0',
+    slug: 'hp-zbook-ultra-14-g1a-mobile-workstation-hp-zbu-r-ai-390-1_ffb66d11-b07f-46bb-9a7c-5fc3123c74f0',
+    brand: 'HP',
+    category: 'laptops',
+    subcategory: 'Mobile Workstation',
+    price: 4500,
+    salePrice: 4500,
+    images: ['https://www.alershadonline.com/cdn/shop/files/HP-ZBook-Ultra-14-G1a-Mobile-Workstation-HP-ZBU-R-AI-390-1_ffb66d11-b07f-46bb-9a7c-5fc3123c74f0.webp?v=1785851669&width=460'],
+    shortDescription: 'HP ZBook Ultra 14 G1a Mobile Workstation HP ZBU R AI 390 1_ffb66d11 b07f 46bb 9a7c 5fc3123c74f0',
+    description: 'HP ZBook Ultra 14 G1a Mobile Workstation HP ZBU R AI 390 1_ffb66d11 b07f 46bb 9a7c 5fc3123c74f0 - High performance mobile workstation imported from Alershad Online.',
+    specifications: {
+      'SKU': 'ALERSHAD-WS-012',
+      'Category': 'Mobile Workstation',
+      'Brand': 'HP'
+    },
+    stock: 10,
+    sku: 'ALERSHAD-WS-012',
+    featured: false,
+    newProduct: true,
+    tags: ['laptop', 'mobile-workstation', 'alershad', 'hp']
+  },
+  {
+    id: 'ALERSHAD-WS-013',
+    name: 'HP ZBook Ultra 14 G1a Mobile Workstation HP ZBU R AI 380 1_3d7178b2 d5ef 42b4 a4c6 62bf7898045d',
+    slug: 'hp-zbook-ultra-14-g1a-mobile-workstation-hp-zbu-r-ai-380-1_3d7178b2-d5ef-42b4-a4c6-62bf7898045d',
+    brand: 'HP',
+    category: 'laptops',
+    subcategory: 'Mobile Workstation',
+    price: 4500,
+    salePrice: 4500,
+    images: ['https://www.alershadonline.com/cdn/shop/files/HP-ZBook-Ultra-14-G1a-Mobile-Workstation-HP-ZBU-R-AI-380-1_3d7178b2-d5ef-42b4-a4c6-62bf7898045d.webp?v=1785851670&width=460'],
+    shortDescription: 'HP ZBook Ultra 14 G1a Mobile Workstation HP ZBU R AI 380 1_3d7178b2 d5ef 42b4 a4c6 62bf7898045d',
+    description: 'HP ZBook Ultra 14 G1a Mobile Workstation HP ZBU R AI 380 1_3d7178b2 d5ef 42b4 a4c6 62bf7898045d - High performance mobile workstation imported from Alershad Online.',
+    specifications: {
+      'SKU': 'ALERSHAD-WS-013',
+      'Category': 'Mobile Workstation',
+      'Brand': 'HP'
+    },
+    stock: 10,
+    sku: 'ALERSHAD-WS-013',
+    featured: false,
+    newProduct: true,
+    tags: ['laptop', 'mobile-workstation', 'alershad', 'hp']
+  },
+  {
+    id: 'ALERSHAD-WS-014',
+    name: 'Lenovo ThinkPad P16s Gen 5 Mobile Workstation 21XGS02J00 1_a863560d a7de 464b a0ed 854b4ea896c4',
+    slug: 'lenovo-thinkpad-p16s-gen-5-mobile-workstation-21xgs02j00-1_a863560d-a7de-464b-a0ed-854b4ea896c4',
+    brand: 'Lenovo',
+    category: 'laptops',
+    subcategory: 'Mobile Workstation',
+    price: 4500,
+    salePrice: 4500,
+    images: ['https://www.alershadonline.com/cdn/shop/files/Lenovo-ThinkPad-P16s-Gen-5-Mobile-Workstation-21XGS02J00-1_a863560d-a7de-464b-a0ed-854b4ea896c4.webp?v=1785406846&width=460'],
+    shortDescription: 'Lenovo ThinkPad P16s Gen 5 Mobile Workstation 21XGS02J00 1_a863560d a7de 464b a0ed 854b4ea896c4',
+    description: 'Lenovo ThinkPad P16s Gen 5 Mobile Workstation 21XGS02J00 1_a863560d a7de 464b a0ed 854b4ea896c4 - High performance mobile workstation imported from Alershad Online.',
+    specifications: {
+      'SKU': 'ALERSHAD-WS-014',
+      'Category': 'Mobile Workstation',
+      'Brand': 'Lenovo'
+    },
+    stock: 10,
+    sku: 'ALERSHAD-WS-014',
+    featured: false,
+    newProduct: true,
+    tags: ['laptop', 'mobile-workstation', 'alershad', 'lenovo']
+  },
+  {
+    id: 'ALERSHAD-WS-015',
+    name: 'Lenovo ThinkPad P16s Gen 5 Mobile Workstation 21XGS02G00 1_f6907f7f fe55 4503 9877 30610d0081e6',
+    slug: 'lenovo-thinkpad-p16s-gen-5-mobile-workstation-21xgs02g00-1_f6907f7f-fe55-4503-9877-30610d0081e6',
+    brand: 'Lenovo',
+    category: 'laptops',
+    subcategory: 'Mobile Workstation',
+    price: 4500,
+    salePrice: 4500,
+    images: ['https://www.alershadonline.com/cdn/shop/files/Lenovo-ThinkPad-P16s-Gen-5-Mobile-Workstation-21XGS02G00-1_f6907f7f-fe55-4503-9877-30610d0081e6.webp?v=1785406846&width=460'],
+    shortDescription: 'Lenovo ThinkPad P16s Gen 5 Mobile Workstation 21XGS02G00 1_f6907f7f fe55 4503 9877 30610d0081e6',
+    description: 'Lenovo ThinkPad P16s Gen 5 Mobile Workstation 21XGS02G00 1_f6907f7f fe55 4503 9877 30610d0081e6 - High performance mobile workstation imported from Alershad Online.',
+    specifications: {
+      'SKU': 'ALERSHAD-WS-015',
+      'Category': 'Mobile Workstation',
+      'Brand': 'Lenovo'
+    },
+    stock: 10,
+    sku: 'ALERSHAD-WS-015',
+    featured: false,
+    newProduct: true,
+    tags: ['laptop', 'mobile-workstation', 'alershad', 'lenovo']
+  },
+  {
+    id: 'ALERSHAD-WS-016',
+    name: 'HP ZBook 8 G1i 14 Workstation C9FV7ES ARB 1_e2263ff9 c931 4470 95b5 d44e79dd48f0',
+    slug: 'hp-zbook-8-g1i-14-workstation-c9fv7es-arb-1_e2263ff9-c931-4470-95b5-d44e79dd48f0',
+    brand: 'HP',
+    category: 'laptops',
+    subcategory: 'Mobile Workstation',
+    price: 4500,
+    salePrice: 4500,
+    images: ['https://www.alershadonline.com/cdn/shop/files/HP-ZBook-8-G1i-14-Workstation-C9FV7ES-ARB-1_e2263ff9-c931-4470-95b5-d44e79dd48f0.webp?v=1777915212&width=460'],
+    shortDescription: 'HP ZBook 8 G1i 14 Workstation C9FV7ES ARB 1_e2263ff9 c931 4470 95b5 d44e79dd48f0',
+    description: 'HP ZBook 8 G1i 14 Workstation C9FV7ES ARB 1_e2263ff9 c931 4470 95b5 d44e79dd48f0 - High performance mobile workstation imported from Alershad Online.',
+    specifications: {
+      'SKU': 'ALERSHAD-WS-016',
+      'Category': 'Mobile Workstation',
+      'Brand': 'HP'
+    },
+    stock: 10,
+    sku: 'ALERSHAD-WS-016',
+    featured: false,
+    newProduct: true,
+    tags: ['laptop', 'mobile-workstation', 'alershad', 'hp']
+  },
+  {
+    id: 'ALERSHAD-WS-017',
+    name: 'HP ZBook Firefly 16 G11 Mobile Workstation C9FW4ES ABV 1_1ee90f3d 28d4 4c2e ac9a 9b980b69b8df',
+    slug: 'hp-zbook-firefly-16-g11-mobile-workstation-c9fw4es-abv-1_1ee90f3d-28d4-4c2e-ac9a-9b980b69b8df',
+    brand: 'HP',
+    category: 'laptops',
+    subcategory: 'Mobile Workstation',
+    price: 4500,
+    salePrice: 4500,
+    images: ['https://www.alershadonline.com/cdn/shop/files/HP-ZBook-Firefly-16-G11-Mobile-Workstation-C9FW4ES-ABV-1_1ee90f3d-28d4-4c2e-ac9a-9b980b69b8df.webp?v=1774708881&width=460'],
+    shortDescription: 'HP ZBook Firefly 16 G11 Mobile Workstation C9FW4ES ABV 1_1ee90f3d 28d4 4c2e ac9a 9b980b69b8df',
+    description: 'HP ZBook Firefly 16 G11 Mobile Workstation C9FW4ES ABV 1_1ee90f3d 28d4 4c2e ac9a 9b980b69b8df - High performance mobile workstation imported from Alershad Online.',
+    specifications: {
+      'SKU': 'ALERSHAD-WS-017',
+      'Category': 'Mobile Workstation',
+      'Brand': 'HP'
+    },
+    stock: 10,
+    sku: 'ALERSHAD-WS-017',
+    featured: false,
+    newProduct: true,
+    tags: ['laptop', 'mobile-workstation', 'alershad', 'hp']
+  },
+  {
+    id: 'ALERSHAD-WS-018',
+    name: 'HP ZBook 8 G1i 14 Workstation C9FV6ES 1_568e03a3 ed18 4adc aa5e 4fab80ecc9c7',
+    slug: 'hp-zbook-8-g1i-14-workstation-c9fv6es-1_568e03a3-ed18-4adc-aa5e-4fab80ecc9c7',
+    brand: 'HP',
+    category: 'laptops',
+    subcategory: 'Mobile Workstation',
+    price: 4500,
+    salePrice: 4500,
+    images: ['https://www.alershadonline.com/cdn/shop/files/HP-ZBook-8-G1i-14-Workstation-C9FV6ES-1_568e03a3-ed18-4adc-aa5e-4fab80ecc9c7.webp?v=1773769744&width=460'],
+    shortDescription: 'HP ZBook 8 G1i 14 Workstation C9FV6ES 1_568e03a3 ed18 4adc aa5e 4fab80ecc9c7',
+    description: 'HP ZBook 8 G1i 14 Workstation C9FV6ES 1_568e03a3 ed18 4adc aa5e 4fab80ecc9c7 - High performance mobile workstation imported from Alershad Online.',
+    specifications: {
+      'SKU': 'ALERSHAD-WS-018',
+      'Category': 'Mobile Workstation',
+      'Brand': 'HP'
+    },
+    stock: 10,
+    sku: 'ALERSHAD-WS-018',
+    featured: false,
+    newProduct: true,
+    tags: ['laptop', 'mobile-workstation', 'alershad', 'hp']
+  },
+  {
+    id: 'ALERSHAD-WS-019',
+    name: 'HP ZBook 8 G1i 14 Workstation Laptop C9FV6ES ARB 1_8e5efd9c b21f 4cd0 843a f38a2821230a',
+    slug: 'hp-zbook-8-g1i-14-workstation-laptop-c9fv6es-arb-1_8e5efd9c-b21f-4cd0-843a-f38a2821230a',
+    brand: 'HP',
+    category: 'laptops',
+    subcategory: 'Mobile Workstation',
+    price: 4500,
+    salePrice: 4500,
+    images: ['https://www.alershadonline.com/cdn/shop/files/HP-ZBook-8-G1i-14-Workstation-Laptop-C9FV6ES-ARB-1_8e5efd9c-b21f-4cd0-843a-f38a2821230a.webp?v=1773769685&width=460'],
+    shortDescription: 'HP ZBook 8 G1i 14 Workstation Laptop C9FV6ES ARB 1_8e5efd9c b21f 4cd0 843a f38a2821230a',
+    description: 'HP ZBook 8 G1i 14 Workstation Laptop C9FV6ES ARB 1_8e5efd9c b21f 4cd0 843a f38a2821230a - High performance mobile workstation imported from Alershad Online.',
+    specifications: {
+      'SKU': 'ALERSHAD-WS-019',
+      'Category': 'Mobile Workstation',
+      'Brand': 'HP'
+    },
+    stock: 10,
+    sku: 'ALERSHAD-WS-019',
+    featured: false,
+    newProduct: true,
+    tags: ['laptop', 'mobile-workstation', 'alershad', 'hp']
+  },
+  {
+    id: 'ALERSHAD-WS-020',
+    name: 'HP ZBook Fury G1i 16 inch Mobile Workstation PC CZ9J4ES 1_efac419a 270f 4c39 9e01 0abe5843b51b',
+    slug: 'hp-zbook-fury-g1i-16-inch-mobile-workstation-pc-cz9j4es-1_efac419a-270f-4c39-9e01-0abe5843b51b',
+    brand: 'HP',
+    category: 'laptops',
+    subcategory: 'Mobile Workstation',
+    price: 4500,
+    salePrice: 4500,
+    images: ['https://www.alershadonline.com/cdn/shop/files/HP-ZBook-Fury-G1i-16-inch-Mobile-Workstation-PC-CZ9J4ES-1_efac419a-270f-4c39-9e01-0abe5843b51b.webp?v=1776780553&width=460'],
+    shortDescription: 'HP ZBook Fury G1i 16 inch Mobile Workstation PC CZ9J4ES 1_efac419a 270f 4c39 9e01 0abe5843b51b',
+    description: 'HP ZBook Fury G1i 16 inch Mobile Workstation PC CZ9J4ES 1_efac419a 270f 4c39 9e01 0abe5843b51b - High performance mobile workstation imported from Alershad Online.',
+    specifications: {
+      'SKU': 'ALERSHAD-WS-020',
+      'Category': 'Mobile Workstation',
+      'Brand': 'HP'
+    },
+    stock: 10,
+    sku: 'ALERSHAD-WS-020',
+    featured: false,
+    newProduct: true,
+    tags: ['laptop', 'mobile-workstation', 'alershad', 'hp']
+  },
+  {
+    id: 'ALERSHAD-WS-021',
+    name: 'HP ZBook Fury G11 Laptop D19Z6ES 2_e0772340 4125 451c 9bce f6a1e33080b5',
+    slug: 'hp-zbook-fury-g11-laptop-d19z6es-2_e0772340-4125-451c-9bce-f6a1e33080b5',
+    brand: 'HP',
+    category: 'laptops',
+    subcategory: 'Mobile Workstation',
+    price: 4500,
+    salePrice: 4500,
+    images: ['https://www.alershadonline.com/cdn/shop/files/HP-ZBook-Fury-G11-Laptop-D19Z6ES-2_e0772340-4125-451c-9bce-f6a1e33080b5.webp?v=1772892443&width=460'],
+    shortDescription: 'HP ZBook Fury G11 Laptop D19Z6ES 2_e0772340 4125 451c 9bce f6a1e33080b5',
+    description: 'HP ZBook Fury G11 Laptop D19Z6ES 2_e0772340 4125 451c 9bce f6a1e33080b5 - High performance mobile workstation imported from Alershad Online.',
+    specifications: {
+      'SKU': 'ALERSHAD-WS-021',
+      'Category': 'Mobile Workstation',
+      'Brand': 'HP'
+    },
+    stock: 10,
+    sku: 'ALERSHAD-WS-021',
+    featured: false,
+    newProduct: true,
+    tags: ['laptop', 'mobile-workstation', 'alershad', 'hp']
+  },
+  {
+    id: 'ALERSHAD-WS-022',
+    name: 'Mobile Workstation',
+    slug: 'mobile-workstation',
+    brand: 'Mobile Workstation',
+    category: 'laptops',
+    subcategory: 'Mobile Workstation',
+    price: 4500,
+    salePrice: 4500,
+    images: ['https://www.alershadonline.com/cdn/shop/files/B30L2ES-2-1757509155888.png?v=1770231826&width=460'],
+    shortDescription: 'Mobile Workstation',
+    description: 'Mobile Workstation - High performance mobile workstation imported from Alershad Online.',
+    specifications: {
+      'SKU': 'ALERSHAD-WS-022',
+      'Category': 'Mobile Workstation',
+      'Brand': 'Mobile Workstation'
+    },
+    stock: 10,
+    sku: 'ALERSHAD-WS-022',
+    featured: false,
+    newProduct: true,
+    tags: ['laptop', 'mobile-workstation', 'alershad', 'mobile workstation']
+  },
+  {
+    id: 'ALERSHAD-WS-025',
+    name: 'Dell PROMAX16P 64 1T W11P 2 1760525399265',
+    slug: 'dell-promax16p-64-1t-w11p-2-1760525399265',
+    brand: 'Dell',
+    category: 'laptops',
+    subcategory: 'Mobile Workstation',
+    price: 4500,
+    salePrice: 4500,
+    images: ['https://www.alershadonline.com/cdn/shop/files/Dell-PROMAX16P-64-1T-W11P-2-1760525399265.png?v=1770229072&width=460'],
+    shortDescription: 'Dell PROMAX16P 64 1T W11P 2 1760525399265',
+    description: 'Dell PROMAX16P 64 1T W11P 2 1760525399265 - High performance mobile workstation imported from Alershad Online.',
+    specifications: {
+      'SKU': 'ALERSHAD-WS-025',
+      'Category': 'Mobile Workstation',
+      'Brand': 'Dell'
+    },
+    stock: 10,
+    sku: 'ALERSHAD-WS-025',
+    featured: false,
+    newProduct: true,
+    tags: ['laptop', 'mobile-workstation', 'alershad', 'dell']
+  },
+  {
+    id: 'ALERSHAD-WS-029',
+    name: 'Dell PRECI 5680 16 1T W11P 2 1760697689652',
+    slug: 'dell-preci-5680-16-1t-w11p-2-1760697689652',
+    brand: 'Dell',
+    category: 'laptops',
+    subcategory: 'Mobile Workstation',
+    price: 4500,
+    salePrice: 4500,
+    images: ['https://www.alershadonline.com/cdn/shop/files/Dell-PRECI-5680-16-1T-W11P-2-1760697689652.png?v=1772538329&width=460'],
+    shortDescription: 'Dell PRECI 5680 16 1T W11P 2 1760697689652',
+    description: 'Dell PRECI 5680 16 1T W11P 2 1760697689652 - High performance mobile workstation imported from Alershad Online.',
+    specifications: {
+      'SKU': 'ALERSHAD-WS-029',
+      'Category': 'Mobile Workstation',
+      'Brand': 'Dell'
+    },
+    stock: 10,
+    sku: 'ALERSHAD-WS-029',
+    featured: false,
+    newProduct: true,
+    tags: ['laptop', 'mobile-workstation', 'alershad', 'dell']
+  },
+  {
+    id: 'ALERSHAD-WS-030',
+    name: 'Lenovo ThinkPad P14s Gen 6 Workstation Laptop 21QT0009GR 2 1766072294280',
+    slug: 'lenovo-thinkpad-p14s-gen-6-workstation-laptop-21qt0009gr-2-1766072294280',
+    brand: 'Lenovo',
+    category: 'laptops',
+    subcategory: 'Mobile Workstation',
+    price: 4500,
+    salePrice: 4500,
+    images: ['https://www.alershadonline.com/cdn/shop/files/Lenovo-ThinkPad-P14s-Gen-6-Workstation-Laptop-21QT0009GR-2-1766072294280.webp?v=1770226946&width=460'],
+    shortDescription: 'Lenovo ThinkPad P14s Gen 6 Workstation Laptop 21QT0009GR 2 1766072294280',
+    description: 'Lenovo ThinkPad P14s Gen 6 Workstation Laptop 21QT0009GR 2 1766072294280 - High performance mobile workstation imported from Alershad Online.',
+    specifications: {
+      'SKU': 'ALERSHAD-WS-030',
+      'Category': 'Mobile Workstation',
+      'Brand': 'Lenovo'
+    },
+    stock: 10,
+    sku: 'ALERSHAD-WS-030',
+    featured: false,
+    newProduct: true,
+    tags: ['laptop', 'mobile-workstation', 'alershad', 'lenovo']
+  },
+  {
+    id: 'ALERSHAD-WS-031',
+    name: 'Asus ProArt P16 Mobile Workstation Laptop H7606WX SE004W 1 1763036166119',
+    slug: 'asus-proart-p16-mobile-workstation-laptop-h7606wx-se004w-1-1763036166119',
+    brand: 'ASUS',
+    category: 'laptops',
+    subcategory: 'Mobile Workstation',
+    price: 4500,
+    salePrice: 4500,
+    images: ['https://www.alershadonline.com/cdn/shop/files/Asus-ProArt-P16-Mobile-Workstation-Laptop-H7606WX-SE004W-1-1763036166119.webp?v=1772778023&width=460'],
+    shortDescription: 'Asus ProArt P16 Mobile Workstation Laptop H7606WX SE004W 1 1763036166119',
+    description: 'Asus ProArt P16 Mobile Workstation Laptop H7606WX SE004W 1 1763036166119 - High performance mobile workstation imported from Alershad Online.',
+    specifications: {
+      'SKU': 'ALERSHAD-WS-031',
+      'Category': 'Mobile Workstation',
+      'Brand': 'ASUS'
+    },
+    stock: 10,
+    sku: 'ALERSHAD-WS-031',
+    featured: false,
+    newProduct: true,
+    tags: ['laptop', 'mobile-workstation', 'alershad', 'asus']
+  },
+  {
+    id: 'ALERSHAD-WS-032',
+    name: 'HP Firefly Mobile Workstation Laptop 8T137EA 1 1763036166383',
+    slug: 'hp-firefly-mobile-workstation-laptop-8t137ea-1-1763036166383',
+    brand: 'HP',
+    category: 'laptops',
+    subcategory: 'Mobile Workstation',
+    price: 4500,
+    salePrice: 4500,
+    images: ['https://www.alershadonline.com/cdn/shop/files/HP-Firefly-Mobile-Workstation-Laptop-8T137EA-1-1763036166383.webp?v=1772721356&width=460'],
+    shortDescription: 'HP Firefly Mobile Workstation Laptop 8T137EA 1 1763036166383',
+    description: 'HP Firefly Mobile Workstation Laptop 8T137EA 1 1763036166383 - High performance mobile workstation imported from Alershad Online.',
+    specifications: {
+      'SKU': 'ALERSHAD-WS-032',
+      'Category': 'Mobile Workstation',
+      'Brand': 'HP'
+    },
+    stock: 10,
+    sku: 'ALERSHAD-WS-032',
+    featured: false,
+    newProduct: true,
+    tags: ['laptop', 'mobile-workstation', 'alershad', 'hp']
+  },
+  {
+    id: 'ALERSHAD-WS-033',
+    name: 'HP ZBook Mobile Workstation Laptop B30KWES 1 1763036166538',
+    slug: 'hp-zbook-mobile-workstation-laptop-b30kwes-1-1763036166538',
+    brand: 'HP',
+    category: 'laptops',
+    subcategory: 'Mobile Workstation',
+    price: 4500,
+    salePrice: 4500,
+    images: ['https://www.alershadonline.com/cdn/shop/files/HP-ZBook-Mobile-Workstation-Laptop-B30KWES-1-1763036166538.webp?v=1772721079&width=460'],
+    shortDescription: 'HP ZBook Mobile Workstation Laptop B30KWES 1 1763036166538',
+    description: 'HP ZBook Mobile Workstation Laptop B30KWES 1 1763036166538 - High performance mobile workstation imported from Alershad Online.',
+    specifications: {
+      'SKU': 'ALERSHAD-WS-033',
+      'Category': 'Mobile Workstation',
+      'Brand': 'HP'
+    },
+    stock: 10,
+    sku: 'ALERSHAD-WS-033',
+    featured: false,
+    newProduct: true,
+    tags: ['laptop', 'mobile-workstation', 'alershad', 'hp']
+  },
+  {
+    id: 'ALERSHAD-WS-034',
+    name: 'Asus ProArt P16 Laptop H7606WP SR237W 1_231f84f6 e438 4b0e bcfd 70bdd84e4f9f',
+    slug: 'asus-proart-p16-laptop-h7606wp-sr237w-1_231f84f6-e438-4b0e-bcfd-70bdd84e4f9f',
+    brand: 'ASUS',
+    category: 'laptops',
+    subcategory: 'Mobile Workstation',
+    price: 4500,
+    salePrice: 4500,
+    images: ['https://www.alershadonline.com/cdn/shop/files/Asus-ProArt-P16-Laptop-H7606WP-SR237W-1_231f84f6-e438-4b0e-bcfd-70bdd84e4f9f.webp?v=1788014766&width=460'],
+    shortDescription: 'Asus ProArt P16 Laptop H7606WP SR237W 1_231f84f6 e438 4b0e bcfd 70bdd84e4f9f',
+    description: 'Asus ProArt P16 Laptop H7606WP SR237W 1_231f84f6 e438 4b0e bcfd 70bdd84e4f9f - High performance mobile workstation imported from Alershad Online.',
+    specifications: {
+      'SKU': 'ALERSHAD-WS-034',
+      'Category': 'Mobile Workstation',
+      'Brand': 'ASUS'
+    },
+    stock: 10,
+    sku: 'ALERSHAD-WS-034',
+    featured: false,
+    newProduct: true,
+    tags: ['laptop', 'mobile-workstation', 'alershad', 'asus']
+  },
+  {
+    id: 'ALERSHAD-WS-035',
+    name: 'Asus ProArt P16 H7606GM Laptop H7606GM SR028W 1_f25ce29e baa1 4977 ab34 75cbce01d106',
+    slug: 'asus-proart-p16-h7606gm-laptop-h7606gm-sr028w-1_f25ce29e-baa1-4977-ab34-75cbce01d106',
+    brand: 'ASUS',
+    category: 'laptops',
+    subcategory: 'Mobile Workstation',
+    price: 4500,
+    salePrice: 4500,
+    images: ['https://www.alershadonline.com/cdn/shop/files/Asus-ProArt-P16-H7606GM-Laptop-H7606GM-SR028W-1_f25ce29e-baa1-4977-ab34-75cbce01d106.webp?v=1791295883&width=460'],
+    shortDescription: 'Asus ProArt P16 H7606GM Laptop H7606GM SR028W 1_f25ce29e baa1 4977 ab34 75cbce01d106',
+    description: 'Asus ProArt P16 H7606GM Laptop H7606GM SR028W 1_f25ce29e baa1 4977 ab34 75cbce01d106 - High performance mobile workstation imported from Alershad Online.',
+    specifications: {
+      'SKU': 'ALERSHAD-WS-035',
+      'Category': 'Mobile Workstation',
+      'Brand': 'ASUS'
+    },
+    stock: 10,
+    sku: 'ALERSHAD-WS-035',
+    featured: false,
+    newProduct: true,
+    tags: ['laptop', 'mobile-workstation', 'alershad', 'asus']
+  },
+  {
+    id: 'ALERSHAD-WS-037',
+    name: 'HP ZBook Fury G1i 16 Mobile Workstation CZ9J5ES 1_7bd9deef b574 48dd 9917 79c935ebf904',
+    slug: 'hp-zbook-fury-g1i-16-mobile-workstation-cz9j5es-1_7bd9deef-b574-48dd-9917-79c935ebf904',
+    brand: 'HP',
+    category: 'laptops',
+    subcategory: 'Mobile Workstation',
+    price: 4500,
+    salePrice: 4500,
+    images: ['https://www.alershadonline.com/cdn/shop/files/HP-ZBook-Fury-G1i-16-Mobile-Workstation-CZ9J5ES-1_7bd9deef-b574-48dd-9917-79c935ebf904.webp?v=1781776719&width=460'],
+    shortDescription: 'HP ZBook Fury G1i 16 Mobile Workstation CZ9J5ES 1_7bd9deef b574 48dd 9917 79c935ebf904',
+    description: 'HP ZBook Fury G1i 16 Mobile Workstation CZ9J5ES 1_7bd9deef b574 48dd 9917 79c935ebf904 - High performance mobile workstation imported from Alershad Online.',
+    specifications: {
+      'SKU': 'ALERSHAD-WS-037',
+      'Category': 'Mobile Workstation',
+      'Brand': 'HP'
+    },
+    stock: 10,
+    sku: 'ALERSHAD-WS-037',
+    featured: false,
+    newProduct: true,
+    tags: ['laptop', 'mobile-workstation', 'alershad', 'hp']
+  },
+  {
+    id: 'ALERSHAD-WS-038',
+    name: 'HP ZBook 8 G1i 16 Laptop DG4V3ES ARB 1_5545ffda dadc 4144 aff6 83066a5b47cc',
+    slug: 'hp-zbook-8-g1i-16-laptop-dg4v3es-arb-1_5545ffda-dadc-4144-aff6-83066a5b47cc',
+    brand: 'HP',
+    category: 'laptops',
+    subcategory: 'Mobile Workstation',
+    price: 4500,
+    salePrice: 4500,
+    images: ['https://www.alershadonline.com/cdn/shop/files/HP-ZBook-8-G1i-16-Laptop-DG4V3ES-ARB-1_5545ffda-dadc-4144-aff6-83066a5b47cc.webp?v=1793440711&width=460'],
+    shortDescription: 'HP ZBook 8 G1i 16 Laptop DG4V3ES ARB 1_5545ffda dadc 4144 aff6 83066a5b47cc',
+    description: 'HP ZBook 8 G1i 16 Laptop DG4V3ES ARB 1_5545ffda dadc 4144 aff6 83066a5b47cc - High performance mobile workstation imported from Alershad Online.',
+    specifications: {
+      'SKU': 'ALERSHAD-WS-038',
+      'Category': 'Mobile Workstation',
+      'Brand': 'HP'
+    },
+    stock: 10,
+    sku: 'ALERSHAD-WS-038',
+    featured: false,
+    newProduct: true,
+    tags: ['laptop', 'mobile-workstation', 'alershad', 'hp']
+  },
+  {
+    id: 'ALERSHAD-WS-039',
+    name: 'HP ZBook 8 G1i 14 Laptop E36MXAT ARB 1_02972455 1a53 4da3 b055 8818c82aed3e',
+    slug: 'hp-zbook-8-g1i-14-laptop-e36mxat-arb-1_02972455-1a53-4da3-b055-8818c82aed3e',
+    brand: 'HP',
+    category: 'laptops',
+    subcategory: 'Mobile Workstation',
+    price: 4500,
+    salePrice: 4500,
+    images: ['https://www.alershadonline.com/cdn/shop/files/HP-ZBook-8-G1i-14-Laptop-E36MXAT-ARB-1_02972455-1a53-4da3-b055-8818c82aed3e.webp?v=1793441542&width=460'],
+    shortDescription: 'HP ZBook 8 G1i 14 Laptop E36MXAT ARB 1_02972455 1a53 4da3 b055 8818c82aed3e',
+    description: 'HP ZBook 8 G1i 14 Laptop E36MXAT ARB 1_02972455 1a53 4da3 b055 8818c82aed3e - High performance mobile workstation imported from Alershad Online.',
+    specifications: {
+      'SKU': 'ALERSHAD-WS-039',
+      'Category': 'Mobile Workstation',
+      'Brand': 'HP'
+    },
+    stock: 10,
+    sku: 'ALERSHAD-WS-039',
+    featured: false,
+    newProduct: true,
+    tags: ['laptop', 'mobile-workstation', 'alershad', 'hp']
+  },
+  {
+    id: 'ALERSHAD-WS-040',
+    name: 'Asus ProArt P14 H7407BA SM211W 1',
+    slug: 'asus-proart-p14-h7407ba-sm211w-1',
+    brand: 'ASUS',
+    category: 'laptops',
+    subcategory: 'Mobile Workstation',
+    price: 4500,
+    salePrice: 4500,
+    images: ['https://www.alershadonline.com/cdn/shop/files/Asus-ProArt-P14-H7407BA-SM211W-1.jpg?v=1791472552&width=460'],
+    shortDescription: 'Asus ProArt P14 H7407BA SM211W 1',
+    description: 'Asus ProArt P14 H7407BA SM211W 1 - High performance mobile workstation imported from Alershad Online.',
+    specifications: {
+      'SKU': 'ALERSHAD-WS-040',
+      'Category': 'Mobile Workstation',
+      'Brand': 'ASUS'
+    },
+    stock: 10,
+    sku: 'ALERSHAD-WS-040',
+    featured: false,
+    newProduct: true,
+    tags: ['laptop', 'mobile-workstation', 'alershad', 'asus']
+  },
+  {
+    id: 'ALERSHAD-WS-042',
+    name: 'Asus ProArt P16 H7606WP Laptop H7606WP SR221W 1_0df8e4bc c2ea 4881 90fc 5aea0a79e4c0',
+    slug: 'asus-proart-p16-h7606wp-laptop-h7606wp-sr221w-1_0df8e4bc-c2ea-4881-90fc-5aea0a79e4c0',
+    brand: 'ASUS',
+    category: 'laptops',
+    subcategory: 'Mobile Workstation',
+    price: 4500,
+    salePrice: 4500,
+    images: ['https://www.alershadonline.com/cdn/shop/files/Asus-ProArt-P16-H7606WP-Laptop-H7606WP-SR221W-1_0df8e4bc-c2ea-4881-90fc-5aea0a79e4c0.webp?v=1788537641&width=460'],
+    shortDescription: 'Asus ProArt P16 H7606WP Laptop H7606WP SR221W 1_0df8e4bc c2ea 4881 90fc 5aea0a79e4c0',
+    description: 'Asus ProArt P16 H7606WP Laptop H7606WP SR221W 1_0df8e4bc c2ea 4881 90fc 5aea0a79e4c0 - High performance mobile workstation imported from Alershad Online.',
+    specifications: {
+      'SKU': 'ALERSHAD-WS-042',
+      'Category': 'Mobile Workstation',
+      'Brand': 'ASUS'
+    },
+    stock: 10,
+    sku: 'ALERSHAD-WS-042',
+    featured: false,
+    newProduct: true,
+    tags: ['laptop', 'mobile-workstation', 'alershad', 'asus']
+  },
+  {
+    id: 'ALERSHAD-WS-043',
+    name: 'Dell Mobile Precision Workstation 3591 Laptop D MW 3591 U7 3Y 1_5389de4a 3bc9 4797 bb05 44a029e75745',
+    slug: 'dell-mobile-precision-workstation-3591-laptop-d-mw-3591-u7-3y-1_5389de4a-3bc9-4797-bb05-44a029e75745',
+    brand: 'Dell',
+    category: 'laptops',
+    subcategory: 'Mobile Workstation',
+    price: 4500,
+    salePrice: 4500,
+    images: ['https://www.alershadonline.com/cdn/shop/files/Dell-Mobile-Precision-Workstation-3591-Laptop-D-MW-3591-U7-3Y-1_5389de4a-3bc9-4797-bb05-44a029e75745.webp?v=1787062045&width=460'],
+    shortDescription: 'Dell Mobile Precision Workstation 3591 Laptop D MW 3591 U7 3Y 1_5389de4a 3bc9 4797 bb05 44a029e75745',
+    description: 'Dell Mobile Precision Workstation 3591 Laptop D MW 3591 U7 3Y 1_5389de4a 3bc9 4797 bb05 44a029e75745 - High performance mobile workstation imported from Alershad Online.',
+    specifications: {
+      'SKU': 'ALERSHAD-WS-043',
+      'Category': 'Mobile Workstation',
+      'Brand': 'Dell'
+    },
+    stock: 10,
+    sku: 'ALERSHAD-WS-043',
+    featured: false,
+    newProduct: true,
+    tags: ['laptop', 'mobile-workstation', 'alershad', 'dell']
+  },
+  {
+    id: 'ALERSHAD-WS-044',
+    name: 'Lenovo ThinkPad P14s Gen 6 Mobile Workstation 21RV0017GR 1_883b35e8 c638 4525 81e3 6ed45c7bdc1c',
+    slug: 'lenovo-thinkpad-p14s-gen-6-mobile-workstation-21rv0017gr-1_883b35e8-c638-4525-81e3-6ed45c7bdc1c',
+    brand: 'Lenovo',
+    category: 'laptops',
+    subcategory: 'Mobile Workstation',
+    price: 4500,
+    salePrice: 4500,
+    images: ['https://www.alershadonline.com/cdn/shop/files/Lenovo-ThinkPad-P14s-Gen-6-Mobile-Workstation-21RV0017GR-1_883b35e8-c638-4525-81e3-6ed45c7bdc1c.webp?v=1786641161&width=460'],
+    shortDescription: 'Lenovo ThinkPad P14s Gen 6 Mobile Workstation 21RV0017GR 1_883b35e8 c638 4525 81e3 6ed45c7bdc1c',
+    description: 'Lenovo ThinkPad P14s Gen 6 Mobile Workstation 21RV0017GR 1_883b35e8 c638 4525 81e3 6ed45c7bdc1c - High performance mobile workstation imported from Alershad Online.',
+    specifications: {
+      'SKU': 'ALERSHAD-WS-044',
+      'Category': 'Mobile Workstation',
+      'Brand': 'Lenovo'
+    },
+    stock: 10,
+    sku: 'ALERSHAD-WS-044',
+    featured: false,
+    newProduct: true,
+    tags: ['laptop', 'mobile-workstation', 'alershad', 'lenovo']
+  },
+  {
+    id: 'ALERSHAD-WS-045',
+    name: 'Lenovo ThinkPad P14s Gen 7 Mobile Workstation 21X0S04000 3_53dce62d a5dd 4f16 a5da 96349d7ab4d5',
+    slug: 'lenovo-thinkpad-p14s-gen-7-mobile-workstation-21x0s04000-3_53dce62d-a5dd-4f16-a5da-96349d7ab4d5',
+    brand: 'Lenovo',
+    category: 'laptops',
+    subcategory: 'Mobile Workstation',
+    price: 4500,
+    salePrice: 4500,
+    images: ['https://www.alershadonline.com/cdn/shop/files/Lenovo-ThinkPad-P14s-Gen-7-Mobile-Workstation-21X0S04000-3_53dce62d-a5dd-4f16-a5da-96349d7ab4d5.webp?v=1785406847&width=460'],
+    shortDescription: 'Lenovo ThinkPad P14s Gen 7 Mobile Workstation 21X0S04000 3_53dce62d a5dd 4f16 a5da 96349d7ab4d5',
+    description: 'Lenovo ThinkPad P14s Gen 7 Mobile Workstation 21X0S04000 3_53dce62d a5dd 4f16 a5da 96349d7ab4d5 - High performance mobile workstation imported from Alershad Online.',
+    specifications: {
+      'SKU': 'ALERSHAD-WS-045',
+      'Category': 'Mobile Workstation',
+      'Brand': 'Lenovo'
+    },
+    stock: 10,
+    sku: 'ALERSHAD-WS-045',
+    featured: false,
+    newProduct: true,
+    tags: ['laptop', 'mobile-workstation', 'alershad', 'lenovo']
+  },
+  {
+    id: 'ALERSHAD-WS-046',
+    name: 'HP EliteBook X G2i 14 Next Gen AI PC Notebook E1PX0ET ARB 1_95495a75 cdbc 4a5d 9893 b56ad3198dcf',
+    slug: 'hp-elitebook-x-g2i-14-next-gen-ai-pc-notebook-e1px0et-arb-1_95495a75-cdbc-4a5d-9893-b56ad3198dcf',
+    brand: 'HP',
+    category: 'laptops',
+    subcategory: 'Mobile Workstation',
+    price: 4500,
+    salePrice: 4500,
+    images: ['https://www.alershadonline.com/cdn/shop/files/HP-EliteBook-X-G2i-14-Next-Gen-AI-PC-Notebook-E1PX0ET-ARB-1_95495a75-cdbc-4a5d-9893-b56ad3198dcf.webp?v=1783959770&width=460'],
+    shortDescription: 'HP EliteBook X G2i 14 Next Gen AI PC Notebook E1PX0ET ARB 1_95495a75 cdbc 4a5d 9893 b56ad3198dcf',
+    description: 'HP EliteBook X G2i 14 Next Gen AI PC Notebook E1PX0ET ARB 1_95495a75 cdbc 4a5d 9893 b56ad3198dcf - High performance mobile workstation imported from Alershad Online.',
+    specifications: {
+      'SKU': 'ALERSHAD-WS-046',
+      'Category': 'Mobile Workstation',
+      'Brand': 'HP'
+    },
+    stock: 10,
+    sku: 'ALERSHAD-WS-046',
+    featured: false,
+    newProduct: true,
+    tags: ['laptop', 'mobile-workstation', 'alershad', 'hp']
+  },
+  {
+    id: 'ALERSHAD-WS-047',
+    name: 'HP EliteBook X G2i 14 Next Gen AI PC Notebook D4ZB8ET ARB 1_739a473f 2bd9 4ce2 831d e89f7a4f4654',
+    slug: 'hp-elitebook-x-g2i-14-next-gen-ai-pc-notebook-d4zb8et-arb-1_739a473f-2bd9-4ce2-831d-e89f7a4f4654',
+    brand: 'HP',
+    category: 'laptops',
+    subcategory: 'Mobile Workstation',
+    price: 4500,
+    salePrice: 4500,
+    images: ['https://www.alershadonline.com/cdn/shop/files/HP-EliteBook-X-G2i-14-Next-Gen-AI-PC-Notebook-D4ZB8ET-ARB-1_739a473f-2bd9-4ce2-831d-e89f7a4f4654.webp?v=1783959769&width=460'],
+    shortDescription: 'HP EliteBook X G2i 14 Next Gen AI PC Notebook D4ZB8ET ARB 1_739a473f 2bd9 4ce2 831d e89f7a4f4654',
+    description: 'HP EliteBook X G2i 14 Next Gen AI PC Notebook D4ZB8ET ARB 1_739a473f 2bd9 4ce2 831d e89f7a4f4654 - High performance mobile workstation imported from Alershad Online.',
+    specifications: {
+      'SKU': 'ALERSHAD-WS-047',
+      'Category': 'Mobile Workstation',
+      'Brand': 'HP'
+    },
+    stock: 10,
+    sku: 'ALERSHAD-WS-047',
+    featured: false,
+    newProduct: true,
+    tags: ['laptop', 'mobile-workstation', 'alershad', 'hp']
+  },
+  {
+    id: 'ALERSHAD-WS-048',
+    name: 'Asus ProArt PZ14 HT7407NA Laptop HT7407NA SN036W 1_0874e426 6ea9 4944 9bc2 6f1f486ab647',
+    slug: 'asus-proart-pz14-ht7407na-laptop-ht7407na-sn036w-1_0874e426-6ea9-4944-9bc2-6f1f486ab647',
+    brand: 'ASUS',
+    category: 'laptops',
+    subcategory: 'Mobile Workstation',
+    price: 4500,
+    salePrice: 4500,
+    images: ['https://www.alershadonline.com/cdn/shop/files/Asus-ProArt-PZ14-HT7407NA-Laptop-HT7407NA-SN036W-1_0874e426-6ea9-4944-9bc2-6f1f486ab647.webp?v=1783959771&width=460'],
+    shortDescription: 'Asus ProArt PZ14 HT7407NA Laptop HT7407NA SN036W 1_0874e426 6ea9 4944 9bc2 6f1f486ab647',
+    description: 'Asus ProArt PZ14 HT7407NA Laptop HT7407NA SN036W 1_0874e426 6ea9 4944 9bc2 6f1f486ab647 - High performance mobile workstation imported from Alershad Online.',
+    specifications: {
+      'SKU': 'ALERSHAD-WS-048',
+      'Category': 'Mobile Workstation',
+      'Brand': 'ASUS'
+    },
+    stock: 10,
+    sku: 'ALERSHAD-WS-048',
+    featured: false,
+    newProduct: true,
+    tags: ['laptop', 'mobile-workstation', 'alershad', 'asus']
+  },
+  {
+    id: 'AZIZ-MW-2026-001',
+    name: 'Dell Pro Max 18 Plus Workstation Laptop MB18250U9321NV AE 1',
+    slug: 'dell-pro-max-18-plus-workstation-laptop-mb18250u9321nv-ae-1',
+    brand: 'Dell',
+    category: 'laptops',
+    subcategory: 'Mobile Workstation',
+    price: 780000,
+    salePrice: 741000,
+    images: ['https://www.alershadonline.com/cdn/shop/files/Dell-Pro-Max-18-Plus-Workstation-Laptop-MB18250U9321NV-AE-1_39a6384d-7fe1-42fd-8477-dc4ecb8162a5.webp?v=1789832870&width=460'],
+    shortDescription: 'Dell Pro Max 18 Plus Workstation Laptop MB18250U9321NV AE 1 - High performance professional mobile workstation.',
+    description: 'Professional grade Dell Pro Max 18 Plus Workstation Laptop MB18250U9321NV AE 1 designed for intensive CAD, 3D rendering, simulation, and software development workloads.',
+    specifications: {
+      'Category': 'Mobile Workstation',
+      'Brand': 'Dell',
+      'Source': 'Aziz Computers Catalog'
+    },
+    stock: 10,
+    sku: 'AZIZ-MW-2026-001',
+    featured: true,
+    newProduct: true,
+    tags: ['laptop', 'mobile-workstation', 'dell', 'aziz-computers']
+  },
+  {
+    id: 'AZIZ-MW-2026-003',
+    name: 'Dell Pro Max 18 Plus Workstation Laptop MB18250U9641NV AE 1',
+    slug: 'dell-pro-max-18-plus-workstation-laptop-mb18250u9641nv-ae-1',
+    brand: 'Dell',
+    category: 'laptops',
+    subcategory: 'Mobile Workstation',
+    price: 793000,
+    salePrice: 753350,
+    images: ['https://www.alershadonline.com/cdn/shop/files/Dell-Pro-Max-18-Plus-Workstation-Laptop-MB18250U9641NV-AE-1_a1f97ad9-3891-45f3-a602-ccd97a398f9b.webp?v=1789832870&width=460'],
+    shortDescription: 'Dell Pro Max 18 Plus Workstation Laptop MB18250U9641NV AE 1 - High performance professional mobile workstation.',
+    description: 'Professional grade Dell Pro Max 18 Plus Workstation Laptop MB18250U9641NV AE 1 designed for intensive CAD, 3D rendering, simulation, and software development workloads.',
+    specifications: {
+      'Category': 'Mobile Workstation',
+      'Brand': 'Dell',
+      'Source': 'Aziz Computers Catalog'
+    },
+    stock: 10,
+    sku: 'AZIZ-MW-2026-003',
+    featured: false,
+    newProduct: true,
+    tags: ['laptop', 'mobile-workstation', 'dell', 'aziz-computers']
+  },
+  {
+    id: 'AZIZ-MW-2026-004',
+    name: 'Dell Pro Max 16 Plus Workstation Laptop MB16250U9641NV AE 1',
+    slug: 'dell-pro-max-16-plus-workstation-laptop-mb16250u9641nv-ae-1',
+    brand: 'Dell',
+    category: 'laptops',
+    subcategory: 'Mobile Workstation',
+    price: 593500,
+    salePrice: 563825,
+    images: ['https://www.alershadonline.com/cdn/shop/files/Dell-Pro-Max-16-Plus-Workstation-Laptop-MB16250U9641NV-AE-1_9ceec606-7ef2-4347-a06a-13d305d9091d.webp?v=1789832870&width=460'],
+    shortDescription: 'Dell Pro Max 16 Plus Workstation Laptop MB16250U9641NV AE 1 - High performance professional mobile workstation.',
+    description: 'Professional grade Dell Pro Max 16 Plus Workstation Laptop MB16250U9641NV AE 1 designed for intensive CAD, 3D rendering, simulation, and software development workloads.',
+    specifications: {
+      'Category': 'Mobile Workstation',
+      'Brand': 'Dell',
+      'Source': 'Aziz Computers Catalog'
+    },
+    stock: 10,
+    sku: 'AZIZ-MW-2026-004',
+    featured: false,
+    newProduct: true,
+    tags: ['laptop', 'mobile-workstation', 'dell', 'aziz-computers']
+  },
+  {
+    id: 'AZIZ-MW-2026-005',
+    name: 'Dell Pro Max 16 Premium Workstation Laptop MA16250U7321NV AE 1',
+    slug: 'dell-pro-max-16-premium-workstation-laptop-ma16250u7321nv-ae-1',
+    brand: 'Dell',
+    category: 'laptops',
+    subcategory: 'Mobile Workstation',
+    price: 598000,
+    salePrice: 568100,
+    images: ['https://www.alershadonline.com/cdn/shop/files/Dell-Pro-Max-16-Premium-Workstation-Laptop-MA16250U7321NV-AE-1_9141f955-f8d3-44e0-b05c-31959281019f.webp?v=1789832862&width=460'],
+    shortDescription: 'Dell Pro Max 16 Premium Workstation Laptop MA16250U7321NV AE 1 - High performance professional mobile workstation.',
+    description: 'Professional grade Dell Pro Max 16 Premium Workstation Laptop MA16250U7321NV AE 1 designed for intensive CAD, 3D rendering, simulation, and software development workloads.',
+    specifications: {
+      'Category': 'Mobile Workstation',
+      'Brand': 'Dell',
+      'Source': 'Aziz Computers Catalog'
+    },
+    stock: 10,
+    sku: 'AZIZ-MW-2026-005',
+    featured: false,
+    newProduct: true,
+    tags: ['laptop', 'mobile-workstation', 'dell', 'aziz-computers']
+  },
+  {
+    id: 'AZIZ-MW-2026-006',
+    name: 'Dell Pro Max 16 Plus Workstation Laptop MB16250U9321NV AE 1',
+    slug: 'dell-pro-max-16-plus-workstation-laptop-mb16250u9321nv-ae-1',
+    brand: 'Dell',
+    category: 'laptops',
+    subcategory: 'Mobile Workstation',
+    price: 602500,
+    salePrice: 572375,
+    images: ['https://www.alershadonline.com/cdn/shop/files/Dell-Pro-Max-16-Plus-Workstation-Laptop-MB16250U9321NV-AE-1_1085fc99-4e25-4b67-ac1f-76662c1a9823.webp?v=1789832861&width=460'],
+    shortDescription: 'Dell Pro Max 16 Plus Workstation Laptop MB16250U9321NV AE 1 - High performance professional mobile workstation.',
+    description: 'Professional grade Dell Pro Max 16 Plus Workstation Laptop MB16250U9321NV AE 1 designed for intensive CAD, 3D rendering, simulation, and software development workloads.',
+    specifications: {
+      'Category': 'Mobile Workstation',
+      'Brand': 'Dell',
+      'Source': 'Aziz Computers Catalog'
+    },
+    stock: 10,
+    sku: 'AZIZ-MW-2026-006',
+    featured: false,
+    newProduct: true,
+    tags: ['laptop', 'mobile-workstation', 'dell', 'aziz-computers']
+  },
+  {
+    id: 'AZIZ-MW-2026-007',
+    name: 'Dell Pro Max 16 Workstation Laptop MC16250U9321NV AE 1',
+    slug: 'dell-pro-max-16-workstation-laptop-mc16250u9321nv-ae-1',
+    brand: 'Dell',
+    category: 'laptops',
+    subcategory: 'Mobile Workstation',
+    price: 607000,
+    salePrice: 576650,
+    images: ['https://www.alershadonline.com/cdn/shop/files/Dell-Pro-Max-16-Workstation-Laptop-MC16250U9321NV-AE-1_800fdd16-3e0a-4de5-91e8-6094f559edef.webp?v=1789832861&width=460'],
+    shortDescription: 'Dell Pro Max 16 Workstation Laptop MC16250U9321NV AE 1 - High performance professional mobile workstation.',
+    description: 'Professional grade Dell Pro Max 16 Workstation Laptop MC16250U9321NV AE 1 designed for intensive CAD, 3D rendering, simulation, and software development workloads.',
+    specifications: {
+      'Category': 'Mobile Workstation',
+      'Brand': 'Dell',
+      'Source': 'Aziz Computers Catalog'
+    },
+    stock: 10,
+    sku: 'AZIZ-MW-2026-007',
+    featured: false,
+    newProduct: true,
+    tags: ['laptop', 'mobile-workstation', 'dell', 'aziz-computers']
+  },
+  {
+    id: 'AZIZ-MW-2026-008',
+    name: 'Dell Pro Max 16 Premium Workstation Laptop MA16250U9641NV AE 1',
+    slug: 'dell-pro-max-16-premium-workstation-laptop-ma16250u9641nv-ae-1',
+    brand: 'Dell',
+    category: 'laptops',
+    subcategory: 'Mobile Workstation',
+    price: 611500,
+    salePrice: 580925,
+    images: ['https://www.alershadonline.com/cdn/shop/files/Dell-Pro-Max-16-Premium-Workstation-Laptop-MA16250U9641NV-AE-1_18eb8d34-8f52-4f63-8c13-a31a133b976a.webp?v=1789832861&width=460'],
+    shortDescription: 'Dell Pro Max 16 Premium Workstation Laptop MA16250U9641NV AE 1 - High performance professional mobile workstation.',
+    description: 'Professional grade Dell Pro Max 16 Premium Workstation Laptop MA16250U9641NV AE 1 designed for intensive CAD, 3D rendering, simulation, and software development workloads.',
+    specifications: {
+      'Category': 'Mobile Workstation',
+      'Brand': 'Dell',
+      'Source': 'Aziz Computers Catalog'
+    },
+    stock: 10,
+    sku: 'AZIZ-MW-2026-008',
+    featured: false,
+    newProduct: true,
+    tags: ['laptop', 'mobile-workstation', 'dell', 'aziz-computers']
+  },
+  {
+    id: 'AZIZ-MW-2026-009',
+    name: 'Lenovo ThinkPad P16s Gen 5 Workstation 21XE001YGR 1',
+    slug: 'lenovo-thinkpad-p16s-gen-5-workstation-21xe001ygr-1',
+    brand: 'Lenovo',
+    category: 'laptops',
+    subcategory: 'Mobile Workstation',
+    price: 832000,
+    salePrice: 790400,
+    images: ['https://www.alershadonline.com/cdn/shop/files/Lenovo-ThinkPad-P16s-Gen-5-Workstation-21XE001YGR-1_a16cc926-9ef2-4696-9103-ed1925db9f38.webp?v=1786641143&width=460'],
+    shortDescription: 'Lenovo ThinkPad P16s Gen 5 Workstation 21XE001YGR 1 - High performance professional mobile workstation.',
+    description: 'Professional grade Lenovo ThinkPad P16s Gen 5 Workstation 21XE001YGR 1 designed for intensive CAD, 3D rendering, simulation, and software development workloads.',
+    specifications: {
+      'Category': 'Mobile Workstation',
+      'Brand': 'Lenovo',
+      'Source': 'Aziz Computers Catalog'
+    },
+    stock: 10,
+    sku: 'AZIZ-MW-2026-009',
+    featured: false,
+    newProduct: true,
+    tags: ['laptop', 'mobile-workstation', 'lenovo', 'aziz-computers']
+  },
+  {
+    id: 'AZIZ-MW-2026-010',
+    name: 'Lenovo ThinkPad P14s Gen 7 Mobile Workstation 21XJ001NGR 1',
+    slug: 'lenovo-thinkpad-p14s-gen-7-mobile-workstation-21xj001ngr-1',
+    brand: 'Lenovo',
+    category: 'laptops',
+    subcategory: 'Mobile Workstation',
+    price: 451500,
+    salePrice: 428925,
+    images: ['https://www.alershadonline.com/cdn/shop/files/Lenovo-ThinkPad-P14s-Gen-7-Mobile-Workstation-21XJ001NGR-1_9ff913a5-b98f-4ec0-8535-3d7f857325cb.webp?v=1786641143&width=460'],
+    shortDescription: 'Lenovo ThinkPad P14s Gen 7 Mobile Workstation 21XJ001NGR 1 - High performance professional mobile workstation.',
+    description: 'Professional grade Lenovo ThinkPad P14s Gen 7 Mobile Workstation 21XJ001NGR 1 designed for intensive CAD, 3D rendering, simulation, and software development workloads.',
+    specifications: {
+      'Category': 'Mobile Workstation',
+      'Brand': 'Lenovo',
+      'Source': 'Aziz Computers Catalog'
+    },
+    stock: 10,
+    sku: 'AZIZ-MW-2026-010',
+    featured: false,
+    newProduct: true,
+    tags: ['laptop', 'mobile-workstation', 'lenovo', 'aziz-computers']
+  },
+  {
+    id: 'AZIZ-MW-2026-011',
+    name: 'Lenovo ThinkPad P16s Gen 5 Workstation 21XE0022GR 1',
+    slug: 'lenovo-thinkpad-p16s-gen-5-workstation-21xe0022gr-1',
+    brand: 'Lenovo',
+    category: 'laptops',
+    subcategory: 'Mobile Workstation',
+    price: 845000,
+    salePrice: 802750,
+    images: ['https://www.alershadonline.com/cdn/shop/files/Lenovo-ThinkPad-P16s-Gen-5-Workstation-21XE0022GR-1_61492565-3603-4be2-be2c-99630eb75169.webp?v=1786641144&width=460'],
+    shortDescription: 'Lenovo ThinkPad P16s Gen 5 Workstation 21XE0022GR 1 - High performance professional mobile workstation.',
+    description: 'Professional grade Lenovo ThinkPad P16s Gen 5 Workstation 21XE0022GR 1 designed for intensive CAD, 3D rendering, simulation, and software development workloads.',
+    specifications: {
+      'Category': 'Mobile Workstation',
+      'Brand': 'Lenovo',
+      'Source': 'Aziz Computers Catalog'
+    },
+    stock: 10,
+    sku: 'AZIZ-MW-2026-011',
+    featured: true,
+    newProduct: true,
+    tags: ['laptop', 'mobile-workstation', 'lenovo', 'aziz-computers']
+  },
+  {
+    id: 'AZIZ-MW-2026-012',
+    name: 'HP ZBook Ultra 14 G1a Mobile Workstation HP ZBU R AI 390 1',
+    slug: 'hp-zbook-ultra-14-g1a-mobile-workstation-hp-zbu-r-ai-390-1',
+    brand: 'HP',
+    category: 'laptops',
+    subcategory: 'Mobile Workstation',
+    price: 851500,
+    salePrice: 808925,
+    images: ['https://www.alershadonline.com/cdn/shop/files/HP-ZBook-Ultra-14-G1a-Mobile-Workstation-HP-ZBU-R-AI-390-1_ffb66d11-b07f-46bb-9a7c-5fc3123c74f0.webp?v=1785851669&width=460'],
+    shortDescription: 'HP ZBook Ultra 14 G1a Mobile Workstation HP ZBU R AI 390 1 - High performance professional mobile workstation.',
+    description: 'Professional grade HP ZBook Ultra 14 G1a Mobile Workstation HP ZBU R AI 390 1 designed for intensive CAD, 3D rendering, simulation, and software development workloads.',
+    specifications: {
+      'Category': 'Mobile Workstation',
+      'Brand': 'HP',
+      'Source': 'Aziz Computers Catalog'
+    },
+    stock: 10,
+    sku: 'AZIZ-MW-2026-012',
+    featured: false,
+    newProduct: true,
+    tags: ['laptop', 'mobile-workstation', 'hp', 'aziz-computers']
+  },
+  {
+    id: 'AZIZ-MW-2026-013',
+    name: 'HP ZBook Ultra 14 G1a Mobile Workstation HP ZBU R AI 380 1',
+    slug: 'hp-zbook-ultra-14-g1a-mobile-workstation-hp-zbu-r-ai-380-1',
+    brand: 'HP',
+    category: 'laptops',
+    subcategory: 'Mobile Workstation',
+    price: 858000,
+    salePrice: 815100,
+    images: ['https://www.alershadonline.com/cdn/shop/files/HP-ZBook-Ultra-14-G1a-Mobile-Workstation-HP-ZBU-R-AI-380-1_3d7178b2-d5ef-42b4-a4c6-62bf7898045d.webp?v=1785851670&width=460'],
+    shortDescription: 'HP ZBook Ultra 14 G1a Mobile Workstation HP ZBU R AI 380 1 - High performance professional mobile workstation.',
+    description: 'Professional grade HP ZBook Ultra 14 G1a Mobile Workstation HP ZBU R AI 380 1 designed for intensive CAD, 3D rendering, simulation, and software development workloads.',
+    specifications: {
+      'Category': 'Mobile Workstation',
+      'Brand': 'HP',
+      'Source': 'Aziz Computers Catalog'
+    },
+    stock: 10,
+    sku: 'AZIZ-MW-2026-013',
+    featured: false,
+    newProduct: true,
+    tags: ['laptop', 'mobile-workstation', 'hp', 'aziz-computers']
+  },
+  {
+    id: 'AZIZ-MW-2026-014',
+    name: 'Lenovo ThinkPad P16s Gen 5 Mobile Workstation 21XGS02J00 1',
+    slug: 'lenovo-thinkpad-p16s-gen-5-mobile-workstation-21xgs02j00-1',
+    brand: 'Lenovo',
+    category: 'laptops',
+    subcategory: 'Mobile Workstation',
+    price: 864500,
+    salePrice: 821275,
+    images: ['https://www.alershadonline.com/cdn/shop/files/Lenovo-ThinkPad-P16s-Gen-5-Mobile-Workstation-21XGS02J00-1_a863560d-a7de-464b-a0ed-854b4ea896c4.webp?v=1785406846&width=460'],
+    shortDescription: 'Lenovo ThinkPad P16s Gen 5 Mobile Workstation 21XGS02J00 1 - High performance professional mobile workstation.',
+    description: 'Professional grade Lenovo ThinkPad P16s Gen 5 Mobile Workstation 21XGS02J00 1 designed for intensive CAD, 3D rendering, simulation, and software development workloads.',
+    specifications: {
+      'Category': 'Mobile Workstation',
+      'Brand': 'Lenovo',
+      'Source': 'Aziz Computers Catalog'
+    },
+    stock: 10,
+    sku: 'AZIZ-MW-2026-014',
+    featured: false,
+    newProduct: true,
+    tags: ['laptop', 'mobile-workstation', 'lenovo', 'aziz-computers']
+  },
+  {
+    id: 'AZIZ-MW-2026-015',
+    name: 'Lenovo ThinkPad P16s Gen 5 Mobile Workstation 21XGS02G00 1',
+    slug: 'lenovo-thinkpad-p16s-gen-5-mobile-workstation-21xgs02g00-1',
+    brand: 'Lenovo',
+    category: 'laptops',
+    subcategory: 'Mobile Workstation',
+    price: 871000,
+    salePrice: 827450,
+    images: ['https://www.alershadonline.com/cdn/shop/files/Lenovo-ThinkPad-P16s-Gen-5-Mobile-Workstation-21XGS02G00-1_f6907f7f-fe55-4503-9877-30610d0081e6.webp?v=1785406846&width=460'],
+    shortDescription: 'Lenovo ThinkPad P16s Gen 5 Mobile Workstation 21XGS02G00 1 - High performance professional mobile workstation.',
+    description: 'Professional grade Lenovo ThinkPad P16s Gen 5 Mobile Workstation 21XGS02G00 1 designed for intensive CAD, 3D rendering, simulation, and software development workloads.',
+    specifications: {
+      'Category': 'Mobile Workstation',
+      'Brand': 'Lenovo',
+      'Source': 'Aziz Computers Catalog'
+    },
+    stock: 10,
+    sku: 'AZIZ-MW-2026-015',
+    featured: false,
+    newProduct: true,
+    tags: ['laptop', 'mobile-workstation', 'lenovo', 'aziz-computers']
+  },
+  {
+    id: 'AZIZ-MW-2026-016',
+    name: 'HP ZBook 8 G1i 14 Workstation C9FV7ES ARB 1',
+    slug: 'hp-zbook-8-g1i-14-workstation-c9fv7es-arb-1',
+    brand: 'HP',
+    category: 'laptops',
+    subcategory: 'Mobile Workstation',
+    price: 472500,
+    salePrice: 448875,
+    images: ['https://www.alershadonline.com/cdn/shop/files/HP-ZBook-8-G1i-14-Workstation-C9FV7ES-ARB-1_e2263ff9-c931-4470-95b5-d44e79dd48f0.webp?v=1777915212&width=460'],
+    shortDescription: 'HP ZBook 8 G1i 14 Workstation C9FV7ES ARB 1 - High performance professional mobile workstation.',
+    description: 'Professional grade HP ZBook 8 G1i 14 Workstation C9FV7ES ARB 1 designed for intensive CAD, 3D rendering, simulation, and software development workloads.',
+    specifications: {
+      'Category': 'Mobile Workstation',
+      'Brand': 'HP',
+      'Source': 'Aziz Computers Catalog'
+    },
+    stock: 10,
+    sku: 'AZIZ-MW-2026-016',
+    featured: false,
+    newProduct: true,
+    tags: ['laptop', 'mobile-workstation', 'hp', 'aziz-computers']
+  },
+  {
+    id: 'AZIZ-MW-2026-017',
+    name: 'HP ZBook Firefly 16 G11 Mobile Workstation C9FW4ES ABV 1',
+    slug: 'hp-zbook-firefly-16-g11-mobile-workstation-c9fw4es-abv-1',
+    brand: 'HP',
+    category: 'laptops',
+    subcategory: 'Mobile Workstation',
+    price: 884000,
+    salePrice: 839800,
+    images: ['https://www.alershadonline.com/cdn/shop/files/HP-ZBook-Firefly-16-G11-Mobile-Workstation-C9FW4ES-ABV-1_1ee90f3d-28d4-4c2e-ac9a-9b980b69b8df.webp?v=1774708881&width=460'],
+    shortDescription: 'HP ZBook Firefly 16 G11 Mobile Workstation C9FW4ES ABV 1 - High performance professional mobile workstation.',
+    description: 'Professional grade HP ZBook Firefly 16 G11 Mobile Workstation C9FW4ES ABV 1 designed for intensive CAD, 3D rendering, simulation, and software development workloads.',
+    specifications: {
+      'Category': 'Mobile Workstation',
+      'Brand': 'HP',
+      'Source': 'Aziz Computers Catalog'
+    },
+    stock: 10,
+    sku: 'AZIZ-MW-2026-017',
+    featured: false,
+    newProduct: true,
+    tags: ['laptop', 'mobile-workstation', 'hp', 'aziz-computers']
+  },
+  {
+    id: 'AZIZ-MW-2026-018',
+    name: 'HP ZBook 8 G1i 14 Workstation C9FV6ES 1',
+    slug: 'hp-zbook-8-g1i-14-workstation-c9fv6es-1',
+    brand: 'HP',
+    category: 'laptops',
+    subcategory: 'Mobile Workstation',
+    price: 479500,
+    salePrice: 455525,
+    images: ['https://www.alershadonline.com/cdn/shop/files/HP-ZBook-8-G1i-14-Workstation-C9FV6ES-1_568e03a3-ed18-4adc-aa5e-4fab80ecc9c7.webp?v=1773769744&width=460'],
+    shortDescription: 'HP ZBook 8 G1i 14 Workstation C9FV6ES 1 - High performance professional mobile workstation.',
+    description: 'Professional grade HP ZBook 8 G1i 14 Workstation C9FV6ES 1 designed for intensive CAD, 3D rendering, simulation, and software development workloads.',
+    specifications: {
+      'Category': 'Mobile Workstation',
+      'Brand': 'HP',
+      'Source': 'Aziz Computers Catalog'
+    },
+    stock: 10,
+    sku: 'AZIZ-MW-2026-018',
+    featured: false,
+    newProduct: true,
+    tags: ['laptop', 'mobile-workstation', 'hp', 'aziz-computers']
+  },
+  {
+    id: 'AZIZ-MW-2026-019',
+    name: 'HP ZBook 8 G1i 14 Workstation Laptop C9FV6ES ARB 1',
+    slug: 'hp-zbook-8-g1i-14-workstation-laptop-c9fv6es-arb-1',
+    brand: 'HP',
+    category: 'laptops',
+    subcategory: 'Mobile Workstation',
+    price: 483000,
+    salePrice: 458850,
+    images: ['https://www.alershadonline.com/cdn/shop/files/HP-ZBook-8-G1i-14-Workstation-Laptop-C9FV6ES-ARB-1_8e5efd9c-b21f-4cd0-843a-f38a2821230a.webp?v=1773769685&width=460'],
+    shortDescription: 'HP ZBook 8 G1i 14 Workstation Laptop C9FV6ES ARB 1 - High performance professional mobile workstation.',
+    description: 'Professional grade HP ZBook 8 G1i 14 Workstation Laptop C9FV6ES ARB 1 designed for intensive CAD, 3D rendering, simulation, and software development workloads.',
+    specifications: {
+      'Category': 'Mobile Workstation',
+      'Brand': 'HP',
+      'Source': 'Aziz Computers Catalog'
+    },
+    stock: 10,
+    sku: 'AZIZ-MW-2026-019',
+    featured: false,
+    newProduct: true,
+    tags: ['laptop', 'mobile-workstation', 'hp', 'aziz-computers']
+  },
+  {
+    id: 'AZIZ-MW-2026-020',
+    name: 'HP ZBook Fury G1i 16 inch Mobile Workstation PC CZ9J4ES 1',
+    slug: 'hp-zbook-fury-g1i-16-inch-mobile-workstation-pc-cz9j4es-1',
+    brand: 'HP',
+    category: 'laptops',
+    subcategory: 'Mobile Workstation',
+    price: 665500,
+    salePrice: 632225,
+    images: ['https://www.alershadonline.com/cdn/shop/files/HP-ZBook-Fury-G1i-16-inch-Mobile-Workstation-PC-CZ9J4ES-1_efac419a-270f-4c39-9e01-0abe5843b51b.webp?v=1776780553&width=460'],
+    shortDescription: 'HP ZBook Fury G1i 16 inch Mobile Workstation PC CZ9J4ES 1 - High performance professional mobile workstation.',
+    description: 'Professional grade HP ZBook Fury G1i 16 inch Mobile Workstation PC CZ9J4ES 1 designed for intensive CAD, 3D rendering, simulation, and software development workloads.',
+    specifications: {
+      'Category': 'Mobile Workstation',
+      'Brand': 'HP',
+      'Source': 'Aziz Computers Catalog'
+    },
+    stock: 10,
+    sku: 'AZIZ-MW-2026-020',
+    featured: false,
+    newProduct: true,
+    tags: ['laptop', 'mobile-workstation', 'hp', 'aziz-computers']
+  },
+  {
+    id: 'AZIZ-MW-2026-021',
+    name: 'HP ZBook Fury G11 Laptop D19Z6ES 2',
+    slug: 'hp-zbook-fury-g11-laptop-d19z6es-2',
+    brand: 'HP',
+    category: 'laptops',
+    subcategory: 'Mobile Workstation',
+    price: 910000,
+    salePrice: 864500,
+    images: ['https://www.alershadonline.com/cdn/shop/files/HP-ZBook-Fury-G11-Laptop-D19Z6ES-2_e0772340-4125-451c-9bce-f6a1e33080b5.webp?v=1772892443&width=460'],
+    shortDescription: 'HP ZBook Fury G11 Laptop D19Z6ES 2 - High performance professional mobile workstation.',
+    description: 'Professional grade HP ZBook Fury G11 Laptop D19Z6ES 2 designed for intensive CAD, 3D rendering, simulation, and software development workloads.',
+    specifications: {
+      'Category': 'Mobile Workstation',
+      'Brand': 'HP',
+      'Source': 'Aziz Computers Catalog'
+    },
+    stock: 10,
+    sku: 'AZIZ-MW-2026-021',
+    featured: true,
+    newProduct: true,
+    tags: ['laptop', 'mobile-workstation', 'hp', 'aziz-computers']
+  },
+  {
+    id: 'AZIZ-MW-2026-022',
+    name: 'B30L2ES 2',
+    slug: 'b30l2es-2',
+    brand: 'HP',
+    category: 'laptops',
+    subcategory: 'Mobile Workstation',
+    price: 585000,
+    salePrice: 555750,
+    images: ['https://www.alershadonline.com/cdn/shop/files/B30L2ES-2-1757509155888.png?v=1770231826&width=460'],
+    shortDescription: 'B30L2ES 2 - High performance professional mobile workstation.',
+    description: 'Professional grade B30L2ES 2 designed for intensive CAD, 3D rendering, simulation, and software development workloads.',
+    specifications: {
+      'Category': 'Mobile Workstation',
+      'Brand': 'HP',
+      'Source': 'Aziz Computers Catalog'
+    },
+    stock: 10,
+    sku: 'AZIZ-MW-2026-022',
+    featured: false,
+    newProduct: true,
+    tags: ['laptop', 'mobile-workstation', 'hp', 'aziz-computers']
+  },
+  {
+    id: 'AZIZ-MW-2026-023',
+    name: 'B30L3ES 2',
+    slug: 'b30l3es-2',
+    brand: 'HP',
+    category: 'laptops',
+    subcategory: 'Mobile Workstation',
+    price: 590000,
+    salePrice: 560500,
+    images: ['https://www.alershadonline.com/cdn/shop/files/B30L3ES-2-1757509156172.png?v=1770229261&width=460'],
+    shortDescription: 'B30L3ES 2 - High performance professional mobile workstation.',
+    description: 'Professional grade B30L3ES 2 designed for intensive CAD, 3D rendering, simulation, and software development workloads.',
+    specifications: {
+      'Category': 'Mobile Workstation',
+      'Brand': 'HP',
+      'Source': 'Aziz Computers Catalog'
+    },
+    stock: 10,
+    sku: 'AZIZ-MW-2026-023',
+    featured: false,
+    newProduct: true,
+    tags: ['laptop', 'mobile-workstation', 'hp', 'aziz-computers']
+  },
+  {
+    id: 'AZIZ-MW-2026-024',
+    name: 'B30L0ES 2',
+    slug: 'b30l0es-2',
+    brand: 'HP',
+    category: 'laptops',
+    subcategory: 'Mobile Workstation',
+    price: 595000,
+    salePrice: 565250,
+    images: ['https://www.alershadonline.com/cdn/shop/files/B30L0ES-2-1757509155575.png?v=1770229224&width=460'],
+    shortDescription: 'B30L0ES 2 - High performance professional mobile workstation.',
+    description: 'Professional grade B30L0ES 2 designed for intensive CAD, 3D rendering, simulation, and software development workloads.',
+    specifications: {
+      'Category': 'Mobile Workstation',
+      'Brand': 'HP',
+      'Source': 'Aziz Computers Catalog'
+    },
+    stock: 10,
+    sku: 'AZIZ-MW-2026-024',
+    featured: false,
+    newProduct: true,
+    tags: ['laptop', 'mobile-workstation', 'hp', 'aziz-computers']
+  },
+  {
+    id: 'AZIZ-MW-2026-025',
+    name: 'Dell PROMAX16P 64 1T W11P 2',
+    slug: 'dell-promax16p-64-1t-w11p-2',
+    brand: 'Dell',
+    category: 'laptops',
+    subcategory: 'Mobile Workstation',
+    price: 688000,
+    salePrice: 653600,
+    images: ['https://www.alershadonline.com/cdn/shop/files/Dell-PROMAX16P-64-1T-W11P-2-1760525399265.png?v=1770229072&width=460'],
+    shortDescription: 'Dell PROMAX16P 64 1T W11P 2 - High performance professional mobile workstation.',
+    description: 'Professional grade Dell PROMAX16P 64 1T W11P 2 designed for intensive CAD, 3D rendering, simulation, and software development workloads.',
+    specifications: {
+      'Category': 'Mobile Workstation',
+      'Brand': 'Dell',
+      'Source': 'Aziz Computers Catalog'
+    },
+    stock: 10,
+    sku: 'AZIZ-MW-2026-025',
+    featured: false,
+    newProduct: true,
+    tags: ['laptop', 'mobile-workstation', 'dell', 'aziz-computers']
+  },
+  {
+    id: 'AZIZ-MW-2026-026',
+    name: 'C9FX3ES 2',
+    slug: 'c9fx3es-2',
+    brand: 'HP',
+    category: 'laptops',
+    subcategory: 'Mobile Workstation',
+    price: 605000,
+    salePrice: 574750,
+    images: ['https://www.alershadonline.com/cdn/shop/files/C9FX3ES-2-1758476670833.png?v=1770228655&width=460'],
+    shortDescription: 'C9FX3ES 2 - High performance professional mobile workstation.',
+    description: 'Professional grade C9FX3ES 2 designed for intensive CAD, 3D rendering, simulation, and software development workloads.',
+    specifications: {
+      'Category': 'Mobile Workstation',
+      'Brand': 'HP',
+      'Source': 'Aziz Computers Catalog'
+    },
+    stock: 10,
+    sku: 'AZIZ-MW-2026-026',
+    featured: false,
+    newProduct: true,
+    tags: ['laptop', 'mobile-workstation', 'hp', 'aziz-computers']
+  },
+  {
+    id: 'AZIZ-MW-2026-027',
+    name: 'C9FX2ES 1',
+    slug: 'c9fx2es-1',
+    brand: 'HP',
+    category: 'laptops',
+    subcategory: 'Mobile Workstation',
+    price: 610000,
+    salePrice: 579500,
+    images: ['https://www.alershadonline.com/cdn/shop/files/C9FX2ES-1.webp?v=1772428264&width=460'],
+    shortDescription: 'C9FX2ES 1 - High performance professional mobile workstation.',
+    description: 'Professional grade C9FX2ES 1 designed for intensive CAD, 3D rendering, simulation, and software development workloads.',
+    specifications: {
+      'Category': 'Mobile Workstation',
+      'Brand': 'HP',
+      'Source': 'Aziz Computers Catalog'
+    },
+    stock: 10,
+    sku: 'AZIZ-MW-2026-027',
+    featured: false,
+    newProduct: true,
+    tags: ['laptop', 'mobile-workstation', 'hp', 'aziz-computers']
+  },
+  {
+    id: 'AZIZ-MW-2026-028',
+    name: 'PRECI 5680',
+    slug: 'preci-5680',
+    brand: 'Dell',
+    category: 'laptops',
+    subcategory: 'Mobile Workstation',
+    price: 615000,
+    salePrice: 584250,
+    images: ['https://www.alershadonline.com/cdn/shop/files/PRECI-5680.png?v=1772538329&width=460'],
+    shortDescription: 'PRECI 5680 - High performance professional mobile workstation.',
+    description: 'Professional grade PRECI 5680 designed for intensive CAD, 3D rendering, simulation, and software development workloads.',
+    specifications: {
+      'Category': 'Mobile Workstation',
+      'Brand': 'Dell',
+      'Source': 'Aziz Computers Catalog'
+    },
+    stock: 10,
+    sku: 'AZIZ-MW-2026-028',
+    featured: false,
+    newProduct: true,
+    tags: ['laptop', 'mobile-workstation', 'dell', 'aziz-computers']
+  },
+  {
+    id: 'AZIZ-MW-2026-029',
+    name: 'Dell PRECI 5680 16 1T W11P 2',
+    slug: 'dell-preci-5680-16-1t-w11p-2',
+    brand: 'Dell',
+    category: 'laptops',
+    subcategory: 'Mobile Workstation',
+    price: 706000,
+    salePrice: 670700,
+    images: ['https://www.alershadonline.com/cdn/shop/files/Dell-PRECI-5680-16-1T-W11P-2-1760697689652.png?v=1772538329&width=460'],
+    shortDescription: 'Dell PRECI 5680 16 1T W11P 2 - High performance professional mobile workstation.',
+    description: 'Professional grade Dell PRECI 5680 16 1T W11P 2 designed for intensive CAD, 3D rendering, simulation, and software development workloads.',
+    specifications: {
+      'Category': 'Mobile Workstation',
+      'Brand': 'Dell',
+      'Source': 'Aziz Computers Catalog'
+    },
+    stock: 10,
+    sku: 'AZIZ-MW-2026-029',
+    featured: false,
+    newProduct: true,
+    tags: ['laptop', 'mobile-workstation', 'dell', 'aziz-computers']
+  },
+  {
+    id: 'AZIZ-MW-2026-030',
+    name: 'Lenovo ThinkPad P14s Gen 6 Workstation Laptop 21QT0009GR 2',
+    slug: 'lenovo-thinkpad-p14s-gen-6-workstation-laptop-21qt0009gr-2',
+    brand: 'Lenovo',
+    category: 'laptops',
+    subcategory: 'Mobile Workstation',
+    price: 521500,
+    salePrice: 495425,
+    images: ['https://www.alershadonline.com/cdn/shop/files/Lenovo-ThinkPad-P14s-Gen-6-Workstation-Laptop-21QT0009GR-2-1766072294280.webp?v=1770226946&width=460'],
+    shortDescription: 'Lenovo ThinkPad P14s Gen 6 Workstation Laptop 21QT0009GR 2 - High performance professional mobile workstation.',
+    description: 'Professional grade Lenovo ThinkPad P14s Gen 6 Workstation Laptop 21QT0009GR 2 designed for intensive CAD, 3D rendering, simulation, and software development workloads.',
+    specifications: {
+      'Category': 'Mobile Workstation',
+      'Brand': 'Lenovo',
+      'Source': 'Aziz Computers Catalog'
+    },
+    stock: 10,
+    sku: 'AZIZ-MW-2026-030',
+    featured: false,
+    newProduct: true,
+    tags: ['laptop', 'mobile-workstation', 'lenovo', 'aziz-computers']
+  },
+  {
+    id: 'AZIZ-MW-2026-031',
+    name: 'Asus ProArt P16 Mobile Workstation Laptop H7606WX SE004W 1',
+    slug: 'asus-proart-p16-mobile-workstation-laptop-h7606wx-se004w-1',
+    brand: 'ASUS',
+    category: 'laptops',
+    subcategory: 'Mobile Workstation',
+    price: 975000,
+    salePrice: 926250,
+    images: ['https://www.alershadonline.com/cdn/shop/files/Asus-ProArt-P16-Mobile-Workstation-Laptop-H7606WX-SE004W-1-1763036166119.webp?v=1772778023&width=460'],
+    shortDescription: 'Asus ProArt P16 Mobile Workstation Laptop H7606WX SE004W 1 - High performance professional mobile workstation.',
+    description: 'Professional grade Asus ProArt P16 Mobile Workstation Laptop H7606WX SE004W 1 designed for intensive CAD, 3D rendering, simulation, and software development workloads.',
+    specifications: {
+      'Category': 'Mobile Workstation',
+      'Brand': 'ASUS',
+      'Source': 'Aziz Computers Catalog'
+    },
+    stock: 10,
+    sku: 'AZIZ-MW-2026-031',
+    featured: true,
+    newProduct: true,
+    tags: ['laptop', 'mobile-workstation', 'asus', 'aziz-computers']
+  },
+  {
+    id: 'AZIZ-MW-2026-032',
+    name: 'HP Firefly Mobile Workstation Laptop 8T137EA 1',
+    slug: 'hp-firefly-mobile-workstation-laptop-8t137ea-1',
+    brand: 'HP',
+    category: 'laptops',
+    subcategory: 'Mobile Workstation',
+    price: 528500,
+    salePrice: 502075,
+    images: ['https://www.alershadonline.com/cdn/shop/files/HP-Firefly-Mobile-Workstation-Laptop-8T137EA-1-1763036166383.webp?v=1772721356&width=460'],
+    shortDescription: 'HP Firefly Mobile Workstation Laptop 8T137EA 1 - High performance professional mobile workstation.',
+    description: 'Professional grade HP Firefly Mobile Workstation Laptop 8T137EA 1 designed for intensive CAD, 3D rendering, simulation, and software development workloads.',
+    specifications: {
+      'Category': 'Mobile Workstation',
+      'Brand': 'HP',
+      'Source': 'Aziz Computers Catalog'
+    },
+    stock: 10,
+    sku: 'AZIZ-MW-2026-032',
+    featured: false,
+    newProduct: true,
+    tags: ['laptop', 'mobile-workstation', 'hp', 'aziz-computers']
+  },
+  {
+    id: 'AZIZ-MW-2026-033',
+    name: 'HP ZBook Mobile Workstation Laptop B30KWES 1',
+    slug: 'hp-zbook-mobile-workstation-laptop-b30kwes-1',
+    brand: 'HP',
+    category: 'laptops',
+    subcategory: 'Mobile Workstation',
+    price: 640000,
+    salePrice: 608000,
+    images: ['https://www.alershadonline.com/cdn/shop/files/HP-ZBook-Mobile-Workstation-Laptop-B30KWES-1-1763036166538.webp?v=1772721079&width=460'],
+    shortDescription: 'HP ZBook Mobile Workstation Laptop B30KWES 1 - High performance professional mobile workstation.',
+    description: 'Professional grade HP ZBook Mobile Workstation Laptop B30KWES 1 designed for intensive CAD, 3D rendering, simulation, and software development workloads.',
+    specifications: {
+      'Category': 'Mobile Workstation',
+      'Brand': 'HP',
+      'Source': 'Aziz Computers Catalog'
+    },
+    stock: 10,
+    sku: 'AZIZ-MW-2026-033',
+    featured: false,
+    newProduct: true,
+    tags: ['laptop', 'mobile-workstation', 'hp', 'aziz-computers']
+  },
+  {
+    id: 'AZIZ-MW-2026-034',
+    name: 'Asus ProArt P16 Laptop H7606WP SR237W 1',
+    slug: 'asus-proart-p16-laptop-h7606wp-sr237w-1',
+    brand: 'ASUS',
+    category: 'laptops',
+    subcategory: 'Mobile Workstation',
+    price: 994500,
+    salePrice: 944775,
+    images: ['https://www.alershadonline.com/cdn/shop/files/Asus-ProArt-P16-Laptop-H7606WP-SR237W-1_231f84f6-e438-4b0e-bcfd-70bdd84e4f9f.webp?v=1788014766&width=460'],
+    shortDescription: 'Asus ProArt P16 Laptop H7606WP SR237W 1 - High performance professional mobile workstation.',
+    description: 'Professional grade Asus ProArt P16 Laptop H7606WP SR237W 1 designed for intensive CAD, 3D rendering, simulation, and software development workloads.',
+    specifications: {
+      'Category': 'Mobile Workstation',
+      'Brand': 'ASUS',
+      'Source': 'Aziz Computers Catalog'
+    },
+    stock: 10,
+    sku: 'AZIZ-MW-2026-034',
+    featured: false,
+    newProduct: true,
+    tags: ['laptop', 'mobile-workstation', 'asus', 'aziz-computers']
+  },
+  {
+    id: 'AZIZ-MW-2026-035',
+    name: 'Asus ProArt P16 H7606GM Laptop H7606GM SR028W 1',
+    slug: 'asus-proart-p16-h7606gm-laptop-h7606gm-sr028w-1',
+    brand: 'ASUS',
+    category: 'laptops',
+    subcategory: 'Mobile Workstation',
+    price: 1001000,
+    salePrice: 950950,
+    images: ['https://www.alershadonline.com/cdn/shop/files/Asus-ProArt-P16-H7606GM-Laptop-H7606GM-SR028W-1_f25ce29e-baa1-4977-ab34-75cbce01d106.webp?v=1791295883&width=460'],
+    shortDescription: 'Asus ProArt P16 H7606GM Laptop H7606GM SR028W 1 - High performance professional mobile workstation.',
+    description: 'Professional grade Asus ProArt P16 H7606GM Laptop H7606GM SR028W 1 designed for intensive CAD, 3D rendering, simulation, and software development workloads.',
+    specifications: {
+      'Category': 'Mobile Workstation',
+      'Brand': 'ASUS',
+      'Source': 'Aziz Computers Catalog'
+    },
+    stock: 10,
+    sku: 'AZIZ-MW-2026-035',
+    featured: false,
+    newProduct: true,
+    tags: ['laptop', 'mobile-workstation', 'asus', 'aziz-computers']
+  },
+  {
+    id: 'AZIZ-MW-2026-036',
+    name: 'B30L1ES 2',
+    slug: 'b30l1es-2',
+    brand: 'HP',
+    category: 'laptops',
+    subcategory: 'Mobile Workstation',
+    price: 655000,
+    salePrice: 622250,
+    images: ['https://www.alershadonline.com/cdn/shop/files/B30L1ES-2-1757509155744.png?v=1770229249&width=460'],
+    shortDescription: 'B30L1ES 2 - High performance professional mobile workstation.',
+    description: 'Professional grade B30L1ES 2 designed for intensive CAD, 3D rendering, simulation, and software development workloads.',
+    specifications: {
+      'Category': 'Mobile Workstation',
+      'Brand': 'HP',
+      'Source': 'Aziz Computers Catalog'
+    },
+    stock: 10,
+    sku: 'AZIZ-MW-2026-036',
+    featured: false,
+    newProduct: true,
+    tags: ['laptop', 'mobile-workstation', 'hp', 'aziz-computers']
+  },
+  {
+    id: 'AZIZ-MW-2026-037',
+    name: 'HP ZBook Fury G1i 16 Mobile Workstation CZ9J5ES 1',
+    slug: 'hp-zbook-fury-g1i-16-mobile-workstation-cz9j5es-1',
+    brand: 'HP',
+    category: 'laptops',
+    subcategory: 'Mobile Workstation',
+    price: 742000,
+    salePrice: 704900,
+    images: ['https://www.alershadonline.com/cdn/shop/files/HP-ZBook-Fury-G1i-16-Mobile-Workstation-CZ9J5ES-1_7bd9deef-b574-48dd-9917-79c935ebf904.webp?v=1781776719&width=460'],
+    shortDescription: 'HP ZBook Fury G1i 16 Mobile Workstation CZ9J5ES 1 - High performance professional mobile workstation.',
+    description: 'Professional grade HP ZBook Fury G1i 16 Mobile Workstation CZ9J5ES 1 designed for intensive CAD, 3D rendering, simulation, and software development workloads.',
+    specifications: {
+      'Category': 'Mobile Workstation',
+      'Brand': 'HP',
+      'Source': 'Aziz Computers Catalog'
+    },
+    stock: 10,
+    sku: 'AZIZ-MW-2026-037',
+    featured: false,
+    newProduct: true,
+    tags: ['laptop', 'mobile-workstation', 'hp', 'aziz-computers']
+  },
+  {
+    id: 'AZIZ-MW-2026-038',
+    name: 'HP ZBook 8 G1i 16 Laptop DG4V3ES ARB 1',
+    slug: 'hp-zbook-8-g1i-16-laptop-dg4v3es-arb-1',
+    brand: 'HP',
+    category: 'laptops',
+    subcategory: 'Mobile Workstation',
+    price: 746500,
+    salePrice: 709175,
+    images: ['https://www.alershadonline.com/cdn/shop/files/HP-ZBook-8-G1i-16-Laptop-DG4V3ES-ARB-1_5545ffda-dadc-4144-aff6-83066a5b47cc.webp?v=1793440711&width=460'],
+    shortDescription: 'HP ZBook 8 G1i 16 Laptop DG4V3ES ARB 1 - High performance professional mobile workstation.',
+    description: 'Professional grade HP ZBook 8 G1i 16 Laptop DG4V3ES ARB 1 designed for intensive CAD, 3D rendering, simulation, and software development workloads.',
+    specifications: {
+      'Category': 'Mobile Workstation',
+      'Brand': 'HP',
+      'Source': 'Aziz Computers Catalog'
+    },
+    stock: 10,
+    sku: 'AZIZ-MW-2026-038',
+    featured: false,
+    newProduct: true,
+    tags: ['laptop', 'mobile-workstation', 'hp', 'aziz-computers']
+  },
+  {
+    id: 'AZIZ-MW-2026-039',
+    name: 'HP ZBook 8 G1i 14 Laptop E36MXAT ARB 1',
+    slug: 'hp-zbook-8-g1i-14-laptop-e36mxat-arb-1',
+    brand: 'HP',
+    category: 'laptops',
+    subcategory: 'Mobile Workstation',
+    price: 553000,
+    salePrice: 525350,
+    images: ['https://www.alershadonline.com/cdn/shop/files/HP-ZBook-8-G1i-14-Laptop-E36MXAT-ARB-1_02972455-1a53-4da3-b055-8818c82aed3e.webp?v=1793441542&width=460'],
+    shortDescription: 'HP ZBook 8 G1i 14 Laptop E36MXAT ARB 1 - High performance professional mobile workstation.',
+    description: 'Professional grade HP ZBook 8 G1i 14 Laptop E36MXAT ARB 1 designed for intensive CAD, 3D rendering, simulation, and software development workloads.',
+    specifications: {
+      'Category': 'Mobile Workstation',
+      'Brand': 'HP',
+      'Source': 'Aziz Computers Catalog'
+    },
+    stock: 10,
+    sku: 'AZIZ-MW-2026-039',
+    featured: false,
+    newProduct: true,
+    tags: ['laptop', 'mobile-workstation', 'hp', 'aziz-computers']
+  },
+  {
+    id: 'AZIZ-MW-2026-041',
+    name: 'B30L4ES 2',
+    slug: 'b30l4es-2',
+    brand: 'HP',
+    category: 'laptops',
+    subcategory: 'Mobile Workstation',
+    price: 680000,
+    salePrice: 646000,
+    images: ['https://www.alershadonline.com/cdn/shop/files/B30L4ES-2-1757509156414.png?v=1770228713&width=460'],
+    shortDescription: 'B30L4ES 2 - High performance professional mobile workstation.',
+    description: 'Professional grade B30L4ES 2 designed for intensive CAD, 3D rendering, simulation, and software development workloads.',
+    specifications: {
+      'Category': 'Mobile Workstation',
+      'Brand': 'HP',
+      'Source': 'Aziz Computers Catalog'
+    },
+    stock: 10,
+    sku: 'AZIZ-MW-2026-041',
+    featured: true,
+    newProduct: true,
+    tags: ['laptop', 'mobile-workstation', 'hp', 'aziz-computers']
+  },
+  {
+    id: 'AZIZ-MW-2026-042',
+    name: 'Asus ProArt P16 H7606WP Laptop H7606WP SR221W 1',
+    slug: 'asus-proart-p16-h7606wp-laptop-h7606wp-sr221w-1',
+    brand: 'ASUS',
+    category: 'laptops',
+    subcategory: 'Mobile Workstation',
+    price: 1046500,
+    salePrice: 994175,
+    images: ['https://www.alershadonline.com/cdn/shop/files/Asus-ProArt-P16-H7606WP-Laptop-H7606WP-SR221W-1_0df8e4bc-c2ea-4881-90fc-5aea0a79e4c0.webp?v=1788537641&width=460'],
+    shortDescription: 'Asus ProArt P16 H7606WP Laptop H7606WP SR221W 1 - High performance professional mobile workstation.',
+    description: 'Professional grade Asus ProArt P16 H7606WP Laptop H7606WP SR221W 1 designed for intensive CAD, 3D rendering, simulation, and software development workloads.',
+    specifications: {
+      'Category': 'Mobile Workstation',
+      'Brand': 'ASUS',
+      'Source': 'Aziz Computers Catalog'
+    },
+    stock: 10,
+    sku: 'AZIZ-MW-2026-042',
+    featured: false,
+    newProduct: true,
+    tags: ['laptop', 'mobile-workstation', 'asus', 'aziz-computers']
+  },
+  {
+    id: 'AZIZ-MW-2026-043',
+    name: 'Dell Mobile Precision Workstation 3591 Laptop D MW 3591 U7 3Y 1',
+    slug: 'dell-mobile-precision-workstation-3591-laptop-d-mw-3591-u7-3y-1',
+    brand: 'Dell',
+    category: 'laptops',
+    subcategory: 'Mobile Workstation',
+    price: 567000,
+    salePrice: 538650,
+    images: ['https://www.alershadonline.com/cdn/shop/files/Dell-Mobile-Precision-Workstation-3591-Laptop-D-MW-3591-U7-3Y-1_5389de4a-3bc9-4797-bb05-44a029e75745.webp?v=1787062045&width=460'],
+    shortDescription: 'Dell Mobile Precision Workstation 3591 Laptop D MW 3591 U7 3Y 1 - High performance professional mobile workstation.',
+    description: 'Professional grade Dell Mobile Precision Workstation 3591 Laptop D MW 3591 U7 3Y 1 designed for intensive CAD, 3D rendering, simulation, and software development workloads.',
+    specifications: {
+      'Category': 'Mobile Workstation',
+      'Brand': 'Dell',
+      'Source': 'Aziz Computers Catalog'
+    },
+    stock: 10,
+    sku: 'AZIZ-MW-2026-043',
+    featured: false,
+    newProduct: true,
+    tags: ['laptop', 'mobile-workstation', 'dell', 'aziz-computers']
+  },
+  {
+    id: 'AZIZ-MW-2026-044',
+    name: 'Lenovo ThinkPad P14s Gen 6 Mobile Workstation 21RV0017GR 1',
+    slug: 'lenovo-thinkpad-p14s-gen-6-mobile-workstation-21rv0017gr-1',
+    brand: 'Lenovo',
+    category: 'laptops',
+    subcategory: 'Mobile Workstation',
+    price: 570500,
+    salePrice: 541975,
+    images: ['https://www.alershadonline.com/cdn/shop/files/Lenovo-ThinkPad-P14s-Gen-6-Mobile-Workstation-21RV0017GR-1_883b35e8-c638-4525-81e3-6ed45c7bdc1c.webp?v=1786641161&width=460'],
+    shortDescription: 'Lenovo ThinkPad P14s Gen 6 Mobile Workstation 21RV0017GR 1 - High performance professional mobile workstation.',
+    description: 'Professional grade Lenovo ThinkPad P14s Gen 6 Mobile Workstation 21RV0017GR 1 designed for intensive CAD, 3D rendering, simulation, and software development workloads.',
+    specifications: {
+      'Category': 'Mobile Workstation',
+      'Brand': 'Lenovo',
+      'Source': 'Aziz Computers Catalog'
+    },
+    stock: 10,
+    sku: 'AZIZ-MW-2026-044',
+    featured: false,
+    newProduct: true,
+    tags: ['laptop', 'mobile-workstation', 'lenovo', 'aziz-computers']
+  },
+  {
+    id: 'AZIZ-MW-2026-045',
+    name: 'Lenovo ThinkPad P14s Gen 7 Mobile Workstation 21X0S04000 3',
+    slug: 'lenovo-thinkpad-p14s-gen-7-mobile-workstation-21x0s04000-3',
+    brand: 'Lenovo',
+    category: 'laptops',
+    subcategory: 'Mobile Workstation',
+    price: 574000,
+    salePrice: 545300,
+    images: ['https://www.alershadonline.com/cdn/shop/files/Lenovo-ThinkPad-P14s-Gen-7-Mobile-Workstation-21X0S04000-3_53dce62d-a5dd-4f16-a5da-96349d7ab4d5.webp?v=1785406847&width=460'],
+    shortDescription: 'Lenovo ThinkPad P14s Gen 7 Mobile Workstation 21X0S04000 3 - High performance professional mobile workstation.',
+    description: 'Professional grade Lenovo ThinkPad P14s Gen 7 Mobile Workstation 21X0S04000 3 designed for intensive CAD, 3D rendering, simulation, and software development workloads.',
+    specifications: {
+      'Category': 'Mobile Workstation',
+      'Brand': 'Lenovo',
+      'Source': 'Aziz Computers Catalog'
+    },
+    stock: 10,
+    sku: 'AZIZ-MW-2026-045',
+    featured: false,
+    newProduct: true,
+    tags: ['laptop', 'mobile-workstation', 'lenovo', 'aziz-computers']
+  },
+  {
+    id: 'AZIZ-MW-2026-046',
+    name: 'HP EliteBook X G2i 14 Next Gen AI PC Notebook E1PX0ET ARB 1',
+    slug: 'hp-elitebook-x-g2i-14-next-gen-ai-pc-notebook-e1px0et-arb-1',
+    brand: 'HP',
+    category: 'laptops',
+    subcategory: 'Mobile Workstation',
+    price: 577500,
+    salePrice: 548625,
+    images: ['https://www.alershadonline.com/cdn/shop/files/HP-EliteBook-X-G2i-14-Next-Gen-AI-PC-Notebook-E1PX0ET-ARB-1_95495a75-cdbc-4a5d-9893-b56ad3198dcf.webp?v=1783959770&width=460'],
+    shortDescription: 'HP EliteBook X G2i 14 Next Gen AI PC Notebook E1PX0ET ARB 1 - High performance professional mobile workstation.',
+    description: 'Professional grade HP EliteBook X G2i 14 Next Gen AI PC Notebook E1PX0ET ARB 1 designed for intensive CAD, 3D rendering, simulation, and software development workloads.',
+    specifications: {
+      'Category': 'Mobile Workstation',
+      'Brand': 'HP',
+      'Source': 'Aziz Computers Catalog'
+    },
+    stock: 10,
+    sku: 'AZIZ-MW-2026-046',
+    featured: false,
+    newProduct: true,
+    tags: ['laptop', 'mobile-workstation', 'hp', 'aziz-computers']
+  },
+  {
+    id: 'AZIZ-MW-2026-047',
+    name: 'HP EliteBook X G2i 14 Next Gen AI PC Notebook D4ZB8ET ARB 1',
+    slug: 'hp-elitebook-x-g2i-14-next-gen-ai-pc-notebook-d4zb8et-arb-1',
+    brand: 'HP',
+    category: 'laptops',
+    subcategory: 'Mobile Workstation',
+    price: 581000,
+    salePrice: 551950,
+    images: ['https://www.alershadonline.com/cdn/shop/files/HP-EliteBook-X-G2i-14-Next-Gen-AI-PC-Notebook-D4ZB8ET-ARB-1_739a473f-2bd9-4ce2-831d-e89f7a4f4654.webp?v=1783959769&width=460'],
+    shortDescription: 'HP EliteBook X G2i 14 Next Gen AI PC Notebook D4ZB8ET ARB 1 - High performance professional mobile workstation.',
+    description: 'Professional grade HP EliteBook X G2i 14 Next Gen AI PC Notebook D4ZB8ET ARB 1 designed for intensive CAD, 3D rendering, simulation, and software development workloads.',
+    specifications: {
+      'Category': 'Mobile Workstation',
+      'Brand': 'HP',
+      'Source': 'Aziz Computers Catalog'
+    },
+    stock: 10,
+    sku: 'AZIZ-MW-2026-047',
+    featured: false,
+    newProduct: true,
+    tags: ['laptop', 'mobile-workstation', 'hp', 'aziz-computers']
+  },
+  {
+    id: 'AZIZ-MW-2026-048',
+    name: 'Asus ProArt PZ14 HT7407NA Laptop HT7407NA SN036W 1',
+    slug: 'asus-proart-pz14-ht7407na-laptop-ht7407na-sn036w-1',
+    brand: 'ASUS',
+    category: 'laptops',
+    subcategory: 'Mobile Workstation',
+    price: 791500,
+    salePrice: 751925,
+    images: ['https://www.alershadonline.com/cdn/shop/files/Asus-ProArt-PZ14-HT7407NA-Laptop-HT7407NA-SN036W-1_0874e426-6ea9-4944-9bc2-6f1f486ab647.webp?v=1783959771&width=460'],
+    shortDescription: 'Asus ProArt PZ14 HT7407NA Laptop HT7407NA SN036W 1 - High performance professional mobile workstation.',
+    description: 'Professional grade Asus ProArt PZ14 HT7407NA Laptop HT7407NA SN036W 1 designed for intensive CAD, 3D rendering, simulation, and software development workloads.',
+    specifications: {
+      'Category': 'Mobile Workstation',
+      'Brand': 'ASUS',
+      'Source': 'Aziz Computers Catalog'
+    },
+    stock: 10,
+    sku: 'AZIZ-MW-2026-048',
+    featured: false,
+    newProduct: true,
+    tags: ['laptop', 'mobile-workstation', 'asus', 'aziz-computers']
+  },
+  {
+    id: 'AZIZ-MW-2026-049',
+    name: 'Lenovo ThinkPad P16v Gen 3 Mobile Workstation 21RS0006GR 1',
+    slug: 'lenovo-thinkpad-p16v-gen-3-mobile-workstation-21rs0006gr-1',
+    brand: 'Lenovo',
+    category: 'laptops',
+    subcategory: 'Mobile Workstation',
+    price: 1092000,
+    salePrice: 1037400,
+    images: ['https://www.alershadonline.com/cdn/shop/files/Lenovo-ThinkPad-P16v-Gen-3-Mobile-Workstation-21RS0006GR-1_4596d752-639a-4b22-9a60-7f2530d3a86f.webp?v=1781776688&width=460'],
+    shortDescription: 'Lenovo ThinkPad P16v Gen 3 Mobile Workstation 21RS0006GR 1 - High performance professional mobile workstation.',
+    description: 'Professional grade Lenovo ThinkPad P16v Gen 3 Mobile Workstation 21RS0006GR 1 designed for intensive CAD, 3D rendering, simulation, and software development workloads.',
+    specifications: {
+      'Category': 'Mobile Workstation',
+      'Brand': 'Lenovo',
+      'Source': 'Aziz Computers Catalog'
+    },
+    stock: 10,
+    sku: 'AZIZ-MW-2026-049',
+    featured: false,
+    newProduct: true,
+    tags: ['laptop', 'mobile-workstation', 'lenovo', 'aziz-computers']
+  },
+  {
+    id: 'AZIZ-MW-2026-050',
+    name: 'Lenovo ThinkPad P16 Gen 3 Mobile Workstation 21RQ000NGR 1',
+    slug: 'lenovo-thinkpad-p16-gen-3-mobile-workstation-21rq000ngr-1',
+    brand: 'Lenovo',
+    category: 'laptops',
+    subcategory: 'Mobile Workstation',
+    price: 1098500,
+    salePrice: 1043575,
+    images: ['https://www.alershadonline.com/cdn/shop/files/Lenovo-ThinkPad-P16-Gen-3-Mobile-Workstation-21RQ000NGR-1_a6079e94-45f5-4ede-aa00-54e42a6d244e.webp?v=1781776687&width=460'],
+    shortDescription: 'Lenovo ThinkPad P16 Gen 3 Mobile Workstation 21RQ000NGR 1 - High performance professional mobile workstation.',
+    description: 'Professional grade Lenovo ThinkPad P16 Gen 3 Mobile Workstation 21RQ000NGR 1 designed for intensive CAD, 3D rendering, simulation, and software development workloads.',
+    specifications: {
+      'Category': 'Mobile Workstation',
+      'Brand': 'Lenovo',
+      'Source': 'Aziz Computers Catalog'
+    },
+    stock: 10,
+    sku: 'AZIZ-MW-2026-050',
+    featured: false,
+    newProduct: true,
+    tags: ['laptop', 'mobile-workstation', 'lenovo', 'aziz-computers']
+  },
+  {
+    id: 'AZIZ-MW-2026-051',
+    name: 'Asus ProArt P16 Mobile Workstation Laptop H7606WP RJ087W 1',
+    slug: 'asus-proart-p16-mobile-workstation-laptop-h7606wp-rj087w-1',
+    brand: 'ASUS',
+    category: 'laptops',
+    subcategory: 'Mobile Workstation',
+    price: 1105000,
+    salePrice: 1049750,
+    images: ['https://www.alershadonline.com/cdn/shop/files/Asus-ProArt-P16-Mobile-Workstation-Laptop-H7606WP-RJ087W-1_4499014e-160e-4008-a8c0-6075ea6418bf.webp?v=1777974234&width=460'],
+    shortDescription: 'Asus ProArt P16 Mobile Workstation Laptop H7606WP RJ087W 1 - High performance professional mobile workstation.',
+    description: 'Professional grade Asus ProArt P16 Mobile Workstation Laptop H7606WP RJ087W 1 designed for intensive CAD, 3D rendering, simulation, and software development workloads.',
+    specifications: {
+      'Category': 'Mobile Workstation',
+      'Brand': 'ASUS',
+      'Source': 'Aziz Computers Catalog'
+    },
+    stock: 10,
+    sku: 'AZIZ-MW-2026-051',
+    featured: true,
+    newProduct: true,
+    tags: ['laptop', 'mobile-workstation', 'asus', 'aziz-computers']
+  },
+  {
+    id: 'AZIZ-MW-2026-052',
+    name: 'Lenovo ThinkPad P16s Gen 3 Mobile Workstation Laptop 21KSS1G700 1',
+    slug: 'lenovo-thinkpad-p16s-gen-3-mobile-workstation-laptop-21kss1g700-1',
+    brand: 'Lenovo',
+    category: 'laptops',
+    subcategory: 'Mobile Workstation',
+    price: 1111500,
+    salePrice: 1055925,
+    images: ['https://www.alershadonline.com/cdn/shop/files/Lenovo-ThinkPad-P16s-Gen-3-Mobile-Workstation-Laptop-21KSS1G700-1_1abcdb19-ad40-4580-9b6f-c0cef9ed8057.webp?v=1775645107&width=460'],
+    shortDescription: 'Lenovo ThinkPad P16s Gen 3 Mobile Workstation Laptop 21KSS1G700 1 - High performance professional mobile workstation.',
+    description: 'Professional grade Lenovo ThinkPad P16s Gen 3 Mobile Workstation Laptop 21KSS1G700 1 designed for intensive CAD, 3D rendering, simulation, and software development workloads.',
+    specifications: {
+      'Category': 'Mobile Workstation',
+      'Brand': 'Lenovo',
+      'Source': 'Aziz Computers Catalog'
+    },
+    stock: 10,
+    sku: 'AZIZ-MW-2026-052',
+    featured: false,
+    newProduct: true,
+    tags: ['laptop', 'mobile-workstation', 'lenovo', 'aziz-computers']
+  },
+  {
+    id: 'AZIZ-MW-2026-053',
+    name: 'Lenovo ThinkPad P14s Gen 5 Mobile Workstation 21G2S28D00 1',
+    slug: 'lenovo-thinkpad-p14s-gen-5-mobile-workstation-21g2s28d00-1',
+    brand: 'Lenovo',
+    category: 'laptops',
+    subcategory: 'Mobile Workstation',
+    price: 602000,
+    salePrice: 571900,
+    images: ['https://www.alershadonline.com/cdn/shop/files/Lenovo-ThinkPad-P14s-Gen-5-Mobile-Workstation-21G2S28D00-1_56684617-8c00-45b6-a4c7-6e0fe8e860e3.webp?v=1774708872&width=460'],
+    shortDescription: 'Lenovo ThinkPad P14s Gen 5 Mobile Workstation 21G2S28D00 1 - High performance professional mobile workstation.',
+    description: 'Professional grade Lenovo ThinkPad P14s Gen 5 Mobile Workstation 21G2S28D00 1 designed for intensive CAD, 3D rendering, simulation, and software development workloads.',
+    specifications: {
+      'Category': 'Mobile Workstation',
+      'Brand': 'Lenovo',
+      'Source': 'Aziz Computers Catalog'
+    },
+    stock: 10,
+    sku: 'AZIZ-MW-2026-053',
+    featured: false,
+    newProduct: true,
+    tags: ['laptop', 'mobile-workstation', 'lenovo', 'aziz-computers']
+  },
+  {
+    id: 'AZIZ-MW-2026-054',
+    name: 'HP ZBook Studio G11 Mobile Workstation D1CA1ES ABV 1',
+    slug: 'hp-zbook-studio-g11-mobile-workstation-d1ca1es-abv-1',
+    brand: 'HP',
+    category: 'laptops',
+    subcategory: 'Mobile Workstation',
+    price: 1124500,
+    salePrice: 1068275,
+    images: ['https://www.alershadonline.com/cdn/shop/files/HP-ZBook-Studio-G11-Mobile-Workstation-D1CA1ES-ABV-1_a694d990-7019-49ae-8c98-59bb9484f826.webp?v=1774708873&width=460'],
+    shortDescription: 'HP ZBook Studio G11 Mobile Workstation D1CA1ES ABV 1 - High performance professional mobile workstation.',
+    description: 'Professional grade HP ZBook Studio G11 Mobile Workstation D1CA1ES ABV 1 designed for intensive CAD, 3D rendering, simulation, and software development workloads.',
+    specifications: {
+      'Category': 'Mobile Workstation',
+      'Brand': 'HP',
+      'Source': 'Aziz Computers Catalog'
+    },
+    stock: 10,
+    sku: 'AZIZ-MW-2026-054',
+    featured: false,
+    newProduct: true,
+    tags: ['laptop', 'mobile-workstation', 'hp', 'aziz-computers']
+  },
+  {
+    id: 'AZIZ-MW-2026-055',
+    name: 'Lenovo ThinkPad P16v Gen 2 Mobile Workstation 21KX001SAD 1',
+    slug: 'lenovo-thinkpad-p16v-gen-2-mobile-workstation-21kx001sad-1',
+    brand: 'Lenovo',
+    category: 'laptops',
+    subcategory: 'Mobile Workstation',
+    price: 1131000,
+    salePrice: 1074450,
+    images: ['https://www.alershadonline.com/cdn/shop/files/Lenovo-ThinkPad-P16v-Gen-2-Mobile-Workstation-21KX001SAD-1_b386177a-ebcb-4c14-a6f3-fc64379dfff2.webp?v=1774708872&width=460'],
+    shortDescription: 'Lenovo ThinkPad P16v Gen 2 Mobile Workstation 21KX001SAD 1 - High performance professional mobile workstation.',
+    description: 'Professional grade Lenovo ThinkPad P16v Gen 2 Mobile Workstation 21KX001SAD 1 designed for intensive CAD, 3D rendering, simulation, and software development workloads.',
+    specifications: {
+      'Category': 'Mobile Workstation',
+      'Brand': 'Lenovo',
+      'Source': 'Aziz Computers Catalog'
+    },
+    stock: 10,
+    sku: 'AZIZ-MW-2026-055',
+    featured: false,
+    newProduct: true,
+    tags: ['laptop', 'mobile-workstation', 'lenovo', 'aziz-computers']
+  },
+  {
+    id: 'AZIZ-MW-2026-056',
+    name: 'Lenovo ThinkPad P1 Gen 7 Mobile Workstation 21KV0024GR 1',
+    slug: 'lenovo-thinkpad-p1-gen-7-mobile-workstation-21kv0024gr-1',
+    brand: 'Lenovo',
+    category: 'laptops',
+    subcategory: 'Mobile Workstation',
+    price: 755000,
+    salePrice: 717250,
+    images: ['https://www.alershadonline.com/cdn/shop/files/Lenovo-ThinkPad-P1-Gen-7-Mobile-Workstation-21KV0024GR-1_6372b7b3-ceec-4816-ab14-29bdc8d82b44.webp?v=1774708872&width=460'],
+    shortDescription: 'Lenovo ThinkPad P1 Gen 7 Mobile Workstation 21KV0024GR 1 - High performance professional mobile workstation.',
+    description: 'Professional grade Lenovo ThinkPad P1 Gen 7 Mobile Workstation 21KV0024GR 1 designed for intensive CAD, 3D rendering, simulation, and software development workloads.',
+    specifications: {
+      'Category': 'Mobile Workstation',
+      'Brand': 'Lenovo',
+      'Source': 'Aziz Computers Catalog'
+    },
+    stock: 10,
+    sku: 'AZIZ-MW-2026-056',
+    featured: false,
+    newProduct: true,
+    tags: ['laptop', 'mobile-workstation', 'lenovo', 'aziz-computers']
+  },
+  {
+    id: 'AZIZ-MW-2026-057',
+    name: 'HP ZBook 8 G1i 14 Workstation C9FV7ES 1',
+    slug: 'hp-zbook-8-g1i-14-workstation-c9fv7es-1',
+    brand: 'HP',
+    category: 'laptops',
+    subcategory: 'Mobile Workstation',
+    price: 616000,
+    salePrice: 585200,
+    images: ['https://www.alershadonline.com/cdn/shop/files/HP-ZBook-8-G1i-14-Workstation-C9FV7ES-1_5ebfee78-20a4-462b-9540-4088f11115dc.webp?v=1773769737&width=460'],
+    shortDescription: 'HP ZBook 8 G1i 14 Workstation C9FV7ES 1 - High performance professional mobile workstation.',
+    description: 'Professional grade HP ZBook 8 G1i 14 Workstation C9FV7ES 1 designed for intensive CAD, 3D rendering, simulation, and software development workloads.',
+    specifications: {
+      'Category': 'Mobile Workstation',
+      'Brand': 'HP',
+      'Source': 'Aziz Computers Catalog'
+    },
+    stock: 10,
+    sku: 'AZIZ-MW-2026-057',
+    featured: false,
+    newProduct: true,
+    tags: ['laptop', 'mobile-workstation', 'hp', 'aziz-computers']
+  },
+  {
+    id: 'AZIZ-MW-2026-058',
+    name: '21G20003GR 1',
+    slug: '21g20003gr-1',
+    brand: 'Workstation',
+    category: 'laptops',
+    subcategory: 'Mobile Workstation',
+    price: 765000,
+    salePrice: 726750,
+    images: ['https://www.alershadonline.com/cdn/shop/files/21G20003GR-1.webp?v=1772881125&width=460'],
+    shortDescription: '21G20003GR 1 - High performance professional mobile workstation.',
+    description: 'Professional grade 21G20003GR 1 designed for intensive CAD, 3D rendering, simulation, and software development workloads.',
+    specifications: {
+      'Category': 'Mobile Workstation',
+      'Brand': 'Workstation',
+      'Source': 'Aziz Computers Catalog'
+    },
+    stock: 10,
+    sku: 'AZIZ-MW-2026-058',
+    featured: false,
+    newProduct: true,
+    tags: ['laptop', 'mobile-workstation', 'workstation', 'aziz-computers']
+  },
+  {
+    id: 'AZIZ-MW-2026-059',
+    name: 'Lenovo ThinkPad P14s Gen 6 Mobile Workstation 21QT0014GR 1',
+    slug: 'lenovo-thinkpad-p14s-gen-6-mobile-workstation-21qt0014gr-1',
+    brand: 'Lenovo',
+    category: 'laptops',
+    subcategory: 'Mobile Workstation',
+    price: 623000,
+    salePrice: 591850,
+    images: ['https://www.alershadonline.com/cdn/shop/files/Lenovo-ThinkPad-P14s-Gen-6-Mobile-Workstation-21QT0014GR-1.png?v=1776937067&width=460'],
+    shortDescription: 'Lenovo ThinkPad P14s Gen 6 Mobile Workstation 21QT0014GR 1 - High performance professional mobile workstation.',
+    description: 'Professional grade Lenovo ThinkPad P14s Gen 6 Mobile Workstation 21QT0014GR 1 designed for intensive CAD, 3D rendering, simulation, and software development workloads.',
+    specifications: {
+      'Category': 'Mobile Workstation',
+      'Brand': 'Lenovo',
+      'Source': 'Aziz Computers Catalog'
+    },
+    stock: 10,
+    sku: 'AZIZ-MW-2026-059',
+    featured: false,
+    newProduct: true,
+    tags: ['laptop', 'mobile-workstation', 'lenovo', 'aziz-computers']
+  },
+  {
+    id: 'AZIZ-MW-2026-060',
+    name: 'HP ZBook Fury G11 Laptop D19Z5ES 2',
+    slug: 'hp-zbook-fury-g11-laptop-d19z5es-2',
+    brand: 'HP',
+    category: 'laptops',
+    subcategory: 'Mobile Workstation',
+    price: 1163500,
+    salePrice: 1105325,
+    images: ['https://www.alershadonline.com/cdn/shop/files/HP-ZBook-Fury-G11-Laptop-D19Z5ES-2_9d79c5c8-f738-4f29-b030-62495238d0b0.webp?v=1772892437&width=460'],
+    shortDescription: 'HP ZBook Fury G11 Laptop D19Z5ES 2 - High performance professional mobile workstation.',
+    description: 'Professional grade HP ZBook Fury G11 Laptop D19Z5ES 2 designed for intensive CAD, 3D rendering, simulation, and software development workloads.',
+    specifications: {
+      'Category': 'Mobile Workstation',
+      'Brand': 'HP',
+      'Source': 'Aziz Computers Catalog'
+    },
+    stock: 10,
+    sku: 'AZIZ-MW-2026-060',
+    featured: false,
+    newProduct: true,
+    tags: ['laptop', 'mobile-workstation', 'hp', 'aziz-computers']
+  },
+  {
+    id: 'AZIZ-MW-2026-061',
+    name: '9S7 15F314 231 1',
+    slug: '9s7-15f314-231-1',
+    brand: 'Workstation',
+    category: 'laptops',
+    subcategory: 'Mobile Workstation',
+    price: 630000,
+    salePrice: 598500,
+    images: ['https://www.alershadonline.com/cdn/shop/files/9S7-15F314-231-1-1747494952337.png?v=1773247632&width=460'],
+    shortDescription: '9S7 15F314 231 1 - High performance professional mobile workstation.',
+    description: 'Professional grade 9S7 15F314 231 1 designed for intensive CAD, 3D rendering, simulation, and software development workloads.',
+    specifications: {
+      'Category': 'Mobile Workstation',
+      'Brand': 'Workstation',
+      'Source': 'Aziz Computers Catalog'
+    },
+    stock: 10,
+    sku: 'AZIZ-MW-2026-061',
+    featured: true,
+    newProduct: true,
+    tags: ['laptop', 'mobile-workstation', 'workstation', 'aziz-computers']
+  },
+  {
+    id: 'AZIZ-MW-2026-062',
+    name: '9S7 15F414 415 1',
+    slug: '9s7-15f414-415-1',
+    brand: 'Workstation',
+    category: 'laptops',
+    subcategory: 'Mobile Workstation',
+    price: 633500,
+    salePrice: 601825,
+    images: ['https://www.alershadonline.com/cdn/shop/files/9S7-15F414-415-1-1747494952152.png?v=1773247632&width=460'],
+    shortDescription: '9S7 15F414 415 1 - High performance professional mobile workstation.',
+    description: 'Professional grade 9S7 15F414 415 1 designed for intensive CAD, 3D rendering, simulation, and software development workloads.',
+    specifications: {
+      'Category': 'Mobile Workstation',
+      'Brand': 'Workstation',
+      'Source': 'Aziz Computers Catalog'
+    },
+    stock: 10,
+    sku: 'AZIZ-MW-2026-062',
+    featured: false,
+    newProduct: true,
+    tags: ['laptop', 'mobile-workstation', 'workstation', 'aziz-computers']
+  },
+  {
+    id: 'AZIZ-MW-2026-063',
+    name: '9Q573AV 1',
+    slug: '9q573av-1',
+    brand: 'HP',
+    category: 'laptops',
+    subcategory: 'Mobile Workstation',
+    price: 790000,
+    salePrice: 750500,
+    images: ['https://www.alershadonline.com/cdn/shop/files/9Q573AV-1_0d611958-307a-442d-8dd0-33eb947101de.webp?v=1772032943&width=460'],
+    shortDescription: '9Q573AV 1 - High performance professional mobile workstation.',
+    description: 'Professional grade 9Q573AV 1 designed for intensive CAD, 3D rendering, simulation, and software development workloads.',
+    specifications: {
+      'Category': 'Mobile Workstation',
+      'Brand': 'HP',
+      'Source': 'Aziz Computers Catalog'
+    },
+    stock: 10,
+    sku: 'AZIZ-MW-2026-063',
+    featured: false,
+    newProduct: true,
+    tags: ['laptop', 'mobile-workstation', 'hp', 'aziz-computers']
+  },
+  {
+    id: 'AZIZ-MW-2026-064',
+    name: '86B32EA 2',
+    slug: '86b32ea-2',
+    brand: 'HP',
+    category: 'laptops',
+    subcategory: 'Mobile Workstation',
+    price: 795000,
+    salePrice: 755250,
+    images: ['https://www.alershadonline.com/cdn/shop/files/86B32EA-2-1745846550492.png?v=1770231328&width=460'],
+    shortDescription: '86B32EA 2 - High performance professional mobile workstation.',
+    description: 'Professional grade 86B32EA 2 designed for intensive CAD, 3D rendering, simulation, and software development workloads.',
+    specifications: {
+      'Category': 'Mobile Workstation',
+      'Brand': 'HP',
+      'Source': 'Aziz Computers Catalog'
+    },
+    stock: 10,
+    sku: 'AZIZ-MW-2026-064',
+    featured: false,
+    newProduct: true,
+    tags: ['laptop', 'mobile-workstation', 'hp', 'aziz-computers']
+  },
+  {
+    id: 'AZIZ-MW-2026-065',
+    name: '8S9S5EA 2',
+    slug: '8s9s5ea-2',
+    brand: 'HP',
+    category: 'laptops',
+    subcategory: 'Mobile Workstation',
+    price: 800000,
+    salePrice: 760000,
+    images: ['https://www.alershadonline.com/cdn/shop/files/8S9S5EA-2-1745846546864.png?v=1770231304&width=460'],
+    shortDescription: '8S9S5EA 2 - High performance professional mobile workstation.',
+    description: 'Professional grade 8S9S5EA 2 designed for intensive CAD, 3D rendering, simulation, and software development workloads.',
+    specifications: {
+      'Category': 'Mobile Workstation',
+      'Brand': 'HP',
+      'Source': 'Aziz Computers Catalog'
+    },
+    stock: 10,
+    sku: 'AZIZ-MW-2026-065',
+    featured: false,
+    newProduct: true,
+    tags: ['laptop', 'mobile-workstation', 'hp', 'aziz-computers']
+  },
+  {
+    id: 'AZIZ-MW-2026-066',
+    name: '9Q566AV 6',
+    slug: '9q566av-6',
+    brand: 'HP',
+    category: 'laptops',
+    subcategory: 'Mobile Workstation',
+    price: 805000,
+    salePrice: 764750,
+    images: ['https://www.alershadonline.com/cdn/shop/files/9Q566AV-6-1745846549669.png?v=1770231293&width=460'],
+    shortDescription: '9Q566AV 6 - High performance professional mobile workstation.',
+    description: 'Professional grade 9Q566AV 6 designed for intensive CAD, 3D rendering, simulation, and software development workloads.',
+    specifications: {
+      'Category': 'Mobile Workstation',
+      'Brand': 'HP',
+      'Source': 'Aziz Computers Catalog'
+    },
+    stock: 10,
+    sku: 'AZIZ-MW-2026-066',
+    featured: false,
+    newProduct: true,
+    tags: ['laptop', 'mobile-workstation', 'hp', 'aziz-computers']
+  },
+  {
+    id: 'AZIZ-MW-2026-067',
+    name: '9Q572AV_ _1',
+    slug: '9q572av-1',
+    brand: 'HP',
+    category: 'laptops',
+    subcategory: 'Mobile Workstation',
+    price: 810000,
+    salePrice: 769500,
+    images: ['https://www.alershadonline.com/cdn/shop/files/9Q572AV_-_1.jpg?v=1786615354&width=460'],
+    shortDescription: '9Q572AV_ _1 - High performance professional mobile workstation.',
+    description: 'Professional grade 9Q572AV_ _1 designed for intensive CAD, 3D rendering, simulation, and software development workloads.',
+    specifications: {
+      'Category': 'Mobile Workstation',
+      'Brand': 'HP',
+      'Source': 'Aziz Computers Catalog'
+    },
+    stock: 10,
+    sku: 'AZIZ-MW-2026-067',
+    featured: false,
+    newProduct: true,
+    tags: ['laptop', 'mobile-workstation', 'hp', 'aziz-computers']
+  },
+  {
+    id: 'AZIZ-MW-2026-068',
+    name: '8T0U7EA 2',
+    slug: '8t0u7ea-2',
+    brand: 'HP',
+    category: 'laptops',
+    subcategory: 'Mobile Workstation',
+    price: 815000,
+    salePrice: 774250,
+    images: ['https://www.alershadonline.com/cdn/shop/files/8T0U7EA-2.png-1748433534556.png?v=1770231266&width=460'],
+    shortDescription: '8T0U7EA 2 - High performance professional mobile workstation.',
+    description: 'Professional grade 8T0U7EA 2 designed for intensive CAD, 3D rendering, simulation, and software development workloads.',
+    specifications: {
+      'Category': 'Mobile Workstation',
+      'Brand': 'HP',
+      'Source': 'Aziz Computers Catalog'
+    },
+    stock: 10,
+    sku: 'AZIZ-MW-2026-068',
+    featured: false,
+    newProduct: true,
+    tags: ['laptop', 'mobile-workstation', 'hp', 'aziz-computers']
+  },
+  {
+    id: 'AZIZ-MW-2026-069',
+    name: '8T0T0EA 3',
+    slug: '8t0t0ea-3',
+    brand: 'HP',
+    category: 'laptops',
+    subcategory: 'Mobile Workstation',
+    price: 820000,
+    salePrice: 779000,
+    images: ['https://www.alershadonline.com/cdn/shop/files/8T0T0EA-3-1745846549444.png?v=1770231226&width=460'],
+    shortDescription: '8T0T0EA 3 - High performance professional mobile workstation.',
+    description: 'Professional grade 8T0T0EA 3 designed for intensive CAD, 3D rendering, simulation, and software development workloads.',
+    specifications: {
+      'Category': 'Mobile Workstation',
+      'Brand': 'HP',
+      'Source': 'Aziz Computers Catalog'
+    },
+    stock: 10,
+    sku: 'AZIZ-MW-2026-069',
+    featured: false,
+    newProduct: true,
+    tags: ['laptop', 'mobile-workstation', 'hp', 'aziz-computers']
+  },
+  {
+    id: 'AZIZ-MW-2026-070',
+    name: '8K0G4AV 1',
+    slug: '8k0g4av-1',
+    brand: 'Workstation',
+    category: 'laptops',
+    subcategory: 'Mobile Workstation',
+    price: 825000,
+    salePrice: 783750,
+    images: ['https://www.alershadonline.com/cdn/shop/files/8K0G4AV-1_8f708450-a89c-48c6-95e2-a0b4c5c21271.webp?v=1772032936&width=460'],
+    shortDescription: '8K0G4AV 1 - High performance professional mobile workstation.',
+    description: 'Professional grade 8K0G4AV 1 designed for intensive CAD, 3D rendering, simulation, and software development workloads.',
+    specifications: {
+      'Category': 'Mobile Workstation',
+      'Brand': 'Workstation',
+      'Source': 'Aziz Computers Catalog'
+    },
+    stock: 10,
+    sku: 'AZIZ-MW-2026-070',
+    featured: false,
+    newProduct: true,
+    tags: ['laptop', 'mobile-workstation', 'workstation', 'aziz-computers']
+  },
+  {
+    id: 'AZIZ-MW-2026-071',
+    name: 'H7606WP ME025W 1',
+    slug: 'h7606wp-me025w-1',
+    brand: 'Workstation',
+    category: 'laptops',
+    subcategory: 'Mobile Workstation',
+    price: 830000,
+    salePrice: 788500,
+    images: ['https://www.alershadonline.com/cdn/shop/files/H7606WP-ME025W-1_6358ad06-aee3-474b-92a9-4ca0be44d9b3.webp?v=1772032889&width=460'],
+    shortDescription: 'H7606WP ME025W 1 - High performance professional mobile workstation.',
+    description: 'Professional grade H7606WP ME025W 1 designed for intensive CAD, 3D rendering, simulation, and software development workloads.',
+    specifications: {
+      'Category': 'Mobile Workstation',
+      'Brand': 'Workstation',
+      'Source': 'Aziz Computers Catalog'
+    },
+    stock: 10,
+    sku: 'AZIZ-MW-2026-071',
+    featured: true,
+    newProduct: true,
+    tags: ['laptop', 'mobile-workstation', 'workstation', 'aziz-computers']
+  },
+  {
+    id: 'AZIZ-MW-2026-072',
+    name: 'B30L5ES 1',
+    slug: 'b30l5es-1',
+    brand: 'HP',
+    category: 'laptops',
+    subcategory: 'Mobile Workstation',
+    price: 835000,
+    salePrice: 793250,
+    images: ['https://www.alershadonline.com/cdn/shop/files/B30L5ES-1-1757509156689.png?v=1772883521&width=460'],
+    shortDescription: 'B30L5ES 1 - High performance professional mobile workstation.',
+    description: 'Professional grade B30L5ES 1 designed for intensive CAD, 3D rendering, simulation, and software development workloads.',
+    specifications: {
+      'Category': 'Mobile Workstation',
+      'Brand': 'HP',
+      'Source': 'Aziz Computers Catalog'
+    },
+    stock: 10,
+    sku: 'AZIZ-MW-2026-072',
+    featured: false,
+    newProduct: true,
+    tags: ['laptop', 'mobile-workstation', 'hp', 'aziz-computers']
+  },
+  {
+    id: 'AZIZ-MW-2026-074',
+    name: 'Dell PROMAX16P 32 1T W11P 2',
+    slug: 'dell-promax16p-32-1t-w11p-2',
+    brand: 'Dell',
+    category: 'laptops',
+    subcategory: 'Mobile Workstation',
+    price: 908500,
+    salePrice: 863075,
+    images: ['https://www.alershadonline.com/cdn/shop/files/Dell-PROMAX16P-32-1T-W11P-2-1760525398890.png?v=1770229058&width=460'],
+    shortDescription: 'Dell PROMAX16P 32 1T W11P 2 - High performance professional mobile workstation.',
+    description: 'Professional grade Dell PROMAX16P 32 1T W11P 2 designed for intensive CAD, 3D rendering, simulation, and software development workloads.',
+    specifications: {
+      'Category': 'Mobile Workstation',
+      'Brand': 'Dell',
+      'Source': 'Aziz Computers Catalog'
+    },
+    stock: 10,
+    sku: 'AZIZ-MW-2026-074',
+    featured: false,
+    newProduct: true,
+    tags: ['laptop', 'mobile-workstation', 'dell', 'aziz-computers']
+  },
+  {
+    id: 'AZIZ-MW-2026-075',
+    name: 'Dell PROMAX 16 1T W11P2 2',
+    slug: 'dell-promax-16-1t-w11p2-2',
+    brand: 'Dell',
+    category: 'laptops',
+    subcategory: 'Mobile Workstation',
+    price: 913000,
+    salePrice: 867350,
+    images: ['https://www.alershadonline.com/cdn/shop/files/Dell-PROMAX-16-1T-W11P2-2-1760525398385.png?v=1770229044&width=460'],
+    shortDescription: 'Dell PROMAX 16 1T W11P2 2 - High performance professional mobile workstation.',
+    description: 'Professional grade Dell PROMAX 16 1T W11P2 2 designed for intensive CAD, 3D rendering, simulation, and software development workloads.',
+    specifications: {
+      'Category': 'Mobile Workstation',
+      'Brand': 'Dell',
+      'Source': 'Aziz Computers Catalog'
+    },
+    stock: 10,
+    sku: 'AZIZ-MW-2026-075',
+    featured: false,
+    newProduct: true,
+    tags: ['laptop', 'mobile-workstation', 'dell', 'aziz-computers']
+  },
+  {
+    id: 'AZIZ-MW-2026-076',
+    name: 'B30KZES 2',
+    slug: 'b30kzes-2',
+    brand: 'HP',
+    category: 'laptops',
+    subcategory: 'Mobile Workstation',
+    price: 855000,
+    salePrice: 812250,
+    images: ['https://www.alershadonline.com/cdn/shop/files/B30KZES-2-1757509155381.png?v=1770228742&width=460'],
+    shortDescription: 'B30KZES 2 - High performance professional mobile workstation.',
+    description: 'Professional grade B30KZES 2 designed for intensive CAD, 3D rendering, simulation, and software development workloads.',
+    specifications: {
+      'Category': 'Mobile Workstation',
+      'Brand': 'HP',
+      'Source': 'Aziz Computers Catalog'
+    },
+    stock: 10,
+    sku: 'AZIZ-MW-2026-076',
+    featured: false,
+    newProduct: true,
+    tags: ['laptop', 'mobile-workstation', 'hp', 'aziz-computers']
+  },
+  {
+    id: 'AZIZ-MW-2026-077',
+    name: 'HP ZBook Fury G11 Mobile Workstation Laptop 5F9P4ES ARB 2',
+    slug: 'hp-zbook-fury-g11-mobile-workstation-laptop-5f9p4es-arb-2',
+    brand: 'HP',
+    category: 'laptops',
+    subcategory: 'Mobile Workstation',
+    price: 1274000,
+    salePrice: 1210300,
+    images: ['https://www.alershadonline.com/cdn/shop/files/HP-ZBook-Fury-G11-Mobile-Workstation-Laptop-5F9P4ES-ARB-2-1761991402308.webp?v=1770228025&width=460'],
+    shortDescription: 'HP ZBook Fury G11 Mobile Workstation Laptop 5F9P4ES ARB 2 - High performance professional mobile workstation.',
+    description: 'Professional grade HP ZBook Fury G11 Mobile Workstation Laptop 5F9P4ES ARB 2 designed for intensive CAD, 3D rendering, simulation, and software development workloads.',
+    specifications: {
+      'Category': 'Mobile Workstation',
+      'Brand': 'HP',
+      'Source': 'Aziz Computers Catalog'
+    },
+    stock: 10,
+    sku: 'AZIZ-MW-2026-077',
+    featured: false,
+    newProduct: true,
+    tags: ['laptop', 'mobile-workstation', 'hp', 'aziz-computers']
+  },
+  {
+    id: 'AZIZ-MW-2026-078',
+    name: 'Lenovo ThinkPad P16s Gen 4 Workstation Laptop 21QV000YGR 2',
+    slug: 'lenovo-thinkpad-p16s-gen-4-workstation-laptop-21qv000ygr-2',
+    brand: 'Lenovo',
+    category: 'laptops',
+    subcategory: 'Mobile Workstation',
+    price: 1280500,
+    salePrice: 1216475,
+    images: ['https://www.alershadonline.com/cdn/shop/files/Lenovo-ThinkPad-P16s-Gen-4-Workstation-Laptop-21QV000YGR-2-1766072294297.webp?v=1770226933&width=460'],
+    shortDescription: 'Lenovo ThinkPad P16s Gen 4 Workstation Laptop 21QV000YGR 2 - High performance professional mobile workstation.',
+    description: 'Professional grade Lenovo ThinkPad P16s Gen 4 Workstation Laptop 21QV000YGR 2 designed for intensive CAD, 3D rendering, simulation, and software development workloads.',
+    specifications: {
+      'Category': 'Mobile Workstation',
+      'Brand': 'Lenovo',
+      'Source': 'Aziz Computers Catalog'
+    },
+    stock: 10,
+    sku: 'AZIZ-MW-2026-078',
+    featured: false,
+    newProduct: true,
+    tags: ['laptop', 'mobile-workstation', 'lenovo', 'aziz-computers']
+  },
+  {
+    id: 'AZIZ-MW-2026-079',
+    name: 'HP ZBook 8 G2i 16 Laptop E36MYAT ARB 1',
+    slug: 'hp-zbook-8-g2i-16-laptop-e36myat-arb-1',
+    brand: 'HP',
+    category: 'laptops',
+    subcategory: 'Mobile Workstation',
+    price: 931000,
+    salePrice: 884450,
+    images: ['https://www.alershadonline.com/cdn/shop/files/HP-ZBook-8-G2i-16-Laptop-E36MYAT-ARB-1_8cd69619-8438-4e72-882c-0ff9986acd5e.webp?v=1793440712&width=460'],
+    shortDescription: 'HP ZBook 8 G2i 16 Laptop E36MYAT ARB 1 - High performance professional mobile workstation.',
+    description: 'Professional grade HP ZBook 8 G2i 16 Laptop E36MYAT ARB 1 designed for intensive CAD, 3D rendering, simulation, and software development workloads.',
+    specifications: {
+      'Category': 'Mobile Workstation',
+      'Brand': 'HP',
+      'Source': 'Aziz Computers Catalog'
+    },
+    stock: 10,
+    sku: 'AZIZ-MW-2026-079',
+    featured: false,
+    newProduct: true,
+    tags: ['laptop', 'mobile-workstation', 'hp', 'aziz-computers']
   }
 ];
