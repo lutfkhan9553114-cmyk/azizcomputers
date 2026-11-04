@@ -289,7 +289,7 @@ const categories = [
 // here without also removing them from brandLogos below.
 const brands = [
   'HP', 'Lenovo', 'Acer', 'Dell', 'Asus', 'MSI', 'NVIDIA',
-  'Microsoft', 'Apple', 'Samsung',
+  'Microsoft', 'Apple', 'Samsung', 'Zotac', 'Gigabyte', 'PNY',
 ];
 
 /* Logo shown in the homepage "Brands we carry" strip, keyed by the exact
@@ -310,4 +310,7 @@ const brandLogos = {
   'Microsoft': 'assets/images/brands/microsoft.svg',
   'Apple': 'assets/images/brands/apple.svg',
   'Samsung': 'assets/images/brands/samsung.svg'
+  'Zotac': 'assets/images/brands/zotac.svg'
+  'Gigabyte': 'assets/images/brands/gigabyte.svg'
+  'PNY': 'assets/images/brands/pny.svg'
 };
