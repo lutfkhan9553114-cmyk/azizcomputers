@@ -285,7 +285,7 @@ const categories = [
 /* ==========================================================================
    BRANDS — used by the shop filters and the homepage brand strip.
    ========================================================================== */
-// Plain string array for product filtering logic — do not remove entries from
+// Plain string array for product filtering logic — don't remove entries from
 // here without also removing them from brandLogos below.
 const brands = [
   'HP', 'Lenovo', 'Acer', 'Dell', 'Asus', 'MSI', 'NVIDIA',
@@ -312,5 +312,5 @@ const brandLogos = {
   'Samsung': 'assets/images/brands/samsung.svg',
   'Zotac': 'assets/images/brands/zotac.svg',
   'Gigabyte': 'assets/images/brands/gigabyte.svg',
-  'PNY': 'assets/images/brands/pny.svg'
+  'PNY': 'assets/images/brands/pny.svg' 
 };
