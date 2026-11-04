@@ -7714,29 +7714,6 @@ const products = [
     tags: ['laptop', 'mobile-workstation', 'hp', 'aziz-computers']
   },
   {
-    id: 'AZIZ-MW-2026-058',
-    name: '21G20003GR 1',
-    slug: '21g20003gr-1',
-    brand: 'Workstation',
-    category: 'laptops',
-    subcategory: 'Mobile Workstation',
-    price: 765000,
-    salePrice: 726750,
-    images: ['https://www.alershadonline.com/cdn/shop/files/21G20003GR-1.webp?v=1772881125&width=460'],
-    shortDescription: '21G20003GR 1 - High performance professional mobile workstation.',
-    description: 'Professional grade 21G20003GR 1 designed for intensive CAD, 3D rendering, simulation, and software development workloads.',
-    specifications: {
-      'Category': 'Mobile Workstation',
-      'Brand': 'Workstation',
-      'Source': 'Aziz Computers Catalog'
-    },
-    stock: 10,
-    sku: 'AZIZ-MW-2026-058',
-    featured: false,
-    newProduct: true,
-    tags: ['laptop', 'mobile-workstation', 'workstation', 'aziz-computers']
-  },
-  {
     id: 'AZIZ-MW-2026-059',
     name: 'Lenovo ThinkPad P14s Gen 6 Mobile Workstation 21QT0014GR 1',
     slug: 'lenovo-thinkpad-p14s-gen-6-mobile-workstation-21qt0014gr-1',
@@ -7781,52 +7758,6 @@ const products = [
     featured: false,
     newProduct: true,
     tags: ['laptop', 'mobile-workstation', 'hp', 'aziz-computers']
-  },
-  {
-    id: 'AZIZ-MW-2026-061',
-    name: '9S7 15F314 231 1',
-    slug: '9s7-15f314-231-1',
-    brand: 'Workstation',
-    category: 'laptops',
-    subcategory: 'Mobile Workstation',
-    price: 630000,
-    salePrice: 598500,
-    images: ['https://www.alershadonline.com/cdn/shop/files/9S7-15F314-231-1-1747494952337.png?v=1773247632&width=460'],
-    shortDescription: '9S7 15F314 231 1 - High performance professional mobile workstation.',
-    description: 'Professional grade 9S7 15F314 231 1 designed for intensive CAD, 3D rendering, simulation, and software development workloads.',
-    specifications: {
-      'Category': 'Mobile Workstation',
-      'Brand': 'Workstation',
-      'Source': 'Aziz Computers Catalog'
-    },
-    stock: 10,
-    sku: 'AZIZ-MW-2026-061',
-    featured: true,
-    newProduct: true,
-    tags: ['laptop', 'mobile-workstation', 'workstation', 'aziz-computers']
-  },
-  {
-    id: 'AZIZ-MW-2026-062',
-    name: '9S7 15F414 415 1',
-    slug: '9s7-15f414-415-1',
-    brand: 'Workstation',
-    category: 'laptops',
-    subcategory: 'Mobile Workstation',
-    price: 633500,
-    salePrice: 601825,
-    images: ['https://www.alershadonline.com/cdn/shop/files/9S7-15F414-415-1-1747494952152.png?v=1773247632&width=460'],
-    shortDescription: '9S7 15F414 415 1 - High performance professional mobile workstation.',
-    description: 'Professional grade 9S7 15F414 415 1 designed for intensive CAD, 3D rendering, simulation, and software development workloads.',
-    specifications: {
-      'Category': 'Mobile Workstation',
-      'Brand': 'Workstation',
-      'Source': 'Aziz Computers Catalog'
-    },
-    stock: 10,
-    sku: 'AZIZ-MW-2026-062',
-    featured: false,
-    newProduct: true,
-    tags: ['laptop', 'mobile-workstation', 'workstation', 'aziz-computers']
   },
   {
     id: 'AZIZ-MW-2026-063',
@@ -7988,52 +7919,6 @@ const products = [
     featured: false,
     newProduct: true,
     tags: ['laptop', 'mobile-workstation', 'hp', 'aziz-computers']
-  },
-  {
-    id: 'AZIZ-MW-2026-070',
-    name: '8K0G4AV 1',
-    slug: '8k0g4av-1',
-    brand: 'Workstation',
-    category: 'laptops',
-    subcategory: 'Mobile Workstation',
-    price: 825000,
-    salePrice: 783750,
-    images: ['https://www.alershadonline.com/cdn/shop/files/8K0G4AV-1_8f708450-a89c-48c6-95e2-a0b4c5c21271.webp?v=1772032936&width=460'],
-    shortDescription: '8K0G4AV 1 - High performance professional mobile workstation.',
-    description: 'Professional grade 8K0G4AV 1 designed for intensive CAD, 3D rendering, simulation, and software development workloads.',
-    specifications: {
-      'Category': 'Mobile Workstation',
-      'Brand': 'Workstation',
-      'Source': 'Aziz Computers Catalog'
-    },
-    stock: 10,
-    sku: 'AZIZ-MW-2026-070',
-    featured: false,
-    newProduct: true,
-    tags: ['laptop', 'mobile-workstation', 'workstation', 'aziz-computers']
-  },
-  {
-    id: 'AZIZ-MW-2026-071',
-    name: 'H7606WP ME025W 1',
-    slug: 'h7606wp-me025w-1',
-    brand: 'Workstation',
-    category: 'laptops',
-    subcategory: 'Mobile Workstation',
-    price: 830000,
-    salePrice: 788500,
-    images: ['https://www.alershadonline.com/cdn/shop/files/H7606WP-ME025W-1_6358ad06-aee3-474b-92a9-4ca0be44d9b3.webp?v=1772032889&width=460'],
-    shortDescription: 'H7606WP ME025W 1 - High performance professional mobile workstation.',
-    description: 'Professional grade H7606WP ME025W 1 designed for intensive CAD, 3D rendering, simulation, and software development workloads.',
-    specifications: {
-      'Category': 'Mobile Workstation',
-      'Brand': 'Workstation',
-      'Source': 'Aziz Computers Catalog'
-    },
-    stock: 10,
-    sku: 'AZIZ-MW-2026-071',
-    featured: true,
-    newProduct: true,
-    tags: ['laptop', 'mobile-workstation', 'workstation', 'aziz-computers']
   },
   {
     id: 'AZIZ-MW-2026-072',
