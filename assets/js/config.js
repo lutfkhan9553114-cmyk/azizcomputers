@@ -309,8 +309,8 @@ const brandLogos = {
   'NVIDIA': 'assets/images/brands/nvidia.svg',
   'Microsoft': 'assets/images/brands/microsoft.svg',
   'Apple': 'assets/images/brands/apple.svg',
-  'Samsung': 'assets/images/brands/samsung.svg'
-  'Zotac': 'assets/images/brands/zotac.svg'
-  'Gigabyte': 'assets/images/brands/gigabyte.svg'
+  'Samsung': 'assets/images/brands/samsung.svg',
+  'Zotac': 'assets/images/brands/zotac.svg',
+  'Gigabyte': 'assets/images/brands/gigabyte.svg',
   'PNY': 'assets/images/brands/pny.svg'
 };
