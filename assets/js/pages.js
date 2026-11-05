@@ -778,8 +778,7 @@ var Pages = (function () {
 
       var order = A.WhatsApp.order({
         name: name, phone: phone, email: email,
-        address: address.replace(/\s*
-\s*/g, ', '),
+        address: address.replace(/\s*\n\s*/g, ', '),
         city: city, payment: payment, notes: notes
       });
 
@@ -872,8 +871,7 @@ var Pages = (function () {
         'Phone: ' + phone,
         '',
         message
-      ].join('
-');
+      ].join('\n');
 
       var channel = form_channel();
       if (channel === 'email') {
