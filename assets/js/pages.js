@@ -145,14 +145,15 @@ var Pages = (function () {
         '<a class="btn btn-gold btn-sm" href="' + esc(b.href) + '">' + esc(b.cta) + '</a></div></div>';
     }).join(''));
 
-    /* brands */
-    set('#brand-strip', brands.map(function (b) {
+    /* brands (duplicated for seamless infinite marquee scrolling) */
+    var brandItemsHtml = brands.map(function (b) {
       var logo = (typeof brandLogos !== 'undefined' && brandLogos[b]) ? brandLogos[b] : '';
       var inner = logo
         ? '<img src="' + esc(logo) + '" alt="' + esc(b) + '" loading="lazy" onerror="this.onerror=null;this.replaceWith(Object.assign(document.createElement(\'span\'),{className:\'brand-pill-text\',textContent:\'' + esc(b).replace(/'/g, "\\'") + '\'}));">'
         : '<span class="brand-pill-text">' + esc(b) + '</span>';
       return '<a class="brand-pill" href="shop.html?brand=' + encodeURIComponent(b) + '" aria-label="' + esc(b) + '">' + inner + '</a>';
-    }).join(''));
+    }).join('');
+    set('#brand-strip', brandItemsHtml + brandItemsHtml);
 
     /* store info block */
     var a = storeConfig.address;
@@ -777,7 +778,8 @@ var Pages = (function () {
 
       var order = A.WhatsApp.order({
         name: name, phone: phone, email: email,
-        address: address.replace(/\s*\n\s*/g, ', '),
+        address: address.replace(/\s*
+\s*/g, ', '),
         city: city, payment: payment, notes: notes
       });
 
@@ -870,7 +872,8 @@ var Pages = (function () {
         'Phone: ' + phone,
         '',
         message
-      ].join('\n');
+      ].join('
+');
 
       var channel = form_channel();
       if (channel === 'email') {
