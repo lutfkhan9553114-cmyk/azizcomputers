@@ -477,16 +477,31 @@ p{margin:0;}
 .banner-body h3{font-family:var(--display);font-size:26px;font-weight:500;margin:8px 0 8px;}
 .banner-body p{font-size:13.5px;color:#C2C8D0;margin-bottom:16px;}
 
-/* brands */
+/* brands marquee ribbon */
+.brand-marquee{
+  overflow:hidden;
+  width:100%;
+  border-top:1px solid var(--line);
+  border-bottom:1px solid var(--line);
+  position:relative;
+  mask-image: linear-gradient(to right, transparent, black 8%, black 92%, transparent);
+  -webkit-mask-image: linear-gradient(to right, transparent, black 8%, black 92%, transparent);
+}
 .brand-strip{
-  display:flex;align-items:center;justify-content:space-between;
-  flex-wrap:wrap;gap:36px 40px;
-  padding:8px 0;
-  border-top:1px solid var(--line);border-bottom:1px solid var(--line);
+  display:flex;
+  align-items:center;
+  flex-wrap:nowrap;
+  gap:48px;
+  padding:14px 0;
+  width:max-content;
+  animation: scrollRightToLeft 28s linear infinite;
+}
+.brand-marquee:hover .brand-strip{
+  animation-play-state: paused;
 }
 .brand-pill{
   display:flex;align-items:center;justify-content:center;
-  flex:1 1 auto;padding:10px 0;
+  flex:0 0 auto;padding:10px 0;
 }
 .brand-pill img{
   max-height:34px;max-width:130px;width:auto;object-fit:contain;
@@ -498,6 +513,11 @@ p{margin:0;}
   white-space:nowrap;
 }
 .brand-pill:hover .brand-pill-text{color:var(--ink);}
+
+@keyframes scrollRightToLeft {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
 
 /* store info */
 .store-grid{display:grid;grid-template-columns:1fr 1fr;gap:34px;align-items:stretch;}
@@ -1108,4 +1128,11 @@ p{margin:0;}
 .mobile-nav .theme-toggle{
   margin:14px 18px;border-color:var(--line);color:var(--ink);
   padding:10px 14px;font-size:13px;
+}
+/* Custom Dark Theme Styling for Brand Marquee */
+[data-theme="dark"] .brand-marquee {
+  background: var(--surface-2);
+  border-top: 1px solid rgba(217, 180, 99, 0.22);
+  border-bottom: 1px solid rgba(217, 180, 99, 0.22);
+  border-radius: var(--radius-lg);
 }
