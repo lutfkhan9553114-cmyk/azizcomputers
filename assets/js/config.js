@@ -184,7 +184,7 @@ const storeConfig = {
     { position: 'left', type: 'image', href: 'shop.html?category=laptops', alt: 'Laptop banner',
       src: 'assets/images/ADs/left-add.jpg' },
     { position: 'mid', type: 'image', href: 'shop.html?category=keyboards', alt: 'Keyboard banner',
-      src: 'https://images.unsplash.com/photo-1587829741301-dc798b83add3?auto=format&fit=crop&w=800&q=70' },
+      src: 'assets/images/ADs/upper-add.jpg' },
     { position: 'mid', type: 'video', href: 'shop.html?deals=1', alt: 'Deals video banner',
       poster: 'https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&q=70',
       src: 'assets/videos/laptop-ad.mp4' },									/*Add Video Here*/
