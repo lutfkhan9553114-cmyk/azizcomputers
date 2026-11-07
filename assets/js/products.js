@@ -7,6 +7,122 @@
 
 const products = [
   {
+    id: 'gpu-001',
+    name: 'Vertex RX-9070 XT 16GB Graphics Card',
+    slug: 'vertex-rx-9070-xt-16gb',
+    brand: 'Vertex',
+    category: 'graphics-cards',
+    subcategory: 'Gaming GPU',
+    price: 3299,
+    salePrice: 2999,
+    images: ['https://images.unsplash.com/photo-1591488320449-011701bb6704?auto=format&fit=crop&w=900&q=70', 'https://images.unsplash.com/photo-1587202372775-e229f172b9d7?auto=format&fit=crop&w=900&q=70'],
+    shortDescription: 'Triple-fan 16GB card built for 1440p and entry 4K gaming.',
+    description: 'A high-airflow triple-fan card aimed at 1440p high-refresh gaming and entry-level 4K. The vapour chamber and dual BIOS switch keep sustained clocks stable in warm rooms, which matters in UAE summer conditions. Ships with the retail box, accessories and manufacturer warranty.',
+    specifications: {
+      'Memory': '16GB GDDR6',
+      'Memory Bus': '256-bit',
+      'Boost Clock': '2.52 GHz',
+      'Interface': 'PCIe 4.0 x16',
+      'Outputs': '3 × DisplayPort 2.1, 1 × HDMI 2.1',
+      'Power Connectors': '2 × 8-pin',
+      'Recommended PSU': '750W',
+      'Length': '322 mm',
+      'Warranty': '3 years'
+    },
+    stock: 6,
+    sku: 'VTX-GPU-9070XT',
+    featured: true,
+    newProduct: true,
+    tags: ['gaming', 'gpu', '1440p', 'ray tracing']
+  },
+  {
+    id: 'gpu-002',
+    name: 'ApexCore GT-5060 8GB Dual-Fan Graphics Card',
+    slug: 'apexcore-gt-5060-8gb',
+    brand: 'ApexCore',
+    category: 'graphics-cards',
+    subcategory: 'Mainstream GPU',
+    price: 1450,
+    salePrice: null,
+    images: ['https://images.unsplash.com/photo-1587202372775-e229f172b9d7?auto=format&fit=crop&w=900&q=70', 'https://images.unsplash.com/photo-1591488320449-011701bb6704?auto=format&fit=crop&w=900&q=70'],
+    shortDescription: 'Compact 8GB card for 1080p gaming and creator work.',
+    description: 'A short 2.2-slot card that fits most mid-tower and micro-ATX builds. Strong at 1080p high settings, quiet under load, and undemanding on power — a straightforward upgrade for an older office or home PC.',
+    specifications: {
+      'Memory': '8GB GDDR6',
+      'Memory Bus': '128-bit',
+      'Boost Clock': '2.41 GHz',
+      'Interface': 'PCIe 4.0 x8',
+      'Outputs': '3 × DisplayPort 1.4, 1 × HDMI 2.1',
+      'Power Connectors': '1 × 8-pin',
+      'Recommended PSU': '550W',
+      'Length': '242 mm',
+      'Warranty': '3 years'
+    },
+    stock: 14,
+    sku: 'APX-GPU-5060',
+    featured: false,
+    newProduct: false,
+    tags: ['gpu', '1080p', 'compact']
+  },
+  {
+    id: 'cpu-001',
+    name: 'NovaTek N9 7950X 16-Core Processor',
+    slug: 'novatek-n9-7950x',
+    brand: 'NovaTek',
+    category: 'processors',
+    subcategory: 'Desktop CPU',
+    price: 2190,
+    salePrice: 1949,
+    images: ['https://images.unsplash.com/photo-1555617981-dac3880eac6e?auto=format&fit=crop&w=900&q=70', 'https://images.unsplash.com/photo-1591799264318-7e6ef8ddb7ea?auto=format&fit=crop&w=900&q=70'],
+    shortDescription: '16 cores, 32 threads — rendering, compiling and streaming.',
+    description: 'A workstation-class desktop processor for heavy multi-threaded work: 3D rendering, video export, compiling and virtual machines. Pairs well with a 240 mm AIO or a large tower cooler.',
+    specifications: {
+      'Cores / Threads': '16 / 32',
+      'Base Clock': '4.2 GHz',
+      'Boost Clock': '5.7 GHz',
+      'Cache': '80 MB total',
+      'Socket': 'SK-5',
+      'TDP': '170W',
+      'Integrated Graphics': 'Yes, 2-core',
+      'Cooler Included': 'No',
+      'Warranty': '3 years'
+    },
+    stock: 9,
+    sku: 'NVT-CPU-7950X',
+    featured: true,
+    newProduct: false,
+    tags: ['cpu', 'workstation', 'content creation']
+  },
+  {
+    id: 'cpu-002',
+    name: 'NovaTek N5 7600 6-Core Processor',
+    slug: 'novatek-n5-7600',
+    brand: 'NovaTek',
+    category: 'processors',
+    subcategory: 'Desktop CPU',
+    price: 849,
+    salePrice: null,
+    images: ['https://images.unsplash.com/photo-1591799264318-7e6ef8ddb7ea?auto=format&fit=crop&w=900&q=70', 'https://images.unsplash.com/photo-1555617981-dac3880eac6e?auto=format&fit=crop&w=900&q=70'],
+    shortDescription: 'Six cores with a bundled cooler — the sensible gaming pick.',
+    description: 'The value choice for a new gaming build. Six fast cores handle current titles comfortably, and the bundled cooler keeps the total build cost down.',
+    specifications: {
+      'Cores / Threads': '6 / 12',
+      'Base Clock': '3.8 GHz',
+      'Boost Clock': '5.1 GHz',
+      'Cache': '38 MB total',
+      'Socket': 'SK-5',
+      'TDP': '105W',
+      'Integrated Graphics': 'Yes, 2-core',
+      'Cooler Included': 'Yes',
+      'Warranty': '3 years'
+    },
+    stock: 21,
+    sku: 'NVT-CPU-7600',
+    featured: false,
+    newProduct: false,
+    tags: ['cpu', 'gaming', 'value']
+  },
+  {
     id: 'aio-001',
     name: 'Lenovo AIO A100 All-in-One Desktop PC – 23.8″ FHD IPS Display, Intel Core i3-N305, 16GB DDR4 RAM, 512GB SSD, Wi-Fi 6, Windows 11 Pro, Wireless Keyboard & Mouse - Cloud Grey',
     slug: 'lenovo-aio-a100-desktop-pc',
@@ -35,6 +151,426 @@ const products = [
     featured: true,
     newProduct: true,
     tags: ['all-in-one', 'lenovo', 'desktop pc', '24 inch']
+  },
+  {
+    id: 'lap-002',
+    name: 'Lumen Air 14 Business Ultrabook — 16GB / 512GB',
+    slug: 'lumen-air-14-ultrabook',
+    brand: 'Lumen',
+    category: 'laptops',
+    subcategory: 'Business Laptop',
+    price: 3299,
+    salePrice: null,
+    images: ['https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=900&q=70', 'https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=900&q=70'],
+    shortDescription: '1.2 kg aluminium ultrabook with all-day battery.',
+    description: 'Built for office and travel use: a matte 14" screen, fingerprint reader, and a battery that lasts a full working day. Available for corporate orders with tax invoice.',
+    specifications: {
+      'Display': '14" WUXGA matte, 400 nits',
+      'Processor': '10-core efficiency CPU',
+      'Graphics': 'Integrated',
+      'Memory': '16GB LPDDR5 (soldered)',
+      'Storage': '512GB NVMe SSD',
+      'Ports': '2 × USB-C Thunderbolt, 1 × USB-A, HDMI',
+      'Battery': '65Wh, up to 14 hours',
+      'Weight': '1.2 kg',
+      'Warranty': '2 years'
+    },
+    stock: 11,
+    sku: 'LUM-LAP-A14',
+    featured: false,
+    newProduct: false,
+    tags: ['laptop', 'business', 'lightweight']
+  },
+  {
+    id: 'pc-001',
+    name: 'Aziz Custom Build — Tier 3 Gaming Desktop',
+    slug: 'aziz-custom-tier-3-gaming-desktop',
+    brand: 'Ironclad',
+    category: 'desktops',
+    subcategory: 'Gaming PC',
+    price: 7899,
+    salePrice: 7299,
+    images: ['https://images.unsplash.com/photo-1587831990711-23ca6441447b?auto=format&fit=crop&w=900&q=70', 'https://images.unsplash.com/photo-1593640408182-31c70c8268f5?auto=format&fit=crop&w=900&q=70'],
+    shortDescription: 'Assembled and tested in our Bur Dubai workshop.',
+    description: 'Our in-house 1440p gaming build. Every unit is assembled, cable-managed, BIOS-updated and stress-tested for four hours before it leaves the shop. Specification can be adjusted — message us on WhatsApp and we will quote your configuration.',
+    specifications: {
+      'Processor': '8-core desktop CPU',
+      'Graphics': '16GB discrete GPU',
+      'Memory': '32GB DDR5 6000MT/s',
+      'Storage': '2TB NVMe Gen4 SSD',
+      'Cooling': '240 mm liquid cooler',
+      'Power Supply': '850W 80+ Gold',
+      'Case': 'Mesh mid-tower, 4 fans',
+      'Operating System': 'Not included',
+      'Warranty': '1 year build + component warranty'
+    },
+    stock: 3,
+    sku: 'AZZ-PC-T3',
+    featured: true,
+    newProduct: false,
+    tags: ['gaming pc', 'custom build', 'desktop']
+  },
+  {
+    id: 'mb-001',
+    name: 'Kestrel B850-PRO WiFi Motherboard',
+    slug: 'kestrel-b850-pro-wifi',
+    brand: 'Kestrel',
+    category: 'motherboards',
+    subcategory: 'ATX Motherboard',
+    price: 799,
+    salePrice: 719,
+    images: ['https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=900&q=70', 'https://images.unsplash.com/photo-1555617981-dac3880eac6e?auto=format&fit=crop&w=900&q=70'],
+    shortDescription: 'ATX board with Wi-Fi 7, three M.2 slots and 12+2 VRM.',
+    description: 'A well-cooled mid-range ATX board with enough VRM headroom for 16-core chips, three heatsinked M.2 slots and front USB-C header.',
+    specifications: {
+      'Socket': 'SK-5',
+      'Chipset': 'B850',
+      'Form Factor': 'ATX',
+      'Memory Support': '4 × DDR5, up to 192GB, 7600MT/s OC',
+      'Expansion': '1 × PCIe 5.0 x16, 2 × PCIe 4.0 x1',
+      'Storage': '3 × M.2 NVMe, 4 × SATA 6Gb/s',
+      'Networking': '2.5G LAN + Wi-Fi 7',
+      'Rear USB': '8 ports incl. USB-C 20Gb/s',
+      'Warranty': '3 years'
+    },
+    stock: 8,
+    sku: 'KST-MB-B850',
+    featured: false,
+    newProduct: false,
+    tags: ['motherboard', 'atx', 'wifi 7']
+  },
+  {
+    id: 'ram-001',
+    name: 'Obelisk Vanta 32GB DDR5-6000 CL30 (2 × 16GB)',
+    slug: 'obelisk-vanta-32gb-ddr5-6000',
+    brand: 'Obelisk',
+    category: 'memory',
+    subcategory: 'Desktop RAM',
+    price: 479,
+    salePrice: 419,
+    images: ['https://images.unsplash.com/photo-1562976540-1502c2145186?auto=format&fit=crop&w=900&q=70', 'https://images.unsplash.com/photo-1541029071515-84cc54f84dc5?auto=format&fit=crop&w=900&q=70'],
+    shortDescription: 'Low-latency DDR5 kit with an aluminium heat spreader.',
+    description: 'A 6000MT/s CL30 kit that hits its rated speed with one BIOS profile toggle. Low-profile enough to clear most tower coolers.',
+    specifications: {
+      'Capacity': '32GB (2 × 16GB)',
+      'Type': 'DDR5 UDIMM',
+      'Speed': '6000 MT/s',
+      'Latency': 'CL30-36-36-76',
+      'Voltage': '1.35V',
+      'Profile': 'XMP 3.0 / EXPO',
+      'Height': '34 mm',
+      'Warranty': 'Lifetime'
+    },
+    stock: 25,
+    sku: 'OBL-RAM-32K6',
+    featured: true,
+    newProduct: false,
+    tags: ['ram', 'ddr5', 'memory']
+  },
+  {
+    id: 'ssd-001',
+    name: 'Obelisk Rapid 2TB NVMe Gen4 SSD',
+    slug: 'obelisk-rapid-2tb-nvme-gen4',
+    brand: 'Obelisk',
+    category: 'storage',
+    subcategory: 'Internal SSD',
+    price: 539,
+    salePrice: 469,
+    images: ['https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?auto=format&fit=crop&w=900&q=70', 'https://images.unsplash.com/photo-1625842268584-8f3296236761?auto=format&fit=crop&w=900&q=70'],
+    shortDescription: '7,400 MB/s reads with a 1,200 TBW endurance rating.',
+    description: 'A Gen4 drive with DRAM cache — the right pick for a boot drive, video scratch disk or a console expansion. Graphene label keeps it under thermal limits without a bulky heatsink.',
+    specifications: {
+      'Capacity': '2TB',
+      'Interface': 'PCIe 4.0 x4, NVMe 2.0',
+      'Form Factor': 'M.2 2280',
+      'Sequential Read': 'Up to 7,400 MB/s',
+      'Sequential Write': 'Up to 6,900 MB/s',
+      'Endurance': '1,200 TBW',
+      'Cache': '2GB DDR4 DRAM',
+      'Warranty': '5 years'
+    },
+    stock: 18,
+    sku: 'OBL-SSD-2TG4',
+    featured: true,
+    newProduct: false,
+    tags: ['ssd', 'nvme', 'storage', 'gen4']
+  },
+  {
+    id: 'psu-001',
+    name: 'Ironclad Fortis 850W 80+ Gold Modular PSU',
+    slug: 'ironclad-fortis-850w-gold',
+    brand: 'Ironclad',
+    category: 'power-supplies',
+    subcategory: 'ATX PSU',
+    price: 629,
+    salePrice: null,
+    images: ['https://images.unsplash.com/photo-1587202372634-32705e3bf49c?auto=format&fit=crop&w=900&q=70', 'https://images.unsplash.com/photo-1593640408182-31c70c8268f5?auto=format&fit=crop&w=900&q=70'],
+    shortDescription: 'Fully modular, ATX 3.1, with a native 12V-2x6 cable.',
+    description: 'An ATX 3.1 unit with the native 12V-2x6 GPU cable, so no adapters are needed for current graphics cards. Fan stays off under light load.',
+    specifications: {
+      'Wattage': '850W',
+      'Efficiency': '80 PLUS Gold',
+      'Standard': 'ATX 3.1 / PCIe 5.1',
+      'Modular': 'Fully modular',
+      'Fan': '135 mm FDB, zero-RPM mode',
+      'Protections': 'OVP, OCP, OPP, SCP, OTP',
+      'Depth': '150 mm',
+      'Warranty': '10 years'
+    },
+    stock: 12,
+    sku: 'IRC-PSU-850G',
+    featured: false,
+    newProduct: false,
+    tags: ['psu', 'power supply', 'modular']
+  },
+  {
+    id: 'case-001',
+    name: 'Ironclad Atlas Mesh Mid-Tower Case',
+    slug: 'ironclad-atlas-mesh-mid-tower',
+    brand: 'Ironclad',
+    category: 'cases',
+    subcategory: 'Mid Tower',
+    price: 389,
+    salePrice: 339,
+    images: ['https://images.unsplash.com/photo-1593640408182-31c70c8268f5?auto=format&fit=crop&w=900&q=70', 'https://images.unsplash.com/photo-1587831990711-23ca6441447b?auto=format&fit=crop&w=900&q=70'],
+    shortDescription: 'High-airflow mesh front with four fans pre-installed.',
+    description: 'A practical airflow case with a full mesh front panel, tempered glass side and a removable top bracket that makes radiator installation far easier.',
+    specifications: {
+      'Form Factor': 'Mid Tower (ATX, mATX, ITX)',
+      'Fans Included': '4 × 120 mm ARGB',
+      'Radiator Support': '360 mm front, 280 mm top',
+      'GPU Clearance': '400 mm',
+      'CPU Cooler Height': '175 mm',
+      'Drive Bays': '2 × 3.5", 3 × 2.5"',
+      'Front I/O': 'USB-C, 2 × USB-A, audio',
+      'Warranty': '2 years'
+    },
+    stock: 15,
+    sku: 'IRC-CSE-ATLAS',
+    featured: false,
+    newProduct: false,
+    tags: ['case', 'airflow', 'mid tower']
+  },
+  {
+    id: 'mon-001',
+    name: 'Lumen Vista 27" QHD 180Hz IPS Monitor',
+    slug: 'lumen-vista-27-qhd-180hz',
+    brand: 'Lumen',
+    category: 'monitors',
+    subcategory: 'Gaming Monitor',
+    price: 1149,
+    salePrice: 999,
+    images: ['https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?auto=format&fit=crop&w=900&q=70', 'https://images.unsplash.com/photo-1547082299-de196ea013d6?auto=format&fit=crop&w=900&q=70'],
+    shortDescription: '1440p at 180Hz with 1 ms response and adaptive sync.',
+    description: 'A fast IPS panel that works equally well for gaming and colour work, on a height-adjustable stand with pivot. Comes with DisplayPort and HDMI cables in the box.',
+    specifications: {
+      'Screen Size': '27 inch',
+      'Resolution': '2560 × 1440 (QHD)',
+      'Refresh Rate': '180 Hz',
+      'Panel': 'Fast IPS',
+      'Response Time': '1 ms GtG',
+      'Colour': '120% sRGB, 10-bit',
+      'Inputs': '2 × HDMI 2.0, 1 × DisplayPort 1.4, USB hub',
+      'Stand': 'Height, tilt, swivel, pivot',
+      'Warranty': '3 years'
+    },
+    stock: 7,
+    sku: 'LUM-MON-V27',
+    featured: true,
+    newProduct: true,
+    tags: ['monitor', '1440p', '180hz', 'ips']
+  },
+  {
+    id: 'mon-002',
+    name: 'Lumen Vista 24" FHD 100Hz Office Monitor',
+    slug: 'lumen-vista-24-fhd-office',
+    brand: 'Lumen',
+    category: 'monitors',
+    subcategory: 'Office Monitor',
+    price: 469,
+    salePrice: null,
+    images: ['https://images.unsplash.com/photo-1547082299-de196ea013d6?auto=format&fit=crop&w=900&q=70', 'https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?auto=format&fit=crop&w=900&q=70'],
+    shortDescription: 'Slim-bezel 24" panel with VESA mounting and eye-care modes.',
+    description: 'A straightforward office display for desks and reception counters. Bulk pricing available for orders over ten units.',
+    specifications: {
+      'Screen Size': '23.8 inch',
+      'Resolution': '1920 × 1080 (FHD)',
+      'Refresh Rate': '100 Hz',
+      'Panel': 'IPS',
+      'Response Time': '5 ms',
+      'Inputs': 'HDMI, DisplayPort, VGA',
+      'VESA': '100 × 100 mm',
+      'Warranty': '3 years'
+    },
+    stock: 32,
+    sku: 'LUM-MON-V24',
+    featured: false,
+    newProduct: false,
+    tags: ['monitor', 'office', '1080p']
+  },
+  {
+    id: 'kb-001',
+    name: 'ApexCore Strike 75% Hot-Swap Mechanical Keyboard',
+    slug: 'apexcore-strike-75-mechanical-keyboard',
+    brand: 'ApexCore',
+    category: 'keyboards',
+    subcategory: 'Mechanical Keyboard',
+    price: 399,
+    salePrice: 349,
+    images: ['https://images.unsplash.com/photo-1587829741301-dc798b83add3?auto=format&fit=crop&w=900&q=70', 'https://images.unsplash.com/photo-1618384887929-16ec33fab9ef?auto=format&fit=crop&w=900&q=70'],
+    shortDescription: 'Gasket-mounted 75% board, tri-mode wireless, hot-swap sockets.',
+    description: 'A gasket-mounted board with sound-damping foam, south-facing RGB and a rotary knob. Connects by USB-C, 2.4GHz dongle or Bluetooth to three devices.',
+    specifications: {
+      'Layout': '75% (82 keys)',
+      'Switches': 'Linear, hot-swappable 5-pin',
+      'Connectivity': 'USB-C, 2.4GHz, Bluetooth 5.2',
+      'Keycaps': 'PBT double-shot',
+      'Battery': '4000 mAh',
+      'Mount': 'Gasket',
+      'Extras': 'Rotary knob, south-facing RGB',
+      'Warranty': '1 year'
+    },
+    stock: 20,
+    sku: 'APX-KB-S75',
+    featured: true,
+    newProduct: true,
+    tags: ['keyboard', 'mechanical', 'wireless', 'hot-swap']
+  },
+  {
+    id: 'ms-001',
+    name: 'ApexCore Glide Pro Wireless Gaming Mouse',
+    slug: 'apexcore-glide-pro-wireless-mouse',
+    brand: 'ApexCore',
+    category: 'mice',
+    subcategory: 'Gaming Mouse',
+    price: 289,
+    salePrice: 249,
+    images: ['https://images.unsplash.com/photo-1527814050087-3793815479db?auto=format&fit=crop&w=900&q=70', 'https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?auto=format&fit=crop&w=900&q=70'],
+    shortDescription: '58 g shell, 26K sensor, 8K polling with the dongle.',
+    description: 'A lightweight symmetrical mouse with optical switches and PTFE feet. Charges over USB-C and holds roughly 90 hours on a full charge.',
+    specifications: {
+      'Weight': '58 g',
+      'Sensor': '26,000 DPI optical',
+      'Polling Rate': 'Up to 8,000 Hz',
+      'Switches': 'Optical, 100M clicks',
+      'Buttons': '6 programmable',
+      'Battery': 'Up to 90 hours',
+      'Connectivity': '2.4GHz, Bluetooth, USB-C',
+      'Warranty': '1 year'
+    },
+    stock: 24,
+    sku: 'APX-MS-GPRO',
+    featured: false,
+    newProduct: false,
+    tags: ['mouse', 'wireless', 'lightweight', 'gaming']
+  },
+  {
+    id: 'hs-001',
+    name: 'Stratos Echo 7.1 Wireless Gaming Headset',
+    slug: 'stratos-echo-71-wireless-headset',
+    brand: 'Stratos',
+    category: 'headsets',
+    subcategory: 'Gaming Headset',
+    price: 459,
+    salePrice: null,
+    images: ['https://images.unsplash.com/photo-1590658268037-6bf12165a8df?auto=format&fit=crop&w=900&q=70', 'https://images.unsplash.com/photo-1546435770-a3e426bf472b?auto=format&fit=crop&w=900&q=70'],
+    shortDescription: '50 mm drivers, detachable boom mic, 40-hour battery.',
+    description: 'Memory-foam earcups and a suspension headband that stays comfortable over long sessions. Works wirelessly with PC and console, or wired over 3.5 mm.',
+    specifications: {
+      'Drivers': '50 mm neodymium',
+      'Surround': 'Virtual 7.1 on PC',
+      'Microphone': 'Detachable, noise-cancelling',
+      'Battery': 'Up to 40 hours',
+      'Connectivity': '2.4GHz USB-C dongle, Bluetooth, 3.5 mm',
+      'Weight': '318 g',
+      'Warranty': '1 year'
+    },
+    stock: 0,
+    sku: 'STR-HS-E71',
+    featured: false,
+    newProduct: false,
+    tags: ['headset', 'wireless', 'audio']
+  },
+  {
+    id: 'net-001',
+    name: 'Kestrel Mesh AX5400 Wi-Fi 6 Router (2-Pack)',
+    slug: 'kestrel-mesh-ax5400-2-pack',
+    brand: 'Kestrel',
+    category: 'networking',
+    subcategory: 'Mesh Wi-Fi',
+    price: 899,
+    salePrice: 799,
+    images: ['https://images.unsplash.com/photo-1606904825846-647eb07f5be2?auto=format&fit=crop&w=900&q=70', 'https://images.unsplash.com/photo-1544197150-b99a580bb7a8?auto=format&fit=crop&w=900&q=70'],
+    shortDescription: 'Covers a 3-bedroom villa with one seamless network.',
+    description: 'A two-node mesh kit that replaces the router supplied by your provider. Wired backhaul supported, and setup takes about ten minutes from the phone app.',
+    specifications: {
+      'Standard': 'Wi-Fi 6 (802.11ax)',
+      'Speed': 'AX5400 dual-band',
+      'Coverage': 'Up to 3,000 sq ft per node',
+      'Ports': '1 × 2.5G WAN, 3 × 1G LAN per node',
+      'Devices': '150+ concurrent',
+      'Features': 'Guest network, parental controls, WPA3',
+      'Warranty': '2 years'
+    },
+    stock: 10,
+    sku: 'KST-NET-AX54',
+    featured: false,
+    newProduct: true,
+    tags: ['router', 'wifi 6', 'mesh', 'networking']
+  },
+  {
+    id: 'acc-001',
+    name: 'Vertex 100W USB-C Docking Station, 11-in-1',
+    slug: 'vertex-100w-usb-c-dock-11-in-1',
+    brand: 'Vertex',
+    category: 'accessories',
+    subcategory: 'Docking Station',
+    price: 349,
+    salePrice: 299,
+    images: ['https://images.unsplash.com/photo-1625842268584-8f3296236761?auto=format&fit=crop&w=900&q=70', 'https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?auto=format&fit=crop&w=900&q=70'],
+    shortDescription: 'Dual 4K output, gigabit ethernet and 100W pass-through.',
+    description: 'Turns a single USB-C port into a full desk setup: two displays, wired network, card readers and charging for the laptop through the same cable.',
+    specifications: {
+      'Ports': '2 × HDMI 4K60, 1 × DisplayPort, 3 × USB-A, 1 × USB-C data',
+      'Power Delivery': '100W pass-through',
+      'Network': 'Gigabit Ethernet',
+      'Card Readers': 'SD and microSD UHS-I',
+      'Audio': '3.5 mm combo jack',
+      'Housing': 'Aluminium',
+      'Warranty': '2 years'
+    },
+    stock: 16,
+    sku: 'VTX-ACC-DK11',
+    featured: true,
+    newProduct: false,
+    tags: ['dock', 'usb-c', 'accessories', 'laptop']
+  },
+  {
+    id: 'cool-001',
+    name: 'Ironclad Frost 240 ARGB Liquid CPU Cooler',
+    slug: 'ironclad-frost-240-argb-cooler',
+    brand: 'Ironclad',
+    category: 'cooling',
+    subcategory: 'AIO Cooler',
+    price: 429,
+    salePrice: 379,
+    images: ['https://images.unsplash.com/photo-1593640408182-31c70c8268f5?auto=format&fit=crop&w=900&q=70', 'https://images.unsplash.com/photo-1587202372634-32705e3bf49c?auto=format&fit=crop&w=900&q=70'],
+    shortDescription: '240 mm radiator, 2 ARGB fans, brackets for all sockets.',
+    description: 'A quiet 240 mm all-in-one with a rotatable cap so the logo stays upright in any orientation. Includes mounting hardware for current AMD and Intel sockets.',
+    specifications: {
+      'Radiator': '240 mm aluminium',
+      'Fans': '2 × 120 mm ARGB PWM',
+      'Noise': 'Up to 28 dBA',
+      'Pump Speed': '2,800 RPM',
+      'Socket Support': 'SK-5, AM5, AM4, LGA1700, LGA1851',
+      'Tube Length': '400 mm',
+      'Warranty': '5 years'
+    },
+    stock: 13,
+    sku: 'IRC-CLR-F240',
+    featured: false,
+    newProduct: false,
+    tags: ['cooling', 'aio', 'liquid cooler']
   },
   {
     id: 'lap-001',
@@ -273,5597 +809,5 @@ const products = [
     featured: false,
     newProduct: true,
     tags: ['AI Laptops', 'Best Laptop Deals', 'Business Laptop Deals', 'Business Laptops', 'Computers & Laptops', 'Laptops']
-  },
-  {
-    id: 'gpu-003',
-    name: 'PNY NVIDIA RTX PRO 6000 Max-Q Workstation Graphics Card, GDDR7 96GB 512-bit Memory, DisplayPort 2.1 Outputs, PCI Express 5.0, Active Blower Cooling System, 1 Year Warranty | VCNRTXPRO6000MQ-SB',
-    slug: 'pny-nvidia-rtx-pro-6000-max-q-workstation-graphics-card-gddr7-96gb-512-bit-memory-displayport-21-outputs-pci-express-50-active-blower-cooling-system-1-year-warranty-vcnrtxpro6000mq-sb',
-    brand: 'PNY',
-    category: 'graphics-cards',
-    subcategory: 'Workstation GPU',
-    price: 78999,
-    salePrice: 73999,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/PNY-RTX-PRO-6000-Max-Q-Graphics-Card-VCNRTXPRO6000MQ-SB-1_e0e53de4-eb9f-463a-bb27-7ad462c3f7d7.webp?v=1790594037', 'https://cdn.shopify.com/s/files/1/0789/9784/8281/files/PNY-RTX-PRO-6000-Max-Q-Graphics-Card-VCNRTXPRO6000MQ-SB-2_5b8d5597-2f09-4233-b972-417dd0969faa.webp?v=1790594037', 'https://cdn.shopify.com/s/files/1/0789/9784/8281/files/PNY-RTX-PRO-6000-Max-Q-Graphics-Card-VCNRTXPRO6000MQ-SB-3_d4493ead-ae3b-4458-80b6-6004346a576a.webp?v=1790594037'],
-    shortDescription: 'Graphics Engine: NVIDIA RTX PRO 6000 Blackwell Engine Clock: 2610 MHz Boost Video Memory: 96GB GDDR7 AI Performance: 351...',
-    description: 'Graphics Engine: NVIDIA RTX PRO 6000 Blackwell Engine Clock: 2610 MHz Boost Video Memory: 96GB GDDR7 AI Performance: 3511 AI TOPS CUDA Cores: 24,064 Tensor Cores: 752 Ray-Tracing Cores: 188 Memory Speed: 28 Gbps Memory Interface: 512-bit Bus Standard: PCIe 5.0',
-    specifications: {
-      'Memory': 'GDDR7 96GB',
-      'Interface': 'PCI Express 5.0'
-    },
-    stock: 10,
-    sku: 'VCNRTXPRO6000MQ-SB',
-    featured: true,
-    newProduct: false,
-    tags: ['gpu', 'graphics card', 'pny', 'workstationgpu', 'ray tracing']
-  },
-  {
-    id: 'gpu-004',
-    name: 'Gigabyte AORUS GeForce RTX 5070 Master Graphics Card, GDDR7 12GB 192-bit Memory, DisplayPort, HDMI Outputs, PCI Express 5.0, WINDFORCE Cooling System, 1 Year Warranty | GV-N5070AORUSM-12GD',
-    slug: 'gigabyte-aorus-geforce-rtx-5070-master-graphics-card-gddr7-12gb-192-bit-memory-displayport-hdmi-outputs-pci-express-50-windforce-cooling-system-1-year-warranty-gv-n5070aorusm-12gd',
-    brand: 'GIGABYTE',
-    category: 'graphics-cards',
-    subcategory: 'Gaming GPU',
-    price: 5239,
-    salePrice: 4599,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-AORUS-RTX-5070-Graphics-Card-GV-N5070AORUSM-12GD-1_06f7289f-46d9-4d03-9c7a-5a87bc7837cf.webp?v=1790594031', 'https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-AORUS-RTX-5070-Graphics-Card-GV-N5070AORUSM-12GD-2_9cab516d-edba-42eb-96d4-6da606a30aa0.webp?v=1790594031', 'https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-AORUS-RTX-5070-Graphics-Card-GV-N5070AORUSM-12GD-3_466d84b7-c954-41c2-b5fa-34d65724de38.webp?v=1790594032', 'https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-AORUS-RTX-5070-Graphics-Card-GV-N5070AORUSM-12GD-4_410519b9-5dfd-469c-bb71-bd70aa0ac7d8.webp?v=1790594031', 'https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-AORUS-RTX-5070-Graphics-Card-GV-N5070AORUSM-12GD-5_e92ae78f-fe9a-41a4-837c-ab725a3aeed2.webp?v=1790594031', 'https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-AORUS-RTX-5070-Graphics-Card-GV-N5070AORUSM-12GD-6_811199b0-192c-4762-88bc-b6a956b692ec.webp?v=1790594031'],
-    shortDescription: 'Graphics Engine: NVIDIA GeForce RTX 5070 Engine Clock: 2715 MHz Video Memory: 12GB GDDR7 AI Performance: 1406 AI TOPS CU...',
-    description: 'Graphics Engine: NVIDIA GeForce RTX 5070 Engine Clock: 2715 MHz Video Memory: 12GB GDDR7 AI Performance: 1406 AI TOPS CUDA Cores: 6144 Memory Speed: 28 Gbps Memory Interface: 192-bit Bus Standard: PCIe 5.0',
-    specifications: {
-      'Memory': 'GDDR7 12GB',
-      'Interface': 'PCI Express 5.0'
-    },
-    stock: 10,
-    sku: 'GV-N5070AORUSM-12GD',
-    featured: true,
-    newProduct: true,
-    tags: ['gpu', 'graphics card', 'gigabyte', 'gaminggpu', 'ray tracing', '4k gaming']
-  },
-  {
-    id: 'gpu-005',
-    name: 'Gigabyte GeForce RTX 3060 Gaming OC Graphics Card, GDDR6 8GB 192-bit Memory, DisplayPort, HDMI Outputs, PCI Express 4.0, 1 Year Warranty | GV-N3060GAMING-OC-8GD',
-    slug: 'gigabyte-geforce-rtx-3060-gaming-oc-graphics-card-gddr6-8gb-192-bit-memory-displayport-hdmi-outputs-pci-express-40-1-year-warranty-gv-n3060gaming-oc-8gd',
-    brand: 'GIGABYTE',
-    category: 'graphics-cards',
-    subcategory: 'Mainstream GPU',
-    price: 2019,
-    salePrice: 1519,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-RTX-3060-Gaming-OC-Graphics-Card-GV-N3060GAMING-OC-8GD-1_d1b7bebf-14fc-4c33-9c4a-7a5b9cbeceba.webp?v=1790594024', 'https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-RTX-3060-Gaming-OC-Graphics-Card-GV-N3060GAMING-OC-8GD-2_7bbf2529-6dee-41d4-be00-ba2db2801d45.webp?v=1790594023', 'https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-RTX-3060-Gaming-OC-Graphics-Card-GV-N3060GAMING-OC-8GD-3_fbaec912-eb36-448e-be1f-4fe43f69c143.webp?v=1790594023', 'https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-RTX-3060-Gaming-OC-Graphics-Card-GV-N3060GAMING-OC-8GD-4_a3a0e2d0-7e46-4b9e-b20a-5e5a91db2e2b.webp?v=1790594023', 'https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-RTX-3060-Gaming-OC-Graphics-Card-GV-N3060GAMING-OC-8GD-5_1e61d00b-2ffc-40ab-937d-c5ba283c5437.webp?v=1790594024', 'https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-RTX-3060-Gaming-OC-Graphics-Card-GV-N3060GAMING-OC-8GD-6_5c08d171-2afa-4114-acd3-04792a00d72d.webp?v=1790594023'],
-    shortDescription: 'Graphics Engine: NVIDIA GeForce RTX 3060 Engine Clock: 1807 MHz Boost Video Memory: 8GB GDDR6 CUDA Cores: 3584 Memory Sp...',
-    description: 'Graphics Engine: NVIDIA GeForce RTX 3060 Engine Clock: 1807 MHz Boost Video Memory: 8GB GDDR6 CUDA Cores: 3584 Memory Speed: 15 Gbps Memory Interface: 192-bit Bus Standard: PCIe 4.0',
-    specifications: {
-      'Memory': 'GDDR6 8GB',
-      'Interface': 'PCI Express 4.0'
-    },
-    stock: 10,
-    sku: 'GV-N3060GAMING-OC-8GD',
-    featured: true,
-    newProduct: false,
-    tags: ['gpu', 'graphics card', 'gigabyte', 'mainstreamgpu', 'ray tracing']
-  },
-  {
-    id: 'gpu-006',
-    name: 'MSI GeForce RTX 3060 Ventus 2X OC Graphics Card, GDDR6 12GB 192-bit Memory, DisplayPort, HDMI Outputs, PCI Express 4.0, 1 Year Warranty | 912-V397-856',
-    slug: 'msi-geforce-rtx-3060-ventus-2x-oc-graphics-card-gddr6-12gb-192-bit-memory-displayport-hdmi-outputs-pci-express-40-1-year-warranty-912-v397-856',
-    brand: 'MSI',
-    category: 'graphics-cards',
-    subcategory: 'Mainstream GPU',
-    price: 2749,
-    salePrice: 2249,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/MSI-RTX-3060-Ventus-2X-OC-Graphics-Card-912-V397-856-1_e6150f20-7854-4db4-a7dc-9c133ab5c418.webp?v=1790594023', 'https://cdn.shopify.com/s/files/1/0789/9784/8281/files/MSI-RTX-3060-Ventus-2X-OC-Graphics-Card-912-V397-856-2_3b280a0f-2ad8-4b1d-8a28-a1ce4c9af9c1.webp?v=1790594023', 'https://cdn.shopify.com/s/files/1/0789/9784/8281/files/MSI-RTX-3060-Ventus-2X-OC-Graphics-Card-912-V397-856-3_a11fe1bf-6a97-408d-a180-8dc5aee7dd51.webp?v=1790594023', 'https://cdn.shopify.com/s/files/1/0789/9784/8281/files/MSI-RTX-3060-Ventus-2X-OC-Graphics-Card-912-V397-856-4_4c8af745-e65d-42e6-ac01-39b532344b80.webp?v=1790594023', 'https://cdn.shopify.com/s/files/1/0789/9784/8281/files/MSI-RTX-3060-Ventus-2X-OC-Graphics-Card-912-V397-856-5_59a5a4a5-eadd-4adf-8351-3d94f0d76454.webp?v=1790594023'],
-    shortDescription: 'Graphics Engine: NVIDIA GeForce RTX 3060 Engine Clock: 1807 MHz Boost Video Memory: 12GB GDDR6 CUDA Cores: 3584 Memory S...',
-    description: 'Graphics Engine: NVIDIA GeForce RTX 3060 Engine Clock: 1807 MHz Boost Video Memory: 12GB GDDR6 CUDA Cores: 3584 Memory Speed: 15 Gbps Memory Interface: 192-bit Bus Standard: PCIe 4.0',
-    specifications: {
-      'Memory': 'GDDR6 12GB',
-      'Interface': 'PCI Express 4.0'
-    },
-    stock: 10,
-    sku: '912-V397-856',
-    featured: true,
-    newProduct: false,
-    tags: ['gpu', 'graphics card', 'msi', 'mainstreamgpu', 'ray tracing']
-  },
-  {
-    id: 'gpu-007',
-    name: 'Zotac GeForce RTX 5060 Ti 16GB Twin Edge OC Graphics Card, 16GB GDDR7, 128-bit Memory, HDMI 2.1b & DP 2.1b, PCI Express 5.0, 2602 MHz Core Clock, 28 Gbps, 1 Year Warranty | ZT-B50620H-10M',
-    slug: 'zotac-geforce-rtx-5060-ti-16gb-twin-edge-oc-graphics-card-16gb-gddr7-128-bit-memory-hdmi-21b-dp-21b-pci-express-50-2602-mhz-core-clock-28-gbps-1-year-warranty-zt-b50620h-10m',
-    brand: 'Zotac',
-    category: 'graphics-cards',
-    subcategory: 'Gaming GPU',
-    price: 4319,
-    salePrice: 3619,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Zotac-GeForce-RTX-5060-Ti-16GB-Twin-Edge-OC-Graphics-Card-ZT-B50620H-10M-1_db14a0b2-e387-432e-a799-9a55849402ba.webp?v=1789992601', 'https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Zotac-GeForce-RTX-5060-Ti-16GB-Twin-Edge-OC-Graphics-Card-ZT-B50620H-10M-2_7f0a2b78-aa9e-4dfd-80ca-6da7f7c94aea.webp?v=1789992601', 'https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Zotac-GeForce-RTX-5060-Ti-16GB-Twin-Edge-OC-Graphics-Card-ZT-B50620H-10M-3_39cdfe02-c610-4a5a-ae1b-5c37364f9076.webp?v=1789992601', 'https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Zotac-GeForce-RTX-5060-Ti-16GB-Twin-Edge-OC-Graphics-Card-ZT-B50620H-10M-4_0c3b1702-23f8-42a6-b990-e82ef9b68e6f.webp?v=1789992601', 'https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Zotac-GeForce-RTX-5060-Ti-16GB-Twin-Edge-OC-Graphics-Card-ZT-B50620H-10M-5_5bea718d-283e-4850-86db-527365d41ead.webp?v=1789992601', 'https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Zotac-GeForce-RTX-5060-Ti-16GB-Twin-Edge-OC-Graphics-Card-ZT-B50620H-10M-6_6dc5f249-f81c-4ea8-98fa-141a5733ce41.webp?v=1789992601'],
-    shortDescription: 'NVIDIA® GeForce RTX 5060 Ti Memory: 16GB GDDR7 Memory Bus: 128-bit Core Clock: 2602 MHz CUDA Cores: 4608 Units Memory Sp...',
-    description: 'NVIDIA® GeForce RTX 5060 Ti Memory: 16GB GDDR7 Memory Bus: 128-bit Core Clock: 2602 MHz CUDA Cores: 4608 Units Memory Speed: 28 Gbps Digital Max Resolution: 7680 x 4320 Power Connectors: 8-pin x 1 1 Year Warranty',
-    specifications: {
-      'Memory': '16GB GDDR7',
-      'Interface': 'PCI Express 5.0'
-    },
-    stock: 10,
-    sku: 'ZT-B50620H-10M',
-    featured: true,
-    newProduct: true,
-    tags: ['gpu', 'graphics card', 'zotac', 'gaminggpu', 'ray tracing', '4k gaming']
-  },
-  {
-    id: 'gpu-008',
-    name: 'HP NVIDIA T1000E 8GB Graphics Card, 8GB GDDR6, 4 x Mini DisplayPort, 896 CUDA Cores, PCI Express 3.0, 1 Year Warranty | 6V9V4AA',
-    slug: 'hp-nvidia-t1000e-8gb-graphics-card-8gb-gddr6-4-x-mini-displayport-896-cuda-cores-pci-express-30-1-year-warranty-6v9v4aa',
-    brand: 'HP',
-    category: 'graphics-cards',
-    subcategory: 'Workstation GPU',
-    price: 2669,
-    salePrice: 2069,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/HP-T1000-8GB-Graphics-Card-6V9V4AA-1_1ceb23b6-bc72-462d-9465-10f3c66537e4.webp?v=1787141897', 'https://cdn.shopify.com/s/files/1/0789/9784/8281/files/HP-T1000-8GB-Graphics-Card-6V9V4AA-2_0f946328-dec2-489a-afd4-1ebf38bfcc0a.webp?v=1787141896', 'https://cdn.shopify.com/s/files/1/0789/9784/8281/files/HP-T1000-8GB-Graphics-Card-6V9V4AA-3_ecbaffa3-87d1-4ff9-a283-aa301ab676c7.webp?v=1787141897'],
-    shortDescription: 'Graphics: NVIDIA T1000E Graphics Memory: 8GB GDDR6 Base Clock: 1065MHz Boost Clock: 1395MHz CUDA Cores: 896 Memory Speed...',
-    description: 'Graphics: NVIDIA T1000E Graphics Memory: 8GB GDDR6 Base Clock: 1065MHz Boost Clock: 1395MHz CUDA Cores: 896 Memory Speed: 10Gbps Memory Interface: 128-bit Interface: PCI Express 3.0 Maximum Resolution: 7680 × 4320 Maximum Displays: 4 Power Consumption: 50W Warranty: 1 Year',
-    specifications: {
-      'Memory': '8GB GDDR6',
-      'Cores': '896 CUDA Cores',
-      'Interface': 'PCI Express 3.0'
-    },
-    stock: 10,
-    sku: '6V9V4AA',
-    featured: true,
-    newProduct: false,
-    tags: ['gpu', 'graphics card', 'hp', 'workstationgpu']
-  },
-  {
-    id: 'gpu-009',
-    name: 'HP NVIDIA RTX PRO 4000 Blackwell Workstation Graphics Card, 24GB GDDR7 192-bit ECC Memory, DisplayPort 2.1 Outputs, PCI Express 5.0 x16, 8960 CUDA Cores, 1290 AI TOPS, Blower Active Fan Cooling, 1 Year Warranty | B11F3AA',
-    slug: 'hp-nvidia-rtx-pro-4000-blackwell-workstation-graphics-card-24gb-gddr7-192-bit-ecc-memory-displayport-21-outputs-pci-express-50-x16-8960-cuda-cores-1290-ai-tops-blower-active-fan-cooling-1-year-warranty-b11f3aa',
-    brand: 'HP',
-    category: 'graphics-cards',
-    subcategory: 'Workstation GPU',
-    price: 12819,
-    salePrice: 10719,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/HP-NVIDIA-RTX-PRO-4000-Blackwell-Workstation-Graphics-Card-B11F3AA-1_b979dfae-a14f-4c72-a81d-8372faccc130.webp?v=1774532907', 'https://cdn.shopify.com/s/files/1/0789/9784/8281/files/HP-NVIDIA-RTX-PRO-4000-Blackwell-Workstation-Graphics-Card-B11F3AA-2_ed560518-d844-463b-8108-10f9b7667c37.webp?v=1774532906', 'https://cdn.shopify.com/s/files/1/0789/9784/8281/files/HP-NVIDIA-RTX-PRO-4000-Blackwell-Workstation-Graphics-Card-B11F3AA-3_58bd1cae-1ba3-49c3-a48e-5728f3fffaa8.webp?v=1774532906', 'https://cdn.shopify.com/s/files/1/0789/9784/8281/files/HP-NVIDIA-RTX-PRO-4000-Blackwell-Workstation-Graphics-Card-B11F3AA-4_994f9030-4443-4859-9fd5-3bfe9515c861.webp?v=1774532907'],
-    shortDescription: 'NVIDIA RTX PRO 4000 Blackwell Memory: 24GB GDDR7 CUDA Cores: 8960 Tensor Cores: 280 RT Cores: 70 Bus Standard: PCI Expre...',
-    description: 'NVIDIA RTX PRO 4000 Blackwell Memory: 24GB GDDR7 CUDA Cores: 8960 Tensor Cores: 280 RT Cores: 70 Bus Standard: PCI Express 5.0 Memory Bandwidth: 672 GB/s Memory Interface: 192-bit Digital Max Resolution: 7680 x 4320 Maximum Display Support: 4 4 x DisplayPort 2.1 Max Power Consumption: 140W 1 Year Warranty',
-    specifications: {
-      'Memory': '24GB GDDR7',
-      'Cores': '8960 CUDA Cores',
-      'Interface': 'PCI Express 5.0'
-    },
-    stock: 10,
-    sku: 'B11F3AA',
-    featured: true,
-    newProduct: true,
-    tags: ['gpu', 'graphics card', 'hp', 'workstationgpu', 'ray tracing', '4k gaming']
-  },
-  {
-    id: 'gpu-010',
-    name: 'PNY NVIDIA RTX A1000 Workstation Graphics Card, 2304 CUDA Cores, GDDR6 8GB 128-bit Memory, 4x Mini DisplayPort 1.4a Outputs, PCI Express 4.0, 192 GB/s Memory Bandwidth, Blower Active Fan Cooling System, 1 Year Warranty | VCNRTXA1000-SB',
-    slug: 'pny-nvidia-rtx-a1000-workstation-graphics-card-2304-cuda-cores-gddr6-8gb-128-bit-memory-4x-mini-displayport-14a-outputs-pci-express-40-192-gbs-memory-bandwidth-blower-active-fan-cooling-system-1-year-warranty-vcnrtxa1000-sb',
-    brand: 'PNY',
-    category: 'graphics-cards',
-    subcategory: 'Workstation GPU',
-    price: 2719,
-    salePrice: 2119,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/PNY-NVIDIA-RTX-A1000-Workstation-Graphics-Card-VCNRTXA1000-SB-2_5a3eca93-e7e6-4a71-ad60-8ebba36cfcb2.webp?v=1772896408', 'https://cdn.shopify.com/s/files/1/0789/9784/8281/files/PNY-NVIDIA-RTX-A1000-Workstation-Graphics-Card-VCNRTXA1000-SB-3_c4e348a1-d31b-4f86-9865-45857a2af4f0.webp?v=1772896408', 'https://cdn.shopify.com/s/files/1/0789/9784/8281/files/PNY-NVIDIA-RTX-A1000-Workstation-Graphics-Card-VCNRTXA1000-SB-4_2da61a25-826d-4194-a692-281800fe5ae3.webp?v=1772896408', 'https://cdn.shopify.com/s/files/1/0789/9784/8281/files/PNY-NVIDIA-RTX-A1000-Workstation-Graphics-Card-VCNRTXA1000-SB-5_fc00d048-2266-4de0-a77f-1617f1be4831.webp?v=1772896408', 'https://cdn.shopify.com/s/files/1/0789/9784/8281/files/PNY-NVIDIA-RTX-A1000-Workstation-Graphics-Card-VCNRTXA1000-SB-6_b8326073-69bc-465d-b999-68102daaf80f.webp?v=1772896408'],
-    shortDescription: 'NVIDIA RTX A1000 Memory: 8GB GDDR6 CUDA Cores: 2304 Tensor Cores: 72 (3rd Generation) RT Cores: 18 (2nd Generation) Peak...',
-    description: 'NVIDIA RTX A1000 Memory: 8GB GDDR6 CUDA Cores: 2304 Tensor Cores: 72 (3rd Generation) RT Cores: 18 (2nd Generation) Peak INT8 Tensor Performance: 107.8 TOPS Single-Precision Performance: 6.7 TFLOPS Bus Standard: PCI Express 4.0 x8 Memory Bandwidth: 192 GB/s Memory Interface: 128-bit Architecture: NVIDIA Ampere 1 Year Warranty',
-    specifications: {
-      'Memory': 'GDDR6 8GB',
-      'Cores': '2304 CUDA Cores',
-      'Interface': 'PCI Express 4.0'
-    },
-    stock: 10,
-    sku: 'VCNRTXA1000-SB',
-    featured: true,
-    newProduct: false,
-    tags: ['gpu', 'graphics card', 'pny', 'workstationgpu', 'ray tracing']
-  },
-  {
-    id: 'gpu-011',
-    name: 'PNY NVIDIA RTX PRO 4000 Blackwell Workstation Graphics Card, 8960 CUDA Cores, GDDR7 24GB 192-bit ECC Memory, 4x DisplayPort 2.1b Outputs, PCI Express 5.0, 672 GB/s Memory Bandwidth, Blower Active Fan Cooling System, 1 Year Warranty | VCNRTXPRO4000-SB',
-    slug: 'pny-nvidia-rtx-pro-4000-blackwell-workstation-graphics-card-8960-cuda-cores-gddr7-24gb-192-bit-ecc-memory-4x-displayport-21b-outputs-pci-express-50-672-gbs-memory-bandwidth-blower-active-fan-cooling-system-1-year-warranty-vcnrtxpro4000-sb',
-    brand: 'PNY',
-    category: 'graphics-cards',
-    subcategory: 'Workstation GPU',
-    price: 13159,
-    salePrice: 12259,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/PNY-NVIDIA-RTX-PRO-4000-Blackwell-Workstation-Graphics-Card-VCNTRTXPRO4000-SB-2_97971762-4605-40ab-a64b-ec1d2ec8695a.webp?v=1772896400', 'https://cdn.shopify.com/s/files/1/0789/9784/8281/files/PNY-NVIDIA-RTX-PRO-4000-Blackwell-Workstation-Graphics-Card-VCNTRTXPRO4000-SB-3_1c64e3fb-eb3f-451a-b8c1-63d11ac7b016.webp?v=1772896400', 'https://cdn.shopify.com/s/files/1/0789/9784/8281/files/PNY-NVIDIA-RTX-PRO-4000-Blackwell-Workstation-Graphics-Card-VCNTRTXPRO4000-SB-4_f997899c-ba5d-4e40-aa90-05cb7973ce00.webp?v=1772896400', 'https://cdn.shopify.com/s/files/1/0789/9784/8281/files/PNY-NVIDIA-RTX-PRO-4000-Blackwell-Workstation-Graphics-Card-VCNTRTXPRO4000-SB-5_3b68b388-5c70-4df5-a72d-663f4380512e.webp?v=1772896400', 'https://cdn.shopify.com/s/files/1/0789/9784/8281/files/PNY-NVIDIA-RTX-PRO-4000-Blackwell-Workstation-Graphics-Card-VCNTRTXPRO4000-SB-6_09db4b39-19b1-4aca-8645-ea047d1c2c9e.webp?v=1772896400'],
-    shortDescription: 'NVIDIA RTX PRO 4000 Blackwell Memory: 24GB GDDR7 with ECC CUDA Cores: 8960 Tensor Cores: 280 (5th Generation) RT Cores: ...',
-    description: 'NVIDIA RTX PRO 4000 Blackwell Memory: 24GB GDDR7 with ECC CUDA Cores: 8960 Tensor Cores: 280 (5th Generation) RT Cores: 70 (4th Generation) AI Performance: 1290 AI TOPS Single-Precision Performance: 40 TFLOPS Bus Standard: PCI Express 5.0 x16 Memory Bandwidth: 672 GB/s Memory Interface: 192-bit Architecture: NVIDIA Blackwell 1 Year Warranty',
-    specifications: {
-      'Memory': 'GDDR7 24GB',
-      'Cores': '8960 CUDA Cores',
-      'Interface': 'PCI Express 5.0'
-    },
-    stock: 10,
-    sku: 'VCNTRTXPRO4000-SB',
-    featured: false,
-    newProduct: true,
-    tags: ['gpu', 'graphics card', 'pny', 'workstationgpu', 'ray tracing', '4k gaming']
-  },
-  {
-    id: 'gpu-012',
-    name: 'HP Nvidia RTX 4000 Ada Generation Workstation Graphics Card, GDDR6 20 GB 160-bit Memory, 4 x DP 1.4a Outputs, PCI Express 4.0, 1.57 GHz Boost Clock, 360  GB/s Memory Bandwidth, 1 Year Warranty | 8D6B7AA',
-    slug: 'hp-nvidia-rtx-4000-ada-generation-workstation-graphics-card-gddr6-20-gb-160-bit-memory-4-x-dp-14a-outputs-pci-express-40-157-ghz-boost-clock-360-gbs-memory-bandwidth-1-year-warranty-8d6b7aa',
-    brand: 'HP',
-    category: 'graphics-cards',
-    subcategory: 'Workstation GPU',
-    price: 6779,
-    salePrice: 5979,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/8D6B7AA-1-1752340109757.png?v=1770220191'],
-    shortDescription: 'NVIDIA RTX 4000 Ada Memory: GDDR6 20 GB Memory Interface: 160-bit Boost Clock: 1.57 GHz CUDA Cores: 6144 Tensor Cores: 1...',
-    description: 'NVIDIA RTX 4000 Ada Memory: GDDR6 20 GB Memory Interface: 160-bit Boost Clock: 1.57 GHz CUDA Cores: 6144 Tensor Cores: 192 (4th Generation) RT Cores: 48 (3rd Generation) AI Performance: N/A Memory Bandwidth: 360 GB/s',
-    specifications: {
-      'Interface': 'PCI Express 4.0'
-    },
-    stock: 10,
-    sku: '8D6B7AA',
-    featured: false,
-    newProduct: false,
-    tags: ['gpu', 'graphics card', 'hp', 'workstationgpu', 'ray tracing', '4k gaming']
-  },
-  {
-    id: 'gpu-013',
-    name: 'PNY Nvidia RTX A400 Workstation Graphics Card, GDDR6 4 GB 64-bit Memory, DP 1.4a Outputs, PCI Express 4.0, 96  GB/s Memory Bandwidth, 1 Year Warranty | VCNRTXA400-SB',
-    slug: 'pny-nvidia-rtx-a400-workstation-graphics-card-gddr6-4-gb-64-bit-memory-dp-14a-outputs-pci-express-40-96-gbs-memory-bandwidth-1-year-warranty-vcnrtxa400-sb',
-    brand: 'PNY',
-    category: 'graphics-cards',
-    subcategory: 'Workstation GPU',
-    price: 999,
-    salePrice: 799,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/VCNRTXA400-SB-2-1752340112306.png?v=1770220173'],
-    shortDescription: 'NVIDIA RTX A400 Memory: GDDR6 4 GB Memory Interface: 64-bit Boost Clock: N/A CUDA Cores: 768 Tensor Cores: 24 (2nd Gener...',
-    description: 'NVIDIA RTX A400 Memory: GDDR6 4 GB Memory Interface: 64-bit Boost Clock: N/A CUDA Cores: 768 Tensor Cores: 24 (2nd Generation) RT Cores: RT Cores: 6 (1st Generation) AI Performance: N/A Memory Bandwidth: 96 GB/s',
-    specifications: {
-      'Interface': 'PCI Express 4.0'
-    },
-    stock: 10,
-    sku: 'VCNRTXA400-SB',
-    featured: false,
-    newProduct: false,
-    tags: ['gpu', 'graphics card', 'pny', 'workstationgpu', 'ray tracing', '4k gaming']
-  },
-  {
-    id: 'gpu-014',
-    name: 'PNY Nvidia RTX 2000 Ada Workstation Graphics Card, GDDR6 16 GB 128-bit Memory, DP 1.4a Outputs, PCI Express 4.0, 224  GB/s Memory Bandwidth, 1 Year Warranty | VCNRTX2000ADA-SB',
-    slug: 'pny-nvidia-rtx-2000-ada-workstation-graphics-card-gddr6-16-gb-128-bit-memory-dp-14a-outputs-pci-express-40-224-gbs-memory-bandwidth-1-year-warranty-vcnrtx2000ada-sb',
-    brand: 'PNY',
-    category: 'graphics-cards',
-    subcategory: 'Workstation GPU',
-    price: 3489,
-    salePrice: 2889,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/VCNRTX2000ADA-SB-2-1752340106949.png?v=1770248284'],
-    shortDescription: 'NVIDIA RTX 2000 Ada Memory: GDDR6 16 GB Memory Interface: 128-bit Boost Clock: N/A CUDA Cores: 2816 Tensor Cores: 88 (4t...',
-    description: 'NVIDIA RTX 2000 Ada Memory: GDDR6 16 GB Memory Interface: 128-bit Boost Clock: N/A CUDA Cores: 2816 Tensor Cores: 88 (4th Generation) RT Cores: 22 (3rd Generation) AI Performance: N/A Memory Bandwidth: 224 GB/s',
-    specifications: {
-      'Interface': 'PCI Express 4.0'
-    },
-    stock: 10,
-    sku: 'VCNRTX2000ADA-SB',
-    featured: false,
-    newProduct: false,
-    tags: ['gpu', 'graphics card', 'pny', 'workstationgpu', 'ray tracing']
-  },
-  {
-    id: 'gpu-015',
-    name: 'ZOTAC GEFORCE RTX 3050 8 GB GDDR6 ECO Edition Gaming Graphic Card | ZT-A30500K-10M',
-    slug: 'zotac-geforce-rtx-3050-8-gb-gddr6-eco-edition-gaming-graphic-card-zt-a30500k-10m',
-    brand: 'Zotac',
-    category: 'graphics-cards',
-    subcategory: 'Mainstream GPU',
-    price: 1879,
-    salePrice: 1379,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/ZT-A30500K-10M-2-1746384961611.png?v=1770246663', 'https://cdn.shopify.com/s/files/1/0789/9784/8281/files/ZT-A30500K-10M-3-1746384961627.png?v=1770246663', 'https://cdn.shopify.com/s/files/1/0789/9784/8281/files/ZT-A30500K-10M-4-1746384961638.png?v=1770246663', 'https://cdn.shopify.com/s/files/1/0789/9784/8281/files/ZT-A30500K-10M-5-1746384961671.png?v=1770246663', 'https://cdn.shopify.com/s/files/1/0789/9784/8281/files/ZT-A30500K-10M-6-1746384961719.png?v=1770246663'],
-    shortDescription: 'GeForce RTX 3050 8 GB GDDR6 Memory Speed: 14 GBps Engine Clock: 1777 MHz CUDA Cores: 2560 Memory Interface: 128-bit',
-    description: 'GeForce RTX 3050 8 GB GDDR6 Memory Speed: 14 GBps Engine Clock: 1777 MHz CUDA Cores: 2560 Memory Interface: 128-bit',
-    specifications: {
-      'Brand': 'Zotac',
-      'SKU': 'ZT-A30500K-10M',
-      'Warranty': '1 Year'
-    },
-    stock: 10,
-    sku: 'ZT-A30500K-10M',
-    featured: false,
-    newProduct: true,
-    tags: ['gpu', 'graphics card', 'zotac', 'mainstreamgpu', 'ray tracing', '4k gaming']
-  },
-  {
-    id: 'gpu-016',
-    name: 'Asus GeForce GT 730 Graphics Card, 384 CUDA Cores, GDDR5 2GB 64-bit Memory, 4x HDMI Outputs, PCI Express 2.0, 902 MHz Boost Clock, 5010 MHz Memory Clock, 1 Year Warranty | 90YV0H20-M0NA00',
-    slug: 'asus-geforce-gt-730-graphics-card-384-cuda-cores-gddr5-2gb-64-bit-memory-4x-hdmi-outputs-pci-express-20-902-mhz-boost-clock-5010-mhz-memory-clock-1-year-warranty-90yv0h20-m0na00',
-    brand: 'Asus',
-    category: 'graphics-cards',
-    subcategory: 'Mainstream GPU',
-    price: 489,
-    salePrice: 419,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0H20-M0NA00-02.gif?v=1770220008', 'https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Asus-GeForce-GT-730-Graphics-Card-90YV0H20-M0NA00-1_83d82149-c1d8-4b65-b987-d5bbdbba2da4.webp?v=1793451787', 'https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Asus-GeForce-GT-730-Graphics-Card-90YV0H20-M0NA00-2_3575834b-2db8-495b-8312-98c57cd1694d.webp?v=1793451787', 'https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Asus-GeForce-GT-730-Graphics-Card-90YV0H20-M0NA00-3_1f14c592-9ba4-4dce-ba45-19ad2f039a73.webp?v=1793451787'],
-    shortDescription: 'Graphics: NVIDIA GeForce GT 730 Graphics Memory: 2GB GDDR5 Boost Clock: 902MHz CUDA Cores: 384 Memory Speed: 5010MHz Mem...',
-    description: 'Graphics: NVIDIA GeForce GT 730 Graphics Memory: 2GB GDDR5 Boost Clock: 902MHz CUDA Cores: 384 Memory Speed: 5010MHz Memory Interface: 64-bit Interface: PCI Express 2.0 Recommended PSU: 300W Warranty: 1 Year',
-    specifications: {
-      'Memory': 'GDDR5 2GB',
-      'Cores': '384 CUDA Cores',
-      'Interface': 'PCI Express 2.0'
-    },
-    stock: 10,
-    sku: '90YV0H20-M0NA00',
-    featured: false,
-    newProduct: true,
-    tags: ['gpu', 'graphics card', 'asus', 'mainstreamgpu', '4k gaming']
-  },
-  {
-    id: 'gpu-017',
-    name: 'Zotac GeForce GT 730 Graphics Card, 384 CUDA Cores, DDR3 4GB 64-bit Memory, PCI Express 2.0, 902 MHz Boost Clock, 1600 MHz Memory Clock, 1 Year Warranty | ZT-71115-20L',
-    slug: 'zotac-geforce-gt-730-graphics-card-384-cuda-cores-ddr3-4gb-64-bit-memory-pci-express-20-902-mhz-boost-clock-1600-mhz-memory-clock-1-year-warranty-zt-71115-20l',
-    brand: 'Zotac',
-    category: 'graphics-cards',
-    subcategory: 'Mainstream GPU',
-    price: 539,
-    salePrice: 469,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/ZT-71115-20L-02.gif?v=1770220001', 'https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Zotac-GeForce-GT-730-Graphics-Card-ZT-71115-20L-1_3cc2be80-8218-4f37-b6d4-b535ee9a8c14.webp?v=1793451789', 'https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Zotac-GeForce-GT-730-Graphics-Card-ZT-71115-20L-2_03fa71c1-1524-4016-bb09-7f1203c2b792.webp?v=1793451789', 'https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Zotac-GeForce-GT-730-Graphics-Card-ZT-71115-20L-3_3e36af93-6f53-47ed-a858-8a7e37ba4c3d.webp?v=1793451789', 'https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Zotac-GeForce-GT-730-Graphics-Card-ZT-71115-20L-4_393703f4-ac23-439e-94b4-bcd61f9fbac5.webp?v=1793451789', 'https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Zotac-GeForce-GT-730-Graphics-Card-ZT-71115-20L-5_3d646f64-d715-4076-bd71-4e1129056acd.webp?v=1793451789', 'https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Zotac-GeForce-GT-730-Graphics-Card-ZT-71115-20L-6_4bcfd810-4257-407c-ad33-949c6ca24561.webp?v=1793451789'],
-    shortDescription: 'Graphics: NVIDIA GeForce GT 730 Graphics Memory: 4GB DDR3 Boost Clock: 902MHz CUDA Cores: 384 Memory Speed: 1600MHz Memo...',
-    description: 'Graphics: NVIDIA GeForce GT 730 Graphics Memory: 4GB DDR3 Boost Clock: 902MHz CUDA Cores: 384 Memory Speed: 1600MHz Memory Interface: 64-bit Interface: PCI Express 2.0 Recommended PSU: 300W Warranty: 1 Year',
-    specifications: {
-      'Cores': '384 CUDA Cores',
-      'Interface': 'PCI Express 2.0'
-    },
-    stock: 10,
-    sku: 'ZT-71115-20L',
-    featured: false,
-    newProduct: false,
-    tags: ['gpu', 'graphics card', 'zotac', 'mainstreamgpu']
-  },
-  {
-    id: 'gpu-018',
-    name: 'Gigabyte WINDFORCE OC GeForce RTX 5050 Graphics Card, GDDR6 8GB 128-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2587 MHz Core Clock, 20 Gbps Memory Clock, Dual Windforce Hawk Fans, 1 Year Warranty | GV-N5050WF2-OC-8GD',
-    slug: 'gigabyte-windforce-oc-geforce-rtx-5050-graphics-card-gddr6-8gb-128-bit-memory-hdmi-21b-dp-21b-outputs-pci-express-50-2587-mhz-core-clock-20-gbps-memory-clock-dual-windforce-hawk-fans-1-year-warranty-gv-n5050wf2-oc-8gd',
-    brand: 'Gigabyte',
-    category: 'graphics-cards',
-    subcategory: 'Mainstream GPU',
-    price: 2199,
-    salePrice: 1699,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5050-GV-N5050WF2-OC-8GD-1_37c255ce-7c0a-4a1c-b1c5-379df6ff1a25.webp?v=1776503040', 'https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5050-GV-N5050WF2-OC-8GD-2_79425bb5-1981-497b-a911-9a95eeafbeac.webp?v=1776503040', 'https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5050-GV-N5050WF2-OC-8GD-3_87249810-b0b0-4d57-aac8-4f6578469efa.webp?v=1776503040', 'https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5050-GV-N5050WF2-OC-8GD-4_fecfb500-63a2-4fab-a22a-16fa0122bec9.webp?v=1776503040', 'https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5050-GV-N5050WF2-OC-8GD-5_fc233bfa-a881-46f0-a005-eb4501aa90c7.webp?v=1776503040', 'https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5050-GV-N5050WF2-OC-8GD-6_70cfb443-dece-42fb-b8be-2cfe20903d14.webp?v=1776503040'],
-    shortDescription: 'NVIDIA GeForce RTX 5050 Memory: GDDR6 8GB Engine Clock: 2587 MHz CUDA Core: 2560 AI Performance: 421 TOPS Memory Speed: ...',
-    description: 'NVIDIA GeForce RTX 5050 Memory: GDDR6 8GB Engine Clock: 2587 MHz CUDA Core: 2560 AI Performance: 421 TOPS Memory Speed: 20 Gbps Digital Max Resolution: 7680 x 4320 Memory Interface: 128-bit Power Connectors: 1 x 8-pin 1 Year Warranty',
-    specifications: {
-      'Memory': 'GDDR6 8GB',
-      'Interface': 'PCI Express 5.0'
-    },
-    stock: 10,
-    sku: 'GV-N5050WF2-OC-8GD',
-    featured: false,
-    newProduct: true,
-    tags: ['gpu', 'graphics card', 'gigabyte', 'mainstreamgpu', 'ray tracing', '4k gaming']
-  },
-  {
-    id: 'gpu-019',
-    name: 'Gigabyte GAMING OC GeForce RTX 5050 Graphics Card, GDDR6 8GB 128-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2632 MHz Core Clock, 20 Gbps Memory Clock, Triple Windforce Hawk Fans, 1 Year Warranty | GV-N5050GAMING-OC-8GD',
-    slug: 'gigabyte-gaming-oc-geforce-rtx-5050-graphics-card-gddr6-8gb-128-bit-memory-hdmi-21b-dp-21b-outputs-pci-express-50-2632-mhz-core-clock-20-gbps-memory-clock-triple-windforce-hawk-fans-1-year-warranty-gv-n5050gaming-oc-8gd',
-    brand: 'Gigabyte',
-    category: 'graphics-cards',
-    subcategory: 'Mainstream GPU',
-    price: 2219,
-    salePrice: 1719,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5050-GV-N5050GAMING-OC-8GD-2.webp?v=1772596286', 'https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5050-GV-N5050GAMING-OC-8GD-6.webp?v=1772596286', 'https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5050-GV-N5050GAMING-OC-8GD-1.webp?v=1772596286', 'https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5050-GV-N5050GAMING-OC-8GD-3.webp?v=1772596286', 'https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5050-GV-N5050GAMING-OC-8GD-4.webp?v=1772596286', 'https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5050-GV-N5050GAMING-OC-8GD-5.webp?v=1772596286'],
-    shortDescription: 'NVIDIA GeForce RTX 5050 Memory: GDDR6 8GB Engine Clock: 2632 MHz CUDA Core: 2560 AI Performance: 421 TOPS Memory Speed: ...',
-    description: 'NVIDIA GeForce RTX 5050 Memory: GDDR6 8GB Engine Clock: 2632 MHz CUDA Core: 2560 AI Performance: 421 TOPS Memory Speed: 20 Gbps Digital Max Resolution: 7680 x 4320 Memory Interface: 128-bit Power Connectors: 1 x 8-pin 1 Year Warranty',
-    specifications: {
-      'Memory': 'GDDR6 8GB',
-      'Interface': 'PCI Express 5.0'
-    },
-    stock: 10,
-    sku: 'GV-N5050GAMING-OC-8GD',
-    featured: false,
-    newProduct: true,
-    tags: ['gpu', 'graphics card', 'gigabyte', 'mainstreamgpu', 'ray tracing', '4k gaming']
-  },
-  {
-    id: 'gpu-020',
-    name: 'Zotac Gaming NVIDIA GeForce RTX 5050 Twin Edge Graphics Card, GDDR6 8GB 128-bit Memory, HDMI & DP Outputs, PCI Express 5.0, 2572 MHz Engine Clock, 20 Gbps Memory Clock, 1 Year Warranty | ZT-B50500E-10M',
-    slug: 'zotac-gaming-nvidia-geforce-rtx-5050-twin-edge-graphics-card-gddr6-8gb-128-bit-memory-hdmi-dp-outputs-pci-express-50-2572-mhz-engine-clock-20-gbps-memory-clock-1-year-warranty-zt-b50500e-10m',
-    brand: 'Zotac',
-    category: 'graphics-cards',
-    subcategory: 'Mainstream GPU',
-    price: 2279,
-    salePrice: 1779,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Zotac-GeForce-RTX-5050-Gaming-Graphics-Card-ZT-B50500E-10M-2-1762355162363.webp?v=1770247491', 'https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Zotac-GeForce-RTX-5050-Gaming-Graphics-Card-ZT-B50500E-10M-3-1762355162364.webp?v=1770247491', 'https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Zotac-GeForce-RTX-5050-Gaming-Graphics-Card-ZT-B50500E-10M-4-1762355162364.webp?v=1770247491', 'https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Zotac-GeForce-RTX-5050-Gaming-Graphics-Card-ZT-B50500E-10M-5-1762355162364.webp?v=1770247491', 'https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Zotac-GeForce-RTX-5050-Gaming-Graphics-Card-ZT-B50500E-10M-6-1762355162365.webp?v=1770247491'],
-    shortDescription: 'NVIDIA GeForce RTX 5050 Memory: GDDR6 8GB Memory Interface: 128-bit Engine Clock Boost: 2572 MHz CUDA Cores: 2560 Memory...',
-    description: 'NVIDIA GeForce RTX 5050 Memory: GDDR6 8GB Memory Interface: 128-bit Engine Clock Boost: 2572 MHz CUDA Cores: 2560 Memory Speed: 20 Gbps Power Connectors: 1 x 8-pin 1 Year Warranty',
-    specifications: {
-      'Memory': 'GDDR6 8GB',
-      'Interface': 'PCI Express 5.0'
-    },
-    stock: 10,
-    sku: 'ZT-B50500E-10M',
-    featured: false,
-    newProduct: true,
-    tags: ['gpu', 'graphics card', 'zotac', 'mainstreamgpu', 'ray tracing', '4k gaming']
-  },
-  {
-    id: 'gpu-021',
-    name: 'Gigabyte EAGLE OC GeForce RTX 4060 Ti Graphics Card, GDDR6 8GB 128-bit Memory, HDMI 2.1a & DP 1.4a Outputs, PCI Express 4.0, 2550 MHz Core Clock, 18 Gbps Memory Clock, Triple Fan Windforce Cooling System, 1 Year Warranty | GV-N406TEAGLE-OC-8GD',
-    slug: 'gigabyte-eagle-oc-geforce-rtx-4060-ti-graphics-card-gddr6-8gb-128-bit-memory-hdmi-21a-dp-14a-outputs-pci-express-40-2550-mhz-core-clock-18-gbps-memory-clock-triple-fan-windforce-cooling-system-1-year-warranty-gv-n406teagle-oc-8gd',
-    brand: 'Gigabyte',
-    category: 'graphics-cards',
-    subcategory: 'Gaming GPU',
-    price: 2379,
-    salePrice: 1879,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-4060Ti-GV-N406TEAGLE-OC-8GD-2.webp?v=1772595422', 'https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-4060Ti-GV-N406TEAGLE-OC-8GD-3.webp?v=1772595422', 'https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-4060Ti-GV-N406TEAGLE-OC-8GD-1.webp?v=1772595422', 'https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-4060Ti-GV-N406TEAGLE-OC-8GD-5.webp?v=1772029095', 'https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-4060Ti-GV-N406TEAGLE-OC-8GD-6.webp?v=1772029094', 'https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-4060Ti-GV-N406TEAGLE-OC-8GD-4.webp?v=1772029094'],
-    shortDescription: 'NVIDIA GeForce RTX 4060 Ti Memory: GDDR6 8GB Engine Clock: 2550 MHz CUDA Core: 4352 AI Performance: 353 TOPS Memory Spee...',
-    description: 'NVIDIA GeForce RTX 4060 Ti Memory: GDDR6 8GB Engine Clock: 2550 MHz CUDA Core: 4352 AI Performance: 353 TOPS Memory Speed: 18 Gbps Digital Max Resolution: 7680 x 4320 Memory Interface: 128-bit Power Connectors: 1 x 8-pin 1 Year Warranty',
-    specifications: {
-      'Memory': 'GDDR6 8GB',
-      'Interface': 'PCI Express 4.0'
-    },
-    stock: 10,
-    sku: 'GV-N406TEAGLE-OC-8GD',
-    featured: false,
-    newProduct: true,
-    tags: ['gpu', 'graphics card', 'gigabyte', 'gaminggpu', 'ray tracing', '4k gaming']
-  },
-  {
-    id: 'gpu-022',
-    name: 'Gigabyte WINDFORCE OC GeForce RTX 4060 Ti Graphics Card, GDDR6 8GB 128-bit Memory, HDMI 2.1a & DP 1.4a Outputs, PCI Express 4.0, 2550 MHz Core Clock, 18 Gbps Memory Clock, Dual Fan Windforce Cooling System, 1 Year Warranty | GV-N406TWF2-OC-8GD',
-    slug: 'gigabyte-windforce-oc-geforce-rtx-4060-ti-graphics-card-gddr6-8gb-128-bit-memory-hdmi-21a-dp-14a-outputs-pci-express-40-2550-mhz-core-clock-18-gbps-memory-clock-dual-fan-windforce-cooling-system-1-year-warranty-gv-n406twf2-oc-8gd',
-    brand: 'Gigabyte',
-    category: 'graphics-cards',
-    subcategory: 'Gaming GPU',
-    price: 2339,
-    salePrice: 1839,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-4060Ti-GV-N406TWF2-OC-8GD-4.webp?v=1772595380', 'https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-4060Ti-GV-N406TWF2-OC-8GD-1.webp?v=1772595380', 'https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-4060Ti-GV-N406TWF2-OC-8GD-2.webp?v=1772029096', 'https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-4060Ti-GV-N406TWF2-OC-8GD-6.webp?v=1772029095', 'https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-4060Ti-GV-N406TWF2-OC-8GD-3.webp?v=1772029095', 'https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-4060Ti-GV-N406TWF2-OC-8GD-5.webp?v=1772029094'],
-    shortDescription: 'NVIDIA GeForce RTX 4060 Ti Memory: GDDR6 8GB Engine Clock: 2550 MHz CUDA Core: 4352 AI Performance: 353 TOPS Memory Spee...',
-    description: 'NVIDIA GeForce RTX 4060 Ti Memory: GDDR6 8GB Engine Clock: 2550 MHz CUDA Core: 4352 AI Performance: 353 TOPS Memory Speed: 18 Gbps Digital Max Resolution: 7680 x 4320 Memory Interface: 128-bit Power Connectors: 1 x 8-pin 1 Year Warranty',
-    specifications: {
-      'Memory': 'GDDR6 8GB',
-      'Interface': 'PCI Express 4.0'
-    },
-    stock: 10,
-    sku: 'GV-N406TWF2-OC-8GD',
-    featured: false,
-    newProduct: true,
-    tags: ['gpu', 'graphics card', 'gigabyte', 'gaminggpu', 'ray tracing', '4k gaming']
-  },
-  {
-    id: 'gpu-023',
-    name: 'Zotac GeForce GT 710 Graphics Card, DDR3 2GB 64-bit Memory, DVI, VGA, HDMI, PCI Express 2.0, 954 MHz Engine Clock, 1600 MHz Memory Clock, 1 Year Warranty | ZT-71310-10L',
-    slug: 'zotac-geforce-gt-710-graphics-card-ddr3-2gb-64-bit-memory-dvi-vga-hdmi-pci-express-20-954-mhz-engine-clock-1600-mhz-memory-clock-1-year-warranty-zt-71310-10l',
-    brand: 'Zotac',
-    category: 'graphics-cards',
-    subcategory: 'Mainstream GPU',
-    price: 389,
-    salePrice: 319,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Zotac-GeForce-GT-710-ZT-71310-10L-3-1762264115884.webp?v=1770247237', 'https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Zotac-GeForce-GT-710-ZT-71310-10L-1_f981cdba-f218-4c9b-a98c-9fb13b6bfa95.webp?v=1793360659', 'https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Zotac-GeForce-GT-710-ZT-71310-10L-3_ba073c95-f720-4aa1-9e42-c7c006702349.webp?v=1793360659', 'https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Zotac-GeForce-GT-710-ZT-71310-10L-4_eb74724f-2c51-4e68-a3c3-a4917df645ef.webp?v=1793360659', 'https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Zotac-GeForce-GT-710-ZT-71310-10L-5_3adbb4dd-b029-48cc-80e1-a70466a8a8ea.webp?v=1793360659', 'https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Zotac-GeForce-GT-710-ZT-71310-10L-6_c42f5938-232d-43e8-9eb1-82f8eb9369ec.webp?v=1793360659', 'https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Zotac-GeForce-GT-710-ZT-71310-10L2_4406ae68-e8bf-4e6f-b9f2-b33421fd13eb.webp?v=1793360660'],
-    shortDescription: 'NVIDIA GeForce GT 710 ?GDDR3 2 GB 64Bit Memory Interface',
-    description: 'NVIDIA GeForce GT 710 ?GDDR3 2 GB 64Bit Memory Interface',
-    specifications: {
-      'Interface': 'PCI Express 2.0'
-    },
-    stock: 10,
-    sku: 'ZT-71310-10L',
-    featured: false,
-    newProduct: false,
-    tags: ['gpu', 'graphics card', 'zotac', 'mainstreamgpu']
-  },
-  {
-    id: 'gpu-024',
-    name: 'Gigabyte WINDFORCE OC V2 GeForce RTX 3050 Graphics Card, GDDR6 6GB 96-bit Memory, HDMI 2.1a & DP 1.4a Outputs, PCI Express 4.0, 1477 MHz Core Clock, 14000 Mhz Memory Clock, Dual Fan Windforce Cooling System, 1 Year Warranty | GV-N3050WF2OC-V2-6GD',
-    slug: 'gigabyte-windforce-oc-v2-geforce-rtx-3050-graphics-card-gddr6-6gb-96-bit-memory-hdmi-21a-dp-14a-outputs-pci-express-40-1477-mhz-core-clock-14000-mhz-memory-clock-dual-fan-windforce-cooling-system-1-year-warranty-gv-n3050wf2oc-v2-6gd',
-    brand: 'Gigabyte',
-    category: 'graphics-cards',
-    subcategory: 'Mainstream GPU',
-    price: 1769,
-    salePrice: 1269,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-3050-GV-N3050WF2OC-V2-6GD-1-1762526145678_94ffedce-2cf5-4b71-be4a-fa690d752e4a.webp?v=1773247478', 'https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-3050-GV-N3050WF2OC-V2-6GD-2-1762526145679.webp?v=1773247478', 'https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-3050-GV-N3050WF2OC-V2-6GD-3-1762526145748.webp?v=1773247478', 'https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-3050-GV-N3050WF2OC-V2-6GD-4-1762526145839.webp?v=1773247478', 'https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-3050-GV-N3050WF2OC-V2-6GD-5-1762526145839.webp?v=1773247478', 'https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-3050-GV-N3050WF2OC-V2-6GD-6-1762526145877.webp?v=1773247478'],
-    shortDescription: 'NVIDIA GeForce RTX 3050 Memory: GDDR6 6GB Engine Clock: 1477 MHz CUDA Core: 2304 Memory Speed: 14000 MHz Digital Max Res...',
-    description: 'NVIDIA GeForce RTX 3050 Memory: GDDR6 6GB Engine Clock: 1477 MHz CUDA Core: 2304 Memory Speed: 14000 MHz Digital Max Resolution: 7680 x 4320 Memory Interface: 96-bit 1 Year Warranty',
-    specifications: {
-      'Memory': 'GDDR6 6GB',
-      'Interface': 'PCI Express 4.0'
-    },
-    stock: 10,
-    sku: 'GV-N3050WF2OC-V2-6GD',
-    featured: false,
-    newProduct: true,
-    tags: ['gpu', 'graphics card', 'gigabyte', 'mainstreamgpu', 'ray tracing', '4k gaming']
-  },
-  {
-    id: 'gpu-025',
-    name: 'Asus TUF Gaming GeForce RTX 5080 OC Edition Graphics Card, GDDR7 16GB 256-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2730 MHz OC Mode Core Clock, 30 Gbps Memory Clock, 1801 AI TOPS, 1 Year Warranty | 90YV0M30-M0NA00',
-    slug: 'asus-tuf-gaming-geforce-rtx-5080-oc-edition-graphics-card-gddr7-16gb-256-bit-memory-hdmi-21b-dp-21b-outputs-pci-express-50-2730-mhz-oc-mode-core-clock-30-gbps-memory-clock-1801-ai-tops-1-year-warranty-90yv0m30-m0na00',
-    brand: 'Asus',
-    category: 'graphics-cards',
-    subcategory: 'Gaming GPU',
-    price: 12999,
-    salePrice: 10499,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Asus-TUF-Gaming-GeForce-RTX-5080-OC-Edition-Graphics-Card-90YV0M30-M0NA00-2_ee337e26-afe9-4b62-ab13-44e9f55a9f37.webp?v=1772896366', 'https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Asus-TUF-Gaming-GeForce-RTX-5080-OC-Edition-Graphics-Card-90YV0M30-M0NA00-3_9f5668f1-6ac5-4d0c-8d6b-ad449baeaea3.webp?v=1772896366', 'https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Asus-TUF-Gaming-GeForce-RTX-5080-OC-Edition-Graphics-Card-90YV0M30-M0NA00-4_4ce911ba-27ce-40ba-9222-377beaa287f8.webp?v=1772896366', 'https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Asus-TUF-Gaming-GeForce-RTX-5080-OC-Edition-Graphics-Card-90YV0M30-M0NA00-5_56533ee6-7232-45bf-aa00-9a3fd5ec3d9e.webp?v=1772896366', 'https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Asus-TUF-Gaming-GeForce-RTX-5080-OC-Edition-Graphics-Card-90YV0M30-M0NA00-6_125d077c-7683-4c7b-bb46-e259378391a2.webp?v=1772896366'],
-    shortDescription: 'NVIDIA GeForce RTX 5080 Memory: 16GB GDDR7 CUDA Cores: 10752 AI Performance: 1801 AI TOPS Bus Standard: PCI Express 5.0 ...',
-    description: 'NVIDIA GeForce RTX 5080 Memory: 16GB GDDR7 CUDA Cores: 10752 AI Performance: 1801 AI TOPS Bus Standard: PCI Express 5.0 Engine Clock OC mode: 2730 MHz Engine Clock Default mode: 2700 MHz (Boost Clock) Memory Speed: 30 Gbps Memory Interface: 256-bit 1 Year Warranty',
-    specifications: {
-      'Memory': 'GDDR7 16GB',
-      'Interface': 'PCI Express 5.0'
-    },
-    stock: 10,
-    sku: '90YV0M30-M0NA00',
-    featured: false,
-    newProduct: true,
-    tags: ['gpu', 'graphics card', 'asus', 'gaminggpu', 'ray tracing', '4k gaming']
-  },
-  {
-    id: 'gpu-026',
-    name: 'ASUS ROG Astral GeForce RTX 5080 16 GB GDDR7 OC Edition Graphic Card | 90YV0LV0-M0NA00',
-    slug: 'asus-rog-astral-geforce-rtx-5080-16-gb-gddr7-oc-edition-graphic-card-90yv0lv0-m0na00',
-    brand: 'Asus',
-    category: 'graphics-cards',
-    subcategory: 'Gaming GPU',
-    price: 12439,
-    salePrice: 10339,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0LV0-M0NA00-2-1746384959204.png?v=1770246557', 'https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Asus-ROG-Astral-GeForce-RTX-5080-90YV0LV0-M0NA00-1_ba3b0ee5-bfbb-4b1e-8e03-c84b4ef7960e.webp?v=1793360593', 'https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Asus-ROG-Astral-GeForce-RTX-5080-90YV0LV0-M0NA00-2_c82a5910-cea7-4e43-b19f-2edf9abb1a61.webp?v=1793360593', 'https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Asus-ROG-Astral-GeForce-RTX-5080-90YV0LV0-M0NA00-3_176b07e4-bff4-4847-aba8-1b0136ac27d3.webp?v=1793360593', 'https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Asus-ROG-Astral-GeForce-RTX-5080-90YV0LV0-M0NA00-4_ae77bdcf-5490-43fa-af63-52ee8a5f6b64.webp?v=1793360592', 'https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Asus-ROG-Astral-GeForce-RTX-5080-90YV0LV0-M0NA00-5_a1c669a0-aafd-49d4-a2e1-b92f6f86a7cb.webp?v=1793360592', 'https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Asus-ROG-Astral-GeForce-RTX-5080-90YV0LV0-M0NA00-6_20542508-af2e-4b3f-ba42-e4807fdf1a1e.webp?v=1793360593'],
-    shortDescription: 'NVIDIA GeForce RTX 5080 16 GB GDDR7 Memory Speed: 30 GBps Engine Clock: 2790 MHz CUDA Cores: 10752 Memory Interface: 256...',
-    description: 'NVIDIA GeForce RTX 5080 16 GB GDDR7 Memory Speed: 30 GBps Engine Clock: 2790 MHz CUDA Cores: 10752 Memory Interface: 256-bit',
-    specifications: {
-      'Brand': 'Asus',
-      'SKU': '90YV0LV0-M0NA00',
-      'Warranty': '1 Year'
-    },
-    stock: 10,
-    sku: '90YV0LV0-M0NA00',
-    featured: false,
-    newProduct: true,
-    tags: ['gpu', 'graphics card', 'asus', 'gaminggpu', 'ray tracing', '4k gaming']
-  },
-  {
-    id: 'gpu-027',
-    name: 'HP NVIDIA RTX A1000 Graphics Card with Mini Bracket, 2304 CUDA Cores, GDDR6 8GB 128-bit Memory, 4x Mini DisplayPort Outputs, PCI Express 4.0, 1417 MHz Boost Clock, 1 Year Warranty | AV8J4AA',
-    slug: 'hp-nvidia-rtx-a1000-graphics-card-with-mini-bracket-2304-cuda-cores-gddr6-8gb-128-bit-memory-4x-mini-displayport-outputs-pci-express-40-1417-mhz-boost-clock-1-year-warranty-av8j4aa',
-    brand: 'HP',
-    category: 'graphics-cards',
-    subcategory: 'Workstation GPU',
-    price: 2379,
-    salePrice: 1879,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/HP-NVIDIA-RTX-A1000-Graphics-Card-AV8J4AA-1_207c4723-3b15-4b22-beec-8d3d017d5ab2.webp?v=1793440602', 'https://cdn.shopify.com/s/files/1/0789/9784/8281/files/HP-NVIDIA-RTX-A1000-Graphics-Card-AV8J4AA-2_e28ec33c-16af-4c63-84a7-0b0c34681e6c.webp?v=1793440602', 'https://cdn.shopify.com/s/files/1/0789/9784/8281/files/HP-NVIDIA-RTX-A1000-Graphics-Card-AV8J4AA-3_93eb31a6-690c-47af-b9fc-d335d4aa0265.webp?v=1793440603'],
-    shortDescription: 'Graphics: NVIDIA RTX A1000 Graphics Memory: 8GB GDDR6 Boost Clock: 1417MHz CUDA Cores: 2,304 Memory Interface: 128-bit I...',
-    description: 'Graphics: NVIDIA RTX A1000 Graphics Memory: 8GB GDDR6 Boost Clock: 1417MHz CUDA Cores: 2,304 Memory Interface: 128-bit Interface: PCI Express 4.0 Power Consumption: 50W Warranty: 1 Year',
-    specifications: {
-      'Memory': 'GDDR6 8GB',
-      'Cores': '2304 CUDA Cores',
-      'Interface': 'PCI Express 4.0'
-    },
-    stock: 10,
-    sku: 'AV8J4AA',
-    featured: false,
-    newProduct: false,
-    tags: ['gpu', 'graphics card', 'hp', 'workstationgpu', 'ray tracing']
-  },
-  {
-    id: 'gpu-028',
-    name: 'PNY GeForce RTX 5060 Ti OC Dual Fan Graphics Card, 4608 CUDA Cores, GDDR7 16GB 128-bit Memory, PCI Express 5.0, 2692 MHz Boost Clock, 28 Gbps Memory Clock, 1 Year Warranty | VCG5060T16DFXPB1-O',
-    slug: 'pny-geforce-rtx-5060-ti-oc-dual-fan-graphics-card-4608-cuda-cores-gddr7-16gb-128-bit-memory-pci-express-50-2692-mhz-boost-clock-28-gbps-memory-clock-1-year-warranty-vcg5060t16dfxpb1-o',
-    brand: 'PNY',
-    category: 'graphics-cards',
-    subcategory: 'Gaming GPU',
-    price: 4319,
-    salePrice: 3619,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/PNY-GeForce-RTX-5060-Ti-OC-GPU-VCG5060T16DFXPB1-O-1_3d84a691-0176-4d88-a1d7-b900ba6cabe5.webp?v=1793440608', 'https://cdn.shopify.com/s/files/1/0789/9784/8281/files/PNY-GeForce-RTX-5060-Ti-OC-GPU-VCG5060T16DFXPB1-O-2_1a20108c-c070-4704-8d8e-ecdbaad773a0.webp?v=1793440608', 'https://cdn.shopify.com/s/files/1/0789/9784/8281/files/PNY-GeForce-RTX-5060-Ti-OC-GPU-VCG5060T16DFXPB1-O-3_c21165f3-eb7e-4fe6-a5ec-27e648f26a9c.webp?v=1793440608', 'https://cdn.shopify.com/s/files/1/0789/9784/8281/files/PNY-GeForce-RTX-5060-Ti-OC-GPU-VCG5060T16DFXPB1-O-4_00f63a6f-8a1d-4385-bf8d-43a5ee74f2f4.webp?v=1793440608', 'https://cdn.shopify.com/s/files/1/0789/9784/8281/files/PNY-GeForce-RTX-5060-Ti-OC-GPU-VCG5060T16DFXPB1-O-5_e920d0b2-6a0d-4c48-a1be-78ed501ae06a.webp?v=1793440607', 'https://cdn.shopify.com/s/files/1/0789/9784/8281/files/PNY-GeForce-RTX-5060-Ti-OC-GPU-VCG5060T16DFXPB1-O-6_a7352729-d8d9-4c09-beee-1c22c10f689f.webp?v=1793440608'],
-    shortDescription: 'Graphics: NVIDIA GeForce RTX 5060 Ti Graphics Memory: 16GB GDDR7 Boost Clock: 2692MHz Core Clock: 2407MHz CUDA Cores: 4,...',
-    description: 'Graphics: NVIDIA GeForce RTX 5060 Ti Graphics Memory: 16GB GDDR7 Boost Clock: 2692MHz Core Clock: 2407MHz CUDA Cores: 4,608 Memory Speed: 28Gbps Memory Interface: 128-bit Interface: PCI Express 5.0 Recommended PSU: 600W Warranty: 1 Year',
-    specifications: {
-      'Memory': 'GDDR7 16GB',
-      'Cores': '4608 CUDA Cores',
-      'Interface': 'PCI Express 5.0'
-    },
-    stock: 10,
-    sku: 'VCG5060T16DFXPB1-O',
-    featured: false,
-    newProduct: true,
-    tags: ['gpu', 'graphics card', 'pny', 'gaminggpu', 'ray tracing', '4k gaming']
-  },
-  {
-    id: 'gpu-029',
-    name: 'PNY NVIDIA RTX PRO 5000 Blackwell Graphics Card, 14080 CUDA Cores, GDDR7 72GB 512-bit Memory, PCI Express 5.0, 1740 MHz Base Clock, 28 Gbps Memory Clock, 1 Year Warranty | VCNRTXPRO5000-72-E-DU',
-    slug: 'pny-nvidia-rtx-pro-5000-blackwell-graphics-card-14080-cuda-cores-gddr7-72gb-512-bit-memory-pci-express-50-1740-mhz-base-clock-28-gbps-memory-clock-1-year-warranty-vcnrtxpro5000-72-e-du',
-    brand: 'PNY',
-    category: 'graphics-cards',
-    subcategory: 'Workstation GPU',
-    price: 43779,
-    salePrice: 36679,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/PNY-NVIDIA-RTX-PRO-5000-Graphics-Card-VCNRTXPRO5000-72-E-DU-1_3c927d8d-212b-4ad5-a7f2-c2ca8acbcf26.webp?v=1793440607', 'https://cdn.shopify.com/s/files/1/0789/9784/8281/files/PNY-NVIDIA-RTX-PRO-5000-Graphics-Card-VCNRTXPRO5000-72-E-DU-2_68e5e07c-ff97-41ad-a285-27bc0c83d48b.webp?v=1793440607', 'https://cdn.shopify.com/s/files/1/0789/9784/8281/files/PNY-NVIDIA-RTX-PRO-5000-Graphics-Card-VCNRTXPRO5000-72-E-DU-3_29bf33d1-6e7a-47da-9638-61cae4178f3d.webp?v=1793440607', 'https://cdn.shopify.com/s/files/1/0789/9784/8281/files/PNY-NVIDIA-RTX-PRO-5000-Graphics-Card-VCNRTXPRO5000-72-E-DU-4_d96f486a-e020-41f2-9208-1e74f3d511ea.webp?v=1793440607', 'https://cdn.shopify.com/s/files/1/0789/9784/8281/files/PNY-NVIDIA-RTX-PRO-5000-Graphics-Card-VCNRTXPRO5000-72-E-DU-5_62d347cf-a6a2-4e6e-863f-c2c8ec9ba858.webp?v=1793440607'],
-    shortDescription: 'Graphics: NVIDIA RTX PRO 5000 Blackwell Graphics Memory: 72GB GDDR7 Base Clock: 1740MHz CUDA Cores: 14,080 Memory Speed:...',
-    description: 'Graphics: NVIDIA RTX PRO 5000 Blackwell Graphics Memory: 72GB GDDR7 Base Clock: 1740MHz CUDA Cores: 14,080 Memory Speed: 28Gbps Memory Interface: 512-bit Interface: PCI Express 5.0 Power Consumption: 300W Warranty: 1 Year',
-    specifications: {
-      'Memory': 'GDDR7 72GB',
-      'Cores': '14080 CUDA Cores',
-      'Interface': 'PCI Express 5.0'
-    },
-    stock: 10,
-    sku: 'VCNRTXPRO5000-72-E-DU',
-    featured: false,
-    newProduct: true,
-    tags: ['gpu', 'graphics card', 'pny', 'workstationgpu', 'ray tracing', '4k gaming']
-  },
-  {
-    id: '9651794542809',
-    name: 'HP NVIDIA RTX A400 Graphics Card with Mini Bracket, 768 CUDA Cores, GDDR6 4GB 64-bit Memory, 4x Mini DisplayPort Outputs, PCI Express 4.0, 96 GB/s Memory Bandwidth, Single Slot Low-Profile Design, 1 Year Warranty | AV8J3AA',
-    slug: 'hp-nvidia-rtx-a400-graphics-card-with-mini-bracket-768-cuda-cores-gddr6-4gb-64-bit-memory-4x-mini-displayport-outputs-pci-express-4-0-96-gb-s-memory-bandwidth-single-slot-low-profile-design-1-year-warranty-av8j3aa',
-    brand: 'HP',
-    category: 'graphics-cards',
-    subcategory: 'gpu',
-    price: 749,
-    salePrice: 749,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/HP-NVIDIA-RTX-A400-Graphics-Card-AV8J3AA-2_ffb9addf-1904-4822-ac65-673dfe7fdd25.webp?v=1772896426, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/HP-NVIDIA-RTX-A400-Graphics-Card-AV8J3AA-3_f6844403-0282-480d-8924-42aed8a0b4a2.webp?v=1772896426'],
-    shortDescription: 'HP NVIDIA RTX A400 Graphics Card with Mini Bracket, 768 CUDA Cores, GDDR6 4GB 64-bit Memory, 4x Mini DisplayPort Outputs, PCI Express 4.0, 96 GB/s Memory Bandwidth, Single Slot Low-Profile Design, 1 Year Warranty | AV8J3AA',
-    description: '<ul>\n<li>NVIDIA RTX A400</li>\n<li>Memory: 4GB GDDR6</li>\n<li>CUDA Cores: 768</li>\n<li>Tensor Cores: 24 (3rd Generation)</li>\n<li>RT Cores: 6 (2nd Generation)</li>\n<li>AI Performance: 33.6 AI TOPS</li>\n<li>Single-Precision Performance: 2.7 TFLOPS</li>\n<li>Bus Standard: PCI Express 4.0 x4</li>\n<li>Memory Bandwidth: 96 GB/s</li>\n<li>Memory Interface: 64-bit</li>\n<li>Architecture: NVIDIA Ampere</li>\n<li>1 Year Warranty</li>\n</ul>',
-    specifications: {
-
-    },
-    stock: 10,
-    sku: 'AV8J3AA',
-    featured: false,
-    newProduct: true,
-    tags: ['Graphic Cards', 'PC Components', 'Workstation Graphic Cards']
-  },
-  {
-    id: '9432716738777',
-    name: 'HP Nvidia RTX 2000 Ada Workstation Graphics Card, GDDR6 16 GB 128-bit Memory, 4 x Mini DP 1.4a Outputs, PCI Express 4.0, 224  GB/s Memory Bandwidth, 1 Year Warranty | 8D6B8AA',
-    slug: 'hp-nvidia-rtx-2000-ada-workstation-graphics-card-gddr6-16gb-128-bit-memory-4-x-mini-dp-1-4a-outputs-pci-express-4-0-224-gb-s-memory-bandwidth-1-year-warranty-8d6b8aa-8d6b8aa',
-    brand: 'HP',
-    category: 'graphics-cards',
-    subcategory: 'gpu',
-    price: 2829,
-    salePrice: 2829,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/8D6B8AA-1.png?v=1789034828, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/8D6B8AA-4.png?v=1789034828, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/8D6B8AA-5.png?v=1789034828, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/8D6B8AA-3.png?v=1789034828, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/8D6B8AA-2.png?v=1789034828'],
-    shortDescription: 'HP Nvidia RTX 2000 Ada Workstation Graphics Card, GDDR6 16 GB 128-bit Memory, 4 x Mini DP 1.4a Outputs, PCI Express 4.0, 224  GB/s Memory Bandwidth, 1 Year Warranty | 8D6B8AA',
-    description: '<ul>\n<li>NVIDIA RTX 2000 Ada</li>\n<li>Memory: GDDR6 16 GB</li>\n<li>Memory Interface: 128-bit</li>\n<li>Boost Clock: N/A</li>\n<li>CUDA Cores: 2816</li>\n<li>Tensor Cores: 88 (4th Generation)</li>\n<li>RT Cores: 22 (3rd Generation)</li>\n<li>AI Performance: N/A</li>\n<li>Memory Bandwidth: 224  GB/s</li>\n</ul>',
-    specifications: {
-
-    },
-    stock: 10,
-    sku: '8D6B8AA',
-    featured: false,
-    newProduct: true,
-    tags: ['Graphic Cards', 'PC Components', 'Workstation Graphic Cards']
-  },
-  {
-    id: '10316951748825',
-    name: 'Zotac Twin Edge GeForce RTX 5060 OC Graphics Card, GDDR7 8GB 128-bit Memory, DisplayPort, HDMI Outputs, PCI Express 5.0, IceStorm Cooling System, White , 1 Year Warranty | ZT-B50600Q-10M',
-    slug: 'zotac-twin-edge-geforce-rtx-5060-oc-graphics-card-gddr7-8gb-128-bit-memory-displayport-hdmi-outputs-pci-express-5-0-icestorm-cooling-system-white-1-year-warranty-zt-b50600q-10m',
-    brand: 'Zotac',
-    category: 'graphics-cards',
-    subcategory: 'gpu',
-    price: 1999,
-    salePrice: 1999,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Zotac-Twin-Edge-GeForce-RTX-5060-OC-Graphics-Card-ZT-B50600Q-10M-1_20e3796b-3233-483b-8b8b-587d2fdacf27.webp?v=1790594024, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Zotac-Twin-Edge-GeForce-RTX-5060-OC-Graphics-Card-ZT-B50600Q-10M-2_75324144-d0a2-421f-88dd-4f59f9ab82e1.webp?v=1790594024, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Zotac-Twin-Edge-GeForce-RTX-5060-OC-Graphics-Card-ZT-B50600Q-10M-3_16fe0f00-1f54-4d0f-9993-353ce650a232.webp?v=1790594024, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Zotac-Twin-Edge-GeForce-RTX-5060-OC-Graphics-Card-ZT-B50600Q-10M-4_fc9e9184-65d4-44e0-9b98-4351934ed5bc.webp?v=1790594024, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Zotac-Twin-Edge-GeForce-RTX-5060-OC-Graphics-Card-ZT-B50600Q-10M-5_8d4597e2-5d40-472f-b04b-d3470daf3813.webp?v=1790594024, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Zotac-Twin-Edge-GeForce-RTX-5060-OC-Graphics-Card-ZT-B50600Q-10M-6_d66dd3c3-968d-4887-afa4-8212d43b3445.webp?v=1790594024'],
-    shortDescription: 'Zotac Twin Edge GeForce RTX 5060 OC Graphics Card, GDDR7 8GB 128-bit Memory, DisplayPort, HDMI Outputs, PCI Express 5.0, IceStorm Cooling System, White , 1 Year Warranty | ZT-B50600Q-10M',
-    description: '<ul>\n<li>Graphics Engine: NVIDIA GeForce RTX 5060</li>\n<li>Engine Clock: 2527 MHz</li>\n<li>Video Memory: 8GB GDDR7</li>\n<li>AI Performance: 614 AI TOPs</li>\n<li>CUDA Cores: 3840</li>\n<li>Memory Speed: 28 Gbps</li>\n<li>Memory Interface: 128-bit</li>\n<li>Bus Standard: PCIe 5.0</li>\n</ul>',
-    specifications: {
-
-    },
-    stock: 10,
-    sku: 'ZT-B50600Q-10M',
-    featured: false,
-    newProduct: true,
-    tags: ['Gaming', 'Gaming Graphic Cards', 'Gaming PC Components', 'GeForce RTX 50 Series Graphics Cards', 'Graphic Cards', 'NVIDIA RTX & Blackwell', 'PC Components', 'RTX 40-50 Series Graphics Cards']
-  },
-  {
-    id: '10309821268185',
-    name: 'Zotac Gaming GeForce RTX 5060 Twin Edge Plus Graphics Card, GDDR7 8GB 128-bit Memory, HDMI & DP Outputs, PCI Express 5.0, 2497 MHz Engine Clock, 28 Gbps Memory Clock, 1 Year Warranty | ZT-B50600E2-10M',
-    slug: 'zotac-gaming-geforce-rtx-5060-twin-edge-plus-graphics-card-gddr7-8gb-128-bit-memory-hdmi-dp-outputs-pci-express-5-0-2497-mhz-engine-clock-28-gbps-memory-clock-1-year-warranty-zt-b50600e2-10m',
-    brand: 'Zotac',
-    category: 'graphics-cards',
-    subcategory: 'gpu',
-    price: 1939,
-    salePrice: 1939,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Zotac-Gaming-RTX-5060-Twin-Edge-Plus-ZT-B50600E2-10M-1_2cb0d1bb-be67-4ae1-ba75-af365244c1c4.webp?v=1789992601, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Zotac-Gaming-RTX-5060-Twin-Edge-Plus-ZT-B50600E2-10M-2_573c0de3-072f-4239-a23d-f8493a2097b9.webp?v=1789992601, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Zotac-Gaming-RTX-5060-Twin-Edge-Plus-ZT-B50600E2-10M-3_2f83445e-7324-4635-b637-8b3ae74b7583.webp?v=1789992601, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Zotac-Gaming-RTX-5060-Twin-Edge-Plus-ZT-B50600E2-10M-4_54d63b81-02d2-4b11-88e3-692a4279b383.webp?v=1789992601, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Zotac-Gaming-RTX-5060-Twin-Edge-Plus-ZT-B50600E2-10M-5_df3f717f-c10b-4113-bd68-edae375ccb29.webp?v=1789992601, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Zotac-Gaming-RTX-5060-Twin-Edge-Plus-ZT-B50600E2-10M-6_a637f5f7-42c6-4ea6-8047-84535b35266e.webp?v=1789992601'],
-    shortDescription: 'Zotac Gaming GeForce RTX 5060 Twin Edge Plus Graphics Card, GDDR7 8GB 128-bit Memory, HDMI & DP Outputs, PCI Express 5.0, 2497 MHz Engine Clock, 28 Gbps Memory Clock, 1 Year Warranty | ZT-B50600E2-10M',
-    description: '<ul>\n<li>Graphics Engine: NVIDIA GeForce RTX 5060</li>\n<li>Engine Clock: 2497 MHz</li>\n<li>Video Memory: 8GB GDDR7</li>\n<li>AI Performance: 614 AI TOPS</li>\n<li>CUDA Cores: 3840</li>\n<li>Memory Speed: 28 Gbps</li>\n<li>Memory Interface: 128-bit</li>\n<li>Bus Standard: PCIe 5.0</li>\n</ul>',
-    specifications: {
-
-    },
-    stock: 10,
-    sku: 'ZT-B50600E2-10M',
-    featured: false,
-    newProduct: true,
-    tags: ['Gaming', 'Gaming Graphic Cards', 'Gaming PC Components', 'Graphic Cards', 'PC Components', 'RTX 40-50 Series Graphics Cards']
-  },
-  {
-    id: '10309821169881',
-    name: 'Zotac Gaming GeForce RTX 5060 Twin Edge Graphics Card, GDDR7 8GB 128-bit Memory, HDMI & DP Outputs, PCI Express 5.0, 2497 MHz Engine Clock, 28 Gbps Memory Clock, 1 Year Warranty | ZT-B50600E-10M',
-    slug: 'zotac-gaming-geforce-rtx-5060-twin-edge-graphics-card-gddr7-8gb-128-bit-memory-hdmi-dp-outputs-pci-express-5-0-2497-mhz-engine-clock-28-gbps-memory-clock-1-year-warranty-zt-b50600e-10m',
-    brand: 'Zotac',
-    category: 'graphics-cards',
-    subcategory: 'gpu',
-    price: 2009,
-    salePrice: 2009,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Zotac-Gaming-RTX-5060-Twin-Edge-ZT-B50600E-10M-1_dec5b32d-1324-4b20-a90b-95d16f9e3c16.webp?v=1789992593, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Zotac-Gaming-RTX-5060-Twin-Edge-ZT-B50600E-10M-2_84937bc7-183b-4ae4-9005-c4acd9c215be.webp?v=1789992593, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Zotac-Gaming-RTX-5060-Twin-Edge-ZT-B50600E-10M-3_990771fc-7ff9-4b9f-b461-cca5c63ff909.webp?v=1789992593, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Zotac-Gaming-RTX-5060-Twin-Edge-ZT-B50600E-10M-4_81242646-4f4a-4b26-ab84-618b326011b0.webp?v=1789992593, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Zotac-Gaming-RTX-5060-Twin-Edge-ZT-B50600E-10M-5_7090b434-71c9-4619-a170-bb2012ed2dd5.webp?v=1789992593, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Zotac-Gaming-RTX-5060-Twin-Edge-ZT-B50600E-10M-6_e6bcef6d-6fbe-4d67-938d-45c9373b68f0.webp?v=1789992594'],
-    shortDescription: 'Zotac Gaming GeForce RTX 5060 Twin Edge Graphics Card, GDDR7 8GB 128-bit Memory, HDMI & DP Outputs, PCI Express 5.0, 2497 MHz Engine Clock, 28 Gbps Memory Clock, 1 Year Warranty | ZT-B50600E-10M',
-    description: '<ul>\n<li>Graphics Engine: NVIDIA GeForce RTX 5060</li>\n<li>Engine Clock: 2497 MHz</li>\n<li>Video Memory: 8GB GDDR7</li>\n<li>AI Performance: 614 AI TOPS</li>\n<li>CUDA Cores: 3840</li>\n<li>Memory Speed: 28 Gbps</li>\n<li>Memory Interface: 128-bit</li>\n<li>Bus Standard: PCIe 5.0</li>\n</ul>',
-    specifications: {
-
-    },
-    stock: 10,
-    sku: 'ZT-B50600E-10M',
-    featured: false,
-    newProduct: true,
-    tags: ['Gaming', 'Gaming Graphic Cards', 'Gaming PC Components', 'Graphic Cards', 'PC Components', 'RTX 40-50 Series Graphics Cards']
-  },
-  {
-    id: '9432714674393',
-    name: 'Zotac Gaming GeForce RTX 5060 Twin Edge OC Edition Graphics Card, GDDR7 8 GB 128-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2527 MHz Boost Clock, 28  GBps Memory Clock, 1 Year Warranty | ZT-B50600H-10M',
-    slug: 'zotac-gaming-geforce-rtx-5060-twin-edge-oc-edition-graphics-card-gddr7-8gb-128-bit-memory-hdmi-2-1b-dp-2-1b-outputs-pci-express-5-0-2527-mhz-boost-clock-28-gbps-memory-clock-1-year-warranty-zt-b50600h-10m-zt-b50600h-10m',
-    brand: 'Zotac',
-    category: 'graphics-cards',
-    subcategory: 'gpu',
-    price: 2009,
-    salePrice: 2009,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/ZT-B50600H-10M-2-1752340107783.png?v=1770247990, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/ZT-B50600H-10M-1_d398524c-1c71-4669-a2be-b0f70b1b95e1.webp?v=1793360662, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/ZT-B50600H-10M-2_ddaac862-84df-4d39-b3e8-18ff3ecf5078.webp?v=1793360662, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/ZT-B50600H-10M-3_aa424213-f567-408d-82f0-1ff5b9ade6e3.webp?v=1793360662, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/ZT-B50600H-10M-4_408beac0-a8fa-47d5-95f9-3979a78bef37.webp?v=1793360662, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/ZT-B50600H-10M-5_598444ed-6306-4ce7-9767-2b0253c51167.webp?v=1793360662, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/ZT-B50600H-10M-6_0c22eb4c-1f68-4a69-94c3-073f2a1690d8.webp?v=1793360662'],
-    shortDescription: 'Zotac Gaming GeForce RTX 5060 Twin Edge OC Edition Graphics Card, GDDR7 8 GB 128-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2527 MHz Boost Clock, 28  GBps Memory Clock, 1 Year Warranty | ZT-B50600H-10M',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5060</li>\n<li>Memory: GDDR7 8 GB</li>\n<li>Memory Interface: 128-bit</li>\n<li>Boost Clock: Up to 2527 MHz</li>\n<li>CUDA Cores: 3840</li>\n<li>AI Performance: N/A</li>\n<li>Memory Speed: 28  GBps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Power Connectors: 1 x 8-pin</li>\n</ul>',
-    specifications: {
-
-    },
-    stock: 10,
-    sku: 'ZT-B50600H-10M',
-    featured: false,
-    newProduct: true,
-    tags: ['Gaming', 'Gaming Graphic Cards', 'GeForce RTX 50 Series Graphics Cards', 'Graphic Cards', 'NVIDIA RTX & Blackwell', 'PC Components', 'RTX 40-50 Series Graphics Cards']
-  },
-  {
-    id: '9432705827033',
-    name: 'Gigabyte EAGLE MAX OC GeForce RTX 5060 Graphics Card, GDDR7 8GB 128-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2550 MHz Core Clock, 28 Gbps Memory Clock, TrIple Windforce Hawk Fans, 1 Year Warranty | GV-N5060EAGLEMAX-OC-8',
-    slug: 'gigabyte-eagle-max-oc-geforce-rtx-5060-graphics-card-gddr7-8gb-128-bit-memory-hdmi-2-1b-dp-2-1b-outputs-pci-express-5-0-2550-mhz-core-clock-28-gbps-memory-clock-triple-windforce-hawk-fans-1-year-warranty-gv-n5060eaglemax-oc-8-gv-n5060eaglemax-oc-8',
-    brand: 'Gigabyte',
-    category: 'graphics-cards',
-    subcategory: 'gpu',
-    price: 2009,
-    salePrice: 2009,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5060-GV-N5060EAGLEMAX-OC-8-2.webp?v=1772595642, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5060-GV-N5060EAGLEMAX-OC-8-3.webp?v=1772595642, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5060-GV-N5060EAGLEMAX-OC-8-1.webp?v=1772595642, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5060-GV-N5060EAGLEMAX-OC-8-4.webp?v=1772029096, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5060-GV-N5060EAGLEMAX-OC-8-5.webp?v=1772029095, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5060-GV-N5060EAGLEMAX-OC-8-6.webp?v=1772029095'],
-    shortDescription: 'Gigabyte EAGLE MAX OC GeForce RTX 5060 Graphics Card, GDDR7 8GB 128-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2550 MHz Core Clock, 28 Gbps Memory Clock, TrIple Windforce Hawk Fans, 1 Year Warranty | GV-N5060EAGLEMAX-OC-8',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5060</li>\n<li>Memory: GDDR7 8GB</li>\n<li>Engine Clock: 2550 MHz</li>\n<li>CUDA Core: 3840</li>\n<li>AI Performance: 614 TOPs</li>\n<li>Memory Speed: 28 Gbps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 128-bit</li>\n<li>Power Connectors: 1 x 8-pin</li>\n<li>1 Year Warranty</li>\n</ul>',
-    specifications: {
-
-    },
-    stock: 10,
-    sku: 'GV-N5060EAGLEMAX-OC-8',
-    featured: false,
-    newProduct: true,
-    tags: ['Gaming', 'Gaming Graphic Cards', 'Gaming PC Components', 'Graphic Cards', 'PC Components', 'RTX 40-50 Series Graphics Cards']
-  },
-  {
-    id: '9432705761497',
-    name: 'Gigabyte WINDFORCE MAX OC GeForce RTX 5060 Graphics Card, GDDR7 8GB 128-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2512 MHz Core Clock, 28 Gbps Memory Clock, Dual Windforce Hawk Fans, 1 Year Warranty | GV-N5060WF2MAX-OC-8GD',
-    slug: 'gigabyte-windforce-max-oc-geforce-rtx-5060-graphics-card-gddr7-8gb-128-bit-memory-hdmi-2-1b-dp-2-1b-outputs-pci-express-5-0-2512-mhz-core-clock-28-gbps-memory-clock-dual-windforce-hawk-fans-1-year-warranty-gv-n5060wf2max-oc-8gd-gv-n5060wf2max-oc-8gd',
-    brand: 'Gigabyte',
-    category: 'graphics-cards',
-    subcategory: 'gpu',
-    price: 1969,
-    salePrice: 1969,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5060-GV-N5060WF2MAX-OC-8GD-2.webp?v=1772595600, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5060-GV-N5060WF2MAX-OC-8GD-3.webp?v=1772595600, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5060-GV-N5060WF2MAX-OC-8GD-1.webp?v=1772595600, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5060-GV-N5060WF2MAX-OC-8GD-4.webp?v=1772595600, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5060-GV-N5060WF2MAX-OC-8GD-6.webp?v=1772029095, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5060-GV-N5060WF2MAX-OC-8GD-5.webp?v=1772029095'],
-    shortDescription: 'Gigabyte WINDFORCE MAX OC GeForce RTX 5060 Graphics Card, GDDR7 8GB 128-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2512 MHz Core Clock, 28 Gbps Memory Clock, Dual Windforce Hawk Fans, 1 Year Warranty | GV-N5060WF2MAX-OC-8GD',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5060</li>\n<li>Memory: GDDR7 8GB</li>\n<li>Engine Clock: 2512 MHz</li>\n<li>CUDA Core: 3840</li>\n<li>AI Performance: 614 TOPs</li>\n<li>Memory Speed: 28 Gbps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 128-bit</li>\n<li>Power Connectors: 1 x 8-pin</li>\n<li>1 Year Warranty</li>\n</ul>',
-    specifications: {
-
-    },
-    stock: 10,
-    sku: 'GV-N5060WF2MAX-OC-8GD',
-    featured: false,
-    newProduct: true,
-    tags: ['Gaming', 'Gaming Graphic Cards', 'Gaming PC Components', 'Graphic Cards', 'PC Components', 'RTX 40-50 Series Graphics Cards']
-  },
-  {
-    id: '9443522478297',
-    name: 'Gigabyte GAMING OC GeForce RTX 5070 Ti Graphics Card, GDDR7 16GB 256-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2588 MHz Core Clock, 28 Gbps Memory Clock, Triple Windforce Hawk Fans, RGB Halo, Dual BIOS, 1 Year Warranty |',
-    slug: 'gigabyte-gaming-oc-geforce-rtx-5070-ti-graphics-card-gddr7-16gb-256-bit-memory-hdmi-2-1b-dp-2-1b-outputs-pci-express-5-0-2588-mhz-core-clock-28-gbps-memory-clock-triple-windforce-hawk-fans-rgb-halo-dual-bios-1-year-warranty',
-    brand: 'Gigabyte',
-    category: 'graphics-cards',
-    subcategory: 'gpu',
-    price: 6039,
-    salePrice: 6039,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5070Ti-GV-N507TGAMING-OC-16-1-1762424162975_d877e264-0021-4d59-a486-b4dd3434ed93.webp?v=1773247447, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5070Ti-GV-N507TGAMING-OC-16-2-1762424163008.webp?v=1773247447, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5070Ti-GV-N507TGAMING-OC-16-3-1762424163008.webp?v=1773247447, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5070Ti-GV-N507TGAMING-OC-16-4-1762424163012.webp?v=1773247447, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5070Ti-GV-N507TGAMING-OC-16-5-1762424163012.webp?v=1773247447, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5070Ti-GV-N507TGAMING-OC-16-6-1762424163013.webp?v=1773247447'],
-    shortDescription: 'Gigabyte GAMING OC GeForce RTX 5070 Ti Graphics Card, GDDR7 16GB 256-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2588 MHz Core Clock, 28 Gbps Memory Clock, Triple Windforce Hawk Fans, RGB Halo, Dual BIOS, 1 Year Warranty |',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5070 Ti</li>\n<li>Memory: GDDR7 16GB</li>\n<li>Engine Clock: 2588 MHz</li>\n<li>CUDA Core: 8960</li>\n<li>AI Performance: 1406 TOPS</li>\n<li>Memory Speed: 28 Gbps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 256-bit</li>\n<li>Power Connectors: 1 x 16-pin</li>\n<li>1 Year Warranty</li>\n</ul>',
-    specifications: {
-
-    },
-    stock: 10,
-    sku: 'GV-N507TGAMING-OC-16',
-    featured: false,
-    newProduct: true,
-    tags: ['Gaming', 'Gaming Graphic Cards', 'Gaming PC Components', 'Graphic Cards', 'PC Components', 'RTX 40-50 Series Graphics Cards']
-  },
-  {
-    id: '9432705728729',
-    name: 'Gigabyte WINDFORCE OC GeForce RTX 5060 Graphics Card, GDDR7 8GB 128-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2512 MHz Core Clock, 28 Gbps Memory Clock, 1 Year Warranty | GV-N5060WF2-OC-8GD',
-    slug: 'gigabyte-windforce-oc-geforce-rtx-5060-graphics-card-gddr7-8gb-128-bit-memory-hdmi-2-1b-dp-2-1b-outputs-pci-express-5-0-2512-mhz-core-clock-28-gbps-memory-clock-1-year-warranty-gv-n5060wf2-oc-8gd-gv-n5060wf2-oc-8gd',
-    brand: 'Gigabyte',
-    category: 'graphics-cards',
-    subcategory: 'gpu',
-    price: 1979,
-    salePrice: 1979,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5060-GV-N5060WF2-OC-8GD-1.webp?v=1778333485, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5060-GV-N5060WF2-OC-8GD-2.webp?v=1778333484, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5060-GV-N5060WF2-OC-8GD-3.webp?v=1778333484, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5060-GV-N5060WF2-OC-8GD-4.webp?v=1778333484, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5060-GV-N5060WF2-OC-8GD-5.webp?v=1778333485, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5060-GV-N5060WF2-OC-8GD-6.webp?v=1778333484'],
-    shortDescription: 'Gigabyte WINDFORCE OC GeForce RTX 5060 Graphics Card, GDDR7 8GB 128-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2512 MHz Core Clock, 28 Gbps Memory Clock, 1 Year Warranty | GV-N5060WF2-OC-8GD',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5060</li>\n<li>Memory: GDDR7 8GB</li>\n<li>Engine Clock: 2512 MHz</li>\n<li>CUDA Core: 3840</li>\n<li>AI Performance: 614 TOPs</li>\n<li>Memory Speed: 28 Gbps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 128-bit</li>\n<li>Power Connectors: 1 x 8-pin</li>\n<li>1 Year Warranty</li>\n</ul>',
-    specifications: {
-
-    },
-    stock: 10,
-    sku: 'GV-N5060WF2-OC-8GD',
-    featured: false,
-    newProduct: true,
-    tags: ['Gaming', 'Gaming Graphic Cards', 'Gaming PC Components', 'Graphic Cards', 'PC Components', 'RTX 40-50 Series Graphics Cards']
-  },
-  {
-    id: '9443522281689',
-    name: 'Gigabyte EAGLE OC ICE GeForce RTX 5070 Small Form Factor Graphics Card, GDDR7 12GB 192-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2587 MHz Core Clock, 28 Gbps Memory Clock, Triple Windforce Hawk Fans, White, 1 Year Warranty |',
-    slug: 'gigabyte-eagle-oc-ice-geforce-rtx-5070-small-form-factor-graphics-card-gddr7-12gb-192-bit-memory-hdmi-2-1b-dp-2-1b-outputs-pci-express-5-0-2587-mhz-core-clock-28-gbps-memory-clock-triple-windforce-hawk-fans-white-1-year-warranty',
-    brand: 'Gigabyte',
-    category: 'graphics-cards',
-    subcategory: 'gpu',
-    price: 3729,
-    salePrice: 3729,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5070-GV-N5070EAGLE-OC-ICE-1-1762424162566_23af2fcb-df33-4e34-a07a-ccf4754fc8fd.webp?v=1773247449, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5070-GV-N5070EAGLE-OC-ICE-2-1762424162566.webp?v=1773247448, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5070-GV-N5070EAGLE-OC-ICE-3-1762424162605.webp?v=1773247448, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5070-GV-N5070EAGLE-OC-ICE-4-1762424162640.webp?v=1773247448, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5070-GV-N5070EAGLE-OC-ICE-5-1762424162641.webp?v=1773247449, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5070-GV-N5070EAGLE-OC-ICE-6-1762424162642.webp?v=1773247448'],
-    shortDescription: 'Gigabyte EAGLE OC ICE GeForce RTX 5070 Small Form Factor Graphics Card, GDDR7 12GB 192-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2587 MHz Core Clock, 28 Gbps Memory Clock, Triple Windforce Hawk Fans, White, 1 Year Warranty |',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5070</li>\n<li>Memory: GDDR7 12GB</li>\n<li>Engine Clock: 2587 MHz</li>\n<li>CUDA Core: 6144</li>\n<li>AI Performance: 988 TOPS</li>\n<li>Memory Speed: 28 Gbps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 192-bit</li>\n<li>Power Connectors: 1 x 16-pin</li>\n<li>1 Year Warranty</li>\n</ul>',
-    specifications: {
-
-    },
-    stock: 10,
-    sku: 'GV-N5070EAGLE OC-ICE',
-    featured: false,
-    newProduct: true,
-    tags: ['Gaming', 'Gaming Graphic Cards', 'Gaming PC Components', 'GeForce RTX 50 Series Graphics Cards', 'Graphic Cards', 'NVIDIA RTX & Blackwell', 'PC Components', 'RTX 40-50 Series Graphics Cards']
-  },
-  {
-    id: '9432715952345',
-    name: 'Msi GeForce RTX 5060 Ti VENTUS 2X OC PLUS Graphics Card, GDDR7 8GB 128-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2617 MHz OC Boost Clock, 28 Gbps Memory Clock, Dual Stormforce Fans, 1 Year Warranty | 912-V536-023',
-    slug: 'msi-geforce-rtx-5060-ti-ventus-2x-oc-plus-graphics-card-gddr7-8gb-128-bit-memory-hdmi-2-1b-dp-2-1b-outputs-pci-express-5-0-2617-mhz-oc-boost-clock-28-gbps-memory-clock-dual-stormforce-fans-1-year-warranty-912-v536-023-912-v536-023',
-    brand: 'MSI',
-    category: 'graphics-cards',
-    subcategory: 'gpu',
-    price: 2179,
-    salePrice: 2179,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Msi-RTX-5060-Ti-VENTUS-2X-OC-PLUS-Graphics-Card-912-V536-023-2-1766568185915.webp?v=1770248387, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Msi-RTX-5060-Ti-VENTUS-2X-OC-PLUS-Graphics-Card-912-V536-023-1_5d312082-eb1f-47d8-b53f-6d4c32a063b9.webp?v=1793360659, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Msi-RTX-5060-Ti-VENTUS-2X-OC-PLUS-Graphics-Card-912-V536-023-2_046a02be-e492-4b5c-8e0c-25ca6266a300.webp?v=1793360659, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Msi-RTX-5060-Ti-VENTUS-2X-OC-PLUS-Graphics-Card-912-V536-023-3_d095bbee-09d9-4a8f-80cc-b83f711f4e22.webp?v=1793360659, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Msi-RTX-5060-Ti-VENTUS-2X-OC-PLUS-Graphics-Card-912-V536-023-4_670b38c4-817d-4dff-9196-ea7c62af8898.webp?v=1793360659, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Msi-RTX-5060-Ti-VENTUS-2X-OC-PLUS-Graphics-Card-912-V536-023-5_36772dc9-3411-4613-ac31-7a99722174b3.webp?v=1793360659'],
-    shortDescription: 'Msi GeForce RTX 5060 Ti VENTUS 2X OC PLUS Graphics Card, GDDR7 8GB 128-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2617 MHz OC Boost Clock, 28 Gbps Memory Clock, Dual Stormforce Fans, 1 Year Warranty | 912-V536-023',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5060 Ti</li>\n<li>Memory: GDDR7 8GB</li>\n<li>Memory Interface: 128-bit</li>\n<li>Extreme Performance: 2617 MHz (MSI Center)</li>\n<li>Engine Clock Boost: 2602 MHz</li>\n<li>CUDA Core: 4608</li>\n<li>Memory Speed: 28 Gbps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Power Connectors: 1 x 8-pin</li>\n<li>1 Year Warranty</li>\n</ul>',
-    specifications: {
-
-    },
-    stock: 10,
-    sku: '912-V536-023',
-    featured: false,
-    newProduct: true,
-    tags: ['Gaming', 'Gaming Graphic Cards', 'Gaming PC Components', 'Graphic Cards', 'PC Components', 'RTX 40-50 Series Graphics Cards']
-  },
-  {
-    id: '10309821137113',
-    name: 'Gigabyte GeForce RTX 5070 EAGLE OC SFF Graphics Card, GDDR7 12GB 192-bit Memory, HDMI & DP Outputs, PCI Express 5.0, 2587 MHz Engine Clock, 28 Gbps Memory Clock, 1 Year Warranty | GV-N5070EAGLE-OC-12GD',
-    slug: 'gigabyte-geforce-rtx-5070-eagle-oc-sff-graphics-card-gddr7-12gb-192-bit-memory-hdmi-dp-outputs-pci-express-5-0-2587-mhz-engine-clock-28-gbps-memory-clock-1-year-warranty-gv-n5070eagle-oc-12gd',
-    brand: 'GIGABYTE',
-    category: 'graphics-cards',
-    subcategory: 'gpu',
-    price: 4019,
-    salePrice: 4019,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-RTX-5070-EAGLE-OC-GV-N5070EAGLE-OC-12GD-1_480eb18e-ad5f-44a8-b21f-744c22476df7.webp?v=1789992593, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-RTX-5070-EAGLE-OC-GV-N5070EAGLE-OC-12GD-2_519ae75d-284c-4045-8502-eb152151761a.webp?v=1789992593, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-RTX-5070-EAGLE-OC-GV-N5070EAGLE-OC-12GD-3_703448c3-cdec-49c3-ad98-e98f3dbd26eb.webp?v=1789992593, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-RTX-5070-EAGLE-OC-GV-N5070EAGLE-OC-12GD-4_6b6552ae-c603-402c-bf51-beb4ca75f355.webp?v=1789992593, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-RTX-5070-EAGLE-OC-GV-N5070EAGLE-OC-12GD-5_1d1d2b96-4526-440e-af52-224a139d7b12.webp?v=1789992593, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-RTX-5070-EAGLE-OC-GV-N5070EAGLE-OC-12GD-6_f0a2233a-e863-45bc-959d-4251297fefbe.webp?v=1789992593'],
-    shortDescription: 'Gigabyte GeForce RTX 5070 EAGLE OC SFF Graphics Card, GDDR7 12GB 192-bit Memory, HDMI & DP Outputs, PCI Express 5.0, 2587 MHz Engine Clock, 28 Gbps Memory Clock, 1 Year Warranty | GV-N5070EAGLE-OC-12GD',
-    description: '<ul>\n<li>Graphics Engine: NVIDIA GeForce RTX 5070</li>\n<li>Engine Clock: 2587 MHz</li>\n<li>Video Memory: 12GB GDDR7</li>\n<li>AI Performance: 1406 AI TOPS</li>\n<li>CUDA Cores: 6144</li>\n<li>Memory Speed: 28 Gbps</li>\n<li>Memory Interface: 192-bit</li>\n<li>Bus Standard: PCIe 5.0</li>\n</ul>',
-    specifications: {
-
-    },
-    stock: 10,
-    sku: 'GV-N5070EAGLE-OC-12GD',
-    featured: false,
-    newProduct: true,
-    tags: ['Gaming', 'Gaming Graphic Cards', 'Gaming PC Components', 'Graphic Cards', 'PC Components', 'RTX 40-50 Series Graphics Cards']
-  },
-  {
-    id: '10316951945433',
-    name: 'MSI GeForce RTX 5070 World of Warcraft Midnight Edition OC Graphics Card, GDDR7 12GB 192-bit Memory, DisplayPort, HDMI Outputs, PCI Express 5.0, 1 Year Warranty | 912-V532-255',
-    slug: 'msi-geforce-rtx-5070-world-of-warcraft-midnight-edition-oc-graphics-card-gddr7-12gb-192-bit-memory-displayport-hdmi-outputs-pci-express-5-0-1-year-warranty-912-v532-255',
-    brand: 'MSI',
-    category: 'graphics-cards',
-    subcategory: 'gpu',
-    price: 3799,
-    salePrice: 3799,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/MSI-RTX-5070-Warcraft-Edition-OC-Graphics-Card-912-V532-255-1_10392f04-f21c-4585-9519-2c55255ef62a.webp?v=1790594032, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/MSI-RTX-5070-Warcraft-Edition-OC-Graphics-Card-912-V532-255-2_a2b05bdc-77df-4b9a-bd3f-b3847ae1da11.webp?v=1790594033, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/MSI-RTX-5070-Warcraft-Edition-OC-Graphics-Card-912-V532-255-3_45f9509a-6292-42ea-a282-ddd7d4f30674.webp?v=1790594032, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/MSI-RTX-5070-Warcraft-Edition-OC-Graphics-Card-912-V532-255-4_6824c30e-b165-4680-813d-074e1de27fdd.webp?v=1790594032, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/MSI-RTX-5070-Warcraft-Edition-OC-Graphics-Card-912-V532-255-5_99801bf3-78d1-40be-bc70-4c72b126e195.webp?v=1790594032, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/MSI-RTX-5070-Warcraft-Edition-OC-Graphics-Card-912-V532-255-6_a0cfee79-523b-44fa-af7a-e48db4178f56.webp?v=1790594032'],
-    shortDescription: 'MSI GeForce RTX 5070 World of Warcraft Midnight Edition OC Graphics Card, GDDR7 12GB 192-bit Memory, DisplayPort, HDMI Outputs, PCI Express 5.0, 1 Year Warranty | 912-V532-255',
-    description: '<ul>\n<li>Graphics Engine: NVIDIA GeForce RTX 5070</li>\n<li>Engine Clock: 2625 MHz</li>\n<li>Video Memory: 12GB GDDR7</li>\n<li>AI Performance: 1406 AI TOPS</li>\n<li>CUDA Cores: 6144</li>\n<li>Memory Speed: 28 Gbps</li>\n<li>Memory Interface: 192-bit</li>\n<li>Bus Standard: PCIe 5.0</li>\n</ul>',
-    specifications: {
-
-    },
-    stock: 10,
-    sku: '912-V532-255',
-    featured: false,
-    newProduct: true,
-    tags: ['Gaming', 'Gaming Graphic Cards', 'Gaming PC Components', 'GeForce RTX 50 Series Graphics Cards', 'Graphic Cards', 'NVIDIA RTX & Blackwell', 'PC Components', 'RTX 40-50 Series Graphics Cards']
-  },
-  {
-    id: '9432714936537',
-    name: 'Zotac Gaming GeForce RTX 5060 Ti Twin Edge OC Edition Graphics Card, GDDR7 8 GB 128-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2602 MHz Boost Clock, 28  GBps Memory Clock, 1 Year Warranty | ZT-B50610H-10M',
-    slug: 'zotac-gaming-geforce-rtx-5060-ti-twin-edge-oc-edition-graphics-card-gddr7-8gb-128-bit-memory-hdmi-2-1b-dp-2-1b-outputs-pci-express-5-0-2602-mhz-boost-clock-28-gbps-memory-clock-1-year-warranty-zt-b50610h-10m-zt-b50610h-10m',
-    brand: 'Zotac',
-    category: 'graphics-cards',
-    subcategory: 'gpu',
-    price: 2119,
-    salePrice: 2119,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/ZT-B50610H-10M-2-1752340108162.png?v=1770248056, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/ZT-B50610H-10M-1_2a186b54-0a46-4c51-87e5-33883a0c2d0d.webp?v=1793360661, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/ZT-B50610H-10M-2_7da75aa0-c818-4b32-a900-e6b35770bc37.webp?v=1793360661, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/ZT-B50610H-10M-3_2cfb6686-8604-4dc5-80ab-018cdc652e4d.webp?v=1793360661, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/ZT-B50610H-10M-4_68fb2482-1d0f-4eae-997f-0d2a14ed515e.webp?v=1793360661, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/ZT-B50610H-10M-5_ad3ceb25-0934-47e0-bee0-67d11dd150d1.webp?v=1793360661, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/ZT-B50610H-10M-6_f1ee331b-d9b2-4892-8cbc-100894c784db.webp?v=1793360661'],
-    shortDescription: 'Zotac Gaming GeForce RTX 5060 Ti Twin Edge OC Edition Graphics Card, GDDR7 8 GB 128-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2602 MHz Boost Clock, 28  GBps Memory Clock, 1 Year Warranty | ZT-B50610H-10M',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5060 Ti</li>\n<li>Memory: GDDR7 8 GB</li>\n<li>Memory Interface: 128-bit</li>\n<li>Boost Clock: Up to 2602 MHz</li>\n<li>CUDA Cores: 4608</li>\n<li>AI Performance: N/A</li>\n<li>Memory Speed: 28  GBps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Power Connectors: 1 x 8-pin</li>\n</ul>',
-    specifications: {
-
-    },
-    stock: 10,
-    sku: 'ZT-B50610H-10M',
-    featured: false,
-    newProduct: true,
-    tags: ['Gaming', 'Gaming Graphic Cards', 'Graphic Cards', 'PC Components', 'RTX 40-50 Series Graphics Cards']
-  },
-  {
-    id: '9651794477273',
-    name: 'PNY NVIDIA RTX PRO 2000 Blackwell Workstation Graphics Card, 4352 CUDA Cores, GDDR7 16GB 128-bit Memory, 4x Mini DisplayPort 2.1 Outputs, PCI Express 5.0, 288 GB/s Memory Bandwidth, Single Slot Blower Cooling System, 1 Year Warranty | VCNRTXPRO2000-SB',
-    slug: 'pny-nvidia-rtx-pro-2000-blackwell-workstation-graphics-card-4352-cuda-cores-gddr7-16gb-128-bit-memory-4x-mini-displayport-2-1-outputs-pci-express-5-0-288-gb-s-memory-bandwidth-single-slot-blower-cooling-system-1-year-warranty-vcnrtxpro2000-sb',
-    brand: 'PNY',
-    category: 'graphics-cards',
-    subcategory: 'gpu',
-    price: 3259,
-    salePrice: 3259,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/PNY-NVIDIA-RTX-PRO-2000-Blackwell-Workstation-Graphics-Card-VCNRTXPRO2000-SB-2_1b02f624-54bc-4ab2-b4dc-ad64f9c71c78.webp?v=1772896414, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/PNY-NVIDIA-RTX-PRO-2000-Blackwell-Workstation-Graphics-Card-VCNRTXPRO2000-SB-3_7b60553b-253c-4e91-b060-2ef614659482.webp?v=1772896414, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/PNY-NVIDIA-RTX-PRO-2000-Blackwell-Workstation-Graphics-Card-VCNRTXPRO2000-SB-4_2e40b05f-8d62-40c4-89af-13ba31dd2b64.webp?v=1772896414'],
-    shortDescription: 'PNY NVIDIA RTX PRO 2000 Blackwell Workstation Graphics Card, 4352 CUDA Cores, GDDR7 16GB 128-bit Memory, 4x Mini DisplayPort 2.1 Outputs, PCI Express 5.0, 288 GB/s Memory Bandwidth, Single Slot Blower Cooling System, 1 Year Warranty | VCNRTXPRO2000-SB',
-    description: '<ul>\n<li>NVIDIA RTX PRO 2000 Blackwell</li>\n<li>Memory: 16GB GDDR7 with ECC</li>\n<li>CUDA Cores: 4352</li>\n<li>Tensor Cores: 136 (5th Generation)</li>\n<li>RT Cores: 34 (4th Generation)</li>\n<li>AI Performance: 545 AI TOPS</li>\n<li>Single-Precision Performance: 17 TFLOPS</li>\n<li>Bus Standard: PCI Express 5.0 x8</li>\n<li>Memory Bandwidth: 288 GB/s</li>\n<li>Memory Interface: 128-bit</li>\n<li>Architecture: NVIDIA Blackwell</li>\n<li>1 Year Warranty</li>\n</ul>',
-    specifications: {
-
-    },
-    stock: 10,
-    sku: 'VCNRTXPRO2000-SB',
-    featured: false,
-    newProduct: true,
-    tags: ['Graphic Cards', 'PC Components', 'Workstation Graphic Cards']
-  },
-  {
-    id: '9443521888473',
-    name: 'Gigabyte GAMING OC GeForce RTX 4070 Ti Super Graphics Card, GDDR6X 16GB 256-bit Memory, HDMI 2.1a & DP 1.4a Outputs, PCI Express 4.0, 2655 MHz Core Clock, 21 Gbps Memory Clock, RGB Fusion, Dual BIOS, Triple Fan Windforce Cooling System, 1 Year Warranty',
-    slug: 'gigabyte-gaming-oc-geforce-rtx-4070-ti-super-graphics-card-gddr6x-16gb-256-bit-memory-hdmi-2-1a-dp-1-4a-outputs-pci-express-4-0-2655-mhz-core-clock-21-gbps-memory-clock-rgb-fusion-dual-bios-triple-fan-windforce-cooling-system-1-year-warranty',
-    brand: 'Gigabyte',
-    category: 'graphics-cards',
-    subcategory: 'gpu',
-    price: 3789,
-    salePrice: 3789,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-4070Ti-Super-GV-N407TSGAMING-OC-1-1-1762526146399_102a426a-0eb9-4fcf-a699-8440bc9d174d.webp?v=1773247450, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-4070Ti-Super-GV-N407TSGAMING-OC-1-2-1762526146435.webp?v=1773247450, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-4070Ti-Super-GV-N407TSGAMING-OC-1-3-1762526146442.webp?v=1773247450, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-4070Ti-Super-GV-N407TSGAMING-OC-1-4-1762526146445.webp?v=1773247450, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-4070Ti-Super-GV-N407TSGAMING-OC-1-5-1762526146445.webp?v=1773247450, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-4070Ti-Super-GV-N407TSGAMING-OC-1-6-1762526146461.webp?v=1773247450'],
-    shortDescription: 'Gigabyte GAMING OC GeForce RTX 4070 Ti Super Graphics Card, GDDR6X 16GB 256-bit Memory, HDMI 2.1a & DP 1.4a Outputs, PCI Express 4.0, 2655 MHz Core Clock, 21 Gbps Memory Clock, RGB Fusion, Dual BIOS, Triple Fan Windforce Cooling System, 1 Year Warranty',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 4070 Ti Super</li>\n<li>Memory: GDDR6X 16GB</li>\n<li>Engine Clock: 2655 MHz</li>\n<li>CUDA Core: 8448</li>\n<li>AI Performance: 706 TOPS</li>\n<li>Memory Speed: 21 Gbps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 256-bit</li>\n<li>Power Connectors: 1 x 16-pin</li>\n<li>1 Year Warranty</li>\n</ul>',
-    specifications: {
-
-    },
-    stock: 10,
-    sku: 'GV-N407TSGAMING-OC-1',
-    featured: false,
-    newProduct: true,
-    tags: ['Gaming', 'Gaming Graphic Cards', 'Gaming PC Components', 'Graphic Cards', 'PC Components', 'RTX 40-50 Series Graphics Cards']
-  },
-  {
-    id: '9432709529817',
-    name: 'ASUS ROG Astral GeForce RTX 5090 32 GB GDDR7 OC Edition Graphic Card | 90YV0LW0-M0NA00',
-    slug: 'asus-rog-astral-geforce-rtx-5090-32gb-gddr7-oc-edition-graphic-card-90yv0lw0-m0na00-90yv0lw0-m0na00',
-    brand: 'Asus',
-    category: 'graphics-cards',
-    subcategory: 'gpu',
-    price: 33829,
-    salePrice: 33829,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0LW0-M0NA00-2-1746384957232.png?v=1770246484, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0LW0-M0NA00-1_fd6d184a-396b-4e74-a3f5-dd627867079b.webp?v=1793360596, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0LW0-M0NA00-2_9e87feca-b23e-4abf-97d3-70e5e8501c9c.webp?v=1793360597, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0LW0-M0NA00-3_30eeaa84-30d6-43b1-b4c1-d5613f4d1d00.webp?v=1793360597, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0LW0-M0NA00-4_bab29ca6-849e-48e8-a534-8a8bf7c96ec8.webp?v=1793360597, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0LW0-M0NA00-5_20f06221-3987-4a82-a5fb-488e46b1bf81.webp?v=1793360596, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0LW0-M0NA00-6_fa97baef-1f0f-4bfb-ae1d-4042a97fcd39.webp?v=1793360597, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0LW0-M0NA00-7_31168197-0381-4b89-b40a-19f7957ba220.webp?v=1793360597'],
-    shortDescription: 'ASUS ROG Astral GeForce RTX 5090 32 GB GDDR7 OC Edition Graphic Card | 90YV0LW0-M0NA00',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5090</li>\n<li>32 GB GDDR7</li>\n<li>Memory Speed: 28  GBps</li>\n<li>Engine Clock: 2610 MHz</li>\n<li>CUDA Cores: 21760</li>\n<li>Memory Interface: 512-bit</li>\n</ul>',
-    specifications: {
-
-    },
-    stock: 10,
-    sku: '90YV0LW0-M0NA00',
-    featured: false,
-    newProduct: true,
-    tags: ['Gaming', 'Gaming Graphic Cards', 'Graphic Cards', 'PC Components', 'RTX 40-50 Series Graphics Cards']
-  },
-  {
-    id: '9432703500505',
-    name: 'Msi GeForce RTX 5060 Ti VENTUS 2X OC PLUS Graphics Card, GDDR7 8GB 128-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2617 MHz OC Boost Clock, 28 Gbps Memory Clock, 1 Year Warranty | 912-V536-024-001',
-    slug: 'msi-geforce-rtx-5060-ti-ventus-2x-oc-plus-graphics-card-gddr7-16gb-128-bit-memory-hdmi-2-1b-dp-2-1b-outputs-pci-express-5-0-2617-mhz-oc-boost-clock-28-gbps-memory-clock-1-year-warranty-912-v536-024-001-912-v536-024-001',
-    brand: 'MSI',
-    category: 'graphics-cards',
-    subcategory: 'gpu',
-    price: 2229,
-    salePrice: 2229,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/MSI-GeForce-RTX-5060Ti-912-V536-024-001-2-1762264115831.webp?v=1770247201'],
-    shortDescription: 'Msi GeForce RTX 5060 Ti VENTUS 2X OC PLUS Graphics Card, GDDR7 8GB 128-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2617 MHz OC Boost Clock, 28 Gbps Memory Clock, 1 Year Warranty | 912-V536-024-001',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5060 Ti</li>\n<li>Memory: GDDR7 8GB</li>\n<li>Memory Interface: 128-bit</li>\n<li>Extreme Performance: 2617 MHz (MSI Center)</li>\n<li>Engine Clock Boost: 2602 MHz</li>\n<li>CUDA Core: 4608</li>\n<li>Memory Speed: 28 Gbps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Power Connectors: 1 x 8-pin</li>\n<li>1 Year Warranty</li>\n</ul>',
-    specifications: {
-
-    },
-    stock: 10,
-    sku: '912-V536-024-001',
-    featured: false,
-    newProduct: true,
-    tags: ['Gaming', 'Gaming Graphic Cards', 'Gaming PC Components', 'Graphic Cards', 'PC Components', 'RTX 40-50 Series Graphics Cards']
-  },
-  {
-    id: '10316952010969',
-    name: 'Gigabyte Radeon RX 9070 XT Gaming OC Ice Graphics Card, GDDR6 16GB 256-bit Memory, DisplayPort, HDMI Outputs, PCI Express 5.0, WINDFORCE Cooling System, White, 1 Year Warranty | GV-R907XGAMING-OC-ICE',
-    slug: 'gigabyte-radeon-rx-9070-xt-gaming-oc-ice-graphics-card-gddr6-16gb-256-bit-memory-displayport-hdmi-outputs-pci-express-5-0-windforce-cooling-system-white-1-year-warranty-gv-r907xgaming-oc-ice',
-    brand: 'GIGABYTE',
-    category: 'graphics-cards',
-    subcategory: 'gpu',
-    price: 3999,
-    salePrice: 3999,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-Radeon-RX-9070-XT-OC-Graphics-Card-GV-R907XGAMING-OC-ICE-1_c6db8cb0-e800-46df-b954-9bc819286a4c.webp?v=1790594032, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-Radeon-RX-9070-XT-OC-Graphics-Card-GV-R907XGAMING-OC-ICE-2_636d331f-30d4-4959-9bae-bdc3a7eb7fd6.webp?v=1790594032, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-Radeon-RX-9070-XT-OC-Graphics-Card-GV-R907XGAMING-OC-ICE-3_50b63f2c-185a-40c9-8b28-c55c05f3f7e0.webp?v=1790594032, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-Radeon-RX-9070-XT-OC-Graphics-Card-GV-R907XGAMING-OC-ICE-4_03699d0d-47d8-47b4-9c67-d295f79d2ea7.webp?v=1790594033, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-Radeon-RX-9070-XT-OC-Graphics-Card-GV-R907XGAMING-OC-ICE-5_a1673a7b-133b-4240-8e07-6b5f4c36a05d.webp?v=1790594032, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-Radeon-RX-9070-XT-OC-Graphics-Card-GV-R907XGAMING-OC-ICE-6_838fd8e2-a732-4c19-b22e-349d2d38866f.webp?v=1790594032'],
-    shortDescription: 'Gigabyte Radeon RX 9070 XT Gaming OC Ice Graphics Card, GDDR6 16GB 256-bit Memory, DisplayPort, HDMI Outputs, PCI Express 5.0, WINDFORCE Cooling System, White, 1 Year Warranty | GV-R907XGAMING-OC-ICE',
-    description: '<ul>\n<li>Graphics Engine: AMD Radeon RX 9070 XT</li>\n<li>Engine Clock: Up to 3060 MHz Boost</li>\n<li>Video Memory: 16GB GDDR6</li>\n<li>Stream Processors: 4096</li>\n<li>Memory Speed: 20 Gbps</li>\n<li>Memory Interface: 256-bit</li>\n<li>Bus Standard: PCIe 5.0</li>\n</ul>',
-    specifications: {
-
-    },
-    stock: 10,
-    sku: 'GV-R907XGAMING-OC-ICE',
-    featured: false,
-    newProduct: true,
-    tags: ['Gaming', 'Gaming Graphic Cards', 'Gaming PC Components', 'Graphic Cards', 'PC Components']
-  },
-  {
-    id: '10316951879897',
-    name: 'Gigabyte GeForce RTX 5060 Eagle OC Graphics Card, GDDR7 8GB 128-bit Memory, DisplayPort, HDMI Outputs, PCI Express 5.0, WINDFORCE Cooling System, 1 Year Warranty | GV-N5060EAGLE-OC-8GD',
-    slug: 'gigabyte-geforce-rtx-5060-eagle-oc-graphics-card-gddr7-8gb-128-bit-memory-displayport-hdmi-outputs-pci-express-5-0-windforce-cooling-system-1-year-warranty-gv-n5060eagle-oc-8gd',
-    brand: 'GIGABYTE',
-    category: 'graphics-cards',
-    subcategory: 'gpu',
-    price: 1979,
-    salePrice: 1979,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-RTX-5060-Eagle-OC-Graphics-Card-GV-N5060EAGLE-OC-8GD-1_0b5a17ca-2760-425d-9fc5-93a04b07e347.webp?v=1790594031, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-RTX-5060-Eagle-OC-Graphics-Card-GV-N5060EAGLE-OC-8GD-2_4549e09e-b7c4-41d6-b69d-ef5fd14bd855.webp?v=1790594030, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-RTX-5060-Eagle-OC-Graphics-Card-GV-N5060EAGLE-OC-8GD-3_260bb4cf-ee5d-4d41-b659-627b285a4120.webp?v=1790594030, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-RTX-5060-Eagle-OC-Graphics-Card-GV-N5060EAGLE-OC-8GD-4_332eb67a-96e0-457f-9fab-340e0f00b11d.webp?v=1790594030, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-RTX-5060-Eagle-OC-Graphics-Card-GV-N5060EAGLE-OC-8GD-5_6ca17fa9-0032-4f31-b28f-0ef86cb69e71.webp?v=1790594030, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-RTX-5060-Eagle-OC-Graphics-Card-GV-N5060EAGLE-OC-8GD-6_2281e39c-e8be-47be-a583-2092623868f9.webp?v=1790594030'],
-    shortDescription: 'Gigabyte GeForce RTX 5060 Eagle OC Graphics Card, GDDR7 8GB 128-bit Memory, DisplayPort, HDMI Outputs, PCI Express 5.0, WINDFORCE Cooling System, 1 Year Warranty | GV-N5060EAGLE-OC-8GD',
-    description: '<ul>\n<li>Graphics Engine: NVIDIA GeForce RTX 5060</li>\n<li>Engine Clock: 2550 MHz</li>\n<li>Video Memory: 8GB GDDR7</li>\n<li>AI Performance: 614 AI TOPS</li>\n<li>CUDA Cores: 3840</li>\n<li>Memory Speed: 28 Gbps</li>\n<li>Memory Interface: 128-bit</li>\n<li>Bus Standard: PCIe 5.0</li>\n</ul>',
-    specifications: {
-
-    },
-    stock: 10,
-    sku: 'GV-N5060EAGLE-OC-8GD',
-    featured: false,
-    newProduct: true,
-    tags: ['Gaming', 'Gaming Graphic Cards', 'Gaming PC Components', 'GeForce RTX 50 Series Graphics Cards', 'Graphic Cards', 'NVIDIA RTX & Blackwell', 'PC Components', 'RTX 40-50 Series Graphics Cards']
-  },
-  {
-    id: '10316951781593',
-    name: 'MSI GeForce RTX 5080 Ventus 3X OC Graphics Card, GDDR7 16GB 256-bit Memory, DisplayPort, HDMI Outputs, PCI Express 5.0, Torx Fan Cooling System, 1 Year Warranty | 912-V531-658',
-    slug: 'msi-geforce-rtx-5080-ventus-3x-oc-graphics-card-gddr7-16gb-256-bit-memory-displayport-hdmi-outputs-pci-express-5-0-torx-fan-cooling-system-1-year-warranty-912-v531-658',
-    brand: 'MSI',
-    category: 'graphics-cards',
-    subcategory: 'gpu',
-    price: 7599,
-    salePrice: 7599,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/MSI-RTX-5080-Ventus-3X-OC-Graphics-Card-912-V531-658-1_8875f9fc-6d9b-4c80-9230-a88d1ab3249b.webp?v=1790594024, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/MSI-RTX-5080-Ventus-3X-OC-Graphics-Card-912-V531-658-2_16d0077c-3280-4747-b1b6-fcfdec376624.webp?v=1790594023, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/MSI-RTX-5080-Ventus-3X-OC-Graphics-Card-912-V531-658-3_a501ee05-2481-4703-ba04-95503e6425d9.webp?v=1790594023, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/MSI-RTX-5080-Ventus-3X-OC-Graphics-Card-912-V531-658-4_1b4e8fb5-464f-449b-a34f-2e51ac4d7f8c.webp?v=1790594023, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/MSI-RTX-5080-Ventus-3X-OC-Graphics-Card-912-V531-658-5_b5f19b1c-7cce-4a88-ba67-a77a9200c7fe.webp?v=1790594023, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/MSI-RTX-5080-Ventus-3X-OC-Graphics-Card-912-V531-658-6_f07559c0-1a47-4ee9-9c5c-2f1adb15f48d.webp?v=1790594023'],
-    shortDescription: 'MSI GeForce RTX 5080 Ventus 3X OC Graphics Card, GDDR7 16GB 256-bit Memory, DisplayPort, HDMI Outputs, PCI Express 5.0, Torx Fan Cooling System, 1 Year Warranty | 912-V531-658',
-    description: '<ul>\n<li>Graphics Engine: NVIDIA GeForce RTX 5080</li>\n<li>Engine Clock: 2655 MHz</li>\n<li>Video Memory: 16GB GDDR7</li>\n<li>AI Performance: 1801 TOPs</li>\n<li>CUDA Cores: 10,752</li>\n<li>Memory Speed: 30 Gbps</li>\n<li>Memory Interface: 256-bit</li>\n<li>Bus Standard: PCIe 5.0</li>\n</ul>',
-    specifications: {
-
-    },
-    stock: 10,
-    sku: '912-V531-658',
-    featured: false,
-    newProduct: true,
-    tags: ['Gaming', 'Gaming Graphic Cards', 'Gaming PC Components', 'GeForce RTX 50 Series Graphics Cards', 'Graphic Cards', 'NVIDIA RTX & Blackwell', 'PC Components', 'RTX 40-50 Series Graphics Cards']
-  },
-  {
-    id: '10309821333721',
-    name: 'Gigabyte AORUS GeForce RTX 5070 Ti MASTER 16G Graphics Card, 16GB GDDR7, 256-bit Memory, HDMI 2.1b & DP 2.1b, PCI Express 5.0, 2670 MHz Core Clock, 28 Gbps, 1 Year Warranty | GV-N507TAORUS-M-16GD',
-    slug: 'gigabyte-aorus-geforce-rtx-5070-ti-master-16g-graphics-card-16gb-gddr7-256-bit-memory-hdmi-2-1b-dp-2-1b-pci-express-5-0-2670-mhz-core-clock-28-gbps-1-year-warranty-gv-n507taorus-m-16gd',
-    brand: 'Gigabyte',
-    category: 'graphics-cards',
-    subcategory: 'gpu',
-    price: 5259,
-    salePrice: 5259,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-AORUS-GeForce-RTX-5070-Ti-MASTER-16G-Graphics-Card-GV-N507TAORUS-M-16GD-1_bde80631-d84f-463e-89c6-a9368e45f3c2.webp?v=1789992601, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-AORUS-GeForce-RTX-5070-Ti-MASTER-16G-Graphics-Card-GV-N507TAORUS-M-16GD-2_0fe44113-2c07-4284-8441-fe6aaa5db66e.webp?v=1789992601, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-AORUS-GeForce-RTX-5070-Ti-MASTER-16G-Graphics-Card-GV-N507TAORUS-M-16GD-3_e0aa7d14-2770-4dc7-98c7-9d93a22e55a8.webp?v=1789992600, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-AORUS-GeForce-RTX-5070-Ti-MASTER-16G-Graphics-Card-GV-N507TAORUS-M-16GD-4_06066c16-659e-48ec-a64a-4503a0daca8b.webp?v=1789992601, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-AORUS-GeForce-RTX-5070-Ti-MASTER-16G-Graphics-Card-GV-N507TAORUS-M-16GD-5_e7fd3085-693b-4ee5-ac27-a0f77fa05a54.webp?v=1789992601, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-AORUS-GeForce-RTX-5070-Ti-MASTER-16G-Graphics-Card-GV-N507TAORUS-M-16GD-6_7e3d342c-84ef-47b6-9bf1-0d40e593372b.webp?v=1789992600'],
-    shortDescription: 'Gigabyte AORUS GeForce RTX 5070 Ti MASTER 16G Graphics Card, 16GB GDDR7, 256-bit Memory, HDMI 2.1b & DP 2.1b, PCI Express 5.0, 2670 MHz Core Clock, 28 Gbps, 1 Year Warranty | GV-N507TAORUS-M-16GD',
-    description: '<ul>\n <li>NVIDIA® GeForce RTX 5070 Ti</li>\n <li>Memory: 16GB GDDR7</li>\n <li>Memory Bus: 256-bit</li>\n <li>Core Clock: 2670 MHz</li>\n <li>CUDA Cores: 8960 Units</li>\n <li>Memory Speed: 28 Gbps</li>\n <li>Digital Max Resolution: 7680 x 4320</li>\n <li>Power Connectors: 16-pin (12V-2x6) x 1</li>\n <li>1 Year Warranty</li>\n </ul>',
-    specifications: {
-
-    },
-    stock: 10,
-    sku: 'GV-N507TAORUS-M-16GD',
-    featured: false,
-    newProduct: true,
-    tags: ['Gaming Graphic Cards', 'Graphic Cards', 'PC Components', 'RTX 40-50 Series Graphics Cards']
-  },
-  {
-    id: '10309821300953',
-    name: 'Gigabyte GeForce RTX 5060 Ti EAGLE MAX OC 8G Graphics Card, 8GB GDDR7, 128-bit Memory, HDMI 2.1b & DP 2.1b, PCI Express 5.0, 2617 MHz Core Clock, 28 Gbps, 1 Year Warranty | GV-N506TEAGLEMAX-OC-8',
-    slug: 'gigabyte-geforce-rtx-5060-ti-eagle-max-oc-8g-graphics-card-8gb-gddr7-128-bit-memory-hdmi-2-1b-dp-2-1b-pci-express-5-0-2617-mhz-core-clock-28-gbps-1-year-warranty-gv-n506teaglemax-oc-8',
-    brand: 'Gigabyte',
-    category: 'graphics-cards',
-    subcategory: 'gpu',
-    price: 2229,
-    salePrice: 2229,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5060-Ti-EAGLE-MAX-OC-8G-Graphics-Card-GV-N506TEAGLEMAX-OC-8-1_c1f15fb3-8caa-4926-a4cf-56225c653958.webp?v=1789992599, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5060-Ti-EAGLE-MAX-OC-8G-Graphics-Card-GV-N506TEAGLEMAX-OC-8-2_5540ec13-3dcf-4246-80a6-2bfad7655525.webp?v=1789992600, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5060-Ti-EAGLE-MAX-OC-8G-Graphics-Card-GV-N506TEAGLEMAX-OC-8-3_1f4f5437-349d-4f51-81ab-7789f933269e.webp?v=1789992600, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5060-Ti-EAGLE-MAX-OC-8G-Graphics-Card-GV-N506TEAGLEMAX-OC-8-4_f421d05a-1985-40b3-8604-bea6f1a684c0.webp?v=1789992600, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5060-Ti-EAGLE-MAX-OC-8G-Graphics-Card-GV-N506TEAGLEMAX-OC-8-5_25e2c589-3555-4412-9b0c-40c1e305c8c3.webp?v=1789992600, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5060-Ti-EAGLE-MAX-OC-8G-Graphics-Card-GV-N506TEAGLEMAX-OC-8-6_442c788d-19ac-4698-acfe-3a08a5f24858.webp?v=1789992600'],
-    shortDescription: 'Gigabyte GeForce RTX 5060 Ti EAGLE MAX OC 8G Graphics Card, 8GB GDDR7, 128-bit Memory, HDMI 2.1b & DP 2.1b, PCI Express 5.0, 2617 MHz Core Clock, 28 Gbps, 1 Year Warranty | GV-N506TEAGLEMAX-OC-8',
-    description: '<ul>\n <li>NVIDIA® GeForce RTX 5060 Ti</li>\n <li>Memory: 8GB GDDR7</li>\n <li>Memory Bus: 128-bit</li>\n <li>Core Clock: 2617 MHz</li>\n <li>CUDA Cores: 4608 Units</li>\n <li>Memory Speed: 28 Gbps</li>\n <li>Digital Max Resolution: 7680 x 4320</li>\n <li>Power Connectors: 8-pin x 1</li>\n <li>1 Year Warranty</li>\n </ul>',
-    specifications: {
-
-    },
-    stock: 10,
-    sku: 'GV-N506TEAGLEMAX-OC-8',
-    featured: false,
-    newProduct: true,
-    tags: ['Gaming Graphic Cards', 'Graphic Cards', 'PC Components', 'RTX 40-50 Series Graphics Cards']
-  },
-  {
-    id: '10309821202649',
-    name: 'MSI GeForce RTX 5070 VENTUS 2X OC White Graphics Card, GDDR7 12GB 192-bit Memory, HDMI & DP Outputs, PCI Express 5.0, 2557 MHz Engine Clock, 28 Gbps Memory Clock, White, 1 Year Warranty | 912-V532-004',
-    slug: 'msi-geforce-rtx-5070-ventus-2x-oc-white-graphics-card-gddr7-12gb-192-bit-memory-hdmi-dp-outputs-pci-express-5-0-2557-mhz-engine-clock-28-gbps-memory-clock-white-1-year-warranty-912-v532-004',
-    brand: 'MSI',
-    category: 'graphics-cards',
-    subcategory: 'gpu',
-    price: 3529,
-    salePrice: 3529,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/MSI-RTX-5070-VENTUS-2X-OC-White-912-V532-004-1_efe50bde-97a9-4b80-8faf-b2164cca2907.webp?v=1789992593, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/MSI-RTX-5070-VENTUS-2X-OC-White-912-V532-004-2_ad523d49-03cb-4748-ac93-2757d6cfdf74.webp?v=1789992593, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/MSI-RTX-5070-VENTUS-2X-OC-White-912-V532-004-3_a61255a8-87b5-4d5a-bf17-782d5601681a.webp?v=1789992593, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/MSI-RTX-5070-VENTUS-2X-OC-White-912-V532-004-4_ec0a9dd0-0f49-46dd-8c1e-2b54f83e47d7.webp?v=1789992593, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/MSI-RTX-5070-VENTUS-2X-OC-White-912-V532-004-5_accccfe4-c9ff-48bb-89d1-ec74b6e7bf93.webp?v=1789992593, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/MSI-RTX-5070-VENTUS-2X-OC-White-912-V532-004-6_622e7370-256b-42bf-8a9b-4fdcbc848301.webp?v=1789992593'],
-    shortDescription: 'MSI GeForce RTX 5070 VENTUS 2X OC White Graphics Card, GDDR7 12GB 192-bit Memory, HDMI & DP Outputs, PCI Express 5.0, 2557 MHz Engine Clock, 28 Gbps Memory Clock, White, 1 Year Warranty | 912-V532-004',
-    description: '<ul>\n<li>Graphics Engine: NVIDIA GeForce RTX 5070</li>\n<li>Engine Clock: 2557 MHz</li>\n<li>Video Memory: 12GB GDDR7</li>\n<li>AI Performance: 1406 AI TOPS</li>\n<li>CUDA Cores: 6144</li>\n<li>Memory Speed: 28 Gbps</li>\n<li>Memory Interface: 192-bit</li>\n<li>Bus Standard: PCIe 5.0</li>\n</ul>',
-    specifications: {
-
-    },
-    stock: 10,
-    sku: '912-V532-004',
-    featured: false,
-    newProduct: true,
-    tags: ['Gaming', 'Gaming Graphic Cards', 'Gaming PC Components', 'Graphic Cards', 'PC Components', 'RTX 40-50 Series Graphics Cards']
-  },
-  {
-    id: '10309821104345',
-    name: 'MSI GeForce RTX 5070 VENTUS 2X OC Graphics Card, GDDR7 12GB 192-bit Memory, HDMI & DP Outputs, PCI Express 5.0, 2557 MHz Engine Clock, 28 Gbps Memory Clock, 1 Year Warranty | 912-V532-009',
-    slug: 'msi-geforce-rtx-5070-ventus-2x-oc-graphics-card-gddr7-12gb-192-bit-memory-hdmi-dp-outputs-pci-express-5-0-2557-mhz-engine-clock-28-gbps-memory-clock-1-year-warranty-912-v532-009',
-    brand: 'MSI',
-    category: 'graphics-cards',
-    subcategory: 'gpu',
-    price: 3529,
-    salePrice: 3529,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/MSI-RTX-5070-VENTUS-2X-OC-912-V532-009-1_c2d892ac-f89c-4d83-a91e-4aa618256514.webp?v=1789992593, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/MSI-RTX-5070-VENTUS-2X-OC-912-V532-009-2_b4889768-f989-4cd6-a60c-1044de153be6.webp?v=1789992593, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/MSI-RTX-5070-VENTUS-2X-OC-912-V532-009-3_08389d76-ad33-46da-a8da-789993460722.webp?v=1789992593, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/MSI-RTX-5070-VENTUS-2X-OC-912-V532-009-4_4a49df36-20ce-42d0-b628-c1d4cfe79300.webp?v=1789992593, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/MSI-RTX-5070-VENTUS-2X-OC-912-V532-009-5_d87295e5-cb02-49c3-866a-0e52cd88b7f6.webp?v=1789992593, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/MSI-RTX-5070-VENTUS-2X-OC-912-V532-009-6_66bd21f8-1179-4f60-b6de-27375ad7a09d.webp?v=1789992592'],
-    shortDescription: 'MSI GeForce RTX 5070 VENTUS 2X OC Graphics Card, GDDR7 12GB 192-bit Memory, HDMI & DP Outputs, PCI Express 5.0, 2557 MHz Engine Clock, 28 Gbps Memory Clock, 1 Year Warranty | 912-V532-009',
-    description: '<ul>\n<li>Graphics Engine: NVIDIA GeForce RTX 5070</li>\n<li>Engine Clock: 2557 MHz</li>\n<li>Video Memory: 12GB GDDR7</li>\n<li>AI Performance: 1406 AI TOPS</li>\n<li>CUDA Cores: 6144</li>\n<li>Memory Speed: 28 Gbps</li>\n<li>Memory Interface: 192-bit</li>\n<li>Bus Standard: PCIe 5.0</li>\n</ul>',
-    specifications: {
-
-    },
-    stock: 10,
-    sku: '912-V532-009',
-    featured: false,
-    newProduct: true,
-    tags: ['Gaming', 'Gaming Graphic Cards', 'Gaming PC Components', 'Graphic Cards', 'PC Components', 'RTX 40-50 Series Graphics Cards']
-  },
-  {
-    id: '9849519767769',
-    name: 'ASRock AMD Radeon RX 9070 XT Taichi OC Graphics Card, 16GB GDDR6, Boost Clock Up to 3100MHz, 4096 Stream Processors, PCI Express 5.0, 1 Year Warranty | 90-GA5HZZ-00UANF',
-    slug: 'asrock-amd-radeon-rx-9070-xt-taichi-oc-graphics-card-16gb-gddr6-boost-clock-up-to-3100mhz-4096-stream-processors-pci-express-5-0-1-year-warranty-90-ga5hzz-00uanf',
-    brand: 'ASRock',
-    category: 'graphics-cards',
-    subcategory: 'gpu',
-    price: 4129,
-    salePrice: 4129,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/ASRock-Radeon-RX-9070-XT-Taichi-OC-Graphics-Card-90-GA5HZZ-00UANF-1_47d2a330-0a53-494d-9954-9dbb4780c6ef.webp?v=1787141889, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/ASRock-Radeon-RX-9070-XT-Taichi-OC-Graphics-Card-90-GA5HZZ-00UANF-2_72549395-5217-4da7-97e3-8653916ab469.webp?v=1787141890, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/ASRock-Radeon-RX-9070-XT-Taichi-OC-Graphics-Card-90-GA5HZZ-00UANF-3_1cebfbad-65c9-42f8-b6e8-f33b51520653.webp?v=1787141889, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/ASRock-Radeon-RX-9070-XT-Taichi-OC-Graphics-Card-90-GA5HZZ-00UANF-4_24a602b2-69a6-46de-ae0b-d6209e12054d.webp?v=1787141890, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/ASRock-Radeon-RX-9070-XT-Taichi-OC-Graphics-Card-90-GA5HZZ-00UANF-5_c2f2ffe5-59f8-4e83-9bc7-6dac35671649.webp?v=1787141889'],
-    shortDescription: 'ASRock AMD Radeon RX 9070 XT Taichi OC Graphics Card, 16GB GDDR6, Boost Clock Up to 3100MHz, 4096 Stream Processors, PCI Express 5.0, 1 Year Warranty | 90-GA5HZZ-00UANF',
-    description: '<ul>\n<li>Graphics: AMD Radeon RX 9070 XT</li>\n<li>Graphics Memory: 16GB GDDR6</li>\n<li>Boost Clock: Up to 3100MHz</li>\n<li>Game Clock: 2570MHz</li>\n<li>Stream Processors: 4096</li>\n<li>Memory Speed: 20Gbps</li>\n<li>Memory Interface: 256-bit</li>\n<li>Interface: PCI Express 5.0</li>\n<li>Maximum Resolution: 7680 × 4320</li>\n<li>Maximum Displays: 4</li>\n<li>Recommended PSU: 850W</li>\n<li>Warranty: 1 Year</li>\n</ul>',
-    specifications: {
-
-    },
-    stock: 10,
-    sku: '90-GA5HZZ-00UANF',
-    featured: false,
-    newProduct: true,
-    tags: ['AMD RX Graphic Cards', 'Gaming', 'Gaming Graphic Cards', 'Gaming PC Components', 'Graphic Cards', 'PC Components']
-  },
-  {
-    id: '9849519735001',
-    name: 'GIGABYTE GeForce RTX 5060 Ti WINDFORCE OC 8G Graphics Card, 8GB GDDR7, Boost Clock 2587MHz, 4608 CUDA Cores, PCI Express 5.0, 1 Year Warranty | GV-N506TWF2OC-8GD',
-    slug: 'gigabyte-geforce-rtx-5060-ti-windforce-oc-8g-graphics-card-8gb-gddr7-boost-clock-2587mhz-4608-cuda-cores-pci-express-5-0-1-year-warranty-gv-n506twf2oc-8gd',
-    brand: 'Gigabyte',
-    category: 'graphics-cards',
-    subcategory: 'gpu',
-    price: 2009,
-    salePrice: 2009,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/GIGABYTE-RTX-5060-Ti-WINDFORCE-OC-8G-Graphics-Card-GV-N506TWF2OC-8GD-1_62daefb6-807c-44f3-be25-d9e56b17df39.webp?v=1787141890, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/GIGABYTE-RTX-5060-Ti-WINDFORCE-OC-8G-Graphics-Card-GV-N506TWF2OC-8GD-2_bacb1a48-e997-4ae0-a243-0246b6690680.webp?v=1787141890, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/GIGABYTE-RTX-5060-Ti-WINDFORCE-OC-8G-Graphics-Card-GV-N506TWF2OC-8GD-3_0c6ef4ad-8908-4ea2-b8f2-b3a5fa435cd2.webp?v=1787141890, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/GIGABYTE-RTX-5060-Ti-WINDFORCE-OC-8G-Graphics-Card-GV-N506TWF2OC-8GD-4_e4e37d32-1719-4e4c-bae1-b3002e42c4b8.webp?v=1787141890, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/GIGABYTE-RTX-5060-Ti-WINDFORCE-OC-8G-Graphics-Card-GV-N506TWF2OC-8GD-5_d26359d9-5226-4454-b44c-b3545020f9da.webp?v=1787141890, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/GIGABYTE-RTX-5060-Ti-WINDFORCE-OC-8G-Graphics-Card-GV-N506TWF2OC-8GD-6_7a2fd794-2d5b-4c71-89c8-9083ce7a04fe.webp?v=1787141890'],
-    shortDescription: 'GIGABYTE GeForce RTX 5060 Ti WINDFORCE OC 8G Graphics Card, 8GB GDDR7, Boost Clock 2587MHz, 4608 CUDA Cores, PCI Express 5.0, 1 Year Warranty | GV-N506TWF2OC-8GD',
-    description: '<ul>\n<li>Graphics: NVIDIA GeForce RTX 5060 Ti</li>\n<li>Graphics Memory: 8GB GDDR7</li>\n<li>Boost Clock: 2587MHz</li>\n<li>CUDA Cores: 4608</li>\n<li>Memory Speed: 28Gbps</li>\n<li>Memory Interface: 128-bit</li>\n<li>Interface: PCI Express 5.0</li>\n<li>Maximum Resolution: 7680 × 4320</li>\n<li>Maximum Displays: 4</li>\n<li>Recommended PSU: 650W</li>\n<li>Warranty: 1 Year</li>\n</ul>',
-    specifications: {
-
-    },
-    stock: 10,
-    sku: 'GV-N506TWF2OC-8GD',
-    featured: false,
-    newProduct: true,
-    tags: ['Gaming', 'Gaming Graphic Cards', 'Gaming PC Components', 'GeForce RTX 50 Series Graphics Cards', 'Graphic Cards', 'NVIDIA RTX & Blackwell', 'PC Components', 'RTX 40-50 Series Graphics Cards']
-  },
-  {
-    id: '9849519702233',
-    name: 'GIGABYTE AORUS RTX 5090 AI BOX Water-Cooled External Graphics Card, 2407 GPU Clock, 32GB GDDR7 RAM, Thunderbolt 5, 850W Power Supply, Smart Deploy Multi-GPU, 1 Year Warranty | GV-N5090IXEB-32GD',
-    slug: 'gigabyte-aorus-rtx-5090-ai-box-water-cooled-external-graphics-card-2407-gpu-clock-32gb-gddr7-ram-thunderbolt-5-850w-power-supply-smart-deploy-multi-gpu-1-year-warranty-gv-n5090ixeb-32gd',
-    brand: 'Gigabyte',
-    category: 'graphics-cards',
-    subcategory: 'gpu',
-    price: 21729,
-    salePrice: 21729,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/GIGABYTE-AORUS-RTX-5090-AI-BOX-GV-N5090IXEB-32GD-1_46ceec01-4830-420d-a664-7c27efaf231f.webp?v=1787141891, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/GIGABYTE-AORUS-RTX-5090-AI-BOX-GV-N5090IXEB-32GD-2_82c381ab-7bf1-45e3-927b-b8d47e13a750.webp?v=1787141891, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/GIGABYTE-AORUS-RTX-5090-AI-BOX-GV-N5090IXEB-32GD-3_1f2ba7d6-9101-4fd5-ada3-12043cd60fb6.webp?v=1787141891, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/GIGABYTE-AORUS-RTX-5090-AI-BOX-GV-N5090IXEB-32GD-4_9ebf5917-f054-41bf-882e-1b3f46c5abfe.webp?v=1787141891, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/GIGABYTE-AORUS-RTX-5090-AI-BOX-GV-N5090IXEB-32GD-5_57b28531-6cf0-4fef-b1ab-f62cdc54261a.webp?v=1787141891, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/GIGABYTE-AORUS-RTX-5090-AI-BOX-GV-N5090IXEB-32GD-6_a06b0293-927f-401c-a280-ce79276c8639.webp?v=1787141891'],
-    shortDescription: 'GIGABYTE AORUS RTX 5090 AI BOX Water-Cooled External Graphics Card, 2407 GPU Clock, 32GB GDDR7 RAM, Thunderbolt 5, 850W Power Supply, Smart Deploy Multi-GPU, 1 Year Warranty | GV-N5090IXEB-32GD',
-    description: '<ul>\n<li>Graphics: NVIDIA GeForce RTX 5090</li>\n<li>Graphics Memory: 32GB GDDR7</li>\n<li>Boost Clock: 2407MHz</li>\n<li>CUDA Cores: 21,760</li>\n<li>Memory Speed: 28Gbps</li>\n<li>Memory Interface: 512-bit</li>\n<li>Interface: PCI Express 5.0</li>\n<li>Maximum Resolution: 7680 × 4320</li>\n<li>Maximum Displays: 4</li>\n<li>Video Outputs: 3 x DisplayPort 2.1, 1 x HDMI 2.1</li>\n<li>USB Ports: Thunderbolt 5 Type-C, USB 3.2 Gen 2 Type-C</li>\n<li>Power Supply: 850W, &gt;90% Efficiency</li>\n<li>Warranty: 1 Year</li>\n</ul>',
-    specifications: {
-
-    },
-    stock: 10,
-    sku: 'GV-N5090IXEB-32GD',
-    featured: false,
-    newProduct: true,
-    tags: ['Gaming', 'Gaming Graphic Cards', 'Gaming PC Components', 'Graphic Cards', 'PC Components', 'RTX 40-50 Series Graphics Cards']
-  },
-  {
-    id: '9849519669465',
-    name: 'Palit GeForce RTX 5060 Ti Infinity 3 Graphics Card, 16GB GDDR7, Boost Clock Up to 2572MHz, 4608 CUDA Cores, PCI Express 5.0, 1 Year Warranty | NE7506T019T1-GB2061S',
-    slug: 'palit-geforce-rtx-5060-ti-infinity-3-graphics-card-16gb-gddr7-boost-clock-up-to-2572mhz-4608-cuda-cores-pci-express-5-0-1-year-warranty-ne7506t019t1-gb2061s',
-    brand: 'Palit',
-    category: 'graphics-cards',
-    subcategory: 'gpu',
-    price: 3249,
-    salePrice: 3249,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Palit-RTX-5060-Ti-Infinity-3-Graphics-Card-NE7506T019T1-GB2061S-1_698a8f29-1cd2-4b16-92fa-9f964b560da3.webp?v=1787141891, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Palit-RTX-5060-Ti-Infinity-3-Graphics-Card-NE7506T019T1-GB2061S-2_41ec40b6-0182-40c9-8aba-c505900eb96b.webp?v=1787141891, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Palit-RTX-5060-Ti-Infinity-3-Graphics-Card-NE7506T019T1-GB2061S-3_40eec95b-1bd9-4187-aacf-591c35bde364.webp?v=1787141891, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Palit-RTX-5060-Ti-Infinity-3-Graphics-Card-NE7506T019T1-GB2061S-4_37ac5c4a-65e5-4f3d-9070-180b12b19f56.webp?v=1787141891, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Palit-RTX-5060-Ti-Infinity-3-Graphics-Card-NE7506T019T1-GB2061S-5_a4d7e58f-df3d-4f4a-bd70-03f20f37c29a.webp?v=1787141891, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Palit-RTX-5060-Ti-Infinity-3-Graphics-Card-NE7506T019T1-GB2061S-6_3707aa42-dd14-4da3-942e-9a99c48f4cf7.webp?v=1787141891'],
-    shortDescription: 'Palit GeForce RTX 5060 Ti Infinity 3 Graphics Card, 16GB GDDR7, Boost Clock Up to 2572MHz, 4608 CUDA Cores, PCI Express 5.0, 1 Year Warranty | NE7506T019T1-GB2061S',
-    description: '<ul>\n<li>Graphics: NVIDIA GeForce RTX 5060 Ti</li>\n<li>Graphics Memory: 16GB GDDR7</li>\n<li>Boost Clock: Up to 2572MHz</li>\n<li>Graphics Clock: 2407MHz</li>\n<li>CUDA Cores: 4608</li>\n<li>Memory Speed: 28Gbps</li>\n<li>Memory Interface: 128-bit</li>\n<li>Interface: PCI Express 5.0</li>\n<li>Maximum Resolution: 7680 × 4320</li>\n<li>Maximum Displays: 4</li>\n<li>Recommended PSU: 600W</li>\n<li>Warranty: 1 Year</li>\n</ul>',
-    specifications: {
-
-    },
-    stock: 10,
-    sku: 'NE7506T019T1-GB2061S',
-    featured: false,
-    newProduct: true,
-    tags: ['Gaming', 'Gaming Graphic Cards', 'Gaming PC Components', 'Graphic Cards', 'PC Components', 'RTX 40-50 Series Graphics Cards']
-  },
-  {
-    id: '9810315051225',
-    name: 'Zotac Gaming Twin Edge GeForce RTX 4060 Graphics Card, GDDR6 8GB 128-bit Memory, DisplayPort 1.4a, HDMI Outputs, PCI Express 4.0, IceStorm 2.0 Cooling System, 242 AI TOPS, 1 Year Warranty | ZT-D40600E-10M',
-    slug: 'zotac-gaming-twin-edge-geforce-rtx-4060-graphics-card-gddr6-8gb-128-bit-memory-displayport-1-4a-hdmi-outputs-pci-express-4-0-icestorm-2-0-cooling-system-242-ai-tops-1-year-warranty-zt-d40600e-10m',
-    brand: 'Zotac',
-    category: 'graphics-cards',
-    subcategory: 'gpu',
-    price: 1409,
-    salePrice: 1409,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Zotac-Gaming-Twin-Edge-GeForce-RTX-4060-ZT-D40600E-10M-1_ed4794f5-7133-4f27-8257-5a8a3e904fd4.webp?v=1784132530, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Zotac-Gaming-Twin-Edge-GeForce-RTX-4060-ZT-D40600E-10M-2_6d6d34c6-7c5d-4a07-93a0-2de0548a2139.webp?v=1784132530, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Zotac-Gaming-Twin-Edge-GeForce-RTX-4060-ZT-D40600E-10M-3_c9e882e7-bbb8-468f-9525-d053d2ea8c53.webp?v=1784132530, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Zotac-Gaming-Twin-Edge-GeForce-RTX-4060-ZT-D40600E-10M-4_b5566dcb-f01b-442d-a43a-9bb191234438.webp?v=1784132530, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Zotac-Gaming-Twin-Edge-GeForce-RTX-4060-ZT-D40600E-10M-5_93c5c1c5-86af-44b1-a04b-f8531af05186.webp?v=1784132530, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Zotac-Gaming-Twin-Edge-GeForce-RTX-4060-ZT-D40600E-10M-6_3a1053e3-2433-419a-8085-ebc2c4194b3d.webp?v=1784132530'],
-    shortDescription: 'Zotac Gaming Twin Edge GeForce RTX 4060 Graphics Card, GDDR6 8GB 128-bit Memory, DisplayPort 1.4a, HDMI Outputs, PCI Express 4.0, IceStorm 2.0 Cooling System, 242 AI TOPS, 1 Year Warranty | ZT-D40600E-10M',
-    description: '<ul>\n<li>GPU: NVIDIA GeForce RTX 4060</li>\n<li>Boost Clock: 2460MHz</li>\n<li>Memory: 8GB GDDR6</li>\n<li>Memory Speed: 17Gbps</li>\n<li>Memory Bus: 128-bit</li>\n<li>AI Performance: 242 TOPS</li>\n<li>CUDA Cores: 3072</li>\n<li>Interface: PCI Express 4.0</li>\n<li>Connectivity: DisplayPort 1.4a, HDMI</li>\n</ul>',
-    specifications: {
-
-    },
-    stock: 10,
-    sku: 'ZT-D40600E-10M',
-    featured: false,
-    newProduct: true,
-    tags: ['Gaming', 'Gaming Graphic Cards', 'Gaming PC Components', 'Graphic Cards', 'PC Components', 'RTX 40-50 Series Graphics Cards']
-  },
-  {
-    id: '9810315018457',
-    name: 'MSI GeForce RTX 2060 Gaming Z 6G Graphics Card, GDDR6 6GB 192-bit Memory, DisplayPort v1.4a, HDMI Outputs, PCI Express 3.0, Twin Frozr 7 Cooling System, 1 Year Warranty | 912-V375-009',
-    slug: 'msi-geforce-rtx-2060-gaming-z-6g-graphics-card-gddr6-6gb-192-bit-memory-displayport-v1-4a-hdmi-outputs-pci-express-3-0-twin-frozr-7-cooling-system-1-year-warranty-912-v375-009',
-    brand: 'MSI',
-    category: 'graphics-cards',
-    subcategory: 'gpu',
-    price: 2709,
-    salePrice: 2709,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/MSI-GeForce-RTX-2060-Gaming-Z-6G-Graphics-Card-912-V375-009-1_918767be-abb6-4bbc-a9ba-6d27e893fbe2.webp?v=1784132530, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/MSI-GeForce-RTX-2060-Gaming-Z-6G-Graphics-Card-912-V375-009-2_ccc65c8c-7401-4424-b681-759b52375adb.webp?v=1784132530, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/MSI-GeForce-RTX-2060-Gaming-Z-6G-Graphics-Card-912-V375-009-3_ffd2afda-a32b-4f95-a7d5-53a27cb9ac12.webp?v=1784132530, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/MSI-GeForce-RTX-2060-Gaming-Z-6G-Graphics-Card-912-V375-009-4_f5d3d64c-6540-40c4-8fc0-914d1ea5b075.webp?v=1784132530, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/MSI-GeForce-RTX-2060-Gaming-Z-6G-Graphics-Card-912-V375-009-5_b0be5ced-f0ea-4577-a4cd-997a8565a2f8.webp?v=1784132531'],
-    shortDescription: 'MSI GeForce RTX 2060 Gaming Z 6G Graphics Card, GDDR6 6GB 192-bit Memory, DisplayPort v1.4a, HDMI Outputs, PCI Express 3.0, Twin Frozr 7 Cooling System, 1 Year Warranty | 912-V375-009',
-    description: '<ul>\n<li>GPU: NVIDIA GeForce RTX 2060</li>\n<li>Boost Clock: 1830MHz</li>\n<li>Memory: 6GB GDDR6</li>\n<li>Memory Speed: 14Gbps</li>\n<li>Memory Bus: 192-bit</li>\n<li>CUDA Cores: 1920</li>\n<li>Interface: PCI Express 3.0</li>\n<li>Connectivity: DisplayPort 1.4a, HDMI</li>\n</ul>',
-    specifications: {
-
-    },
-    stock: 10,
-    sku: '912-V375-009',
-    featured: false,
-    newProduct: true,
-    tags: ['Gaming', 'Gaming Graphic Cards', 'Gaming PC Components', 'Graphic Cards', 'PC Components', 'RTX 20-30 Series Graphics Cards']
-  },
-  {
-    id: '9810314985689',
-    name: 'MSI GeForce RTX 3050 Ventus 2X XS OC Graphics Card, GDDR6 8GB 128-bit Memory, DisplayPort v1.4a, HDMI, DL-DVI-D Outputs, PCI Express 4.0, 1 Year Warranty | 912-V809-4419',
-    slug: 'msi-geforce-rtx-3050-ventus-2x-xs-oc-graphics-card-gddr6-8gb-128-bit-memory-displayport-v1-4a-hdmi-dl-dvi-d-outputs-pci-express-4-0-1-year-warranty-912-v809-4419',
-    brand: 'MSI',
-    category: 'graphics-cards',
-    subcategory: 'gpu',
-    price: 1149,
-    salePrice: 1149,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/MSI-GeForce-RTX-3050-Ventus-2X-XS-OC-Graphics-Card-912-V809-4419-1_129b1ec1-a118-444f-ac0b-70b7adae58c0.webp?v=1784132531, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/MSI-GeForce-RTX-3050-Ventus-2X-XS-OC-Graphics-Card-912-V809-4419-2_48fd31c9-48c6-42f2-b299-39e431d8229d.webp?v=1784132530, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/MSI-GeForce-RTX-3050-Ventus-2X-XS-OC-Graphics-Card-912-V809-4419-3_a2c79c2f-1fed-44bc-8e94-a4b5c72642f8.webp?v=1784132530, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/MSI-GeForce-RTX-3050-Ventus-2X-XS-OC-Graphics-Card-912-V809-4419-4_59fcc1b0-8883-41d0-8d4f-19c2fea2f20f.webp?v=1784132530, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/MSI-GeForce-RTX-3050-Ventus-2X-XS-OC-Graphics-Card-912-V809-4419-5_4da8cb37-76f6-4c74-aed8-41b22ee8ddb8.webp?v=1784132530'],
-    shortDescription: 'MSI GeForce RTX 3050 Ventus 2X XS OC Graphics Card, GDDR6 8GB 128-bit Memory, DisplayPort v1.4a, HDMI, DL-DVI-D Outputs, PCI Express 4.0, 1 Year Warranty | 912-V809-4419',
-    description: '<ul>\n<li>GPU: NVIDIA GeForce RTX 3050</li>\n<li>Boost Clock: 1807MHz</li>\n<li>Memory: 8GB GDDR6</li>\n<li>Memory Speed: 14Gbps</li>\n<li>Memory Bus: 96-bit</li>\n<li>CUDA Cores: 2304</li>\n<li>Interface: PCI Express 4.0</li>\n<li>Connectivity: DisplayPort 1.4a, HDMI, DL-DVI-D</li>\n</ul>',
-    specifications: {
-
-    },
-    stock: 10,
-    sku: '912-V809-4419',
-    featured: false,
-    newProduct: true,
-    tags: ['Gaming', 'Gaming Graphic Cards', 'Gaming PC Components', 'Graphic Cards', 'PC Components', 'RTX 20-30 Series Graphics Cards']
-  },
-  {
-    id: '9799484211417',
-    name: 'Gigabyte AORUS GeForce RTX 5090 INFINITY Graphics Card, GDDR7 32GB 512-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, Windforce HyperBoost Cooling System, 3352 AI TOPS, RGB Halo, Black, 1 Year Warranty | GV-N5090AORUS-IF-32GD',
-    slug: 'gigabyte-aorus-geforce-rtx-5090-infinity-graphics-card-gddr7-32gb-512-bit-memory-hdmi-2-1b-dp-2-1b-outputs-pci-express-5-0-windforce-hyperboost-cooling-system-3352-ai-tops-rgb-halo-black-1-year-warranty-gv-n5090aorus-if-32gd',
-    brand: 'Gigabyte',
-    category: 'graphics-cards',
-    subcategory: 'gpu',
-    price: 25999,
-    salePrice: 25999,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/GV-N5090AORUS-IF-32GD-1-1.png?v=1783691337, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/GV-N5090AORUS-IF-32GD-5.png?v=1783691336, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/GV-N5090AORUS-IF-32GD-7.png?v=1783691336, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/GV-N5090AORUS-IF-32GD-10.png?v=1783691336, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/GV-N5090AORUS-IF-32GD-3.png?v=1783691336, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/GV-N5090AORUS-IF-32GD-4.png?v=1783691336, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/GV-N5090AORUS-IF-32GD-9.png?v=1783691336, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/GV-N5090AORUS-IF-32GD-2.png?v=1783691336, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/GV-N5090AORUS-IF-32GD-6.png?v=1783691336, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/GV-N5090AORUS-IF-32GD-8.png?v=1783691336, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/GV-N5090AORUS-IF-32GD-1.png?v=1783691337'],
-    shortDescription: 'Gigabyte AORUS GeForce RTX 5090 INFINITY Graphics Card, GDDR7 32GB 512-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, Windforce HyperBoost Cooling System, 3352 AI TOPS, RGB Halo, Black, 1 Year Warranty | GV-N5090AORUS-IF-32GD',
-    description: '<ul>\n<li>GPU: NVIDIA GeForce RTX 5090</li>\n<li>Boost Clock: 2730MHz</li>\n<li>Memory: 32GB GDDR7</li>\n<li>Memory Speed: 28Gbps</li>\n<li>Memory Bus: 512-bit</li>\n<li>AI Performance: 3352 TOPs</li>\n<li>CUDA Cores: 21760</li>\n<li>Interface: PCI Express 5.0</li>\n<li>Connectivity: HDMI 2.1b, DisplayPort 2.1b</li>\n<li>Maximum Resolution: 7680 × 4320</li>\n<li>Maximum Displays: 4</li>\n<li>Recommended PSU: 1000W</li>\n<li>Warranty: 1 Year</li>\n</ul>',
-    specifications: {
-
-    },
-    stock: 10,
-    sku: 'GV-N5090AORUS-IF-32GD',
-    featured: false,
-    newProduct: true,
-    tags: ['Gaming', 'Gaming Graphic Cards', 'Gaming PC Components', 'Graphic Cards', 'PC Components']
-  },
-  {
-    id: '9786674184409',
-    name: 'Gigabyte AMD Radeon RX 9060 XT GAMING OC Graphics Card, GDDR6 16GB 128-bit Memory, DisplayPort 2.1a & HDMI 2.1b, PCI Express 5.0, Up to 3320 MHz Boost Clock, 20 Gbps Memory Clock, WINDFORCE Cooling System, 1 Year Warranty | GV-R9060XTGAMING-OC-1',
-    slug: 'gigabyte-amd-radeon-rx-9060-xt-gaming-oc-graphics-card-gddr6-16gb-128-bit-memory-displayport-2-1a-hdmi-2-1b-pci-express-5-0-up-to-3320-mhz-boost-clock-20-gbps-memory-clock-windforce-cooling-system-1-year-warranty-gv-r9060xtgaming-oc-1',
-    brand: 'Gigabyte',
-    category: 'graphics-cards',
-    subcategory: 'gpu',
-    price: 2299,
-    salePrice: 2299,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-AMD-Radeon-RX-9060-XT-GAMING-OC-Graphics-Card-GV-R9060XTGAMING-OC-1-1_7a776000-c0c5-44c9-acae-b34c08e3e7db.webp?v=1782735682, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-AMD-Radeon-RX-9060-XT-GAMING-OC-Graphics-Card-GV-R9060XTGAMING-OC-1-2_9be6eeec-414e-4e04-a209-47fefdf41dc2.webp?v=1782735682, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-AMD-Radeon-RX-9060-XT-GAMING-OC-Graphics-Card-GV-R9060XTGAMING-OC-1-3_169a1271-2ced-41ac-8208-544cf6a0c11f.webp?v=1782735682, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-AMD-Radeon-RX-9060-XT-GAMING-OC-Graphics-Card-GV-R9060XTGAMING-OC-1-4_79aa1f40-3e66-45d0-bbcc-a5dc4930f3ec.webp?v=1782735682, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-AMD-Radeon-RX-9060-XT-GAMING-OC-Graphics-Card-GV-R9060XTGAMING-OC-1-5_cf379ace-d1da-40ec-8337-715fd922b291.webp?v=1782735682, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-AMD-Radeon-RX-9060-XT-GAMING-OC-Graphics-Card-GV-R9060XTGAMING-OC-1-6_1b5aafc6-bd84-48e0-b200-17072ef29e39.webp?v=1782735682'],
-    shortDescription: 'Gigabyte AMD Radeon RX 9060 XT GAMING OC Graphics Card, GDDR6 16GB 128-bit Memory, DisplayPort 2.1a & HDMI 2.1b, PCI Express 5.0, Up to 3320 MHz Boost Clock, 20 Gbps Memory Clock, WINDFORCE Cooling System, 1 Year Warranty | GV-R9060XTGAMING-OC-1',
-    description: '<ul>\n<li>Graphics Engine: AMD Radeon RX 9060 XT</li>\n<li>Boost Clock Speed: Up to 3320 MHz</li>\n<li>Memory Size: 16GB GDDR6</li>\n<li>Memory Bus: 128-bit</li>\n<li>Memory Clock Speed: 20 Gbps</li>\n<li>Interface: PCI Express 5.0</li>\n<li>Ports: DisplayPort 2.1a, HDMI 2.1b</li>\n<li>Cooling System: WINDFORCE Cooling System</li>\n<li>1 Year Warranty</li>\n</ul>',
-    specifications: {
-
-    },
-    stock: 10,
-    sku: 'GV-R9060XTGAMING-OC-1',
-    featured: false,
-    newProduct: true,
-    tags: ['AMD RX Graphic Cards', 'Gaming', 'Gaming Graphic Cards', 'Gaming PC Components', 'Graphic Cards', 'PC Components']
-  },
-  {
-    id: '9786674151641',
-    name: 'Gigabyte AMD Radeon RX 9060 XT GAMING OC ICE Graphics Card, GDDR6 16GB 128-bit Memory, DisplayPort 2.1a & HDMI 2.1b, PCI Express 5.0, Up to 3320 MHz Boost Clock, 20 Gbps Memory Clock, WINDFORCE Cooling System, White, 1 Year Warranty | GV-906XGAMING-OC-ICE',
-    slug: 'gigabyte-amd-radeon-rx-9060-xt-gaming-oc-ice-graphics-card-gddr6-16gb-128-bit-memory-displayport-2-1a-hdmi-2-1b-pci-express-5-0-up-to-3320-mhz-boost-clock-20-gbps-memory-clock-windforce-cooling-system-white-1-year-warranty-gv-906xgaming-oc-ice',
-    brand: 'Gigabyte',
-    category: 'graphics-cards',
-    subcategory: 'gpu',
-    price: 2529,
-    salePrice: 2529,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-AMD-Radeon-RX-9060-XT-GAMING-OC-ICE-Graphics-Card-GV-906XGAMING-OC-ICE-1_e24bd488-a7a0-486f-a06b-e516fe7f1e1e.webp?v=1782735682, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-AMD-Radeon-RX-9060-XT-GAMING-OC-ICE-Graphics-Card-GV-906XGAMING-OC-ICE-2_640d749c-816a-42e1-a7b5-4e8aba739f24.webp?v=1782735682, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-AMD-Radeon-RX-9060-XT-GAMING-OC-ICE-Graphics-Card-GV-906XGAMING-OC-ICE-3_8eb55b7a-a366-4212-9b4d-63232565dac3.webp?v=1782735682, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-AMD-Radeon-RX-9060-XT-GAMING-OC-ICE-Graphics-Card-GV-906XGAMING-OC-ICE-4_145c892c-4658-4026-a4a0-727dbb775b8a.webp?v=1782735682, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-AMD-Radeon-RX-9060-XT-GAMING-OC-ICE-Graphics-Card-GV-906XGAMING-OC-ICE-5_107d6cfe-33f5-450f-b512-7cd589bed6e5.webp?v=1782735682, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-AMD-Radeon-RX-9060-XT-GAMING-OC-ICE-Graphics-Card-GV-906XGAMING-OC-ICE-6_a21a2843-0905-47dd-9805-095e4b022365.webp?v=1782735683'],
-    shortDescription: 'Gigabyte AMD Radeon RX 9060 XT GAMING OC ICE Graphics Card, GDDR6 16GB 128-bit Memory, DisplayPort 2.1a & HDMI 2.1b, PCI Express 5.0, Up to 3320 MHz Boost Clock, 20 Gbps Memory Clock, WINDFORCE Cooling System, White, 1 Year Warranty | GV-906XGAMING-OC-ICE',
-    description: '<ul>\n<li>Graphics Engine: AMD Radeon RX 9060 XT</li>\n<li>Boost Clock Speed: Up to 3320 MHz</li>\n<li>Memory Size: 16GB GDDR6</li>\n<li>Memory Bus: 128-bit</li>\n<li>Memory Clock Speed: 20 Gbps</li>\n<li>Interface: PCI Express 5.0</li>\n<li>Ports: DisplayPort 2.1a, HDMI 2.1b</li>\n<li>Color: White</li>\n<li>1 Year Warranty</li>\n</ul>',
-    specifications: {
-
-    },
-    stock: 10,
-    sku: 'GV-906XGAMING-OC-ICE',
-    featured: false,
-    newProduct: true,
-    tags: ['AMD RX Graphic Cards', 'Gaming', 'Gaming Graphic Cards', 'Gaming PC Components', 'Graphic Cards', 'PC Components']
-  },
-  {
-    id: '9696433570009',
-    name: 'Gigabyte GeForce RTX 5060 Ti WINDFORCE MAX OC Graphics Card, GDDR7 16GB 128-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, Dual Fan Windforce Cooling System, 772 AI TOPS, 1 Year Warranty | GV-N506TWF2MAX-OC-16G',
-    slug: 'gigabyte-geforce-rtx-5060-ti-windforce-max-oc-graphics-card-gddr7-16gb-128-bit-memory-hdmi-2-1b-dp-2-1b-outputs-pci-express-5-0-dual-fan-windforce-cooling-system-772-ai-tops-1-year-warranty-gv-n506twf2max-oc-16g',
-    brand: 'Gigabyte',
-    category: 'graphics-cards',
-    subcategory: 'gpu',
-    price: 2459,
-    salePrice: 2459,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-RTX-5060-Ti-WINDFORCE-MAX-OC-Graphics-Card-GV-N506TWF2MAX-OC-16G-1_98e5f3f8-e0eb-45c0-96e4-b8b3563f42d0.webp?v=1775914327, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-RTX-5060-Ti-WINDFORCE-MAX-OC-Graphics-Card-GV-N506TWF2MAX-OC-16G-2_fbf20582-564b-4529-b7fc-939ef5a60f1d.webp?v=1775914327, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-RTX-5060-Ti-WINDFORCE-MAX-OC-Graphics-Card-GV-N506TWF2MAX-OC-16G-3_fff85774-a5e7-448c-ba39-527d3f3847fd.webp?v=1775914327, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-RTX-5060-Ti-WINDFORCE-MAX-OC-Graphics-Card-GV-N506TWF2MAX-OC-16G-4_f292ba98-173b-439f-bc4c-c51d84329c43.webp?v=1775914327, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-RTX-5060-Ti-WINDFORCE-MAX-OC-Graphics-Card-GV-N506TWF2MAX-OC-16G-5_492b7521-ec30-4269-ad9c-a72e76fdc2ed.webp?v=1775914327, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-RTX-5060-Ti-WINDFORCE-MAX-OC-Graphics-Card-GV-N506TWF2MAX-OC-16G-6_b4113e29-abbd-4e45-8e86-5124a70e0198.webp?v=1775914327'],
-    shortDescription: 'Gigabyte GeForce RTX 5060 Ti WINDFORCE MAX OC Graphics Card, GDDR7 16GB 128-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, Dual Fan Windforce Cooling System, 772 AI TOPS, 1 Year Warranty | GV-N506TWF2MAX-OC-16G',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5060 Ti</li>\n<li>Memory: 16GB GDDR7</li>\n<li>CUDA Cores: 4608</li>\n<li>AI Performance: 772 AI TOPS</li>\n<li>Bus Standard: PCI Express 5.0</li>\n<li>Core Clock: 2587 MHz</li>\n<li>Memory Speed: 28 Gbps</li>\n<li>Memory Interface: 128-bit</li>\n<li>1 Year Warranty</li>\n</ul>',
-    specifications: {
-
-    },
-    stock: 10,
-    sku: 'GV-N506TWF2MAX-OC-16G',
-    featured: false,
-    newProduct: true,
-    tags: ['Gaming', 'Gaming Graphic Cards', 'Gaming PC Components', 'Graphic Cards', 'PC Components']
-  },
-  {
-    id: '9696433537241',
-    name: 'Gigabyte AORUS GeForce RTX 5080 MASTER Graphics Card, GDDR7 16GB 256-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, Triple Fan Windforce Cooling System, 1801 AI TOPS, 1 Year Warranty | GV-N5080AORUS-M-16GD',
-    slug: 'gigabyte-aorus-geforce-rtx-5080-master-graphics-card-gddr7-16gb-256-bit-memory-hdmi-2-1b-dp-2-1b-outputs-pci-express-5-0-triple-fan-windforce-cooling-system-1801-ai-tops-1-year-warranty-gv-n5080aorus-m-16gd',
-    brand: 'Gigabyte',
-    category: 'graphics-cards',
-    subcategory: 'gpu',
-    price: 7369,
-    salePrice: 7369,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-AORUS-GeForce-RTX-5080-MASTER-Graphics-Card-GV-N5080AORUS-M-16GD-1_3bc4c9da-76e1-4a35-9711-d5f9ef10b0ec.webp?v=1775914327, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-AORUS-GeForce-RTX-5080-MASTER-Graphics-Card-GV-N5080AORUS-M-16GD-2_94664195-4f0c-4472-a317-99f750726c44.webp?v=1775914327, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-AORUS-GeForce-RTX-5080-MASTER-Graphics-Card-GV-N5080AORUS-M-16GD-3_ffcde506-856e-40c6-b072-2b80f8b8e810.webp?v=1775914327, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-AORUS-GeForce-RTX-5080-MASTER-Graphics-Card-GV-N5080AORUS-M-16GD-4_1134ff3a-4fae-4479-9de8-113f9a5e03cf.webp?v=1775914328, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-AORUS-GeForce-RTX-5080-MASTER-Graphics-Card-GV-N5080AORUS-M-16GD-5_6c5d4650-dda9-46fd-8064-eb745c19436a.webp?v=1775914327, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-AORUS-GeForce-RTX-5080-MASTER-Graphics-Card-GV-N5080AORUS-M-16GD-6_d5f9f4aa-be9d-464e-9a10-4ae8d2edccb7.webp?v=1775914327'],
-    shortDescription: 'Gigabyte AORUS GeForce RTX 5080 MASTER Graphics Card, GDDR7 16GB 256-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, Triple Fan Windforce Cooling System, 1801 AI TOPS, 1 Year Warranty | GV-N5080AORUS-M-16GD',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5080</li>\n<li>Memory: 16GB GDDR7</li>\n<li>CUDA Cores: 10752</li>\n<li>AI Performance: 1801 AI TOPS</li>\n<li>Bus Standard: PCI Express 5.0</li>\n<li>Core Clock: 2805 MHz</li>\n<li>Memory Speed: 30 Gbps</li>\n<li>Memory Interface: 256-bit</li>\n<li>Architecture: NVIDIA Blackwell</li>\n<li>Ray Tracing Performance: 171 TFLOPS</li>\n<li>1 Year Warranty</li>\n</ul>',
-    specifications: {
-
-    },
-    stock: 10,
-    sku: 'GV-N5080AORUS-M-16GD',
-    featured: false,
-    newProduct: true,
-    tags: ['Gaming', 'Gaming Graphic Cards', 'Gaming PC Components', 'Graphic Cards', 'PC Components']
-  },
-  {
-    id: '9696433504473',
-    name: 'Gigabyte AORUS GeForce RTX 5090 MASTER ICE Graphics Card, GDDR7 32GB 512-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, Triple Fan Windforce Cooling System, 3352 AI TOPS, White, 1 Year Warranty | GV-5090AORUSST-ICE-32',
-    slug: 'gigabyte-aorus-geforce-rtx-5090-master-ice-graphics-card-gddr7-32gb-512-bit-memory-hdmi-2-1b-dp-2-1b-outputs-pci-express-5-0-triple-fan-windforce-cooling-system-3352-ai-tops-white-1-year-warranty-gv-5090aorusst-ice-32',
-    brand: 'Gigabyte',
-    category: 'graphics-cards',
-    subcategory: 'gpu',
-    price: 17849,
-    salePrice: 17849,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-AORUS-GeForce-RTX-5090-MASTER-ICE-Graphics-Card-GV-5090AORUSST-ICE-32-1_da50d65a-88fa-47ed-8e5d-62d3a4daf78a.webp?v=1775914327, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-AORUS-GeForce-RTX-5090-MASTER-ICE-Graphics-Card-GV-5090AORUSST-ICE-32-2_2d116f0d-12b8-4316-ac89-c098d96ac953.webp?v=1775914327, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-AORUS-GeForce-RTX-5090-MASTER-ICE-Graphics-Card-GV-5090AORUSST-ICE-32-3_69745e7a-fcd9-4743-81d0-172e1af26f3e.webp?v=1775914327, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-AORUS-GeForce-RTX-5090-MASTER-ICE-Graphics-Card-GV-5090AORUSST-ICE-32-4_aba7c697-975c-4db4-935f-d90d76b8a7f6.webp?v=1775914327, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-AORUS-GeForce-RTX-5090-MASTER-ICE-Graphics-Card-GV-5090AORUSST-ICE-32-5_21a19044-1d4c-48fe-92f9-471ecc851275.webp?v=1775914326, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-AORUS-GeForce-RTX-5090-MASTER-ICE-Graphics-Card-GV-5090AORUSST-ICE-32-6_d87ed944-b57c-43b5-b1c3-befedc7fa3c4.webp?v=1775914327'],
-    shortDescription: 'Gigabyte AORUS GeForce RTX 5090 MASTER ICE Graphics Card, GDDR7 32GB 512-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, Triple Fan Windforce Cooling System, 3352 AI TOPS, White, 1 Year Warranty | GV-5090AORUSST-ICE-32',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5090</li>\n<li>Memory: 32GB GDDR7</li>\n<li>CUDA Cores: 21760</li>\n<li>AI Performance: 3352 AI TOPS</li>\n<li>Bus Standard: PCI Express 5.0</li>\n<li>Core Clock: 2655 MHz</li>\n<li>Memory Speed: 28 Gbps</li>\n<li>Memory Interface: 512-bit</li>\n<li>Architecture: NVIDIA Blackwell</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Maximum Display Support: 4</li>\n<li>1 Year Warranty</li>\n</ul>',
-    specifications: {
-
-    },
-    stock: 10,
-    sku: 'GV-5090AORUSST-ICE-32',
-    featured: false,
-    newProduct: true,
-    tags: ['Gaming', 'Gaming Graphic Cards', 'Gaming PC Components', 'Graphic Cards', 'PC Components']
-  },
-  {
-    id: '9680597319897',
-    name: 'Asus ProArt GeForce RTX 5080 OC Edition Graphics Card, GDDR7 16GB 256-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, Triple Fan Axial-tech Cooling System, 1801 AI TOPS, 1 Year Warranty | 90YV0N30-M0NA00',
-    slug: 'asus-proart-geforce-rtx-5080-oc-edition-graphics-card-gddr7-16gb-256-bit-memory-hdmi-2-1b-dp-2-1b-outputs-pci-express-5-0-triple-fan-axial-tech-cooling-system-1801-ai-tops-1-year-warranty-90yv0n30-m0na00',
-    brand: 'Asus',
-    category: 'graphics-cards',
-    subcategory: 'gpu',
-    price: 7579,
-    salePrice: 7579,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Asus-ProArt-GeForce-RTX-5080-OC-Edition-Graphics-Card-90YV0N30-M0NA00-1_6bcd3a2d-ce37-4857-b8e1-9b60375d6be5.webp?v=1774533370, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Asus-ProArt-GeForce-RTX-5080-OC-Edition-Graphics-Card-90YV0N30-M0NA00-2_79b5a985-7104-450d-853f-9a386bd20d16.webp?v=1774533370, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Asus-ProArt-GeForce-RTX-5080-OC-Edition-Graphics-Card-90YV0N30-M0NA00-3_20d38639-c50a-453b-94a9-0c5df003c194.webp?v=1774533370, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Asus-ProArt-GeForce-RTX-5080-OC-Edition-Graphics-Card-90YV0N30-M0NA00-4_7906cfbe-9336-476b-bb20-e7ebdc108925.webp?v=1774533370, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Asus-ProArt-GeForce-RTX-5080-OC-Edition-Graphics-Card-90YV0N30-M0NA00-5_b781bc16-45c2-4af3-94b6-71fd3cd6f2bd.webp?v=1774533370, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Asus-ProArt-GeForce-RTX-5080-OC-Edition-Graphics-Card-90YV0N30-M0NA00-6_956ee19a-5b62-452f-9d69-b73230ed9cc9.webp?v=1774533370'],
-    shortDescription: 'Asus ProArt GeForce RTX 5080 OC Edition Graphics Card, GDDR7 16GB 256-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, Triple Fan Axial-tech Cooling System, 1801 AI TOPS, 1 Year Warranty | 90YV0N30-M0NA00',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5080</li>\n<li>Memory: 16GB GDDR7</li>\n<li>CUDA Cores: 10752</li>\n<li>AI Performance: 1801 AI TOPS</li>\n<li>Bus Standard: PCI Express 5.0</li>\n<li>Engine Clock OC mode: 2730 MHz</li>\n<li>Engine Clock Default mode: 2700 MHz (Boost Clock)</li>\n<li>Memory Speed: 30 Gbps</li>\n<li>Memory Interface: 256-bit</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Maximum Display Support: 4</li>\n<li>Recommended PSU: 850W</li>\n<li>1 Year Warranty</li>\n</ul>',
-    specifications: {
-
-    },
-    stock: 10,
-    sku: '90YV0N30-M0NA00',
-    featured: false,
-    newProduct: true,
-    tags: ['bestseller', 'Gaming', 'Gaming Graphic Cards', 'Gaming PC Components', 'Graphic Cards', 'PC Components', 'RTX 40-50 Series Graphics Cards']
-  },
-  {
-    id: '9680597287129',
-    name: 'Asus Dual GeForce RTX 5060 Ti OC Edition Graphics Card, GDDR7 8GB 128-bit Memory, HDMI 2.1b & DP 2.1b Outputs, Dual Fan Axial-tech Cooling System, 759 AI TOPS, 1 Year Warranty | 90YV0MP3-M0NA00',
-    slug: 'asus-dual-geforce-rtx-5060-ti-oc-edition-graphics-card-gddr7-8gb-128-bit-memory-hdmi-2-1b-dp-2-1b-outputs-dual-fan-axial-tech-cooling-system-759-ai-tops-1-year-warranty-90yv0mp3-m0na00',
-    brand: 'Asus',
-    category: 'graphics-cards',
-    subcategory: 'gpu',
-    price: 2029,
-    salePrice: 2029,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Asus-Dual-GeForce-RTX-5060-Ti-OC-Edition-Graphics-Card-90YV0MP3-M0NA00-1_252b6c23-580a-45de-99f7-8989ba9ddf0c.webp?v=1774533367, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Asus-Dual-GeForce-RTX-5060-Ti-OC-Edition-Graphics-Card-90YV0MP3-M0NA00-2_62d845d4-9931-404c-9a0f-9199dc2a6cfc.webp?v=1774533367, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Asus-Dual-GeForce-RTX-5060-Ti-OC-Edition-Graphics-Card-90YV0MP3-M0NA00-3_7647a58f-91e6-4d76-910d-f9dfe24e29ec.webp?v=1774533368, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Asus-Dual-GeForce-RTX-5060-Ti-OC-Edition-Graphics-Card-90YV0MP3-M0NA00-4_ac50b997-0a1f-4581-a56b-3e6d8abb7eb6.webp?v=1774533368'],
-    shortDescription: 'Asus Dual GeForce RTX 5060 Ti OC Edition Graphics Card, GDDR7 8GB 128-bit Memory, HDMI 2.1b & DP 2.1b Outputs, Dual Fan Axial-tech Cooling System, 759 AI TOPS, 1 Year Warranty | 90YV0MP3-M0NA00',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5060 Ti</li>\n<li>Memory: 16GB GDDR7</li>\n<li>CUDA Cores: 4608</li>\n<li>AI Performance: 759 AI TOPS</li>\n<li>Bus Standard: PCI Express 5.0</li>\n<li>Engine Clock OC mode: 2602 MHz</li>\n<li>Engine Clock Default mode: 2572 MHz (Boost Clock)</li>\n<li>Memory Speed: 28 Gbps</li>\n<li>Memory Interface: 128-bit</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Maximum Display Support: 4</li>\n<li>Recommended PSU: 550W</li>\n<li>1 Year Warranty</li>\n</ul>',
-    specifications: {
-
-    },
-    stock: 10,
-    sku: '90YV0MP3-M0NA00',
-    featured: false,
-    newProduct: true,
-    tags: ['Gaming', 'Gaming Graphic Cards', 'Gaming PC Components', 'Graphic Cards', 'PC Components']
-  },
-  {
-    id: '9680594862297',
-    name: 'Asus ROG Matrix Platinum GeForce RTX 5090 Graphics Card, GDDR7 32GB 512-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2760 MHz OC Core Clock, 28 Gbps Memory Clock, Liquid Cooled 360mm AIO System, 3352 AI TOPS, 1 Year Warranty | 90YV0NF2-M0NA00',
-    slug: 'asus-rog-matrix-platinum-geforce-rtx-5090-graphics-card-gddr7-32gb-512-bit-memory-hdmi-2-1b-dp-2-1b-outputs-pci-express-5-0-2760-mhz-oc-core-clock-28-gbps-memory-clock-liquid-cooled-360mm-aio-system-3352-ai-tops-1-year-warranty-90yv0nf2-m0na00',
-    brand: 'Asus',
-    category: 'graphics-cards',
-    subcategory: 'gpu',
-    price: 32119,
-    salePrice: 32119,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Asus-ROG-Matrix-Platinum-GeForce-RTX-5090-Graphics-Card-90YV0NF2-M0NA00-1_6b9644cf-9c4c-488e-8fc4-9091facfece2.webp?v=1774532907, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Asus-ROG-Matrix-Platinum-GeForce-RTX-5090-Graphics-Card-90YV0NF2-M0NA00-2_61c51cd5-967f-4f86-95bf-d3808ffbbd65.webp?v=1774532907, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Asus-ROG-Matrix-Platinum-GeForce-RTX-5090-Graphics-Card-90YV0NF2-M0NA00-3_d8ef3c70-1647-4f73-8038-feaac061409a.webp?v=1774532907, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Asus-ROG-Matrix-Platinum-GeForce-RTX-5090-Graphics-Card-90YV0NF2-M0NA00-4_0971f0c4-772f-4c70-b2bc-8b764b410b4e.webp?v=1774532907, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Asus-ROG-Matrix-Platinum-GeForce-RTX-5090-Graphics-Card-90YV0NF2-M0NA00-5_3ce5d97a-8fee-44ef-b341-85809d8f5604.webp?v=1774532907, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Asus-ROG-Matrix-Platinum-GeForce-RTX-5090-Graphics-Card-90YV0NF2-M0NA00-6_a332d9fc-1cce-4eb6-9bb4-45b7caf14921.webp?v=1774532907'],
-    shortDescription: 'Asus ROG Matrix Platinum GeForce RTX 5090 Graphics Card, GDDR7 32GB 512-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2760 MHz OC Core Clock, 28 Gbps Memory Clock, Liquid Cooled 360mm AIO System, 3352 AI TOPS, 1 Year Warranty | 90YV0NF2-M0NA00',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5090</li>\n<li>Memory: 32GB GDDR7</li>\n<li>CUDA Cores: 21760</li>\n<li>AI Performance: 3352 AI TOPS</li>\n<li>Bus Standard: PCI Express 5.0</li>\n<li>Engine Clock OC mode: 2760 MHz</li>\n<li>Engine Clock Default mode: 2730 MHz (Boost Clock)</li>\n<li>Memory Speed: 28 Gbps</li>\n<li>Memory Interface: 512-bit</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Maximum Display Support: 4</li>\n<li>Recommended PSU: 1000W</li>\n<li>1 Year Warranty</li>\n</ul>',
-    specifications: {
-
-    },
-    stock: 10,
-    sku: '90YV0NF2-M0NA00',
-    featured: false,
-    newProduct: true,
-    tags: ['Gaming', 'Gaming Graphic Cards', 'Gaming PC Components', 'Graphic Cards', 'PC Components']
-  },
-  {
-    id: '9680594829529',
-    name: 'Asus Noctua OC Edition GeForce RTX 5080 Graphics Card, GDDR7 16GB 256-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2730 MHz OC Core Clock, 30 Gbps Memory Clock, Dual Noctua NF-A12x25 PWM Fans, 1801 AI TOPS, 1 Year Warranty | 90YV0M32-M0NA00',
-    slug: 'asus-noctua-oc-edition-geforce-rtx-5080-graphics-card-gddr7-16gb-256-bit-memory-hdmi-2-1b-dp-2-1b-outputs-pci-express-5-0-2730-mhz-oc-core-clock-30-gbps-memory-clock-dual-noctua-nf-a12x25-pwm-fans-1801-ai-tops-1-year-warranty-90yv0m32-m0na00',
-    brand: 'Asus',
-    category: 'graphics-cards',
-    subcategory: 'gpu',
-    price: 7699,
-    salePrice: 7699,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Asus-Noctua-OC-Edition-GeForce-RTX-5080-Graphics-Card-90YV0M32-M0NA00-1_bebff2ad-4951-4407-9dca-4f96690bf739.webp?v=1774532908, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Asus-Noctua-OC-Edition-GeForce-RTX-5080-Graphics-Card-90YV0M32-M0NA00-2_fb2bb307-4052-4278-949f-2fdab7821613.webp?v=1774532908, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Asus-Noctua-OC-Edition-GeForce-RTX-5080-Graphics-Card-90YV0M32-M0NA00-3_a431eef8-bdd8-4473-98c7-6b6c7dc9ef80.webp?v=1774532908, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Asus-Noctua-OC-Edition-GeForce-RTX-5080-Graphics-Card-90YV0M32-M0NA00-4_580eb643-1e6d-424b-81e4-4a6b8d0cd403.webp?v=1774532908, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Asus-Noctua-OC-Edition-GeForce-RTX-5080-Graphics-Card-90YV0M32-M0NA00-5_0cd8f688-2a26-4b26-8257-dc7ea987fa4b.webp?v=1774532908, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Asus-Noctua-OC-Edition-GeForce-RTX-5080-Graphics-Card-90YV0M32-M0NA00-6_3f2073c8-00a8-4e4b-a27b-70bf7a888bf8.webp?v=1774532908'],
-    shortDescription: 'Asus Noctua OC Edition GeForce RTX 5080 Graphics Card, GDDR7 16GB 256-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2730 MHz OC Core Clock, 30 Gbps Memory Clock, Dual Noctua NF-A12x25 PWM Fans, 1801 AI TOPS, 1 Year Warranty | 90YV0M32-M0NA00',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5080</li>\n<li>Memory: 16GB GDDR7</li>\n<li>CUDA Cores: 10752</li>\n<li>AI Performance: 1801 AI TOPS</li>\n<li>Bus Standard: PCI Express 5.0</li>\n<li>Engine Clock OC mode: 2730 MHz</li>\n<li>Engine Clock Default mode: 2700 MHz (Boost Clock)</li>\n<li>Memory Speed: 30 Gbps</li>\n<li>Memory Interface: 256-bit</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Maximum Display Support: 4</li>\n<li>Recommended PSU: 850W</li>\n<li>1 Year Warranty</li>\n</ul>',
-    specifications: {
-
-    },
-    stock: 10,
-    sku: '90YV0M32-M0NA00',
-    featured: false,
-    newProduct: true,
-    tags: ['Gaming', 'Gaming Graphic Cards', 'Gaming PC Components', 'Graphic Cards', 'PC Components']
-  },
-  {
-    id: '9651794510041',
-    name: 'PNY NVIDIA RTX PRO 5000 Blackwell Workstation Graphics Card, 14,080 CUDA Cores, GDDR7 48GB 384-bit Memory, 4x DisplayPort 2.1 Outputs, PCI Express 5.0, 1344 GB/s Memory Bandwidth, Blower Active Fan Cooling System, 1 Year Warranty | VCNRTXPRO5000-EDU',
-    slug: 'pny-nvidia-rtx-pro-5000-blackwell-workstation-graphics-card-14-080-cuda-cores-gddr7-48gb-384-bit-memory-4x-displayport-2-1-outputs-pci-express-5-0-1344-gb-s-memory-bandwidth-blower-active-fan-cooling-system-1-year-warranty-vcnrtxpro5000-edu',
-    brand: 'PNY',
-    category: 'graphics-cards',
-    subcategory: 'gpu',
-    price: 17279,
-    salePrice: 17279,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/PNY-NVIDIA-RTX-PRO-5000-Blackwell-Workstation-Graphics-Card-VCNRTXPRO5000-EDU-2_1f051a20-ccd8-4889-9902-c109ffacf74d.webp?v=1772896420'],
-    shortDescription: 'PNY NVIDIA RTX PRO 5000 Blackwell Workstation Graphics Card, 14,080 CUDA Cores, GDDR7 48GB 384-bit Memory, 4x DisplayPort 2.1 Outputs, PCI Express 5.0, 1344 GB/s Memory Bandwidth, Blower Active Fan Cooling System, 1 Year Warranty | VCNRTXPRO5000-EDU',
-    description: '<ul>\n<li>NVIDIA RTX PRO 5000 Blackwell</li>\n<li>Memory: 48GB GDDR7 with ECC</li>\n<li>CUDA Cores: 14080</li>\n<li>Tensor Cores: 440 (5th Generation)</li>\n<li>RT Cores: 110 (4th Generation)</li>\n<li>AI Performance: 2064 AI TOPS</li>\n<li>Single-Precision Performance: 65 TFLOPS</li>\n<li>RT Core Performance: 196 TFLOPS</li>\n<li>Bus Standard: PCI Express 5.0 x16</li>\n<li>Memory Bandwidth: 1344 GB/s</li>\n<li>Memory Interface: 384-bit</li>\n<li>Architecture: NVIDIA Blackwell</li>\n<li>1 Year Warranty</li>\n</ul>',
-    specifications: {
-
-    },
-    stock: 10,
-    sku: 'VCNRTXPRO5000-EDU',
-    featured: false,
-    newProduct: true,
-    tags: ['Graphic Cards', 'PC Components', 'Workstation Graphic Cards']
-  },
-  {
-    id: '9651794378969',
-    name: 'Gigabyte GeForce RTX 3050 WINDFORCE OC V2 Graphics Card, GDDR6 6GB 96-bit Memory, HDMI 2.1 & DP 1.4 Outputs, PCI Express 4.0, 1792 MHz Core Clock, 14000 MHz Memory Clock, Dual Fan Windforce Cooling System, 1 Year Warranty | GV-N3050WF2OCV2-8GD',
-    slug: 'gigabyte-geforce-rtx-3050-windforce-oc-v2-graphics-card-gddr6-6gb-96-bit-memory-hdmi-2-1-dp-1-4-outputs-pci-express-4-0-1792-mhz-core-clock-14000-mhz-memory-clock-dual-fan-windforce-cooling-system-1-year-warranty-gv-n3050wf2ocv2-8gd',
-    brand: 'Gigabyte',
-    category: 'graphics-cards',
-    subcategory: 'gpu',
-    price: 1699,
-    salePrice: 1699,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-3050-WINDFORCE-OC-V2-Graphics-Card-GV-N3050WF2OCV2-8GD-2_2a8b3835-34fc-49d3-8eca-180183efe6aa.webp?v=1772896392, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-3050-WINDFORCE-OC-V2-Graphics-Card-GV-N3050WF2OCV2-8GD-3_673d86e4-d900-4c7a-ae64-f5e927d064b5.webp?v=1772896392, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-3050-WINDFORCE-OC-V2-Graphics-Card-GV-N3050WF2OCV2-8GD-4_c9020028-2be5-4445-b49e-34e077d37fbf.webp?v=1772896392, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-3050-WINDFORCE-OC-V2-Graphics-Card-GV-N3050WF2OCV2-8GD-5_4c915c48-4825-410e-96e1-5ceb0347d6c8.webp?v=1772896391, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-3050-WINDFORCE-OC-V2-Graphics-Card-GV-N3050WF2OCV2-8GD-6_9eb408dc-85cd-48a0-b890-399018a3ddf5.webp?v=1772896392'],
-    shortDescription: 'Gigabyte GeForce RTX 3050 WINDFORCE OC V2 Graphics Card, GDDR6 6GB 96-bit Memory, HDMI 2.1 & DP 1.4 Outputs, PCI Express 4.0, 1792 MHz Core Clock, 14000 MHz Memory Clock, Dual Fan Windforce Cooling System, 1 Year Warranty | GV-N3050WF2OCV2-8GD',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 3050</li>\n<li>Memory: 6GB GDDR6</li>\n<li>CUDA Cores: 2304</li>\n<li>Bus Standard: PCI Express 4.0</li>\n<li>Core Clock: 1792 MHz</li>\n<li>Memory Speed: 14000 MHz (14 Gbps)</li>\n<li>Memory Interface: 96-bit</li>\n<li>Architecture: NVIDIA Ampere</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>1 Year Warranty</li>\n</ul>',
-    specifications: {
-
-    },
-    stock: 10,
-    sku: 'GV-N3050WF2OCV2-8GD',
-    featured: false,
-    newProduct: true,
-    tags: ['Gaming', 'Gaming Graphic Cards', 'Gaming PC Components', 'Graphic Cards', 'PC Components']
-  },
-  {
-    id: '9651794346201',
-    name: 'Asus Prime Radeon RX 9070 EVO OC Edition Graphics Card, GDDR6 16GB 256-bit Memory, HDMI 2.1 & DP 2.1 Outputs, PCI Express 5.0, 2610 MHz OC Mode Core Clock, 20 Gbps Memory Clock, 578 AI TOPS, 1 Year Warranty | 90YV0MQ0-M0NA00',
-    slug: 'asus-prime-radeon-rx-9070-evo-oc-edition-graphics-card-gddr6-16gb-256-bit-memory-hdmi-2-1-dp-2-1-outputs-pci-express-5-0-2610-mhz-oc-mode-core-clock-20-gbps-memory-clock-578-ai-tops-1-year-warranty-90yv0mq0-m0na00',
-    brand: 'Asus',
-    category: 'graphics-cards',
-    subcategory: 'gpu',
-    price: 3459,
-    salePrice: 3459,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Asus-Prime-Radeon-RX-9070-EVO-OC-Edition-Graphics-Card-90YV0MQ0-M0NA00-2_17eca4d0-c2c1-4411-b43e-67a4735759ee.webp?v=1772896383, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Asus-Prime-Radeon-RX-9070-EVO-OC-Edition-Graphics-Card-90YV0MQ0-M0NA00-3_bb2e083f-4961-4ffc-832d-935d14d522b5.webp?v=1772896383, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Asus-Prime-Radeon-RX-9070-EVO-OC-Edition-Graphics-Card-90YV0MQ0-M0NA00-4_aec03d49-9639-4699-9859-98742c7cb6e1.webp?v=1772896383, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Asus-Prime-Radeon-RX-9070-EVO-OC-Edition-Graphics-Card-90YV0MQ0-M0NA00-5_b797d8dc-2d9f-4871-afec-db815d74de6a.webp?v=1772896383, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Asus-Prime-Radeon-RX-9070-EVO-OC-Edition-Graphics-Card-90YV0MQ0-M0NA00-6_1ec546b5-78ed-4247-8f2f-76ed76ad308c.webp?v=1772896383'],
-    shortDescription: 'Asus Prime Radeon RX 9070 EVO OC Edition Graphics Card, GDDR6 16GB 256-bit Memory, HDMI 2.1 & DP 2.1 Outputs, PCI Express 5.0, 2610 MHz OC Mode Core Clock, 20 Gbps Memory Clock, 578 AI TOPS, 1 Year Warranty | 90YV0MQ0-M0NA00',
-    description: '<ul>\n<li>AMD Radeon RX 9070</li>\n<li>Memory: 16GB GDDR6</li>\n<li>Stream Processors: 3584</li>\n<li>AI Performance: 578 AI TOPS (Peak FP8 with Sparsity)</li>\n<li>Bus Standard: PCI Express 5.0</li>\n<li>Engine Clock OC mode: up to 2610 MHz</li>\n<li>Engine Clock Default mode: up to 2590 MHz (Boost Clock)</li>\n<li>Memory Speed: 20 Gbps</li>\n<li>Memory Interface: 256-bit</li>\n<li>Architecture: AMD RDNA 4</li>\n<li>1 Year Warranty</li>\n</ul>',
-    specifications: {
-
-    },
-    stock: 10,
-    sku: '90YV0MQ0-M0NA00',
-    featured: false,
-    newProduct: true,
-    tags: ['Gaming', 'Gaming Graphic Cards', 'Gaming PC Components', 'Graphic Cards', 'PC Components']
-  },
-  {
-    id: '9651794313433',
-    name: 'Asus TUF Gaming GeForce RTX 5090 OC Edition Graphics Card, GDDR7 32GB 512-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2580 MHz OC Mode Core Clock, 28 Gbps Memory Clock, 3352 AI TOPS, 1 Year Warranty | 90YV0LY0-M0NA00',
-    slug: 'asus-tuf-gaming-geforce-rtx-5090-oc-edition-graphics-card-gddr7-32gb-512-bit-memory-hdmi-2-1b-dp-2-1b-outputs-pci-express-5-0-2580-mhz-oc-mode-core-clock-28-gbps-memory-clock-3352-ai-tops-1-year-warranty-90yv0ly0-m0na00',
-    brand: 'Asus',
-    category: 'graphics-cards',
-    subcategory: 'gpu',
-    price: 25269,
-    salePrice: 25269,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Asus-TUF-Gaming-GeForce-RTX-5090-OC-Edition-Graphics-Card-90YV0LY0-M0NA00-2_5e37f788-18bc-433a-9aed-bb5ce0f3066d.webp?v=1772896376, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Asus-TUF-Gaming-GeForce-RTX-5090-OC-Edition-Graphics-Card-90YV0LY0-M0NA00-3_c9f70e4a-e164-430f-81b8-a0394c81cce2.webp?v=1772896376, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Asus-TUF-Gaming-GeForce-RTX-5090-OC-Edition-Graphics-Card-90YV0LY0-M0NA00-4_b84c972a-fcab-4682-8ffa-b3d41141de59.webp?v=1772896376, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Asus-TUF-Gaming-GeForce-RTX-5090-OC-Edition-Graphics-Card-90YV0LY0-M0NA00-5_906f8dbc-0062-41f7-b4ad-e0924bfec0a0.webp?v=1772896376, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Asus-TUF-Gaming-GeForce-RTX-5090-OC-Edition-Graphics-Card-90YV0LY0-M0NA00-6_bd5f6435-7730-43df-8244-ca6dfe6f2d5e.webp?v=1772896376'],
-    shortDescription: 'Asus TUF Gaming GeForce RTX 5090 OC Edition Graphics Card, GDDR7 32GB 512-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2580 MHz OC Mode Core Clock, 28 Gbps Memory Clock, 3352 AI TOPS, 1 Year Warranty | 90YV0LY0-M0NA00',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5090</li>\n<li>Memory: 32GB GDDR7</li>\n<li>CUDA Cores: 21760</li>\n<li>AI Performance: 3352 AI TOPS</li>\n<li>Bus Standard: PCI Express 5.0</li>\n<li>Engine Clock OC mode: 2580 MHz</li>\n<li>Engine Clock Default mode: 2550 MHz (Boost Clock)</li>\n<li>Memory Speed: 28 Gbps</li>\n<li>Memory Interface: 512-bit</li>\n<li>1 Year Warranty</li>\n</ul>',
-    specifications: {
-
-    },
-    stock: 10,
-    sku: '90YV0LY0-M0NA00',
-    featured: false,
-    newProduct: true,
-    tags: ['Gaming', 'Gaming Graphic Cards', 'Gaming PC Components', 'Graphic Cards', 'PC Components']
-  },
-  {
-    id: '9651794182361',
-    name: 'Asus ProArt GeForce RTX 5070 Ti OC Edition Graphics Card, GDDR7 16GB 256-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2610 MHz OC Mode Core Clock, 28 Gbps Memory Clock, 1406 AI TOPS, 1 Year Warranty | 90YV0NR0-M0NA00',
-    slug: 'asus-proart-geforce-rtx-5070-ti-oc-edition-graphics-card-gddr7-16gb-256-bit-memory-hdmi-2-1b-dp-2-1b-outputs-pci-express-5-0-2610-mhz-oc-mode-core-clock-28-gbps-memory-clock-1406-ai-tops-1-year-warranty-90yv0nr0-m0na00',
-    brand: 'Asus',
-    category: 'graphics-cards',
-    subcategory: 'gpu',
-    price: 4329,
-    salePrice: 4329,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Asus-ProArt-GeForce-RTX-5070-Ti-OC-Edition-Graphics-Card-90YV0NR0-M0NA00-2_bf17b3b3-3320-4906-a43c-33277bff94ec.webp?v=1772896357, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Asus-ProArt-GeForce-RTX-5070-Ti-OC-Edition-Graphics-Card-90YV0NR0-M0NA00-3_081c03be-9755-4de9-b1ed-74a066c722a2.webp?v=1772896357, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Asus-ProArt-GeForce-RTX-5070-Ti-OC-Edition-Graphics-Card-90YV0NR0-M0NA00-4_e535d254-327d-463f-a5e7-eea1f248ebfa.webp?v=1772896357, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Asus-ProArt-GeForce-RTX-5070-Ti-OC-Edition-Graphics-Card-90YV0NR0-M0NA00-5_e864f434-2e42-4542-8eb0-1be4341286ac.webp?v=1772896357, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Asus-ProArt-GeForce-RTX-5070-Ti-OC-Edition-Graphics-Card-90YV0NR0-M0NA00-6_ff6ce760-a4eb-431c-b609-0bce68c91e64.webp?v=1772896357'],
-    shortDescription: 'Asus ProArt GeForce RTX 5070 Ti OC Edition Graphics Card, GDDR7 16GB 256-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2610 MHz OC Mode Core Clock, 28 Gbps Memory Clock, 1406 AI TOPS, 1 Year Warranty | 90YV0NR0-M0NA00',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5070 Ti</li>\n<li>Memory: 16GB GDDR7</li>\n<li>CUDA Cores: 8960</li>\n<li>AI Performance: 1406 AI TOPS</li>\n<li>Bus Standard: PCI Express 5.0</li>\n<li>Engine Clock OC mode: 2610 MHz</li>\n<li>Engine Clock Default mode: 2588 MHz (Boost Clock)</li>\n<li>Memory Speed: 28 Gbps</li>\n<li>Memory Interface: 256-bit</li>\n<li>1 Year Warranty</li>\n</ul>',
-    specifications: {
-
-    },
-    stock: 10,
-    sku: '90YV0NR0-M0NA00',
-    featured: false,
-    newProduct: true,
-    tags: ['Gaming', 'Gaming Graphic Cards', 'Gaming PC Components', 'Graphic Cards', 'PC Components']
-  },
-  {
-    id: '9651794149593',
-    name: 'Asus Prime GeForce RTX 5050 OC Edition Graphics Card, GDDR6 8GB 128-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2707 MHz OC Mode Core Clock, 20 Gbps Memory Clock, 421 AI TOPS, 1 Year Warranty | 90YV0N70-M0NA00',
-    slug: 'asus-prime-geforce-rtx-5050-oc-edition-graphics-card-gddr6-8gb-128-bit-memory-hdmi-2-1b-dp-2-1b-outputs-pci-express-5-0-2707-mhz-oc-mode-core-clock-20-gbps-memory-clock-421-ai-tops-1-year-warranty-90yv0n70-m0na00',
-    brand: 'Asus',
-    category: 'graphics-cards',
-    subcategory: 'gpu',
-    price: 1449,
-    salePrice: 1449,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Asus-Prime-GeForce-RTX-5050-OC-Edition-Graphics-Card-90YV0N70-M0NA00-2_6348b3b2-3741-43b8-8c1c-919f55edc236.webp?v=1772896349, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Asus-Prime-GeForce-RTX-5050-OC-Edition-Graphics-Card-90YV0N70-M0NA00-3_3b3822ca-4c3e-4a41-9cd1-25332e821f80.webp?v=1772896349, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Asus-Prime-GeForce-RTX-5050-OC-Edition-Graphics-Card-90YV0N70-M0NA00-4_2fa28046-6b6b-43c4-a03b-c06d583f9db2.webp?v=1772896349, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Asus-Prime-GeForce-RTX-5050-OC-Edition-Graphics-Card-90YV0N70-M0NA00-5_d34f49f0-8143-42ab-9e5a-e0b57356d75e.webp?v=1772896349, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Asus-Prime-GeForce-RTX-5050-OC-Edition-Graphics-Card-90YV0N70-M0NA00-6_5c6cd853-04f3-4b46-91ca-b70d6943fe2b.webp?v=1772896349'],
-    shortDescription: 'Asus Prime GeForce RTX 5050 OC Edition Graphics Card, GDDR6 8GB 128-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2707 MHz OC Mode Core Clock, 20 Gbps Memory Clock, 421 AI TOPS, 1 Year Warranty | 90YV0N70-M0NA00',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5050</li>\n<li>Memory: 8GB GDDR6</li>\n<li>CUDA Cores: 2560</li>\n<li>AI Performance: 421 AI TOPS</li>\n<li>Bus Standard: PCI Express 5.0</li>\n<li>Engine Clock OC mode: 2707 MHz</li>\n<li>Engine Clock Default mode: 2677 MHz (Boost Clock)</li>\n<li>Memory Speed: 20 Gbps</li>\n<li>Memory Interface: 128-bit</li>\n<li>1 Year Warranty</li>\n</ul>',
-    specifications: {
-
-    },
-    stock: 10,
-    sku: '90YV0N70-M0NA00',
-    featured: false,
-    newProduct: true,
-    tags: ['Gaming', 'Gaming Graphic Cards', 'Gaming PC Components', 'Graphic Cards', 'PC Components']
-  },
-  {
-    id: '9443522674905',
-    name: 'Gigabyte EAGLE OC ICE GeForce RTX 5070 Ti Small Form Factor Graphics Card, GDDR7 16GB 256-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2542 MHz Core Clock, 28 Gbps Memory Clock, Triple Windforce Hawk Fans, Dual BIOS, White, 1 Year Warranty',
-    slug: 'gigabyte-eagle-oc-ice-geforce-rtx-5070-ti-small-form-factor-graphics-card-gddr7-16gb-256-bit-memory-hdmi-2-1b-dp-2-1b-outputs-pci-express-5-0-2542-mhz-core-clock-28-gbps-memory-clock-triple-windforce-hawk-fans-dual-bios-white-1-year-warranty',
-    brand: 'Gigabyte',
-    category: 'graphics-cards',
-    subcategory: 'gpu',
-    price: 4789,
-    salePrice: 4789,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5070Ti-GV-N507TEAGLEOC-ICE-1-1-1762424162932_4694fcaf-9f10-4553-895e-79ff16c65b94.webp?v=1772867304, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5070Ti-GV-N507TEAGLEOC-ICE-1-2-1762424162933.webp?v=1772867305, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5070Ti-GV-N507TEAGLEOC-ICE-1-3-1762424162951.webp?v=1772867304, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5070Ti-GV-N507TEAGLEOC-ICE-1-4-1762424162951.webp?v=1772867304, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5070Ti-GV-N507TEAGLEOC-ICE-1-5-1762424162974.webp?v=1772867304, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5070Ti-GV-N507TWF30C-16GD-1-1762424163039_1ac1eca9-dcc8-43dd-a4a8-95f5a388b5e6.webp?v=1772867304'],
-    shortDescription: 'Gigabyte EAGLE OC ICE GeForce RTX 5070 Ti Small Form Factor Graphics Card, GDDR7 16GB 256-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2542 MHz Core Clock, 28 Gbps Memory Clock, Triple Windforce Hawk Fans, Dual BIOS, White, 1 Year Warranty',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5070 Ti</li>\n<li>Memory: GDDR7 16GB</li>\n<li>Engine Clock: 2542 MHz</li>\n<li>CUDA Core: 8960</li>\n<li>AI Performance: 1406 TOPS</li>\n<li>Memory Speed: 28 Gbps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 256-bit</li>\n<li>Power Connectors: 1 x 16-pin</li>\n<li>1 Year Warranty</li>\n</ul>',
-    specifications: {
-
-    },
-    stock: 10,
-    sku: 'GV-N507TEAGLEOC-ICE-1',
-    featured: false,
-    newProduct: true,
-    tags: ['Gaming', 'Gaming Graphic Cards', 'Gaming PC Components', 'Graphic Cards', 'PC Components', 'RTX 40-50 Series Graphics Cards']
-  },
-  {
-    id: '9443522609369',
-    name: 'Gigabyte WINDFORCE OC GeForce RTX 5070 Ti Small Form Factor Graphics Card, GDDR7 16GB 256-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2497 MHz Core Clock, 28 Gbps Memory Clock, Triple Windforce Hawk Fans, Dual BIOS, 1 Year Warranty |',
-    slug: 'gigabyte-windforce-oc-geforce-rtx-5070-ti-small-form-factor-graphics-card-gddr7-16gb-256-bit-memory-hdmi-2-1b-dp-2-1b-outputs-pci-express-5-0-2497-mhz-core-clock-28-gbps-memory-clock-triple-windforce-hawk-fans-dual-bios-1-year-warranty',
-    brand: 'Gigabyte',
-    category: 'graphics-cards',
-    subcategory: 'gpu',
-    price: 4669,
-    salePrice: 4669,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5070Ti-GV-N507TWF30C-16GD-1-1762424163039_59001dd7-6b27-4e9e-aaf2-9677b7b2068f.webp?v=1772867305, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5070Ti-GV-N507TWF30C-16GD-3-1762424163112.webp?v=1772867305, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5070Ti-GV-N507TWF30C-16GD-4-1762424163414.webp?v=1772867305'],
-    shortDescription: 'Gigabyte WINDFORCE OC GeForce RTX 5070 Ti Small Form Factor Graphics Card, GDDR7 16GB 256-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2497 MHz Core Clock, 28 Gbps Memory Clock, Triple Windforce Hawk Fans, Dual BIOS, 1 Year Warranty |',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5070 Ti</li>\n<li>Memory: GDDR7 16GB</li>\n<li>Engine Clock: 2497 MHz</li>\n<li>CUDA Core: 8960</li>\n<li>AI Performance: 1406 TOPS</li>\n<li>Memory Speed: 28 Gbps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 256-bit</li>\n<li>Power Connectors: 1 x 16-pin</li>\n<li>1 Year Warranty</li>\n</ul>',
-    specifications: {
-
-    },
-    stock: 10,
-    sku: 'GV-N507TWF30C-16GD',
-    featured: false,
-    newProduct: true,
-    tags: ['Gaming', 'Gaming Graphic Cards', 'Gaming PC Components', 'Graphic Cards', 'PC Components', 'RTX 40-50 Series Graphics Cards']
-  },
-  {
-    id: '9443522543833',
-    name: 'Gigabyte WINDFORCE GeForce RTX 5070 Ti Small Form Factor Graphics Card, GDDR7 16GB 256-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2452 MHz Core Clock, 28 Gbps Memory Clock, Triple Windforce Hawk Fans, Dual BIOS, 1 Year Warranty |',
-    slug: 'gigabyte-windforce-geforce-rtx-5070-ti-small-form-factor-graphics-card-gddr7-16gb-256-bit-memory-hdmi-2-1b-dp-2-1b-outputs-pci-express-5-0-2452-mhz-core-clock-28-gbps-memory-clock-triple-windforce-hawk-fans-dual-bios-1-year-warranty',
-    brand: 'Gigabyte',
-    category: 'graphics-cards',
-    subcategory: 'gpu',
-    price: 4269,
-    salePrice: 4269,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5070Ti-GV-N507TWF3-16GD-2-1762424163014.webp?v=1771137122'],
-    shortDescription: 'Gigabyte WINDFORCE GeForce RTX 5070 Ti Small Form Factor Graphics Card, GDDR7 16GB 256-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2452 MHz Core Clock, 28 Gbps Memory Clock, Triple Windforce Hawk Fans, Dual BIOS, 1 Year Warranty |',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5070 Ti</li>\n<li>Memory: GDDR7 16GB</li>\n<li>Engine Clock: 2452 MHz</li>\n<li>CUDA Core: 8960</li>\n<li>AI Performance: 1406 TOPS</li>\n<li>Memory Speed: 28 Gbps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 256-bit</li>\n<li>Power Connectors: 1 x 16-pin</li>\n<li>1 Year Warranty</li>\n</ul>',
-    specifications: {
-
-    },
-    stock: 10,
-    sku: 'GV-N507TWF3-16GD',
-    featured: false,
-    newProduct: true,
-    tags: ['Gaming', 'Gaming Graphic Cards', 'Gaming PC Components', 'Graphic Cards', 'PC Components', 'RTX 40-50 Series Graphics Cards']
-  },
-  {
-    id: '9443522412761',
-    name: 'Gigabyte EAGLE OC GeForce RTX 5070 Ti Small Form Factor Graphics Card, GDDR7 16GB 256-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2588 MHz Core Clock, 28 Gbps Memory Clock, Triple Windforce Hawk Fans, Dual BIOS, 1 Year Warranty |',
-    slug: 'gigabyte-eagle-oc-geforce-rtx-5070-ti-small-form-factor-graphics-card-gddr7-16gb-256-bit-memory-hdmi-2-1b-dp-2-1b-outputs-pci-express-5-0-2588-mhz-core-clock-28-gbps-memory-clock-triple-windforce-hawk-fans-dual-bios-1-year-warranty',
-    brand: 'Gigabyte',
-    category: 'graphics-cards',
-    subcategory: 'gpu',
-    price: 4569,
-    salePrice: 4569,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5070Ti-GV-N507TEAGLE-OC-16G-1-1762424162911_c0051fca-0b4b-4396-b08e-ce16f8d0da01.webp?v=1773247448, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5070Ti-GV-N507TEAGLE-OC-16G-2-1762424162918.webp?v=1773247448, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5070Ti-GV-N507TEAGLE-OC-16G-3-1762424162925.webp?v=1773247448, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5070Ti-GV-N507TEAGLE-OC-16G-4-1762424162929.webp?v=1773247448, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5070Ti-GV-N507TEAGLE-OC-16G-5-1762424162931.webp?v=1773247448, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5070Ti-GV-N507TEAGLE-OC-16G-6-1762424162931.webp?v=1773247448'],
-    shortDescription: 'Gigabyte EAGLE OC GeForce RTX 5070 Ti Small Form Factor Graphics Card, GDDR7 16GB 256-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2588 MHz Core Clock, 28 Gbps Memory Clock, Triple Windforce Hawk Fans, Dual BIOS, 1 Year Warranty |',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5070 Ti</li>\n<li>Memory: GDDR7 16GB</li>\n<li>Engine Clock: 2542 MHz</li>\n<li>CUDA Core: 8960</li>\n<li>AI Performance: 1406 TOPS</li>\n<li>Memory Speed: 28 Gbps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 256-bit</li>\n<li>Power Connectors: 1 x 16-pin</li>\n<li>1 Year Warranty</li>\n</ul>',
-    specifications: {
-
-    },
-    stock: 10,
-    sku: 'GV-N507TEAGLE-OC-16G',
-    featured: false,
-    newProduct: true,
-    tags: ['Gaming', 'Gaming Graphic Cards', 'Gaming PC Components', 'Graphic Cards', 'PC Components', 'RTX 40-50 Series Graphics Cards']
-  },
-  {
-    id: '9443522347225',
-    name: 'Gigabyte AERO OC GeForce RTX 5070 Ti RGB Graphics Card, GDDR7 16GB 256-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2588 MHz Core Clock, 28 Gbps Memory Clock, Triple Windforce Hawk Fans, Dual BIOS, White, 1 Year Warranty |',
-    slug: 'gigabyte-aero-oc-geforce-rtx-5070-ti-rgb-graphics-card-gddr7-16gb-256-bit-memory-hdmi-2-1b-dp-2-1b-outputs-pci-express-5-0-2588-mhz-core-clock-28-gbps-memory-clock-triple-windforce-hawk-fans-dual-bios-white-1-year-warranty',
-    brand: 'Gigabyte',
-    category: 'graphics-cards',
-    subcategory: 'gpu',
-    price: 4959,
-    salePrice: 4959,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5070Ti-GV-N507TAERO-OC-16GD-2-1762424162838.webp?v=1771137103'],
-    shortDescription: 'Gigabyte AERO OC GeForce RTX 5070 Ti RGB Graphics Card, GDDR7 16GB 256-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2588 MHz Core Clock, 28 Gbps Memory Clock, Triple Windforce Hawk Fans, Dual BIOS, White, 1 Year Warranty |',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5070 Ti</li>\n<li>Memory: GDDR7 16GB</li>\n<li>Engine Clock: 2588 MHz</li>\n<li>CUDA Core: 8960</li>\n<li>AI Performance: 1406 TOPS</li>\n<li>Memory Speed: 28 Gbps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 256-bit</li>\n<li>Power Connectors: 1 x 16-pin</li>\n<li>1 Year Warranty</li>\n</ul>',
-    specifications: {
-
-    },
-    stock: 10,
-    sku: 'GV-N507TAERO-OC-16GD',
-    featured: false,
-    newProduct: true,
-    tags: ['Gaming', 'Gaming Graphic Cards', 'Gaming PC Components', 'Graphic Cards', 'PC Components', 'RTX 40-50 Series Graphics Cards']
-  },
-  {
-    id: '9443522085081',
-    name: 'Gigabyte GAMING OC AMD Radeon RX 9070 XT Graphics Card, GDDR6 16GB 256-bit Memory, HDMI 2.1b & DP 2.1a Outputs, PCI Express 5.0, 3060 MHz Boost Clock, 20 Gbps Memory Clock, Triple Fan Windforce Cooling System, Dual BIOS, RGB Lighting, 1 Year Warranty |',
-    slug: 'gigabyte-gaming-oc-amd-radeon-rx-9070-xt-graphics-card-gddr6-16gb-256-bit-memory-hdmi-2-1b-dp-2-1a-outputs-pci-express-5-0-3060-mhz-boost-clock-20-gbps-memory-clock-triple-fan-windforce-cooling-system-dual-bios-rgb-lighting-1-year-warranty',
-    brand: 'Gigabyte',
-    category: 'graphics-cards',
-    subcategory: 'gpu',
-    price: 3619,
-    salePrice: 3619,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-Radeon-RX-9070XT-GV-R9070XTGAMINGOC-16-1-1762526147485_b7b7fbc4-6727-4427-a728-aeab472c6773.webp?v=1773247449, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-Radeon-RX-9070XT-GV-R9070XTGAMINGOC-16-2-1762526147485.webp?v=1773247449, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-Radeon-RX-9070XT-GV-R9070XTGAMINGOC-16-3-1762526147501.webp?v=1773247449, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-Radeon-RX-9070XT-GV-R9070XTGAMINGOC-16-4-1762526147526.webp?v=1773247449, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-Radeon-RX-9070XT-GV-R9070XTGAMINGOC-16-6-1762526147526.webp?v=1773247449'],
-    shortDescription: 'Gigabyte GAMING OC AMD Radeon RX 9070 XT Graphics Card, GDDR6 16GB 256-bit Memory, HDMI 2.1b & DP 2.1a Outputs, PCI Express 5.0, 3060 MHz Boost Clock, 20 Gbps Memory Clock, Triple Fan Windforce Cooling System, Dual BIOS, RGB Lighting, 1 Year Warranty |',
-    description: '<ul>\n<li>AMD Radeon RX 9070 XT</li>\n<li>Memory: GDDR6 16GB</li>\n<li>Boost Clock: 3060 MHz</li>\n<li>Stream Processors: 4096</li>\n<li>AI Performance: 779 TOPS</li>\n<li>Memory Speed: 20 Gbps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 256-bit</li>\n<li>Power Connectors: 3 x 8-pin</li>\n<li>1 Year Warranty</li>\n</ul>',
-    specifications: {
-
-    },
-    stock: 10,
-    sku: 'GV-R9070XTGAMINGOC-16',
-    featured: false,
-    newProduct: true,
-    tags: ['AMD RX Graphic Cards', 'Gaming', 'Gaming Graphic Cards', 'Gaming PC Components', 'Graphic Cards', 'PC Components']
-  },
-  {
-    id: '9443522019545',
-    name: 'Gigabyte AORUS ELITE AMD Radeon RX 9070 XT Graphics Card, GDDR6 16GB 256-bit Memory, HDMI 2.1b & DP 2.1a Outputs, PCI Express 5.0, 3100 MHz Boost Clock, 20 Gbps Memory Clock, Triple Fan Windforce Cooling System, Dual BIOS, RGB Halo, 1 Year Warranty |',
-    slug: 'gigabyte-aorus-elite-amd-radeon-rx-9070-xt-graphics-card-gddr6-16gb-256-bit-memory-hdmi-2-1b-dp-2-1a-outputs-pci-express-5-0-3100-mhz-boost-clock-20-gbps-memory-clock-triple-fan-windforce-cooling-system-dual-bios-rgb-halo-1-year-warranty',
-    brand: 'Gigabyte',
-    category: 'graphics-cards',
-    subcategory: 'gpu',
-    price: 3819,
-    salePrice: 3819,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-Radeon-RX-9070XT-GV-R9070XTAORUS-E-16G-2-1762526147454.webp?v=1771137077'],
-    shortDescription: 'Gigabyte AORUS ELITE AMD Radeon RX 9070 XT Graphics Card, GDDR6 16GB 256-bit Memory, HDMI 2.1b & DP 2.1a Outputs, PCI Express 5.0, 3100 MHz Boost Clock, 20 Gbps Memory Clock, Triple Fan Windforce Cooling System, Dual BIOS, RGB Halo, 1 Year Warranty |',
-    description: '<ul>\n<li>AMD Radeon RX 9070 XT</li>\n<li>Memory: GDDR6 16GB</li>\n<li>Boost Clock: 3100 MHz</li>\n<li>Stream Processors: 4096</li>\n<li>AI Performance: 779 TOPS</li>\n<li>Memory Speed: 20 Gbps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 256-bit</li>\n<li>Power Connectors: 3 x 8-pin</li>\n<li>1 Year Warranty</li>\n</ul>',
-    specifications: {
-
-    },
-    stock: 10,
-    sku: 'GV-R9070XTAORUS-E-16G',
-    featured: false,
-    newProduct: true,
-    tags: ['AMD RX Graphic Cards', 'Gaming', 'Gaming Graphic Cards', 'Gaming PC Components', 'Graphic Cards', 'PC Components']
-  },
-  {
-    id: '9443521822937',
-    name: 'Gigabyte EAGLE OC GeForce RTX 4070 Ti Super Graphics Card, GDDR6X 16GB 256-bit Memory, HDMI 2.1a & DP 1.4a Outputs, PCI Express 4.0, 2640 MHz Core Clock, 21 Gbps Memory Clock, RGB Fusion, Dual BIOS, Triple Fan Windforce Cooling System, 1 Year Warranty |',
-    slug: 'gigabyte-eagle-oc-geforce-rtx-4070-ti-super-graphics-card-gddr6x-16gb-256-bit-memory-hdmi-2-1a-dp-1-4a-outputs-pci-express-4-0-2640-mhz-core-clock-21-gbps-memory-clock-rgb-fusion-dual-bios-triple-fan-windforce-cooling-system-1-year-warranty',
-    brand: 'Gigabyte',
-    category: 'graphics-cards',
-    subcategory: 'gpu',
-    price: 3789,
-    salePrice: 3789,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-4070Ti-Super-GV-N407TSEAGLE-OC-16G-1-1762526146312_14e670ee-93bd-4c84-911e-bed565726a92.webp?v=1773247451, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-4070Ti-Super-GV-N407TSEAGLE-OC-16G-2-1762526146313.webp?v=1773247451'],
-    shortDescription: 'Gigabyte EAGLE OC GeForce RTX 4070 Ti Super Graphics Card, GDDR6X 16GB 256-bit Memory, HDMI 2.1a & DP 1.4a Outputs, PCI Express 4.0, 2640 MHz Core Clock, 21 Gbps Memory Clock, RGB Fusion, Dual BIOS, Triple Fan Windforce Cooling System, 1 Year Warranty |',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 4070 Ti Super</li>\n<li>Memory: GDDR6X 16GB</li>\n<li>Engine Clock: 2640 MHz</li>\n<li>CUDA Core: 8448</li>\n<li>AI Performance: 706 TOPS</li>\n<li>Memory Speed: 21 Gbps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 256-bit</li>\n<li>Power Connectors: 1 x 16-pin</li>\n<li>1 Year Warranty</li>\n</ul>',
-    specifications: {
-
-    },
-    stock: 10,
-    sku: 'GV-N407TSEAGLE-OC-16G',
-    featured: false,
-    newProduct: true,
-    tags: ['Gaming', 'Gaming Graphic Cards', 'Gaming PC Components', 'Graphic Cards', 'PC Components', 'RTX 40-50 Series Graphics Cards']
-  },
-  {
-    id: '9443521691865',
-    name: 'Gigabyte AORUS GeForce RTX 5090 XTREME WATERFORCE Graphics Card, GDDR7 32GB 512-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2655 MHz Core Clock, 28 Gbps Memory Clock, Waterforce All-In-One Cooling System, 1 Year Warranty |',
-    slug: 'gigabyte-aorus-geforce-rtx-5090-xtreme-waterforce-graphics-card-gddr7-32gb-512-bit-memory-hdmi-2-1b-dp-2-1b-outputs-pci-express-5-0-2655-mhz-core-clock-28-gbps-memory-clock-waterforce-all-in-one-cooling-system-1-year-warranty',
-    brand: 'Gigabyte',
-    category: 'graphics-cards',
-    subcategory: 'gpu',
-    price: 17279,
-    salePrice: 17279,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5090-GV-N5090AORUSX-W-32GD-1-1762526147349_c1ac1d00-7ba6-4f3c-acbb-801030a2bddd.webp?v=1773247452, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5090-GV-N5090AORUSX-W-32GD-2-1762526147365.webp?v=1773247452, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5090-GV-N5090AORUSX-W-32GD-3-1762526147371.webp?v=1773247452, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5090-GV-N5090AORUSX-W-32GD-4-1762526147371.webp?v=1773247452, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5090-GV-N5090AORUSX-W-32GD-5-1762526147375.webp?v=1773247452, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5090-GV-N5090AORUSX-W-32GD-6-1762526147407.webp?v=1773247452'],
-    shortDescription: 'Gigabyte AORUS GeForce RTX 5090 XTREME WATERFORCE Graphics Card, GDDR7 32GB 512-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2655 MHz Core Clock, 28 Gbps Memory Clock, Waterforce All-In-One Cooling System, 1 Year Warranty |',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5090</li>\n<li>Memory: GDDR7 32GB</li>\n<li>Engine Clock: 2655 MHz</li>\n<li>CUDA Core: 21760</li>\n<li>AI Performance: 3352 TOPS</li>\n<li>Memory Speed: 28 Gbps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 512-bit</li>\n<li>Power Connectors: 1 x 16-pin</li>\n<li>1 Year Warranty</li>\n</ul>',
-    specifications: {
-
-    },
-    stock: 10,
-    sku: 'GV-N5090AORUSX-W-32GD',
-    featured: false,
-    newProduct: true,
-    tags: ['Gaming', 'Gaming Graphic Cards', 'Gaming PC Components', 'Graphic Cards', 'PC Components', 'RTX 40-50 Series Graphics Cards']
-  },
-  {
-    id: '9443521593561',
-    name: 'Gigabyte AORUS MASTER ICE GeForce RTX 5090 Graphics Card, GDDR7 32GB 512-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2655 MHz Core Clock, 28 Gbps Memory Clock, Triple Windforce Hawk Fans, LCD Edge View, RGB Halo, Dual BIOS, White, 1 Year',
-    slug: 'gigabyte-aorus-master-ice-geforce-rtx-5090-graphics-card-gddr7-32gb-512-bit-memory-hdmi-2-1b-dp-2-1b-outputs-pci-express-5-0-2655-mhz-core-clock-28-gbps-memory-clock-triple-windforce-hawk-fans-lcd-edge-view-rgb-halo-dual-bios-white-1-year',
-    brand: 'Gigabyte',
-    category: 'graphics-cards',
-    subcategory: 'gpu',
-    price: 16709,
-    salePrice: 16709,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5090-GV-N5090AORUS-M-ICE-3-1-1762526146915_06857c17-84bc-4837-a994-ff46990b70cf.webp?v=1773247453, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5090-GV-N5090AORUS-M-ICE-3-2-1762526147208.webp?v=1773247453, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5090-GV-N5090AORUS-M-ICE-3-3-1762526147336.webp?v=1773247453, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5090-GV-N5090AORUS-M-ICE-3-4-1762526147348.webp?v=1773247453, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5090-GV-N5090AORUS-M-ICE-3-5-1762526147348.webp?v=1773247453, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5090-GV-N5090AORUS-M-ICE-3-6-1762526147349.webp?v=1773247453'],
-    shortDescription: 'Gigabyte AORUS MASTER ICE GeForce RTX 5090 Graphics Card, GDDR7 32GB 512-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2655 MHz Core Clock, 28 Gbps Memory Clock, Triple Windforce Hawk Fans, LCD Edge View, RGB Halo, Dual BIOS, White, 1 Year',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5090</li>\n<li>Memory: GDDR7 32GB</li>\n<li>Engine Clock: 2655 MHz</li>\n<li>CUDA Core: 21760</li>\n<li>AI Performance: 3352 TOPS</li>\n<li>Memory Speed: 28 Gbps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 512-bit</li>\n<li>Power Connectors: 1 x 16-pin</li>\n<li>1 Year Warranty</li>\n</ul>',
-    specifications: {
-
-    },
-    stock: 10,
-    sku: 'GV-N5090AORUS-M-ICE-3',
-    featured: false,
-    newProduct: true,
-    tags: ['Gaming', 'Gaming Graphic Cards', 'Gaming PC Components', 'Graphic Cards', 'PC Components', 'RTX 40-50 Series Graphics Cards']
-  },
-  {
-    id: '9443521429721',
-    name: 'Gigabyte WINDFORCE GeForce RTX 5080 Small Form Factor Graphics Card, GDDR7 16GB 256-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2617 MHz Core Clock, 30 Gbps Memory Clock, Triple Windforce Hawk Fans, Dual BIOS, 1 Year Warranty |',
-    slug: 'gigabyte-windforce-geforce-rtx-5080-small-form-factor-graphics-card-gddr7-16gb-256-bit-memory-hdmi-2-1b-dp-2-1b-outputs-pci-express-5-0-2617-mhz-core-clock-30-gbps-memory-clock-triple-windforce-hawk-fans-dual-bios-1-year-warranty',
-    brand: 'Gigabyte',
-    category: 'graphics-cards',
-    subcategory: 'gpu',
-    price: 6039,
-    salePrice: 6039,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5080-GV-N5080WF3-16GD-2-1762526146738.webp?v=1771137033'],
-    shortDescription: 'Gigabyte WINDFORCE GeForce RTX 5080 Small Form Factor Graphics Card, GDDR7 16GB 256-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2617 MHz Core Clock, 30 Gbps Memory Clock, Triple Windforce Hawk Fans, Dual BIOS, 1 Year Warranty |',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5080</li>\n<li>Memory: GDDR7 16GB</li>\n<li>Engine Clock: 2617 MHz</li>\n<li>CUDA Core: 10752</li>\n<li>AI Performance: 1801 TOPS</li>\n<li>Memory Speed: 30 Gbps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 256-bit</li>\n<li>Power Connectors: 1 x 16-pin</li>\n<li>1 Year Warranty</li>\n</ul>',
-    specifications: {
-
-    },
-    stock: 10,
-    sku: 'GV-N5080WF3-16GD',
-    featured: false,
-    newProduct: true,
-    tags: ['Gaming', 'Gaming Graphic Cards', 'Gaming PC Components', 'Graphic Cards', 'PC Components', 'RTX 40-50 Series Graphics Cards']
-  },
-  {
-    id: '9443521331417',
-    name: 'Gigabyte WINDFORCE OC GeForce RTX 5080 Small Form Factor Graphics Card, GDDR7 16GB 256-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2670 MHz Core Clock, 30 Gbps Memory Clock, Triple Windforce Hawk Fans, Dual BIOS, 1 Year Warranty |',
-    slug: 'gigabyte-windforce-oc-geforce-rtx-5080-small-form-factor-graphics-card-gddr7-16gb-256-bit-memory-hdmi-2-1b-dp-2-1b-outputs-pci-express-5-0-2670-mhz-core-clock-30-gbps-memory-clock-triple-windforce-hawk-fans-dual-bios-1-year-warranty',
-    brand: 'Gigabyte',
-    category: 'graphics-cards',
-    subcategory: 'gpu',
-    price: 6229,
-    salePrice: 6229,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5080-GV-N5080WF3OC-16GD-2-1762526146761.webp?v=1771137027'],
-    shortDescription: 'Gigabyte WINDFORCE OC GeForce RTX 5080 Small Form Factor Graphics Card, GDDR7 16GB 256-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2670 MHz Core Clock, 30 Gbps Memory Clock, Triple Windforce Hawk Fans, Dual BIOS, 1 Year Warranty |',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5080</li>\n<li>Memory: GDDR7 16GB</li>\n<li>Engine Clock: 2670 MHz</li>\n<li>CUDA Core: 10752</li>\n<li>AI Performance: 1801 TOPS</li>\n<li>Memory Speed: 30 Gbps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 256-bit</li>\n<li>Power Connectors: 1 x 16-pin</li>\n<li>1 Year Warranty</li>\n</ul>',
-    specifications: {
-
-    },
-    stock: 10,
-    sku: 'GV-N5080WF3OC-16GD',
-    featured: false,
-    newProduct: true,
-    tags: ['Gaming', 'Gaming Graphic Cards', 'Gaming PC Components', 'Graphic Cards', 'PC Components', 'RTX 40-50 Series Graphics Cards']
-  },
-  {
-    id: '9443521233113',
-    name: 'Gigabyte AORUS GeForce RTX 5080 MASTER ICE Graphics Card, GDDR7 16GB 256-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2805 MHz Core Clock, 30 Gbps Memory Clock, Triple Windforce Hawk Fans, LCD Edge View, RGB Halo, Dual BIOS, White, 1 Year',
-    slug: 'gigabyte-aorus-geforce-rtx-5080-master-ice-graphics-card-gddr7-16gb-256-bit-memory-hdmi-2-1b-dp-2-1b-outputs-pci-express-5-0-2805-mhz-core-clock-30-gbps-memory-clock-triple-windforce-hawk-fans-lcd-edge-view-rgb-halo-dual-bios-white-1-year',
-    brand: 'Gigabyte',
-    category: 'graphics-cards',
-    subcategory: 'gpu',
-    price: 7409,
-    salePrice: 7409,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5080-GV-N5080AORUSM-ICE-16-1-1762526146524_0bb41caf-0421-481c-aaa4-4186f59d2321.webp?v=1773247454, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5080-GV-N5080AORUSM-ICE-16-2-1762526146525.webp?v=1773247453, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5080-GV-N5080AORUSM-ICE-16-3-1762526146558.webp?v=1773247453, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5080-GV-N5080AORUSM-ICE-16-4-1762526146614.webp?v=1773247453, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5080-GV-N5080AORUSM-ICE-16-5-1762526146619.webp?v=1773247453, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5080-GV-N5080AORUSM-ICE-16-6-1762526146620.webp?v=1773247453'],
-    shortDescription: 'Gigabyte AORUS GeForce RTX 5080 MASTER ICE Graphics Card, GDDR7 16GB 256-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2805 MHz Core Clock, 30 Gbps Memory Clock, Triple Windforce Hawk Fans, LCD Edge View, RGB Halo, Dual BIOS, White, 1 Year',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5080</li>\n<li>Memory: GDDR7 16GB</li>\n<li>Engine Clock: 2805 MHz</li>\n<li>CUDA Core: 10752</li>\n<li>AI Performance: 1801 TOPS</li>\n<li>Memory Speed: 30 Gbps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 256-bit</li>\n<li>Power Connectors: 1 x 16-pin</li>\n<li>1 Year Warranty</li>\n</ul>',
-    specifications: {
-
-    },
-    stock: 10,
-    sku: 'GV-N5080AORUSM-ICE-16',
-    featured: false,
-    newProduct: true,
-    tags: ['Gaming', 'Gaming Graphic Cards', 'Gaming PC Components', 'GeForce RTX 50 Series Graphics Cards', 'Graphic Cards', 'NVIDIA RTX & Blackwell', 'PC Components', 'RTX 40-50 Series Graphics Cards']
-  },
-  {
-    id: '9443521036505',
-    name: 'Gigabyte AERO OC GeForce RTX 5080 Small Form Factor Graphics Card, GDDR7 16GB 256-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2730 MHz Core Clock, 30 Gbps Memory Clock, Triple Windforce Hawk Fans, Dual BIOS, White, 1 Year Warranty |',
-    slug: 'gigabyte-aero-oc-geforce-rtx-5080-small-form-factor-graphics-card-gddr7-16gb-256-bit-memory-hdmi-2-1b-dp-2-1b-outputs-pci-express-5-0-2730-mhz-core-clock-30-gbps-memory-clock-triple-windforce-hawk-fans-dual-bios-white-1-year-warranty',
-    brand: 'Gigabyte',
-    category: 'graphics-cards',
-    subcategory: 'gpu',
-    price: 7179,
-    salePrice: 7179,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5080-GV-N5080AEROOC-16GD-1-1762526146461_4f60a770-0f54-428f-9b3c-6e441618bed3.webp?v=1773247454, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5080-GV-N5080AEROOC-16GD-2-1762526146462.webp?v=1773247454, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5080-GV-N5080AEROOC-16GD-3-1762526146479.webp?v=1773247454, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5080-GV-N5080AEROOC-16GD-4-1762526146522.webp?v=1773247454, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5080-GV-N5080AEROOC-16GD-5-1762526146522.webp?v=1773247454, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5080-GV-N5080AEROOC-16GD-6-1762526146524.webp?v=1773247454'],
-    shortDescription: 'Gigabyte AERO OC GeForce RTX 5080 Small Form Factor Graphics Card, GDDR7 16GB 256-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2730 MHz Core Clock, 30 Gbps Memory Clock, Triple Windforce Hawk Fans, Dual BIOS, White, 1 Year Warranty |',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5080</li>\n<li>Memory: GDDR7 16GB</li>\n<li>Engine Clock: 2730 MHz</li>\n<li>CUDA Core: 10752</li>\n<li>AI Performance: 1801 TOPS</li>\n<li>Memory Speed: 30 Gbps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 256-bit</li>\n<li>Power Connectors: 1 x 16-pin</li>\n<li>1 Year Warranty</li>\n</ul>',
-    specifications: {
-
-    },
-    stock: 10,
-    sku: 'GV-N5080AEROOC-16GD',
-    featured: false,
-    newProduct: true,
-    tags: ['Gaming', 'Gaming Graphic Cards', 'Gaming PC Components', 'GeForce RTX 50 Series Graphics Cards', 'Graphic Cards', 'PC Components', 'RTX 40-50 Series Graphics Cards']
-  },
-  {
-    id: '9437585211609',
-    name: 'Gigabyte GAMING OC GeForce RTX 5070 Graphics Card, GDDR7 12GB 192-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2625 MHz Core Clock, 28 Gbps Memory Clock, Triple Windforce Hawk Fans, RGB Halo, Dual BIOS, 1 Year Warranty | GV-N5070GAMING-OC-12G',
-    slug: 'gigabyte-gaming-oc-geforce-rtx-5070-graphics-card-gddr7-12gb-192-bit-memory-hdmi-2-1b-dp-2-1b-outputs-pci-express-5-0-2625-mhz-core-clock-28-gbps-memory-clock-triple-windforce-hawk-fans-rgb-halo-dual-bios-1-year-warranty-gv-n5070gaming-oc-12g-1',
-    brand: 'Gigabyte',
-    category: 'graphics-cards',
-    subcategory: 'gpu',
-    price: 3559,
-    salePrice: 3559,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5070-GV-N5070GAMING-OC-12G-1.webp?v=1772598069, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5070-GV-N5070GAMING-OC-12G-2.webp?v=1772598069, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5070-GV-N5070GAMING-OC-12G-4.webp?v=1772598069, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5070-GV-N5070GAMING-OC-12G-6.webp?v=1772029096, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5070-GV-N5070GAMING-OC-12G-3.webp?v=1772029097, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5070-GV-N5070GAMING-OC-12G-5.webp?v=1772029096'],
-    shortDescription: 'Gigabyte GAMING OC GeForce RTX 5070 Graphics Card, GDDR7 12GB 192-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2625 MHz Core Clock, 28 Gbps Memory Clock, Triple Windforce Hawk Fans, RGB Halo, Dual BIOS, 1 Year Warranty | GV-N5070GAMING-OC-12G',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5070</li>\n<li>Memory: GDDR7 12GB</li>\n<li>Engine Clock: 2625 MHz</li>\n<li>CUDA Core: 6144</li>\n<li>AI Performance: 988 TOPS</li>\n<li>Memory Speed: 28 Gbps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 192-bit</li>\n<li>Power Connectors: 1 x 16-pin</li>\n<li>1 Year Warranty</li>\n</ul>',
-    specifications: {
-
-    },
-    stock: 10,
-    sku: 'GV-N5070GAMING-OC-12G',
-    featured: false,
-    newProduct: true,
-    tags: ['Gaming', 'Gaming Graphic Cards', 'Gaming PC Components', 'Graphic Cards', 'PC Components', 'RTX 40-50 Series Graphics Cards']
-  },
-  {
-    id: '9437585146073',
-    name: 'Gigabyte WINDFORCE OC GeForce RTX 5070 Small Form Factor Graphics Card, GDDR7 12GB 192-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2542 MHz Core Clock, 28 Gbps Memory Clock, Triple Windforce Hawk Fans, 1 Year Warranty | GV-N5070WF3OC-12GD',
-    slug: 'gigabyte-windforce-oc-geforce-rtx-5070-small-form-factor-graphics-card-gddr7-12gb-192-bit-memory-hdmi-2-1b-dp-2-1b-outputs-pci-express-5-0-2542-mhz-core-clock-28-gbps-memory-clock-triple-windforce-hawk-fans-1-year-warranty-gv-n5070wf3oc-12gd-1',
-    brand: 'Gigabyte',
-    category: 'graphics-cards',
-    subcategory: 'gpu',
-    price: 3999,
-    salePrice: 3999,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5070-GV-N5070WF3OC-12GD-1-1762424162802_d8680478-228f-4896-863d-83462c85c29e.webp?v=1773247476, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5070-GV-N5070WF3OC-12GD-2-1762424162830.webp?v=1773247476, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5070-GV-N5070WF3OC-12GD-3-1762424162831.webp?v=1773247476, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5070-GV-N5070WF3OC-12GD-4-1762424162835.webp?v=1773247476, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5070-GV-N5070WF3OC-12GD-5-1762424162836.webp?v=1773247476, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5070-GV-N5070WF3OC-12GD-6-1762424162836.webp?v=1773247476'],
-    shortDescription: 'Gigabyte WINDFORCE OC GeForce RTX 5070 Small Form Factor Graphics Card, GDDR7 12GB 192-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2542 MHz Core Clock, 28 Gbps Memory Clock, Triple Windforce Hawk Fans, 1 Year Warranty | GV-N5070WF3OC-12GD',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5070</li>\n<li>Memory: GDDR7 12GB</li>\n<li>Engine Clock: 2542 MHz</li>\n<li>CUDA Core: 6144</li>\n<li>AI Performance: 988 TOPS</li>\n<li>Memory Speed: 28 Gbps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 192-bit</li>\n<li>Power Connectors: 1 x 16-pin</li>\n<li>1 Year Warranty</li>\n</ul>',
-    specifications: {
-
-    },
-    stock: 10,
-    sku: 'GV-N5070WF3OC-12GD',
-    featured: false,
-    newProduct: true,
-    tags: ['Gaming', 'Gaming Graphic Cards', 'Gaming PC Components', 'GeForce RTX 50 Series Graphics Cards', 'Graphic Cards', 'NVIDIA RTX & Blackwell', 'PC Components', 'RTX 40-50 Series Graphics Cards']
-  },
-  {
-    id: '9437585080537',
-    name: 'Gigabyte GAMING OC GeForce RTX 5060 Ti Graphics Card, GDDR7 16GB 128-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2647 MHz Core Clock, 28 Gbps Memory Clock, Triple RGB Windforce Hawk Fans, Dual BIOS, 1 Year Warranty | GV-N506TGAMINGOC-16GD',
-    slug: 'gigabyte-gaming-oc-geforce-rtx-5060-ti-graphics-card-gddr7-16gb-128-bit-memory-hdmi-2-1b-dp-2-1b-outputs-pci-express-5-0-2647-mhz-core-clock-28-gbps-memory-clock-triple-rgb-windforce-hawk-fans-dual-bios-1-year-warranty-gv-n506tgamingoc-16gd-1',
-    brand: 'Gigabyte',
-    category: 'graphics-cards',
-    subcategory: 'gpu',
-    price: 2879,
-    salePrice: 2879,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/71GvM_M0tzL._AC_SY450.jpg?v=1771226735'],
-    shortDescription: 'Gigabyte GAMING OC GeForce RTX 5060 Ti Graphics Card, GDDR7 16GB 128-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2647 MHz Core Clock, 28 Gbps Memory Clock, Triple RGB Windforce Hawk Fans, Dual BIOS, 1 Year Warranty | GV-N506TGAMINGOC-16GD',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5060 Ti</li>\n<li>Memory: GDDR7 16GB</li>\n<li>Engine Clock: 2647 MHz</li>\n<li>CUDA Core: 4608</li>\n<li>AI Performance: 785 TOPS</li>\n<li>Memory Speed: 28 Gbps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 128-bit</li>\n<li>Power Connectors: 1 x 8-pin</li>\n<li>1 Year Warranty</li>\n</ul>',
-    specifications: {
-
-    },
-    stock: 10,
-    sku: 'GV-N506TGAMINGOC-16GD',
-    featured: false,
-    newProduct: true,
-    tags: ['Gaming', 'Gaming Graphic Cards', 'Gaming PC Components', 'Graphic Cards', 'PC Components', 'RTX 40-50 Series Graphics Cards']
-  },
-  {
-    id: '9437585047769',
-    name: 'Gigabyte GeForce RTX 5060 Ti AERO OC Graphics Card, GDDR7 16GB 128-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2647 MHz Core Clock, 28 Gbps Memory Clock, Triple Windforce RGB Hawk Fans, Dual Bios, White, 1 Year Warranty | GV-N506TAEROOC-16GD',
-    slug: 'gigabyte-geforce-rtx-5060-ti-aero-oc-graphics-card-gddr7-16gb-128-bit-memory-hdmi-2-1b-dp-2-1b-outputs-pci-express-5-0-2647-mhz-core-clock-28-gbps-memory-clock-triple-windforce-rgb-hawk-fans-dual-bios-white-1-year-warranty-gv-n506taerooc-16gd-1',
-    brand: 'Gigabyte',
-    category: 'graphics-cards',
-    subcategory: 'gpu',
-    price: 2879,
-    salePrice: 2879,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/716ZhAjyNiL._AC_SY450.jpg?v=1771226737'],
-    shortDescription: 'Gigabyte GeForce RTX 5060 Ti AERO OC Graphics Card, GDDR7 16GB 128-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2647 MHz Core Clock, 28 Gbps Memory Clock, Triple Windforce RGB Hawk Fans, Dual Bios, White, 1 Year Warranty | GV-N506TAEROOC-16GD',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5060 Ti</li>\n<li>Memory: GDDR7 16GB</li>\n<li>Engine Clock: 2647 MHz</li>\n<li>CUDA Core: 4608</li>\n<li>AI Performance: 785 TOPS</li>\n<li>Memory Speed: 28 Gbps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 128-bit</li>\n<li>Power Connectors: 1 x 8-pin</li>\n<li>1 Year Warranty</li>\n</ul>',
-    specifications: {
-
-    },
-    stock: 10,
-    sku: 'GV-N506TAEROOC-16GD',
-    featured: false,
-    newProduct: true,
-    tags: ['Gaming', 'Gaming Graphic Cards', 'Gaming PC Components', 'Graphic Cards', 'PC Components', 'RTX 40-50 Series Graphics Cards']
-  },
-  {
-    id: '9437584982233',
-    name: 'Gigabyte GeForce RTX 5060 Ti AERO OC Graphics Card, GDDR7 8GB 128-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2647 MHz Core Clock, 28 Gbps Memory Clock, Triple Windforce RGB Hawk Fans, Dual Bios, White, 1 Year Warranty | GV-N506TAERO-OC-8GD',
-    slug: 'gigabyte-geforce-rtx-5060-ti-aero-oc-graphics-card-gddr7-8gb-128-bit-memory-hdmi-2-1b-dp-2-1b-outputs-pci-express-5-0-2647-mhz-core-clock-28-gbps-memory-clock-triple-windforce-rgb-hawk-fans-dual-bios-white-1-year-warranty-gv-n506taero-oc-8gd-1',
-    brand: 'Gigabyte',
-    category: 'graphics-cards',
-    subcategory: 'gpu',
-    price: 2069,
-    salePrice: 2069,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5060Ti-GV-N506TAERO-OC-8GD-1-1762424161635_bb22252e-ee5c-477b-a084-88f3545b5e42.webp?v=1773247477, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5060Ti-GV-N506TAERO-OC-8GD-2-1762424161697.webp?v=1773247477, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5060Ti-GV-N506TAERO-OC-8GD-3-1762424161959.webp?v=1773247477, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5060Ti-GV-N506TAERO-OC-8GD-4-1762424162008.webp?v=1773247476, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5060Ti-GV-N506TAERO-OC-8GD-5-1762424162008.webp?v=1773247477, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5060Ti-GV-N506TAERO-OC-8GD-6-1762424162009.webp?v=1773247477'],
-    shortDescription: 'Gigabyte GeForce RTX 5060 Ti AERO OC Graphics Card, GDDR7 8GB 128-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2647 MHz Core Clock, 28 Gbps Memory Clock, Triple Windforce RGB Hawk Fans, Dual Bios, White, 1 Year Warranty | GV-N506TAERO-OC-8GD',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5060 Ti</li>\n<li>Memory: GDDR7 8GB</li>\n<li>Engine Clock: 2647 MHz</li>\n<li>CUDA Core: 4608</li>\n<li>AI Performance: 785 TOPS</li>\n<li>Memory Speed: 28 Gbps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 128-bit</li>\n<li>Power Connectors: 1 x 8-pin</li>\n<li>1 Year Warranty</li>\n</ul>',
-    specifications: {
-
-    },
-    stock: 10,
-    sku: 'GV-N506TAERO-OC-8GD',
-    featured: false,
-    newProduct: true,
-    tags: ['Gaming', 'Gaming Graphic Cards', 'Gaming PC Components', 'Graphic Cards', 'PC Components', 'RTX 40-50 Series Graphics Cards']
-  },
-  {
-    id: '9437584949465',
-    name: 'Gigabyte GAMING OC AMD Radeon RX 9070 Graphics Card, GDDR6 16GB 256-bit Memory, HDMI 2.1b & DP 2.1a Outputs, PCI Express 5.0, 2700 MHz Boost Clock, 20 Gbps Memory Clock, Triple Fan Windforce Cooling System, 1 Year Warranty | GV-R9070GAMING-OC-16G',
-    slug: 'gigabyte-gaming-oc-amd-radeon-rx-9070-graphics-card-gddr6-16gb-256-bit-memory-hdmi-2-1b-dp-2-1a-outputs-pci-express-5-0-2700-mhz-boost-clock-20-gbps-memory-clock-triple-fan-windforce-cooling-system-1-year-warranty-gv-r9070gaming-oc-16g-1',
-    brand: 'Gigabyte',
-    category: 'graphics-cards',
-    subcategory: 'gpu',
-    price: 2959,
-    salePrice: 2959,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-Radeon-RX-9070-GV-R9070GAMING-OC-16G-1-1762526147441_e0fe7660-b3dd-41aa-b76d-e77e19f0fa5b.webp?v=1773247478, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-Radeon-RX-9070-GV-R9070GAMING-OC-16G-2-1762526147447.webp?v=1773247477, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-Radeon-RX-9070-GV-R9070GAMING-OC-16G-3-1762526147450.webp?v=1773247477, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-Radeon-RX-9070-GV-R9070GAMING-OC-16G-4-1762526147451.webp?v=1773247478, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-Radeon-RX-9070-GV-R9070GAMING-OC-16G-5-1762526147452.webp?v=1773247477, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-Radeon-RX-9070-GV-R9070GAMING-OC-16G-6-1762526147453.webp?v=1773247477'],
-    shortDescription: 'Gigabyte GAMING OC AMD Radeon RX 9070 Graphics Card, GDDR6 16GB 256-bit Memory, HDMI 2.1b & DP 2.1a Outputs, PCI Express 5.0, 2700 MHz Boost Clock, 20 Gbps Memory Clock, Triple Fan Windforce Cooling System, 1 Year Warranty | GV-R9070GAMING-OC-16G',
-    description: '<ul>\n<li>AMD Radeon RX 9070</li>\n<li>Memory: GDDR6 16GB</li>\n<li>Boost Clock: 2700 MHz</li>\n<li>Stream Processors: 3584</li>\n<li>AI Performance: 578 TOPS</li>\n<li>Memory Speed: 20 Gbps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 256-bit</li>\n<li>Power Connectors: 2 x 8-pin</li>\n<li>1 Year Warranty</li>\n</ul>',
-    specifications: {
-
-    },
-    stock: 10,
-    sku: 'GV-R9070GAMING-OC-16G',
-    featured: false,
-    newProduct: true,
-    tags: ['AMD RX Graphic Cards', 'Gaming', 'Gaming Graphic Cards', 'Gaming PC Components', 'Graphic Cards', 'PC Components']
-  },
-  {
-    id: '9437584851161',
-    name: 'Gigabyte WINDFORCE OC GeForce RTX 4070 Super Graphics Card, GDDR6X 12GB 192-bit Memory, HDMI 2.1a & DP 1.4a Outputs, PCI Express 4.0, 2505 MHz Core Clock, 21 Gbps Memory Clock, Triple Fan Windforce Cooling System, 1 Year Warranty | GV-N407SWF3OC-12GD',
-    slug: 'gigabyte-windforce-oc-geforce-rtx-4070-super-graphics-card-gddr6x-12gb-192-bit-memory-hdmi-2-1a-dp-1-4a-outputs-pci-express-4-0-2505-mhz-core-clock-21-gbps-memory-clock-triple-fan-windforce-cooling-system-1-year-warranty-gv-n407swf3oc-12gd-1',
-    brand: 'Gigabyte',
-    category: 'graphics-cards',
-    subcategory: 'gpu',
-    price: 2829,
-    salePrice: 2829,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-4070-Super-GV-N407SWF3OC-12GD-1-1762526146182_7d02ee61-eae6-4c42-a3c4-c6f4e49ada4d.webp?v=1773247479, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-4070-Super-GV-N407SWF3OC-12GD-2-1762526146211.webp?v=1773247479, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-4070-Super-GV-N407SWF3OC-12GD-3-1762526146220.webp?v=1773247479, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-4070-Super-GV-N407SWF3OC-12GD-4-1762526146246.webp?v=1773247479, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-4070-Super-GV-N407SWF3OC-12GD-5-1762526146246.webp?v=1773247479, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-4070-Super-GV-N407SWF3OC-12GD-6-1762526146248.webp?v=1773247479'],
-    shortDescription: 'Gigabyte WINDFORCE OC GeForce RTX 4070 Super Graphics Card, GDDR6X 12GB 192-bit Memory, HDMI 2.1a & DP 1.4a Outputs, PCI Express 4.0, 2505 MHz Core Clock, 21 Gbps Memory Clock, Triple Fan Windforce Cooling System, 1 Year Warranty | GV-N407SWF3OC-12GD',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 4070 Super</li>\n<li>Memory: GDDR6X 12GB</li>\n<li>Engine Clock: 2505 MHz</li>\n<li>CUDA Core: 7168</li>\n<li>AI Performance: 568 TOPS</li>\n<li>Memory Speed: 21 Gbps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 192-bit</li>\n<li>Power Connectors: 1 x 16-pin</li>\n<li>1 Year Warranty</li>\n</ul>',
-    specifications: {
-
-    },
-    stock: 10,
-    sku: 'GV-N407SWF3OC-12GD',
-    featured: false,
-    newProduct: true,
-    tags: ['Gaming', 'Gaming Graphic Cards', 'Gaming PC Components', 'Graphic Cards', 'PC Components', 'RTX 40-50 Series Graphics Cards']
-  },
-  {
-    id: '9437584785625',
-    name: 'Gigabyte GAMING OC GeForce RTX 5090 Graphics Card, GDDR7 32GB 512-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2550 MHz Core Clock, 28 Gbps Memory Clock, Triple Windforce Hawk Fans, RGB Halo, Dual BIOS, 1 Year Warranty | GV-N5090GAMING-OC-32',
-    slug: 'gigabyte-gaming-oc-geforce-rtx-5090-graphics-card-gddr7-32gb-512-bit-memory-hdmi-2-1b-dp-2-1b-outputs-pci-express-5-0-2550-mhz-core-clock-28-gbps-memory-clock-triple-windforce-hawk-fans-rgb-halo-dual-bios-1-year-warranty-gv-n5090gaming-oc-33',
-    brand: 'Gigabyte',
-    category: 'graphics-cards',
-    subcategory: 'gpu',
-    price: 16709,
-    salePrice: 16709,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5090-GV-N5090GAMING-OC-32-1-1762526147408_01307da3-af62-404c-83cc-64bcbac5b56a.webp?v=1773247480, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5090-GV-N5090GAMING-OC-32-2-1762526147409.webp?v=1773247479, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5090-GV-N5090GAMING-OC-32-3-1762526147420.webp?v=1773247480, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5090-GV-N5090GAMING-OC-32-4-1762526147425.webp?v=1773247479, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5090-GV-N5090GAMING-OC-32-5-1762526147425.webp?v=1773247480, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5090-GV-N5090GAMING-OC-32-6-1762526147426.webp?v=1773247480'],
-    shortDescription: 'Gigabyte GAMING OC GeForce RTX 5090 Graphics Card, GDDR7 32GB 512-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2550 MHz Core Clock, 28 Gbps Memory Clock, Triple Windforce Hawk Fans, RGB Halo, Dual BIOS, 1 Year Warranty | GV-N5090GAMING-OC-32',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5090</li>\n<li>Memory: GDDR7 32GB</li>\n<li>Engine Clock: 2550 MHz</li>\n<li>CUDA Core: 21760</li>\n<li>AI Performance: 3352 TOPS</li>\n<li>Memory Speed: 28 Gbps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 512-bit</li>\n<li>Power Connectors: 1 x 16-pin</li>\n<li>1 Year Warranty</li>\n</ul>',
-    specifications: {
-
-    },
-    stock: 10,
-    sku: 'GV-N5090GAMING-OC-32',
-    featured: false,
-    newProduct: true,
-    tags: ['Gaming', 'Gaming Graphic Cards', 'Gaming PC Components', 'Graphic Cards', 'PC Components', 'RTX 40-50 Series Graphics Cards']
-  },
-  {
-    id: '9432716804313',
-    name: 'HP Nvidia RTX 5000 Ada Generation Workstation Graphics Card, GDDR6 32 GB 256-bit Memory, 4 x DP 1.4a Outputs, PCI Express 4.0, 2.5 GHz Boost Clock, 576  GB/s Memory Bandwidth, 1 Year Warranty | 8D6B6AA',
-    slug: 'hp-nvidia-rtx-5000-ada-generation-workstation-graphics-card-gddr6-32gb-256-bit-memory-4-x-dp-1-4a-outputs-pci-express-4-0-2-5-ghz-boost-clock-576-gb-s-memory-bandwidth-1-year-warranty-8d6b6aa-8d6b6aa',
-    brand: 'HP',
-    category: 'graphics-cards',
-    subcategory: 'gpu',
-    price: 15079,
-    salePrice: 15079,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/8D6B6AA-1_b0a5eb6e-af3a-4fbd-9e3c-9a4a5a4089d8.webp?v=1772033842'],
-    shortDescription: 'HP Nvidia RTX 5000 Ada Generation Workstation Graphics Card, GDDR6 32 GB 256-bit Memory, 4 x DP 1.4a Outputs, PCI Express 4.0, 2.5 GHz Boost Clock, 576  GB/s Memory Bandwidth, 1 Year Warranty | 8D6B6AA',
-    description: '<ul>\n<li>NVIDIA RTX 5000 Ada</li>\n<li>Memory: GDDR6 32 GB</li>\n<li>Memory Interface: 256-bit</li>\n<li>Boost Clock: 2.5 GHz</li>\n<li>CUDA Cores: 12800</li>\n<li>Tensor Cores: 400 (4th Generation)</li>\n<li>RT Cores: 100 (3rd Generation)</li>\n<li>AI Performance: N/A</li>\n<li>Memory Bandwidth: 576  GB/s</li>\n<li>Power Connectors: 1 x 16-pin</li>\n</ul>',
-    specifications: {
-
-    },
-    stock: 10,
-    sku: '8D6B6AA',
-    featured: false,
-    newProduct: true,
-    tags: ['Graphic Cards', 'PC Components', 'Workstation Graphic Cards']
-  },
-  {
-    id: '9432716476633',
-    name: 'Palit GeForce RTX 5070 GamingPro OC Edition Graphics Card, GDDR7 12 GB 192-bit Memory, HDMI 2.1b, DP 2.1b Outputs, PCI Express 5.0, 2572 MHz Boost Clock, 28  GBps Memory Clock, 1 Year Warranty | NE75070T19K9- GB2050A',
-    slug: 'palit-geforce-rtx-5070-gamingpro-oc-edition-graphics-card-gddr7-12gb-192-bit-memory-hdmi-2-1b-dp-2-1b-outputs-pci-express-5-0-2572-mhz-boost-clock-28-gbps-memory-clock-1-year-warranty-ne75070t19k9-gb2050a-ne75070t19k9-gb2050a',
-    brand: 'Palit',
-    category: 'graphics-cards',
-    subcategory: 'gpu',
-    price: 2859,
-    salePrice: 2859,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/NE75070T19K9-GB2050A-2-1752340110905.png?v=1770248561'],
-    shortDescription: 'Palit GeForce RTX 5070 GamingPro OC Edition Graphics Card, GDDR7 12 GB 192-bit Memory, HDMI 2.1b, DP 2.1b Outputs, PCI Express 5.0, 2572 MHz Boost Clock, 28  GBps Memory Clock, 1 Year Warranty | NE75070T19K9- GB2050A',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5070</li>\n<li>Memory: GDDR7 12 GB</li>\n<li>Memory Interface: 192-bit</li>\n<li>Clock Speed: 2325 MHz</li>\n<li>Boost Clock:  2572 MHz</li>\n<li>CUDA Cores: 6144</li>\n<li>AI Performance: N/A</li>\n<li>Memory Speed: 28  GBps</li>\n<li>Maximum Digital Resolution: 4K at 480Hz or 8K at 120Hz with DSC</li>\n<li>Power Connector: 1 x 16-pin</li>\n</ul>',
-    specifications: {
-
-    },
-    stock: 10,
-    sku: 'NE75070T19K9-GB2050A',
-    featured: false,
-    newProduct: true,
-    tags: ['Gaming', 'Gaming Graphic Cards', 'Graphic Cards', 'PC Components', 'RTX 40-50 Series Graphics Cards']
-  },
-  {
-    id: '9432716443865',
-    name: 'Palit GeForce RTX 5070 GamingPro Edition Graphics Card, GDDR7 12 GB 192-bit Memory, HDMI 2.1b, DP 2.1b Outputs, PCI Express 5.0, 2512 MHz Boost Clock, 28  GBps Memory Clock, 1 Year Warranty | NE75070019K9- GB2050A',
-    slug: 'palit-geforce-rtx-5070-gamingpro-edition-graphics-card-gddr7-12gb-192-bit-memory-hdmi-2-1b-dp-2-1b-outputs-pci-express-5-0-2512-mhz-boost-clock-28-gbps-memory-clock-1-year-warranty-ne75070019k9-gb2050a-ne75070019k9-gb2050a',
-    brand: 'Palit',
-    category: 'graphics-cards',
-    subcategory: 'gpu',
-    price: 2729,
-    salePrice: 2729,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/NE75070019K9-GB2050A-2-1752340111692.png?v=1770248548'],
-    shortDescription: 'Palit GeForce RTX 5070 GamingPro Edition Graphics Card, GDDR7 12 GB 192-bit Memory, HDMI 2.1b, DP 2.1b Outputs, PCI Express 5.0, 2512 MHz Boost Clock, 28  GBps Memory Clock, 1 Year Warranty | NE75070019K9- GB2050A',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5070</li>\n<li>Memory: GDDR7 12 GB</li>\n<li>Memory Interface: 192-bit</li>\n<li>Clock Speed: 2325 MHz</li>\n<li>Boost Clock:  2512 MHz</li>\n<li>CUDA Cores: 6144</li>\n<li>AI Performance: N/A</li>\n<li>Memory Speed: 28  GBps</li>\n<li>Maximum Digital Resolution: 4K at 480Hz or 8K at 120Hz with DSC</li>\n<li>Power Connector: 1 x 16-pin</li>\n</ul>',
-    specifications: {
-
-    },
-    stock: 10,
-    sku: 'NE75070019K9-GB2050A',
-    featured: false,
-    newProduct: true,
-    tags: ['Gaming', 'Gaming Graphic Cards', 'Graphic Cards', 'PC Components', 'RTX 40-50 Series Graphics Cards']
-  },
-  {
-    id: '9432716411097',
-    name: 'Palit GeForce RTX 5060 Ti Dual Edition Graphics Card, GDDR7 8 GB 128-bit Memory, HDMI 2.1b, DP 2.1b Outputs, PCI Express 5.0, 2573 MHz Boost Clock, 28  GBps Memory Clock, 1 Year Warranty | NE7506T019P1- GB2062D',
-    slug: 'palit-geforce-rtx-5060-ti-dual-edition-graphics-card-gddr7-8gb-128-bit-memory-hdmi-2-1b-dp-2-1b-outputs-pci-express-5-0-2573-mhz-boost-clock-28-gbps-memory-clock-1-year-warranty-ne7506t019p1-gb2062d-ne7506t019p1-gb2062d',
-    brand: 'Palit',
-    category: 'graphics-cards',
-    subcategory: 'gpu',
-    price: 1779,
-    salePrice: 1779,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/NE7506T019P1-GB2062D-2-1752340110369.png?v=1770248535'],
-    shortDescription: 'Palit GeForce RTX 5060 Ti Dual Edition Graphics Card, GDDR7 8 GB 128-bit Memory, HDMI 2.1b, DP 2.1b Outputs, PCI Express 5.0, 2573 MHz Boost Clock, 28  GBps Memory Clock, 1 Year Warranty | NE7506T019P1- GB2062D',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5060 Ti</li>\n<li>Memory: GDDR7 8 GB</li>\n<li>Memory Interface: 128-bit</li>\n<li>Clock Speed: 2407 MHz</li>\n<li>Boost Clock:  2573 MHz</li>\n<li>CUDA Cores: 4608</li>\n<li>AI Performance: N/A</li>\n<li>Memory Speed: 28  GBps</li>\n<li>Maximum Digital Resolution: 4K at 480Hz or 8K at 120Hz with DSC</li>\n<li>Power Connector: 1 x 8-pin</li>\n</ul>',
-    specifications: {
-
-    },
-    stock: 10,
-    sku: 'NE7506T019P1-GB2062D',
-    featured: false,
-    newProduct: true,
-    tags: ['Gaming', 'Gaming Graphic Cards', 'Graphic Cards', 'PC Components', 'RTX 40-50 Series Graphics Cards']
-  },
-  {
-    id: '9432716017881',
-    name: 'PNY Nvidia RTX 6000 Ada Workstation Graphics Card, GDDR6 48 GB 384-bit Memory, DP 1.4a Outputs, PCI Express 4.0, 960  GB/s Memory Bandwidth, 1 Year Warranty | VCNRTX6000ADA-EDU-SB',
-    slug: 'pny-nvidia-rtx-6000-ada-workstation-graphics-card-gddr6-48gb-384-bit-memory-dp-1-4a-outputs-pci-express-4-0-960-gb-s-memory-bandwidth-1-year-warranty-vcnrtx6000ada-edu-sb-vcnrtx6000ada-edu-sb',
-    brand: 'PNY',
-    category: 'graphics-cards',
-    subcategory: 'gpu',
-    price: 29209,
-    salePrice: 29209,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/VCNRTX6000ADA-EDU-SB-2-1752340112257.png?v=1770248399'],
-    shortDescription: 'PNY Nvidia RTX 6000 Ada Workstation Graphics Card, GDDR6 48 GB 384-bit Memory, DP 1.4a Outputs, PCI Express 4.0, 960  GB/s Memory Bandwidth, 1 Year Warranty | VCNRTX6000ADA-EDU-SB',
-    description: '<ul>\n<li>NVIDIA RTX 6000 Ada</li>\n<li>Memory: GDDR6 48 GB</li>\n<li>Memory Interface: 384-bit</li>\n<li>Boost Clock: 2.5 GHz</li>\n<li>CUDA Cores: 18176</li>\n<li>Tensor Cores: 568 (4th Generation)</li>\n<li>RT Cores: RT Cores: 142 (3rd Generation)</li>\n<li>AI Performance: N/A</li>\n<li>Memory Bandwidth: 960  GB/s</li>\n<li>Power Connectors: 1 x 16-pin</li>\n</ul>',
-    specifications: {
-
-    },
-    stock: 10,
-    sku: 'VCNRTX6000ADA-EDU-SB',
-    featured: false,
-    newProduct: true,
-    tags: ['Graphic Cards', 'PC Components', 'Workstation Graphic Cards']
-  },
-  {
-    id: '9432715886809',
-    name: 'PNY GeForce RTX 5080 EPIC-X Triple Fan OC Edition Graphics Card, GDDR7 16 GB 256-bit Memory, HDMI 2.1b, DP 2.1b Outputs, PCI Express 5.0, 2625 MHz Boost Clock, 960  GB/s Memory Bandwidth, 1 Year Warranty | VCG508016TFXPB1-O',
-    slug: 'pny-geforce-rtx-5080-epic-x-triple-fan-oc-edition-graphics-card-gddr7-16gb-256-bit-memory-hdmi-2-1b-dp-2-1b-outputs-pci-express-5-0-2625-mhz-boost-clock-960-gb-s-memory-bandwidth-1-year-warranty-vcg508016tfxpb1-o-vcg508016tfxpb1-o',
-    brand: 'PNY',
-    category: 'graphics-cards',
-    subcategory: 'gpu',
-    price: 6829,
-    salePrice: 6829,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/VCG508016TFXPB1-O-2-1752340112146.png?v=1770248366, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/VCG508016TFXPB1-O-3-1752340112182.png?v=1770248366, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/VCG508016TFXPB1-O-4-1752340106757.png?v=1770248366'],
-    shortDescription: 'PNY GeForce RTX 5080 EPIC-X Triple Fan OC Edition Graphics Card, GDDR7 16 GB 256-bit Memory, HDMI 2.1b, DP 2.1b Outputs, PCI Express 5.0, 2625 MHz Boost Clock, 960  GB/s Memory Bandwidth, 1 Year Warranty | VCG508016TFXPB1-O',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5080</li>\n<li>Memory: GDDR7 16 GB</li>\n<li>Memory Interface: 256-bit</li>\n<li>Boost Clock: 2625 MHz</li>\n<li>CUDA Cores: 10752</li>\n<li>AI Performance: N/A</li>\n<li>Memory Bandwidth: 960  GB/s</li>\n<li>Power Connectors: 1 x 16-pin</li>\n</ul>',
-    specifications: {
-
-    },
-    stock: 10,
-    sku: 'VCG508016TFXPB1-O',
-    featured: false,
-    newProduct: true,
-    tags: ['Gaming', 'Gaming Graphic Cards', 'GeForce RTX 50 Series Graphics Cards', 'Graphic Cards', 'NVIDIA RTX & Blackwell', 'PC Components', 'RTX 40-50 Series Graphics Cards']
-  },
-  {
-    id: '9432715821273',
-    name: 'PNY GeForce RTX 5070 Ti VERTO Triple Fan OC Edition Graphics Card, GDDR7 16 GB 256-bit Memory, HDMI 2.1b, DP 2.1b Outputs, PCI Express 5.0, 2790 MHz Boost Clock, 896  GB/s Memory Bandwidth, 1 Year Warranty | VCG5070T16TFXPB1-O',
-    slug: 'pny-geforce-rtx-5070-ti-verto-triple-fan-oc-edition-graphics-card-gddr7-16gb-256-bit-memory-hdmi-2-1b-dp-2-1b-outputs-pci-express-5-0-2790-mhz-boost-clock-896-gb-s-memory-bandwidth-1-year-warranty-vcg5070t16tfxpb1-o-vcg5070t16tfxpb1-o',
-    brand: 'PNY',
-    category: 'graphics-cards',
-    subcategory: 'gpu',
-    price: 5579,
-    salePrice: 5579,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/VCG5070T16TFXPB1-O-2-1752340106495.png?v=1770248343, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/VCG5070T16TFXPB1-O-3-1752340106499.png?v=1770248343, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/VCG5070T16TFXPB1-O-4-1752340106509.png?v=1770248343, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/VCG5070T16TFXPB1-O-5-1752340106514.png?v=1770248343, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/VCG5070T16TFXPB1-O-6-1752340106550.png?v=1770248343'],
-    shortDescription: 'PNY GeForce RTX 5070 Ti VERTO Triple Fan OC Edition Graphics Card, GDDR7 16 GB 256-bit Memory, HDMI 2.1b, DP 2.1b Outputs, PCI Express 5.0, 2790 MHz Boost Clock, 896  GB/s Memory Bandwidth, 1 Year Warranty | VCG5070T16TFXPB1-O',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5070 Ti</li>\n<li>Memory: GDDR7 16 GB</li>\n<li>Memory Interface: 256-bit</li>\n<li>Boost Clock: 2790 MHz</li>\n<li>CUDA Cores: 8960</li>\n<li>AI Performance: N/A</li>\n<li>Memory Bandwidth: 896  GB/s</li>\n<li>Power Connectors: 1 x 16-pin</li>\n</ul>',
-    specifications: {
-
-    },
-    stock: 10,
-    sku: 'VCG5070T16TFXPB1-O',
-    featured: false,
-    newProduct: true,
-    tags: ['Gaming', 'Gaming Graphic Cards', 'Graphic Cards', 'PC Components', 'RTX 40-50 Series Graphics Cards']
-  },
-  {
-    id: '9432715788505',
-    name: 'PNY GeForce RTX 5070 Triple Fan OC Edition AR GB Graphics Card, GDDR7 12 GB 192-bit Memory, HDMI 2.1b, DP 2.1b Outputs, PCI Express 5.0, 2775 MHz Boost Clock, 672  GB/s Memory Bandwidth, 1 Year Warranty | VCG507012TFXXPB1-O',
-    slug: 'pny-geforce-rtx-5070-triple-fan-oc-edition-argb-graphics-card-gddr7-12gb-192-bit-memory-hdmi-2-1b-dp-2-1b-outputs-pci-express-5-0-2775-mhz-boost-clock-672-gb-s-memory-bandwidth-1-year-warranty-vcg507012tfxxpb1-o-vcg507012tfxxpb1-o',
-    brand: 'PNY',
-    category: 'graphics-cards',
-    subcategory: 'gpu',
-    price: 3559,
-    salePrice: 3559,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/VCG507012TFXXPB1-O-2-1752340106726.png?v=1770248330, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/VCG507012TFXXPB1-O-3-1752340106734.png?v=1770248330, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/VCG507012TFXXPB1-O-4-1752340106740.png?v=1770248330'],
-    shortDescription: 'PNY GeForce RTX 5070 Triple Fan OC Edition AR GB Graphics Card, GDDR7 12 GB 192-bit Memory, HDMI 2.1b, DP 2.1b Outputs, PCI Express 5.0, 2775 MHz Boost Clock, 672  GB/s Memory Bandwidth, 1 Year Warranty | VCG507012TFXXPB1-O',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5070</li>\n<li>Memory: GDDR7 12 GB</li>\n<li>Memory Interface: 192-bit</li>\n<li>Boost Clock: 2775 MHz</li>\n<li>CUDA Cores: 7168</li>\n<li>AI Performance: N/A</li>\n<li>Memory Bandwidth: 672  GB/s</li>\n<li>Power Connectors: 1 x 16-pin</li>\n</ul>',
-    specifications: {
-
-    },
-    stock: 10,
-    sku: 'VCG507012TFXXPB1-O',
-    featured: false,
-    newProduct: true,
-    tags: ['Gaming', 'Gaming Graphic Cards', 'GeForce RTX 50 Series Graphics Cards', 'Graphic Cards', 'NVIDIA RTX & Blackwell', 'PC Components', 'RTX 40-50 Series Graphics Cards']
-  },
-  {
-    id: '9432715722969',
-    name: 'PNY GeForce RTX 4060 Ti VERTO Dual Fan OC Edition Graphics Card, GDDR6 16 GB 128-bit Memory, HDMI 2.1, DP 1.4a Outputs, PCI Express 4.0, 2550 MHz Boost Clock, 288  GB/s Memory Bandwidth, 1 Year Warranty | VCG4060T16DFXPB1-E',
-    slug: 'pny-geforce-rtx-4060-ti-verto-dual-fan-oc-edition-graphics-card-gddr6-16gb-128-bit-memory-hdmi-2-1-dp-1-4a-outputs-pci-express-4-0-2550-mhz-boost-clock-288-gb-s-memory-bandwidth-1-year-warranty-vcg4060t16dfxpb1-e-vcg4060t16dfxpb1-e',
-    brand: 'PNY',
-    category: 'graphics-cards',
-    subcategory: 'gpu',
-    price: 1919,
-    salePrice: 1919,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/VCG4060T16DFXPB1-E-2-1752340106389.png?v=1770248306'],
-    shortDescription: 'PNY GeForce RTX 4060 Ti VERTO Dual Fan OC Edition Graphics Card, GDDR6 16 GB 128-bit Memory, HDMI 2.1, DP 1.4a Outputs, PCI Express 4.0, 2550 MHz Boost Clock, 288  GB/s Memory Bandwidth, 1 Year Warranty | VCG4060T16DFXPB1-E',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 4060 Ti</li>\n<li>Memory: GDDR6 16 GB</li>\n<li>Memory Interface: 128-bit</li>\n<li>Boost Clock: 2550 MHz</li>\n<li>CUDA Cores: 4352</li>\n<li>AI Performance: N/A</li>\n<li>Memory Bandwidth: 288  GB/s</li>\n<li>Power Connectors: 1 x 8-pin</li>\n</ul>',
-    specifications: {
-
-    },
-    stock: 10,
-    sku: 'VCG4060T16DFXPB1-E',
-    featured: false,
-    newProduct: true,
-    tags: ['Gaming', 'Gaming Graphic Cards', 'Graphic Cards', 'PC Components', 'RTX 40-50 Series Graphics Cards']
-  },
-  {
-    id: '9432715624665',
-    name: 'PNY Nvidia Quadro T400 Workstation Graphics Card, Low Profile, GDDR6 4 GB 64-bit Memory, DP 1.4a Outputs, PCI Express 3.0, 80  GB/s Memory Bandwidth, 1 Year Warranty | VCNT400-4 GB-SB',
-    slug: 'pny-nvidia-quadro-t400-workstation-graphics-card-low-profile-gddr6-4gb-64-bit-memory-dp-1-4a-outputs-pci-express-3-0-80-gb-s-memory-bandwidth-1-year-warranty-vcnt400-4gb-sb-vcnt400-4gb-sb',
-    brand: 'PNY',
-    category: 'graphics-cards',
-    subcategory: 'gpu',
-    price: 659,
-    salePrice: 659,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/VCNT400-4GB-SB-2-1752340107038.png?v=1770248275'],
-    shortDescription: 'PNY Nvidia Quadro T400 Workstation Graphics Card, Low Profile, GDDR6 4 GB 64-bit Memory, DP 1.4a Outputs, PCI Express 3.0, 80  GB/s Memory Bandwidth, 1 Year Warranty | VCNT400-4 GB-SB',
-    description: '<ul>\n<li>NVIDIA T400</li>\n<li>Memory: GDDR6 4 GB</li>\n<li>Memory Interface: 64-bit</li>\n<li>Boost Clock: N/A</li>\n<li>CUDA Cores: 384</li>\n<li>AI Performance: N/A</li>\n<li>Low Profile</li>\n<li>Memory Bandwidth: 80  GB/s</li>\n</ul>',
-    specifications: {
-
-    },
-    stock: 10,
-    sku: 'VCNT400-4GB-SB',
-    featured: false,
-    newProduct: true,
-    tags: ['Graphic Cards', 'PC Components', 'Workstation Graphic Cards']
-  },
-  {
-    id: '9432715591897',
-    name: 'PNY Nvidia Quadro T1000 Workstation Graphics Card, Low Profile, GDDR6 8 GB 128-bit Memory, DP 1.4a Outputs, PCI Express 3.0, 160  GB/s Memory Bandwidth, 1 Year Warranty | VCNT1000-8 GB-PB',
-    slug: 'pny-nvidia-quadro-t1000-workstation-graphics-card-low-profile-gddr6-8gb-128-bit-memory-dp-1-4a-outputs-pci-express-3-0-160-gb-s-memory-bandwidth-1-year-warranty-vcnt1000-8gb-pb-vcnt1000-8gb-pb',
-    brand: 'PNY',
-    category: 'graphics-cards',
-    subcategory: 'gpu',
-    price: 1839,
-    salePrice: 1839,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/VCNT1000-8GB-PB-2-1752340107135.png?v=1770248266'],
-    shortDescription: 'PNY Nvidia Quadro T1000 Workstation Graphics Card, Low Profile, GDDR6 8 GB 128-bit Memory, DP 1.4a Outputs, PCI Express 3.0, 160  GB/s Memory Bandwidth, 1 Year Warranty | VCNT1000-8 GB-PB',
-    description: '<ul>\n<li>NVIDIA T1000</li>\n<li>Memory: GDDR6 8 GB</li>\n<li>Memory Interface: 128-bit</li>\n<li>Boost Clock: N/A</li>\n<li>CUDA Cores: 896</li>\n<li>AI Performance: N/A</li>\n<li>Low Profile</li>\n<li>Memory Bandwidth: 160  GB/s</li>\n</ul>',
-    specifications: {
-
-    },
-    stock: 10,
-    sku: 'VCNT1000-8GB-PB',
-    featured: false,
-    newProduct: true,
-    tags: ['Graphic Cards', 'PC Components', 'Workstation Graphic Cards']
-  },
-  {
-    id: '9432715559129',
-    name: 'PNY Nvidia RTX 5000 Ada Generation Workstation Graphics Card, GDDR6 32 GB 256-bit Memory, DP 1.4a Outputs, PCI Express 4.0, 2.5 GHz Boost Clock, 576  GB/s Memory Bandwidth, 1 Year Warranty | SVCNRTX5000ADA-SB',
-    slug: 'pny-nvidia-rtx-5000-ada-generation-workstation-graphics-card-gddr6-32gb-256-bit-memory-dp-1-4a-outputs-pci-express-4-0-2-5-ghz-boost-clock-576-gb-s-memory-bandwidth-1-year-warranty-svcnrtx5000ada-sb-svcnrtx5000ada-sb',
-    brand: 'PNY',
-    category: 'graphics-cards',
-    subcategory: 'gpu',
-    price: 15279,
-    salePrice: 15279,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/SVCNRTX5000ADA-SB-2-1752340106345.png?v=1770248257'],
-    shortDescription: 'PNY Nvidia RTX 5000 Ada Generation Workstation Graphics Card, GDDR6 32 GB 256-bit Memory, DP 1.4a Outputs, PCI Express 4.0, 2.5 GHz Boost Clock, 576  GB/s Memory Bandwidth, 1 Year Warranty | SVCNRTX5000ADA-SB',
-    description: '<ul>\n<li>NVIDIA RTX 5000 Ada</li>\n<li>Memory: GDDR6 32 GB</li>\n<li>Memory Interface: 256-bit</li>\n<li>Boost Clock: 2.5 GHz</li>\n<li>CUDA Cores: 12800</li>\n<li>Tensor Cores: 400 (4th Generation)</li>\n<li>RT Cores: 100 (3rd Generation)</li>\n<li>AI Performance: N/A</li>\n<li>Memory Bandwidth: 576  GB/s</li>\n<li>Power Connectors: 1 x 16-pin</li>\n</ul>',
-    specifications: {
-
-    },
-    stock: 10,
-    sku: 'SVCNRTX5000ADA-SB',
-    featured: false,
-    newProduct: true,
-    tags: ['Graphic Cards', 'PC Components', 'Workstation Graphic Cards']
-  },
-  {
-    id: '9432715526361',
-    name: 'PNY Nvidia RTX 4500 Ada Generation Workstation Graphics Card, GDDR6 24 GB 192-bit Memory, DP 1.4a Outputs, PCI Express 4.0, 2.6 GHz Boost Clock, 432  GB/s Memory Bandwidth, 1 Year Warranty | SVCNRTX4500ADA-SB',
-    slug: 'pny-nvidia-rtx-4500-ada-generation-workstation-graphics-card-gddr6-24gb-192-bit-memory-dp-1-4a-outputs-pci-express-4-0-2-6-ghz-boost-clock-432-gb-s-memory-bandwidth-1-year-warranty-svcnrtx4500ada-sb-svcnrtx4500ada-sb',
-    brand: 'PNY',
-    category: 'graphics-cards',
-    subcategory: 'gpu',
-    price: 10829,
-    salePrice: 10829,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/SVCNRTX4500ADA-SB-2-1752340106320.png?v=1770248247, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/SVCNRTX4500ADA-SB-3-1752340106329.png?v=1770248247, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/SVCNRTX4500ADA-SB-4-1752340106338.png?v=1770248247'],
-    shortDescription: 'PNY Nvidia RTX 4500 Ada Generation Workstation Graphics Card, GDDR6 24 GB 192-bit Memory, DP 1.4a Outputs, PCI Express 4.0, 2.6 GHz Boost Clock, 432  GB/s Memory Bandwidth, 1 Year Warranty | SVCNRTX4500ADA-SB',
-    description: '<ul>\n<li>NVIDIA RTX 4500 Ada</li>\n<li>Memory: GDDR6 24 GB</li>\n<li>Memory Interface: 192-bit</li>\n<li>Boost Clock: 2.6 GHz</li>\n<li>CUDA Cores: 7680</li>\n<li>Tensor Cores: 240 (4th Generation)</li>\n<li>RT Cores: 60 (3rd Generation)</li>\n<li>AI Performance: N/A</li>\n<li>Memory Bandwidth: 432  GB/s</li>\n<li>Power Connectors: 1 x 16-pin</li>\n</ul>',
-    specifications: {
-
-    },
-    stock: 10,
-    sku: 'SVCNRTX4500ADA-SB',
-    featured: false,
-    newProduct: true,
-    tags: ['Graphic Cards', 'PC Components', 'Workstation Graphic Cards']
-  },
-  {
-    id: '9432715460825',
-    name: 'PNY Nvidia RTX 4000 Ada Generation Workstation Graphics Card, GDDR6 20 GB 160-bit Memory, DP 1.4a Outputs, PCI Express 4.0, 1.57 GHz Boost Clock, 360  GB/s Memory Bandwidth, 1 Year Warranty | SVCNRTX4000ADA-SB',
-    slug: 'pny-nvidia-rtx-4000-ada-generation-workstation-graphics-card-gddr6-20gb-160-bit-memory-dp-1-4a-outputs-pci-express-4-0-1-57-ghz-boost-clock-360-gb-s-memory-bandwidth-1-year-warranty-svcnrtx4000ada-sb-svcnrtx4000ada-sb',
-    brand: 'PNY',
-    category: 'graphics-cards',
-    subcategory: 'gpu',
-    price: 5929,
-    salePrice: 5929,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/SVCNRTX4000ADA-SB-2-1752340106288.png?v=1770248237'],
-    shortDescription: 'PNY Nvidia RTX 4000 Ada Generation Workstation Graphics Card, GDDR6 20 GB 160-bit Memory, DP 1.4a Outputs, PCI Express 4.0, 1.57 GHz Boost Clock, 360  GB/s Memory Bandwidth, 1 Year Warranty | SVCNRTX4000ADA-SB',
-    description: '<ul>\n<li>NVIDIA RTX 4000 Ada</li>\n<li>Memory: GDDR6 20 GB</li>\n<li>Memory Interface: 160-bit</li>\n<li>Boost Clock: 1.57 GHz</li>\n<li>CUDA Cores: 6144</li>\n<li>Tensor Cores: 192 (4th Generation)</li>\n<li>RT Cores: 48 (3rd Generation)</li>\n<li>AI Performance: N/A</li>\n<li>Memory Bandwidth: 360  GB/s</li>\n</ul>',
-    specifications: {
-
-    },
-    stock: 10,
-    sku: 'SVCNRTX4000ADA-SB',
-    featured: false,
-    newProduct: true,
-    tags: ['Graphic Cards', 'PC Components', 'Workstation Graphic Cards']
-  },
-  {
-    id: '9432715428057',
-    name: 'Zotac Gaming GeForce RTX 5080 SOLID OC Edition Graphics Card, GDDR7 16 GB 256-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2640 MHz Boost Clock, 30  GBps Memory Clock, White, 1 Year Warranty | ZT-B50800Q-10P',
-    slug: 'zotac-gaming-geforce-rtx-5080-solid-oc-edition-graphics-card-gddr7-16gb-256-bit-memory-hdmi-2-1b-dp-2-1b-outputs-pci-express-5-0-2640-mhz-boost-clock-30-gbps-memory-clock-white-1-year-warranty-zt-b50800q-10p-zt-b50800q-10p',
-    brand: 'Zotac',
-    category: 'graphics-cards',
-    subcategory: 'gpu',
-    price: 6669,
-    salePrice: 6669,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/ZT-B50800Q-10P-2-1752340109573.png?v=1770248227, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/ZT-B50800Q-10P-3-1752340109586.png?v=1770248227, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/ZT-B50800Q-10P-4-1752340109590.png?v=1770248227, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/ZT-B50800Q-10P-5-1752340109600.png?v=1770248227, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/ZT-B50800Q-10P-6-1752340109610.png?v=1770248227'],
-    shortDescription: 'Zotac Gaming GeForce RTX 5080 SOLID OC Edition Graphics Card, GDDR7 16 GB 256-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2640 MHz Boost Clock, 30  GBps Memory Clock, White, 1 Year Warranty | ZT-B50800Q-10P',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5080</li>\n<li>Memory: GDDR7 16 GB</li>\n<li>Memory Interface: 256-bit</li>\n<li>Boost Clock: Up to 2640 MHz</li>\n<li>CUDA Cores: 10752</li>\n<li>AI Performance: N/A</li>\n<li>Memory Speed: 30  GBps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Power Connectors: 3 x 8-pin</li>\n<li>Color: White</li>\n</ul>',
-    specifications: {
-
-    },
-    stock: 10,
-    sku: 'ZT-B50800Q-10P',
-    featured: false,
-    newProduct: true,
-    tags: ['Gaming', 'Gaming Graphic Cards', 'GeForce RTX 50 Series Graphics Cards', 'Graphic Cards', 'NVIDIA RTX & Blackwell', 'PC Components', 'RTX 40-50 Series Graphics Cards']
-  },
-  {
-    id: '9432715002073',
-    name: 'Zotac Gaming GeForce RTX 5070 SOLID OC Edition Graphics Card, GDDR7 12 GB 192-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2542 MHz Boost Clock, 28  GBps Memory Clock, 1 Year Warranty | ZT-B50700J-10P',
-    slug: 'zotac-gaming-geforce-rtx-5070-solid-oc-edition-graphics-card-gddr7-12gb-192-bit-memory-hdmi-2-1b-dp-2-1b-outputs-pci-express-5-0-2542-mhz-boost-clock-28-gbps-memory-clock-1-year-warranty-zt-b50700j-10p-zt-b50700j-10p',
-    brand: 'Zotac',
-    category: 'graphics-cards',
-    subcategory: 'gpu',
-    price: 3529,
-    salePrice: 3529,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/ZT-B50700J-10P-2-1752340108739.png?v=1770248083, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/ZT-B50700J-10P-3-1752340108746.png?v=1770248083, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/ZT-B50700J-10P-4-1752340108757.png?v=1770248083, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/ZT-B50700J-10P-5-1752340108772.png?v=1770248083, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/ZT-B50700J-10P-6-1752340108785.png?v=1770248083'],
-    shortDescription: 'Zotac Gaming GeForce RTX 5070 SOLID OC Edition Graphics Card, GDDR7 12 GB 192-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2542 MHz Boost Clock, 28  GBps Memory Clock, 1 Year Warranty | ZT-B50700J-10P',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5070</li>\n<li>Memory: GDDR7 12 GB</li>\n<li>Memory Interface: 192-bit</li>\n<li>Boost Clock: Up to 2542 MHz</li>\n<li>CUDA Cores: 6144</li>\n<li>AI Performance: N/A</li>\n<li>Memory Speed: 28  GBps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Power Connectors: 2 x 8-pin</li>\n</ul>',
-    specifications: {
-
-    },
-    stock: 10,
-    sku: 'ZT-B50700J-10P',
-    featured: false,
-    newProduct: true,
-    tags: ['Gaming', 'Gaming Graphic Cards', 'GeForce RTX 50 Series Graphics Cards', 'Graphic Cards', 'NVIDIA RTX & Blackwell', 'PC Components', 'RTX 40-50 Series Graphics Cards']
-  },
-  {
-    id: '9432714903769',
-    name: 'Zotac Gaming GeForce RTX 5060 Ti Twin Edge Edition Graphics Card, GDDR7 8 GB 128-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2572 MHz Boost Clock, 28  GBps Memory Clock, 1 Year Warranty | ZT-B50610E-10M',
-    slug: 'zotac-gaming-geforce-rtx-5060-ti-twin-edge-edition-graphics-card-gddr7-8gb-128-bit-memory-hdmi-2-1b-dp-2-1b-outputs-pci-express-5-0-2572-mhz-boost-clock-28-gbps-memory-clock-1-year-warranty-zt-b50610e-10m-zt-b50610e-10m',
-    brand: 'Zotac',
-    category: 'graphics-cards',
-    subcategory: 'gpu',
-    price: 1789,
-    salePrice: 1789,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/ZT-B50610E-10M-2-1752340107962.png?v=1770248043'],
-    shortDescription: 'Zotac Gaming GeForce RTX 5060 Ti Twin Edge Edition Graphics Card, GDDR7 8 GB 128-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2572 MHz Boost Clock, 28  GBps Memory Clock, 1 Year Warranty | ZT-B50610E-10M',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5060 Ti</li>\n<li>Memory: GDDR7 8 GB</li>\n<li>Memory Interface: 128-bit</li>\n<li>Boost Clock: Up to 2572 MHz</li>\n<li>CUDA Cores: 4608</li>\n<li>AI Performance: N/A</li>\n<li>Memory Speed: 28  GBps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Power Connectors: 1 x 8-pin</li>\n</ul>',
-    specifications: {
-
-    },
-    stock: 10,
-    sku: 'ZT-B50610E-10M',
-    featured: false,
-    newProduct: true,
-    tags: ['Gaming', 'Gaming Graphic Cards', 'Graphic Cards', 'PC Components', 'RTX 40-50 Series Graphics Cards']
-  },
-  {
-    id: '9432714838233',
-    name: 'Zotac Gaming GeForce RTX 5060 Ti AMP Edition Graphics Card, GDDR7 8 GB 128-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2632 MHz Boost Clock, 28  GBps Memory Clock, 1 Year Warranty | ZT-B50610F-10M',
-    slug: 'zotac-gaming-geforce-rtx-5060-ti-amp-edition-graphics-card-gddr7-8gb-128-bit-memory-hdmi-2-1b-dp-2-1b-outputs-pci-express-5-0-2632-mhz-boost-clock-28-gbps-memory-clock-1-year-warranty-zt-b50610f-10m-zt-b50610f-10m',
-    brand: 'Zotac',
-    category: 'graphics-cards',
-    subcategory: 'gpu',
-    price: 1889,
-    salePrice: 1889,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/ZT-B50610F-10M-2-1752340108051.png?v=1770248030'],
-    shortDescription: 'Zotac Gaming GeForce RTX 5060 Ti AMP Edition Graphics Card, GDDR7 8 GB 128-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2632 MHz Boost Clock, 28  GBps Memory Clock, 1 Year Warranty | ZT-B50610F-10M',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5060 Ti</li>\n<li>Memory: GDDR7 8 GB</li>\n<li>Memory Interface: 128-bit</li>\n<li>Boost Clock: Up to 2632 MHz</li>\n<li>CUDA Cores: 4608</li>\n<li>AI Performance: N/A</li>\n<li>Memory Speed: 28  GBps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Power Connectors: 1 x 8-pin</li>\n</ul>',
-    specifications: {
-
-    },
-    stock: 10,
-    sku: 'ZT-B50610F-10M',
-    featured: false,
-    newProduct: true,
-    tags: ['Gaming', 'Gaming Graphic Cards', 'Graphic Cards', 'PC Components', 'RTX 40-50 Series Graphics Cards']
-  },
-  {
-    id: '9432714477785',
-    name: 'Sapphire PULSE AMD Radeon RX 9060 XT OC Edition Graphics Card, GDDR6 8 GB 128-bit Memory, HDMI 2.1 & DP 2.1a Outputs, PCI Express 5.0, 3290 MHz Boost Clock, 20  GBps Memory Clock, 1 Year Warranty | 11350-04-20G',
-    slug: 'sapphire-pulse-amd-radeon-rx-9060-xt-oc-edition-graphics-card-gddr6-8gb-128-bit-memory-hdmi-2-1-dp-2-1a-outputs-pci-express-5-0-3290-mhz-boost-clock-20-gbps-memory-clock-1-year-warranty-11350-04-20g-11350-04-20g',
-    brand: 'Sapphire',
-    category: 'graphics-cards',
-    subcategory: 'gpu',
-    price: 1529,
-    salePrice: 1529,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/11350-04-20G-2-1752340106101.png?v=1770247929'],
-    shortDescription: 'Sapphire PULSE AMD Radeon RX 9060 XT OC Edition Graphics Card, GDDR6 8 GB 128-bit Memory, HDMI 2.1 & DP 2.1a Outputs, PCI Express 5.0, 3290 MHz Boost Clock, 20  GBps Memory Clock, 1 Year Warranty | 11350-04-20G',
-    description: '<ul>\n<li>AMD Radeon RX 9060 XT</li>\n<li>Memory: GDDR6 8 GB</li>\n<li>Memory Interface: 128-bit</li>\n<li>Game Clock: Up to 2700 MHz</li>\n<li>Boost Clock: Up to 3290 MHz</li>\n<li>Stream Processors: 2048</li>\n<li>AI Performance: 32 CUs (3rd Gen RT + 2nd Gen AI Accelerators)</li>\n<li>Memory Speed: 20  GBps​</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Power Connectors: 1 x 8-pin</li>\n</ul>',
-    specifications: {
-
-    },
-    stock: 10,
-    sku: '11350-04-20G',
-    featured: false,
-    newProduct: true,
-    tags: ['AMD RX Graphic Cards', 'Gaming', 'Gaming Graphic Cards', 'Graphic Cards', 'PC Components']
-  },
-  {
-    id: '9432714379481',
-    name: 'Sapphire PULSE AMD Radeon RX 9060 XT OC Edition Graphics Card, GDDR6 16 GB 128-bit Memory, HDMI 2.1 & DP 2.1a Outputs, PCI Express 5.0, 3290 MHz Boost Clock, 20  GBps Memory Clock, White, 1 Year Warranty | 11350-02-20G',
-    slug: 'sapphire-pulse-amd-radeon-rx-9060-xt-oc-edition-graphics-card-gddr6-16gb-128-bit-memory-hdmi-2-1-dp-2-1a-outputs-pci-express-5-0-3290-mhz-boost-clock-20-gbps-memory-clock-white-1-year-warranty-11350-02-20g-11350-02-20g',
-    brand: 'Sapphire',
-    category: 'graphics-cards',
-    subcategory: 'gpu',
-    price: 1759,
-    salePrice: 1759,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/11350-02-20G-2-1752340105902.png?v=1770247917'],
-    shortDescription: 'Sapphire PULSE AMD Radeon RX 9060 XT OC Edition Graphics Card, GDDR6 16 GB 128-bit Memory, HDMI 2.1 & DP 2.1a Outputs, PCI Express 5.0, 3290 MHz Boost Clock, 20  GBps Memory Clock, White, 1 Year Warranty | 11350-02-20G',
-    description: '<ul>\n<li>AMD Radeon RX 9060 XT</li>\n<li>Memory: GDDR6 16 GB</li>\n<li>Memory Interface: 128-bit</li>\n<li>Game Clock: Up to 2700 MHz</li>\n<li>Boost Clock: Up to 3290 MHz</li>\n<li>Stream Processors: 2048</li>\n<li>AI Performance: 32 CUs (3rd Gen RT + 2nd Gen AI Accelerators)</li>\n<li>Memory Speed: 20  GBps​</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Power Connectors: 1 x 8-pin</li>\n<li>Color: White</li>\n</ul>',
-    specifications: {
-
-    },
-    stock: 10,
-    sku: '11350-02-20G',
-    featured: false,
-    newProduct: true,
-    tags: ['AMD RX Graphic Cards', 'Gaming', 'Gaming Graphic Cards', 'Graphic Cards', 'PC Components']
-  },
-  {
-    id: '9432714215641',
-    name: 'Msi GeForce RTX 5070 VANGUARD SOC Edition Graphics Card, GDDR7 12 GB 192-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2655 MHz OC Boost Clock, 28  GBps Memory Clock, 1 Year Warranty | 912-V532-054',
-    slug: 'msi-geforce-rtx-5070-vanguard-soc-edition-graphics-card-gddr7-12gb-192-bit-memory-hdmi-2-1b-dp-2-1b-outputs-pci-express-5-0-2655-mhz-oc-boost-clock-28-gbps-memory-clock-1-year-warranty-912-v532-054-912-v532-054',
-    brand: 'MSI',
-    category: 'graphics-cards',
-    subcategory: 'gpu',
-    price: 3249,
-    salePrice: 3249,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/912-V532-054-2-1752340105306.png?v=1770247870'],
-    shortDescription: 'Msi GeForce RTX 5070 VANGUARD SOC Edition Graphics Card, GDDR7 12 GB 192-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2655 MHz OC Boost Clock, 28  GBps Memory Clock, 1 Year Warranty | 912-V532-054',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5070</li>\n<li>Memory: GDDR7 12 GB</li>\n<li>Memory Interface: 192-bit</li>\n<li>Extreme Performance: 2655 MHz (MSI Center)</li>\n<li>Engine Clock Boost: 2640 MHz</li>\n<li>CUDA Core: 6144</li>\n<li>AI Performance: N/A</li>\n<li>Memory Speed: 28  GBps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Power Connectors: 1 x 16-pin</li>\n</ul>',
-    specifications: {
-
-    },
-    stock: 10,
-    sku: '912-V532-054',
-    featured: false,
-    newProduct: true,
-    tags: ['Gaming', 'Gaming Graphic Cards', 'Graphic Cards', 'PC Components', 'RTX 40-50 Series Graphics Cards']
-  },
-  {
-    id: '9432714117337',
-    name: 'Msi GeForce RTX 5070 Gaming Trio OC Edition Graphics Card, GDDR7 12 GB 192-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2610 MHz OC Boost Clock, 28  GBps Memory Clock, 1 Year Warranty | 912-V532-019',
-    slug: 'msi-geforce-rtx-5070-gaming-trio-oc-edition-graphics-card-gddr7-12gb-192-bit-memory-hdmi-2-1b-dp-2-1b-outputs-pci-express-5-0-2610-mhz-oc-boost-clock-28-gbps-memory-clock-1-year-warranty-912-v532-019-912-v532-019',
-    brand: 'MSI',
-    category: 'graphics-cards',
-    subcategory: 'gpu',
-    price: 3559,
-    salePrice: 3559,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/912-V532-019-2-1752340105138.png?v=1770247843, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/912-V532-019-3-1752340105224.png?v=1770247843, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/912-V532-019-4-1752340105257.png?v=1770247843, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/912-V532-019-5-1752340105272.png?v=1770247843, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/912-V532-019-6-1752340105284.png?v=1770247843'],
-    shortDescription: 'Msi GeForce RTX 5070 Gaming Trio OC Edition Graphics Card, GDDR7 12 GB 192-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2610 MHz OC Boost Clock, 28  GBps Memory Clock, 1 Year Warranty | 912-V532-019',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5070</li>\n<li>Memory: GDDR7 12 GB</li>\n<li>Memory Interface: 192-bit</li>\n<li>Extreme Performance: 2625 MHz (MSI Center)</li>\n<li>Engine Clock Boost: 2610 MHz</li>\n<li>CUDA Core: 6144</li>\n<li>AI Performance: N/A</li>\n<li>Memory Speed: 28  GBps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Power Connectors: 1 x 16-pin</li>\n</ul>',
-    specifications: {
-
-    },
-    stock: 10,
-    sku: '912-V532-019',
-    featured: false,
-    newProduct: true,
-    tags: ['Gaming', 'Gaming Graphic Cards', 'GeForce RTX 50 Series Graphics Cards', 'Graphic Cards', 'NVIDIA RTX & Blackwell', 'PC Components', 'RTX 40-50 Series Graphics Cards']
-  },
-  {
-    id: '9432713887961',
-    name: 'Msi GeForce RTX 4060 Ti VENTUS 2X OC Edition Graphics Card, GDDR6 8 GB 128-bit Memory, HDMI 2.1a & DP 1.4a Outputs, PCI Express 4.0, 2565 MHz OC Boost Clock, 18  GBps Memory Clock, Black, 1 Year Warranty | 912-V515-024',
-    slug: 'msi-geforce-rtx-4060-ti-ventus-2x-oc-edition-graphics-card-gddr6-8gb-128-bit-memory-hdmi-2-1a-dp-1-4a-outputs-pci-express-4-0-2565-mhz-oc-boost-clock-18-gbps-memory-clock-black-1-year-warranty-912-v515-024-912-v515-024',
-    brand: 'MSI',
-    category: 'graphics-cards',
-    subcategory: 'gpu',
-    price: 1809,
-    salePrice: 1809,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/912-V515-024-2-1752340104739.png?v=1770247790'],
-    shortDescription: 'Msi GeForce RTX 4060 Ti VENTUS 2X OC Edition Graphics Card, GDDR6 8 GB 128-bit Memory, HDMI 2.1a & DP 1.4a Outputs, PCI Express 4.0, 2565 MHz OC Boost Clock, 18  GBps Memory Clock, Black, 1 Year Warranty | 912-V515-024',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 4060 Ti</li>\n<li>Memory: GDDR6 8 GB</li>\n<li>Memory Interface: 128-bit</li>\n<li>Extreme Performance: 2580 MHz (MSI Center)</li>\n<li>Engine Clock Boost: 2565 MHz</li>\n<li>CUDA Core: 4352</li>\n<li>AI Performance: N/A</li>\n<li>Memory Speed: 18  GBps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Power Connectors: 1 x 8-pin</li>\n</ul>',
-    specifications: {
-
-    },
-    stock: 10,
-    sku: '912-V515-024',
-    featured: false,
-    newProduct: true,
-    tags: ['Gaming', 'Gaming Graphic Cards', 'Graphic Cards', 'PC Components', 'RTX 40-50 Series Graphics Cards']
-  },
-  {
-    id: '9432713724121',
-    name: 'Asus ROG ASTRAL Liquid Cooled GeForce RTX 5090 OC Edition AR GB Graphics Card, GDDR7 32 GB 512-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2610 MHz Core Clock, 28  GBps Memory Clock, 360mm Radiator, 1 Year Warranty | 90YV0LW2-M0NA00',
-    slug: 'asus-rog-astral-liquid-cooled-geforce-rtx-5090-oc-edition-argb-graphics-card-gddr7-32gb-512-bit-memory-hdmi-2-1b-dp-2-1b-outputs-pci-express-5-0-2610-mhz-core-clock-28-gbps-memory-clock-360mm-radiator-1-year-warranty-90yv0lw2-m0na00-90yv0lw2-m0na00',
-    brand: 'Asus',
-    category: 'graphics-cards',
-    subcategory: 'gpu',
-    price: 25899,
-    salePrice: 25899,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0LW2-M0NA00-1_fc73e763-0b62-4677-a872-35a8eeeac267.webp?v=1772033833, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0LW2-M0NA00-2_747e0334-1917-43d5-90a1-ae0cde78b642.webp?v=1772033833, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0LW2-M0NA00-3_bc6abc9c-fad4-415d-88c1-46987add651f.webp?v=1772033833, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0LW2-M0NA00-4_ab07e3aa-5f5c-4dc5-bb8e-888d7fc2a262.webp?v=1772033833, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0LW2-M0NA00-5_d4e80d2e-78b2-4d84-92d8-ff178bde93cb.webp?v=1772033833, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0LW2-M0NA00-6_d0d4c44f-c7e4-480d-a27d-4eda639ea8d2.webp?v=1772033833'],
-    shortDescription: 'Asus ROG ASTRAL Liquid Cooled GeForce RTX 5090 OC Edition AR GB Graphics Card, GDDR7 32 GB 512-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2610 MHz Core Clock, 28  GBps Memory Clock, 360mm Radiator, 1 Year Warranty | 90YV0LW2-M0NA00',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5090</li>\n<li>Memory: GDDR7 32  GB</li>\n<li>Memory Interface: 512-bit</li>\n<li>Engine Clock OC mode: 2610 MHz</li>\n<li>Engine Clock Default mode: 2580 MHz (Boost Clock)</li>\n<li>CUDA Core: 21,760</li>\n<li>AI Performance: 3593 TOPs</li>\n<li>Memory Speed: 28  GBps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Cooling: 360mm Liquid Cooling</li>\n<li>Power Connectors: 1 x 16-pin</li>\n</ul>',
-    specifications: {
-
-    },
-    stock: 10,
-    sku: '90YV0LW2-M0NA00',
-    featured: false,
-    newProduct: true,
-    tags: ['Gaming', 'Gaming Graphic Cards', 'Graphic Cards', 'PC Components', 'RTX 40-50 Series Graphics Cards']
-  },
-  {
-    id: '9432713691353',
-    name: 'Asus TUF Gaming GeForce RTX 5070 OC Edition AR GB Graphics Card, GDDR7 12 GB 512-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2685 MHz Core Clock, 28  GBps Memory Clock, 1 Year Warranty | 90YV0LZ0-M0NA00',
-    slug: 'asus-tuf-gaming-geforce-rtx-5070-oc-edition-argb-graphics-card-gddr7-12gb-512-bit-memory-hdmi-2-1b-dp-2-1b-outputs-pci-express-5-0-2685-mhz-core-clock-28-gbps-memory-clock-1-year-warranty-90yv0lz0-m0na00-90yv0lz0-m0na00',
-    brand: 'Asus',
-    category: 'graphics-cards',
-    subcategory: 'gpu',
-    price: 3069,
-    salePrice: 3069,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0LZ0-M0NA00-1_da52b01c-1071-4828-8263-a04140b3eddc.webp?v=1772033826, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0LZ0-M0NA00-2_4ff5fda8-00b5-44fd-bb24-3fc599316368.webp?v=1772033826, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0LZ0-M0NA00-3_597afff9-57ce-4a08-9674-9e3e577019cb.webp?v=1772033826, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0LZ0-M0NA00-4_22b1e437-a8d9-4e06-9f23-be7f71236abb.webp?v=1772033826, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0LZ0-M0NA00-5_964fd296-80f1-4641-a204-51319afbad42.webp?v=1772033826, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0LZ0-M0NA00-6_90aa3feb-c302-4e80-b535-8effc827e9f0.webp?v=1772033826'],
-    shortDescription: 'Asus TUF Gaming GeForce RTX 5070 OC Edition AR GB Graphics Card, GDDR7 12 GB 512-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2685 MHz Core Clock, 28  GBps Memory Clock, 1 Year Warranty | 90YV0LZ0-M0NA00',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5070</li>\n<li>Memory: GDDR7 12 GB</li>\n<li>Memory Interface: 192-bit</li>\n<li>Engine Clock OC mode: 2640 MHz</li>\n<li>Engine Clock Default mode: 2610 MHz (Boost Clock)</li>\n<li>CUDA Core: 6144</li>\n<li>AI Performance: 1026 TOPs</li>\n<li>Memory Speed: 28  GBps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Power Connectors: 1 x 16-pin</li>\n</ul>',
-    specifications: {
-
-    },
-    stock: 10,
-    sku: '90YV0LZ0-M0NA00',
-    featured: false,
-    newProduct: true,
-    tags: ['Gaming', 'Gaming Graphic Cards', 'Graphic Cards', 'PC Components', 'RTX 40-50 Series Graphics Cards']
-  },
-  {
-    id: '9432713625817',
-    name: 'Asus ROG STRIX AR GB GeForce RTX 5070 OC Gaming Graphics Card, GDDR7 12 GB 192-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2685 MHz Core Clock, 28  GBps Memory Clock, 1 Year Warranty | 90YV0M80-M0NA00',
-    slug: 'asus-rog-strix-argb-geforce-rtx-5070-oc-gaming-graphics-card-gddr7-12gb-192-bit-memory-hdmi-2-1b-dp-2-1b-outputs-pci-express-5-0-2685-mhz-core-clock-28-gbps-memory-clock-1-year-warranty-90yv0m80-m0na00-90yv0m80-m0na00',
-    brand: 'Asus',
-    category: 'graphics-cards',
-    subcategory: 'gpu',
-    price: 3309,
-    salePrice: 3309,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0M80-M0NA00-1_21f1a28e-a0a1-40d1-b861-4d59f2b77d68.webp?v=1772033821, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0M80-M0NA00-2_9d9ceaba-1f0b-4b10-a319-c523d848b014.webp?v=1772033820, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0M80-M0NA00-3_3d39284d-d070-412b-97b1-291bdca05024.webp?v=1772033820, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0M80-M0NA00-4_df1faf7d-f875-4d0b-8342-5dd7cd0e42aa.webp?v=1772033820, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0M80-M0NA00-5_a48ae540-9ae8-4d9f-a046-0b18c31af804.webp?v=1772033821, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0M80-M0NA00-6_f9a15e23-1f70-4350-a0c2-a95de5a4a631.webp?v=1772033821'],
-    shortDescription: 'Asus ROG STRIX AR GB GeForce RTX 5070 OC Gaming Graphics Card, GDDR7 12 GB 192-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2685 MHz Core Clock, 28  GBps Memory Clock, 1 Year Warranty | 90YV0M80-M0NA00',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5070</li>\n<li>Memory: GDDR7 12 GB</li>\n<li>Memory Interface: 192-bit</li>\n<li>Engine Clock OC mode: 2685 MHz</li>\n<li>Engine Clock Default mode: 2655 MHz (Boost Clock)</li>\n<li>CUDA Core: 6144</li>\n<li>AI Performance: 1044 TOPs</li>\n<li>Memory Speed: 28  GBps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Power Connectors: 1 x 16-pin</li>\n</ul>',
-    specifications: {
-
-    },
-    stock: 10,
-    sku: '90YV0M80-M0NA00',
-    featured: false,
-    newProduct: true,
-    tags: ['Gaming', 'Gaming Graphic Cards', 'Graphic Cards', 'PC Components', 'RTX 40-50 Series Graphics Cards']
-  },
-  {
-    id: '9432713593049',
-    name: 'Asus PRIME GeForce RTX 5070 OC Edition Graphics Card, GDDR7 12 GB 192-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2587 MHz Core Clock, 28  GBps Memory Clock, SFF Compatible, White, 1 Year Warranty | 90YV0M19-M0NA00',
-    slug: 'asus-prime-geforce-rtx-5070-oc-edition-graphics-card-gddr7-12gb-192-bit-memory-hdmi-2-1b-dp-2-1b-outputs-pci-express-5-0-2587-mhz-core-clock-28-gbps-memory-clock-sff-compatible-white-1-year-warranty-90yv0m19-m0na00-90yv0m19-m0na00',
-    brand: 'Asus',
-    category: 'graphics-cards',
-    subcategory: 'gpu',
-    price: 3589,
-    salePrice: 3589,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0M19-M0NA00-1.jpg?v=1788458379, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0M19-M0NA00-2.png?v=1788458381, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0M19-M0NA00-3.jpg?v=1788458379, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0M19-M0NA00-4.jpg?v=1788458379, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/NVIDIA-GFORCE.jpg?v=1788022503, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0M19-M0NA00-5.jpg?v=1788458379, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0M19-M0NA00-6.jpg?v=1788458379'],
-    shortDescription: 'Asus PRIME GeForce RTX 5070 OC Edition Graphics Card, GDDR7 12 GB 192-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2587 MHz Core Clock, 28  GBps Memory Clock, SFF Compatible, White, 1 Year Warranty | 90YV0M19-M0NA00',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5070</li>\n<li>Memory: GDDR7 12 GB</li>\n<li>Memory Interface: 192-bit</li>\n<li>Engine Clock OC mode: 2587 MHz</li>\n<li>Engine Clock Default mode: 2557 MHz (Boost Clock)</li>\n<li>CUDA Core: 6144</li>\n<li>AI Performance: 1005 TOPs</li>\n<li>Memory Speed: 28  GBps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Power Connectors: 1 x 16-pin</li>\n<li>SFF: Compatible</li>\n<li>Color: White</li>\n</ul>',
-    specifications: {
-
-    },
-    stock: 10,
-    sku: '90YV0M19-M0NA00',
-    featured: false,
-    newProduct: true,
-    tags: ['Gaming', 'Gaming Graphic Cards', 'GeForce RTX 50 Series Graphics Cards', 'Graphic Cards', 'NVIDIA RTX & Blackwell', 'PC Components', 'RTX 40-50 Series Graphics Cards']
-  },
-  {
-    id: '9432713494745',
-    name: 'Asus PRIME GeForce RTX 5070 Graphics Card, GDDR7 12 GB 192-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2542 MHz Core Clock, 28  GBps Memory Clock, SFF Compatible, 1 Year Warranty | 90YV0M11-M0NA00',
-    slug: 'asus-prime-geforce-rtx-5070-graphics-card-gddr7-12gb-192-bit-memory-hdmi-2-1b-dp-2-1b-outputs-pci-express-5-0-2542-mhz-core-clock-28-gbps-memory-clock-sff-compatible-1-year-warranty-90yv0m11-m0na00-90yv0m11-m0na00',
-    brand: 'Asus',
-    category: 'graphics-cards',
-    subcategory: 'gpu',
-    price: 2779,
-    salePrice: 2779,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0M11-M0NA00-1.png?v=1789223948, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0M11-M0NA00-2.png?v=1789223948, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0M11-M0NA00-3.png?v=1789223948, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0M11-M0NA00-4.png?v=1789223948, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0M11-M0NA00-5.png?v=1789223948, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0M11-M0NA00-6.png?v=1789223948'],
-    shortDescription: 'Asus PRIME GeForce RTX 5070 Graphics Card, GDDR7 12 GB 192-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2542 MHz Core Clock, 28  GBps Memory Clock, SFF Compatible, 1 Year Warranty | 90YV0M11-M0NA00',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5070</li>\n<li>Memory: GDDR7 12 GB</li>\n<li>Engine Clock OC mode: 2542 MHz</li>\n<li>Engine Clock Default mode: 2512 MHz (Boost Clock)</li>\n<li>CUDA Core: 6144</li>\n<li>AI Performance: 988 TOPs</li>\n<li>Memory Speed: 28  GBps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Power Connectors: 1 x 16-pin</li>\n<li>SFF: Compatible</li>\n<li>Memory Interface: 192-bit</li>\n</ul>',
-    specifications: {
-
-    },
-    stock: 10,
-    sku: '90YV0M11-M0NA00',
-    featured: false,
-    newProduct: true,
-    tags: ['Gaming', 'Gaming Graphic Cards', 'Graphic Cards', 'PC Components', 'RTX 40-50 Series Graphics Cards']
-  },
-  {
-    id: '9432713461977',
-    name: 'Asus DUAL GeForce RTX 5070 OC Edition Graphics Card, GDDR7 12 GB 192-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2572 MHz Core Clock, 28  GBps Memory Clock, SFF Compatible, 1 Year Warranty | 90YV0M17-M0NA00',
-    slug: 'asus-dual-geforce-rtx-5070-oc-edition-graphics-card-gddr7-12gb-192-bit-memory-hdmi-2-1b-dp-2-1b-outputs-pci-express-5-0-2572-mhz-core-clock-28-gbps-memory-clock-sff-compatible-1-year-warranty-90yv0m17-m0na00-90yv0m17-m0na00',
-    brand: 'Asus',
-    category: 'graphics-cards',
-    subcategory: 'gpu',
-    price: 2879,
-    salePrice: 2879,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0M17-M0NA00-1_d0312d69-c02e-4185-b725-de1d670a7b0b.webp?v=1772033815, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0M17-M0NA00-2_50fef4c7-86f2-46c0-93ae-fe036320bf0a.webp?v=1772033814, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0M17-M0NA00-3_e25afc42-7997-4622-a6eb-549433d4f7d5.webp?v=1772033814, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0M17-M0NA00-4_e20582e7-4080-44bc-a2e0-6cfb59850bb4.webp?v=1772033814, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0M17-M0NA00-5_301a0710-a53f-4f78-8f27-6f2c0a82a036.webp?v=1772033814, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0M17-M0NA00-6_d4c922d4-96ce-4268-befb-48bc5ff8d6cf.webp?v=1772033814'],
-    shortDescription: 'Asus DUAL GeForce RTX 5070 OC Edition Graphics Card, GDDR7 12 GB 192-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2572 MHz Core Clock, 28  GBps Memory Clock, SFF Compatible, 1 Year Warranty | 90YV0M17-M0NA00',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5070</li>\n<li>Memory: GDDR7 12 GB</li>\n<li>Engine Clock OC mode: 2572 MHz</li>\n<li>Engine Clock Default mode: 2542 MHz (Boost Clock)</li>\n<li>CUDA Core: 6144</li>\n<li>AI Performance: 1000 TOPs</li>\n<li>Memory Speed: 28  GBps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>SFF: Compatible</li>\n<li>Memory Interface: 192-bit</li>\n</ul>',
-    specifications: {
-
-    },
-    stock: 10,
-    sku: '90YV0M17-M0NA00',
-    featured: false,
-    newProduct: true,
-    tags: ['Gaming', 'Gaming Graphic Cards', 'Graphic Cards', 'PC Components', 'RTX 40-50 Series Graphics Cards']
-  },
-  {
-    id: '9432713396441',
-    name: 'Asus TUF Gaming GeForce RTX 5060 Ti OC Edition Graphics Card, GDDR7 8 GB 128-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2692 MHz Core Clock, 28  GBps Memory Clock, 1 Year Warranty | 90YV0MR0-M0NA00',
-    slug: 'asus-tuf-gaming-geforce-rtx-5060-ti-oc-edition-graphics-card-gddr7-8gb-128-bit-memory-hdmi-2-1b-dp-2-1b-outputs-pci-express-5-0-2692-mhz-core-clock-28-gbps-memory-clock-1-year-warranty-90yv0mr0-m0na00-90yv0mr0-m0na00',
-    brand: 'Asus',
-    category: 'graphics-cards',
-    subcategory: 'gpu',
-    price: 2159,
-    salePrice: 2159,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0MR0-M0NA00-1_f93418b5-c12e-402d-be73-f118e031bebe.webp?v=1772033808, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0MR0-M0NA00-2_8f12e99d-38ec-49fb-ae40-f1d493297161.webp?v=1772033808, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0MR0-M0NA00-3_b4cee8d6-dc94-4d0a-9525-86ae4653fec4.webp?v=1772033808, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0MR0-M0NA00-4_d2216bcf-7347-44df-b7ae-7fdb29ee6a8d.webp?v=1772033808'],
-    shortDescription: 'Asus TUF Gaming GeForce RTX 5060 Ti OC Edition Graphics Card, GDDR7 8 GB 128-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2692 MHz Core Clock, 28  GBps Memory Clock, 1 Year Warranty | 90YV0MR0-M0NA00',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5060 Ti</li>\n<li>Memory: GDDR7 8 GB</li>\n<li>Engine Clock OC mode: 2692 MHz</li>\n<li>Engine Clock Default mode: 2662 MHz (Boost Clock)</li>\n<li>CUDA Core: 4608</li>\n<li>AI Performance: 785 TOPs</li>\n<li>Memory Speed: 28  GBps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 128-bit</li>\n</ul>',
-    specifications: {
-
-    },
-    stock: 10,
-    sku: '90YV0MR0-M0NA00',
-    featured: false,
-    newProduct: true,
-    tags: ['Gaming', 'Gaming Graphic Cards', 'Graphic Cards', 'PC Components', 'RTX 40-50 Series Graphics Cards']
-  },
-  {
-    id: '9432713363673',
-    name: 'Asus PRIME GeForce RTX 5060 Ti OC Edition Graphics Card, GDDR7 8 GB 128-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2647 MHz Core Clock, 28  GBps Memory Clock, 1 Year Warranty | 90YV0MP0-M0NA00',
-    slug: 'asus-prime-geforce-rtx-5060-ti-oc-edition-graphics-card-gddr7-8gb-128-bit-memory-hdmi-2-1b-dp-2-1b-outputs-pci-express-5-0-2647-mhz-core-clock-28-gbps-memory-clock-1-year-warranty-90yv0mp0-m0na00-90yv0mp0-m0na00',
-    brand: 'Asus',
-    category: 'graphics-cards',
-    subcategory: 'gpu',
-    price: 1999,
-    salePrice: 1999,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0MP0-M0NA00-1_0908c075-a013-4288-8c23-47f8fc3a1245.webp?v=1772033803, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0MP0-M0NA00-2_835e6a5f-5426-42f7-b6b9-203b3b036399.webp?v=1772033803, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0MP0-M0NA00-3_e310f1d2-3220-4b29-9625-95b5161a2685.webp?v=1772033803, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0MP0-M0NA00-4_e4f0ab03-8cd0-4e82-9386-585000a4a205.webp?v=1772033803, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0MP0-M0NA00-5_c2cd7655-5b8b-45c7-aa34-8c1d0f0743d7.webp?v=1772033803, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0MP0-M0NA00-6_53accefa-b0f0-43c9-9f51-566bd75c7685.webp?v=1772033803'],
-    shortDescription: 'Asus PRIME GeForce RTX 5060 Ti OC Edition Graphics Card, GDDR7 8 GB 128-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2647 MHz Core Clock, 28  GBps Memory Clock, 1 Year Warranty | 90YV0MP0-M0NA00',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5060 Ti</li>\n<li>Memory: GDDR7 8 GB</li>\n<li>Engine Clock OC mode: 2647 MHz</li>\n<li>Engine Clock Default mode: 2617 MHz (Boost Clock)</li>\n<li>CUDA Core: 4608</li>\n<li>AI Performance: 772 TOPs</li>\n<li>Memory Speed: 28  GBps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 128-bit</li>\n</ul>',
-    specifications: {
-
-    },
-    stock: 10,
-    sku: '90YV0MP0-M0NA00',
-    featured: false,
-    newProduct: true,
-    tags: ['Gaming', 'Gaming Graphic Cards', 'Graphic Cards', 'PC Components', 'RTX 40-50 Series Graphics Cards']
-  },
-  {
-    id: '9432713330905',
-    name: 'Asus DUAL GeForce RTX 5060 Ti OC Edition Graphics Card, GDDR7 8 GB 128-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2632 MHz Core Clock, 28  GBps Memory Clock, 1 Year Warranty | 90YV0MP2-M0NA00',
-    slug: 'asus-dual-geforce-rtx-5060-ti-oc-edition-graphics-card-gddr7-8gb-128-bit-memory-hdmi-2-1b-dp-2-1b-outputs-pci-express-5-0-2632-mhz-core-clock-28-gbps-memory-clock-1-year-warranty-90yv0mp2-m0na00-90yv0mp2-m0na00',
-    brand: 'Asus',
-    category: 'graphics-cards',
-    subcategory: 'gpu',
-    price: 1919,
-    salePrice: 1919,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0MP2-M0NA00-1_52e3bbad-1c84-4a5a-bbe1-55807cbc47a9.webp?v=1772033796, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0MP2-M0NA00-2_953babf6-4ed0-496d-84fd-06d3e77e3c16.webp?v=1772033796, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0MP2-M0NA00-3_5f6d0e70-cc6b-4cf1-802f-9a8762bad7e2.webp?v=1772033796, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0MP2-M0NA00-4_2b5066cf-6235-48ff-a82c-0c0f34aa96e0.webp?v=1772033795'],
-    shortDescription: 'Asus DUAL GeForce RTX 5060 Ti OC Edition Graphics Card, GDDR7 8 GB 128-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2632 MHz Core Clock, 28  GBps Memory Clock, 1 Year Warranty | 90YV0MP2-M0NA00',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5060 Ti</li>\n<li>Memory: GDDR7 8 GB</li>\n<li>Engine Clock OC mode: 2632 MHz</li>\n<li>Engine Clock Default mode: 2602 MHz (Boost Clock)</li>\n<li>CUDA Core: 4608</li>\n<li>AI Performance: 767 TOPs</li>\n<li>Memory Speed: 28  GBps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 128-bit</li>\n</ul>',
-    specifications: {
-
-    },
-    stock: 10,
-    sku: '90YV0MP2-M0NA00',
-    featured: false,
-    newProduct: true,
-    tags: ['Gaming', 'Gaming Graphic Cards', 'Graphic Cards', 'PC Components', 'RTX 40-50 Series Graphics Cards']
-  },
-  {
-    id: '9432713298137',
-    name: 'Asus PRIME GeForce RTX 5060 Ti OC Edition Graphics Card, GDDR7 16 GB 128-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2647 MHz Core Clock, 28  GBps Memory Clock, 1 Year Warranty | 90YV0MH2-M0NA00',
-    slug: 'asus-prime-geforce-rtx-5060-ti-oc-edition-graphics-card-gddr7-16gb-128-bit-memory-hdmi-2-1b-dp-2-1b-outputs-pci-express-5-0-2647-mhz-core-clock-28-gbps-memory-clock-1-year-warranty-90yv0mh2-m0na00-90yv0mh2-m0na00',
-    brand: 'Asus',
-    category: 'graphics-cards',
-    subcategory: 'gpu',
-    price: 2879,
-    salePrice: 2879,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0MH2-M0NA00-1_2c4cf081-efc1-42a2-9a27-fd1ecf9317f6.webp?v=1772033790, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0MH2-M0NA00-2_3f5a3715-7b43-480e-a3db-a2c540e7a454.webp?v=1772033790, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0MH2-M0NA00-3_4f75ffee-c198-4375-95ff-2b2070336968.webp?v=1772033790, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0MH2-M0NA00-4_64d996b2-97ad-4fea-8b79-5166f8b1d0b3.webp?v=1772033790'],
-    shortDescription: 'Asus PRIME GeForce RTX 5060 Ti OC Edition Graphics Card, GDDR7 16 GB 128-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2647 MHz Core Clock, 28  GBps Memory Clock, 1 Year Warranty | 90YV0MH2-M0NA00',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5060 Ti</li>\n<li>Memory: GDDR7 16 GB</li>\n<li>Engine Clock OC mode: 2647 MHz</li>\n<li>Engine Clock Default mode: 2617 MHz (Boost Clock)</li>\n<li>CUDA Core: 4608</li>\n<li>AI Performance: 772 TOPs</li>\n<li>Memory Speed: 28  GBps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 128-bit</li>\n</ul>',
-    specifications: {
-
-    },
-    stock: 10,
-    sku: '90YV0MH2-M0NA00',
-    featured: false,
-    newProduct: true,
-    tags: ['Gaming', 'Gaming Graphic Cards', 'Graphic Cards', 'PC Components', 'RTX 40-50 Series Graphics Cards']
-  },
-  {
-    id: '9432713232601',
-    name: 'Asus TUF Gaming GeForce RTX 5060 Ti OC Edition Graphics Card, GDDR7 16 GB 128-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2692 MHz Core Clock, 28  GBps Memory Clock, 1 Year Warranty | 90YV0MG0-M0NA00',
-    slug: 'asus-tuf-gaming-geforce-rtx-5060-ti-oc-edition-graphics-card-gddr7-16gb-128-bit-memory-hdmi-2-1b-dp-2-1b-outputs-pci-express-5-0-2692-mhz-core-clock-28-gbps-memory-clock-1-year-warranty-90yv0mg0-m0na00-90yv0mg0-m0na00',
-    brand: 'Asus',
-    category: 'graphics-cards',
-    subcategory: 'gpu',
-    price: 2949,
-    salePrice: 2949,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0MG0-M0NA00-1_562c6ed6-2ff8-4285-a33d-eaeb2a1ce1da.webp?v=1772033784, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0MG0-M0NA00-2_ff3e73f0-f13b-4765-9d99-b9de8cc78625.webp?v=1772033784, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0MG0-M0NA00-3_51c5a7eb-5419-4596-84fd-f6968b79bb46.webp?v=1772033784, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0MG0-M0NA00-4_48f0338d-748f-41f0-beeb-d69b6e98d607.webp?v=1772033784'],
-    shortDescription: 'Asus TUF Gaming GeForce RTX 5060 Ti OC Edition Graphics Card, GDDR7 16 GB 128-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2692 MHz Core Clock, 28  GBps Memory Clock, 1 Year Warranty | 90YV0MG0-M0NA00',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5060 Ti</li>\n<li>Memory: GDDR7 16 GB</li>\n<li>Engine Clock OC mode: 2692 MHz</li>\n<li>Engine Clock Default mode: 2662 MHz (Boost Clock)</li>\n<li>CUDA Core: 4608</li>\n<li>AI Performance: 785 TOPs</li>\n<li>Memory Speed: 28  GBps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 128-bit</li>\n</ul>',
-    specifications: {
-
-    },
-    stock: 10,
-    sku: '90YV0MG0-M0NA00',
-    featured: false,
-    newProduct: true,
-    tags: ['Gaming', 'Gaming Graphic Cards', 'Graphic Cards', 'PC Components', 'RTX 40-50 Series Graphics Cards']
-  },
-  {
-    id: '9432713167065',
-    name: 'Asus TUF Gaming GeForce RTX 5060 OC Edition Graphics Card, GDDR7 8 GB 128-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2677 MHz Core Clock, 28  GBps Memory Clock, 1 Year Warranty | 90YV0N00-M0NA00',
-    slug: 'asus-tuf-gaming-geforce-rtx-5060-oc-edition-graphics-card-gddr7-8gb-128-bit-memory-hdmi-2-1b-dp-2-1b-outputs-pci-express-5-0-2677-mhz-core-clock-28-gbps-memory-clock-1-year-warranty-90yv0n00-m0na00-90yv0n00-m0na00',
-    brand: 'Asus',
-    category: 'graphics-cards',
-    subcategory: 'gpu',
-    price: 1749,
-    salePrice: 1749,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0N00-M0NA00-1_a164fd19-9ef4-4af1-8fa4-c9f06e6b0778.webp?v=1772033778, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0N00-M0NA00-2_b01bc371-b8a3-45bb-ba27-97764c173b9b.webp?v=1772033778, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0N00-M0NA00-3_f8eed2d3-c5b5-46aa-b562-55fc71446d50.webp?v=1772033779, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0N00-M0NA00-4_6edd7581-7b1a-459e-91b4-f19c0d14fb5e.webp?v=1772033779, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0N00-M0NA00-5_ec4507ec-23a2-43d4-b57b-63d1e5fb15b2.webp?v=1772033779'],
-    shortDescription: 'Asus TUF Gaming GeForce RTX 5060 OC Edition Graphics Card, GDDR7 8 GB 128-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2677 MHz Core Clock, 28  GBps Memory Clock, 1 Year Warranty | 90YV0N00-M0NA00',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5060</li>\n<li>Memory: GDDR7 8 GB</li>\n<li>Engine Clock OC mode: 2677 MHz</li>\n<li>Engine Clock Default mode: 2640 MHz (Boost Clock)</li>\n<li>CUDA Core: 3840</li>\n<li>AI Performance: 648 TOPs</li>\n<li>Memory Speed: 28  GBps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 128-bit</li>\n</ul>',
-    specifications: {
-
-    },
-    stock: 10,
-    sku: '90YV0N00-M0NA00',
-    featured: false,
-    newProduct: true,
-    tags: ['Gaming', 'Gaming Graphic Cards', 'Graphic Cards', 'PC Components', 'RTX 40-50 Series Graphics Cards']
-  },
-  {
-    id: '9432713134297',
-    name: 'Asus PRIME GeForce RTX 5060 OC Edition Graphics Card, GDDR7 8 GB 128-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2595 MHz Core Clock, 28  GBps Memory Clock, 1 Year Warranty | 90YV0N10-M0NA00',
-    slug: 'asus-prime-geforce-rtx-5060-oc-edition-graphics-card-gddr7-8gb-128-bit-memory-hdmi-2-1b-dp-2-1b-outputs-pci-express-5-0-2595-mhz-core-clock-28-gbps-memory-clock-1-year-warranty-90yv0n10-m0na00-90yv0n10-m0na00',
-    brand: 'Asus',
-    category: 'graphics-cards',
-    subcategory: 'gpu',
-    price: 1709,
-    salePrice: 1709,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0N10-M0NA00-1_848bc0e4-7a28-4abe-a5df-1617e6d9daeb.webp?v=1772033773, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0N10-M0NA00-2_5f885cff-54f7-49a1-b951-5d37b284e60c.webp?v=1772033773, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0N10-M0NA00-3_a55a03c9-cca8-4d18-913a-706e610ae9c9.webp?v=1772033773, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0N10-M0NA00-4_4cb00ea5-eb50-4191-be00-8c37c887ebc1.webp?v=1772033773, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0N10-M0NA00-5_93a45875-3bd5-49f2-a0ac-a46db3a4880d.webp?v=1772033773, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0N10-M0NA00-6_845b0663-178a-4972-bcc2-1a70afd9e852.webp?v=1772033773'],
-    shortDescription: 'Asus PRIME GeForce RTX 5060 OC Edition Graphics Card, GDDR7 8 GB 128-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2595 MHz Core Clock, 28  GBps Memory Clock, 1 Year Warranty | 90YV0N10-M0NA00',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5060</li>\n<li>Memory: GDDR7 8 GB</li>\n<li>Engine Clock OC mode: 2595 MHz</li>\n<li>Engine Clock Default mode: 2565 MHz (Boost Clock)</li>\n<li>CUDA Core: 3840</li>\n<li>AI Performance: 630 TOPs</li>\n<li>Memory Speed: 28  GBps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 128-bit</li>\n</ul>',
-    specifications: {
-
-    },
-    stock: 10,
-    sku: '90YV0N10-M0NA00',
-    featured: false,
-    newProduct: true,
-    tags: ['Gaming', 'Gaming Graphic Cards', 'Graphic Cards', 'PC Components', 'RTX 40-50 Series Graphics Cards']
-  },
-  {
-    id: '9432713068761',
-    name: 'Asus Dual GeForce RTX 5060 OC Edition Graphics Card, GDDR7 8 GB 128-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2565 MHz Core Clock, 28  GBps Memory Clock, 1 Year Warranty | 90YV0N12-M0NA00',
-    slug: 'asus-dual-geforce-rtx-5060-oc-edition-graphics-card-gddr7-8gb-128-bit-memory-hdmi-2-1b-dp-2-1b-outputs-pci-express-5-0-2565-mhz-core-clock-28-gbps-memory-clock-1-year-warranty-90yv0n12-m0na00-90yv0n12-m0na00',
-    brand: 'Asus',
-    category: 'graphics-cards',
-    subcategory: 'gpu',
-    price: 1629,
-    salePrice: 1629,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0N12-M0NA00-1-1752340104565.png?v=1771744767, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0N12-M0NA00-1_0e4362b5-a016-4357-b7c7-9da1e8719c67.webp?v=1793360601, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0N12-M0NA00-2_cb45ee8c-93df-4408-a8bb-446eacaad4e4.webp?v=1793360601, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0N12-M0NA00-3_2e858322-6ba1-4573-a3d1-02a01edbe843.webp?v=1793360601, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0N12-M0NA00-4_52bb8ff6-dfc1-4e74-a088-595cb15ab70f.webp?v=1793360601, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0N12-M0NA00-5_c578a7f5-9ecd-493e-bf70-88753a7093d0.webp?v=1793360601, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0N12-M0NA00-6_7a1e1a89-1778-422b-8f64-2314006f079d.webp?v=1793360601'],
-    shortDescription: 'Asus Dual GeForce RTX 5060 OC Edition Graphics Card, GDDR7 8 GB 128-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2565 MHz Core Clock, 28  GBps Memory Clock, 1 Year Warranty | 90YV0N12-M0NA00',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5060</li>\n<li>Memory: GDDR7 8 GB</li>\n<li>Engine Clock OC mode: 2565 MHz</li>\n<li>Engine Clock Default mode: 2535MHz (Boost Clock)</li>\n<li>CUDA Core: 3840</li>\n<li>AI Performance: 623 TOPs</li>\n<li>Memory Speed: 28  GBps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 128-bit</li>\n</ul>',
-    specifications: {
-
-    },
-    stock: 10,
-    sku: '90YV0N12-M0NA00',
-    featured: false,
-    newProduct: true,
-    tags: ['Gaming', 'Gaming Graphic Cards', 'Graphic Cards', 'PC Components', 'RTX 40-50 Series Graphics Cards']
-  },
-  {
-    id: '9432713035993',
-    name: 'Asus TUF Gaming GeForce RTX 4070 Ti SUPER Back-To-the-Future OC Edition Graphics Card, GDDR6X 16 GB 256-bit Memory, HDMI 2.1a & DP 1.4a Outputs, PCI Express 4.0, 2670 MHz Core Clock, 21  GBps Memory Clock, White, 1 Year Warranty | 90YV0KI0-M0NA00',
-    slug: 'asus-tuf-gaming-geforce-rtx-4070-ti-super-back-to-the-future-oc-edition-graphics-card-gddr6x-16gb-256-bit-memory-hdmi-2-1a-dp-1-4a-outputs-pci-express-4-0-2670-mhz-core-clock-21-gbps-memory-clock-white-1-year-warranty-90yv0ki0-m0na00-90yv0ki0-m0na00',
-    brand: 'Asus',
-    category: 'graphics-cards',
-    subcategory: 'gpu',
-    price: 3999,
-    salePrice: 3999,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0KI0-M0NA00-1-1752340102593.png?v=1771744767, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0KI0-M0NA00-1_cde0dd79-993d-467f-b105-786159589ff3.webp?v=1793360611, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0KI0-M0NA00-2_dbca5494-9d99-4e0a-bcdd-2c29ce4345ff.webp?v=1793360611, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0KI0-M0NA00-3_8c5bdb7b-9293-4055-bd7e-103499fb1b37.webp?v=1793360610, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0KI0-M0NA00-4_790f3dba-0e53-40b3-a6e2-e9befdb97847.webp?v=1793360611, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0KI0-M0NA00-5_fa361ed3-002c-4c27-a114-ae7b7ef8331b.webp?v=1793360611, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0KI0-M0NA00-6_80995748-e7d5-4f15-aec1-6cf3d2b1c289.webp?v=1793360611'],
-    shortDescription: 'Asus TUF Gaming GeForce RTX 4070 Ti SUPER Back-To-the-Future OC Edition Graphics Card, GDDR6X 16 GB 256-bit Memory, HDMI 2.1a & DP 1.4a Outputs, PCI Express 4.0, 2670 MHz Core Clock, 21  GBps Memory Clock, White, 1 Year Warranty | 90YV0KI0-M0NA00',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 4070 Ti SUPER</li>\n<li>Memory: GDDR6X 16 GB</li>\n<li>Engine Clock OC mode: 2670 MHz</li>\n<li>Engine Clock Default mode: 2640 MHz (boost)</li>\n<li>CUDA Core: 8448</li>\n<li>AI Performance: 714 TOPs</li>\n<li>Memory Speed: 21  GBps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 256-bit</li>\n<li>Color: White</li>\n</ul>',
-    specifications: {
-
-    },
-    stock: 10,
-    sku: '90YV0KI0-M0NA00',
-    featured: false,
-    newProduct: true,
-    tags: ['Gaming', 'Gaming Graphic Cards', 'Graphic Cards', 'PC Components', 'RTX 40-50 Series Graphics Cards']
-  },
-  {
-    id: '9432712184025',
-    name: 'VGA ZOTAC RTX 4070Ti 12 GB DDR6 AMP EXTREME AIRO | ZT-D40710B-10P',
-    slug: 'vga-zotac-rtx-4070ti-12gb-ddr6-amp-extreme-airo-zt-d40710b-10p-zt-d40710b-10p',
-    brand: 'Zotac',
-    category: 'graphics-cards',
-    subcategory: 'gpu',
-    price: 3729,
-    salePrice: 3729,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/ZT-D40710B-10P-1_9eeee2a6-f67d-4c3c-a7a8-055548315015.webp?v=1772033766, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/ZT-D40710B-10P-2_b5d34a2d-11c9-46da-b4ea-51771bc08f6c.webp?v=1772033766, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/ZT-D40710B-10P-3_cefc7193-c271-4bc2-9380-2bebc0ca2e0a.webp?v=1772033766, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/ZT-D40710B-10P-4_46eddab8-f3f9-4d71-9817-b4d938bf6044.webp?v=1772033766, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/ZT-D40710B-10P-5_90550723-3e93-432f-9d7a-1da6b1d298b9.webp?v=1772033766, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/ZT-D40710B-10P-6_cc918ba1-0b38-4bcb-85b0-db7eea6e35ee.webp?v=1772033766'],
-    shortDescription: 'VGA ZOTAC RTX 4070Ti 12 GB DDR6 AMP EXTREME AIRO | ZT-D40710B-10P',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 4070Ti\n</li>\n<li>?GDDR6 12 GB</li>\n<li>21  GBps</li>\n<li>192Bit Memory Interface</li>\n</ul>',
-    specifications: {
-
-    },
-    stock: 10,
-    sku: 'ZT-D40710B-10P',
-    featured: false,
-    newProduct: true,
-    tags: ['Gaming', 'Gaming Graphic Cards', 'Graphic Cards', 'PC Components', 'RTX 40-50 Series Graphics Cards']
-  },
-  {
-    id: '9432710938841',
-    name: 'PNY NVIDIA RTX A4000 Graphics Card, 6144 CUDA Cores, GDDR6 16GB 256-bit Memory, 4x DP 1.4a Outputs, PCI Express 4.0, 14 Gbps Memory Clock, 1 Year Warranty | VCNRTXA4000-SB',
-    slug: 'vga-pny-rtx-a4000-16gb-ddr6-vcnrtxa4000-sb-vcnrtxa4000-sb',
-    brand: 'PNY',
-    category: 'graphics-cards',
-    subcategory: 'gpu',
-    price: 4789,
-    salePrice: 4789,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/VCNRTXA4000-SB-02.gif?v=1770220068, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/PNY-NVIDIA-RTX-A4000-Graphics-Card-VCNRTXA4000-SB-1_3d6216ac-6c74-4fd5-83ff-9a89c6559271.webp?v=1793451785, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/PNY-NVIDIA-RTX-A4000-Graphics-Card-VCNRTXA4000-SB-2_0cbd6bfb-d4a4-41e6-8d6f-30021c1a8fef.webp?v=1793451786, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/PNY-NVIDIA-RTX-A4000-Graphics-Card-VCNRTXA4000-SB-3_00269fab-4d59-4531-b44e-4140520806f3.webp?v=1793451787, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/PNY-NVIDIA-RTX-A4000-Graphics-Card-VCNRTXA4000-SB-4_970d2fd6-4c40-40be-b1fc-d196ccb3b72c.webp?v=1793451785, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/PNY-NVIDIA-RTX-A4000-Graphics-Card-VCNRTXA4000-SB-5_4732b17c-7d1b-448e-91d4-4bf214100179.webp?v=1793451785'],
-    shortDescription: 'PNY NVIDIA RTX A4000 Graphics Card, 6144 CUDA Cores, GDDR6 16GB 256-bit Memory, 4x DP 1.4a Outputs, PCI Express 4.0, 14 Gbps Memory Clock, 1 Year Warranty | VCNRTXA4000-SB',
-    description: '<ul>\n<li>Graphics: NVIDIA RTX A4000</li>\n<li>Graphics Memory: 16GB GDDR6</li>\n<li>CUDA Cores: 6,144</li>\n<li>Memory Speed: 14Gbps</li>\n<li>Memory Interface: 256-bit</li>\n<li>Interface: PCI Express 4.0</li>\n<li>Video Outputs: 4 x DisplayPort 1.4a</li>\n<li>Power Consumption: 140W</li>\n<li>Warranty: 1 Year</li>\n</ul>',
-    specifications: {
-
-    },
-    stock: 10,
-    sku: 'VCNRTXA4000-SB',
-    featured: false,
-    newProduct: true,
-    tags: ['Graphic Cards', 'NVIDIA RTX & Blackwell', 'PC Components', 'Workstation Graphic Cards']
-  },
-  {
-    id: '9432710447321',
-    name: 'SAPPHIRE AMD Radeon RX 7900 XT 20 GB GDDR6 NITRO PLUS Graphic Card | 11323-01-40G',
-    slug: 'sapphire-amd-radeon-rx-7900-xt-20gb-gddr6-nitro-plus-graphic-card-11323-01-40g-11323-01-40g',
-    brand: 'Sapphire',
-    category: 'graphics-cards',
-    subcategory: 'gpu',
-    price: 2939,
-    salePrice: 2939,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/11323-01-40G-1_894af592-e7f0-4d24-a80f-235932529cc5.webp?v=1772033761, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/11323-01-40G-2_f099786a-0c91-4bc4-8497-1059040b9897.webp?v=1772033758, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/11323-01-40G-3_8056cc1d-de8f-4635-b592-adae3c1ab1ad.webp?v=1772033758, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/11323-01-40G-4_1a342ca8-a2b7-4004-a79b-32265f6b6c77.webp?v=1772033758, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/11323-01-40G-5_342584e1-3e28-4c02-b3f2-385636e91dce.webp?v=1772033758, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/11323-01-40G-6_3ebd0a1d-69f8-4f37-8315-65c282896e47.webp?v=1772033758'],
-    shortDescription: 'SAPPHIRE AMD Radeon RX 7900 XT 20 GB GDDR6 NITRO PLUS Graphic Card | 11323-01-40G',
-    description: '<ul>\n<li>AMD Radeon™ RX 7900 XT</li>\n<li>20 GB GDDR6</li>\n<li>Memory Speed: 20  GBps</li>\n<li>Engine Clock: 2400 MHz</li>\n<li>CUDA Cores: 5376</li>\n<li>Memory Interface: 320-bits</li>\n</ul>',
-    specifications: {
-
-    },
-    stock: 10,
-    sku: '11323-01-40G',
-    featured: false,
-    newProduct: true,
-    tags: ['AMD RX Graphic Cards', 'Gaming', 'Gaming Graphic Cards', 'Graphic Cards', 'PC Components']
-  },
-  {
-    id: '9432710086873',
-    name: 'ASUS TUF Gaming Radeon RX 7900 XT 20 GB GDDR6 OC Edition Graphic Card | 90YV0IV1-M0NA00',
-    slug: 'asus-tuf-gaming-radeon-rx-7900-xt-20gb-gddr6-oc-edition-graphic-card-90yv0iv1-m0na00-90yv0iv1-m0na00',
-    brand: 'Asus',
-    category: 'graphics-cards',
-    subcategory: 'gpu',
-    price: 3389,
-    salePrice: 3389,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0IV1-M0NA00-1_0fe154d8-4753-494b-9f3c-eaa7b7084dc5.webp?v=1772033752, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0IV1-M0NA00-2_86406b01-a8a1-4fb1-8ad9-f5a1f8ee4ff5.webp?v=1772033752, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0IV1-M0NA00-3_3aff1a7d-d139-460a-a232-5c43d0fd2b24.webp?v=1772033752, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0IV1-M0NA00-4_95b3e42a-5ed9-45e8-b17b-87684fa14456.webp?v=1772033752, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0IV1-M0NA00-5_8d1b513c-a0ac-42bd-a4e0-a878ad4da2ae.webp?v=1772033752, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0IV1-M0NA00-6_cc91a8dc-3d39-42c8-92e2-f71978c65c38.webp?v=1772033752'],
-    shortDescription: 'ASUS TUF Gaming Radeon RX 7900 XT 20 GB GDDR6 OC Edition Graphic Card | 90YV0IV1-M0NA00',
-    description: '<ul>\n<li>AMD Radeon™ RX 7900 XT</li>\n<li>20 GB GDDR6</li>\n<li>Memory Speed: 20  GBps</li>\n<li>Engine Clock: 2535 MHz</li>\n<li>CUDA Cores: 5376</li>\n<li>Memory Interface: 320-bit</li>\n</ul>',
-    specifications: {
-
-    },
-    stock: 10,
-    sku: '90YV0IV1-M0NA00',
-    featured: false,
-    newProduct: true,
-    tags: ['AMD RX Graphic Cards', 'Gaming', 'Gaming Graphic Cards', 'Graphic Cards', 'PC Components']
-  },
-  {
-    id: '9432709693657',
-    name: 'ASUS NVIDIA Dual GeForce RTX 3050 8 GB GDDR6 OC Edition Graphic Card | 90YV0GH6-M0NA00',
-    slug: 'asus-nvidia-dual-geforce-rtx-3050-8gb-gddr6-oc-edition-graphic-card-90yv0gh6-m0na00-90yv0gh6-m0na00',
-    brand: 'Asus',
-    category: 'graphics-cards',
-    subcategory: 'gpu',
-    price: 1329,
-    salePrice: 1329,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0GH6-M0NA00-1.png?v=1788788199, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0GH6-M0NA00-2.png?v=1788788199, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0GH6-M0NA00-3.png?v=1788788199, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0GH6-M0NA00-4.png?v=1788788199, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0GH6-M0NA00-5.png?v=1788788199, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0GH6-M0NA00-6.png?v=1788788199'],
-    shortDescription: 'ASUS NVIDIA Dual GeForce RTX 3050 8 GB GDDR6 OC Edition Graphic Card | 90YV0GH6-M0NA00',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 3050</li>\n<li>8 GB GDDR6</li>\n<li>Memory Speed: 14  GBps</li>\n<li>Engine Clock: 1852 MHz</li>\n<li>CUDA Cores: 2560</li>\n<li>Memory Interface: 128-bit</li>\n</ul>',
-    specifications: {
-
-    },
-    stock: 10,
-    sku: '90YV0GH6-M0NA00',
-    featured: false,
-    newProduct: true,
-    tags: ['Gaming', 'Gaming Graphic Cards', 'Graphic Cards', 'PC Components', 'RTX 20-30 Series Graphics Cards']
-  },
-  {
-    id: '9432709660889',
-    name: 'ASUS NVIDIA Dual GeForce RTX 3050 6 GB GDDR6 OC Edition Graphic Card | 90YV0K60-M0NA00',
-    slug: 'asus-nvidia-dual-geforce-rtx-3050-6gb-gddr6-oc-edition-graphic-card-90yv0k60-m0na00-90yv0k60-m0na00',
-    brand: 'Asus',
-    category: 'graphics-cards',
-    subcategory: 'gpu',
-    price: 1069,
-    salePrice: 1069,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0K60-M0NA00-2-1746384958203.png?v=1770246515, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0K60-M0NA00-1_511fc6e1-ddd1-4be9-9d40-3765bbc5d859.webp?v=1793360630, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0K60-M0NA00-2_0906e305-bf0d-4430-8231-b8eb8583c2a6.webp?v=1793360629, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0K60-M0NA00-3_7001361f-eba1-4acb-94bf-3e0a4c1deed0.webp?v=1793360629, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0K60-M0NA00-4_95fde40c-bd02-44f5-b0f8-d6e9e369ba9f.webp?v=1793360629, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0K60-M0NA00-5_8486adbf-30fe-42ec-8e7b-510e4a213b5d.webp?v=1793360629, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0K60-M0NA00-6_7405c40a-6c5f-4d7d-bd01-81626a2d0956.webp?v=1793360629'],
-    shortDescription: 'ASUS NVIDIA Dual GeForce RTX 3050 6 GB GDDR6 OC Edition Graphic Card | 90YV0K60-M0NA00',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 3050</li>\n<li>6 GB GDDR6</li>\n<li>Memory Speed: 14  GBps</li>\n<li>Engine Clock: 1537 MHz</li>\n<li>CUDA Cores: 2304</li>\n<li>Memory Interface: 96-bit</li>\n</ul>',
-    specifications: {
-
-    },
-    stock: 10,
-    sku: '90YV0K60-M0NA00',
-    featured: false,
-    newProduct: true,
-    tags: ['Gaming', 'Gaming Graphic Cards', 'Graphic Cards', 'PC Components', 'RTX 20-30 Series Graphics Cards']
-  },
-  {
-    id: '9432709497049',
-    name: 'ASUS PRIME GeForce RTX 5070 12 GB GDDR7 OC Edition Graphic Card | 90YV0M10-M0NA00',
-    slug: 'asus-prime-geforce-rtx-5070-12gb-gddr7-oc-edition-graphic-card-90yv0m10-m0na00-90yv0m10-m0na00',
-    brand: 'Asus',
-    category: 'graphics-cards',
-    subcategory: 'gpu',
-    price: 2709,
-    salePrice: 2709,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0M10-M0NA00-1_44f36386-dca7-496b-a982-07555e500487.webp?v=1772033745, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0M10-M0NA00-2_d0060f64-923f-4856-b4ea-664d12147d36.webp?v=1772033745, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0M10-M0NA00-3_18cdf2e0-093e-4216-bafc-e9fee2986f1b.webp?v=1772033745, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0M10-M0NA00-4_0e21017c-36d7-46bf-ba2d-184a32fbd088.webp?v=1772033746, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0M10-M0NA00-5_524be0f8-dd3c-42dc-ba4b-9097515006f3.webp?v=1772033745, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0M10-M0NA00-6_86774c31-08cf-4511-a161-b0efa1adaad6.webp?v=1772033745'],
-    shortDescription: 'ASUS PRIME GeForce RTX 5070 12 GB GDDR7 OC Edition Graphic Card | 90YV0M10-M0NA00',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5070</li>\n<li>12 GB GDDR7</li>\n<li>Memory Speed: 28  GBps</li>\n<li>Engine Clock: 2587 MHz</li>\n<li>CUDA Cores: 6144</li>\n<li>Memory Interface: 192-Bit</li>\n</ul>',
-    specifications: {
-
-    },
-    stock: 10,
-    sku: '90YV0M10-M0NA00',
-    featured: false,
-    newProduct: true,
-    tags: ['Gaming', 'Gaming Graphic Cards', 'Graphic Cards', 'PC Components', 'RTX 40-50 Series Graphics Cards']
-  },
-  {
-    id: '9432709071065',
-    name: 'Asus ROG STRIX GeForce RTX 3070 OC LHR Gaming Graphics Card, 5888 CUDA Cores, GDDR6 8GB 256-bit Memory, PCI Express 4.0, 1935 MHz Boost Clock, 14 Gbps Memory Clock, 1 Year Warranty | 90YV0FR7-M0NA00',
-    slug: 'vga-asus-rtx-3070-8gb-ddr6-rog-strix-gaming-oc-lhr-90yv0fr7-m0na00-90yv0fr7-m0na00',
-    brand: 'Asus',
-    category: 'graphics-cards',
-    subcategory: 'gpu',
-    price: 3159,
-    salePrice: 3159,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0FR7-M0NA00-02.gif?v=1770220026, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Asus-ROG-STRIX-RTX-3070-OC-Gaming-GPU-90YV0FR7-M0NA00-1_a74d6ed1-874a-4473-b8ed-fcbad4f426a3.webp?v=1793451786, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Asus-ROG-STRIX-RTX-3070-OC-Gaming-GPU-90YV0FR7-M0NA00-2_b61139de-5a9c-427f-9c73-92ba8409f994.webp?v=1793451786, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Asus-ROG-STRIX-RTX-3070-OC-Gaming-GPU-90YV0FR7-M0NA00-3_895df174-945b-4cf2-9cb4-44bad313ddb8.webp?v=1793451787, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Asus-ROG-STRIX-RTX-3070-OC-Gaming-GPU-90YV0FR7-M0NA00-4_aba677fc-acfb-4ee2-aedb-0ead6f700e62.webp?v=1793451786, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Asus-ROG-STRIX-RTX-3070-OC-Gaming-GPU-90YV0FR7-M0NA00-5_33aa8482-70aa-4d2b-9b60-bfebb0188fac.webp?v=1793451787'],
-    shortDescription: 'Asus ROG STRIX GeForce RTX 3070 OC LHR Gaming Graphics Card, 5888 CUDA Cores, GDDR6 8GB 256-bit Memory, PCI Express 4.0, 1935 MHz Boost Clock, 14 Gbps Memory Clock, 1 Year Warranty | 90YV0FR7-M0NA00',
-    description: '<ul>\n<li>Graphics: NVIDIA GeForce RTX 3070</li>\n<li>Graphics Memory: 8GB GDDR6</li>\n<li>Boost Clock: 1935MHz</li>\n<li>Base Clock: 1500MHz</li>\n<li>CUDA Cores: 5,888</li>\n<li>Memory Speed: 14Gbps</li>\n<li>Memory Interface: 256-bit</li>\n<li>Interface: PCI Express 4.0</li>\n<li>Power Consumption: 220W</li>\n<li>Warranty: 1 Year</li>\n</ul>',
-    specifications: {
-
-    },
-    stock: 10,
-    sku: '90YV0FR7-M0NA00',
-    featured: false,
-    newProduct: true,
-    tags: ['Gaming', 'Gaming Graphic Cards', 'Gaming PC Components', 'Graphic Cards', 'PC Components', 'RTX 20-30 Series Graphics Cards']
-  },
-  {
-    id: '9432707203289',
-    name: 'Asus ROG Astral GeForce RTX 5090 White OC Edition Graphics Card, GDDR7 32GB 512-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2580 MHz Core Clock, 28 Gbps Memory Clock, 1 Year Warranty | 90YV0LWA-M0NA00',
-    slug: 'asus-rog-astral-geforce-rtx-5090-white-oc-edition-graphics-card-gddr7-32gb-512-bit-memory-hdmi-2-1b-dp-2-1b-outputs-pci-express-5-0-2580-mhz-core-clock-28-gbps-memory-clock-1-year-warranty-90yv0lwa-m0na00-90yv0lwa-m0na00',
-    brand: 'Asus',
-    category: 'graphics-cards',
-    subcategory: 'gpu',
-    price: 16999,
-    salePrice: 16999,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0LWA-M0NA00-1_f11fe386-88ec-42c5-93a4-e0a4277b6785.webp?v=1772033739, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0LWA-M0NA00-2_ff995704-b538-45e9-80c1-546c2bffc5f6.webp?v=1772033739, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0LWA-M0NA00-3_73313f76-a16b-400a-b6fe-da90ee5112a2.webp?v=1772033739, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0LWA-M0NA00-4_2c9c7e3a-8059-4a88-9e13-2af6fb1964bc.webp?v=1772033739, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0LWA-M0NA00-5_888b7593-c966-423b-9983-fe2508ecbd27.webp?v=1772033739, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0LWA-M0NA00-6_6f16c7fa-220f-439e-8b49-c9a36ee0207b.webp?v=1772033739'],
-    shortDescription: 'Asus ROG Astral GeForce RTX 5090 White OC Edition Graphics Card, GDDR7 32GB 512-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2580 MHz Core Clock, 28 Gbps Memory Clock, 1 Year Warranty | 90YV0LWA-M0NA00',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5090</li>\n<li>Memory: GDDR7 32GB</li>\n<li>Engine Clock OC mode: 2610 MHz</li>\n<li>Engine Clock Default mode: 2580 MHz (Boost Clock)</li>\n<li>CUDA Core: 21760</li>\n<li>AI Performance: 3352 TOPs</li>\n<li>Memory Speed: 28 Gbps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 512-bit</li>\n<li>Power Connectors: 1 x 16-pin</li>\n<li>Color: White</li>\n</ul>',
-    specifications: {
-
-    },
-    stock: 10,
-    sku: '90YV0LWA-M0NA00',
-    featured: false,
-    newProduct: true,
-    tags: ['Gaming', 'Gaming Graphic Cards', 'Gaming PC Components', 'Graphic Cards', 'PC Components', 'RTX 40-50 Series Graphics Cards']
-  },
-  {
-    id: '9432707137753',
-    name: 'Asus ROG Astral GeForce RTX 5080 Dhahab CORE OC Edition Graphics Card, GDDR7 16GB 256-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2760 MHz Core Clock, 30 Gbps Memory Clock, 1 Year Warranty | 90YV0LV6-M0NM00',
-    slug: 'asus-rog-astral-geforce-rtx-5080-dhahab-core-oc-edition-graphics-card-gddr7-16gb-256-bit-memory-hdmi-2-1b-dp-2-1b-outputs-pci-express-5-0-2760-mhz-core-clock-30-gbps-memory-clock-1-year-warranty-90yv0lv6-m0nm00-90yv0lv6-m0nm00',
-    brand: 'Asus',
-    category: 'graphics-cards',
-    subcategory: 'gpu',
-    price: 9289,
-    salePrice: 9289,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0LV6-M0NM00-1_dd02a090-171d-4c7a-a24b-8801148c0048.webp?v=1772033732, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0LV6-M0NM00-2_e31ac402-c312-4b4e-a58a-7e5b38ff0cfc.webp?v=1772033732, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0LV6-M0NM00-3_ac154bfa-d614-4ad0-8bdb-5fcd9df90fff.webp?v=1772033732, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0LV6-M0NM00-4_007a86a3-640e-49b2-ab47-b99bd4dd48fd.webp?v=1772033732, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0LV6-M0NM00-5_889a1043-4d99-468a-be03-ecebaf0b045a.webp?v=1772033732, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0LV6-M0NM00-6_13ef145f-311a-46c2-ab36-d68197edceb5.webp?v=1772033732'],
-    shortDescription: 'Asus ROG Astral GeForce RTX 5080 Dhahab CORE OC Edition Graphics Card, GDDR7 16GB 256-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2760 MHz Core Clock, 30 Gbps Memory Clock, 1 Year Warranty | 90YV0LV6-M0NM00',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5080</li>\n<li>Memory: GDDR7 16GB</li>\n<li>Engine Clock OC mode: 2790 MHz</li>\n<li>Engine Clock Default mode: 2760 MHz (Boost Clock)</li>\n<li>CUDA Core: 10752</li>\n<li>AI Performance: 1801 TOPs</li>\n<li>Memory Speed: 30 Gbps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 256-bit</li>\n<li>Power Connectors: 1 x 16-pin</li>\n</ul>',
-    specifications: {
-
-    },
-    stock: 10,
-    sku: '90YV0LV6-M0NM00',
-    featured: false,
-    newProduct: true,
-    tags: ['Gaming', 'Gaming Graphic Cards', 'Gaming PC Components', 'GeForce RTX 50 Series Graphics Cards', 'Graphic Cards', 'PC Components', 'RTX 40-50 Series Graphics Cards']
-  },
-  {
-    id: '9432707104985',
-    name: 'Asus TUF Gaming GeForce RTX 5070 Ti White OC Edition Graphics Card, GDDR7 16GB 256-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2588 MHz Core Clock, 28 Gbps Memory Clock, 1 Year Warranty | 90YV0MD3-M0NA00',
-    slug: 'asus-tuf-gaming-geforce-rtx-5070-ti-white-oc-edition-graphics-card-gddr7-16gb-256-bit-memory-hdmi-2-1b-dp-2-1b-outputs-pci-express-5-0-2588-mhz-core-clock-28-gbps-memory-clock-1-year-warranty-90yv0md3-m0na00-90yv0md3-m0na00',
-    brand: 'Asus',
-    category: 'graphics-cards',
-    subcategory: 'gpu',
-    price: 4519,
-    salePrice: 4519,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0MD3-M0NA00-1_f682a4cf-bd6b-479d-8035-6440dbdc459e.webp?v=1772033725, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0MD3-M0NA00-2_521e1e7a-8764-478d-a447-056c935ad178.webp?v=1772033725, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0MD3-M0NA00-3_721d76f4-ffa6-4aeb-9801-0e5b96b8995c.webp?v=1772033725, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0MD3-M0NA00-4_59a1feb9-c42a-444f-a3e5-fb93b871fb72.webp?v=1772033725, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0MD3-M0NA00-5_9a970deb-77e9-4dcf-8030-524d194f2ea3.webp?v=1772033725, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0MD3-M0NA00-6_e98b6851-a57d-4149-a35f-204f0bc41399.webp?v=1772033725'],
-    shortDescription: 'Asus TUF Gaming GeForce RTX 5070 Ti White OC Edition Graphics Card, GDDR7 16GB 256-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2588 MHz Core Clock, 28 Gbps Memory Clock, 1 Year Warranty | 90YV0MD3-M0NA00',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5070 Ti</li>\n<li>Memory: GDDR7 16GB</li>\n<li>Engine Clock OC mode: 2610 MHz</li>\n<li>Engine Clock Default mode: 2588 MHz (Boost Clock)</li>\n<li>CUDA Core: 8960</li>\n<li>AI Performance: 1406 TOPs</li>\n<li>Memory Speed: 28 Gbps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 256-bit</li>\n<li>Power Connectors: 1 x 16-pin</li>\n<li>Color: White</li>\n</ul>',
-    specifications: {
-
-    },
-    stock: 10,
-    sku: '90YV0MD3-M0NA00',
-    featured: false,
-    newProduct: true,
-    tags: ['Gaming', 'Gaming Graphic Cards', 'Gaming PC Components', 'Graphic Cards', 'PC Components', 'RTX 40-50 Series Graphics Cards']
-  },
-  {
-    id: '9432707072217',
-    name: 'Asus TUF Gaming GeForce RTX 5070 Ti OC Edition Graphics Card, GDDR7 16GB 256-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2588 MHz Core Clock, 28 Gbps Memory Clock, 1 Year Warranty | 90YV0MD0-M0NA00',
-    slug: 'asus-tuf-gaming-geforce-rtx-5070-ti-oc-edition-graphics-card-gddr7-16gb-256-bit-memory-hdmi-2-1b-dp-2-1b-outputs-pci-express-5-0-2588-mhz-core-clock-28-gbps-memory-clock-1-year-warranty-90yv0md0-m0na00-90yv0md0-m0na00',
-    brand: 'Asus',
-    category: 'graphics-cards',
-    subcategory: 'gpu',
-    price: 4559,
-    salePrice: 4559,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0MD0-M0NA00-1_b3f3a915-9a7a-484b-8eff-f20d943d9904.webp?v=1772033718, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0MD0-M0NA00-2_a91dc32d-ecf0-4e49-b90c-f3fcff3fdb07.webp?v=1772033718, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0MD0-M0NA00-3_71649caa-9cc5-41f8-9ff4-693fb8c48cc1.webp?v=1772033718, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0MD0-M0NA00-4_2c0a4b40-5771-43fa-bc59-b40c0d332ec4.webp?v=1772033718, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0MD0-M0NA00-5_29e3a4e9-7a95-4109-99d4-a07468f4676a.webp?v=1772033718, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0MD0-M0NA00-6_bff72d9c-4661-49a8-8569-46ea3e607160.webp?v=1772033718'],
-    shortDescription: 'Asus TUF Gaming GeForce RTX 5070 Ti OC Edition Graphics Card, GDDR7 16GB 256-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2588 MHz Core Clock, 28 Gbps Memory Clock, 1 Year Warranty | 90YV0MD0-M0NA00',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5070 Ti</li>\n<li>Memory: GDDR7 16GB</li>\n<li>Engine Clock OC mode: 2610 MHz</li>\n<li>Engine Clock Default mode: 2588 MHz (Boost Clock)</li>\n<li>CUDA Core: 8960</li>\n<li>AI Performance: 1406 TOPs</li>\n<li>Memory Speed: 28 Gbps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 256-bit</li>\n<li>Power Connectors: 1 x 16-pin</li>\n</ul>',
-    specifications: {
-
-    },
-    stock: 10,
-    sku: '90YV0MD0-M0NA00',
-    featured: false,
-    newProduct: true,
-    tags: ['Gaming', 'Gaming Graphic Cards', 'Gaming PC Components', 'Graphic Cards', 'PC Components', 'RTX 40-50 Series Graphics Cards']
-  },
-  {
-    id: '9432706973913',
-    name: 'Asus PRIME GeForce RTX 5070 Ti OC Edition Graphics Card, GDDR7 16GB 256-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2497 MHz Core Clock, 28 Gbps Memory Clock, 1 Year Warranty | 90YV0MF0-M0NA00',
-    slug: 'asus-prime-geforce-rtx-5070-ti-oc-edition-graphics-card-gddr7-16gb-256-bit-memory-hdmi-2-1b-dp-2-1b-outputs-pci-express-5-0-2497-mhz-core-clock-28-gbps-memory-clock-1-year-warranty-90yv0mf0-m0na00-90yv0mf0-m0na00',
-    brand: 'Asus',
-    category: 'graphics-cards',
-    subcategory: 'gpu',
-    price: 4289,
-    salePrice: 4289,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0MF0-M0NA00-1_b76050ef-5b55-4738-b3cc-d0ab3a00a0af.webp?v=1772033711, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0MF0-M0NA00-2_8edc1e3c-9804-4b58-9ffa-77312cc7fbe0.webp?v=1772033711, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0MF0-M0NA00-3_785f7e53-4cc2-49d7-96ed-0295e37fa30f.webp?v=1772033711, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0MF0-M0NA00-4_f85b46af-e786-4678-a9f0-4385d1df8064.webp?v=1772033711, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0MF0-M0NA00-5_b27f35c8-83b9-4d8f-90c5-1f5a4c8f30ad.webp?v=1772033711, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0MF0-M0NA00-6_8307d320-61a4-4145-9ad4-d7ab85412070.webp?v=1772033711'],
-    shortDescription: 'Asus PRIME GeForce RTX 5070 Ti OC Edition Graphics Card, GDDR7 16GB 256-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2497 MHz Core Clock, 28 Gbps Memory Clock, 1 Year Warranty | 90YV0MF0-M0NA00',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5070 Ti</li>\n<li>Memory: GDDR7 16GB</li>\n<li>Engine Clock OC mode: 2527 MHz</li>\n<li>Engine Clock Default mode: 2497 MHz (Boost Clock)</li>\n<li>CUDA Core: 8960</li>\n<li>AI Performance: 1406 TOPs</li>\n<li>Memory Speed: 28 Gbps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 256-bit</li>\n<li>Power Connectors: 1 x 16-pin</li>\n</ul>',
-    specifications: {
-
-    },
-    stock: 10,
-    sku: '90YV0MF0-M0NA00',
-    featured: false,
-    newProduct: true,
-    tags: ['Gaming', 'Gaming Graphic Cards', 'Gaming PC Components', 'Graphic Cards', 'PC Components', 'RTX 40-50 Series Graphics Cards']
-  },
-  {
-    id: '9432706941145',
-    name: 'Asus Dual GeForce RTX 5060 Ti Graphics Card, GDDR7 16GB 128-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2572 MHz Core Clock, 28 Gbps Memory Clock, 1 Year Warranty | 90YV0MH0-M0NA00',
-    slug: 'asus-dual-geforce-rtx-5060-ti-graphics-card-gddr7-16gb-128-bit-memory-hdmi-2-1b-dp-2-1b-outputs-pci-express-5-0-2572-mhz-core-clock-28-gbps-memory-clock-1-year-warranty-90yv0mh0-m0na00-90yv0mh0-m0na00',
-    brand: 'Asus',
-    category: 'graphics-cards',
-    subcategory: 'gpu',
-    price: 2589,
-    salePrice: 2589,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0MH0-M0NA00-1_b27dcc1a-4a2d-4656-b45c-06312b82a482.webp?v=1772033704, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0MH0-M0NA00-2_6a6f8973-3769-4ab0-9ec4-ab88ea4cb6f3.webp?v=1772033705, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0MH0-M0NA00-3_e368239c-83fd-4e91-b409-989c02497c4d.webp?v=1772033704, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0MH0-M0NA00-4_b2432657-3257-4af2-b6e1-afa35dc68372.webp?v=1772033704, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0MH0-M0NA00-5_06574b36-f0f9-4871-83a2-e271c0fb2921.webp?v=1772033704, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0MH0-M0NA00-6_fb2490ed-ea43-41b7-a851-31e3d3c8387d.webp?v=1772033704'],
-    shortDescription: 'Asus Dual GeForce RTX 5060 Ti Graphics Card, GDDR7 16GB 128-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2572 MHz Core Clock, 28 Gbps Memory Clock, 1 Year Warranty | 90YV0MH0-M0NA00',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5060 Ti</li>\n<li>Memory: GDDR7 16GB</li>\n<li>Engine Clock OC mode: 2602 MHz</li>\n<li>Engine Clock Default mode: 2572 MHz (Boost Clock)</li>\n<li>CUDA Core: 4608</li>\n<li>AI Performance: 759 TOPs</li>\n<li>Memory Speed: 28 Gbps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 128-bit</li>\n<li>Power Connectors: 1 x 8-pin</li>\n</ul>',
-    specifications: {
-
-    },
-    stock: 10,
-    sku: '90YV0MH0-M0NA00',
-    featured: false,
-    newProduct: true,
-    tags: ['Gaming', 'Gaming Graphic Cards', 'Gaming PC Components', 'Graphic Cards', 'PC Components', 'RTX 40-50 Series Graphics Cards']
-  },
-  {
-    id: '9432706908377',
-    name: 'Asus Dual GeForce RTX 5050 OC Edition Graphics Card, GDDR6 8GB 128-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2647 MHz Core Clock, 20 Gbps Memory Clock, 1 Year Warranty | 90YV0N72-M0NA00',
-    slug: 'asus-dual-geforce-rtx-5050-oc-edition-graphics-card-gddr6-8gb-128-bit-memory-hdmi-2-1b-dp-2-1b-outputs-pci-express-5-0-2647-mhz-core-clock-20-gbps-memory-clock-1-year-warranty-90yv0n72-m0na00-90yv0n72-m0na00',
-    brand: 'Asus',
-    category: 'graphics-cards',
-    subcategory: 'gpu',
-    price: 1699,
-    salePrice: 1699,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0N72-M0NA00-1_cd998e73-ee45-49f2-98d3-f9ae1083e1ad.webp?v=1772033697, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0N72-M0NA00-2_cd23ddfe-609a-410a-958e-40480ed1c88d.webp?v=1772033697, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0N72-M0NA00-3_563c45e3-35f4-4c0e-b5f1-48cde6a1b4f0.webp?v=1772033697, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0N72-M0NA00-4_def4587c-48ff-4a10-b9a7-5a61165f38f3.webp?v=1772033697, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0N72-M0NA00-5_a2d30178-2d5c-4813-9981-adc60c327639.webp?v=1772033697, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0N72-M0NA00-6_94adb832-db04-40d5-ba91-f5e7b300f33f.webp?v=1772033697'],
-    shortDescription: 'Asus Dual GeForce RTX 5050 OC Edition Graphics Card, GDDR6 8GB 128-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2647 MHz Core Clock, 20 Gbps Memory Clock, 1 Year Warranty | 90YV0N72-M0NA00',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5050</li>\n<li>Memory: GDDR6 8GB</li>\n<li>Engine Clock OC mode: 2677 MHz</li>\n<li>Engine Clock Default mode: 2647 MHz (Boost Clock)</li>\n<li>CUDA Core: 2560</li>\n<li>AI Performance: 421 TOPs</li>\n<li>Memory Speed: 20 Gbps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 128-bit</li>\n<li>Power Connectors: 1 x 8-pin</li>\n</ul>',
-    specifications: {
-
-    },
-    stock: 10,
-    sku: '90YV0N72-M0NA00',
-    featured: false,
-    newProduct: true,
-    tags: ['Gaming', 'Gaming Graphic Cards', 'Gaming PC Components', 'Graphic Cards', 'PC Components', 'RTX 40-50 Series Graphics Cards']
-  },
-  {
-    id: '9432706810073',
-    name: 'Asus Dual GeForce RTX 5060 White OC Edition Graphics Card, GDDR7 8GB 128-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2677 MHz Core Clock, 28 Gbps Memory Clock, 1 Year Warranty | 90YV0N15-M0NA00',
-    slug: 'asus-dual-geforce-rtx-5060-white-oc-edition-graphics-card-gddr7-8gb-128-bit-memory-hdmi-2-1b-dp-2-1b-outputs-pci-express-5-0-2677-mhz-core-clock-28-gbps-memory-clock-1-year-warranty-90yv0n15-m0na00-90yv0n15-m0na00',
-    brand: 'Asus',
-    category: 'graphics-cards',
-    subcategory: 'gpu',
-    price: 1469,
-    salePrice: 1469,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0N15-M0NA00-1_06b27f75-c7ce-4d5d-8858-aa633aeb28aa.webp?v=1772033691, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0N15-M0NA00-2_d376cadc-1d39-4ec7-996d-b51653e1f6a4.webp?v=1772033690, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0N15-M0NA00-3_79467bc7-5cf0-4a87-b3f9-75144f75eb6e.webp?v=1772033691, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0N15-M0NA00-4_a3dc6532-74d8-4405-adef-54be91030219.webp?v=1772033690, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0N15-M0NA00-5_9204326c-ed97-4cb0-ad52-2c846b78eda3.webp?v=1772033690, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/90YV0N15-M0NA00-6_5cec00ef-8f9f-4d44-9fe6-cfc059316856.webp?v=1772033691'],
-    shortDescription: 'Asus Dual GeForce RTX 5060 White OC Edition Graphics Card, GDDR7 8GB 128-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2677 MHz Core Clock, 28 Gbps Memory Clock, 1 Year Warranty | 90YV0N15-M0NA00',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5060</li>\n<li>Memory: GDDR7 8GB</li>\n<li>Engine Clock OC mode: 2565 MHz</li>\n<li>Engine Clock Default mode: 2535 MHz (Boost Clock)</li>\n<li>CUDA Core: 3840</li>\n<li>AI Performance: 614 TOPs</li>\n<li>Memory Speed: 28 Gbps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 128-bit</li>\n<li>Power Connectors: 1 x 8-pin</li>\n</ul>',
-    specifications: {
-
-    },
-    stock: 10,
-    sku: '90YV0N15-M0NA00',
-    featured: false,
-    newProduct: true,
-    tags: ['Gaming', 'Gaming Graphic Cards', 'Gaming PC Components', 'Graphic Cards', 'PC Components', 'RTX 40-50 Series Graphics Cards']
-  },
-  {
-    id: '9432706482393',
-    name: 'Gigabyte WINDFORCE GeForce RTX 5070 Small Form Factor Graphics Card, GDDR7 12GB 192-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2512 MHz Core Clock, 28 Gbps Memory Clock, Triple Windforce Hawk Fans, 1 Year Warranty | GV-N5070WF3-12GD',
-    slug: 'gigabyte-windforce-geforce-rtx-5070-small-form-factor-graphics-card-gddr7-12gb-192-bit-memory-hdmi-2-1b-dp-2-1b-outputs-pci-express-5-0-2512-mhz-core-clock-28-gbps-memory-clock-triple-windforce-hawk-fans-1-year-warranty-gv-n5070wf3-12gd-gv-n5070wf3-12gd',
-    brand: 'Gigabyte',
-    category: 'graphics-cards',
-    subcategory: 'gpu',
-    price: 2749,
-    salePrice: 2749,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5070-GV-N5070WF3-12GD-2.webp?v=1772596842, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5070-GV-N5070WF3-12GD-5.webp?v=1772596842, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5070-GV-N5070WF3-12GD-1.webp?v=1772596842, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5070-GV-N5070WF3-12GD-6.webp?v=1772029097, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5070-GV-N5070WF3-12GD-3.webp?v=1772029096, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5070-GV-N5070WF3-12GD-4.webp?v=1772029096'],
-    shortDescription: 'Gigabyte WINDFORCE GeForce RTX 5070 Small Form Factor Graphics Card, GDDR7 12GB 192-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2512 MHz Core Clock, 28 Gbps Memory Clock, Triple Windforce Hawk Fans, 1 Year Warranty | GV-N5070WF3-12GD',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5070</li>\n<li>Memory: GDDR7 12GB</li>\n<li>Engine Clock: 2512 MHz</li>\n<li>CUDA Core: 6144</li>\n<li>AI Performance: 988 TOPS</li>\n<li>Memory Speed: 28 Gbps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 192-bit</li>\n<li>Power Connectors: 1 x 16-pin</li>\n<li>1 Year Warranty</li>\n</ul>',
-    specifications: {
-
-    },
-    stock: 10,
-    sku: 'GV-N5070WF3-12GD',
-    featured: false,
-    newProduct: true,
-    tags: ['Gaming', 'Gaming Graphic Cards', 'Gaming PC Components', 'Graphic Cards', 'PC Components', 'RTX 40-50 Series Graphics Cards']
-  },
-  {
-    id: '9432706318553',
-    name: 'Gigabyte OC GeForce RTX 5050 Low Profile Graphics Card, GDDR6 8GB 128-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2587 MHz Core Clock, 20 Gbps Memory Clock, 1 Year Warranty | GV-N5050-OC-8GL',
-    slug: 'gigabyte-oc-geforce-rtx-5050-low-profile-graphics-card-gddr6-8gb-128-bit-memory-hdmi-2-1b-dp-2-1b-outputs-pci-express-5-0-2587-mhz-core-clock-20-gbps-memory-clock-1-year-warranty-gv-n5050-oc-8gl-gv-n5050-oc-8gl',
-    brand: 'Gigabyte',
-    category: 'graphics-cards',
-    subcategory: 'gpu',
-    price: 1329,
-    salePrice: 1329,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5050-GV-N5050-OC-8GL-4.webp?v=1772596017, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5050-GV-N5050-OC-8GL-2.webp?v=1772596017, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5050-GV-N5050-OC-8GL-1.webp?v=1772596017, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5050-GV-N5050-OC-8GL-6.webp?v=1772029096, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5050-GV-N5050-OC-8GL-5.webp?v=1772029095, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5050-GV-N5050-OC-8GL-3.webp?v=1772029095'],
-    shortDescription: 'Gigabyte OC GeForce RTX 5050 Low Profile Graphics Card, GDDR6 8GB 128-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2587 MHz Core Clock, 20 Gbps Memory Clock, 1 Year Warranty | GV-N5050-OC-8GL',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5050</li>\n<li>Memory: GDDR6 8GB</li>\n<li>Engine Clock: 2587 MHz</li>\n<li>CUDA Core: 2560</li>\n<li>AI Performance: 421 TOPS</li>\n<li>Memory Speed: 20 Gbps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 128-bit</li>\n<li>Power Connectors: 1 x 8-pin</li>\n<li>1 Year Warranty</li>\n</ul>',
-    specifications: {
-
-    },
-    stock: 10,
-    sku: 'GV-N5050-OC-8GL',
-    featured: false,
-    newProduct: true,
-    tags: ['Gaming', 'Gaming Graphic Cards', 'Gaming PC Components', 'Graphic Cards', 'PC Components', 'RTX 40-50 Series Graphics Cards']
-  },
-  {
-    id: '9432706253017',
-    name: 'Gigabyte WINDFORCE GeForce RTX 5060 Ti Graphics Card, GDDR7 8GB 128-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2572 MHz Core Clock, 28 Gbps Memory Clock, Dual RGB Windforce Hawk Fans, 1 Year Warranty | GV-N506TWF2-8GD',
-    slug: 'gigabyte-windforce-geforce-rtx-5060-ti-graphics-card-gddr7-8gb-128-bit-memory-hdmi-2-1b-dp-2-1b-outputs-pci-express-5-0-2572-mhz-core-clock-28-gbps-memory-clock-dual-rgb-windforce-hawk-fans-1-year-warranty-gv-n506twf2-8gd-gv-n506twf2-8gd',
-    brand: 'Gigabyte',
-    category: 'graphics-cards',
-    subcategory: 'gpu',
-    price: 1999,
-    salePrice: 1999,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5060Ti-GV-N506TWF2-8GD-2.webp?v=1772595945, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5060Ti-GV-N506TWF2-8GD-1.webp?v=1772595945, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5060Ti-GV-N506TWF2-8GD-4.webp?v=1772595945, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5060Ti-GV-N506TWF2-8GD-3.webp?v=1772029097, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5060Ti-GV-N506TWF2-8GD-5.webp?v=1772029096, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5060Ti-GV-N506TWF2-8GD-6.webp?v=1772029096'],
-    shortDescription: 'Gigabyte WINDFORCE GeForce RTX 5060 Ti Graphics Card, GDDR7 8GB 128-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2572 MHz Core Clock, 28 Gbps Memory Clock, Dual RGB Windforce Hawk Fans, 1 Year Warranty | GV-N506TWF2-8GD',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5060 Ti</li>\n<li>Memory: GDDR7 8GB</li>\n<li>Engine Clock: 2572 MHz</li>\n<li>CUDA Core: 4608</li>\n<li>AI Performance: 785 TOPS</li>\n<li>Memory Speed: 28 Gbps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 128-bit</li>\n<li>Power Connectors: 1 x 8-pin</li>\n<li>1 Year Warranty</li>\n</ul>',
-    specifications: {
-
-    },
-    stock: 10,
-    sku: 'GV-N506TWF2-8GD',
-    featured: false,
-    newProduct: true,
-    tags: ['Gaming', 'Gaming Graphic Cards', 'Gaming PC Components', 'GeForce RTX 50 Series Graphics Cards', 'Graphic Cards', 'NVIDIA RTX & Blackwell', 'PC Components', 'RTX 40-50 Series Graphics Cards']
-  },
-  {
-    id: '9432706154713',
-    name: 'Gigabyte EAGLE OC ICE GeForce RTX 5060 Ti Graphics Card, GDDR7 8GB 128-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2617 MHz Core Clock, 28 Gbps Memory Clock, Dual Windforce Hawk Fans, White, 1 Year Warranty | GV-N506TEAGLE-OC-ICE',
-    slug: 'gigabyte-eagle-oc-ice-geforce-rtx-5060-ti-graphics-card-gddr7-8gb-128-bit-memory-hdmi-2-1b-dp-2-1b-outputs-pci-express-5-0-2617-mhz-core-clock-28-gbps-memory-clock-dual-windforce-hawk-fans-white-1-year-warranty-gv-n506teagle-oc-ice-gv-n506teagle-oc-ice',
-    brand: 'Gigabyte',
-    category: 'graphics-cards',
-    subcategory: 'gpu',
-    price: 1949,
-    salePrice: 1949,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5060Ti-GV-N506TEAGLE-OC-ICE-2.webp?v=1772595902, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5060Ti-GV-N506TEAGLE-OC-ICE-1.webp?v=1772595902, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5060Ti-GV-N506TEAGLE-OC-ICE-4.webp?v=1772029097, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5060Ti-GV-N506TEAGLE-OC-ICE-6.webp?v=1772029097, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5060Ti-GV-N506TEAGLE-OC-ICE-5.webp?v=1772029096, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5060Ti-GV-N506TEAGLE-OC-ICE-3.webp?v=1772029096'],
-    shortDescription: 'Gigabyte EAGLE OC ICE GeForce RTX 5060 Ti Graphics Card, GDDR7 8GB 128-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2617 MHz Core Clock, 28 Gbps Memory Clock, Dual Windforce Hawk Fans, White, 1 Year Warranty | GV-N506TEAGLE-OC-ICE',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5060 Ti</li>\n<li>Memory: GDDR7 8GB</li>\n<li>Engine Clock: 2617 MHz</li>\n<li>CUDA Core: 4608</li>\n<li>AI Performance: 785 TOPS</li>\n<li>Memory Speed: 28 Gbps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 128-bit</li>\n<li>Power Connectors: 1 x 8-pin</li>\n<li>1 Year Warranty</li>\n</ul>',
-    specifications: {
-
-    },
-    stock: 10,
-    sku: 'GV-N506TEAGLE-OC-ICE',
-    featured: false,
-    newProduct: true,
-    tags: ['Gaming', 'Gaming Graphic Cards', 'Gaming PC Components', 'Graphic Cards', 'PC Components', 'RTX 40-50 Series Graphics Cards']
-  },
-  {
-    id: '9432706121945',
-    name: 'Gigabyte EAGLE OC GeForce RTX 5060 Ti Graphics Card, GDDR7 8GB 128-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2617 MHz Core Clock, 28 Gbps Memory Clock, Dual Windforce Hawk Fans, 1 Year Warranty | GV-N506TEAGLE-OC-8GD',
-    slug: 'gigabyte-eagle-oc-geforce-rtx-5060-ti-graphics-card-gddr7-8gb-128-bit-memory-hdmi-2-1b-dp-2-1b-outputs-pci-express-5-0-2617-mhz-core-clock-28-gbps-memory-clock-dual-windforce-hawk-fans-1-year-warranty-gv-n506teagle-oc-8gd-gv-n506teagle-oc-8gd',
-    brand: 'Gigabyte',
-    category: 'graphics-cards',
-    subcategory: 'gpu',
-    price: 2119,
-    salePrice: 2119,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5060Ti-GV-N506TEAGLE-OC-8GD-4.webp?v=1772595865, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5060Ti-GV-N506TEAGLE-OC-8GD-1.webp?v=1772595865, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5060Ti-GV-N506TEAGLE-OC-8GD-6.webp?v=1772029096, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5060Ti-GV-N506TEAGLE-OC-8GD-3.webp?v=1772029096, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5060Ti-GV-N506TEAGLE-OC-8GD-5.webp?v=1772029095, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5060Ti-GV-N506TEAGLE-OC-8GD-2.webp?v=1772029095'],
-    shortDescription: 'Gigabyte EAGLE OC GeForce RTX 5060 Ti Graphics Card, GDDR7 8GB 128-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2617 MHz Core Clock, 28 Gbps Memory Clock, Dual Windforce Hawk Fans, 1 Year Warranty | GV-N506TEAGLE-OC-8GD',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5060 Ti</li>\n<li>Memory: GDDR7 8GB</li>\n<li>Engine Clock: 2617 MHz</li>\n<li>CUDA Core: 4608</li>\n<li>AI Performance: 785 TOPS</li>\n<li>Memory Speed: 28 Gbps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 128-bit</li>\n<li>Power Connectors: 1 x 8-pin</li>\n<li>1 Year Warranty</li>\n</ul>',
-    specifications: {
-
-    },
-    stock: 10,
-    sku: 'GV-N506TEAGLE-OC-8GD',
-    featured: false,
-    newProduct: true,
-    tags: ['Gaming', 'Gaming Graphic Cards', 'Gaming PC Components', 'GeForce RTX 50 Series Graphics Cards', 'Graphic Cards', 'NVIDIA RTX & Blackwell', 'PC Components', 'RTX 40-50 Series Graphics Cards']
-  },
-  {
-    id: '9432706056409',
-    name: 'Gigabyte EAGLE MAX OC GeForce RTX 5060 Ti Graphics Card, GDDR7 16GB 128-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2617 MHz Core Clock, 28 Gbps Memory Clock, Triple Windforce Hawk Fans, 1 Year Warranty | GV-N506TEAGLEMAXOC-16',
-    slug: 'gigabyte-eagle-max-oc-geforce-rtx-5060-ti-graphics-card-gddr7-16gb-128-bit-memory-hdmi-2-1b-dp-2-1b-outputs-pci-express-5-0-2617-mhz-core-clock-28-gbps-memory-clock-triple-windforce-hawk-fans-1-year-warranty-gv-n506teaglemaxoc-16-gv-n506teaglemaxoc-16',
-    brand: 'Gigabyte',
-    category: 'graphics-cards',
-    subcategory: 'gpu',
-    price: 2529,
-    salePrice: 2529,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5060Ti-GV-N506TEAGLEMAXOC-16-1_2b42bf90-bf11-4ef0-8c6d-92557acd506d.webp?v=1776503041, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5060Ti-GV-N506TEAGLEMAXOC-16-2_6f3eedd1-1f0c-41ae-8c2c-9a073526718c.webp?v=1776503041, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5060Ti-GV-N506TEAGLEMAXOC-16-3_db1bd2f6-447d-458d-8a56-41d9af912f28.webp?v=1776503040, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5060Ti-GV-N506TEAGLEMAXOC-16-4_395eee04-2a10-4e6e-94f3-0074638a164e.webp?v=1776503041, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5060Ti-GV-N506TEAGLEMAXOC-16-5_d37a8d35-b127-40ce-abf4-bd4fd0a15b29.webp?v=1776503041, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5060Ti-GV-N506TEAGLEMAXOC-16-6_5a904fd8-46c2-4887-8752-1ae3d02c0e18.webp?v=1776503040'],
-    shortDescription: 'Gigabyte EAGLE MAX OC GeForce RTX 5060 Ti Graphics Card, GDDR7 16GB 128-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2617 MHz Core Clock, 28 Gbps Memory Clock, Triple Windforce Hawk Fans, 1 Year Warranty | GV-N506TEAGLEMAXOC-16',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5060 Ti</li>\n<li>Memory: GDDR7 16GB</li>\n<li>Engine Clock: 2617 MHz</li>\n<li>CUDA Core: 4608</li>\n<li>AI Performance: 785 TOPS</li>\n<li>Memory Speed: 28 Gbps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 128-bit</li>\n<li>Power Connectors: 1 x 8-pin</li>\n<li>1 Year Warranty</li>\n</ul>',
-    specifications: {
-
-    },
-    stock: 10,
-    sku: 'GV-N506TEAGLEMAXOC-16',
-    featured: false,
-    newProduct: true,
-    tags: ['Gaming', 'Gaming Graphic Cards', 'Gaming PC Components', 'Graphic Cards', 'PC Components', 'RTX 40-50 Series Graphics Cards']
-  },
-  {
-    id: '9432705958105',
-    name: 'Gigabyte EAGLE OC ICE GeForce RTX 5060 Graphics Card, GDDR7 8GB 128-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2550 MHz Core Clock, 28 Gbps Memory Clock, Dual Windforce Hawk Fans, White, 1 Year Warranty | GV-N5060EAGLE-OC-ICE',
-    slug: 'gigabyte-eagle-oc-ice-geforce-rtx-5060-graphics-card-gddr7-8gb-128-bit-memory-hdmi-2-1b-dp-2-1b-outputs-pci-express-5-0-2550-mhz-core-clock-28-gbps-memory-clock-dual-windforce-hawk-fans-white-1-year-warranty-gv-n5060eagle-oc-ice-gv-n5060eagle-oc-ice',
-    brand: 'Gigabyte',
-    category: 'graphics-cards',
-    subcategory: 'gpu',
-    price: 1999,
-    salePrice: 1999,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5060-GV-N5060EAGLE-OC-ICE-5.webp?v=1772595760, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5060-GV-N5060EAGLE-OC-ICE-2.webp?v=1772595760, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5060-GV-N5060EAGLE-OC-ICE-3.webp?v=1772595760, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5060-GV-N5060EAGLE-OC-ICE-1.webp?v=1772595760, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5060-GV-N5060EAGLE-OC-ICE-6.webp?v=1772029095, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5060-GV-N5060EAGLE-OC-ICE-4.webp?v=1772029095'],
-    shortDescription: 'Gigabyte EAGLE OC ICE GeForce RTX 5060 Graphics Card, GDDR7 8GB 128-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2550 MHz Core Clock, 28 Gbps Memory Clock, Dual Windforce Hawk Fans, White, 1 Year Warranty | GV-N5060EAGLE-OC-ICE',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5060</li>\n<li>Memory: GDDR7 8GB</li>\n<li>Engine Clock: 2550 MHz</li>\n<li>CUDA Core: 3840</li>\n<li>AI Performance: 614 TOPs</li>\n<li>Memory Speed: 28 Gbps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 128-bit</li>\n<li>Power Connectors: 1 x 8-pin</li>\n<li>1 Year Warranty</li>\n</ul>',
-    specifications: {
-
-    },
-    stock: 10,
-    sku: 'GV-N5060EAGLE-OC-ICE',
-    featured: false,
-    newProduct: true,
-    tags: ['Gaming', 'Gaming Graphic Cards', 'Gaming PC Components', 'Graphic Cards', 'PC Components', 'RTX 40-50 Series Graphics Cards']
-  },
-  {
-    id: '9432705859801',
-    name: 'Gigabyte AERO OC GeForce RTX 5060 Graphics Card, GDDR7 8GB 128-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2595 MHz Core Clock, 28 Gbps Memory Clock, TrIple Windforce Hawk Fans, Dual BIOS, White, 1 Year Warranty | GV-N5060AERO-OC-8GD',
-    slug: 'gigabyte-aero-oc-geforce-rtx-5060-graphics-card-gddr7-8gb-128-bit-memory-hdmi-2-1b-dp-2-1b-outputs-pci-express-5-0-2595-mhz-core-clock-28-gbps-memory-clock-triple-windforce-hawk-fans-dual-bios-white-1-year-warranty-gv-n5060aero-oc-8gd-gv-n5060aero-oc-8gd',
-    brand: 'Gigabyte',
-    category: 'graphics-cards',
-    subcategory: 'gpu',
-    price: 1719,
-    salePrice: 1719,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5060-GV-N5060AERO-OC-8GD-2.webp?v=1772595699, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5060-GV-N5060AERO-OC-8GD-4.webp?v=1772595699, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5060-GV-N5060AERO-OC-8GD-1.webp?v=1772029096, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5060-GV-N5060AERO-OC-8GD-3.webp?v=1772029096, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5060-GV-N5060AERO-OC-8GD-5.webp?v=1772029096, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5060-GV-N5060AERO-OC-8GD-6.webp?v=1772029095'],
-    shortDescription: 'Gigabyte AERO OC GeForce RTX 5060 Graphics Card, GDDR7 8GB 128-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2595 MHz Core Clock, 28 Gbps Memory Clock, TrIple Windforce Hawk Fans, Dual BIOS, White, 1 Year Warranty | GV-N5060AERO-OC-8GD',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5060</li>\n<li>Memory: GDDR7 8GB</li>\n<li>Engine Clock: 2595 MHz</li>\n<li>CUDA Core: 3840</li>\n<li>AI Performance: 614 TOPs</li>\n<li>Memory Speed: 28 Gbps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 128-bit</li>\n<li>Power Connectors: 1 x 8-pin</li>\n<li>1 Year Warranty</li>\n</ul>',
-    specifications: {
-
-    },
-    stock: 10,
-    sku: 'GV-N5060AERO-OC-8GD',
-    featured: false,
-    newProduct: true,
-    tags: ['Gaming', 'Gaming Graphic Cards', 'Gaming PC Components', 'Graphic Cards', 'PC Components', 'RTX 40-50 Series Graphics Cards']
-  },
-  {
-    id: '9432705237209',
-    name: 'PNY GeForce RTX 5060 OC Dual Fan Graphics Card, GDDR7 8GB 128-bit Memory, HDMI & DP Outputs, PCI Express 5.0, 2535 MHz Engine Clock, 28 Gbps Memory Clock, 1 Year Warranty | VCG50608DFXPB1-O',
-    slug: 'pny-geforce-rtx-5060-oc-dual-fan-graphics-card-gddr7-8gb-128-bit-memory-hdmi-dp-outputs-pci-express-5-0-2535-mhz-engine-clock-28-gbps-memory-clock-1-year-warranty-vcg50608dfxpb1-o-vcg50608dfxpb1-o',
-    brand: 'PNY',
-    category: 'graphics-cards',
-    subcategory: 'gpu',
-    price: 1629,
-    salePrice: 1629,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/PNY-GeForce-RTX-5060-Gaming-Graphics-Card-VCG50608DFXPB1-O-2-1762355161419.webp?v=1770247550'],
-    shortDescription: 'PNY GeForce RTX 5060 OC Dual Fan Graphics Card, GDDR7 8GB 128-bit Memory, HDMI & DP Outputs, PCI Express 5.0, 2535 MHz Engine Clock, 28 Gbps Memory Clock, 1 Year Warranty | VCG50608DFXPB1-O',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5060</li>\n<li>Memory: GDDR7 8GB</li>\n<li>Memory Interface: 128-bit</li>\n<li>Engine Clock Boost: 2535 MHz</li>\n<li>CUDA Core: 3840</li>\n<li>Memory Speed: 28 Gbps</li>\n<li>Power Connectors: 1 x 8-pin</li>\n<li>1 Year Warranty</li>\n</ul>',
-    specifications: {
-
-    },
-    stock: 10,
-    sku: 'VCG50608DFXPB1-O',
-    featured: false,
-    newProduct: true,
-    tags: ['Gaming', 'Gaming Graphic Cards', 'Gaming PC Components', 'Graphic Cards', 'PC Components', 'RTX 40-50 Series Graphics Cards']
-  },
-  {
-    id: '9432705204441',
-    name: 'PNY NVIDIA RTX A2000 Ampere Ray Tracing Workstation OEM Graphic Card, GDDR6 12GB 192-bit Memory, 4 x Mini DP Outputs, PCI Express 4.0, 6001 MHz Memory Clock, 1 Year Warranty | VCNRTXA2000-12GB-SB',
-    slug: 'pny-nvidia-rtx-a2000-ampere-ray-tracing-workstation-oem-graphic-card-gddr6-12gb-192-bit-memory-4-x-mini-dp-outputs-pci-express-4-0-6001-mhz-memory-clock-1-year-warranty-vcnrtxa2000-12gb-sb-vcnrtxa2000-12gb-sb',
-    brand: 'PNY',
-    category: 'graphics-cards',
-    subcategory: 'gpu',
-    price: 2479,
-    salePrice: 2479,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/PNY-NVIDIA-RTX-A2000-Workstation-Graphics-Card-VCNRTXA2000-12GB-SB-2-1762355161420.webp?v=1770247537'],
-    shortDescription: 'PNY NVIDIA RTX A2000 Ampere Ray Tracing Workstation OEM Graphic Card, GDDR6 12GB 192-bit Memory, 4 x Mini DP Outputs, PCI Express 4.0, 6001 MHz Memory Clock, 1 Year Warranty | VCNRTXA2000-12GB-SB',
-    description: '<ul>\n<li>NVIDIA GeForce RTX A2000</li>\n<li>?GDDR6 12 GB</li>\n</ul>',
-    specifications: {
-
-    },
-    stock: 10,
-    sku: 'VCNRTXA2000-12GB-SB',
-    featured: false,
-    newProduct: true,
-    tags: ['Graphic Cards', 'PC Components', 'Workstation Graphic Cards']
-  },
-  {
-    id: '9432705171673',
-    name: 'Zotac Gaming NVIDIA GeForce RTX 5080 SOLID CORE OC Graphics Card, GDDR7 16GB 256-bit Memory, HDMI & DP Outputs, PCI Express 5.0, 2640 MHz Engine Clock, 30 Gbps Memory Clock, 1 Year Warranty | ZT-B50800J2-10P',
-    slug: 'zotac-gaming-nvidia-geforce-rtx-5080-solid-core-oc-graphics-card-gddr7-16gb-256-bit-memory-hdmi-dp-outputs-pci-express-5-0-2640-mhz-engine-clock-30-gbps-memory-clock-1-year-warranty-zt-b50800j2-10p-zt-b50800j2-10p',
-    brand: 'Zotac',
-    category: 'graphics-cards',
-    subcategory: 'gpu',
-    price: 6949,
-    salePrice: 6949,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Zotac-GeForce-RTX-5080-Gaming-Graphics-Card-ZT-B50800J2-10P-2-1762355162413.webp?v=1770247529, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Zotac-GeForce-RTX-5080-Gaming-Graphics-Card-ZT-B50800J2-10P-3-1762355162413.webp?v=1770247529, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Zotac-GeForce-RTX-5080-Gaming-Graphics-Card-ZT-B50800J2-10P-4-1762355162413.webp?v=1770247529, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Zotac-GeForce-RTX-5080-Gaming-Graphics-Card-ZT-B50800J2-10P-5-1762355162414.webp?v=1770247529, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Zotac-GeForce-RTX-5080-Gaming-Graphics-Card-ZT-B50800J2-10P-6-1762355162414.webp?v=1770247529'],
-    shortDescription: 'Zotac Gaming NVIDIA GeForce RTX 5080 SOLID CORE OC Graphics Card, GDDR7 16GB 256-bit Memory, HDMI & DP Outputs, PCI Express 5.0, 2640 MHz Engine Clock, 30 Gbps Memory Clock, 1 Year Warranty | ZT-B50800J2-10P',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5080</li>\n<li>Memory: GDDR7 16GB</li>\n<li>Memory Interface: 256-bit</li>\n<li>Engine Clock Boost: 2640 MHz</li>\n<li>CUDA Cores: 10752</li>\n<li>AI TOPS: 1801</li>\n<li>Memory Speed: 30 Gbps</li>\n<li>Power Connectors: 1 x 16-pin</li>\n<li>1 Year Warranty</li>\n</ul>',
-    specifications: {
-
-    },
-    stock: 10,
-    sku: 'ZT-B50800J2-10P',
-    featured: false,
-    newProduct: true,
-    tags: ['Gaming', 'Gaming Graphic Cards', 'Gaming PC Components', 'Graphic Cards', 'PC Components', 'RTX 40-50 Series Graphics Cards']
-  },
-  {
-    id: '9432705073369',
-    name: 'Zotac Gaming NVIDIA GeForce RTX 5050 Twin Edge OC Graphics Card, GDDR6 8GB 128-bit Memory, HDMI & DP Outputs, PCI Express 5.0, 2602 MHz Engine Clock, 20 Gbps Memory Clock, 1 Year Warranty | ZT-B50500H-10M',
-    slug: 'zotac-gaming-nvidia-geforce-rtx-5050-twin-edge-oc-graphics-card-gddr6-8gb-128-bit-memory-hdmi-dp-outputs-pci-express-5-0-2602-mhz-engine-clock-20-gbps-memory-clock-1-year-warranty-zt-b50500h-10m-zt-b50500h-10m',
-    brand: 'Zotac',
-    category: 'graphics-cards',
-    subcategory: 'gpu',
-    price: 1289,
-    salePrice: 1289,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Zotac-GeForce-RTX-5050-Gaming-Graphics-Card-ZT-B50500H-10M-2-1762355162366.webp?v=1770247503, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Zotac-GeForce-RTX-5050-Gaming-Graphics-Card-ZT-B50500H-10M-3-1762355162366.webp?v=1770247504, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Zotac-GeForce-RTX-5050-Gaming-Graphics-Card-ZT-B50500H-10M-4-1762355162407.webp?v=1770247503, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Zotac-GeForce-RTX-5050-Gaming-Graphics-Card-ZT-B50500H-10M-5-1762355162408.webp?v=1770247503, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Zotac-GeForce-RTX-5050-Gaming-Graphics-Card-ZT-B50500H-10M-6-1762355162409.webp?v=1770247503'],
-    shortDescription: 'Zotac Gaming NVIDIA GeForce RTX 5050 Twin Edge OC Graphics Card, GDDR6 8GB 128-bit Memory, HDMI & DP Outputs, PCI Express 5.0, 2602 MHz Engine Clock, 20 Gbps Memory Clock, 1 Year Warranty | ZT-B50500H-10M',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5050</li>\n<li>Memory: GDDR6 8GB</li>\n<li>Memory Interface: 128-bit</li>\n<li>Engine Clock Boost: 2602 MHz</li>\n<li>CUDA Cores: 2560</li>\n<li>AI TOPS: 421</li>\n<li>Memory Speed: 20 Gbps</li>\n<li>Power Connectors: 1 x 8-pin</li>\n<li>1 Year Warranty</li>\n</ul>',
-    specifications: {
-
-    },
-    stock: 10,
-    sku: 'ZT-B50500H-10M',
-    featured: false,
-    newProduct: true,
-    tags: ['Gaming', 'Gaming Graphic Cards', 'Gaming PC Components', 'Graphic Cards', 'PC Components', 'RTX 40-50 Series Graphics Cards']
-  },
-  {
-    id: '9432704876761',
-    name: 'ASRock AMD Radeon RX 6600 Challenger D Graphics Card, GDDR6 8GB 128-bit Memory, HDMI & DP Outputs, PCI Express 4.0, 2491 MHz Boost Clock, 14 Gbps Memory Clock, 1 Year Warranty | 90-GA2RZZ-00UANF',
-    slug: 'asrock-amd-radeon-rx-6600-challenger-d-graphics-card-gddr6-8gb-128-bit-memory-hdmi-dp-outputs-pci-express-4-0-2491-mhz-boost-clock-14-gbps-memory-clock-1-year-warranty-90-ga2rzz-00uanf-90-ga2rzz-00uanf',
-    brand: 'ASRock',
-    category: 'graphics-cards',
-    subcategory: 'gpu',
-    price: 1199,
-    salePrice: 1199,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/ASRock-Radeon-RX-6600-90-GA2RZZ-00UANF-1-1762526145337.webp?v=1771744770'],
-    shortDescription: 'ASRock AMD Radeon RX 6600 Challenger D Graphics Card, GDDR6 8GB 128-bit Memory, HDMI & DP Outputs, PCI Express 4.0, 2491 MHz Boost Clock, 14 Gbps Memory Clock, 1 Year Warranty | 90-GA2RZZ-00UANF',
-    description: '<ul>\n<li>AMD Radeon RX 6600</li>\n<li>Memory: GDDR6 8GB</li>\n<li>Boost Clock: 2491 MHz</li>\n<li>Stream Processors: 1792</li>\n<li>Memory Speed: 14 Gbps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 128-bit</li>\n<li>Power Connectors: 1 x 8-pin</li>\n<li>1 Year Warranty</li>\n</ul>',
-    specifications: {
-
-    },
-    stock: 10,
-    sku: '90-GA2RZZ-00UANF',
-    featured: false,
-    newProduct: true,
-    tags: ['AMD RX Graphic Cards', 'Gaming', 'Gaming Graphic Cards', 'Gaming PC Components', 'Graphic Cards', 'PC Components']
-  },
-  {
-    id: '9432704745689',
-    name: 'Asus PRIME GeForce RTX 5080 Graphics Card, GDDR7 16GB 256-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2655 MHz Core Clock, 30 Gbps Memory Clock, Triple Axial-Tech Fans, 1 Year Warranty | 90YV0LX0-M0NA00',
-    slug: 'asus-prime-geforce-rtx-5080-graphics-card-gddr7-16gb-256-bit-memory-hdmi-2-1b-dp-2-1b-outputs-pci-express-5-0-2655-mhz-core-clock-30-gbps-memory-clock-triple-axial-tech-fans-1-year-warranty-90yv0lx0-m0na00-90yv0lx0-m0na00',
-    brand: 'Asus',
-    category: 'graphics-cards',
-    subcategory: 'gpu',
-    price: 5639,
-    salePrice: 5639,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Asus-GeForce-RTX-5080-90YV0LX0-M0NA00-1-1762526145462.webp?v=1771744771, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Asus-GeForce-RTX-5080-90YV0LX0-M0NA00-1_61d2b1b6-77c8-4d61-9608-5e675c69c6f4.webp?v=1793360606, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Asus-GeForce-RTX-5080-90YV0LX0-M0NA00-2_7dcc1789-1537-4f7f-97da-fcb12cee907b.webp?v=1793360605, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Asus-GeForce-RTX-5080-90YV0LX0-M0NA00-3_5584eab4-8bb0-4275-819a-68280e0a3f01.webp?v=1793360605, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Asus-GeForce-RTX-5080-90YV0LX0-M0NA00-4_b406957d-92ff-45b3-9755-3f2155434ef3.webp?v=1793360605, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Asus-GeForce-RTX-5080-90YV0LX0-M0NA00-5_939a576b-e9bf-4e4a-bb88-0b35c16e3d43.webp?v=1793360605, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Asus-GeForce-RTX-5080-90YV0LX0-M0NA00-6_11e4fbb1-8f73-4310-acc0-8e48de747c0c.webp?v=1793360605'],
-    shortDescription: 'Asus PRIME GeForce RTX 5080 Graphics Card, GDDR7 16GB 256-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2655 MHz Core Clock, 30 Gbps Memory Clock, Triple Axial-Tech Fans, 1 Year Warranty | 90YV0LX0-M0NA00',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5080</li>\n<li>Memory: GDDR7 16GB</li>\n<li>Engine Clock: 2655 MHz</li>\n<li>CUDA Core: 10752</li>\n<li>AI Performance: 1801 TOPS</li>\n<li>Memory Speed: 30 Gbps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 256-bit</li>\n<li>Power Connectors: 1 x 16-pin</li>\n<li>1 Year Warranty</li>\n</ul>',
-    specifications: {
-
-    },
-    stock: 10,
-    sku: '90YV0LX0-M0NA00',
-    featured: false,
-    newProduct: true,
-    tags: ['Gaming', 'Gaming Graphic Cards', 'Gaming PC Components', 'Graphic Cards', 'PC Components', 'RTX 40-50 Series Graphics Cards']
-  },
-  {
-    id: '9432704680153',
-    name: 'Gigabyte GeForce GT 710 Graphics Card, DDR3 2GB 64-bit Memory, HDMI 2.1b, DVI, D-Sub Outputs, PCI Express 2.0, 954 MHz Boost Clock, 1600 MHz Memory Clock, 1 Year Warranty | GV-N710D3-2GL',
-    slug: 'gigabyte-geforce-gt-710-graphics-card-ddr3-2gb-64-bit-memory-hdmi-2-1b-dvi-d-sub-outputs-pci-express-2-0-954-mhz-boost-clock-1600-mhz-memory-clock-1-year-warranty-gv-n710d3-2gl-gv-n710d3-2gl',
-    brand: 'Gigabyte',
-    category: 'graphics-cards',
-    subcategory: 'gpu',
-    price: 259,
-    salePrice: 259,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-GT-710-GV-N710D3-2GL-3.webp?v=1772595546, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-GT-710-GV-N710D3-2GL-2.webp?v=1772595546, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-GT-710-GV-N710D3-2GL-1.webp?v=1772595546, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-GT-710-GV-N710D3-2GL-5.webp?v=1772029095, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-GT-710-GV-N710D3-2GL-4.webp?v=1772029094'],
-    shortDescription: 'Gigabyte GeForce GT 710 Graphics Card, DDR3 2GB 64-bit Memory, HDMI 2.1b, DVI, D-Sub Outputs, PCI Express 2.0, 954 MHz Boost Clock, 1600 MHz Memory Clock, 1 Year Warranty | GV-N710D3-2GL',
-    description: '<ul>\n<li>NVIDIA GeForce GT 710</li>\n<li>Memory: DDR3 2GB</li>\n<li>Core Clock: 954 MHz</li>\n<li>CUDA Core: 192</li>\n<li>Memory Speed: 1600 MHz</li>\n<li>Digital Max Resolution: 4096 X 2160</li>\n<li>Memory Interface: 64-bit</li>\n<li>1 Year Warranty</li>\n</ul>',
-    specifications: {
-
-    },
-    stock: 10,
-    sku: 'GV-N710D3-2GL',
-    featured: false,
-    newProduct: true,
-    tags: ['Gaming', 'Gaming Graphic Cards', 'Gaming PC Components', 'Graphic Cards', 'PC Components']
-  },
-  {
-    id: '9432704385241',
-    name: 'Gigabyte GAMING OC GeForce RTX 5080 Graphics Card, GDDR7 16GB 256-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2730 MHz Core Clock, 30 Gbps Memory Clock, Triple Windforce Hawk Fans, RGB Halo, 1 Year Warranty | GV-N5080GAMING-OC-16G',
-    slug: 'gigabyte-gaming-oc-geforce-rtx-5080-graphics-card-gddr7-16gb-256-bit-memory-hdmi-2-1b-dp-2-1b-outputs-pci-express-5-0-2730-mhz-core-clock-30-gbps-memory-clock-triple-windforce-hawk-fans-rgb-halo-1-year-warranty-gv-n5080gaming-oc-16g-gv-n5080gaming-oc-16g',
-    brand: 'Gigabyte',
-    category: 'graphics-cards',
-    subcategory: 'gpu',
-    price: 7119,
-    salePrice: 7119,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5080-GV-N5080GAMING-OC-16G-1_d7a54561-6265-4e34-b432-2dfd33b32055.webp?v=1776503042, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5080-GV-N5080GAMING-OC-16G-2_0b999481-bb6f-4dda-bfb8-aa561a9b0891.webp?v=1776503042, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5080-GV-N5080GAMING-OC-16G-3_2250b2a4-7555-4cd4-9ef7-1b1b254d3763.webp?v=1776503042, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5080-GV-N5080GAMING-OC-16G-4_2c6a47b4-7ef5-473f-955a-98847817701a.webp?v=1776503042, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5080-GV-N5080GAMING-OC-16G-5_f8f3bb60-3d17-4c4f-b104-8b4d4067da20.webp?v=1776503042, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-GeForce-RTX-5080-GV-N5080GAMING-OC-16G-6_bf604e1f-3e04-4610-9bda-de518bb8618d.webp?v=1776503042'],
-    shortDescription: 'Gigabyte GAMING OC GeForce RTX 5080 Graphics Card, GDDR7 16GB 256-bit Memory, HDMI 2.1b & DP 2.1b Outputs, PCI Express 5.0, 2730 MHz Core Clock, 30 Gbps Memory Clock, Triple Windforce Hawk Fans, RGB Halo, 1 Year Warranty | GV-N5080GAMING-OC-16G',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5080</li>\n<li>Memory: GDDR7 16GB</li>\n<li>Engine Clock: 2730 MHz</li>\n<li>CUDA Core: 10752</li>\n<li>AI Performance: 1801 TOPS</li>\n<li>Memory Speed: 30 Gbps</li>\n<li>Digital Max Resolution: 7680 x 4320</li>\n<li>Memory Interface: 256-bit</li>\n<li>Power Connectors: 1 x 16-pin</li>\n<li>1 Year Warranty</li>\n</ul>',
-    specifications: {
-
-    },
-    stock: 10,
-    sku: 'GV-N5080GAMING-OC-16G',
-    featured: false,
-    newProduct: true,
-    tags: ['Gaming', 'Gaming Graphic Cards', 'Gaming PC Components', 'GeForce RTX 50 Series Graphics Cards', 'Graphic Cards', 'NVIDIA RTX & Blackwell', 'PC Components', 'RTX 40-50 Series Graphics Cards']
-  },
-  {
-    id: '9432704221401',
-    name: 'MSI GeForce RTX 5060 Gaming Trio OC Graphics Card, GDDR7 8GB 128-bit Memory, HDMI & DP Outputs, PCI Express 5.0, 2625 MHz Engine Clock, 28 Gbps Memory Clock, 1 Year Warranty | 912-V537-021',
-    slug: 'msi-geforce-rtx-5060-gaming-trio-oc-graphics-card-gddr7-8gb-128-bit-memory-hdmi-dp-outputs-pci-express-5-0-2625-mhz-engine-clock-28-gbps-memory-clock-1-year-warranty-912-v537-021-912-v537-021',
-    brand: 'MSI',
-    category: 'graphics-cards',
-    subcategory: 'gpu',
-    price: 1689,
-    salePrice: 1689,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/MSI-GeForce-RTX-5060-Gaming-Graphics-Card-912-V537-021-2-1762355161411.webp?v=1770247379'],
-    shortDescription: 'MSI GeForce RTX 5060 Gaming Trio OC Graphics Card, GDDR7 8GB 128-bit Memory, HDMI & DP Outputs, PCI Express 5.0, 2625 MHz Engine Clock, 28 Gbps Memory Clock, 1 Year Warranty | 912-V537-021',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5060</li>\n<li>Memory: GDDR7 8GB</li>\n<li>Memory Interface: 128-bit</li>\n<li>Engine Clock Boost: 2625 MHz</li>\n<li>CUDA Core: 3840</li>\n<li>Memory Speed: 28 Gbps</li>\n<li>Power Connectors: 1 x 8-pin</li>\n<li>1 Year Warranty</li>\n</ul>',
-    specifications: {
-
-    },
-    stock: 10,
-    sku: '912-V537-021',
-    featured: false,
-    newProduct: true,
-    tags: ['Gaming', 'Gaming Graphic Cards', 'Gaming PC Components', 'Graphic Cards', 'PC Components', 'RTX 40-50 Series Graphics Cards']
-  },
-  {
-    id: '9432704188633',
-    name: 'MSI GeForce RTX 5060 Gaming OC Graphics Card, GDDR7 8GB 128-bit Memory, HDMI & DP Outputs, PCI Express 5.0, 2640 MHz Engine Clock, 28 Gbps Memory Clock, 1 Year Warranty | 912-V537-023',
-    slug: 'msi-geforce-rtx-5060-gaming-oc-graphics-card-gddr7-8gb-128-bit-memory-hdmi-dp-outputs-pci-express-5-0-2640-mhz-engine-clock-28-gbps-memory-clock-1-year-warranty-912-v537-023-912-v537-023',
-    brand: 'MSI',
-    category: 'graphics-cards',
-    subcategory: 'gpu',
-    price: 1549,
-    salePrice: 1549,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/MSI-GeForce-RTX-5060-Gaming-Graphics-Card-912-V537-023-2-1762355161414.webp?v=1770247366'],
-    shortDescription: 'MSI GeForce RTX 5060 Gaming OC Graphics Card, GDDR7 8GB 128-bit Memory, HDMI & DP Outputs, PCI Express 5.0, 2640 MHz Engine Clock, 28 Gbps Memory Clock, 1 Year Warranty | 912-V537-023',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5060</li>\n<li>Memory: GDDR7 8GB</li>\n<li>Memory Interface: 128-bit</li>\n<li>Engine Clock Boost: 2640 MHz</li>\n<li>CUDA Core: 3840</li>\n<li>Memory Speed: 28 Gbps</li>\n<li>Power Connectors: 1 x 8-pin</li>\n<li>1 Year Warranty</li>\n</ul>',
-    specifications: {
-
-    },
-    stock: 10,
-    sku: '912-V537-023',
-    featured: false,
-    newProduct: true,
-    tags: ['Gaming', 'Gaming Graphic Cards', 'Gaming PC Components', 'Graphic Cards', 'PC Components', 'RTX 40-50 Series Graphics Cards']
-  },
-  {
-    id: '9432704057561',
-    name: 'Nvidia RTX PRO 6000 Blackwell Workstation Edition Graphics Card, 24064 Cuda Cores, GDDR7 96GB 512-bit Memory, 1792 GB/sec Memory Clock, 4x Display Port Outputs, PCI Express 5.0, 4000 AI TOPs, 1 Year Warranty | 900-5G144-2200-000',
-    slug: 'nvidia-rtx-pro-6000-blackwell-workstation-edition-graphics-card-24064-cuda-cores-gddr7-96gb-512-bit-memory-1792-gb-sec-memory-clock-4x-display-port-outputs-pci-express-5-0-4000-ai-tops-1-year-warranty-900-5g144-2200-000-900-5g144-2200-000',
-    brand: 'Nvidia',
-    category: 'graphics-cards',
-    subcategory: 'gpu',
-    price: 72639,
-    salePrice: 72639,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/900-5G144-2200-000-2-1758386238431.png?v=1770247336, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/900-5G144-2200-000-3-1758386238481.png?v=1770247336, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/900-5G144-2200-000-4-1758386238464.png?v=1770247336, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/900-5G144-2200-000-5-1758386238497.png?v=1770247336'],
-    shortDescription: 'Nvidia RTX PRO 6000 Blackwell Workstation Edition Graphics Card, 24064 Cuda Cores, GDDR7 96GB 512-bit Memory, 1792 GB/sec Memory Clock, 4x Display Port Outputs, PCI Express 5.0, 4000 AI TOPs, 1 Year Warranty | 900-5G144-2200-000',
-    description: '<ul>\n<li>NVIDIA RTX PRO 6000 Blackwell</li>\n<li>Memory: 96GB GDDR7</li>\n<li>Memory Interface: 512-bit</li>\n<li>Memory Bandwidth: 1792 GB/sec</li>\n<li>Single-precision performance: 125 TFLOPS</li>\n<li>RT Core performance: 380 TFLOPS</li>\n<li>AI TOPS: 4000</li>\n<li>CUDA Cores: 24064</li>\n<li>Digital Max Resolution: 7680 x 4320 @ 60 Hz</li>\n</ul>',
-    specifications: {
-
-    },
-    stock: 10,
-    sku: '900-5G144-2200-000',
-    featured: false,
-    newProduct: true,
-    tags: ['Graphic Cards', 'PC Components', 'Workstation Graphic Cards']
-  },
-  {
-    id: '9432703762649',
-    name: 'PNY GeForce RTX 5060 ARGB EPIC-X RGB OC Triple Fan Graphics Card, GDDR7 8GB 128-bit Memory, HDMI & DP Outputs, PCI Express 5.0, 2580 MHz Engine Clock, 28 Gbps Memory Clock, 1 Year Warranty | VCG50608TFXXPB1-O',
-    slug: 'pny-geforce-rtx-5060-argb-epic-x-rgb-oc-triple-fan-graphics-card-gddr7-8gb-128-bit-memory-hdmi-dp-outputs-pci-express-5-0-2580-mhz-engine-clock-28-gbps-memory-clock-1-year-warranty-vcg50608tfxxpb1-o-vcg50608tfxxpb1-o',
-    brand: 'PNY',
-    category: 'graphics-cards',
-    subcategory: 'gpu',
-    price: 1469,
-    salePrice: 1469,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/PNY-GeForce-RTX-5060-VCG50608TFXXPB1-O-2-1762264115882.webp?v=1770247274'],
-    shortDescription: 'PNY GeForce RTX 5060 ARGB EPIC-X RGB OC Triple Fan Graphics Card, GDDR7 8GB 128-bit Memory, HDMI & DP Outputs, PCI Express 5.0, 2580 MHz Engine Clock, 28 Gbps Memory Clock, 1 Year Warranty | VCG50608TFXXPB1-O',
-    description: '<ul>\n<li>NVIDIA GeForce RTX 5060</li>\n<li>Memory: GDDR7 8GB</li>\n<li>Memory Interface: 128-bit</li>\n<li>Engine Clock Boost: 2580 MHz</li>\n<li>CUDA Core: 3840</li>\n<li>Memory Speed: 28 Gbps</li>\n<li>Power Connectors: 1 x 8-pin</li>\n<li>1 Year Warranty</li>\n</ul>',
-    specifications: {
-
-    },
-    stock: 10,
-    sku: 'VCG50608TFXXPB1-O',
-    featured: false,
-    newProduct: true,
-    tags: ['Gaming', 'Gaming Graphic Cards', 'Gaming PC Components', 'Graphic Cards', 'PC Components', 'RTX 40-50 Series Graphics Cards']
-  },
-  {
-    id: '9432703729881',
-    name: 'Zotac Gaming GeForce RTX 3050 Twin Edge OC Graphics Card, GDDR6 6GB 96-bit Memory, HDMI 2.1 & DP 2.1a Outputs, PCI Express 4.0, 1477 MHz Engine Clock, 14 Gbps Memory Clock, 1 Year Warranty | ZT-A30510H-10L',
-    slug: 'zotac-gaming-geforce-rtx-3050-twin-edge-oc-graphics-card-gddr6-6gb-96-bit-memory-hdmi-2-1-dp-2-1a-outputs-pci-express-4-0-1477-mhz-engine-clock-14-gbps-memory-clock-1-year-warranty-zt-a30510h-10l-zt-a30510h-10l',
-    brand: 'Zotac',
-    category: 'graphics-cards',
-    subcategory: 'gpu',
-    price: 1069,
-    salePrice: 1069,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Zotac-GeForce-RTX-3050-ZT-A30510H-10L-2-1762264115887.webp?v=1770247262, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Zotac-GeForce-RTX-3050-ZT-A30510H-10L-3-1762264115887.webp?v=1770247262, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Zotac-GeForce-RTX-3050-ZT-A30510H-10L-4-1762264115887.webp?v=1770247262, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Zotac-GeForce-RTX-3050-ZT-A30510H-10L-5-1762264115888.webp?v=1770247262, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Zotac-GeForce-RTX-3050-ZT-A30510H-10L-6-1762264116081.webp?v=1770247262'],
-    shortDescription: 'Zotac Gaming GeForce RTX 3050 Twin Edge OC Graphics Card, GDDR6 6GB 96-bit Memory, HDMI 2.1 & DP 2.1a Outputs, PCI Express 4.0, 1477 MHz Engine Clock, 14 Gbps Memory Clock, 1 Year Warranty | ZT-A30510H-10L',
-    description: '<ul>\n<li>GeForce RTX 3050 6 GB</li>\n<li>6 GB GDDR6</li>\n<li>Memory Speed: 14  GBps</li>\n<li>Engine Clock: 1477 MHz</li>\n<li>CUDA Cores: 2304</li>\n<li>Memory Interface: 96-bit</li>\n</ul>',
-    specifications: {
-
-    },
-    stock: 10,
-    sku: 'ZT-A30510H-10L',
-    featured: false,
-    newProduct: true,
-    tags: ['Gaming', 'Gaming Graphic Cards', 'Gaming PC Components', 'Graphic Cards', 'PC Components', 'RTX 20-30 Series Graphics Cards']
-  },
-  {
-    id: '10374567592153',
-    name: 'Gigabyte AORUS GeForce RTX 5070 Ti INFINITY Graphics Card, 8960 CUDA Cores, GDDR7 16GB 256-bit Memory, PCI Express 5.0, 2670 MHz Boost Clock, 28 Gbps Memory Clock, 1 Year Warranty | GV-N507TAORUS-IF-16GD',
-    slug: 'gigabyte-aorus-geforce-rtx-5070-ti-infinity-graphics-card-8960-cuda-cores-gddr7-16gb-256-bit-memory-pci-express-5-0-2670-mhz-boost-clock-28-gbps-memory-clock-1-year-warranty-gv-n507taorus-if-16gd',
-    brand: 'GIGABYTE',
-    category: 'graphics-cards',
-    subcategory: 'gpu',
-    price: 6329,
-    salePrice: 6329,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-AORUS-RTX-5070-Ti-INFINITY-GV-N507TAORUS-IF-16GD-1_8d6b3f5a-dcac-4ac6-b772-3b236bf2b2cc.webp?v=1793440609, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-AORUS-RTX-5070-Ti-INFINITY-GV-N507TAORUS-IF-16GD-2_d367b2c3-1725-4a53-85be-f2bfbd3bd5ee.webp?v=1793440609, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-AORUS-RTX-5070-Ti-INFINITY-GV-N507TAORUS-IF-16GD-3_94c1184d-a949-4e73-9667-f702d912bd76.webp?v=1793440608, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-AORUS-RTX-5070-Ti-INFINITY-GV-N507TAORUS-IF-16GD-4_e9a24c7e-c440-4fd2-93cf-98456cf237c1.webp?v=1793440608, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-AORUS-RTX-5070-Ti-INFINITY-GV-N507TAORUS-IF-16GD-5_708f64a8-faf1-4962-8b94-cc6234c56b7b.webp?v=1793440609, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-AORUS-RTX-5070-Ti-INFINITY-GV-N507TAORUS-IF-16GD-6_ae6dcc1c-ac69-48ef-acec-347eec42bd80.webp?v=1793440609'],
-    shortDescription: 'Gigabyte AORUS GeForce RTX 5070 Ti INFINITY Graphics Card, 8960 CUDA Cores, GDDR7 16GB 256-bit Memory, PCI Express 5.0, 2670 MHz Boost Clock, 28 Gbps Memory Clock, 1 Year Warranty | GV-N507TAORUS-IF-16GD',
-    description: '<ul>\n<li>Graphics: NVIDIA GeForce RTX 5070 Ti</li>\n<li>Boost Clock: 2670MHz</li>\n<li>Graphics Memory: 16GB GDDR7</li>\n<li>AI Performance: 1406 AI TOPS</li>\n<li>CUDA Cores: 8960</li>\n<li>Memory Speed: 28Gbps</li>\n<li>Memory Interface: 256-bit</li>\n<li>Interface: PCI Express 5.0</li>\n</ul>',
-    specifications: {
-
-    },
-    stock: 10,
-    sku: 'GV-N507TAORUS-IF-16GD',
-    featured: false,
-    newProduct: true,
-    tags: ['Gaming', 'Gaming Graphic Cards', 'Gaming PC Components', 'GeForce RTX 50 Series Graphics Cards', 'Graphic Cards', 'NVIDIA RTX & Blackwell', 'PC Components', 'RTX 40-50 Series Graphics Cards']
-  },
-  {
-    id: '10374567919833',
-    name: 'HP NVIDIA RTX PRO 4500 Blackwell Workstation Graphics Card, 10496 CUDA Cores, GDDR7 32GB 256-bit Memory, PCI Express 5.0, 2407 MHz Boost Clock, 28 Gbps Memory Clock, 1 Year Warranty | B11F2AA',
-    slug: 'hp-nvidia-rtx-pro-4500-blackwell-workstation-graphics-card-10496-cuda-cores-gddr7-32gb-256-bit-memory-pci-express-5-0-2407-mhz-boost-clock-28-gbps-memory-clock-1-year-warranty-b11f2aa',
-    brand: 'HP',
-    category: 'graphics-cards',
-    subcategory: 'gpu',
-    price: 18419,
-    salePrice: 18419,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/HP-NVIDIA-RTX-PRO-4500-Blackwell-B11F2AA-1_8f657132-8213-4dfa-9ead-f7c68c98bc8c.webp?v=1793440614, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/HP-NVIDIA-RTX-PRO-4500-Blackwell-B11F2AA-2_70ab1a84-e1d7-4d2f-a384-f7f2b9653e57.webp?v=1793440614, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/HP-NVIDIA-RTX-PRO-4500-Blackwell-B11F2AA-3_b199e2b4-1a63-400e-b56d-529dfd5bcbaf.webp?v=1793440614'],
-    shortDescription: 'HP NVIDIA RTX PRO 4500 Blackwell Workstation Graphics Card, 10496 CUDA Cores, GDDR7 32GB 256-bit Memory, PCI Express 5.0, 2407 MHz Boost Clock, 28 Gbps Memory Clock, 1 Year Warranty | B11F2AA',
-    description: '<ul>\n<li>Graphics: NVIDIA RTX PRO 4500 Blackwell</li>\n<li>Base Clock: 1635MHz</li>\n<li>Boost Clock: 2407MHz</li>\n<li>Graphics Memory: 32GB GDDR7</li>\n<li>CUDA Cores: 10496</li>\n<li>Memory Speed: 28Gbps</li>\n<li>Memory Interface: 256-bit</li>\n<li>Interface: PCI Express 5.0</li>\n</ul>',
-    specifications: {
-
-    },
-    stock: 10,
-    sku: 'B11F2AA',
-    featured: false,
-    newProduct: true,
-    tags: ['Graphic Cards', 'NVIDIA RTX & Blackwell', 'PC Components', 'Workstation Graphic Cards']
-  },
-  {
-    id: '10374567559385',
-    name: 'Gigabyte AORUS GeForce RTX 5070 INFINITY Graphics Card, 6144 CUDA Cores, GDDR7 12GB 192-bit Memory, PCI Express 5.0, 2715 MHz Boost Clock, 28 Gbps Memory Clock, 1 Year Warranty | GV-N5070AORUS-IF-12GD',
-    slug: 'gigabyte-aorus-geforce-rtx-5070-infinity-graphics-card-6144-cuda-cores-gddr7-12gb-192-bit-memory-pci-express-5-0-2715-mhz-boost-clock-28-gbps-memory-clock-1-year-warranty-gv-n5070aorus-if-12gd',
-    brand: 'GIGABYTE',
-    category: 'graphics-cards',
-    subcategory: 'gpu',
-    price: 4549,
-    salePrice: 4549,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-AORUS-RTX-5070-INFINITY-GV-N5070AORUS-IF-12GD-1_4a0ce0be-58b3-482f-8d77-e98e3bce6066.webp?v=1793440607, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-AORUS-RTX-5070-INFINITY-GV-N5070AORUS-IF-12GD-2_bd9eaaf8-3665-44b2-b8fd-1a2ee2e269e5.webp?v=1793440608, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-AORUS-RTX-5070-INFINITY-GV-N5070AORUS-IF-12GD-3_aaec27ff-7de4-407a-b404-c2b4965369a3.webp?v=1793440608, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-AORUS-RTX-5070-INFINITY-GV-N5070AORUS-IF-12GD-4_4ca7133a-2567-422a-be6d-01d455e2bdc7.webp?v=1793440608, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-AORUS-RTX-5070-INFINITY-GV-N5070AORUS-IF-12GD-5_f7029574-f4d4-47bd-8927-e9e4cafaab0c.webp?v=1793440608, https://cdn.shopify.com/s/files/1/0789/9784/8281/files/Gigabyte-AORUS-RTX-5070-INFINITY-GV-N5070AORUS-IF-12GD-6_1aaf623a-95da-4a90-a8bf-6ad04490ed51.webp?v=1793440608'],
-    shortDescription: 'Gigabyte AORUS GeForce RTX 5070 INFINITY Graphics Card, 6144 CUDA Cores, GDDR7 12GB 192-bit Memory, PCI Express 5.0, 2715 MHz Boost Clock, 28 Gbps Memory Clock, 1 Year Warranty | GV-N5070AORUS-IF-12GD',
-    description: '<ul>\n<li>Graphics: NVIDIA GeForce RTX 5070</li>\n<li>Boost Clock: 2715MHz</li>\n<li>Graphics Memory: 12GB GDDR7</li>\n<li>AI Performance: 1406 AI TOPS</li>\n<li>CUDA Cores: 6144</li>\n<li>Memory Speed: 28Gbps</li>\n<li>Memory Interface: 192-bit</li>\n<li>Interface: PCI Express 5.0</li>\n</ul>',
-    specifications: {
-
-    },
-    stock: 10,
-    sku: 'GV-N5070AORUS-IF-12GD',
-    featured: false,
-    newProduct: true,
-    tags: ['Gaming', 'Gaming Graphic Cards', 'Gaming PC Components', 'GeForce RTX 50 Series Graphics Cards', 'Graphic Cards', 'NVIDIA RTX & Blackwell', 'PC Components', 'RTX 40-50 Series Graphics Cards']
-  },
-  {
-    id: 'B0FM3F1SGH',
-    name: 'Lenovo Yoga 7i 2-in-1 Laptop, 16" FHD+ 2K Touchscreen Display, 12-core Intel Core Ultra 7 155U, 16GB LPDDR5X, 1TB SSD, Backlit KB, Fingerprint, Thunderbolt 4, Win 11 Home, Storm Grey, EAT 16GB USB Pen',
-    slug: 'lenovo-yoga-7i-2-in-1-laptop-16-fhd-2k-touchscreen-display-12-core-intel-core-ultra-7-155u-16gb-lpddr5x-1tb-ssd-backlit-kb-fingerprint-thunderbolt-4-win-11-home-storm-grey-eat-16gb-usb-pen',
-    brand: 'Lenovo',
-    category: 'laptops',
-    subcategory: 'Convertible Laptop',
-    price: 3799,
-    salePrice: 3799,
-    images: ['https://m.media-amazon.com/images/I/61e7D7iyt5L._AC_SL1500_.jpg'],
-    shortDescription: 'Lenovo Yoga 7i 2-in-1 Laptop, 16" FHD+ 2K Touchscreen Display, 12-core Intel Core Ultra 7 155U, 16GB LPDDR5X, 1TB SSD, Backlit KB, Fingerprint, Thunderbolt 4, Win 11 Home, Storm Grey, EAT 16GB USB Pen',
-    description: 'Lenovo Yoga 7i 2-in-1 Laptop, 16" FHD+ 2K Touchscreen Display, 12-core Intel Core Ultra 7 155U, 16GB LPDDR5X, 1TB SSD, Backlit KB, Fingerprint, Thunderbolt 4, Win 11 Home, Storm Grey, EAT 16GB USB Pen',
-    specifications: {
-      'SKU': 'B0FM3F1SGH',
-      'Category': 'Laptop',
-      'Brand': 'Lenovo'
-    },
-    stock: 10,
-    sku: 'B0FM3F1SGH',
-    featured: false,
-    newProduct: true,
-    tags: ['laptop', 'lenovo', 'amazon', 'convertible-laptop']
-  },
-  {
-    id: 'B0DQ4CRXDQ',
-    name: 'Lenovo ThinkPad X1 Carbon Gen 13 Aura Edition, Intel Ultra 7 258V (Beats U7 165), 14" 2.8K (2880 x 1800), OLED, AG/AR, 32GB DDR5, 1TB SSD Gen 5, 1080p IR Camera, WiFi 7.0, Win 11 Pro - Black(Upgraded)',
-    slug: 'lenovo-thinkpad-x1-carbon-gen-13-aura-edition-intel-ultra-7-258v-beats-u7-165-14-28k-2880-x-1800-oled-agar-32gb-ddr5-1tb-ssd-gen-5-1080p-ir-camera-wifi-70-win-11-pro---blackupgraded',
-    brand: 'Lenovo',
-    category: 'laptops',
-    subcategory: 'Ultrabook',
-    price: 9899,
-    salePrice: 9899,
-    images: ['https://m.media-amazon.com/images/I/61JZTWfKMRL._AC_SL1500_.jpg'],
-    shortDescription: 'Lenovo ThinkPad X1 Carbon Gen 13 Aura Edition, Intel Ultra 7 258V (Beats U7 165), 14" 2.8K (2880 x 1800), OLED, AG/AR, 32GB DDR5, 1TB SSD Gen 5, 1080p IR Camera, WiFi 7.0, Win 11 Pro - Black(Upgraded)',
-    description: 'Lenovo ThinkPad X1 Carbon Gen 13 Aura Edition, Intel Ultra 7 258V (Beats U7 165), 14" 2.8K (2880 x 1800), OLED, AG/AR, 32GB DDR5, 1TB SSD Gen 5, 1080p IR Camera, WiFi 7.0, Win 11 Pro - Black(Upgraded)',
-    specifications: {
-      'SKU': 'B0DQ4CRXDQ',
-      'Category': 'Laptop',
-      'Brand': 'Lenovo'
-    },
-    stock: 10,
-    sku: 'B0DQ4CRXDQ',
-    featured: false,
-    newProduct: true,
-    tags: ['laptop', 'lenovo', 'amazon', 'ultrabook']
-  },
-  {
-    id: 'B0FKNNLWYB',
-    name: 'ASUS ROG Strix G16 G615JPR Gaming Laptop, 16" FHD+ 165Hz, Intel Core i9-14900HX, 32GB RAM 1TB SSD, GeForce RTX 5070 8GB, English Keyboard, Windows 11. Eclipse Gray',
-    slug: 'asus-rog-strix-g16-g615jpr-gaming-laptop-16-fhd-165hz-intel-core-i9-14900hx-32gb-ram-1tb-ssd-geforce-rtx-5070-8gb-english-keyboard-windows-11-eclipse-gray',
-    brand: 'ASUS',
-    category: 'laptops',
-    subcategory: 'Gaming Laptop',
-    price: 7799,
-    salePrice: 7799,
-    images: ['https://m.media-amazon.com/images/I/51jc2CheC+L._AC_SL1500_.jpg'],
-    shortDescription: 'ASUS ROG Strix G16 G615JPR Gaming Laptop, 16" FHD+ 165Hz, Intel Core i9-14900HX, 32GB RAM 1TB SSD, GeForce RTX 5070 8GB, English Keyboard, Windows 11. Eclipse Gray',
-    description: 'ASUS ROG Strix G16 G615JPR Gaming Laptop, 16" FHD+ 165Hz, Intel Core i9-14900HX, 32GB RAM 1TB SSD, GeForce RTX 5070 8GB, English Keyboard, Windows 11. Eclipse Gray',
-    specifications: {
-      'SKU': 'B0FKNNLWYB',
-      'Category': 'Laptop',
-      'Brand': 'ASUS'
-    },
-    stock: 10,
-    sku: 'B0FKNNLWYB',
-    featured: false,
-    newProduct: true,
-    tags: ['laptop', 'asus', 'amazon', 'gaming-laptop']
-  },
-  {
-    id: 'B0CCD6QN5M',
-    name: 'Lenovo IdeaPad Slim 3 15IRU8, 15.6"FHD Display, Intel I3-1315U, 8GB RAM, 256GB SSD, Integrated Intel UHD Graphics, Win11, Arctic Grey [82X70047AX] (UAE Version)',
-    slug: 'lenovo-ideapad-slim-3-15iru8-156fhd-display-intel-i3-1315u-8gb-ram-256gb-ssd-integrated-intel-uhd-graphics-win11-arctic-grey-82x70047ax-uae-version',
-    brand: 'Lenovo',
-    category: 'laptops',
-    subcategory: 'Ultrabook',
-    price: 1699,
-    salePrice: 1699,
-    images: ['https://m.media-amazon.com/images/I/51uBRbj7APL._AC_SL1500_.jpg'],
-    shortDescription: 'Lenovo IdeaPad Slim 3 15IRU8, 15.6"FHD Display, Intel I3-1315U, 8GB RAM, 256GB SSD, Integrated Intel UHD Graphics, Win11, Arctic Grey [82X70047AX] (UAE Version)',
-    description: 'Lenovo IdeaPad Slim 3 15IRU8, 15.6"FHD Display, Intel I3-1315U, 8GB RAM, 256GB SSD, Integrated Intel UHD Graphics, Win11, Arctic Grey [82X70047AX] (UAE Version)',
-    specifications: {
-      'SKU': 'B0CCD6QN5M',
-      'Category': 'Laptop',
-      'Brand': 'Lenovo'
-    },
-    stock: 10,
-    sku: 'B0CCD6QN5M',
-    featured: false,
-    newProduct: true,
-    tags: ['laptop', 'lenovo', 'amazon', 'ultrabook']
-  },
-  {
-    id: 'B0H68M6SC4',
-    name: 'Acer Nitro V ANV15 Gaming Laptop 13th Gen Intel Core i7-13620H 10 Cores Upto 4.9GHz/16GB DDR5/512GB SSD/6GB NVIDIA®GeForce®RTX 4050/15.6" FHD IPS 165Hz/W11/WiFi-6/Backlit KB/Obsidian Black',
-    slug: 'acer-nitro-v-anv15-gaming-laptop-13th-gen-intel-core-i7-13620h-10-cores-upto-49ghz16gb-ddr5512gb-ssd6gb-nvidiageforcertx-4050156-fhd-ips-165hzw11wifi-6backlit-kbobsidian-black',
-    brand: 'Acer',
-    category: 'laptops',
-    subcategory: 'Gaming Laptop',
-    price: 4299,
-    salePrice: 4299,
-    images: ['https://m.media-amazon.com/images/I/71iBlKNYNSL._AC_SL1500_.jpg'],
-    shortDescription: 'Acer Nitro V ANV15 Gaming Laptop 13th Gen Intel Core i7-13620H 10 Cores Upto 4.9GHz/16GB DDR5/512GB SSD/6GB NVIDIA®GeForce®RTX 4050/15.6" FHD IPS 165Hz/W11/WiFi-6/Backlit KB/Obsidian Black',
-    description: 'Acer Nitro V ANV15 Gaming Laptop 13th Gen Intel Core i7-13620H 10 Cores Upto 4.9GHz/16GB DDR5/512GB SSD/6GB NVIDIA®GeForce®RTX 4050/15.6" FHD IPS 165Hz/W11/WiFi-6/Backlit KB/Obsidian Black',
-    specifications: {
-      'SKU': 'B0H68M6SC4',
-      'Category': 'Laptop',
-      'Brand': 'Acer'
-    },
-    stock: 10,
-    sku: 'B0H68M6SC4',
-    featured: false,
-    newProduct: true,
-    tags: ['laptop', 'acer', 'amazon', 'gaming-laptop']
-  },
-  {
-    id: 'B0HC4XLMSP',
-    name: 'Lenovo Yoga 7i 2-in-1 16" 2K Touch Laptop Core Ultra 7 256V 16GB 512GB SSD Windows 11 Copilot+ PC Luna Grey',
-    slug: 'lenovo-yoga-7i-2-in-1-16-2k-touch-laptop-core-ultra-7-256v-16gb-512gb-ssd-windows-11-copilot-pc-luna-grey',
-    brand: 'Lenovo',
-    category: 'laptops',
-    subcategory: 'Convertible Laptop',
-    price: 3350,
-    salePrice: 3350,
-    images: ['https://m.media-amazon.com/images/I/51NuIYFJHUL._AC_SL1500_.jpg'],
-    shortDescription: 'Lenovo Yoga 7i 2-in-1 16" 2K Touch Laptop Core Ultra 7 256V 16GB 512GB SSD Windows 11 Copilot+ PC Luna Grey',
-    description: 'Lenovo Yoga 7i 2-in-1 16" 2K Touch Laptop Core Ultra 7 256V 16GB 512GB SSD Windows 11 Copilot+ PC Luna Grey',
-    specifications: {
-      'SKU': 'B0HC4XLMSP',
-      'Category': 'Laptop',
-      'Brand': 'Lenovo'
-    },
-    stock: 10,
-    sku: 'B0HC4XLMSP',
-    featured: false,
-    newProduct: true,
-    tags: ['laptop', 'lenovo', 'amazon', 'convertible-laptop']
-  },
-  {
-    id: 'B0F167PYK7',
-    name: 'Dell 15.6" Laptop DC15250, FHD Display, Intel Core i5 1334U, 16GB DDR 4 Ram, 512GB SSD, Windows 11 Home, Color - Black',
-    slug: 'dell-156-laptop-dc15250-fhd-display-intel-core-i5-1334u-16gb-ddr-4-ram-512gb-ssd-windows-11-home-color---black',
-    brand: 'Dell',
-    category: 'laptops',
-    subcategory: 'Ultrabook',
-    price: 2620,
-    salePrice: 2620,
-    images: ['https://m.media-amazon.com/images/I/71I9chrFYFL._AC_SL1500_.jpg'],
-    shortDescription: 'Dell 15.6" Laptop DC15250, FHD Display, Intel Core i5 1334U, 16GB DDR 4 Ram, 512GB SSD, Windows 11 Home, Color - Black',
-    description: 'Dell 15.6" Laptop DC15250, FHD Display, Intel Core i5 1334U, 16GB DDR 4 Ram, 512GB SSD, Windows 11 Home, Color - Black',
-    specifications: {
-      'SKU': 'B0F167PYK7',
-      'Category': 'Laptop',
-      'Brand': 'Dell'
-    },
-    stock: 10,
-    sku: 'B0F167PYK7',
-    featured: false,
-    newProduct: true,
-    tags: ['laptop', 'dell', 'amazon', 'ultrabook']
-  },
-  {
-    id: 'B0D845LL5R',
-    name: 'HP Victus 15.6 i5 Gaming Laptop, 15.6" FHD 1920x1080 144Hz, Intel Core i5-12450H, NVIDIA GeForce RTX 3050, 32GB RAM, 1TB SSD, Backlit KB, Touchpad, SD Card Reader,(UPGRADE)',
-    slug: 'hp-victus-156-i5-gaming-laptop-156-fhd-1920x1080-144hz-intel-core-i5-12450h-nvidia-geforce-rtx-3050-32gb-ram-1tb-ssd-backlit-kb-touchpad-sd-card-readerupgrade',
-    brand: 'HP',
-    category: 'laptops',
-    subcategory: 'Gaming Laptop',
-    price: 3750,
-    salePrice: 3750,
-    images: ['https://m.media-amazon.com/images/I/71DHV9GZSOL._AC_SL1500_.jpg'],
-    shortDescription: 'HP Victus 15.6 i5 Gaming Laptop, 15.6" FHD 1920x1080 144Hz, Intel Core i5-12450H, NVIDIA GeForce RTX 3050, 32GB RAM, 1TB SSD, Backlit KB, Touchpad, SD Card Reader,(UPGRADE)',
-    description: 'HP Victus 15.6 i5 Gaming Laptop, 15.6" FHD 1920x1080 144Hz, Intel Core i5-12450H, NVIDIA GeForce RTX 3050, 32GB RAM, 1TB SSD, Backlit KB, Touchpad, SD Card Reader,(UPGRADE)',
-    specifications: {
-      'SKU': 'B0D845LL5R',
-      'Category': 'Laptop',
-      'Brand': 'HP'
-    },
-    stock: 10,
-    sku: 'B0D845LL5R',
-    featured: false,
-    newProduct: true,
-    tags: ['laptop', 'hp', 'amazon', 'gaming-laptop']
-  },
-  {
-    id: 'B0F9TVJP1B',
-    name: 'Lenovo ThinkPad E16 Gen 3 Business Laptop, 16" WUXGA Display, Intel Core Ultra 7 255H, 16GB DDR5 RAM, 512GB SSD, Intel Arc Graphics, English/Arabic Backlit Keyboard, Black',
-    slug: 'lenovo-thinkpad-e16-gen-3-business-laptop-16-wuxga-display-intel-core-ultra-7-255h-16gb-ddr5-ram-512gb-ssd-intel-arc-graphics-englisharabic-backlit-keyboard-black',
-    brand: 'Lenovo',
-    category: 'laptops',
-    subcategory: 'Ultrabook',
-    price: 4299,
-    salePrice: 4299,
-    images: ['https://m.media-amazon.com/images/I/61x0Rw4ZxqL._AC_SL1500_.jpg'],
-    shortDescription: 'Lenovo ThinkPad E16 Gen 3 Business Laptop, 16" WUXGA Display, Intel Core Ultra 7 255H, 16GB DDR5 RAM, 512GB SSD, Intel Arc Graphics, English/Arabic Backlit Keyboard, Black',
-    description: 'Lenovo ThinkPad E16 Gen 3 Business Laptop, 16" WUXGA Display, Intel Core Ultra 7 255H, 16GB DDR5 RAM, 512GB SSD, Intel Arc Graphics, English/Arabic Backlit Keyboard, Black',
-    specifications: {
-      'SKU': 'B0F9TVJP1B',
-      'Category': 'Laptop',
-      'Brand': 'Lenovo'
-    },
-    stock: 10,
-    sku: 'B0F9TVJP1B',
-    featured: false,
-    newProduct: true,
-    tags: ['laptop', 'lenovo', 'amazon', 'ultrabook']
-  },
-  {
-    id: 'B0GY5H3HJ9',
-    name: 'HP AI Laptop 15-fd2017ne | 2026 Model | 15.6" FHD Display | Intel® Core™ Ultra 5-225U | 24GB DDR5 RAM | 512GB SSD | Win11 | En-Ar Keyboard | UAE Version | Silver [D36D3EA]',
-    slug: 'hp-ai-laptop-15-fd2017ne-2026-model-156-fhd-display-intel-core-ultra-5-225u-24gb-ddr5-ram-512gb-ssd-win11-en-ar-keyboard-uae-version-silver-d36d3ea',
-    brand: 'HP',
-    category: 'laptops',
-    subcategory: 'Ultrabook',
-    price: 2870,
-    salePrice: 2870,
-    images: ['https://m.media-amazon.com/images/I/71z+rrk701L._AC_SL1500_.jpg'],
-    shortDescription: 'HP AI Laptop 15-fd2017ne | 2026 Model | 15.6" FHD Display | Intel® Core™ Ultra 5-225U | 24GB DDR5 RAM | 512GB SSD | Win11 | En-Ar Keyboard | UAE Version | Silver [D36D3EA]',
-    description: 'HP AI Laptop 15-fd2017ne | 2026 Model | 15.6" FHD Display | Intel® Core™ Ultra 5-225U | 24GB DDR5 RAM | 512GB SSD | Win11 | En-Ar Keyboard | UAE Version | Silver [D36D3EA]',
-    specifications: {
-      'SKU': 'B0GY5H3HJ9',
-      'Category': 'Laptop',
-      'Brand': 'HP'
-    },
-    stock: 10,
-    sku: 'B0GY5H3HJ9',
-    featured: false,
-    newProduct: true,
-    tags: ['laptop', 'hp', 'amazon', 'ultrabook']
-  },
-  {
-    id: 'B0H9XCZL1K',
-    name: 'HP HyperX OMEN Gaming Laptop 2026, i7-14650HX, NVIDIA GeForce RTX 5060',
-    slug: 'hp-hyperx-omen-gaming-laptop-2026-i7-14650hx-nvidia-geforce-rtx-5060',
-    brand: 'HP',
-    category: 'laptops',
-    subcategory: 'Gaming Laptop',
-    price: 6469,
-    salePrice: 6469,
-    images: ['https://m.media-amazon.com/images/I/71HEGcRbTWL._AC_SL1500_.jpg'],
-    shortDescription: 'HP HyperX OMEN Gaming Laptop 2026, i7-14650HX, NVIDIA GeForce RTX 5060',
-    description: 'HP HyperX OMEN Gaming Laptop 2026, i7-14650HX, NVIDIA GeForce RTX 5060',
-    specifications: {
-      'SKU': 'B0H9XCZL1K',
-      'Category': 'Laptop',
-      'Brand': 'HP'
-    },
-    stock: 10,
-    sku: 'B0H9XCZL1K',
-    featured: false,
-    newProduct: true,
-    tags: ['laptop', 'hp', 'amazon', 'gaming-laptop']
-  },
-  {
-    id: 'B0FBXTMBMG',
-    name: 'Lenovo ThinkPad E16 Gen 3 Business Laptop, 16" WUXGA Display, Intel Core Ultra 7 255H, 32GB DDR5 RAM, 1TB SSD, Intel Arc Graphics, Backlit Keyboard, Black (UPGRADE)',
-    slug: 'lenovo-thinkpad-e16-gen-3-business-laptop-16-wuxga-display-intel-core-ultra-7-255h-32gb-ddr5-ram-1tb-ssd-intel-arc-graphics-backlit-keyboard-black-upgrade',
-    brand: 'Lenovo',
-    category: 'laptops',
-    subcategory: 'Ultrabook',
-    price: 5255,
-    salePrice: 5255,
-    images: ['https://m.media-amazon.com/images/I/31VHmtKsvML._AC_SL1500_.jpg'],
-    shortDescription: 'Lenovo ThinkPad E16 Gen 3 Business Laptop, 16" WUXGA Display, Intel Core Ultra 7 255H, 32GB DDR5 RAM, 1TB SSD, Intel Arc Graphics, Backlit Keyboard, Black (UPGRADE)',
-    description: 'Lenovo ThinkPad E16 Gen 3 Business Laptop, 16" WUXGA Display, Intel Core Ultra 7 255H, 32GB DDR5 RAM, 1TB SSD, Intel Arc Graphics, Backlit Keyboard, Black (UPGRADE)',
-    specifications: {
-      'SKU': 'B0FBXTMBMG',
-      'Category': 'Laptop',
-      'Brand': 'Lenovo'
-    },
-    stock: 10,
-    sku: 'B0FBXTMBMG',
-    featured: false,
-    newProduct: true,
-    tags: ['laptop', 'lenovo', 'amazon', 'ultrabook']
-  },
-  {
-    id: 'B0F6YWH24K',
-    name: 'Lenovo AIO V100 All-in-One Desktop 23.8" FHD IPS Display, Intel N100 (i3 Alternative), 16GB DDR4, 512GB SSD, Wi-Fi 6, Windows 11 Pro, Wired Keyboard & Mouse, (Black-Upgraded)',
-    slug: 'lenovo-aio-v100-all-in-one-desktop-238-fhd-ips-display-intel-n100-i3-alternative-16gb-ddr4-512gb-ssd-wi-fi-6-windows-11-pro-wired-keyboard-mouse-black-upgraded',
-    brand: 'Lenovo',
-    category: 'laptops',
-    subcategory: 'Ultrabook',
-    price: 1799,
-    salePrice: 1799,
-    images: ['https://m.media-amazon.com/images/I/51ZQDMSH8IL._AC_SL1500_.jpg'],
-    shortDescription: 'Lenovo AIO V100 All-in-One Desktop 23.8" FHD IPS Display, Intel N100 (i3 Alternative), 16GB DDR4, 512GB SSD, Wi-Fi 6, Windows 11 Pro, Wired Keyboard & Mouse, (Black-Upgraded)',
-    description: 'Lenovo AIO V100 All-in-One Desktop 23.8" FHD IPS Display, Intel N100 (i3 Alternative), 16GB DDR4, 512GB SSD, Wi-Fi 6, Windows 11 Pro, Wired Keyboard & Mouse, (Black-Upgraded)',
-    specifications: {
-      'SKU': 'B0F6YWH24K',
-      'Category': 'Laptop',
-      'Brand': 'Lenovo'
-    },
-    stock: 10,
-    sku: 'B0F6YWH24K',
-    featured: false,
-    newProduct: true,
-    tags: ['laptop', 'lenovo', 'amazon', 'ultrabook']
-  },
-  {
-    id: 'B0HCNXD7LL',
-    name: 'Lenovo LOQ Gaming AI Laptop 39.6 cm FHD IPS 144Hz (100% sRGB FreeSync) AMD 8-core Ryzen 7 170 16GB RAM 512GB SSD GeForce RTX 5050 GDDR7 (440 AI Tops) Backlit Nahimic Privacy Camera Win11 ICP Acc',
-    slug: 'lenovo-loq-gaming-ai-laptop-396-cm-fhd-ips-144hz-100-srgb-freesync-amd-8-core-ryzen-7-170-16gb-ram-512gb-ssd-geforce-rtx-5050-gddr7-440-ai-tops-backlit-nahimic-privacy-camera-win11-icp-acc',
-    brand: 'Lenovo',
-    category: 'laptops',
-    subcategory: 'Gaming Laptop',
-    price: 4300,
-    salePrice: 4300,
-    images: ['https://m.media-amazon.com/images/I/71tUIUPYPDL._AC_SL1500_.jpg'],
-    shortDescription: 'Lenovo LOQ Gaming AI Laptop 39.6 cm FHD IPS 144Hz (100% sRGB FreeSync) AMD 8-core Ryzen 7 170 16GB RAM 512GB SSD GeForce RTX 5050 GDDR7 (440 AI Tops) Backlit Nahimic Privacy Camera Win11 ICP Acc',
-    description: 'Lenovo LOQ Gaming AI Laptop 39.6 cm FHD IPS 144Hz (100% sRGB FreeSync) AMD 8-core Ryzen 7 170 16GB RAM 512GB SSD GeForce RTX 5050 GDDR7 (440 AI Tops) Backlit Nahimic Privacy Camera Win11 ICP Acc',
-    specifications: {
-      'SKU': 'B0HCNXD7LL',
-      'Category': 'Laptop',
-      'Brand': 'Lenovo'
-    },
-    stock: 10,
-    sku: 'B0HCNXD7LL',
-    featured: false,
-    newProduct: true,
-    tags: ['laptop', 'lenovo', 'amazon', 'gaming-laptop']
-  },
-  {
-    id: 'B0D841QS9D',
-    name: 'HP Victus 15.6 i5 Gaming Laptop, 15.6" FHD 1920x1080 144Hz, Intel Core i5-12450H, NVIDIA GeForce RTX 3050, 16GB RAM, 1TB SSD, Backlit KB, Touchpad, SD Card Reader, Camera(UPGRADE)',
-    slug: 'hp-victus-156-i5-gaming-laptop-156-fhd-1920x1080-144hz-intel-core-i5-12450h-nvidia-geforce-rtx-3050-16gb-ram-1tb-ssd-backlit-kb-touchpad-sd-card-reader-cameraupgrade',
-    brand: 'HP',
-    category: 'laptops',
-    subcategory: 'Gaming Laptop',
-    price: 3469,
-    salePrice: 3469,
-    images: ['https://m.media-amazon.com/images/I/71DHV9GZSOL._AC_SL1500_.jpg'],
-    shortDescription: 'HP Victus 15.6 i5 Gaming Laptop, 15.6" FHD 1920x1080 144Hz, Intel Core i5-12450H, NVIDIA GeForce RTX 3050, 16GB RAM, 1TB SSD, Backlit KB, Touchpad, SD Card Reader, Camera(UPGRADE)',
-    description: 'HP Victus 15.6 i5 Gaming Laptop, 15.6" FHD 1920x1080 144Hz, Intel Core i5-12450H, NVIDIA GeForce RTX 3050, 16GB RAM, 1TB SSD, Backlit KB, Touchpad, SD Card Reader, Camera(UPGRADE)',
-    specifications: {
-      'SKU': 'B0D841QS9D',
-      'Category': 'Laptop',
-      'Brand': 'HP'
-    },
-    stock: 10,
-    sku: 'B0D841QS9D',
-    featured: false,
-    newProduct: true,
-    tags: ['laptop', 'hp', 'amazon', 'gaming-laptop']
-  },
-  {
-    id: 'B0FHHBPFKN',
-    name: 'HP 15.6" Full HD Touchscreen Laptop | Intel i7-1355U (Beats i9-10880H) | 32GB RAM | 1TB SSD | Intel Iris Xe Graphics | Win 11 | Fast Charge | Wi-Fi 6 | W/Charger+Mouse (32GB RAM + 1TB SSD)',
-    slug: 'hp-156-full-hd-touchscreen-laptop-intel-i7-1355u-beats-i9-10880h-32gb-ram-1tb-ssd-intel-iris-xe-graphics-win-11-fast-charge-wi-fi-6-wchargermouse-32gb-ram-1tb-ssd',
-    brand: 'HP',
-    category: 'laptops',
-    subcategory: 'Convertible Laptop',
-    price: 3440,
-    salePrice: 3440,
-    images: ['https://m.media-amazon.com/images/I/71kSUfrlMkL._AC_SL1500_.jpg'],
-    shortDescription: 'HP 15.6" Full HD Touchscreen Laptop | Intel i7-1355U (Beats i9-10880H) | 32GB RAM | 1TB SSD | Intel Iris Xe Graphics | Win 11 | Fast Charge | Wi-Fi 6 | W/Charger+Mouse (32GB RAM + 1TB SSD)',
-    description: 'HP 15.6" Full HD Touchscreen Laptop | Intel i7-1355U (Beats i9-10880H) | 32GB RAM | 1TB SSD | Intel Iris Xe Graphics | Win 11 | Fast Charge | Wi-Fi 6 | W/Charger+Mouse (32GB RAM + 1TB SSD)',
-    specifications: {
-      'SKU': 'B0FHHBPFKN',
-      'Category': 'Laptop',
-      'Brand': 'HP'
-    },
-    stock: 10,
-    sku: 'B0FHHBPFKN',
-    featured: false,
-    newProduct: true,
-    tags: ['laptop', 'hp', 'amazon', 'convertible-laptop']
-  },
-  {
-    id: 'B0FMY1W2ZH',
-    name: 'HP 2025 OmniBook X Flip 2-in-1, Copilot+ PC, 16" 2K 400Nits Touch-Screen Laptop, Ultra 7 256V(Beats Ultra 7 155U), 16GB RAM, 1TB SSD, 23H Battery, Win 11, Backlit KB, W/Stylus Pen',
-    slug: 'hp-2025-omnibook-x-flip-2-in-1-copilot-pc-16-2k-400nits-touch-screen-laptop-ultra-7-256vbeats-ultra-7-155u-16gb-ram-1tb-ssd-23h-battery-win-11-backlit-kb-wstylus-pen',
-    brand: 'HP',
-    category: 'laptops',
-    subcategory: 'Convertible Laptop',
-    price: 3353,
-    salePrice: 3353,
-    images: ['https://m.media-amazon.com/images/I/61esnkgOK9L._AC_SL1500_.jpg'],
-    shortDescription: 'HP 2025 OmniBook X Flip 2-in-1, Copilot+ PC, 16" 2K 400Nits Touch-Screen Laptop, Ultra 7 256V(Beats Ultra 7 155U), 16GB RAM, 1TB SSD, 23H Battery, Win 11, Backlit KB, W/Stylus Pen',
-    description: 'HP 2025 OmniBook X Flip 2-in-1, Copilot+ PC, 16" 2K 400Nits Touch-Screen Laptop, Ultra 7 256V(Beats Ultra 7 155U), 16GB RAM, 1TB SSD, 23H Battery, Win 11, Backlit KB, W/Stylus Pen',
-    specifications: {
-      'SKU': 'B0FMY1W2ZH',
-      'Category': 'Laptop',
-      'Brand': 'HP'
-    },
-    stock: 10,
-    sku: 'B0FMY1W2ZH',
-    featured: false,
-    newProduct: true,
-    tags: ['laptop', 'hp', 'amazon', 'convertible-laptop']
-  },
-  {
-    id: 'B0GWD7T9FC',
-    name: 'Lenovo ThinkPad E16 Gen 3 Business Laptop, 16" WUXGA Display, Intel Core Ultra 5 225U, 16GB DDR5 RAM, 512GB SSD, Intel Graphics, Backlit Keyboard, Win 11, Black (Upgraded)',
-    slug: 'lenovo-thinkpad-e16-gen-3-business-laptop-16-wuxga-display-intel-core-ultra-5-225u-16gb-ddr5-ram-512gb-ssd-intel-graphics-backlit-keyboard-win-11-black-upgraded',
-    brand: 'Lenovo',
-    category: 'laptops',
-    subcategory: 'Ultrabook',
-    price: 3589,
-    salePrice: 3589,
-    images: ['https://m.media-amazon.com/images/I/611O05vrxHL._AC_SL1500_.jpg'],
-    shortDescription: 'Lenovo ThinkPad E16 Gen 3 Business Laptop, 16" WUXGA Display, Intel Core Ultra 5 225U, 16GB DDR5 RAM, 512GB SSD, Intel Graphics, Backlit Keyboard, Win 11, Black (Upgraded)',
-    description: 'Lenovo ThinkPad E16 Gen 3 Business Laptop, 16" WUXGA Display, Intel Core Ultra 5 225U, 16GB DDR5 RAM, 512GB SSD, Intel Graphics, Backlit Keyboard, Win 11, Black (Upgraded)',
-    specifications: {
-      'SKU': 'B0GWD7T9FC',
-      'Category': 'Laptop',
-      'Brand': 'Lenovo'
-    },
-    stock: 10,
-    sku: 'B0GWD7T9FC',
-    featured: false,
-    newProduct: true,
-    tags: ['laptop', 'lenovo', 'amazon', 'ultrabook']
-  },
-  {
-    id: 'B0CL1B22W7',
-    name: 'HP Business 27" 13th i7 All in One Desktop Computer, FHD Display, 32GB RAM, 1TB SSD, IR Camera, RJ-45, Wi-Fi 6, Wired KB & Mouse, Windows 11 Pro, Black, with Adata 512 External SSD Bundle(Upgraded)',
-    slug: 'hp-business-27-13th-i7-all-in-one-desktop-computer-fhd-display-32gb-ram-1tb-ssd-ir-camera-rj-45-wi-fi-6-wired-kb-mouse-windows-11-pro-black-with-adata-512-external-ssd-bundleupgraded',
-    brand: 'HP',
-    category: 'laptops',
-    subcategory: 'Ultrabook',
-    price: 4999,
-    salePrice: 4999,
-    images: ['https://m.media-amazon.com/images/I/712xk9utkKL._AC_SL1500_.jpg'],
-    shortDescription: 'HP Business 27" 13th i7 All in One Desktop Computer, FHD Display, 32GB RAM, 1TB SSD, IR Camera, RJ-45, Wi-Fi 6, Wired KB & Mouse, Windows 11 Pro, Black, with Adata 512 External SSD Bundle(Upgraded)',
-    description: 'HP Business 27" 13th i7 All in One Desktop Computer, FHD Display, 32GB RAM, 1TB SSD, IR Camera, RJ-45, Wi-Fi 6, Wired KB & Mouse, Windows 11 Pro, Black, with Adata 512 External SSD Bundle(Upgraded)',
-    specifications: {
-      'SKU': 'B0CL1B22W7',
-      'Category': 'Laptop',
-      'Brand': 'HP'
-    },
-    stock: 10,
-    sku: 'B0CL1B22W7',
-    featured: false,
-    newProduct: true,
-    tags: ['laptop', 'hp', 'amazon', 'ultrabook']
-  },
-  {
-    id: 'B0FG39BZ93',
-    name: 'Lenovo (Upgraded) ThinkPad E14 Gen 7 Business Laptop (14" WUXGA+ Anti-Glare, Intel Core Ultra 7 255H, 16 GB DDR5-5600, 512GB SSD, Backlit, Fingerprint, Win 11 Pro, Black',
-    slug: 'lenovo-upgraded-thinkpad-e14-gen-7-business-laptop-14-wuxga-anti-glare-intel-core-ultra-7-255h-16-gb-ddr5-5600-512gb-ssd-backlit-fingerprint-win-11-pro-black',
-    brand: 'Lenovo',
-    category: 'laptops',
-    subcategory: 'Ultrabook',
-    price: 4280,
-    salePrice: 4280,
-    images: ['https://m.media-amazon.com/images/I/61VdyHLlzWL._AC_SL1500_.jpg'],
-    shortDescription: 'Lenovo (Upgraded) ThinkPad E14 Gen 7 Business Laptop (14" WUXGA+ Anti-Glare, Intel Core Ultra 7 255H, 16 GB DDR5-5600, 512GB SSD, Backlit, Fingerprint, Win 11 Pro, Black',
-    description: 'Lenovo (Upgraded) ThinkPad E14 Gen 7 Business Laptop (14" WUXGA+ Anti-Glare, Intel Core Ultra 7 255H, 16 GB DDR5-5600, 512GB SSD, Backlit, Fingerprint, Win 11 Pro, Black',
-    specifications: {
-      'SKU': 'B0FG39BZ93',
-      'Category': 'Laptop',
-      'Brand': 'Lenovo'
-    },
-    stock: 10,
-    sku: 'B0FG39BZ93',
-    featured: false,
-    newProduct: true,
-    tags: ['laptop', 'lenovo', 'amazon', 'ultrabook']
-  },
-  {
-    id: 'B0DN7THML6',
-    name: 'Lenovo (Upgraded) ThinkPad T14 Gen 5 Business Laptop 14" FHD+ IPS, Intel Ultra 7 155U, 32GB DDR5 RAM, 1TB SSD, 5MP Webcam, Fingerprint, Backlit, Wi-Fi 6E, 2 Thunderbolt 4, AI PC, W11P,',
-    slug: 'lenovo-upgraded-thinkpad-t14-gen-5-business-laptop-14-fhd-ips-intel-ultra-7-155u-32gb-ddr5-ram-1tb-ssd-5mp-webcam-fingerprint-backlit-wi-fi-6e-2-thunderbolt-4-ai-pc-w11p',
-    brand: 'Lenovo',
-    category: 'laptops',
-    subcategory: 'Ultrabook',
-    price: 6999,
-    salePrice: 6999,
-    images: ['https://m.media-amazon.com/images/I/71f-4jChaBL._AC_SL1500_.jpg'],
-    shortDescription: 'Lenovo (Upgraded) ThinkPad T14 Gen 5 Business Laptop 14" FHD+ IPS, Intel Ultra 7 155U, 32GB DDR5 RAM, 1TB SSD, 5MP Webcam, Fingerprint, Backlit, Wi-Fi 6E, 2 Thunderbolt 4, AI PC, W11P,',
-    description: 'Lenovo (Upgraded) ThinkPad T14 Gen 5 Business Laptop 14" FHD+ IPS, Intel Ultra 7 155U, 32GB DDR5 RAM, 1TB SSD, 5MP Webcam, Fingerprint, Backlit, Wi-Fi 6E, 2 Thunderbolt 4, AI PC, W11P,',
-    specifications: {
-      'SKU': 'B0DN7THML6',
-      'Category': 'Laptop',
-      'Brand': 'Lenovo'
-    },
-    stock: 10,
-    sku: 'B0DN7THML6',
-    featured: false,
-    newProduct: true,
-    tags: ['laptop', 'lenovo', 'amazon', 'ultrabook']
-  },
-  {
-    id: 'B0DNQFK6B9',
-    name: 'Lenovo Thinkpad E16 G2 16 in Fhd+ AI Business Laptop, Intel Ultra 7 155H 16-Core (Beat I7-13705H), Arc Graphics, 32GB Ram Ddr5, Ssd Pcie 1Tb, Wi-Fi 6E, Kb Backlight, Fr,',
-    slug: 'lenovo-thinkpad-e16-g2-16-in-fhd-ai-business-laptop-intel-ultra-7-155h-16-core-beat-i7-13705h-arc-graphics-32gb-ram-ddr5-ssd-pcie-1tb-wi-fi-6e-kb-backlight-fr',
-    brand: 'Lenovo',
-    category: 'laptops',
-    subcategory: 'Ultrabook',
-    price: 5299,
-    salePrice: 5299,
-    images: ['https://m.media-amazon.com/images/I/71P6KcxK2DL._AC_SL1500_.jpg'],
-    shortDescription: 'Lenovo Thinkpad E16 G2 16 in Fhd+ AI Business Laptop, Intel Ultra 7 155H 16-Core (Beat I7-13705H), Arc Graphics, 32GB Ram Ddr5, Ssd Pcie 1Tb, Wi-Fi 6E, Kb Backlight, Fr,',
-    description: 'Lenovo Thinkpad E16 G2 16 in Fhd+ AI Business Laptop, Intel Ultra 7 155H 16-Core (Beat I7-13705H), Arc Graphics, 32GB Ram Ddr5, Ssd Pcie 1Tb, Wi-Fi 6E, Kb Backlight, Fr,',
-    specifications: {
-      'SKU': 'B0DNQFK6B9',
-      'Category': 'Laptop',
-      'Brand': 'Lenovo'
-    },
-    stock: 10,
-    sku: 'B0DNQFK6B9',
-    featured: false,
-    newProduct: true,
-    tags: ['laptop', 'lenovo', 'amazon', 'ultrabook']
-  },
-  {
-    id: 'B0FR9CGVMH',
-    name: 'Newest Lenovo Thinkpad E14 Gen 7 Business Laptop (14" Wuxga+ Anti-Glare, Intel® Core™ Ultra 7 255h, 32GB DDR5 RAM, 1TB SSD NVME, Backlit, Fingerprint, Win 11 Pro, Black(UPGRADE)',
-    slug: 'newest-lenovo-thinkpad-e14-gen-7-business-laptop-14-wuxga-anti-glare-intel-core-ultra-7-255h-32gb-ddr5-ram-1tb-ssd-nvme-backlit-fingerprint-win-11-pro-blackupgrade',
-    brand: 'Lenovo',
-    category: 'laptops',
-    subcategory: 'Ultrabook',
-    price: 5399,
-    salePrice: 5399,
-    images: ['https://m.media-amazon.com/images/I/51-zaeOJB2L._AC_SL1500_.jpg'],
-    shortDescription: 'Newest Lenovo Thinkpad E14 Gen 7 Business Laptop (14" Wuxga+ Anti-Glare, Intel® Core™ Ultra 7 255h, 32GB DDR5 RAM, 1TB SSD NVME, Backlit, Fingerprint, Win 11 Pro, Black(UPGRADE)',
-    description: 'Newest Lenovo Thinkpad E14 Gen 7 Business Laptop (14" Wuxga+ Anti-Glare, Intel® Core™ Ultra 7 255h, 32GB DDR5 RAM, 1TB SSD NVME, Backlit, Fingerprint, Win 11 Pro, Black(UPGRADE)',
-    specifications: {
-      'SKU': 'B0FR9CGVMH',
-      'Category': 'Laptop',
-      'Brand': 'Lenovo'
-    },
-    stock: 10,
-    sku: 'B0FR9CGVMH',
-    featured: false,
-    newProduct: true,
-    tags: ['laptop', 'lenovo', 'amazon', 'ultrabook']
-  },
-  {
-    id: 'B0D2L7QCC9',
-    name: 'HP (Upgraded) All-in-One 24-inch Desktop, 13th Generation Intel Core i5-1335U processor| 8GB DDR4 RAM| 512GB NVMe SSD| 23.8â€ FHD Display | Windows 11 (Shell White)',
-    slug: 'hp-upgraded-all-in-one-24-inch-desktop-13th-generation-intel-core-i5-1335u-processor-8gb-ddr4-ram-512gb-nvme-ssd-238-fhd-display-windows-11-shell-white',
-    brand: 'HP',
-    category: 'laptops',
-    subcategory: 'Ultrabook',
-    price: 2999,
-    salePrice: 2999,
-    images: ['https://m.media-amazon.com/images/I/41xwUqklWTL._AC_SL1500_.jpg'],
-    shortDescription: 'HP (Upgraded) All-in-One 24-inch Desktop, 13th Generation Intel Core i5-1335U processor| 8GB DDR4 RAM| 512GB NVMe SSD| 23.8â€ FHD Display | Windows 11 (Shell White)',
-    description: 'HP (Upgraded) All-in-One 24-inch Desktop, 13th Generation Intel Core i5-1335U processor| 8GB DDR4 RAM| 512GB NVMe SSD| 23.8â€ FHD Display | Windows 11 (Shell White)',
-    specifications: {
-      'SKU': 'B0D2L7QCC9',
-      'Category': 'Laptop',
-      'Brand': 'HP'
-    },
-    stock: 10,
-    sku: 'B0D2L7QCC9',
-    featured: false,
-    newProduct: true,
-    tags: ['laptop', 'hp', 'amazon', 'ultrabook']
-  },
-  {
-    id: 'B0G2BPD2FX',
-    name: 'Lenovo LOQ 15IRX10 Gaming Laptop, 15.6" FHD IPS 144Hz Display, Intel Core i5-13450HX, 16GB DDR5 RAM, 512GB SSD, NVIDIA GeForce RTX 5050 8GB, White Backlit ENG Keyboard, Luna Grey',
-    slug: 'lenovo-loq-15irx10-gaming-laptop-156-fhd-ips-144hz-display-intel-core-i5-13450hx-16gb-ddr5-ram-512gb-ssd-nvidia-geforce-rtx-5050-8gb-white-backlit-eng-keyboard-luna-grey',
-    brand: 'Lenovo',
-    category: 'laptops',
-    subcategory: 'Gaming Laptop',
-    price: 4998,
-    salePrice: 4998,
-    images: ['https://m.media-amazon.com/images/I/81qIT-uF-fL._AC_SL1500_.jpg'],
-    shortDescription: 'Lenovo LOQ 15IRX10 Gaming Laptop, 15.6" FHD IPS 144Hz Display, Intel Core i5-13450HX, 16GB DDR5 RAM, 512GB SSD, NVIDIA GeForce RTX 5050 8GB, White Backlit ENG Keyboard, Luna Grey',
-    description: 'Lenovo LOQ 15IRX10 Gaming Laptop, 15.6" FHD IPS 144Hz Display, Intel Core i5-13450HX, 16GB DDR5 RAM, 512GB SSD, NVIDIA GeForce RTX 5050 8GB, White Backlit ENG Keyboard, Luna Grey',
-    specifications: {
-      'SKU': 'B0G2BPD2FX',
-      'Category': 'Laptop',
-      'Brand': 'Lenovo'
-    },
-    stock: 10,
-    sku: 'B0G2BPD2FX',
-    featured: false,
-    newProduct: true,
-    tags: ['laptop', 'lenovo', 'amazon', 'gaming-laptop']
-  },
-  {
-    id: 'B0FH53F8JJ',
-    name: 'HP OMEN 16 Gaming Laptop, Intel Ultra 9-285H, 16GB DDR5 RAM, 1TB PCIe SSD, 16 in WQXGA (2560x1600) 240Hz Display, Nvidia G-Force RTX 5070, RGB Backlit Keyboard, W11 Home',
-    slug: 'hp-omen-16-gaming-laptop-intel-ultra-9-285h-16gb-ddr5-ram-1tb-pcie-ssd-16-in-wqxga-2560x1600-240hz-display-nvidia-g-force-rtx-5070-rgb-backlit-keyboard-w11-home',
-    brand: 'HP',
-    category: 'laptops',
-    subcategory: 'Gaming Laptop',
-    price: 7500,
-    salePrice: 7500,
-    images: ['https://m.media-amazon.com/images/I/81zvGZ-rx1L._AC_SL1500_.jpg'],
-    shortDescription: 'HP OMEN 16 Gaming Laptop, Intel Ultra 9-285H, 16GB DDR5 RAM, 1TB PCIe SSD, 16 in WQXGA (2560x1600) 240Hz Display, Nvidia G-Force RTX 5070, RGB Backlit Keyboard, W11 Home',
-    description: 'HP OMEN 16 Gaming Laptop, Intel Ultra 9-285H, 16GB DDR5 RAM, 1TB PCIe SSD, 16 in WQXGA (2560x1600) 240Hz Display, Nvidia G-Force RTX 5070, RGB Backlit Keyboard, W11 Home',
-    specifications: {
-      'SKU': 'B0FH53F8JJ',
-      'Category': 'Laptop',
-      'Brand': 'HP'
-    },
-    stock: 10,
-    sku: 'B0FH53F8JJ',
-    featured: false,
-    newProduct: true,
-    tags: ['laptop', 'hp', 'amazon', 'gaming-laptop']
-  },
-  {
-    id: 'B0GL1XJ254',
-    name: 'HP i7 Touchscreen Laptop, 10-Core Intel Core i7-1355U (up to 5GHz, Beat Core 7 160U), 16GB RAM, 15.6 in SSD, FHD Intel Iris Xe Graphics Win 11 Pro Wifi6 with Laptop',
-    slug: 'hp-i7-touchscreen-laptop-10-core-intel-core-i7-1355u-up-to-5ghz-beat-core-7-160u-16gb-ram-156-in-ssd-fhd-intel-iris-xe-graphics-win-11-pro-wifi6-with-laptop',
-    brand: 'HP',
-    category: 'laptops',
-    subcategory: 'Convertible Laptop',
-    price: 2904,
-    salePrice: 2904,
-    images: ['https://m.media-amazon.com/images/I/81HvYESCDsL._AC_SL1500_.jpg'],
-    shortDescription: 'HP i7 Touchscreen Laptop, 10-Core Intel Core i7-1355U (up to 5GHz, Beat Core 7 160U), 16GB RAM, 15.6 in SSD, FHD Intel Iris Xe Graphics Win 11 Pro Wifi6 with Laptop',
-    description: 'HP i7 Touchscreen Laptop, 10-Core Intel Core i7-1355U (up to 5GHz, Beat Core 7 160U), 16GB RAM, 15.6 in SSD, FHD Intel Iris Xe Graphics Win 11 Pro Wifi6 with Laptop',
-    specifications: {
-      'SKU': 'B0GL1XJ254',
-      'Category': 'Laptop',
-      'Brand': 'HP'
-    },
-    stock: 10,
-    sku: 'B0GL1XJ254',
-    featured: false,
-    newProduct: true,
-    tags: ['laptop', 'hp', 'amazon', 'convertible-laptop']
-  },
-  {
-    id: 'B0D7NVS6RV',
-    name: 'Lenovo (Upgraded) Yoga 7i 2-in-1 Laptop, 16" 2K Touchscreen Display, Core Ultra 7 155U (Up to 4.80 GHz), 16GB DDR5, 1TB PCIe SSD, Wi-Fi 6E, Backlit KB, FP Reader, Webcam, Keypad, PDG HDMI, Win 11 Pro',
-    slug: 'lenovo-upgraded-yoga-7i-2-in-1-laptop-16-2k-touchscreen-display-core-ultra-7-155u-up-to-480-ghz-16gb-ddr5-1tb-pcie-ssd-wi-fi-6e-backlit-kb-fp-reader-webcam-keypad-pdg-hdmi-win-11-pro',
-    brand: 'Lenovo',
-    category: 'laptops',
-    subcategory: 'Convertible Laptop',
-    price: 3640,
-    salePrice: 3640,
-    images: ['https://m.media-amazon.com/images/I/61g8sLDDvdL._AC_SL1500_.jpg'],
-    shortDescription: 'Lenovo (Upgraded) Yoga 7i 2-in-1 Laptop, 16" 2K Touchscreen Display, Core Ultra 7 155U (Up to 4.80 GHz), 16GB DDR5, 1TB PCIe SSD, Wi-Fi 6E, Backlit KB, FP Reader, Webcam, Keypad, PDG HDMI, Win 11 Pro',
-    description: 'Lenovo (Upgraded) Yoga 7i 2-in-1 Laptop, 16" 2K Touchscreen Display, Core Ultra 7 155U (Up to 4.80 GHz), 16GB DDR5, 1TB PCIe SSD, Wi-Fi 6E, Backlit KB, FP Reader, Webcam, Keypad, PDG HDMI, Win 11 Pro',
-    specifications: {
-      'SKU': 'B0D7NVS6RV',
-      'Category': 'Laptop',
-      'Brand': 'Lenovo'
-    },
-    stock: 10,
-    sku: 'B0D7NVS6RV',
-    featured: false,
-    newProduct: true,
-    tags: ['laptop', 'lenovo', 'amazon', 'convertible-laptop']
-  },
-  {
-    id: 'B0CJ5LJ6PN',
-    name: 'Lenovo (Upgraded) ThinkPad E16 Business Laptop 16.0" IPS FHD+ Display (Intel 13th Gen i5-1335U, 16GB RAM, 512GB SSD, Fingerprint Reader, Thunderbolt 4, FHD Webcam, WiFi 6, Win 11P)',
-    slug: 'lenovo-upgraded-thinkpad-e16-business-laptop-160-ips-fhd-display-intel-13th-gen-i5-1335u-16gb-ram-512gb-ssd-fingerprint-reader-thunderbolt-4-fhd-webcam-wifi-6-win-11p',
-    brand: 'Lenovo',
-    category: 'laptops',
-    subcategory: 'Ultrabook',
-    price: 3499,
-    salePrice: 3499,
-    images: ['https://m.media-amazon.com/images/I/71+6UkuQjOL._AC_SL1500_.jpg'],
-    shortDescription: 'Lenovo (Upgraded) ThinkPad E16 Business Laptop 16.0" IPS FHD+ Display (Intel 13th Gen i5-1335U, 16GB RAM, 512GB SSD, Fingerprint Reader, Thunderbolt 4, FHD Webcam, WiFi 6, Win 11P)',
-    description: 'Lenovo (Upgraded) ThinkPad E16 Business Laptop 16.0" IPS FHD+ Display (Intel 13th Gen i5-1335U, 16GB RAM, 512GB SSD, Fingerprint Reader, Thunderbolt 4, FHD Webcam, WiFi 6, Win 11P)',
-    specifications: {
-      'SKU': 'B0CJ5LJ6PN',
-      'Category': 'Laptop',
-      'Brand': 'Lenovo'
-    },
-    stock: 10,
-    sku: 'B0CJ5LJ6PN',
-    featured: false,
-    newProduct: true,
-    tags: ['laptop', 'lenovo', 'amazon', 'ultrabook']
-  },
-  {
-    id: 'B0CJ5MKJXQ',
-    name: 'Lenovo ThinkPad E16 Gen 1 Business Laptop 16.0" Non Touch IPS WUXGA Display (Intel 13th Gen i5-1335U, 16GB RAM, 1TB SSD, Backlit KYB, Fingerprint Reader, 2 Thunderbolt 4, Win 11 w/Hub (US Version)',
-    slug: 'lenovo-thinkpad-e16-gen-1-business-laptop-160-non-touch-ips-wuxga-display-intel-13th-gen-i5-1335u-16gb-ram-1tb-ssd-backlit-kyb-fingerprint-reader-2-thunderbolt-4-win-11-whub-us-version',
-    brand: 'Lenovo',
-    category: 'laptops',
-    subcategory: 'Ultrabook',
-    price: 3650,
-    salePrice: 3650,
-    images: ['https://m.media-amazon.com/images/I/71+6UkuQjOL._AC_SL1500_.jpg'],
-    shortDescription: 'Lenovo ThinkPad E16 Gen 1 Business Laptop 16.0" Non Touch IPS WUXGA Display (Intel 13th Gen i5-1335U, 16GB RAM, 1TB SSD, Backlit KYB, Fingerprint Reader, 2 Thunderbolt 4, Win 11 w/Hub (US Version)',
-    description: 'Lenovo ThinkPad E16 Gen 1 Business Laptop 16.0" Non Touch IPS WUXGA Display (Intel 13th Gen i5-1335U, 16GB RAM, 1TB SSD, Backlit KYB, Fingerprint Reader, 2 Thunderbolt 4, Win 11 w/Hub (US Version)',
-    specifications: {
-      'SKU': 'B0CJ5MKJXQ',
-      'Category': 'Laptop',
-      'Brand': 'Lenovo'
-    },
-    stock: 10,
-    sku: 'B0CJ5MKJXQ',
-    featured: false,
-    newProduct: true,
-    tags: ['laptop', 'lenovo', 'amazon', 'ultrabook']
-  },
-  {
-    id: 'B0FSF2W62K',
-    name: 'Lenovo Yoga 7i 2-in-1 w/Ultra 7, 16G LPDDR5X, 1TB SSD, OLED, Yoga Pen 16" WUXGA',
-    slug: 'lenovo-yoga-7i-2-in-1-wultra-7-16g-lpddr5x-1tb-ssd-oled-yoga-pen-16-wuxga',
-    brand: 'Lenovo',
-    category: 'laptops',
-    subcategory: 'Convertible Laptop',
-    price: 5168,
-    salePrice: 5168,
-    images: ['https://m.media-amazon.com/images/I/712To6ToOzL._AC_SL1500_.jpg'],
-    shortDescription: 'Lenovo Yoga 7i 2-in-1 w/Ultra 7, 16G LPDDR5X, 1TB SSD, OLED, Yoga Pen 16" WUXGA',
-    description: 'Lenovo Yoga 7i 2-in-1 w/Ultra 7, 16G LPDDR5X, 1TB SSD, OLED, Yoga Pen 16" WUXGA',
-    specifications: {
-      'SKU': 'B0FSF2W62K',
-      'Category': 'Laptop',
-      'Brand': 'Lenovo'
-    },
-    stock: 10,
-    sku: 'B0FSF2W62K',
-    featured: false,
-    newProduct: true,
-    tags: ['laptop', 'lenovo', 'amazon', 'convertible-laptop']
-  },
-  {
-    id: 'B0CPLT1G3T',
-    name: 'HP (Upgraded) All-in-One 27-inch Desktop, 13th Generation Intel Core i7-1355U processor|16GB DDR4 RAM|1TB M.2 SSD|Intel Iris Xᵉ Graphics| Windows 11 Pro - Shell white',
-    slug: 'hp-upgraded-all-in-one-27-inch-desktop-13th-generation-intel-core-i7-1355u-processor16gb-ddr4-ram1tb-m2-ssdintel-iris-x-graphics-windows-11-pro---shell-white',
-    brand: 'HP',
-    category: 'laptops',
-    subcategory: 'Ultrabook',
-    price: 4199,
-    salePrice: 4199,
-    images: ['https://m.media-amazon.com/images/I/51ac3aRePNL._AC_SL1500_.jpg'],
-    shortDescription: 'HP (Upgraded) All-in-One 27-inch Desktop, 13th Generation Intel Core i7-1355U processor|16GB DDR4 RAM|1TB M.2 SSD|Intel Iris Xᵉ Graphics| Windows 11 Pro - Shell white',
-    description: 'HP (Upgraded) All-in-One 27-inch Desktop, 13th Generation Intel Core i7-1355U processor|16GB DDR4 RAM|1TB M.2 SSD|Intel Iris Xᵉ Graphics| Windows 11 Pro - Shell white',
-    specifications: {
-      'SKU': 'B0CPLT1G3T',
-      'Category': 'Laptop',
-      'Brand': 'HP'
-    },
-    stock: 10,
-    sku: 'B0CPLT1G3T',
-    featured: false,
-    newProduct: true,
-    tags: ['laptop', 'hp', 'amazon', 'ultrabook']
-  },
-  {
-    id: 'B0CVZY9WKD',
-    name: 'Lenovo ThinkBook 16 G7 16" FHD+ Laptop Computer, 14th Gen Intel 16-core Ultra 7-255H, 32GB DDR5 RAM, 2TB PCIe SSD, WiFi 6, BT 5.2, Backlight Keyboard, Fingerprint Reader, Windows 11 Pro,(upgrade)',
-    slug: 'lenovo-thinkbook-16-g7-16-fhd-laptop-computer-14th-gen-intel-16-core-ultra-7-255h-32gb-ddr5-ram-2tb-pcie-ssd-wifi-6-bt-52-backlight-keyboard-fingerprint-reader-windows-11-proupgrade',
-    brand: 'Lenovo',
-    category: 'laptops',
-    subcategory: 'Ultrabook',
-    price: 4988.99,
-    salePrice: 4988.99,
-    images: ['https://m.media-amazon.com/images/I/81dDVDtwlvL._AC_SL1500_.jpg'],
-    shortDescription: 'Lenovo ThinkBook 16 G7 16" FHD+ Laptop Computer, 14th Gen Intel 16-core Ultra 7-255H, 32GB DDR5 RAM, 2TB PCIe SSD, WiFi 6, BT 5.2, Backlight Keyboard, Fingerprint Reader, Windows 11 Pro,(upgrade)',
-    description: 'Lenovo ThinkBook 16 G7 16" FHD+ Laptop Computer, 14th Gen Intel 16-core Ultra 7-255H, 32GB DDR5 RAM, 2TB PCIe SSD, WiFi 6, BT 5.2, Backlight Keyboard, Fingerprint Reader, Windows 11 Pro,(upgrade)',
-    specifications: {
-      'SKU': 'B0CVZY9WKD',
-      'Category': 'Laptop',
-      'Brand': 'Lenovo'
-    },
-    stock: 10,
-    sku: 'B0CVZY9WKD',
-    featured: false,
-    newProduct: true,
-    tags: ['laptop', 'lenovo', 'amazon', 'ultrabook']
-  },
-  {
-    id: 'B0F4R6H3NB',
-    name: 'HP 15, 13th Gen Intel Core i5-1334U, (16GB DDR4,512GB SSD) Anti-Glare, Micro-Edge, FHD, 15.6\'\'/39.6cm, Windows 11, Office 365, Silver,',
-    slug: 'hp-15-13th-gen-intel-core-i5-1334u-16gb-ddr4512gb-ssd-anti-glare-micro-edge-fhd-156396cm-windows-11-office-365-silver',
-    brand: 'HP',
-    category: 'laptops',
-    subcategory: 'Ultrabook',
-    price: 2699,
-    salePrice: 2699,
-    images: ['https://m.media-amazon.com/images/I/71Z4mSII9BL._AC_SL1500_.jpg'],
-    shortDescription: 'HP 15, 13th Gen Intel Core i5-1334U, (16GB DDR4,512GB SSD) Anti-Glare, Micro-Edge, FHD, 15.6\'\'/39.6cm, Windows 11, Office 365, Silver,',
-    description: 'HP 15, 13th Gen Intel Core i5-1334U, (16GB DDR4,512GB SSD) Anti-Glare, Micro-Edge, FHD, 15.6\'\'/39.6cm, Windows 11, Office 365, Silver,',
-    specifications: {
-      'SKU': 'B0F4R6H3NB',
-      'Category': 'Laptop',
-      'Brand': 'HP'
-    },
-    stock: 10,
-    sku: 'B0F4R6H3NB',
-    featured: false,
-    newProduct: true,
-    tags: ['laptop', 'hp', 'amazon', 'ultrabook']
-  },
-  {
-    id: 'B0DGSMZ54J',
-    name: 'HP Victus 15 Gaming Laptop 15.6” FHD IPS Anti-Glare 144Hz Intel 8-core i5-12450H (Beat i7-11800H) 16GB RAM 512GB SSD GeForce RTX 3050 Backlit B&O Fast Charging Win11 w/ICP Accessory (UPGRADE)',
-    slug: 'hp-victus-15-gaming-laptop-156-fhd-ips-anti-glare-144hz-intel-8-core-i5-12450h-beat-i7-11800h-16gb-ram-512gb-ssd-geforce-rtx-3050-backlit-bo-fast-charging-win11-wicp-accessory-upgrade',
-    brand: 'HP',
-    category: 'laptops',
-    subcategory: 'Gaming Laptop',
-    price: 3250,
-    salePrice: 3250,
-    images: ['https://m.media-amazon.com/images/I/81UgMATXWBL._AC_SL1500_.jpg'],
-    shortDescription: 'HP Victus 15 Gaming Laptop 15.6” FHD IPS Anti-Glare 144Hz Intel 8-core i5-12450H (Beat i7-11800H) 16GB RAM 512GB SSD GeForce RTX 3050 Backlit B&O Fast Charging Win11 w/ICP Accessory (UPGRADE)',
-    description: 'HP Victus 15 Gaming Laptop 15.6” FHD IPS Anti-Glare 144Hz Intel 8-core i5-12450H (Beat i7-11800H) 16GB RAM 512GB SSD GeForce RTX 3050 Backlit B&O Fast Charging Win11 w/ICP Accessory (UPGRADE)',
-    specifications: {
-      'SKU': 'B0DGSMZ54J',
-      'Category': 'Laptop',
-      'Brand': 'HP'
-    },
-    stock: 10,
-    sku: 'B0DGSMZ54J',
-    featured: false,
-    newProduct: true,
-    tags: ['laptop', 'hp', 'amazon', 'gaming-laptop']
-  },
-  {
-    id: 'B0CNYDKC43',
-    name: 'HP 15 Laptop for Business & Student, 15.6" FHD Micro-Edge Display, Intel Core i3-1215U up to 4.40GHz, 16GB RAM, 512GB NVMe SSD, 720p Webcam, Numpad, USB-C, Wi-Fi, FP Reader, PDG HDMI, Win 11 Pro',
-    slug: 'hp-15-laptop-for-business-student-156-fhd-micro-edge-display-intel-core-i3-1215u-up-to-440ghz-16gb-ram-512gb-nvme-ssd-720p-webcam-numpad-usb-c-wi-fi-fp-reader-pdg-hdmi-win-11-pro',
-    brand: 'HP',
-    category: 'laptops',
-    subcategory: 'Ultrabook',
-    price: 1950,
-    salePrice: 1950,
-    images: ['https://m.media-amazon.com/images/I/61hCpLvGrgL._AC_SL1500_.jpg'],
-    shortDescription: 'HP 15 Laptop for Business & Student, 15.6" FHD Micro-Edge Display, Intel Core i3-1215U up to 4.40GHz, 16GB RAM, 512GB NVMe SSD, 720p Webcam, Numpad, USB-C, Wi-Fi, FP Reader, PDG HDMI, Win 11 Pro',
-    description: 'HP 15 Laptop for Business & Student, 15.6" FHD Micro-Edge Display, Intel Core i3-1215U up to 4.40GHz, 16GB RAM, 512GB NVMe SSD, 720p Webcam, Numpad, USB-C, Wi-Fi, FP Reader, PDG HDMI, Win 11 Pro',
-    specifications: {
-      'SKU': 'B0CNYDKC43',
-      'Category': 'Laptop',
-      'Brand': 'HP'
-    },
-    stock: 10,
-    sku: 'B0CNYDKC43',
-    featured: false,
-    newProduct: true,
-    tags: ['laptop', 'hp', 'amazon', 'ultrabook']
-  },
-  {
-    id: 'B0G2M676BS',
-    name: 'HP OmniBook X Flip 14-FM0013DX 2-in-1 Laptop, Laptop Touchscreen 14" WUXGA IPS, Intel 8-core Ultra 5 226V, Intel Arc 130V GPU, Thunderbolt 4, Windows 11 Home (16GB RAM + 512GB SSD)',
-    slug: 'hp-omnibook-x-flip-14-fm0013dx-2-in-1-laptop-laptop-touchscreen-14-wuxga-ips-intel-8-core-ultra-5-226v-intel-arc-130v-gpu-thunderbolt-4-windows-11-home-16gb-ram-512gb-ssd',
-    brand: 'HP',
-    category: 'laptops',
-    subcategory: 'Convertible Laptop',
-    price: 3240,
-    salePrice: 3240,
-    images: ['https://m.media-amazon.com/images/I/71BhouoneVL._AC_SL1500_.jpg'],
-    shortDescription: 'HP OmniBook X Flip 14-FM0013DX 2-in-1 Laptop, Laptop Touchscreen 14" WUXGA IPS, Intel 8-core Ultra 5 226V, Intel Arc 130V GPU, Thunderbolt 4, Windows 11 Home (16GB RAM + 512GB SSD)',
-    description: 'HP OmniBook X Flip 14-FM0013DX 2-in-1 Laptop, Laptop Touchscreen 14" WUXGA IPS, Intel 8-core Ultra 5 226V, Intel Arc 130V GPU, Thunderbolt 4, Windows 11 Home (16GB RAM + 512GB SSD)',
-    specifications: {
-      'SKU': 'B0G2M676BS',
-      'Category': 'Laptop',
-      'Brand': 'HP'
-    },
-    stock: 10,
-    sku: 'B0G2M676BS',
-    featured: false,
-    newProduct: true,
-    tags: ['laptop', 'hp', 'amazon', 'convertible-laptop']
-  },
-  {
-    id: 'B0DQ18D7KX',
-    name: 'HP Victus 15.6 i5 Gaming Laptop, 15.6" FHD 1920*1080 144Hz, Intel Core i5-12450H, NVIDIA GeForce RTX 3050, 32GB RAM, 2TB SSD, Backlit KB, Touchpad, SD Card Reader, Webcam, WIN 11, Blue (US Version)',
-    slug: 'hp-victus-156-i5-gaming-laptop-156-fhd-19201080-144hz-intel-core-i5-12450h-nvidia-geforce-rtx-3050-32gb-ram-2tb-ssd-backlit-kb-touchpad-sd-card-reader-webcam-win-11-blue-us-version',
-    brand: 'HP',
-    category: 'laptops',
-    subcategory: 'Gaming Laptop',
-    price: 4399,
-    salePrice: 4399,
-    images: ['https://m.media-amazon.com/images/I/71n2lzemCIL._AC_SL1500_.jpg'],
-    shortDescription: 'HP Victus 15.6 i5 Gaming Laptop, 15.6" FHD 1920*1080 144Hz, Intel Core i5-12450H, NVIDIA GeForce RTX 3050, 32GB RAM, 2TB SSD, Backlit KB, Touchpad, SD Card Reader, Webcam, WIN 11, Blue (US Version)',
-    description: 'HP Victus 15.6 i5 Gaming Laptop, 15.6" FHD 1920*1080 144Hz, Intel Core i5-12450H, NVIDIA GeForce RTX 3050, 32GB RAM, 2TB SSD, Backlit KB, Touchpad, SD Card Reader, Webcam, WIN 11, Blue (US Version)',
-    specifications: {
-      'SKU': 'B0DQ18D7KX',
-      'Category': 'Laptop',
-      'Brand': 'HP'
-    },
-    stock: 10,
-    sku: 'B0DQ18D7KX',
-    featured: false,
-    newProduct: true,
-    tags: ['laptop', 'hp', 'amazon', 'gaming-laptop']
-  },
-  {
-    id: 'B0FLPXTG42',
-    name: 'HP Victus 15 Gaming Laptop 2024, 15.6" FHD IPS 144Hz, Intel i5-13420H 8-Core, NVIDIA GeForce RTX 3050 6GB GDDR6, Backlit Keyboard, Wi-Fi 6, Win11 Home (16GB RAM + 512GB SSD)',
-    slug: 'hp-victus-15-gaming-laptop-2024-156-fhd-ips-144hz-intel-i5-13420h-8-core-nvidia-geforce-rtx-3050-6gb-gddr6-backlit-keyboard-wi-fi-6-win11-home-16gb-ram-512gb-ssd',
-    brand: 'HP',
-    category: 'laptops',
-    subcategory: 'Gaming Laptop',
-    price: 3399,
-    salePrice: 3399,
-    images: ['https://m.media-amazon.com/images/I/71piyyXO1pL._AC_SL1500_.jpg'],
-    shortDescription: 'HP Victus 15 Gaming Laptop 2024, 15.6" FHD IPS 144Hz, Intel i5-13420H 8-Core, NVIDIA GeForce RTX 3050 6GB GDDR6, Backlit Keyboard, Wi-Fi 6, Win11 Home (16GB RAM + 512GB SSD)',
-    description: 'HP Victus 15 Gaming Laptop 2024, 15.6" FHD IPS 144Hz, Intel i5-13420H 8-Core, NVIDIA GeForce RTX 3050 6GB GDDR6, Backlit Keyboard, Wi-Fi 6, Win11 Home (16GB RAM + 512GB SSD)',
-    specifications: {
-      'SKU': 'B0FLPXTG42',
-      'Category': 'Laptop',
-      'Brand': 'HP'
-    },
-    stock: 10,
-    sku: 'B0FLPXTG42',
-    featured: false,
-    newProduct: true,
-    tags: ['laptop', 'hp', 'amazon', 'gaming-laptop']
-  },
-  {
-    id: 'B0DNQGFYSZ',
-    name: 'Lenovo ThinkPad E16 Gen 3 16" FHD+ Business Laptop Computer, Intel 16-Core Ultra 7 255H (Beat i9-13900H), Arc 140T, 64GB DDR5 RAM, 2TB PCIe SSD, WiFi 6E, Bluetooth 5.3, Webcam, Windows 11 Pro',
-    slug: 'lenovo-thinkpad-e16-gen-3-16-fhd-business-laptop-computer-intel-16-core-ultra-7-255h-beat-i9-13900h-arc-140t-64gb-ddr5-ram-2tb-pcie-ssd-wifi-6e-bluetooth-53-webcam-windows-11-pro',
-    brand: 'Lenovo',
-    category: 'laptops',
-    subcategory: 'Ultrabook',
-    price: 7499,
-    salePrice: 7499,
-    images: ['https://m.media-amazon.com/images/I/71P6KcxK2DL._AC_SL1500_.jpg'],
-    shortDescription: 'Lenovo ThinkPad E16 Gen 3 16" FHD+ Business Laptop Computer, Intel 16-Core Ultra 7 255H (Beat i9-13900H), Arc 140T, 64GB DDR5 RAM, 2TB PCIe SSD, WiFi 6E, Bluetooth 5.3, Webcam, Windows 11 Pro',
-    description: 'Lenovo ThinkPad E16 Gen 3 16" FHD+ Business Laptop Computer, Intel 16-Core Ultra 7 255H (Beat i9-13900H), Arc 140T, 64GB DDR5 RAM, 2TB PCIe SSD, WiFi 6E, Bluetooth 5.3, Webcam, Windows 11 Pro',
-    specifications: {
-      'SKU': 'B0DNQGFYSZ',
-      'Category': 'Laptop',
-      'Brand': 'Lenovo'
-    },
-    stock: 10,
-    sku: 'B0DNQGFYSZ',
-    featured: false,
-    newProduct: true,
-    tags: ['laptop', 'lenovo', 'amazon', 'ultrabook']
-  },
-  {
-    id: 'B0H8RQ9WFH',
-    name: 'Lenovo Yoga 7 2-in-1 Personal Laptop, 2026, 16" 1920x1200 Touch, Intel-8 Core Ultra 7 256V, 16GB LPDDR5, 512GB SSD, Win11 Pro, Backlit KB, Wi-Fi 7, BT 5.4, Thunderbolt 4, 1080p IR Camera, Luna Grey',
-    slug: 'lenovo-yoga-7-2-in-1-personal-laptop-2026-16-1920x1200-touch-intel-8-core-ultra-7-256v-16gb-lpddr5-512gb-ssd-win11-pro-backlit-kb-wi-fi-7-bt-54-thunderbolt-4-1080p-ir-camera-luna-grey',
-    brand: 'Lenovo',
-    category: 'laptops',
-    subcategory: 'Convertible Laptop',
-    price: 3541,
-    salePrice: 3541,
-    images: ['https://m.media-amazon.com/images/I/71Kf-wvXdeL._AC_SL1500_.jpg'],
-    shortDescription: 'Lenovo Yoga 7 2-in-1 Personal Laptop, 2026, 16" 1920x1200 Touch, Intel-8 Core Ultra 7 256V, 16GB LPDDR5, 512GB SSD, Win11 Pro, Backlit KB, Wi-Fi 7, BT 5.4, Thunderbolt 4, 1080p IR Camera, Luna Grey',
-    description: 'Lenovo Yoga 7 2-in-1 Personal Laptop, 2026, 16" 1920x1200 Touch, Intel-8 Core Ultra 7 256V, 16GB LPDDR5, 512GB SSD, Win11 Pro, Backlit KB, Wi-Fi 7, BT 5.4, Thunderbolt 4, 1080p IR Camera, Luna Grey',
-    specifications: {
-      'SKU': 'B0H8RQ9WFH',
-      'Category': 'Laptop',
-      'Brand': 'Lenovo'
-    },
-    stock: 10,
-    sku: 'B0H8RQ9WFH',
-    featured: false,
-    newProduct: true,
-    tags: ['laptop', 'lenovo', 'amazon', 'convertible-laptop']
-  },
-  {
-    id: 'B0FK5Z99NF',
-    name: 'Lenovo Yoga 7i 2 IN 1 (83DL0002US) 16" 2K Touch Core Ultra 7 16GB 1TB SSD W11 Grey',
-    slug: 'lenovo-yoga-7i-2-in-1-83dl0002us-16-2k-touch-core-ultra-7-16gb-1tb-ssd-w11-grey',
-    brand: 'Lenovo',
-    category: 'laptops',
-    subcategory: 'Ultrabook',
-    price: 3789,
-    salePrice: 3789,
-    images: ['https://m.media-amazon.com/images/I/61gau4u4IpL._AC_SL1500_.jpg'],
-    shortDescription: 'Lenovo Yoga 7i 2 IN 1 (83DL0002US) 16" 2K Touch Core Ultra 7 16GB 1TB SSD W11 Grey',
-    description: 'Lenovo Yoga 7i 2 IN 1 (83DL0002US) 16" 2K Touch Core Ultra 7 16GB 1TB SSD W11 Grey',
-    specifications: {
-      'SKU': 'B0FK5Z99NF',
-      'Category': 'Laptop',
-      'Brand': 'Lenovo'
-    },
-    stock: 10,
-    sku: 'B0FK5Z99NF',
-    featured: false,
-    newProduct: true,
-    tags: ['laptop', 'lenovo', 'amazon', 'ultrabook']
-  },
-  {
-    id: 'B0GCP71QDP',
-    name: 'Lenovo Yoga 7 Laptop (UAE Version) | Intel Core Ultra 7 256V, Intel Arc Graphics, 16GB RAM, 512GB SSD, 14"WUXGA OLED Display, Luna Grey, Win11 + 2Y Premium Care [83JQ00B0AX]',
-    slug: 'lenovo-yoga-7-laptop-uae-version-intel-core-ultra-7-256v-intel-arc-graphics-16gb-ram-512gb-ssd-14wuxga-oled-display-luna-grey-win11-2y-premium-care-83jq00b0ax',
-    brand: 'Lenovo',
-    category: 'laptops',
-    subcategory: 'Ultrabook',
-    price: 5099,
-    salePrice: 5099,
-    images: ['https://m.media-amazon.com/images/I/715kg-vl0tL._AC_SL1500_.jpg'],
-    shortDescription: 'Lenovo Yoga 7 Laptop (UAE Version) | Intel Core Ultra 7 256V, Intel Arc Graphics, 16GB RAM, 512GB SSD, 14"WUXGA OLED Display, Luna Grey, Win11 + 2Y Premium Care [83JQ00B0AX]',
-    description: 'Lenovo Yoga 7 Laptop (UAE Version) | Intel Core Ultra 7 256V, Intel Arc Graphics, 16GB RAM, 512GB SSD, 14"WUXGA OLED Display, Luna Grey, Win11 + 2Y Premium Care [83JQ00B0AX]',
-    specifications: {
-      'SKU': 'B0GCP71QDP',
-      'Category': 'Laptop',
-      'Brand': 'Lenovo'
-    },
-    stock: 10,
-    sku: 'B0GCP71QDP',
-    featured: false,
-    newProduct: true,
-    tags: ['laptop', 'lenovo', 'amazon', 'ultrabook']
-  },
-  {
-    id: 'B0BY2WMGMB',
-    name: 'HP 27 inch All-in-One Desktop PC, FHD Display, 13th Gen Intel Core i7-1355U, 16 GB RAM, 512 GB SSD, Intel UHD Graphics, Windows 11, non touch (upgrade)',
-    slug: 'hp-27-inch-all-in-one-desktop-pc-fhd-display-13th-gen-intel-core-i7-1355u-16-gb-ram-512-gb-ssd-intel-uhd-graphics-windows-11-non-touch-upgrade',
-    brand: 'HP',
-    category: 'laptops',
-    subcategory: 'Ultrabook',
-    price: 3999,
-    salePrice: 3999,
-    images: ['https://m.media-amazon.com/images/I/81eGLSbrlBL._AC_SL1500_.jpg'],
-    shortDescription: 'HP 27 inch All-in-One Desktop PC, FHD Display, 13th Gen Intel Core i7-1355U, 16 GB RAM, 512 GB SSD, Intel UHD Graphics, Windows 11, non touch (upgrade)',
-    description: 'HP 27 inch All-in-One Desktop PC, FHD Display, 13th Gen Intel Core i7-1355U, 16 GB RAM, 512 GB SSD, Intel UHD Graphics, Windows 11, non touch (upgrade)',
-    specifications: {
-      'SKU': 'B0BY2WMGMB',
-      'Category': 'Laptop',
-      'Brand': 'HP'
-    },
-    stock: 10,
-    sku: 'B0BY2WMGMB',
-    featured: false,
-    newProduct: true,
-    tags: ['laptop', 'hp', 'amazon', 'ultrabook']
-  },
-  {
-    id: 'B0FC3PVQC8',
-    name: 'Lenovo ThinkPad E16 Gen 3 Business Laptop, 16" WUXGA Display, Intel Core Ultra 7 255H, 16GB DDR5 RAM, 1TB SSD, Intel Arc Graphics, Backlit Keyboard, Black (UPGRADE)',
-    slug: 'lenovo-thinkpad-e16-gen-3-business-laptop-16-wuxga-display-intel-core-ultra-7-255h-16gb-ddr5-ram-1tb-ssd-intel-arc-graphics-backlit-keyboard-black-upgrade',
-    brand: 'Lenovo',
-    category: 'laptops',
-    subcategory: 'Ultrabook',
-    price: 4500,
-    salePrice: 4500,
-    images: ['https://m.media-amazon.com/images/I/31VHmtKsvML._AC_SL1500_.jpg'],
-    shortDescription: 'Lenovo ThinkPad E16 Gen 3 Business Laptop, 16" WUXGA Display, Intel Core Ultra 7 255H, 16GB DDR5 RAM, 1TB SSD, Intel Arc Graphics, Backlit Keyboard, Black (UPGRADE)',
-    description: 'Lenovo ThinkPad E16 Gen 3 Business Laptop, 16" WUXGA Display, Intel Core Ultra 7 255H, 16GB DDR5 RAM, 1TB SSD, Intel Arc Graphics, Backlit Keyboard, Black (UPGRADE)',
-    specifications: {
-      'SKU': 'B0FC3PVQC8',
-      'Category': 'Laptop',
-      'Brand': 'Lenovo'
-    },
-    stock: 10,
-    sku: 'B0FC3PVQC8',
-    featured: false,
-    newProduct: true,
-    tags: ['laptop', 'lenovo', 'amazon', 'ultrabook']
-  },
-  {
-    id: 'B0FL7X17V5',
-    name: 'HP OmniBook X Flip 2-in-1 Laptop 2025, 16" WUXGA IPS Touchscreen ~ Ultra 7 256V 8-Core ~ Arc Graphics 140V ~ 16GB LPDDR5~1TB SSD ~ Backlit KB ~ Thunderbolt 4 ~ Wi-Fi 6E ~ Win11 Home',
-    slug: 'hp-omnibook-x-flip-2-in-1-laptop-2025-16-wuxga-ips-touchscreen-ultra-7-256v-8-core-arc-graphics-140v-16gb-lpddr51tb-ssd-backlit-kb-thunderbolt-4-wi-fi-6e-win11-home',
-    brand: 'HP',
-    category: 'laptops',
-    subcategory: 'Convertible Laptop',
-    price: 3249,
-    salePrice: 3249,
-    images: ['https://m.media-amazon.com/images/I/51eMMitcl0L._AC_SL1500_.jpg'],
-    shortDescription: 'HP OmniBook X Flip 2-in-1 Laptop 2025, 16" WUXGA IPS Touchscreen ~ Ultra 7 256V 8-Core ~ Arc Graphics 140V ~ 16GB LPDDR5~1TB SSD ~ Backlit KB ~ Thunderbolt 4 ~ Wi-Fi 6E ~ Win11 Home',
-    description: 'HP OmniBook X Flip 2-in-1 Laptop 2025, 16" WUXGA IPS Touchscreen ~ Ultra 7 256V 8-Core ~ Arc Graphics 140V ~ 16GB LPDDR5~1TB SSD ~ Backlit KB ~ Thunderbolt 4 ~ Wi-Fi 6E ~ Win11 Home',
-    specifications: {
-      'SKU': 'B0FL7X17V5',
-      'Category': 'Laptop',
-      'Brand': 'HP'
-    },
-    stock: 10,
-    sku: 'B0FL7X17V5',
-    featured: false,
-    newProduct: true,
-    tags: ['laptop', 'hp', 'amazon', 'convertible-laptop']
-  },
-  {
-    id: 'B0CNKL6N6M',
-    name: 'HP 15-fd1311TU Laptop, 15.6" FHD IPS Display, Intel Core Ultra 5 125H, 8GB RAM, 512GB SSD, Intel Graphics, English Keyboard, Windows 11 Pro, Natural Silver | CK6U4PA#UUF',
-    slug: 'hp-15-fd1311tu-laptop-156-fhd-ips-display-intel-core-ultra-5-125h-8gb-ram-512gb-ssd-intel-graphics-english-keyboard-windows-11-pro-natural-silver-ck6u4pauuf',
-    brand: 'HP',
-    category: 'laptops',
-    subcategory: 'Ultrabook',
-    price: 2150,
-    salePrice: 2150,
-    images: ['https://m.media-amazon.com/images/I/71+FS-vcsNL._AC_SL1500_.jpg'],
-    shortDescription: 'HP 15-fd1311TU Laptop, 15.6" FHD IPS Display, Intel Core Ultra 5 125H, 8GB RAM, 512GB SSD, Intel Graphics, English Keyboard, Windows 11 Pro, Natural Silver | CK6U4PA#UUF',
-    description: 'HP 15-fd1311TU Laptop, 15.6" FHD IPS Display, Intel Core Ultra 5 125H, 8GB RAM, 512GB SSD, Intel Graphics, English Keyboard, Windows 11 Pro, Natural Silver | CK6U4PA#UUF',
-    specifications: {
-      'SKU': 'B0CNKL6N6M',
-      'Category': 'Laptop',
-      'Brand': 'HP'
-    },
-    stock: 10,
-    sku: 'B0CNKL6N6M',
-    featured: false,
-    newProduct: true,
-    tags: ['laptop', 'hp', 'amazon', 'ultrabook']
-  },
-  {
-    id: 'B0D1YZJRK9',
-    name: 'Lenovo Newest V15 Gen 4 Business Laptop, 15.6" FHD Display, Intel Core i5-13420H (Beat i7-1355U), 16GB RAM, 1TB SSD, HDMI, RJ45, Webcam, Numeric Keypad, Wi-Fi, Windows 11 Pro, Black',
-    slug: 'lenovo-newest-v15-gen-4-business-laptop-156-fhd-display-intel-core-i5-13420h-beat-i7-1355u-16gb-ram-1tb-ssd-hdmi-rj45-webcam-numeric-keypad-wi-fi-windows-11-pro-black',
-    brand: 'Lenovo',
-    category: 'laptops',
-    subcategory: 'Ultrabook',
-    price: 2699,
-    salePrice: 2699,
-    images: ['https://m.media-amazon.com/images/I/71N9tTF6pML._AC_SL1500_.jpg'],
-    shortDescription: 'Lenovo Newest V15 Gen 4 Business Laptop, 15.6" FHD Display, Intel Core i5-13420H (Beat i7-1355U), 16GB RAM, 1TB SSD, HDMI, RJ45, Webcam, Numeric Keypad, Wi-Fi, Windows 11 Pro, Black',
-    description: 'Lenovo Newest V15 Gen 4 Business Laptop, 15.6" FHD Display, Intel Core i5-13420H (Beat i7-1355U), 16GB RAM, 1TB SSD, HDMI, RJ45, Webcam, Numeric Keypad, Wi-Fi, Windows 11 Pro, Black',
-    specifications: {
-      'SKU': 'B0D1YZJRK9',
-      'Category': 'Laptop',
-      'Brand': 'Lenovo'
-    },
-    stock: 10,
-    sku: 'B0D1YZJRK9',
-    featured: false,
-    newProduct: true,
-    tags: ['laptop', 'lenovo', 'amazon', 'ultrabook']
-  },
-  {
-    id: 'B0H2B5MZSQ',
-    name: 'ASUS Vivobook 15 Slim Laptop (Cool Silver) | 15.6"FHD (1920 x 1080) Display, Intel Core 7 150U, Intel Graphics, 16GB RAM, 512GB SSD,Win11 [X1504VAP-BQ715WL]',
-    slug: 'asus-vivobook-15-slim-laptop-cool-silver-156fhd-1920-x-1080-display-intel-core-7-150u-intel-graphics-16gb-ram-512gb-ssdwin11-x1504vap-bq715wl',
-    brand: 'ASUS',
-    category: 'laptops',
-    subcategory: 'Ultrabook',
-    price: 2470,
-    salePrice: 2470,
-    images: ['https://m.media-amazon.com/images/I/714ySV-OptL._AC_SL1500_.jpg'],
-    shortDescription: 'ASUS Vivobook 15 Slim Laptop (Cool Silver) | 15.6"FHD (1920 x 1080) Display, Intel Core 7 150U, Intel Graphics, 16GB RAM, 512GB SSD,Win11 [X1504VAP-BQ715WL]',
-    description: 'ASUS Vivobook 15 Slim Laptop (Cool Silver) | 15.6"FHD (1920 x 1080) Display, Intel Core 7 150U, Intel Graphics, 16GB RAM, 512GB SSD,Win11 [X1504VAP-BQ715WL]',
-    specifications: {
-      'SKU': 'B0H2B5MZSQ',
-      'Category': 'Laptop',
-      'Brand': 'ASUS'
-    },
-    stock: 10,
-    sku: 'B0H2B5MZSQ',
-    featured: false,
-    newProduct: true,
-    tags: ['laptop', 'asus', 'amazon', 'ultrabook']
-  },
-  {
-    id: 'B0FJ2THY4X',
-    name: 'Lenovo Legion 5 15IRX10 Gaming Laptop â€“ Intel Core i9-14900HX, 15.1" WQXGA OLED 165Hz, RTX 5070 8GB, 32GB DDR5, 1TB SSD, Windows 11 Pro, AI LA1 Chip, Backlit Keyboard, ECLIPSE_BLACK (UAE Version)',
-    slug: 'lenovo-legion-5-15irx10-gaming-laptop-intel-core-i9-14900hx-151-wqxga-oled-165hz-rtx-5070-8gb-32gb-ddr5-1tb-ssd-windows-11-pro-ai-la1-chip-backlit-keyboard-eclipseblack-uae-version',
-    brand: 'Lenovo',
-    category: 'laptops',
-    subcategory: 'Gaming Laptop',
-    price: 12800,
-    salePrice: 12800,
-    images: ['https://m.media-amazon.com/images/I/61mH7CKeAlL._AC_SL1500_.jpg'],
-    shortDescription: 'Lenovo Legion 5 15IRX10 Gaming Laptop â€“ Intel Core i9-14900HX, 15.1" WQXGA OLED 165Hz, RTX 5070 8GB, 32GB DDR5, 1TB SSD, Windows 11 Pro, AI LA1 Chip, Backlit Keyboard, ECLIPSE_BLACK (UAE Version)',
-    description: 'Lenovo Legion 5 15IRX10 Gaming Laptop â€“ Intel Core i9-14900HX, 15.1" WQXGA OLED 165Hz, RTX 5070 8GB, 32GB DDR5, 1TB SSD, Windows 11 Pro, AI LA1 Chip, Backlit Keyboard, ECLIPSE_BLACK (UAE Version)',
-    specifications: {
-      'SKU': 'B0FJ2THY4X',
-      'Category': 'Laptop',
-      'Brand': 'Lenovo'
-    },
-    stock: 10,
-    sku: 'B0FJ2THY4X',
-    featured: false,
-    newProduct: true,
-    tags: ['laptop', 'lenovo', 'amazon', 'gaming-laptop']
-  },
-  {
-    id: 'B0H8SHQ13M',
-    name: 'HP OmniBook 3 16-BU0007DX 16" 2K Touchscreen Laptop, Intel Core Ultra 7 255U (2025), PCIe SSD, 1920 x 1200 IPS Display, Wi-Fi, Windows 11, MS Office, Mica Silver (16GB RAM + 512GB SSD)',
-    slug: 'hp-omnibook-3-16-bu0007dx-16-2k-touchscreen-laptop-intel-core-ultra-7-255u-2025-pcie-ssd-1920-x-1200-ips-display-wi-fi-windows-11-ms-office-mica-silver-16gb-ram-512gb-ssd',
-    brand: 'HP',
-    category: 'laptops',
-    subcategory: 'Convertible Laptop',
-    price: 3299,
-    salePrice: 3299,
-    images: ['https://m.media-amazon.com/images/I/71BvHzKIG+L._AC_SL1500_.jpg'],
-    shortDescription: 'HP OmniBook 3 16-BU0007DX 16" 2K Touchscreen Laptop, Intel Core Ultra 7 255U (2025), PCIe SSD, 1920 x 1200 IPS Display, Wi-Fi, Windows 11, MS Office, Mica Silver (16GB RAM + 512GB SSD)',
-    description: 'HP OmniBook 3 16-BU0007DX 16" 2K Touchscreen Laptop, Intel Core Ultra 7 255U (2025), PCIe SSD, 1920 x 1200 IPS Display, Wi-Fi, Windows 11, MS Office, Mica Silver (16GB RAM + 512GB SSD)',
-    specifications: {
-      'SKU': 'B0H8SHQ13M',
-      'Category': 'Laptop',
-      'Brand': 'HP'
-    },
-    stock: 10,
-    sku: 'B0H8SHQ13M',
-    featured: false,
-    newProduct: true,
-    tags: ['laptop', 'hp', 'amazon', 'convertible-laptop']
-  },
-  {
-    id: 'B0G1M5GV56',
-    name: 'HP Victus FHD-Gaming-Laptop, 39.6 cm 144Hz RTX 3050 8-Core Intel Core i5-13420H, 16GB RAM 512GB SSD, Wi-Fi 6, Long Battery Life Numeric Keypad, Backlit Keyboard Win 11 Pro with',
-    slug: 'hp-victus-fhd-gaming-laptop-396-cm-144hz-rtx-3050-8-core-intel-core-i5-13420h-16gb-ram-512gb-ssd-wi-fi-6-long-battery-life-numeric-keypad-backlit-keyboard-win-11-pro-with',
-    brand: 'HP',
-    category: 'laptops',
-    subcategory: 'Gaming Laptop',
-    price: 3449,
-    salePrice: 3449,
-    images: ['https://m.media-amazon.com/images/I/61gsGF3+O3L._AC_SL1500_.jpg'],
-    shortDescription: 'HP Victus FHD-Gaming-Laptop, 39.6 cm 144Hz RTX 3050 8-Core Intel Core i5-13420H, 16GB RAM 512GB SSD, Wi-Fi 6, Long Battery Life Numeric Keypad, Backlit Keyboard Win 11 Pro with',
-    description: 'HP Victus FHD-Gaming-Laptop, 39.6 cm 144Hz RTX 3050 8-Core Intel Core i5-13420H, 16GB RAM 512GB SSD, Wi-Fi 6, Long Battery Life Numeric Keypad, Backlit Keyboard Win 11 Pro with',
-    specifications: {
-      'SKU': 'B0G1M5GV56',
-      'Category': 'Laptop',
-      'Brand': 'HP'
-    },
-    stock: 10,
-    sku: 'B0G1M5GV56',
-    featured: false,
-    newProduct: true,
-    tags: ['laptop', 'hp', 'amazon', 'gaming-laptop']
-  },
-  {
-    id: 'B0HDDZNVZT',
-    name: 'Lenovo Yoga 7i 2-in-1 Laptop, Intel Core Ultra 5 322 Processor, 16GB DDR5 RAM, 512GB NVMe SSD, 14" 2K WUXGA OLED Touchscreen Display, Intel Graphics Windows 11 Home Luna Grey',
-    slug: 'lenovo-yoga-7i-2-in-1-laptop-intel-core-ultra-5-322-processor-16gb-ddr5-ram-512gb-nvme-ssd-14-2k-wuxga-oled-touchscreen-display-intel-graphics-windows-11-home-luna-grey',
-    brand: 'Lenovo',
-    category: 'laptops',
-    subcategory: 'Convertible Laptop',
-    price: 3825,
-    salePrice: 3825,
-    images: ['https://m.media-amazon.com/images/I/51VyOIAMi+L._AC_SL1500_.jpg'],
-    shortDescription: 'Lenovo Yoga 7i 2-in-1 Laptop, Intel Core Ultra 5 322 Processor, 16GB DDR5 RAM, 512GB NVMe SSD, 14" 2K WUXGA OLED Touchscreen Display, Intel Graphics Windows 11 Home Luna Grey',
-    description: 'Lenovo Yoga 7i 2-in-1 Laptop, Intel Core Ultra 5 322 Processor, 16GB DDR5 RAM, 512GB NVMe SSD, 14" 2K WUXGA OLED Touchscreen Display, Intel Graphics Windows 11 Home Luna Grey',
-    specifications: {
-      'SKU': 'B0HDDZNVZT',
-      'Category': 'Laptop',
-      'Brand': 'Lenovo'
-    },
-    stock: 10,
-    sku: 'B0HDDZNVZT',
-    featured: false,
-    newProduct: true,
-    tags: ['laptop', 'lenovo', 'amazon', 'convertible-laptop']
-  },
-  {
-    id: 'B0FHXGDZ5Q',
-    name: 'Lenovo Legion 5 15IRX10 38.4 cm WQXGA OLED, Gaming Laptop, 14th Gen Intel Core i9 14900HX 1.6GHz; NVIDIA GeForce RTX 5070 8GB GDDR7; 32GB DDR5 RAM; 1TB NVMe M.2 SSD; Gigabit LAN, WiFi 7 2x2',
-    slug: 'lenovo-legion-5-15irx10-384-cm-wqxga-oled-gaming-laptop-14th-gen-intel-core-i9-14900hx-16ghz-nvidia-geforce-rtx-5070-8gb-gddr7-32gb-ddr5-ram-1tb-nvme-m2-ssd-gigabit-lan-wifi-7-2x2',
-    brand: 'Lenovo',
-    category: 'laptops',
-    subcategory: 'Gaming Laptop',
-    price: 9899,
-    salePrice: 9899,
-    images: ['https://m.media-amazon.com/images/I/61cE4bxZ4uL._AC_SL1500_.jpg'],
-    shortDescription: 'Lenovo Legion 5 15IRX10 38.4 cm WQXGA OLED, Gaming Laptop, 14th Gen Intel Core i9 14900HX 1.6GHz; NVIDIA GeForce RTX 5070 8GB GDDR7; 32GB DDR5 RAM; 1TB NVMe M.2 SSD; Gigabit LAN, WiFi 7 2x2',
-    description: 'Lenovo Legion 5 15IRX10 38.4 cm WQXGA OLED, Gaming Laptop, 14th Gen Intel Core i9 14900HX 1.6GHz; NVIDIA GeForce RTX 5070 8GB GDDR7; 32GB DDR5 RAM; 1TB NVMe M.2 SSD; Gigabit LAN, WiFi 7 2x2',
-    specifications: {
-      'SKU': 'B0FHXGDZ5Q',
-      'Category': 'Laptop',
-      'Brand': 'Lenovo'
-    },
-    stock: 10,
-    sku: 'B0FHXGDZ5Q',
-    featured: false,
-    newProduct: true,
-    tags: ['laptop', 'lenovo', 'amazon', 'gaming-laptop']
-  },
-  {
-    id: 'B0DBZZC5KH',
-    name: 'Lenovo Yoga 7i 2-in-1 Business Laptop 16.0" Touch FHD + IPS (Intel Core Ultra 7 155U (Beats i7-1335U), 16GB LPDDR5X, 2TB SSD, Backlit KYB, FP Reader, 2 Thunderbolt 4, Win11H) w/AI Copilot & DKZ Hub',
-    slug: 'lenovo-yoga-7i-2-in-1-business-laptop-160-touch-fhd-ips-intel-core-ultra-7-155u-beats-i7-1335u-16gb-lpddr5x-2tb-ssd-backlit-kyb-fp-reader-2-thunderbolt-4-win11h-wai-copilot-dkz-hub',
-    brand: 'Lenovo',
-    category: 'laptops',
-    subcategory: 'Convertible Laptop',
-    price: 5295,
-    salePrice: 5295,
-    images: ['https://m.media-amazon.com/images/I/61fqoSGhw3L._AC_SL1500_.jpg'],
-    shortDescription: 'Lenovo Yoga 7i 2-in-1 Business Laptop 16.0" Touch FHD + IPS (Intel Core Ultra 7 155U (Beats i7-1335U), 16GB LPDDR5X, 2TB SSD, Backlit KYB, FP Reader, 2 Thunderbolt 4, Win11H) w/AI Copilot & DKZ Hub',
-    description: 'Lenovo Yoga 7i 2-in-1 Business Laptop 16.0" Touch FHD + IPS (Intel Core Ultra 7 155U (Beats i7-1335U), 16GB LPDDR5X, 2TB SSD, Backlit KYB, FP Reader, 2 Thunderbolt 4, Win11H) w/AI Copilot & DKZ Hub',
-    specifications: {
-      'SKU': 'B0DBZZC5KH',
-      'Category': 'Laptop',
-      'Brand': 'Lenovo'
-    },
-    stock: 10,
-    sku: 'B0DBZZC5KH',
-    featured: false,
-    newProduct: true,
-    tags: ['laptop', 'lenovo', 'amazon', 'convertible-laptop']
-  },
-  {
-    id: 'B0D1QN73FH',
-    name: 'HP Laptop for Business and Student, 15.6 Inch HD Touchscreen, Intel 6-Core i3-1215U Processor, 32GB RAM, 1TB SSD, lntel UHD Graphics, Windows 11 Home, with Microsoft Office Lifetime License(Upgraded)',
-    slug: 'hp-laptop-for-business-and-student-156-inch-hd-touchscreen-intel-6-core-i3-1215u-processor-32gb-ram-1tb-ssd-lntel-uhd-graphics-windows-11-home-with-microsoft-office-lifetime-licenseupgraded',
-    brand: 'HP',
-    category: 'laptops',
-    subcategory: 'Convertible Laptop',
-    price: 2589,
-    salePrice: 2589,
-    images: ['https://m.media-amazon.com/images/I/61oBV7RZJNL._AC_SL1500_.jpg'],
-    shortDescription: 'HP Laptop for Business and Student, 15.6 Inch HD Touchscreen, Intel 6-Core i3-1215U Processor, 32GB RAM, 1TB SSD, lntel UHD Graphics, Windows 11 Home, with Microsoft Office Lifetime License(Upgraded)',
-    description: 'HP Laptop for Business and Student, 15.6 Inch HD Touchscreen, Intel 6-Core i3-1215U Processor, 32GB RAM, 1TB SSD, lntel UHD Graphics, Windows 11 Home, with Microsoft Office Lifetime License(Upgraded)',
-    specifications: {
-      'SKU': 'B0D1QN73FH',
-      'Category': 'Laptop',
-      'Brand': 'HP'
-    },
-    stock: 10,
-    sku: 'B0D1QN73FH',
-    featured: false,
-    newProduct: true,
-    tags: ['laptop', 'hp', 'amazon', 'convertible-laptop']
-  },
-  {
-    id: 'B0DBRD8GPV',
-    name: 'Lenovo ThinkPad T14 Gen 5 21MC004YUS 14 Touchscreen Notebook - WUXGA - AMD Ryzen 7 PRO 8840U - 32 GB - 512 GB SSD - English Keyboard - Black',
-    slug: 'lenovo-thinkpad-t14-gen-5-21mc004yus-14-touchscreen-notebook---wuxga---amd-ryzen-7-pro-8840u---32-gb---512-gb-ssd---english-keyboard---black',
-    brand: 'Lenovo',
-    category: 'laptops',
-    subcategory: 'Convertible Laptop',
-    price: 5499,
-    salePrice: 5499,
-    images: ['https://m.media-amazon.com/images/I/516PAyGaPwL._AC_SL1500_.jpg'],
-    shortDescription: 'Lenovo ThinkPad T14 Gen 5 21MC004YUS 14 Touchscreen Notebook - WUXGA - AMD Ryzen 7 PRO 8840U - 32 GB - 512 GB SSD - English Keyboard - Black',
-    description: 'Lenovo ThinkPad T14 Gen 5 21MC004YUS 14 Touchscreen Notebook - WUXGA - AMD Ryzen 7 PRO 8840U - 32 GB - 512 GB SSD - English Keyboard - Black',
-    specifications: {
-      'SKU': 'B0DBRD8GPV',
-      'Category': 'Laptop',
-      'Brand': 'Lenovo'
-    },
-    stock: 10,
-    sku: 'B0DBRD8GPV',
-    featured: false,
-    newProduct: true,
-    tags: ['laptop', 'lenovo', 'amazon', 'convertible-laptop']
-  },
-  {
-    id: 'B0DP19DT2K',
-    name: 'HP (Upgraded) - 15.6" Touch-Screen Laptop - Intel Core i5-1235U - 16GB Memory - 512GB SSD - Natural Silver',
-    slug: 'hp-upgraded---156-touch-screen-laptop---intel-core-i5-1235u---16gb-memory---512gb-ssd---natural-silver',
-    brand: 'HP',
-    category: 'laptops',
-    subcategory: 'Ultrabook',
-    price: 2145,
-    salePrice: 2145,
-    images: ['https://m.media-amazon.com/images/I/513wi1qBSEL._AC_SL1500_.jpg'],
-    shortDescription: 'HP (Upgraded) - 15.6" Touch-Screen Laptop - Intel Core i5-1235U - 16GB Memory - 512GB SSD - Natural Silver',
-    description: 'HP (Upgraded) - 15.6" Touch-Screen Laptop - Intel Core i5-1235U - 16GB Memory - 512GB SSD - Natural Silver',
-    specifications: {
-      'SKU': 'B0DP19DT2K',
-      'Category': 'Laptop',
-      'Brand': 'HP'
-    },
-    stock: 10,
-    sku: 'B0DP19DT2K',
-    featured: false,
-    newProduct: true,
-    tags: ['laptop', 'hp', 'amazon', 'ultrabook']
-  },
-  {
-    id: 'B09CDCR2HH',
-    name: 'Dell Latitude 7000 7450 Laptop 14 Inch Full HD Plus Intel Core Ultra 5 135U 16GB SSD 256GB Titan Grey',
-    slug: 'dell-latitude-7000-7450-laptop-14-inch-full-hd-plus-intel-core-ultra-5-135u-16gb-ssd-256gb-titan-grey',
-    brand: 'Dell',
-    category: 'laptops',
-    subcategory: 'Ultrabook',
-    price: 3499,
-    salePrice: 3499,
-    images: ['https://m.media-amazon.com/images/I/41HHnLc2BYL._AC_SL1500_.jpg'],
-    shortDescription: 'Dell Latitude 7000 7450 Laptop 14 Inch Full HD Plus Intel Core Ultra 5 135U 16GB SSD 256GB Titan Grey',
-    description: 'Dell Latitude 7000 7450 Laptop 14 Inch Full HD Plus Intel Core Ultra 5 135U 16GB SSD 256GB Titan Grey',
-    specifications: {
-      'SKU': 'B09CDCR2HH',
-      'Category': 'Laptop',
-      'Brand': 'Dell'
-    },
-    stock: 10,
-    sku: 'B09CDCR2HH',
-    featured: false,
-    newProduct: true,
-    tags: ['laptop', 'dell', 'amazon', 'ultrabook']
-  },
-  {
-    id: 'B0G6LS2VBD',
-    name: 'Lenovo Yoga 7 2-in-1 with Ryzen AI 5, 14” OLED Touch, 16GB RAM, Yoga Pen | Copilot+ PC, AMD Ryzen AI 5 340 Processor, WUXGA TouchDisplay, 1TB of SSD, Wi-Fi 7, Fingerprint Reader, and Windows 11 Home',
-    slug: 'lenovo-yoga-7-2-in-1-with-ryzen-ai-5-14-oled-touch-16gb-ram-yoga-pen-copilot-pc-amd-ryzen-ai-5-340-processor-wuxga-touchdisplay-1tb-of-ssd-wi-fi-7-fingerprint-reader-and-windows-11-home',
-    brand: 'Lenovo',
-    category: 'laptops',
-    subcategory: 'Convertible Laptop',
-    price: 6500,
-    salePrice: 6500,
-    images: ['https://m.media-amazon.com/images/I/71i-GOtYCxL._AC_SL1500_.jpg'],
-    shortDescription: 'Lenovo Yoga 7 2-in-1 with Ryzen AI 5, 14” OLED Touch, 16GB RAM, Yoga Pen | Copilot+ PC, AMD Ryzen AI 5 340 Processor, WUXGA TouchDisplay, 1TB of SSD, Wi-Fi 7, Fingerprint Reader, and Windows 11 Home',
-    description: 'Lenovo Yoga 7 2-in-1 with Ryzen AI 5, 14” OLED Touch, 16GB RAM, Yoga Pen | Copilot+ PC, AMD Ryzen AI 5 340 Processor, WUXGA TouchDisplay, 1TB of SSD, Wi-Fi 7, Fingerprint Reader, and Windows 11 Home',
-    specifications: {
-      'SKU': 'B0G6LS2VBD',
-      'Category': 'Laptop',
-      'Brand': 'Lenovo'
-    },
-    stock: 10,
-    sku: 'B0G6LS2VBD',
-    featured: false,
-    newProduct: true,
-    tags: ['laptop', 'lenovo', 'amazon', 'convertible-laptop']
-  },
-  {
-    id: 'B0DJWG9DW1',
-    name: 'HP (Upgraded) (2023) Laptop – 13th Gen/Intel Core i7-1355U / 15.6inch FHD / 2TB SSD /64GB RAM/Shared Intel Iris Xe Graphics/Windows 11 Home/English Keyboard/Silver',
-    slug: 'hp-upgraded-2023-laptop-13th-genintel-core-i7-1355u-156inch-fhd-2tb-ssd-64gb-ramshared-intel-iris-xe-graphicswindows-11-homeenglish-keyboardsilver',
-    brand: 'HP',
-    category: 'laptops',
-    subcategory: 'Ultrabook',
-    price: 3999,
-    salePrice: 3999,
-    images: ['https://m.media-amazon.com/images/I/61N6rV54OEL._AC_SL1500_.jpg'],
-    shortDescription: 'HP (Upgraded) (2023) Laptop – 13th Gen/Intel Core i7-1355U / 15.6inch FHD / 2TB SSD /64GB RAM/Shared Intel Iris Xe Graphics/Windows 11 Home/English Keyboard/Silver',
-    description: 'HP (Upgraded) (2023) Laptop – 13th Gen/Intel Core i7-1355U / 15.6inch FHD / 2TB SSD /64GB RAM/Shared Intel Iris Xe Graphics/Windows 11 Home/English Keyboard/Silver',
-    specifications: {
-      'SKU': 'B0DJWG9DW1',
-      'Category': 'Laptop',
-      'Brand': 'HP'
-    },
-    stock: 10,
-    sku: 'B0DJWG9DW1',
-    featured: false,
-    newProduct: true,
-    tags: ['laptop', 'hp', 'amazon', 'ultrabook']
-  },
-  {
-    id: 'B0CTSGHYVM',
-    name: 'Lenovo ThinkPad E16 16" FHD+ 13th Gen Intel 10-Core i5-1335U (Beat i7-1270P), 16GB DDR4 RAM, 1TB PCIe SSD, WiFi6, BT, Backlit KB, Reader(Upgraded)',
-    slug: 'lenovo-thinkpad-e16-16-fhd-13th-gen-intel-10-core-i5-1335u-beat-i7-1270p-16gb-ddr4-ram-1tb-pcie-ssd-wifi6-bt-backlit-kb-readerupgraded',
-    brand: 'Lenovo',
-    category: 'laptops',
-    subcategory: 'Ultrabook',
-    price: 3669,
-    salePrice: 3669,
-    images: ['https://m.media-amazon.com/images/I/81HkPQCZC1L._AC_SL1500_.jpg'],
-    shortDescription: 'Lenovo ThinkPad E16 16" FHD+ 13th Gen Intel 10-Core i5-1335U (Beat i7-1270P), 16GB DDR4 RAM, 1TB PCIe SSD, WiFi6, BT, Backlit KB, Reader(Upgraded)',
-    description: 'Lenovo ThinkPad E16 16" FHD+ 13th Gen Intel 10-Core i5-1335U (Beat i7-1270P), 16GB DDR4 RAM, 1TB PCIe SSD, WiFi6, BT, Backlit KB, Reader(Upgraded)',
-    specifications: {
-      'SKU': 'B0CTSGHYVM',
-      'Category': 'Laptop',
-      'Brand': 'Lenovo'
-    },
-    stock: 10,
-    sku: 'B0CTSGHYVM',
-    featured: false,
-    newProduct: true,
-    tags: ['laptop', 'lenovo', 'amazon', 'ultrabook']
-  },
-  {
-    id: 'B0D35RK7DJ',
-    name: 'HP(Upgraded) 14 Business Laptop With 14\'\' FHD Display, Intel Core i5-1335U Processor |16GB DDR4 RAM |512GB NVMe SSD |Intel Iris Xe Graphics |Backlit Keyboard |Windows 11 Natural silver',
-    slug: 'hpupgraded-14-business-laptop-with-14-fhd-display-intel-core-i5-1335u-processor-16gb-ddr4-ram-512gb-nvme-ssd-intel-iris-xe-graphics-backlit-keyboard-windows-11-natural-silver',
-    brand: 'HP',
-    category: 'laptops',
-    subcategory: 'Ultrabook',
-    price: 2999,
-    salePrice: 2999,
-    images: ['https://m.media-amazon.com/images/I/51HSSzIQIvL._AC_SL1500_.jpg'],
-    shortDescription: 'HP(Upgraded) 14 Business Laptop With 14\'\' FHD Display, Intel Core i5-1335U Processor |16GB DDR4 RAM |512GB NVMe SSD |Intel Iris Xe Graphics |Backlit Keyboard |Windows 11 Natural silver',
-    description: 'HP(Upgraded) 14 Business Laptop With 14\'\' FHD Display, Intel Core i5-1335U Processor |16GB DDR4 RAM |512GB NVMe SSD |Intel Iris Xe Graphics |Backlit Keyboard |Windows 11 Natural silver',
-    specifications: {
-      'SKU': 'B0D35RK7DJ',
-      'Category': 'Laptop',
-      'Brand': 'HP'
-    },
-    stock: 10,
-    sku: 'B0D35RK7DJ',
-    featured: false,
-    newProduct: true,
-    tags: ['laptop', 'hp', 'amazon', 'ultrabook']
-  },
-  {
-    id: 'B0DDKTJWJG',
-    name: 'Lenovo (Upgraded) 2024 Yoga 7i 2-in-1 AI Laptop, 16" WUXGA Touch, Intel 12-Core Ultra 7 155U (Beat i7-1355U), 16GB LPDDR5X RAM, 1TB SSD, Backlit, FHD IR Webcam, AI Copilot, Win11 +Portable SSD&Stylus',
-    slug: 'lenovo-upgraded-2024-yoga-7i-2-in-1-ai-laptop-16-wuxga-touch-intel-12-core-ultra-7-155u-beat-i7-1355u-16gb-lpddr5x-ram-1tb-ssd-backlit-fhd-ir-webcam-ai-copilot-win11-portable-ssdstylus',
-    brand: 'Lenovo',
-    category: 'laptops',
-    subcategory: 'Convertible Laptop',
-    price: 4199,
-    salePrice: 4199,
-    images: ['https://m.media-amazon.com/images/I/71Z3A0qN3zL._AC_SL1500_.jpg'],
-    shortDescription: 'Lenovo (Upgraded) 2024 Yoga 7i 2-in-1 AI Laptop, 16" WUXGA Touch, Intel 12-Core Ultra 7 155U (Beat i7-1355U), 16GB LPDDR5X RAM, 1TB SSD, Backlit, FHD IR Webcam, AI Copilot, Win11 +Portable SSD&Stylus',
-    description: 'Lenovo (Upgraded) 2024 Yoga 7i 2-in-1 AI Laptop, 16" WUXGA Touch, Intel 12-Core Ultra 7 155U (Beat i7-1355U), 16GB LPDDR5X RAM, 1TB SSD, Backlit, FHD IR Webcam, AI Copilot, Win11 +Portable SSD&Stylus',
-    specifications: {
-      'SKU': 'B0DDKTJWJG',
-      'Category': 'Laptop',
-      'Brand': 'Lenovo'
-    },
-    stock: 10,
-    sku: 'B0DDKTJWJG',
-    featured: false,
-    newProduct: true,
-    tags: ['laptop', 'lenovo', 'amazon', 'convertible-laptop']
-  },
-  {
-    id: 'B0D9PKL6VM',
-    name: 'HP (Upgraded) Victus Gaming Laptop 12th Gen Intel 8-Core i5-12450H, 8GB RAM, 512GB SSD, 4GB NVIDIA GeForce RTX 3050, 15.6” FHD (1920 x 1080) 144Hz, Windows 11 Home',
-    slug: 'hp-upgraded-victus-gaming-laptop-12th-gen-intel-8-core-i5-12450h-8gb-ram-512gb-ssd-4gb-nvidia-geforce-rtx-3050-156-fhd-1920-x-1080-144hz-windows-11-home',
-    brand: 'HP',
-    category: 'laptops',
-    subcategory: 'Gaming Laptop',
-    price: 3250,
-    salePrice: 3250,
-    images: ['https://m.media-amazon.com/images/I/51X-uHd9UNL._AC_SL1500_.jpg'],
-    shortDescription: 'HP (Upgraded) Victus Gaming Laptop 12th Gen Intel 8-Core i5-12450H, 8GB RAM, 512GB SSD, 4GB NVIDIA GeForce RTX 3050, 15.6” FHD (1920 x 1080) 144Hz, Windows 11 Home',
-    description: 'HP (Upgraded) Victus Gaming Laptop 12th Gen Intel 8-Core i5-12450H, 8GB RAM, 512GB SSD, 4GB NVIDIA GeForce RTX 3050, 15.6” FHD (1920 x 1080) 144Hz, Windows 11 Home',
-    specifications: {
-      'SKU': 'B0D9PKL6VM',
-      'Category': 'Laptop',
-      'Brand': 'HP'
-    },
-    stock: 10,
-    sku: 'B0D9PKL6VM',
-    featured: false,
-    newProduct: true,
-    tags: ['laptop', 'hp', 'amazon', 'gaming-laptop']
-  },
-  {
-    id: 'B0DS2NG3GM',
-    name: 'HP 15.6" Touchscreen Laptop 15 INCH HD Student Laptops, 12th Gen Intel 10 Cores Processor (Beat i7-1195G7), 32GB RAM 1TB PCIe SSD, Iris Xe Graphics, Wi-Fi 6E Win11, Silver +BWE Accessories',
-    slug: 'hp-156-touchscreen-laptop-15-inch-hd-student-laptops-12th-gen-intel-10-cores-processor-beat-i7-1195g7-32gb-ram-1tb-pcie-ssd-iris-xe-graphics-wi-fi-6e-win11-silver-bwe-accessories',
-    brand: 'HP',
-    category: 'laptops',
-    subcategory: 'Convertible Laptop',
-    price: 2989,
-    salePrice: 2989,
-    images: ['https://m.media-amazon.com/images/I/71OxULLN4tL._AC_SL1500_.jpg'],
-    shortDescription: 'HP 15.6" Touchscreen Laptop 15 INCH HD Student Laptops, 12th Gen Intel 10 Cores Processor (Beat i7-1195G7), 32GB RAM 1TB PCIe SSD, Iris Xe Graphics, Wi-Fi 6E Win11, Silver +BWE Accessories',
-    description: 'HP 15.6" Touchscreen Laptop 15 INCH HD Student Laptops, 12th Gen Intel 10 Cores Processor (Beat i7-1195G7), 32GB RAM 1TB PCIe SSD, Iris Xe Graphics, Wi-Fi 6E Win11, Silver +BWE Accessories',
-    specifications: {
-      'SKU': 'B0DS2NG3GM',
-      'Category': 'Laptop',
-      'Brand': 'HP'
-    },
-    stock: 10,
-    sku: 'B0DS2NG3GM',
-    featured: false,
-    newProduct: true,
-    tags: ['laptop', 'hp', 'amazon', 'convertible-laptop']
-  },
-  {
-    id: 'B0CXMMWSY2',
-    name: 'Lenovo (Upgraded) ThinkPad E16 Gen 1 Business Laptop 16.0" IPS WUXGA (Intel i5-1335U 10-Core, 16GB RAM, 512GB PCIe SSD, Backlit KYB, Fingerprint, Thunderbolt 4, WiFi 6, Win 11 Pro',
-    slug: 'lenovo-upgraded-thinkpad-e16-gen-1-business-laptop-160-ips-wuxga-intel-i5-1335u-10-core-16gb-ram-512gb-pcie-ssd-backlit-kyb-fingerprint-thunderbolt-4-wifi-6-win-11-pro',
-    brand: 'Lenovo',
-    category: 'laptops',
-    subcategory: 'Ultrabook',
-    price: 3540,
-    salePrice: 3540,
-    images: ['https://m.media-amazon.com/images/I/61YTT8ZZVaL._AC_SL1500_.jpg'],
-    shortDescription: 'Lenovo (Upgraded) ThinkPad E16 Gen 1 Business Laptop 16.0" IPS WUXGA (Intel i5-1335U 10-Core, 16GB RAM, 512GB PCIe SSD, Backlit KYB, Fingerprint, Thunderbolt 4, WiFi 6, Win 11 Pro',
-    description: 'Lenovo (Upgraded) ThinkPad E16 Gen 1 Business Laptop 16.0" IPS WUXGA (Intel i5-1335U 10-Core, 16GB RAM, 512GB PCIe SSD, Backlit KYB, Fingerprint, Thunderbolt 4, WiFi 6, Win 11 Pro',
-    specifications: {
-      'SKU': 'B0CXMMWSY2',
-      'Category': 'Laptop',
-      'Brand': 'Lenovo'
-    },
-    stock: 10,
-    sku: 'B0CXMMWSY2',
-    featured: false,
-    newProduct: true,
-    tags: ['laptop', 'lenovo', 'amazon', 'ultrabook']
-  },
-  {
-    id: 'B0DBNZKBMQ',
-    name: 'Lenovo (Upgraded) ThinkPad E16 Business Laptop (16" FHD+ Anti-Glare, Intel 13th Gen 10-Core i7-1355U, 40GB RAM, 1TB SSD), Backlit, Fingerprint, IST Hub, FHD Webcam, Wi-Fi 6, Win 11 Pro, Black',
-    slug: 'lenovo-upgraded-thinkpad-e16-business-laptop-16-fhd-anti-glare-intel-13th-gen-10-core-i7-1355u-40gb-ram-1tb-ssd-backlit-fingerprint-ist-hub-fhd-webcam-wi-fi-6-win-11-pro-black',
-    brand: 'Lenovo',
-    category: 'laptops',
-    subcategory: 'Ultrabook',
-    price: 5549,
-    salePrice: 5549,
-    images: ['https://m.media-amazon.com/images/I/71PR49eOUCL._AC_SL1500_.jpg'],
-    shortDescription: 'Lenovo (Upgraded) ThinkPad E16 Business Laptop (16" FHD+ Anti-Glare, Intel 13th Gen 10-Core i7-1355U, 40GB RAM, 1TB SSD), Backlit, Fingerprint, IST Hub, FHD Webcam, Wi-Fi 6, Win 11 Pro, Black',
-    description: 'Lenovo (Upgraded) ThinkPad E16 Business Laptop (16" FHD+ Anti-Glare, Intel 13th Gen 10-Core i7-1355U, 40GB RAM, 1TB SSD), Backlit, Fingerprint, IST Hub, FHD Webcam, Wi-Fi 6, Win 11 Pro, Black',
-    specifications: {
-      'SKU': 'B0DBNZKBMQ',
-      'Category': 'Laptop',
-      'Brand': 'Lenovo'
-    },
-    stock: 10,
-    sku: 'B0DBNZKBMQ',
-    featured: false,
-    newProduct: true,
-    tags: ['laptop', 'lenovo', 'amazon', 'ultrabook']
-  },
-  {
-    id: 'B0HM89YPNZ',
-    name: 'HP HyperX OMEN 15-ga0070wm Laptop, 15.3" WUXGA IPS LED 165Hz Display, Intel Core Ultra 7 255H, 16GB RAM, 1TB SSD, NVIDIA GeForce RTX 5060 8GB GPU, ENG K/B, Win11, Black | DK3S0UA#ABA',
-    slug: 'hp-hyperx-omen-15-ga0070wm-laptop-153-wuxga-ips-led-165hz-display-intel-core-ultra-7-255h-16gb-ram-1tb-ssd-nvidia-geforce-rtx-5060-8gb-gpu-eng-kb-win11-black-dk3s0uaaba',
-    brand: 'HP',
-    category: 'laptops',
-    subcategory: 'Gaming Laptop',
-    price: 5880,
-    salePrice: 5880,
-    images: ['https://m.media-amazon.com/images/I/71RaMaaL5tL._AC_SL1500_.jpg'],
-    shortDescription: 'HP HyperX OMEN 15-ga0070wm Laptop, 15.3" WUXGA IPS LED 165Hz Display, Intel Core Ultra 7 255H, 16GB RAM, 1TB SSD, NVIDIA GeForce RTX 5060 8GB GPU, ENG K/B, Win11, Black | DK3S0UA#ABA',
-    description: 'HP HyperX OMEN 15-ga0070wm Laptop, 15.3" WUXGA IPS LED 165Hz Display, Intel Core Ultra 7 255H, 16GB RAM, 1TB SSD, NVIDIA GeForce RTX 5060 8GB GPU, ENG K/B, Win11, Black | DK3S0UA#ABA',
-    specifications: {
-      'SKU': 'B0HM89YPNZ',
-      'Category': 'Laptop',
-      'Brand': 'HP'
-    },
-    stock: 10,
-    sku: 'B0HM89YPNZ',
-    featured: false,
-    newProduct: true,
-    tags: ['laptop', 'hp', 'amazon', 'gaming-laptop']
-  },
-  {
-    id: 'B0DMWTV2F3',
-    name: 'HP All-in-One Desktop With 23.8" FHD IPS Display - 13th Gen Intel Core i5-1335U processor- Intel Iris Xe Graphics - 16GB DDR4 RAM - 1TB NVMe SSD- White Keyboard & Mouse - Windows 11 - Shell White',
-    slug: 'hp-all-in-one-desktop-with-238-fhd-ips-display---13th-gen-intel-core-i5-1335u-processor--intel-iris-xe-graphics---16gb-ddr4-ram---1tb-nvme-ssd--white-keyboard-mouse---windows-11---shell-white',
-    brand: 'HP',
-    category: 'laptops',
-    subcategory: 'Ultrabook',
-    price: 3399,
-    salePrice: 3399,
-    images: ['https://m.media-amazon.com/images/I/61P4SpnM9eL._AC_SL1500_.jpg'],
-    shortDescription: 'HP All-in-One Desktop With 23.8" FHD IPS Display - 13th Gen Intel Core i5-1335U processor- Intel Iris Xe Graphics - 16GB DDR4 RAM - 1TB NVMe SSD- White Keyboard & Mouse - Windows 11 - Shell White',
-    description: 'HP All-in-One Desktop With 23.8" FHD IPS Display - 13th Gen Intel Core i5-1335U processor- Intel Iris Xe Graphics - 16GB DDR4 RAM - 1TB NVMe SSD- White Keyboard & Mouse - Windows 11 - Shell White',
-    specifications: {
-      'SKU': 'B0DMWTV2F3',
-      'Category': 'Laptop',
-      'Brand': 'HP'
-    },
-    stock: 10,
-    sku: 'B0DMWTV2F3',
-    featured: false,
-    newProduct: true,
-    tags: ['laptop', 'hp', 'amazon', 'ultrabook']
-  },
-  {
-    id: 'B0DC18W9C3',
-    name: 'HP (Upgraded) 2024 Newest 15 Business Laptop With 15.6" FHD Display, Intel Core i3-1315U Processor |8GB DDR4 RAM |512GB NVMe SSD |Intel Iris Xe Graphics |Backlit Keyboard |Windows 11 Natural silver',
-    slug: 'hp-upgraded-2024-newest-15-business-laptop-with-156-fhd-display-intel-core-i3-1315u-processor-8gb-ddr4-ram-512gb-nvme-ssd-intel-iris-xe-graphics-backlit-keyboard-windows-11-natural-silver',
-    brand: 'HP',
-    category: 'laptops',
-    subcategory: 'Ultrabook',
-    price: 1799,
-    salePrice: 1799,
-    images: ['https://m.media-amazon.com/images/I/51ztHer9d-L._AC_SL1500_.jpg'],
-    shortDescription: 'HP (Upgraded) 2024 Newest 15 Business Laptop With 15.6" FHD Display, Intel Core i3-1315U Processor |8GB DDR4 RAM |512GB NVMe SSD |Intel Iris Xe Graphics |Backlit Keyboard |Windows 11 Natural silver',
-    description: 'HP (Upgraded) 2024 Newest 15 Business Laptop With 15.6" FHD Display, Intel Core i3-1315U Processor |8GB DDR4 RAM |512GB NVMe SSD |Intel Iris Xe Graphics |Backlit Keyboard |Windows 11 Natural silver',
-    specifications: {
-      'SKU': 'B0DC18W9C3',
-      'Category': 'Laptop',
-      'Brand': 'HP'
-    },
-    stock: 10,
-    sku: 'B0DC18W9C3',
-    featured: false,
-    newProduct: true,
-    tags: ['laptop', 'hp', 'amazon', 'ultrabook']
-  },
-  {
-    id: 'B0D7855CX2',
-    name: 'Lenovo (Upgraded) ThinkPad E14 G6 14" WUXGA, Intel Ultra 7 155H(14th Gen Processor), 32GB RAM DDR5, 1TB NVME, Intel Arcgraphics Windows 11 Pro W/ Bluetooth headset',
-    slug: 'lenovo-upgraded-thinkpad-e14-g6-14-wuxga-intel-ultra-7-155h14th-gen-processor-32gb-ram-ddr5-1tb-nvme-intel-arcgraphics-windows-11-pro-w-bluetooth-headset',
-    brand: 'Lenovo',
-    category: 'laptops',
-    subcategory: 'Ultrabook',
-    price: 5418,
-    salePrice: 5418,
-    images: ['https://m.media-amazon.com/images/I/61+5gq0bW8L._AC_SL1500_.jpg'],
-    shortDescription: 'Lenovo (Upgraded) ThinkPad E14 G6 14" WUXGA, Intel Ultra 7 155H(14th Gen Processor), 32GB RAM DDR5, 1TB NVME, Intel Arcgraphics Windows 11 Pro W/ Bluetooth headset',
-    description: 'Lenovo (Upgraded) ThinkPad E14 G6 14" WUXGA, Intel Ultra 7 155H(14th Gen Processor), 32GB RAM DDR5, 1TB NVME, Intel Arcgraphics Windows 11 Pro W/ Bluetooth headset',
-    specifications: {
-      'SKU': 'B0D7855CX2',
-      'Category': 'Laptop',
-      'Brand': 'Lenovo'
-    },
-    stock: 10,
-    sku: 'B0D7855CX2',
-    featured: false,
-    newProduct: true,
-    tags: ['laptop', 'lenovo', 'amazon', 'ultrabook']
-  },
-  {
-    id: 'B0FTZ94QWZ',
-    name: 'HP OmniBook X Flip 2-in-1 Laptop Next Gen AI 14-FK0001NE | 14" 2K Touchscreen | AMD Ryzen AI 5 | 16GB LPDDR5 RAM | 512GB SSD | Windows 11 | Meteor Silver | En/Ar Keyboard | UAE Version',
-    slug: 'hp-omnibook-x-flip-2-in-1-laptop-next-gen-ai-14-fk0001ne-14-2k-touchscreen-amd-ryzen-ai-5-16gb-lpddr5-ram-512gb-ssd-windows-11-meteor-silver-enar-keyboard-uae-version',
-    brand: 'HP',
-    category: 'laptops',
-    subcategory: 'Convertible Laptop',
-    price: 4599,
-    salePrice: 4599,
-    images: ['https://m.media-amazon.com/images/I/51wMARCop7L._AC_SL1500_.jpg'],
-    shortDescription: 'HP OmniBook X Flip 2-in-1 Laptop Next Gen AI 14-FK0001NE | 14" 2K Touchscreen | AMD Ryzen AI 5 | 16GB LPDDR5 RAM | 512GB SSD | Windows 11 | Meteor Silver | En/Ar Keyboard | UAE Version',
-    description: 'HP OmniBook X Flip 2-in-1 Laptop Next Gen AI 14-FK0001NE | 14" 2K Touchscreen | AMD Ryzen AI 5 | 16GB LPDDR5 RAM | 512GB SSD | Windows 11 | Meteor Silver | En/Ar Keyboard | UAE Version',
-    specifications: {
-      'SKU': 'B0FTZ94QWZ',
-      'Category': 'Laptop',
-      'Brand': 'HP'
-    },
-    stock: 10,
-    sku: 'B0FTZ94QWZ',
-    featured: false,
-    newProduct: true,
-    tags: ['laptop', 'hp', 'amazon', 'convertible-laptop']
-  },
-  {
-    id: 'B0HLGXWDJB',
-    name: 'Lenovo ThinkBook 16 G8 IAL Laptop, 16" WUXGA IPS Display, Intel Core Ultra 9 185H, 16GB DDR5 RAM, 512GB SSD, Intel Arc Graphics, Backlit ENG Keyboard, Arctic Grey',
-    slug: 'lenovo-thinkbook-16-g8-ial-laptop-16-wuxga-ips-display-intel-core-ultra-9-185h-16gb-ddr5-ram-512gb-ssd-intel-arc-graphics-backlit-eng-keyboard-arctic-grey',
-    brand: 'Lenovo',
-    category: 'laptops',
-    subcategory: 'Ultrabook',
-    price: 4599,
-    salePrice: 4599,
-    images: ['https://m.media-amazon.com/images/I/61LBwhmdtiL._AC_SL1500_.jpg'],
-    shortDescription: 'Lenovo ThinkBook 16 G8 IAL Laptop, 16" WUXGA IPS Display, Intel Core Ultra 9 185H, 16GB DDR5 RAM, 512GB SSD, Intel Arc Graphics, Backlit ENG Keyboard, Arctic Grey',
-    description: 'Lenovo ThinkBook 16 G8 IAL Laptop, 16" WUXGA IPS Display, Intel Core Ultra 9 185H, 16GB DDR5 RAM, 512GB SSD, Intel Arc Graphics, Backlit ENG Keyboard, Arctic Grey',
-    specifications: {
-      'SKU': 'B0HLGXWDJB',
-      'Category': 'Laptop',
-      'Brand': 'Lenovo'
-    },
-    stock: 10,
-    sku: 'B0HLGXWDJB',
-    featured: false,
-    newProduct: true,
-    tags: ['laptop', 'lenovo', 'amazon', 'ultrabook']
-  },
-  {
-    id: 'B0F12JQBG3',
-    name: 'HP 15.6" FHD Business Laptop, with Office Lifetime License & Windows 11 Pro, 12th Gen Intel Core i5-1235U (Up to 4.4 GHz), 32GB RAM, 1TB PCIe SSD, Numeric Keypad, Wi-Fi 6, BT 5.3, w/Lanbertent Mouse',
-    slug: 'hp-156-fhd-business-laptop-with-office-lifetime-license-windows-11-pro-12th-gen-intel-core-i5-1235u-up-to-44-ghz-32gb-ram-1tb-pcie-ssd-numeric-keypad-wi-fi-6-bt-53-wlanbertent-mouse',
-    brand: 'HP',
-    category: 'laptops',
-    subcategory: 'Ultrabook',
-    price: 3299,
-    salePrice: 3299,
-    images: ['https://m.media-amazon.com/images/I/713ND9JLBEL._AC_SL1500_.jpg'],
-    shortDescription: 'HP 15.6" FHD Business Laptop, with Office Lifetime License & Windows 11 Pro, 12th Gen Intel Core i5-1235U (Up to 4.4 GHz), 32GB RAM, 1TB PCIe SSD, Numeric Keypad, Wi-Fi 6, BT 5.3, w/Lanbertent Mouse',
-    description: 'HP 15.6" FHD Business Laptop, with Office Lifetime License & Windows 11 Pro, 12th Gen Intel Core i5-1235U (Up to 4.4 GHz), 32GB RAM, 1TB PCIe SSD, Numeric Keypad, Wi-Fi 6, BT 5.3, w/Lanbertent Mouse',
-    specifications: {
-      'SKU': 'B0F12JQBG3',
-      'Category': 'Laptop',
-      'Brand': 'HP'
-    },
-    stock: 10,
-    sku: 'B0F12JQBG3',
-    featured: false,
-    newProduct: true,
-    tags: ['laptop', 'hp', 'amazon', 'ultrabook']
-  },
-  {
-    id: 'B0D425FHN1',
-    name: 'HP (Upgraded) Laptop - 12th Gen/Intel Core i5-1235U / 15.6inch FHD / 512GB SSD / 8GB RAM/Intel Iris Xe Graphics/Windows 11 / English Keyboard/Natural Silver/International Version - [15-FD0999NR]',
-    slug: 'hp-upgraded-laptop---12th-genintel-core-i5-1235u-156inch-fhd-512gb-ssd-8gb-ramintel-iris-xe-graphicswindows-11-english-keyboardnatural-silverinternational-version---15-fd0999nr',
-    brand: 'HP',
-    category: 'laptops',
-    subcategory: 'Ultrabook',
-    price: 2489,
-    salePrice: 2489,
-    images: ['https://m.media-amazon.com/images/I/71uz4QUG+aL._AC_SL1500_.jpg'],
-    shortDescription: 'HP (Upgraded) Laptop - 12th Gen/Intel Core i5-1235U / 15.6inch FHD / 512GB SSD / 8GB RAM/Intel Iris Xe Graphics/Windows 11 / English Keyboard/Natural Silver/International Version - [15-FD0999NR]',
-    description: 'HP (Upgraded) Laptop - 12th Gen/Intel Core i5-1235U / 15.6inch FHD / 512GB SSD / 8GB RAM/Intel Iris Xe Graphics/Windows 11 / English Keyboard/Natural Silver/International Version - [15-FD0999NR]',
-    specifications: {
-      'SKU': 'B0D425FHN1',
-      'Category': 'Laptop',
-      'Brand': 'HP'
-    },
-    stock: 10,
-    sku: 'B0D425FHN1',
-    featured: false,
-    newProduct: true,
-    tags: ['laptop', 'hp', 'amazon', 'ultrabook']
-  },
-  {
-    id: 'B0FCM2CLHJ',
-    name: 'HP (Upgraded) OmniBook 5 Flip 2-in-1 14" FHD+ Touch Screen Laptop |Intel Core 7 150U|Intel Graphics| Copilot |Backlit| Silver | 16GB RAM DDR5 | 512GB SSD |Windows 11 Home |Bundle with Wireless Mouse',
-    slug: 'hp-upgraded-omnibook-5-flip-2-in-1-14-fhd-touch-screen-laptop-intel-core-7-150uintel-graphics-copilot-backlit-silver-16gb-ram-ddr5-512gb-ssd-windows-11-home-bundle-with-wireless-mouse',
-    brand: 'HP',
-    category: 'laptops',
-    subcategory: 'Convertible Laptop',
-    price: 4999,
-    salePrice: 4999,
-    images: ['https://m.media-amazon.com/images/I/51XYQkfRGyL._AC_SL1500_.jpg'],
-    shortDescription: 'HP (Upgraded) OmniBook 5 Flip 2-in-1 14" FHD+ Touch Screen Laptop |Intel Core 7 150U|Intel Graphics| Copilot |Backlit| Silver | 16GB RAM DDR5 | 512GB SSD |Windows 11 Home |Bundle with Wireless Mouse',
-    description: 'HP (Upgraded) OmniBook 5 Flip 2-in-1 14" FHD+ Touch Screen Laptop |Intel Core 7 150U|Intel Graphics| Copilot |Backlit| Silver | 16GB RAM DDR5 | 512GB SSD |Windows 11 Home |Bundle with Wireless Mouse',
-    specifications: {
-      'SKU': 'B0FCM2CLHJ',
-      'Category': 'Laptop',
-      'Brand': 'HP'
-    },
-    stock: 10,
-    sku: 'B0FCM2CLHJ',
-    featured: false,
-    newProduct: true,
-    tags: ['laptop', 'hp', 'amazon', 'convertible-laptop']
-  },
-  {
-    id: 'B0D549ZXQX',
-    name: 'Lenovo ThinkPad E16 G2 21MA003RGE - 16" WUXGA, Intel Ultra 7 155H, 32GB, 1TB, Windows 11 Pro',
-    slug: 'lenovo-thinkpad-e16-g2-21ma003rge---16-wuxga-intel-ultra-7-155h-32gb-1tb-windows-11-pro',
-    brand: 'Lenovo',
-    category: 'laptops',
-    subcategory: 'Ultrabook',
-    price: 4880,
-    salePrice: 4880,
-    images: ['https://m.media-amazon.com/images/I/51ynwZhleeL._AC_SL1500_.jpg'],
-    shortDescription: 'Lenovo ThinkPad E16 G2 21MA003RGE - 16" WUXGA, Intel Ultra 7 155H, 32GB, 1TB, Windows 11 Pro',
-    description: 'Lenovo ThinkPad E16 G2 21MA003RGE - 16" WUXGA, Intel Ultra 7 155H, 32GB, 1TB, Windows 11 Pro',
-    specifications: {
-      'SKU': 'B0D549ZXQX',
-      'Category': 'Laptop',
-      'Brand': 'Lenovo'
-    },
-    stock: 10,
-    sku: 'B0D549ZXQX',
-    featured: false,
-    newProduct: true,
-    tags: ['laptop', 'lenovo', 'amazon', 'ultrabook']
-  },
-  {
-    id: 'B0DJWGZCDX',
-    name: 'HP (2023) Laptop – 13th Gen/Intel Core i7-1355U / 15.6inch FHD / 1TB SSD /32GB RAM/Shared Intel Iris Xe Graphics/Windows 11 Home/English Keyboard/Silver (upgraded)',
-    slug: 'hp-2023-laptop-13th-genintel-core-i7-1355u-156inch-fhd-1tb-ssd-32gb-ramshared-intel-iris-xe-graphicswindows-11-homeenglish-keyboardsilver-upgraded',
-    brand: 'HP',
-    category: 'laptops',
-    subcategory: 'Ultrabook',
-    price: 3230,
-    salePrice: 3230,
-    images: ['https://m.media-amazon.com/images/I/61N6rV54OEL._AC_SL1500_.jpg'],
-    shortDescription: 'HP (2023) Laptop – 13th Gen/Intel Core i7-1355U / 15.6inch FHD / 1TB SSD /32GB RAM/Shared Intel Iris Xe Graphics/Windows 11 Home/English Keyboard/Silver (upgraded)',
-    description: 'HP (2023) Laptop – 13th Gen/Intel Core i7-1355U / 15.6inch FHD / 1TB SSD /32GB RAM/Shared Intel Iris Xe Graphics/Windows 11 Home/English Keyboard/Silver (upgraded)',
-    specifications: {
-      'SKU': 'B0DJWGZCDX',
-      'Category': 'Laptop',
-      'Brand': 'HP'
-    },
-    stock: 10,
-    sku: 'B0DJWGZCDX',
-    featured: false,
-    newProduct: true,
-    tags: ['laptop', 'hp', 'amazon', 'ultrabook']
-  },
-  {
-    id: 'B0DMWMKSG5',
-    name: 'HP 15.6 inch Windows Laptop with IPS Micro-Edge Full HD Anti-Glare Display, Intel Core i7-1355U, 16 GB RAM, 1 TB SSD, Windows 11 Home, Natural Silver, 15-fd0182wm(Upgraded)',
-    slug: 'hp-156-inch-windows-laptop-with-ips-micro-edge-full-hd-anti-glare-display-intel-core-i7-1355u-16-gb-ram-1-tb-ssd-windows-11-home-natural-silver-15-fd0182wmupgraded',
-    brand: 'HP',
-    category: 'laptops',
-    subcategory: 'Ultrabook',
-    price: 2840,
-    salePrice: 2840,
-    images: ['https://m.media-amazon.com/images/I/81KK3SGDmCL._AC_SL1500_.jpg'],
-    shortDescription: 'HP 15.6 inch Windows Laptop with IPS Micro-Edge Full HD Anti-Glare Display, Intel Core i7-1355U, 16 GB RAM, 1 TB SSD, Windows 11 Home, Natural Silver, 15-fd0182wm(Upgraded)',
-    description: 'HP 15.6 inch Windows Laptop with IPS Micro-Edge Full HD Anti-Glare Display, Intel Core i7-1355U, 16 GB RAM, 1 TB SSD, Windows 11 Home, Natural Silver, 15-fd0182wm(Upgraded)',
-    specifications: {
-      'SKU': 'B0DMWMKSG5',
-      'Category': 'Laptop',
-      'Brand': 'HP'
-    },
-    stock: 10,
-    sku: 'B0DMWMKSG5',
-    featured: false,
-    newProduct: true,
-    tags: ['laptop', 'hp', 'amazon', 'ultrabook']
-  },
-  {
-    id: 'B0DH5TWS54',
-    name: 'HP (Upgraded) 2024 Newest 15s Laptop With 15.6" FHD Display, Intel Core i7-1355U Processor |16GB DDR4 Ram |1TB NVMe SSD |Intel Iris X Graphics, Windows 11 Natural silver',
-    slug: 'hp-upgraded-2024-newest-15s-laptop-with-156-fhd-display-intel-core-i7-1355u-processor-16gb-ddr4-ram-1tb-nvme-ssd-intel-iris-x-graphics-windows-11-natural-silver',
-    brand: 'HP',
-    category: 'laptops',
-    subcategory: 'Ultrabook',
-    price: 2689,
-    salePrice: 2689,
-    images: ['https://m.media-amazon.com/images/I/71obq-93-NL._AC_SL1500_.jpg'],
-    shortDescription: 'HP (Upgraded) 2024 Newest 15s Laptop With 15.6" FHD Display, Intel Core i7-1355U Processor |16GB DDR4 Ram |1TB NVMe SSD |Intel Iris X Graphics, Windows 11 Natural silver',
-    description: 'HP (Upgraded) 2024 Newest 15s Laptop With 15.6" FHD Display, Intel Core i7-1355U Processor |16GB DDR4 Ram |1TB NVMe SSD |Intel Iris X Graphics, Windows 11 Natural silver',
-    specifications: {
-      'SKU': 'B0DH5TWS54',
-      'Category': 'Laptop',
-      'Brand': 'HP'
-    },
-    stock: 10,
-    sku: 'B0DH5TWS54',
-    featured: false,
-    newProduct: true,
-    tags: ['laptop', 'hp', 'amazon', 'ultrabook']
   }
 ];
