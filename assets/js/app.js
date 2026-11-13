@@ -425,9 +425,21 @@ function handleStripeCheckout() {
         };
     });
 
-    var stripe = Stripe(CONFIG.stripePublishableKey);
+    // 1. Find the Stripe configuration dynamically from storeConfig.paymentMethods
+    var stripeMethod = storeConfig.paymentMethods.find(function(m) { 
+        return m.id === 'stripe'; 
+    });
 
-    fetch(CONFIG.backendCheckoutUrl, {
+    if (!stripeMethod || !stripeMethod.stripePublishableKey) {
+        alert('Stripe configuration or key is missing.');
+        return;
+    }
+
+    // 2. Initialize Stripe using the key from your payment method object
+    var stripe = Stripe(stripeMethod.stripePublishableKey);
+
+    // 3. Send request to your backend checkout URL
+    fetch(stripeMethod.backendCheckoutUrl, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ items: payloadItems }),
@@ -455,68 +467,6 @@ function handleStripeCheckout() {
         alert('Could not connect to payment server.');
     });
 }
-  /* ------------------------------------------------------------- WhatsApp */
-
-  var WhatsApp = {
-    base: function () { return 'https://wa.me/' + String(storeConfig.whatsapp).replace(/\D/g, ''); },
-
-    link: function (text) { return WhatsApp.base() + '?text=' + encodeURIComponent(text); },
-
-    /* "Order on WhatsApp" from a product page or card */
-    product: function (p, qty) {
-      var lines = [
-        'Hello ' + storeConfig.businessName + ', I am interested in ordering:',
-        '',
-        'Product: ' + p.name,
-        'SKU: ' + p.sku,
-        'Quantity: ' + (qty || 1),
-        'Price: ' + storeConfig.currency + ' ' + Catalog.price(p).toLocaleString('en-US'),
-        '',
-        'Is this in stock?'
-      ];
-      return WhatsApp.link(lines.join('\n'));
-    },
-
-    /* Whole cart, with or without customer details */
-    order: function (details) {
-      var ref = 'AZ-' + Date.now().toString(36).toUpperCase().slice(-6);
-      var lines = [];
-      lines.push('*New order — ' + storeConfig.businessName + '*');
-      lines.push('Ref: ' + ref);
-      lines.push('');
-      lines.push('*Items*');
-      Cart.detailed().forEach(function (item, i) {
-        lines.push((i + 1) + '. ' + item.product.name);
-        lines.push('   SKU: ' + item.product.sku);
-        lines.push('   ' + item.qty + ' × ' + money(Catalog.price(item.product)) + ' = ' + money(item.lineTotal));
-      });
-      lines.push('');
-      lines.push('Subtotal: ' + money(Cart.subtotal()));
-      if (Cart.savings() > 0) { lines.push('You save: ' + money(Cart.savings())); }
-      lines.push('Delivery: ' + (Cart.delivery() === 0 ? 'Free' : money(Cart.delivery())));
-      lines.push('*Total: ' + money(Cart.total()) + '* (incl. 5% VAT)');
-
-      if (details) {
-        lines.push('');
-        lines.push('*Delivery details*');
-        lines.push('Name: ' + details.name);
-        lines.push('Phone: ' + details.phone);
-        if (details.email) { lines.push('Email: ' + details.email); }
-        lines.push('Address: ' + details.address);
-        lines.push('Emirate / City: ' + details.city);
-        lines.push('Payment: ' + details.payment);
-        if (details.notes) { lines.push('Notes: ' + details.notes); }
-      }
-      lines.push('');
-      lines.push('Please confirm stock and delivery time. Thank you.');
-      return { url: WhatsApp.link(lines.join('\n')), ref: ref };
-    },
-
-    enquiry: function (subject) {
-      return WhatsApp.link('Hello ' + storeConfig.businessName + ', I would like to ask about ' + (subject || 'a product') + '.');
-    }
-  };
-
   /* --------------------------------------------------------- product card */
 
   function productCard(p) {
