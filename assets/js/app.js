@@ -306,105 +306,110 @@ var App = (function () {
 
   /* ----------------------------------------------------------------- cart */
 
-  var Cart = {
+var Cart = {
     lines: [],
 
     load: function () {
-      Cart.lines = readJSON(STORAGE.cart, [])
-        .filter(function (l) { return l && Catalog.byId(l.id); })
-        .map(function (l) { return { id: l.id, qty: Cart.clamp(l.id, parseInt(l.qty, 10) || 1) }; });
+        Cart.lines = readJSON(STORAGE.cart, [])
+            .filter(function (l) { return l && Catalog.byId(l.id); })
+            .map(function (l) { return { id: l.id, qty: Cart.clamp(l.id, parseInt(l.qty, 10) || 1) }; });
     },
 
     save: function () { writeJSON(STORAGE.cart, Cart.lines); },
 
     clamp: function (id, qty) {
-      var p = Catalog.byId(id);
-      var max = p ? Math.max(1, Number(p.stock) || 1) : 99;
-      if (isNaN(qty) || qty < 1) { return 1; }
-      return Math.min(qty, Math.min(max, 99));
+        var p = Catalog.byId(id);
+        var max = p ? Math.max(1, Number(p.stock) || 1) : 99;
+        if (isNaN(qty) || qty < 1) { return 1; }
+        return Math.min(qty, Math.min(max, 99));
     },
 
     find: function (id) {
-      for (var i = 0; i < Cart.lines.length; i++) { if (Cart.lines[i].id === id) { return Cart.lines[i]; } }
-      return null;
+        for (var i = 0; i < Cart.lines.length; i++) { if (Cart.lines[i].id === id) { return Cart.lines[i]; } }
+        return null;
     },
 
     add: function (id, qty) {
-      var p = Catalog.byId(id);
-      if (!p) { return false; }
-      if (!Catalog.inStock(p)) { UI.toast('That item is out of stock — ask us on WhatsApp for arrival dates'); return false; }
-      var line = Cart.find(id);
-      var want = (line ? line.qty : 0) + (qty || 1);
-      if (line) { line.qty = Cart.clamp(id, want); } else { Cart.lines.push({ id: id, qty: Cart.clamp(id, want) }); }
-      Cart.save();
-      UI.renderCart();
-      UI.bump();
-      UI.toast(p.name + ' added to cart');
-      return true;
+        var p = Catalog.byId(id);
+        if (!p) { return false; }
+        if (!Catalog.inStock(p)) { UI.toast('That item is out of stock — ask us on WhatsApp for arrival dates'); return false; }
+        var line = Cart.find(id);
+        var want = (line ? line.qty : 0) + (qty || 1);
+        if (line) { line.qty = Cart.clamp(id, want); } else { Cart.lines.push({ id: id, qty: Cart.clamp(id, want) }); }
+        Cart.save();
+        UI.renderCart();
+        UI.bump();
+        UI.toast(p.name + ' added to cart');
+        return true;
     },
 
     setQty: function (id, qty) {
-      var line = Cart.find(id);
-      if (!line) { return; }
-      if (qty < 1) { Cart.remove(id); return; }
-      var clamped = Cart.clamp(id, qty);
-      if (clamped < qty) { UI.toast('Only ' + clamped + ' in stock right now'); }
-      line.qty = clamped;
-      Cart.save();
-      UI.renderCart();
+        var line = Cart.find(id);
+        if (!line) { return; }
+        if (qty < 1) { Cart.remove(id); return; }
+        var clamped = Cart.clamp(id, qty);
+        if (clamped < qty) { UI.toast('Only ' + clamped + ' in stock right now'); }
+        line.qty = clamped;
+        Cart.save();
+        UI.renderCart();
     },
 
     remove: function (id) {
-      var p = Catalog.byId(id);
-      Cart.lines = Cart.lines.filter(function (l) { return l.id !== id; });
-      Cart.save();
-      UI.renderCart();
-      if (p) { UI.toast(p.name + ' removed'); }
+        var p = Catalog.byId(id);
+        Cart.lines = Cart.lines.filter(function (l) { return l.id !== id; });
+        Cart.save();
+        UI.renderCart();
+        if (p) { UI.toast(p.name + ' removed'); }
     },
 
     clear: function () { Cart.lines = []; Cart.save(); UI.renderCart(); },
 
     count: function () {
-      return Cart.lines.reduce(function (n, l) { return n + l.qty; }, 0);
+        return Cart.lines.reduce(function (n, l) { return n + l.qty; }, 0);
     },
 
     subtotal: function () {
-      return Cart.lines.reduce(function (sum, l) {
-        var p = Catalog.byId(l.id);
-        return p ? sum + Catalog.price(p) * l.qty : sum;
-      }, 0);
+        return Cart.lines.reduce(function (sum, l) {
+            var p = Catalog.byId(l.id);
+            return p ? sum + Catalog.price(p) * l.qty : sum;
+        }, 0);
     },
 
     savings: function () {
-      return Cart.lines.reduce(function (sum, l) {
-        var p = Catalog.byId(l.id);
-        if (!p || p.salePrice == null || p.salePrice >= p.price) { return sum; }
-        return sum + (p.price - p.salePrice) * l.qty;
-      }, 0);
+        return Cart.lines.reduce(function (sum, l) {
+            var p = Catalog.byId(l.id);
+            if (!p || p.salePrice == null || p.salePrice >= p.price) { return sum; }
+            return sum + (p.price - p.salePrice) * l.qty;
+        }, 0);
     },
 
     delivery: function () {
-      var sub = Cart.subtotal();
-      if (sub <= 0) { return 0; }
-      return sub >= storeConfig.freeDeliveryOver ? 0 : storeConfig.deliveryFee;
+        var sub = Cart.subtotal();
+        if (sub <= 0) { return 0; }
+        return sub >= storeConfig.freeDeliveryOver ? 0 : storeConfig.deliveryFee;
     },
 
     total: function () { return Cart.subtotal() + Cart.delivery(); },
 
     /* VAT already included in displayed prices — shown for the invoice line */
     vatPortion: function () {
-      var rate = storeConfig.vatRate || 0;
-      if (!storeConfig.vatIncludedInPrices || !rate) { return 0; }
-      return Cart.total() - (Cart.total() / (1 + rate));
+        var rate = storeConfig.vatRate || 0;
+        if (!storeConfig.vatIncludedInPrices || !rate) { return 0; }
+        return Cart.total() - (Cart.total() / (1 + rate));
     },
 
     detailed: function () {
-      return Cart.lines.map(function (l) {
-        var p = Catalog.byId(l.id);
-        return { product: p, qty: l.qty, lineTotal: Catalog.price(p) * l.qty };
-      }).filter(function (x) { return !!x.product; });
+        return Cart.lines.map(function (l) {
+            var p = Catalog.byId(l.id);
+            return { product: p, qty: l.qty, lineTotal: Catalog.price(p) * l.qty };
+        }).filter(function (x) { return !!x.product; });
     }
-	function handleStripeCheckout() {
+}; // <--- Cart object properly closed here!
+
+// ==========================================
+// Stripe Checkout Function (Placed OUTSIDE Cart)
+// ==========================================
+function handleStripeCheckout() {
     var items = Cart.detailed();
     
     if (items.length === 0) {
@@ -450,8 +455,6 @@ var App = (function () {
         alert('Could not connect to payment server.');
     });
 }
-  };
-
   /* ------------------------------------------------------------- WhatsApp */
 
   var WhatsApp = {
