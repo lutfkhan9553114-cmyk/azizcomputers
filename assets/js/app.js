@@ -425,10 +425,14 @@ function handleStripeCheckout() {
         };
     });
 
-    // 1. Find the Stripe configuration dynamically from storeConfig.paymentMethods
-    var stripeMethod = storeConfig.paymentMethods.find(function(m) { 
-        return m.id === 'stripe'; 
-    });
+    // 1. Find the Stripe configuration safely using an ES5 loop
+    var stripeMethod = null;
+    for (var i = 0; i < storeConfig.paymentMethods.length; i++) {
+        if (storeConfig.paymentMethods[i].id === 'stripe') {
+            stripeMethod = storeConfig.paymentMethods[i];
+            break;
+        }
+    }
 
     if (!stripeMethod || !stripeMethod.stripePublishableKey) {
         alert('Stripe configuration or key is missing.');
