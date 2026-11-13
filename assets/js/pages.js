@@ -676,7 +676,67 @@ var Pages = (function () {
   /* =======================================================================
      CHECKOUT
      ===================================================================== */
- function wireCheckout() {
+  function checkout() {
+    A.init({ active: 'checkout', meta: { title: 'Checkout', description: 'Complete your order — cash on delivery or WhatsApp confirmation.' } });
+    renderCheckoutSummary();
+    renderPaymentOptions();
+    wireCheckout();
+  }
+
+  function renderCheckoutSummary() {
+    var items = Cart.detailed();
+    var host = $('#order-summary');
+    if (!host) { return; }
+
+    if (!items.length) {
+      host.innerHTML = '<h2>Order summary</h2><p class="panel-sub">Your cart is empty.</p>' +
+        '<a class="btn btn-outline btn-block" href="shop.html">Browse products</a>';
+      var form = $('#checkout-form');
+      if (form) { form.classList.add('hide'); }
+      var notice = $('#empty-notice');
+      if (notice) { notice.classList.remove('hide'); }
+      return;
+    }
+
+    host.innerHTML = '<h2>Order summary</h2><p class="panel-sub">' + items.length + ' product' + (items.length > 1 ? 's' : '') + ' · prices include VAT</p>' +
+      '<div class="summary-lines">' + items.map(function (it) {
+        return '<div class="sline">' + A.imgTag(it.product.images[0], it.product.name) +
+          '<span><span class="sn">' + esc(it.product.name) + '</span><br>' +
+          '<span class="sq">' + it.qty + ' × ' + money(C.price(it.product)) + '</span></span>' +
+          '<span style="font-weight:700">' + money(it.lineTotal) + '</span></div>';
+      }).join('') + '</div>' +
+      '<div class="totals">' +
+        '<div class="trow"><span>Subtotal</span><span>' + money(Cart.subtotal()) + '</span></div>' +
+        (Cart.savings() > 0 ? '<div class="trow" style="color:var(--success)"><span>Discount</span><span>−' + money(Cart.savings()) + '</span></div>' : '') +
+        '<div class="trow"><span>Delivery</span><span>' + (Cart.delivery() === 0 ? 'Free' : money(Cart.delivery())) + '</span></div>' +
+        '<div class="trow grand"><span>Total</span><span>' + money(Cart.total()) + '</span></div>' +
+        '<div class="trow" style="font-size:12px"><span>Of which VAT (5%)</span><span>' + money(Cart.vatPortion()) + '</span></div>' +
+      '</div>' +
+      '<a class="btn btn-ghost btn-block btn-sm" href="shop.html">Continue shopping</a>';
+  }
+
+  function renderPaymentOptions() {
+    var host = $('#payment-options');
+    if (!host) { return; }
+    host.innerHTML = storeConfig.paymentMethods.map(function (m, i) {
+      var disabled = !m.enabled;
+      return '<label class="pay-option' + (disabled ? ' is-disabled' : '') + '" data-pay="' + esc(m.id) + '">' +
+        '<input type="radio" name="payment" value="' + esc(m.label) + '"' +
+        (disabled ? ' disabled' : '') + (i === 0 ? ' checked' : '') + '>' +
+        '<span><b>' + esc(m.label) + '</b><span>' + esc(m.note) + '</span></span></label>';
+    }).join('');
+
+    host.addEventListener('change', function () {
+      Array.prototype.forEach.call(host.querySelectorAll('.pay-option'), function (opt) {
+        var input = opt.querySelector('input');
+        opt.classList.toggle('is-selected', input.checked);
+      });
+    });
+    var first = host.querySelector('input:checked');
+    if (first) { first.closest('.pay-option').classList.add('is-selected'); }
+  }
+
+  function wireCheckout() {
     var form = $('#checkout-form');
     if (!form) { return; }
 
@@ -716,41 +776,32 @@ var Pages = (function () {
       var paymentInput = form.querySelector('input[name="payment"]:checked');
       var payment = paymentInput ? paymentInput.value : storeConfig.paymentMethods[0].label;
 
-      // Check if the user selected Stripe (adjust text/ID depending on what you name it in storeConfig)
-      var isStripe = payment.toLowerCase().includes('stripe') || payment.toLowerCase().includes('card');
+      var order = A.WhatsApp.order({
+        name: name, phone: phone, email: email,
+        address: address.replace(/\s*\n\s*/g, ', '),
+        city: city, payment: payment, notes: notes
+      });
 
-      if (isStripe) {
-        // --- STRIPE CHECKOUT FLOW ---
-        handleStripeCheckout();
-      } else {
-        // --- WHATSAPP / STANDARD FLOW ---
-        var order = A.WhatsApp.order({
-          name: name, phone: phone, email: email,
-          address: address.replace(/\s*\n\s*/g, ', '),
-          city: city, payment: payment, notes: notes
-        });
+      window.open(order.url, '_blank', 'noopener');
 
-        window.open(order.url, '_blank', 'noopener');
+      /* show the confirmation state and clear the cart */
+      set('#checkout-root',
+        '<div class="panel" style="text-align:center;max-width:620px;margin:40px auto">' +
+          '<div style="color:var(--success);margin-bottom:12px">' + icons.check + '</div>' +
+          '<h2 style="font-family:var(--display);font-size:26px;font-weight:500">Order sent for confirmation</h2>' +
+          '<p class="panel-sub" style="margin-top:10px">Reference <strong>' + esc(order.ref) + '</strong>. ' +
+          'We have opened WhatsApp with your order details — press send there and we will confirm stock, ' +
+          'final delivery time and payment.</p>' +
+          '<div class="note" style="text-align:left;margin:18px 0">If WhatsApp did not open, your browser may have blocked the pop-up. ' +
+          '<a href="' + order.url + '" target="_blank" rel="noopener" style="font-weight:700;color:var(--gold-deep)">Open the message manually</a>.</div>' +
+          '<div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin-top:8px">' +
+            '<a class="btn btn-primary btn-sm" href="shop.html">Continue shopping</a>' +
+            '<a class="btn btn-outline btn-sm" href="tel:' + esc(storeConfig.phoneDial) + '">Call the shop</a>' +
+          '</div>' +
+        '</div>');
 
-        /* show the confirmation state and clear the cart */
-        set('#checkout-root',
-          '<div class="panel" style="text-align:center;max-width:620px;margin:40px auto">' +
-            '<div style="color:var(--success);margin-bottom:12px">' + icons.check + '</div>' +
-            '<h2 style="font-family:var(--display);font-size:26px;font-weight:500">Order sent for confirmation</h2>' +
-            '<p class="panel-sub" style="margin-top:10px">Reference <strong>' + esc(order.ref) + '</strong>. ' +
-            'We have opened WhatsApp with your order details — press send there and we will confirm stock, ' +
-            'final delivery time and payment.</p>' +
-            '<div class="note" style="text-align:left;margin:18px 0">If WhatsApp did not open, your browser may have blocked the pop-up. ' +
-            '<a href="' + order.url + '" target="_blank" rel="noopener" style="font-weight:700;color:var(--gold-deep)">Open the message manually</a>.</div>' +
-            '<div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin-top:8px">' +
-              '<a class="btn btn-primary btn-sm" href="shop.html">Continue shopping</a>' +
-              '<a class="btn btn-outline btn-sm" href="tel:' + esc(storeConfig.phoneDial) + '">Call the shop</a>' +
-            '</div>' +
-          '</div>');
-
-        Cart.clear();
-        window.scrollTo({ top: 0, behavior: 'smooth' });
-      }
+      Cart.clear();
+      window.scrollTo({ top: 0, behavior: 'smooth' });
     });
   }
 

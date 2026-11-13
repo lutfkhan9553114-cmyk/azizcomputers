@@ -306,171 +306,168 @@ var App = (function () {
 
   /* ----------------------------------------------------------------- cart */
 
-var Cart = {
+  var Cart = {
     lines: [],
 
     load: function () {
-        Cart.lines = readJSON(STORAGE.cart, [])
-            .filter(function (l) { return l && Catalog.byId(l.id); })
-            .map(function (l) { return { id: l.id, qty: Cart.clamp(l.id, parseInt(l.qty, 10) || 1) }; });
+      Cart.lines = readJSON(STORAGE.cart, [])
+        .filter(function (l) { return l && Catalog.byId(l.id); })
+        .map(function (l) { return { id: l.id, qty: Cart.clamp(l.id, parseInt(l.qty, 10) || 1) }; });
     },
 
     save: function () { writeJSON(STORAGE.cart, Cart.lines); },
 
     clamp: function (id, qty) {
-        var p = Catalog.byId(id);
-        var max = p ? Math.max(1, Number(p.stock) || 1) : 99;
-        if (isNaN(qty) || qty < 1) { return 1; }
-        return Math.min(qty, Math.min(max, 99));
+      var p = Catalog.byId(id);
+      var max = p ? Math.max(1, Number(p.stock) || 1) : 99;
+      if (isNaN(qty) || qty < 1) { return 1; }
+      return Math.min(qty, Math.min(max, 99));
     },
 
     find: function (id) {
-        for (var i = 0; i < Cart.lines.length; i++) { if (Cart.lines[i].id === id) { return Cart.lines[i]; } }
-        return null;
+      for (var i = 0; i < Cart.lines.length; i++) { if (Cart.lines[i].id === id) { return Cart.lines[i]; } }
+      return null;
     },
 
     add: function (id, qty) {
-        var p = Catalog.byId(id);
-        if (!p) { return false; }
-        if (!Catalog.inStock(p)) { UI.toast('That item is out of stock — ask us on WhatsApp for arrival dates'); return false; }
-        var line = Cart.find(id);
-        var want = (line ? line.qty : 0) + (qty || 1);
-        if (line) { line.qty = Cart.clamp(id, want); } else { Cart.lines.push({ id: id, qty: Cart.clamp(id, want) }); }
-        Cart.save();
-        UI.renderCart();
-        UI.bump();
-        UI.toast(p.name + ' added to cart');
-        return true;
+      var p = Catalog.byId(id);
+      if (!p) { return false; }
+      if (!Catalog.inStock(p)) { UI.toast('That item is out of stock — ask us on WhatsApp for arrival dates'); return false; }
+      var line = Cart.find(id);
+      var want = (line ? line.qty : 0) + (qty || 1);
+      if (line) { line.qty = Cart.clamp(id, want); } else { Cart.lines.push({ id: id, qty: Cart.clamp(id, want) }); }
+      Cart.save();
+      UI.renderCart();
+      UI.bump();
+      UI.toast(p.name + ' added to cart');
+      return true;
     },
 
     setQty: function (id, qty) {
-        var line = Cart.find(id);
-        if (!line) { return; }
-        if (qty < 1) { Cart.remove(id); return; }
-        var clamped = Cart.clamp(id, qty);
-        if (clamped < qty) { UI.toast('Only ' + clamped + ' in stock right now'); }
-        line.qty = clamped;
-        Cart.save();
-        UI.renderCart();
+      var line = Cart.find(id);
+      if (!line) { return; }
+      if (qty < 1) { Cart.remove(id); return; }
+      var clamped = Cart.clamp(id, qty);
+      if (clamped < qty) { UI.toast('Only ' + clamped + ' in stock right now'); }
+      line.qty = clamped;
+      Cart.save();
+      UI.renderCart();
     },
 
     remove: function (id) {
-        var p = Catalog.byId(id);
-        Cart.lines = Cart.lines.filter(function (l) { return l.id !== id; });
-        Cart.save();
-        UI.renderCart();
-        if (p) { UI.toast(p.name + ' removed'); }
+      var p = Catalog.byId(id);
+      Cart.lines = Cart.lines.filter(function (l) { return l.id !== id; });
+      Cart.save();
+      UI.renderCart();
+      if (p) { UI.toast(p.name + ' removed'); }
     },
 
     clear: function () { Cart.lines = []; Cart.save(); UI.renderCart(); },
 
     count: function () {
-        return Cart.lines.reduce(function (n, l) { return n + l.qty; }, 0);
+      return Cart.lines.reduce(function (n, l) { return n + l.qty; }, 0);
     },
 
     subtotal: function () {
-        return Cart.lines.reduce(function (sum, l) {
-            var p = Catalog.byId(l.id);
-            return p ? sum + Catalog.price(p) * l.qty : sum;
-        }, 0);
+      return Cart.lines.reduce(function (sum, l) {
+        var p = Catalog.byId(l.id);
+        return p ? sum + Catalog.price(p) * l.qty : sum;
+      }, 0);
     },
 
     savings: function () {
-        return Cart.lines.reduce(function (sum, l) {
-            var p = Catalog.byId(l.id);
-            if (!p || p.salePrice == null || p.salePrice >= p.price) { return sum; }
-            return sum + (p.price - p.salePrice) * l.qty;
-        }, 0);
+      return Cart.lines.reduce(function (sum, l) {
+        var p = Catalog.byId(l.id);
+        if (!p || p.salePrice == null || p.salePrice >= p.price) { return sum; }
+        return sum + (p.price - p.salePrice) * l.qty;
+      }, 0);
     },
 
     delivery: function () {
-        var sub = Cart.subtotal();
-        if (sub <= 0) { return 0; }
-        return sub >= storeConfig.freeDeliveryOver ? 0 : storeConfig.deliveryFee;
+      var sub = Cart.subtotal();
+      if (sub <= 0) { return 0; }
+      return sub >= storeConfig.freeDeliveryOver ? 0 : storeConfig.deliveryFee;
     },
 
     total: function () { return Cart.subtotal() + Cart.delivery(); },
 
     /* VAT already included in displayed prices — shown for the invoice line */
     vatPortion: function () {
-        var rate = storeConfig.vatRate || 0;
-        if (!storeConfig.vatIncludedInPrices || !rate) { return 0; }
-        return Cart.total() - (Cart.total() / (1 + rate));
+      var rate = storeConfig.vatRate || 0;
+      if (!storeConfig.vatIncludedInPrices || !rate) { return 0; }
+      return Cart.total() - (Cart.total() / (1 + rate));
     },
 
     detailed: function () {
-        return Cart.lines.map(function (l) {
-            var p = Catalog.byId(l.id);
-            return { product: p, qty: l.qty, lineTotal: Catalog.price(p) * l.qty };
-        }).filter(function (x) { return !!x.product; });
+      return Cart.lines.map(function (l) {
+        var p = Catalog.byId(l.id);
+        return { product: p, qty: l.qty, lineTotal: Catalog.price(p) * l.qty };
+      }).filter(function (x) { return !!x.product; });
     }
-}; // <--- Cart object properly closed here!
+  };
 
-// ==========================================
-// Stripe Checkout Function (Placed OUTSIDE Cart)
-// ==========================================
-function handleStripeCheckout() {
-    var items = Cart.detailed();
-    
-    if (items.length === 0) {
-        UI.toast('Your cart is empty');
-        return;
+  /* ------------------------------------------------------------- WhatsApp */
+
+  var WhatsApp = {
+    base: function () { return 'https://wa.me/' + String(storeConfig.whatsapp).replace(/\D/g, ''); },
+
+    link: function (text) { return WhatsApp.base() + '?text=' + encodeURIComponent(text); },
+
+    /* "Order on WhatsApp" from a product page or card */
+    product: function (p, qty) {
+      var lines = [
+        'Hello ' + storeConfig.businessName + ', I am interested in ordering:',
+        '',
+        'Product: ' + p.name,
+        'SKU: ' + p.sku,
+        'Quantity: ' + (qty || 1),
+        'Price: ' + storeConfig.currency + ' ' + Catalog.price(p).toLocaleString('en-US'),
+        '',
+        'Is this in stock?'
+      ];
+      return WhatsApp.link(lines.join('\n'));
+    },
+
+    /* Whole cart, with or without customer details */
+    order: function (details) {
+      var ref = 'AZ-' + Date.now().toString(36).toUpperCase().slice(-6);
+      var lines = [];
+      lines.push('*New order — ' + storeConfig.businessName + '*');
+      lines.push('Ref: ' + ref);
+      lines.push('');
+      lines.push('*Items*');
+      Cart.detailed().forEach(function (item, i) {
+        lines.push((i + 1) + '. ' + item.product.name);
+        lines.push('   SKU: ' + item.product.sku);
+        lines.push('   ' + item.qty + ' × ' + money(Catalog.price(item.product)) + ' = ' + money(item.lineTotal));
+      });
+      lines.push('');
+      lines.push('Subtotal: ' + money(Cart.subtotal()));
+      if (Cart.savings() > 0) { lines.push('You save: ' + money(Cart.savings())); }
+      lines.push('Delivery: ' + (Cart.delivery() === 0 ? 'Free' : money(Cart.delivery())));
+      lines.push('*Total: ' + money(Cart.total()) + '* (incl. 5% VAT)');
+
+      if (details) {
+        lines.push('');
+        lines.push('*Delivery details*');
+        lines.push('Name: ' + details.name);
+        lines.push('Phone: ' + details.phone);
+        if (details.email) { lines.push('Email: ' + details.email); }
+        lines.push('Address: ' + details.address);
+        lines.push('Emirate / City: ' + details.city);
+        lines.push('Payment: ' + details.payment);
+        if (details.notes) { lines.push('Notes: ' + details.notes); }
+      }
+      lines.push('');
+      lines.push('Please confirm stock and delivery time. Thank you.');
+      return { url: WhatsApp.link(lines.join('\n')), ref: ref };
+    },
+
+    enquiry: function (subject) {
+      return WhatsApp.link('Hello ' + storeConfig.businessName + ', I would like to ask about ' + (subject || 'a product') + '.');
     }
+  };
 
-    var payloadItems = items.map(function(item) {
-        return {
-            name: item.product.name,
-            price: Catalog.price(item.product),
-            quantity: item.qty
-        };
-    });
-
-    // 1. Find the Stripe configuration safely using an ES5 loop
-    var stripeMethod = null;
-    for (var i = 0; i < storeConfig.paymentMethods.length; i++) {
-        if (storeConfig.paymentMethods[i].id === 'stripe') {
-            stripeMethod = storeConfig.paymentMethods[i];
-            break;
-        }
-    }
-
-    if (!stripeMethod || !stripeMethod.stripePublishableKey) {
-        alert('Stripe configuration or key is missing.');
-        return;
-    }
-
-    // 2. Initialize Stripe using the key from your payment method object
-    var stripe = Stripe(stripeMethod.stripePublishableKey);
-
-    // 3. Send request to your backend checkout URL
-    fetch(stripeMethod.backendCheckoutUrl, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ items: payloadItems }),
-    })
-    .then(function(response) {
-        return response.json();
-    })
-    .then(function(session) {
-        if (session.error) {
-            alert('Checkout Error: ' + session.error);
-            return;
-        }
-
-        return stripe.redirectToCheckout({
-            sessionId: session.id
-        });
-    })
-    .then(function(result) {
-        if (result && result.error) {
-            alert(result.error.message);
-        }
-    })
-    .catch(function(err) {
-        console.error('Payment initiation failed:', err);
-        alert('Could not connect to payment server.');
-    });
-}
   /* --------------------------------------------------------- product card */
 
   function productCard(p) {
