@@ -404,6 +404,52 @@ var App = (function () {
         return { product: p, qty: l.qty, lineTotal: Catalog.price(p) * l.qty };
       }).filter(function (x) { return !!x.product; });
     }
+	async function handleStripeCheckout() {
+    // 1. Get detailed cart items using your existing Cart module method
+    const items = Cart.detailed();
+
+    if (items.length === 0) {
+        UI.toast('Your cart is empty');
+        return;
+    }
+
+    // 2. Format items for your backend / Stripe session
+    const payloadItems = items.map(item => ({
+        name: item.product.name,
+        price: Catalog.price(item.product), // Uses your existing catalog pricing logic
+        quantity: item.qty
+    }));
+
+    // 3. Initialize Stripe with the publishable key from your config
+    const stripe = Stripe(storeConfig.stripePublishableKey);
+
+    try {
+        const response = await fetch(storeConfig.backendCheckoutUrl, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ items: payloadItems }),
+        });
+
+        const session = await response.json();
+
+        if (session.error) {
+            alert('Checkout Error: ' + session.error);
+            return;
+        }
+
+        // 4. Redirect user to the secure Stripe Checkout page
+        const result = await stripe.redirectToCheckout({
+            sessionId: session.id
+        });
+
+        if (result.error) {
+            alert(result.error.message);
+        }
+    } catch (err) {
+        console.error('Payment initiation failed:', err);
+        alert('Could not connect to payment server.');
+    }
+}
   };
 
   /* ------------------------------------------------------------- WhatsApp */
