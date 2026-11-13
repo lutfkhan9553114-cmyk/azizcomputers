@@ -76,11 +76,11 @@ const storeConfig = {
     { id: 'transfer', label: 'Bank Transfer',    note: 'We send account details on WhatsApp after you place the order.', online: true, enabled: true },
     { id: 'store',    label: 'Pay at the Shop',  note: 'Reserve online and pay when you collect from Bur Dubai.', online: true, enabled: true },
     { id: 'card',     label: 'Card Online (Visa / Mastercard)', note: 'Coming soon — gateway not connected yet.', online: true, enabled: false },
-    { id: 'tabby',    label: 'Stripe payments', note: 'Available', online: true, enabled: true, stripePublishableKey:'pk_live_51Tx5E8GwHv0iFMmruE8EjLn1wfWga9FsskDhJUV3KiHG88vt6gIyRMS78IVlCzPQtz4Aqmz3XEElnLgceNav8D7100XOpyDnP8',  backendCheckoutUrl: 'http://localhost:3000/create-checkout-session' }
+    { id: 'stripe',    label: 'Stripe payments', note: 'Available', online: true, enabled: true, stripePublishableKey:'pk_live_51Tx5E8GwHv0iFMmruE8EjLn1wfWga9FsskDhJUV3KiHG88vt6gIyRMS78IVlCzPQtz4Aqmz3XEElnLgceNav8D7100XOpyDnP8',  backendCheckoutUrl: 'http://localhost:3000/create-checkout-session' }
   ],
 
   /* Badges shown in the footer only (visual trust signals) */
-  paymentBadges: ['Cash on Delivery', 'Visa', 'Mastercard', 'Apple Pay', 'Tabby', 'Tamara', 'Bank Transfer'],
+  paymentBadges: ['Cash on Delivery', 'Visa', 'Mastercard', 'Apple Pay', 'Tabby', 'Stripe', 'Bank Transfer'],
 
   /* ---- 6. THEMES AND COLOURS ------------------------------------------ */
   /* The site ships with two full themes and a toggle in the top bar.
