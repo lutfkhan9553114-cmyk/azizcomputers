@@ -54,7 +54,7 @@ async function initializeStripePaymentIntent() {
     const response = await fetch(" https://azizcomputers.onrender.com/api/create-payment-intent", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ amount: 2500, currency: "usd" }),
+      body: JSON.stringify({ amount: amountInCents, currency: "aed" }),
     });
 
     const { clientSecret, error } = await response.json();
