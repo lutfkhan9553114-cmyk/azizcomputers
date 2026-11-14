@@ -75,7 +75,7 @@ const storeConfig = {
     { id: 'card_pos', label: 'Card on Delivery', note: 'Card machine available on delivery in Dubai and Sharjah.', online: true, enabled: true },
     { id: 'transfer', label: 'Bank Transfer',    note: 'We send account details on WhatsApp after you place the order.', online: true, enabled: true },
     { id: 'store',    label: 'Pay at the Shop',  note: 'Reserve online and pay when you collect from Bur Dubai.', online: true, enabled: true },
-    { id: 'card',     label: 'Card Online (Visa / Mastercard)', note: 'Coming soon — gateway not connected yet.', online: true, enabled: true },
+    { id: 'card',     label: 'Card Online (Visa / Mastercard)', note: 'BUY NOW PAY NOW', online: true, enabled: true },
     { id: 'tabby',    label: 'Tabby — 4 payments', note: 'Coming soon — gateway not connected yet.', online: true, enabled: false }
   ],
 
