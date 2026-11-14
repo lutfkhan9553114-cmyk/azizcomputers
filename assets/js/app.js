@@ -389,13 +389,13 @@ var App = (function () {
       return sub >= storeConfig.freeDeliveryOver ? 0 : storeConfig.deliveryFee;
     },
 
-    total: function () { return Cart.subtotal() + Cart.delivery(); },
+    total: function () { return Cart.subtotal() + Cart.delivery() +; },
 
     /* VAT already included in displayed prices — shown for the invoice line */
     vatPortion: function () {
       var rate = storeConfig.vatRate || 0;
       if (!storeConfig.vatIncludedInPrices || !rate) { return 0; }
-      return Cart.total() - (Cart.total() / (1 + 0));
+      return Cart.total() - (Cart.total());
     },
 
     detailed: function () {
