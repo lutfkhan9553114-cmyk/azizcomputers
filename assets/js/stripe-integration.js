@@ -3,7 +3,7 @@ let elements;
 let isCardPaymentSelected = false;
 
 document.addEventListener("DOMContentLoaded", () => {
-  // Paste your actual Stripe Publishable Key below:
+  // Replace with your actual Stripe Publishable Key
   stripe = Stripe("pk_test_51Tx5E8GwHv0iFMmrXCTH11X2eoI7tsPneqOeSRKL4OA4J1FQkRdp3g1m2eA1zDTQ8S3kvx6BC0DGbTELNioRmSdh00sMkcma3T");
 
   const paymentOptionsContainer = document.getElementById("payment-options");
@@ -20,21 +20,29 @@ document.addEventListener("DOMContentLoaded", () => {
         isCardPaymentSelected = true;
         document.getElementById("stripe-payment-container").style.display = "block";
         
-        // Force button to show, enable, and update text
+        // Style button for Stripe Payment (Golden theme)
         if (btn) {
           btn.style.display = "block";
           btn.disabled = false;
           btn.textContent = "Pay Securely Now";
+          btn.style.backgroundColor = "#d4af37"; // Golden color
+          btn.style.color = "#000000";            // Dark text for contrast
+          btn.style.border = "none";
         }
         
         await initializeStripePaymentIntent();
       } else {
         isCardPaymentSelected = false;
         document.getElementById("stripe-payment-container").style.display = "none";
+        
+        // Style button for WhatsApp (Green theme)
         if (btn) {
           btn.style.display = "block";
           btn.disabled = false;
           btn.textContent = "Place order on WhatsApp";
+          btn.style.backgroundColor = "#25D366"; // WhatsApp Green
+          btn.style.color = "#ffffff";            // White text
+          btn.style.border = "none";
         }
       }
     });
