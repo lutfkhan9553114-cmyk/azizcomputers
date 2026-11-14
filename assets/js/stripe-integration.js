@@ -51,7 +51,24 @@ document.addEventListener("DOMContentLoaded", () => {
 
 async function initializeStripePaymentIntent() {
   try {
-    const response = await fetch(" https://azizcomputers.onrender.com/api/create-payment-intent", {
+    // 1. Calculate total from your website's cart data
+    let cartTotalAED = 25.00; // Fallback default if cart is empty
+    try {
+      const cartData = JSON.parse(localStorage.getItem('cart')) || [];
+      if (cartData.length > 0) {
+        const calculatedTotal = cartData.reduce((sum, item) => sum + (parseFloat(item.price) * (item.quantity || 1)), 0);
+        if (calculatedTotal > 0) {
+          cartTotalAED = calculatedTotal;
+        }
+      }
+    } catch (e) {
+      console.log("Could not read cart from localStorage, using default amount.");
+    }
+
+    // 2. Convert total to cents (Stripe requires amounts in the smallest currency unit)
+    const amountInCents = Math.round(cartTotalAED * 100);
+
+    const response = await fetch("https://azizcomputers.onrender.com/api/create-payment-intent", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ amount: amountInCents, currency: "aed" }),
