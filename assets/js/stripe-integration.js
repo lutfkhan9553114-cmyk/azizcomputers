@@ -4,7 +4,7 @@ let isCardPaymentSelected = false;
 
 document.addEventListener("DOMContentLoaded", () => {
   // Replace with your actual Stripe Publishable Key
-  stripe = Stripe("pk_test_51Tx5E8GwHv0iFMmrXCTH11X2eoI7tsPneqOeSRKL4OA4J1FQkRdp3g1m2eA1zDTQ8S3kvx6BC0DGbTELNioRmSdh00sMkcma3T");
+  stripe = Stripe("pk_live_51Tx5E8GwHv0iFMmruE8EjLn1wfWga9FsskDhJUV3KiHG88vt6gIyRMS78IVlCzPQtz4Aqmz3XEElnLgceNav8D7100XOpyDnP8");
 
   const paymentOptionsContainer = document.getElementById("payment-options");
   if (paymentOptionsContainer) {
@@ -51,7 +51,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 async function initializeStripePaymentIntent() {
   try {
-    const response = await fetch("http://localhost:4242/api/create-payment-intent", {
+    const response = await fetch(" https://azizcomputers.onrender.com/api/create-payment-intent", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ amount: 2500, currency: "usd" }),
