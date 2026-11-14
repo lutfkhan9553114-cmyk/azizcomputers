@@ -2,8 +2,8 @@ let stripe;
 let elements;
 let isCardPaymentSelected = false;
 
-document.addEventListener("DOMContentLoaded", async () => {
-  // 1. Initialize Stripe with your Publishable Test Key
+document.addEventListener("DOMContentLoaded", () => {
+  // Replace with your actual Stripe Publishable Test Key (pk_test_...)
   stripe = Stripe("pk_test_your_actual_publishable_key_here");
 
   const paymentOptionsContainer = document.getElementById("payment-options");
@@ -11,9 +11,10 @@ document.addEventListener("DOMContentLoaded", async () => {
     paymentOptionsContainer.addEventListener("change", async (e) => {
       const selectedValue = e.target.value ? e.target.value.toLowerCase() : "";
       const selectedId = e.target.id ? e.target.id.toLowerCase() : "";
+      const labelText = e.target.parentElement ? e.target.parentElement.textContent.toLowerCase() : "";
 
-      // Check if the user picked card/online payment
-      if (selectedValue.includes("card") || selectedId.includes("card") || selectedValue.includes("online")) {
+      // Detect if Card Online was chosen
+      if (selectedValue.includes("card") || selectedId.includes("card") || labelText.includes("card online")) {
         isCardPaymentSelected = true;
         document.getElementById("stripe-payment-container").style.display = "block";
         document.getElementById("place-order").textContent = "Pay Securely Now";
@@ -52,27 +53,31 @@ async function initializeStripePaymentIntent() {
   }
 }
 
-document.getElementById("place-order").addEventListener("click", async (e) => {
-  if (isCardPaymentSelected) {
-    e.preventDefault();
-    const submitButton = document.getElementById("place-order");
-    submitButton.disabled = true;
-    submitButton.textContent = "Processing Payment...";
+// Intercept click BEFORE pages.js can trigger WhatsApp
+const placeOrderBtn = document.getElementById("place-order");
+if (placeOrderBtn) {
+  placeOrderBtn.addEventListener("click", async (e) => {
+    if (isCardPaymentSelected) {
+      e.preventDefault();
+      e.stopImmediatePropagation(); // Stops pages.js from opening WhatsApp
 
-    const { error } = await stripe.confirmPayment({
-      elements,
-      confirmParams: {
-        return_url: window.location.origin + "/index.html?payment=success",
-      },
-    });
+      const submitButton = document.getElementById("place-order");
+      submitButton.disabled = true;
+      submitButton.textContent = "Processing Payment...";
 
-    if (error) {
-      document.getElementById("payment-message").textContent = error.message;
-      submitButton.disabled = false;
-      submitButton.textContent = "Pay Securely Now";
+      const { error } = await stripe.confirmPayment({
+        elements,
+        confirmParams: {
+          return_url: window.location.origin + "/index.html?payment=success",
+        },
+      });
+
+      if (error) {
+        document.getElementById("payment-message").textContent = error.message;
+        submitButton.disabled = false;
+        submitButton.textContent = "Pay Securely Now";
+      }
     }
-  } else {
-    // Falls through to your default WhatsApp handler if card is not selected
-    console.log("WhatsApp flow selected.");
-  }
-});
+    // If Card is NOT selected, it does nothing and lets pages.js open WhatsApp normally
+  }, true); // <-- 'true' ensures this runs before pages.js
+}
