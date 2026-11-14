@@ -395,7 +395,7 @@ var App = (function () {
     vatPortion: function () {
       var rate = storeConfig.vatRate || 0;
       if (!storeConfig.vatIncludedInPrices || !rate) { return 0; }
-      return Cart.total() - (Cart.total() / (1 + rate ));
+      return Cart.total() - (Cart.total() / (1 + rate));
     },
 
     detailed: function () {
