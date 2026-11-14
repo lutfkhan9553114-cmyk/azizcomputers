@@ -72,7 +72,7 @@ const storeConfig = {
      "online: true" needs a payment gateway — see README section 8. */
   paymentMethods: [
     { id: 'cod',      label: 'Cash on Delivery', note: 'Pay the driver in cash when your order arrives.', online: true, enabled: true },
-    { id: 'card_pos', label: 'Card on Delivery', note: 'Card machine available on delivery in Dubai and Sharjah.', online: true, enabled: true },
+    { id: 'con', label: 'Card on Delivery', note: 'Card machine available on delivery in Dubai and Sharjah.', online: true, enabled: true },
     { id: 'transfer', label: 'Bank Transfer',    note: 'We send account details on WhatsApp after you place the order.', online: true, enabled: true },
     { id: 'store',    label: 'Pay at the Shop',  note: 'Reserve online and pay when you collect from Bur Dubai.', online: true, enabled: true },
     { id: 'card',     label: 'Card Online (Visa / Mastercard)', note: 'BUY NOW PAY NOW', online: true, enabled: true },
