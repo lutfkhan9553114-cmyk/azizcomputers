@@ -4,7 +4,7 @@ let isCardPaymentSelected = false;
 
 document.addEventListener("DOMContentLoaded", () => {
   // Replace with your actual Stripe Publishable Test Key (pk_test_...)
-  stripe = Stripe("pk_test_your_actual_publishable_key_here");
+  stripe = Stripe("pk_test_51Tx5E8GwHv0iFMmrXCTH11X2eoI7tsPneqOeSRKL4OA4J1FQkRdp3g1m2eA1zDTQ8S3kvx6BC0DGbTELNioRmSdh00sMkcma3T");
 
   const paymentOptionsContainer = document.getElementById("payment-options");
   if (paymentOptionsContainer) {
