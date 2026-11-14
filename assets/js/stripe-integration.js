@@ -6,17 +6,18 @@ document.addEventListener("DOMContentLoaded", async () => {
   // 1. Initialize Stripe with your Publishable Test Key
   stripe = Stripe("pk_test_your_actual_publishable_key_here");
 
-  // Listen for changes in your payment options selection
   const paymentOptionsContainer = document.getElementById("payment-options");
   if (paymentOptionsContainer) {
     paymentOptionsContainer.addEventListener("change", async (e) => {
-      // Assuming your radio buttons or options have values like 'card' or 'whatsapp'/'cod'
-      if (e.target.value === "card" || e.target.id === "pay-card") {
+      const selectedValue = e.target.value ? e.target.value.toLowerCase() : "";
+      const selectedId = e.target.id ? e.target.id.toLowerCase() : "";
+
+      // Check if the user picked card/online payment
+      if (selectedValue.includes("card") || selectedId.includes("card") || selectedValue.includes("online")) {
         isCardPaymentSelected = true;
         document.getElementById("stripe-payment-container").style.display = "block";
         document.getElementById("place-order").textContent = "Pay Securely Now";
         
-        // Initialize Stripe Elements when Card is selected
         await initializeStripePaymentIntent();
       } else {
         isCardPaymentSelected = false;
@@ -27,10 +28,8 @@ document.addEventListener("DOMContentLoaded", async () => {
   }
 });
 
-// 2. Fetch PaymentIntent from your Node.js backend
 async function initializeStripePaymentIntent() {
   try {
-    // Calculate amount dynamically from your cart system if available (e.g., 2500 for $25.00)
     const response = await fetch("http://localhost:4242/api/create-payment-intent", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
@@ -43,7 +42,6 @@ async function initializeStripePaymentIntent() {
       return;
     }
 
-    // Mount Stripe Elements
     const appearance = { theme: 'stripe' };
     elements = stripe.elements({ appearance, clientSecret });
     const paymentElement = elements.create("payment");
@@ -54,7 +52,6 @@ async function initializeStripePaymentIntent() {
   }
 }
 
-// 3. Handle the 'Place Order / Pay Now' button click
 document.getElementById("place-order").addEventListener("click", async (e) => {
   if (isCardPaymentSelected) {
     e.preventDefault();
@@ -75,7 +72,7 @@ document.getElementById("place-order").addEventListener("click", async (e) => {
       submitButton.textContent = "Pay Securely Now";
     }
   } else {
-    // Fallback to your existing WhatsApp / non-card checkout flow handled by Pages.checkout()
-    console.log("Proceeding with WhatsApp order flow...");
+    // Falls through to your default WhatsApp handler if card is not selected
+    console.log("WhatsApp flow selected.");
   }
 });
