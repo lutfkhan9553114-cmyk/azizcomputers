@@ -3,7 +3,7 @@ let elements;
 let isCardPaymentSelected = false;
 
 document.addEventListener("DOMContentLoaded", () => {
-  // Replace with your actual Stripe Publishable Test Key (pk_test_...)
+  // Paste your actual Stripe Publishable Key below:
   stripe = Stripe("pk_test_51Tx5E8GwHv0iFMmrXCTH11X2eoI7tsPneqOeSRKL4OA4J1FQkRdp3g1m2eA1zDTQ8S3kvx6BC0DGbTELNioRmSdh00sMkcma3T");
 
   const paymentOptionsContainer = document.getElementById("payment-options");
@@ -13,17 +13,29 @@ document.addEventListener("DOMContentLoaded", () => {
       const selectedId = e.target.id ? e.target.id.toLowerCase() : "";
       const labelText = e.target.parentElement ? e.target.parentElement.textContent.toLowerCase() : "";
 
+      const btn = document.getElementById("place-order");
+
       // Detect if Card Online was chosen
       if (selectedValue.includes("card") || selectedId.includes("card") || labelText.includes("card online")) {
         isCardPaymentSelected = true;
         document.getElementById("stripe-payment-container").style.display = "block";
-        document.getElementById("place-order").textContent = "Pay Securely Now";
+        
+        // Force button to show, enable, and update text
+        if (btn) {
+          btn.style.display = "block";
+          btn.disabled = false;
+          btn.textContent = "Pay Securely Now";
+        }
         
         await initializeStripePaymentIntent();
       } else {
         isCardPaymentSelected = false;
         document.getElementById("stripe-payment-container").style.display = "none";
-        document.getElementById("place-order").textContent = "Place order on WhatsApp";
+        if (btn) {
+          btn.style.display = "block";
+          btn.disabled = false;
+          btn.textContent = "Place order on WhatsApp";
+        }
       }
     });
   }
@@ -59,7 +71,7 @@ if (placeOrderBtn) {
   placeOrderBtn.addEventListener("click", async (e) => {
     if (isCardPaymentSelected) {
       e.preventDefault();
-      e.stopImmediatePropagation(); // Stops pages.js from opening WhatsApp
+      e.stopImmediatePropagation();
 
       const submitButton = document.getElementById("place-order");
       submitButton.disabled = true;
@@ -78,6 +90,5 @@ if (placeOrderBtn) {
         submitButton.textContent = "Pay Securely Now";
       }
     }
-    // If Card is NOT selected, it does nothing and lets pages.js open WhatsApp normally
-  }, true); // <-- 'true' ensures this runs before pages.js
+  }, true);
 }
