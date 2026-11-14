@@ -64,11 +64,19 @@ var App = (function () {
     } catch (e) { return null; }
   }
 
+  /* Whole amounts show without decimals (AED 2,299). Amounts with fils, such
+     as a 5% VAT line, show both decimals (AED 114.95) so nothing is rounded
+     away and the cart always adds up to exactly what Stripe charges. */
   function money(amount) {
-    var n = Math.round(Number(amount) || 0);
+    var n = Math.round((Number(amount) || 0) * 100) / 100;
+    var whole = Math.abs(n - Math.round(n)) < 0.005;
+    var opts = whole ? { maximumFractionDigits: 0 } : { minimumFractionDigits: 2, maximumFractionDigits: 2 };
     var num;
-    try { num = new Intl.NumberFormat(storeConfig.currencyLocale || 'en-AE').format(n); }
-    catch (e) { num = String(n).replace(/\B(?=(\d{3})+(?!\d))/g, ','); }
+    try { num = new Intl.NumberFormat(storeConfig.currencyLocale || 'en-AE', opts).format(n); }
+    catch (e) {
+      num = whole ? String(Math.round(n)) : n.toFixed(2);
+      num = num.replace(/\B(?=(\d{3})+(?!\d))/g, ',');
+    }
     return storeConfig.currency + ' ' + num;
   }
 
@@ -389,13 +397,21 @@ var App = (function () {
       return sub >= storeConfig.freeDeliveryOver ? 0 : storeConfig.deliveryFee;
     },
 
-    total: function () { return Cart.subtotal() + Cart.delivery(); },
-
-    /* VAT already included in displayed prices — shown for the invoice line */
+    /* VAT is ADDED ON TOP of the prices: exactly vatRate (5%) of the goods
+       plus delivery, rounded to the nearest fils. The rate comes from
+       vatRate in config.js; set it to 0 to switch VAT off. */
     vatPortion: function () {
       var rate = storeConfig.vatRate || 0;
-      if (!storeConfig.vatIncludedInPrices || !rate) { return 0; }
-      return Cart.total() - (Cart.total() / (1 + rate));
+      if (!rate) { return 0; }
+      return Math.round((Cart.subtotal() + Cart.delivery()) * rate * 100) / 100;
+    },
+
+    /* grand total = goods + delivery + VAT */
+    total: function () { return Cart.subtotal() + Cart.delivery() + Cart.vatPortion(); },
+
+    /* "5%" for labels, whatever the rate in config.js is */
+    vatLabel: function () {
+      return 'VAT (' + (Math.round((storeConfig.vatRate || 0) * 10000) / 100) + '%)';
     },
 
     detailed: function () {
@@ -445,7 +461,8 @@ var App = (function () {
       lines.push('Subtotal: ' + money(Cart.subtotal()));
       if (Cart.savings() > 0) { lines.push('You save: ' + money(Cart.savings())); }
       lines.push('Delivery: ' + (Cart.delivery() === 0 ? 'Free' : money(Cart.delivery())));
-      lines.push('*Total: ' + money(Cart.total()) + '* (incl. 5% VAT)');
+      if (Cart.vatPortion() > 0) { lines.push(Cart.vatLabel() + ': ' + money(Cart.vatPortion())); }
+      lines.push('*Total (incl. VAT): ' + money(Cart.total()) + '*');
 
       if (details) {
         lines.push('');
@@ -1079,8 +1096,8 @@ var App = (function () {
         '<div class="trow"><span>Subtotal</span><span>' + money(Cart.subtotal()) + '</span></div>' +
         (savings > 0 ? '<div class="trow" style="color:var(--success)"><span>Discount saved</span><span>−' + money(savings) + '</span></div>' : '') +
         '<div class="trow"><span>Delivery</span><span>' + (Cart.delivery() === 0 ? (Cart.subtotal() > 0 ? 'Free' : money(0)) : money(Cart.delivery())) + '</span></div>' +
-        '<div class="trow grand"><span>Total</span><span>' + money(Cart.total()) + '</span></div>' +
-        '<div class="trow" style="font-size:12px"><span>Includes VAT</span><span>' + money(Cart.vatPortion()) + '</span></div>';
+        (Cart.vatPortion() > 0 ? '<div class="trow"><span>' + Cart.vatLabel() + '</span><span>' + money(Cart.vatPortion()) + '</span></div>' : '') +
+        '<div class="trow grand"><span>Total</span><span>' + money(Cart.total()) + '</span></div>';
 
       var checkout = document.getElementById('cart-checkout');
       var wa = document.getElementById('cart-whatsapp');
