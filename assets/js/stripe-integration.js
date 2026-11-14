@@ -51,21 +51,35 @@ document.addEventListener("DOMContentLoaded", () => {
 
 async function initializeStripePaymentIntent() {
   try {
-    // 1. Calculate total from your website's cart data
-    let cartTotalAED = 25.00; // Fallback default if cart is empty
+    let cartTotalAED = 25.00; // Fallback default
+    
     try {
-      const cartData = JSON.parse(localStorage.getItem('cart')) || [];
-      if (cartData.length > 0) {
-        const calculatedTotal = cartData.reduce((sum, item) => sum + (parseFloat(item.price) * (item.quantity || 1)), 0);
-        if (calculatedTotal > 0) {
-          cartTotalAED = calculatedTotal;
+      // Let's check common keys your store might use for the cart
+      let rawCart = localStorage.getItem('cart') || localStorage.getItem('shoppingCart') || localStorage.getItem('aziz_cart');
+      console.log("Raw cart data found in localStorage:", rawCart); // Check your F12 Console to see this!
+
+      if (rawCart) {
+        const cartData = JSON.parse(rawCart);
+        if (Array.isArray(cartData) && cartData.length > 0) {
+          const calculatedTotal = cartData.reduce((sum, item) => {
+            // Support different property names like price, itemPrice, or product.price
+            const itemPrice = parseFloat(item.price || item.itemPrice || item.cost || 0);
+            const itemQty = parseInt(item.quantity || item.qty || 1, 10);
+            return sum + (itemPrice * itemQty);
+          }, 0);
+
+          if (calculatedTotal > 0) {
+            cartTotalAED = calculatedTotal;
+          }
         }
       }
     } catch (e) {
-      console.log("Could not read cart from localStorage, using default amount.");
+      console.log("Error reading cart from localStorage:", e);
     }
 
-    // 2. Convert total to cents (Stripe requires amounts in the smallest currency unit)
+    console.log("Final calculated amount in AED to charge:", cartTotalAED);
+
+    // Convert total AED to fils (multiply by 100)
     const amountInCents = Math.round(cartTotalAED * 100);
 
     const response = await fetch("https://azizcomputers.onrender.com/api/create-payment-intent", {
@@ -89,7 +103,6 @@ async function initializeStripePaymentIntent() {
     console.error("Error initializing Stripe Elements:", err);
   }
 }
-
 // Intercept click BEFORE pages.js can trigger WhatsApp
 const placeOrderBtn = document.getElementById("place-order");
 if (placeOrderBtn) {
