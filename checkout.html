@@ -23,6 +23,7 @@
 })();
 </script>
 <link rel="stylesheet" href="assets/css/styles.css">
+<script src="https://js.stripe.com/v3/"></script>
 </head>
 <body>
 
@@ -90,21 +91,30 @@
           </div>
         </div>
 
-        <div class="panel">
+<div class="panel">
           <h2>Payment method</h2>
-          <p class="panel-sub">Online card payment is not connected yet — those options are shown but disabled until the gateway is live.</p>
+          <p class="panel-sub">Choose how you would like to pay.</p>
+          
           <div class="pay-options" id="payment-options"></div>
-          <div class="note" style="margin-top:16px">
-            Pressing the button below opens WhatsApp with your complete order. We reply with stock confirmation,
-            the final delivery slot and — for bank transfer — our account details.
-          </div>
-          <button class="btn btn-whatsapp btn-block" type="button" id="place-order" style="margin-top:18px">Place order on WhatsApp</button>
-        </div>
-      </div>
 
-      <div>
-        <div class="panel summary" id="order-summary"></div>
-      </div>
+          <!-- ========================================== -->
+          <!-- NEW: Stripe Card Element Container         -->
+          <!-- ========================================== -->
+          <div id="stripe-payment-container" style="margin-top: 20px; display: none; padding: 15px; border: 1px solid var(--border-color, #ccc); border-radius: 8px;">
+            <label style="display: block; font-weight: 600; margin-bottom: 8px;">Enter Credit / Debit Card Details</label>
+            <!-- Stripe.js will inject the card input here -->
+            <div id="payment-element"></div>
+            <div id="payment-message" style="color: red; font-size: 14px; margin-top: 8px;"></div>
+          </div>
+          <!-- ========================================== -->
+
+          <div class="note" style="margin-top:16px">
+            Pressing the button below places your order. Online card payments are processed securely via Stripe.
+          </div>
+
+          <!-- Dynamic button that changes depending on whether they pick WhatsApp or Online Card Payment -->
+          <button class="btn btn-block" type="button" id="place-order" style="margin-top:18px">Place order on WhatsApp</button>
+        </div>
 
     </div>
   </div>
@@ -116,6 +126,7 @@
 <script src="assets/js/products.js"></script>
 <script src="assets/js/app.js"></script>
 <script src="assets/js/pages.js"></script>
+<script src="assets/js/stripe-integration.js"></script>
 <script>Pages.checkout();</script>
 </body>
 </html>
