@@ -54,30 +54,26 @@ async function initializeStripePaymentIntent() {
     let cartTotalAED = 25.00; // Fallback default
     
     try {
-      // Let's check common keys your store might use for the cart
-      let rawCart = localStorage.getItem('cart') || localStorage.getItem('shoppingCart') || localStorage.getItem('aziz_cart');
-      console.log("Raw cart data found in localStorage:", rawCart); // Check your F12 Console to see this!
-
-      if (rawCart) {
-        const cartData = JSON.parse(rawCart);
-        if (Array.isArray(cartData) && cartData.length > 0) {
-          const calculatedTotal = cartData.reduce((sum, item) => {
-            // Support different property names like price, itemPrice, or product.price
-            const itemPrice = parseFloat(item.price || item.itemPrice || item.cost || 0);
-            const itemQty = parseInt(item.quantity || item.qty || 1, 10);
-            return sum + (itemPrice * itemQty);
-          }, 0);
-
-          if (calculatedTotal > 0) {
-            cartTotalAED = calculatedTotal;
-          }
+      // Look for the total text displayed on your checkout/cart page UI
+      // (We check common class names or ID selectors where totals are shown)
+      const totalElement = document.querySelector('.cart-total, #cart-total, .total-amount, .grand-total, span.total, strong.total');
+      
+      if (totalElement) {
+        let totalText = totalElement.textContent || totalElement.innerText;
+        // Strip out currency symbols like "AED", commas, etc., and keep only numbers & decimal point
+        let cleanedPrice = parseFloat(totalText.replace(/[^0-9.]/g, ''));
+        if (!isNaN(cleanedPrice) && cleanedPrice > 0) {
+          cartTotalAED = cleanedPrice;
         }
+      } else {
+        // Fallback: If no DOM element is found, check if your cart script exposes a global variable or function
+        console.log("DOM total element not found, checking alternative methods.");
       }
     } catch (e) {
-      console.log("Error reading cart from localStorage:", e);
+      console.log("Error reading onscreen total:", e);
     }
 
-    console.log("Final calculated amount in AED to charge:", cartTotalAED);
+    console.log("Final AED amount grabbed from screen to charge:", cartTotalAED);
 
     // Convert total AED to fils (multiply by 100)
     const amountInCents = Math.round(cartTotalAED * 100);
