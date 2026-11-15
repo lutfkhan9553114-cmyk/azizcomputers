@@ -54,20 +54,15 @@ async function initializeStripePaymentIntent() {
     let cartTotalAED = 25.00; // Fallback default
     
     try {
-      // Look for the total text displayed on your checkout/cart page UI
-      // (We check common class names or ID selectors where totals are shown)
-      const totalElement = document.querySelector('.cart-total, #cart-total, .total-amount, .grand-total, span.total, strong.total');
+      // Target the exact second span inside div.trow.grand from your cart drawer
+      const totalElement = document.querySelector('div.trow.grand span:last-child');
       
       if (totalElement) {
         let totalText = totalElement.textContent || totalElement.innerText;
-        // Strip out currency symbols like "AED", commas, etc., and keep only numbers & decimal point
         let cleanedPrice = parseFloat(totalText.replace(/[^0-9.]/g, ''));
         if (!isNaN(cleanedPrice) && cleanedPrice > 0) {
           cartTotalAED = cleanedPrice;
         }
-      } else {
-        // Fallback: If no DOM element is found, check if your cart script exposes a global variable or function
-        console.log("DOM total element not found, checking alternative methods.");
       }
     } catch (e) {
       console.log("Error reading onscreen total:", e);
