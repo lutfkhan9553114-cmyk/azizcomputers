@@ -26,7 +26,7 @@
 
   /* Publishable keys are meant to be public. Keep it the same mode (live/test)
      as STRIPE_SECRET_KEY on Render — a live pk with a test sk fails. */
-  var STRIPE_PUBLISHABLE_KEY = 'pk_live_51Tx5E8GwHv0iFMmruE8EjLn1wfWga9FsskDhJUV3KiHG88vt6gIyRMS78IVlCzPQtz4Aqmz3XEElnLgceNav8D7100XOpyDnP8';
+  var STRIPE_PUBLISHABLE_KEY = 'pk_test_51Tx5E8GwHv0iFMmrXCTH11X2eoI7tsPneqOeSRKL4OA4J1FQkRdp3g1m2eA1zDTQ8S3kvx6BC0DGbTELNioRmSdh00sMkcma3T';
 
   /* Where server.js is running. Use '' if the website itself is served by that
      same server. */
