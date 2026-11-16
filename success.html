@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Order Confirmed | Aziz Computers</title>
+<meta name="robots" content="noindex">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400;6..96,500;6..96,600&family=IBM+Plex+Mono:wght@500&family=Public+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<script>
+/* same early theme script as the other pages */
+(function () {
+  try {
+    var t = localStorage.getItem('aziz.theme');
+    if (t !== 'light' && t !== 'dark') { t = 'dark'; }
+    document.documentElement.setAttribute('data-theme', t);
+  } catch (e) { document.documentElement.setAttribute('data-theme', 'dark'); }
+})();
+</script>
+<link rel="stylesheet" href="assets/css/styles.css">
+
+<style>
+/* ===== Order success page — everything here is local to success.html ===== */
+.ok-page [hidden]{display:none !important;}
+.ok-page{padding-block:40px 70px;}
+.ok-card{width:100%;max-width:760px;margin:0 auto;display:grid;gap:22px;}
+
+/* black + gold card used on every block, whatever the site theme is */
+.ok-box{background:#0E1013;color:#EDEDE8;border:1px solid rgba(200,162,74,.35);border-radius:var(--radius-lg);padding:26px;box-shadow:0 18px 50px rgba(0,0,0,.25);}
+.ok-box h2{font-family:var(--display);font-weight:500;font-size:22px;margin:0 0 4px;color:#EDEDE8;}
+.ok-box .ok-sub{color:#9AA0A8;font-size:14px;margin:0 0 18px;}
+
+/* glowing check */
+.ok-hero{text-align:center;padding:40px 26px 34px;background:radial-gradient(120% 90% at 50% 0%,#1d1a10 0%,#0E1013 70%);}
+.ok-check{width:92px;height:92px;margin:0 auto 20px;border-radius:50%;display:grid;place-items:center;border:2px solid #C8A24A;color:#C8A24A;
+  box-shadow:0 0 0 0 rgba(200,162,74,.55),0 0 38px rgba(200,162,74,.45);animation:okGlow 2.4s ease-in-out infinite;}
+.ok-check svg{width:46px;height:46px;stroke:currentColor;fill:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:60;stroke-dashoffset:60;animation:okDraw .7s .25s ease forwards;}
+@keyframes okDraw{to{stroke-dashoffset:0;}}
+@keyframes okGlow{0%,100%{box-shadow:0 0 0 0 rgba(200,162,74,.45),0 0 30px rgba(200,162,74,.35);}50%{box-shadow:0 0 0 14px rgba(200,162,74,0),0 0 54px rgba(200,162,74,.6);}}
+.ok-hero h1{font-family:var(--display);font-weight:500;font-size:clamp(26px,4.4vw,36px);margin:0 0 8px;color:#EDEDE8;}
+.ok-hero h1 em{font-style:normal;color:#C8A24A;}
+.ok-hero p{color:#B4B9C0;margin:0 auto;max-width:520px;}
+.ok-hero.is-pending .ok-check{border-color:#9AA0A8;color:#9AA0A8;animation:none;box-shadow:none;}
+.ok-hero.is-bad .ok-check{border-color:#D9534F;color:#D9534F;animation:none;box-shadow:0 0 30px rgba(217,83,79,.35);}
+
+/* reference details */
+.ok-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:1px;background:rgba(200,162,74,.25);border:1px solid rgba(200,162,74,.25);border-radius:var(--radius);overflow:hidden;}
+.ok-cell{background:#14171C;padding:14px 16px;}
+.ok-cell span{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:#8E949C;margin-bottom:5px;}
+.ok-cell b{font-size:16px;font-weight:600;color:#EDEDE8;}
+.ok-cell b.mono{font-family:var(--mono);color:#C8A24A;letter-spacing:.03em;}
+.ok-paid{color:#4CD07D !important;}
+
+/* timeline */
+.ok-steps{list-style:none;margin:0;padding:0;position:relative;}
+.ok-steps li{position:relative;padding:0 0 22px 46px;}
+.ok-steps li:last-child{padding-bottom:0;}
+.ok-steps li::before{content:"";position:absolute;left:13px;top:28px;bottom:-2px;width:2px;background:#2A2F36;}
+.ok-steps li:last-child::before{display:none;}
+.ok-dot{position:absolute;left:0;top:0;width:28px;height:28px;border-radius:50%;background:#14171C;border:2px solid #3A4048;display:grid;place-items:center;font-size:12px;font-weight:700;color:#8E949C;}
+.ok-steps b{display:block;font-size:15px;color:#9AA0A8;font-weight:600;}
+.ok-steps small{color:#6F757D;font-size:13px;}
+.ok-steps li.is-done .ok-dot{background:#C8A24A;border-color:#C8A24A;color:#1B1508;box-shadow:0 0 16px rgba(200,162,74,.55);}
+.ok-steps li.is-done::before{background:#C8A24A;}
+.ok-steps li.is-done b{color:#EDEDE8;}
+.ok-steps li.is-done small{color:#B4B9C0;}
+
+/* courier */
+.ok-courier{display:flex;flex-wrap:wrap;align-items:center;gap:14px;justify-content:space-between;background:#14171C;border:1px dashed rgba(200,162,74,.45);border-radius:var(--radius);padding:16px;}
+.ok-courier .lbl{font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:#8E949C;}
+.ok-courier .val{font-size:17px;font-weight:600;color:#EDEDE8;margin-top:3px;}
+.ok-courier .val.mono{font-family:var(--mono);color:#C8A24A;word-break:break-all;}
+.ok-actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:14px;}
+.ok-btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:44px;padding:0 20px;border-radius:var(--radius);font:600 14px var(--sans);cursor:pointer;text-decoration:none;border:1px solid #C8A24A;background:transparent;color:#C8A24A;transition:.2s;}
+.ok-btn:hover{background:#C8A24A;color:#1B1508;}
+.ok-btn[disabled],.ok-btn.is-off{opacity:.45;pointer-events:none;}
+.ok-btn.gold{background:#C8A24A;color:#1B1508;}
+.ok-btn.gold:hover{background:#D8B45C;}
+.ok-wa{width:100%;min-height:56px;font-size:16px;background:#25D366;border-color:#25D366;color:#fff;box-shadow:0 8px 26px rgba(37,211,102,.28);}
+.ok-wa:hover{background:#1EBE5A;border-color:#1EBE5A;color:#fff;}
+.ok-wa svg{width:22px;height:22px;fill:currentColor;}
+.ok-foot{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;}
+@media(max-width:560px){.ok-grid{grid-template-columns:1fr;}.ok-box{padding:20px;}}
+@media(prefers-reduced-motion:reduce){.ok-check,.ok-check svg{animation:none;stroke-dashoffset:0;}}
+</style>
+</head>
+<body>
+
+<div id="site-header"></div>
+
+<main class="ok-page">
+  <div class="wrap">
+    <div class="ok-card" id="ok-card">
+
+      <section class="ok-box ok-hero is-pending" id="ok-hero">
+        <div class="ok-check"><svg viewBox="0 0 48 48"><path d="M10 25l9 9 19-21"/></svg></div>
+        <h1 id="ok-title">Confirming your payment…</h1>
+        <p id="ok-text">One moment — please do not close this page.</p>
+      </section>
+
+      <div id="ok-details" class="ok-card" hidden>
+
+        <section class="ok-box">
+          <h2>Order details</h2>
+          <p class="ok-sub">Keep this reference — quote it if you contact us.</p>
+          <div class="ok-grid">
+            <div class="ok-cell"><span>Order number</span><b class="mono" id="ok-ref">—</b></div>
+            <div class="ok-cell"><span>Payment status</span><b class="ok-paid" id="ok-status">—</b></div>
+            <div class="ok-cell"><span>Amount</span><b id="ok-amount">—</b></div>
+            <div class="ok-cell"><span>Date &amp; time</span><b id="ok-date">—</b></div>
+          </div>
+        </section>
+
+        <section class="ok-box">
+          <h2>Order progress</h2>
+          <p class="ok-sub">We test every system before it leaves the shop.</p>
+          <ol class="ok-steps">
+            <li class="is-done"><span class="ok-dot">✓</span><b>Order placed &amp; paid</b><small>Your payment has been received.</small></li>
+            <li><span class="ok-dot">2</span><b>Quality check &amp; rig testing</b><small>Our technicians inspect and stress-test your order.</small></li>
+            <li><span class="ok-dot">3</span><b>Dispatched / out for delivery</b><small>Your courier tracking number appears below.</small></li>
+            <li><span class="ok-dot">4</span><b>Delivered</b><small>Enjoy your new hardware.</small></li>
+          </ol>
+        </section>
+
+        <section class="ok-box">
+          <h2>Courier tracking</h2>
+          <p class="ok-sub">Tracking details are sent to you on WhatsApp when your order is dispatched.</p>
+          <div class="ok-courier">
+            <div><div class="lbl">Courier</div><div class="val" id="ok-courier-name">—</div></div>
+            <div><div class="lbl">Tracking ID</div><div class="val mono" id="ok-track-id">—</div></div>
+          </div>
+          <div class="ok-actions">
+            <button class="ok-btn gold" type="button" id="ok-copy">Copy Tracking ID</button>
+            <a class="ok-btn" id="ok-track-link" href="#" target="_blank" rel="noopener">Track on Courier Website</a>
+          </div>
+        </section>
+
+        <a class="ok-btn ok-wa" id="ok-wa" href="#" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24"><path d="M12.04 2a9.9 9.9 0 0 0-8.5 14.9L2 22l5.25-1.38A9.9 9.9 0 1 0 12.04 2zm5.8 14.05c-.25.7-1.45 1.33-2 1.4-.52.07-1.17.1-1.88-.12-.43-.14-.98-.32-1.69-.63-2.97-1.28-4.9-4.27-5.05-4.47-.14-.2-1.2-1.6-1.2-3.05s.76-2.16 1.03-2.46c.27-.3.6-.37.8-.37h.57c.18 0 .43-.07.67.52.25.6.85 2.07.92 2.22.08.15.13.32.03.52-.1.2-.15.32-.3.5-.15.17-.32.38-.45.51-.15.15-.3.31-.13.6.18.3.78 1.28 1.67 2.07 1.14 1.02 2.1 1.33 2.4 1.48.3.15.47.12.65-.07.17-.2.75-.87.95-1.17.2-.3.4-.25.67-.15.28.1 1.75.83 2.05.98.3.15.5.22.57.35.08.12.08.72-.17 1.42z"/></svg>
+          Send Confirmation to WhatsApp
+        </a>
+
+        <div class="ok-foot">
+          <a class="ok-btn" href="shop.html">Continue shopping</a>
+          <a class="ok-btn" href="contact.html">Contact us</a>
+        </div>
+      </div>
+
+      <div class="ok-foot" id="ok-fail-actions" hidden>
+        <a class="ok-btn gold" href="checkout.html">Back to checkout</a>
+        <a class="ok-btn" href="contact.html">Contact us</a>
+      </div>
+
+    </div>
+  </div>
+</main>
+
+<div id="site-footer"></div>
+
+<script src="assets/js/config.js"></script>
+<script src="assets/js/products.js"></script>
+<script src="assets/js/app.js"></script>
+<script>
+/* =====================  EDIT THESE  ===================================== */
+var SUCCESS_SETTINGS = {
+  /* your WhatsApp business line — digits only, country code first, no "+" */
+  whatsapp: '971522546945',
+
+  /* where server.js runs on Render (used to confirm the payment is real) */
+  apiBase: 'https://azizcomputers.onrender.com',
+
+  /* Courier shown to the customer. Put the real tracking number in once the
+     parcel is booked. {id} in trackUrl is replaced by the tracking number. */
+  courier: {
+    name: 'Aramex',
+    trackingId: '',                       // empty = "assigned on dispatch"
+    trackUrl: 'https://www.aramex.com/track/results?ShipmentNumber={id}'
+  }
+};
+/* ======================================================================== */
+
+(function () {
+  'use strict';
+  App.init({ meta: { title: 'Order confirmed' } });
+
+  function $(id) { return document.getElementById(id); }
+  var S = SUCCESS_SETTINGS;
+  var q = new URLSearchParams(window.location.search);
+  var intentId = q.get('payment_intent');
+  var redirectStatus = q.get('redirect_status');
+
+  function hero(kind, title, text) {
+    var h = $('ok-hero');
+    h.className = 'ok-box ok-hero' + (kind === 'ok' ? '' : kind === 'bad' ? ' is-bad' : ' is-pending');
+    $('ok-title').innerHTML = title;
+    $('ok-text').textContent = text;
+    if (kind === 'bad') { h.querySelector('svg').innerHTML = '<path d="M14 14l20 20M34 14L14 34"/>'; }
+  }
+  function fail(title, text) {
+    hero('bad', title, text);
+    $('ok-fail-actions').hidden = false;
+  }
+
+  function show(order) {
+    /* the order number looks like #AZIZ-XXXXXX (the server's reference, so it
+       matches the payment in your Stripe dashboard) */
+    var ref = '#AZIZ-' + String(order.ref || '').replace(/^AZ-/, '');
+    var paid = order.paid;
+    var amount = Number(order.total).toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+    hero('ok', paid ? 'Payment <em>successful</em>' : 'Payment <em>processing</em>',
+      paid ? 'Thank you! Your card payment has been received and your order is confirmed.'
+           : 'Your bank is still processing the payment. Your order is reserved and we will confirm shortly.');
+    $('ok-ref').textContent = ref;
+    $('ok-status').textContent = paid ? 'Paid in ' + (order.currency || 'AED') : 'Processing';
+    $('ok-status').className = paid ? 'ok-paid' : '';
+    $('ok-amount').textContent = (order.currency || 'AED') + ' ' + amount;
+    $('ok-date').textContent = new Date(order.at).toLocaleString('en-GB', { day: '2-digit', month: 'short', year: 'numeric', hour: '2-digit', minute: '2-digit' });
+
+    /* courier */
+    var c = S.courier, id = (c.trackingId || '').trim();
+    $('ok-courier-name').textContent = c.name;
+    $('ok-track-id').textContent = id || 'Assigned on dispatch';
+    var link = $('ok-track-link'), copy = $('ok-copy');
+    if (id) { link.href = c.trackUrl.replace('{id}', encodeURIComponent(id)); }
+    else { link.href = c.trackUrl.replace('{id}', ''); link.classList.add('is-off'); copy.disabled = true; }
+    copy.addEventListener('click', function () {
+      function done() { copy.textContent = 'Copied ✓'; setTimeout(function () { copy.textContent = 'Copy Tracking ID'; }, 1800); }
+      if (navigator.clipboard && navigator.clipboard.writeText) { navigator.clipboard.writeText(id).then(done, done); }
+      else { var t = document.createElement('textarea'); t.value = id; document.body.appendChild(t); t.select(); try { document.execCommand('copy'); } catch (e) {} t.remove(); done(); }
+    });
+
+    /* WhatsApp */
+    var msg = 'Hello Aziz Computers, I just completed my payment successfully! My Order Reference is ' + ref + '.';
+    $('ok-wa').href = 'https://wa.me/' + S.whatsapp + '?text=' + encodeURIComponent(msg);
+
+    $('ok-details').hidden = false;
+
+    /* the order is paid: empty the basket (the site stores it under aziz.cart.v1) */
+    if (paid || order.processing) {
+      try { App.Cart.clear(); } catch (e) {}
+      try { localStorage.removeItem('aziz.cart.v1'); localStorage.removeItem('cart'); } catch (e) {}
+    }
+  }
+
+  /* No payment id in the address = someone opened the page directly. Showing
+     "paid" without proof would be wrong, so we don't. */
+  if (!intentId || !/^pi_[A-Za-z0-9]+$/.test(intentId)) {
+    fail('No order to show', 'This page opens after a card payment. If you just paid, please contact us with your payment time.');
+    return;
+  }
+  if (redirectStatus === 'failed') {
+    fail('Payment did not go through', 'Nothing was charged. You can try again or choose another payment method.');
+    return;
+  }
+
+  /* refresh keeps the same date/time */
+  var key = 'aziz.order.' + intentId, cached = null;
+  try { cached = JSON.parse(sessionStorage.getItem(key)); } catch (e) {}
+  if (cached && cached.paid) { show(cached); } else {
+    fetch(String(S.apiBase).replace(/\/+$/, '') + '/api/verify-payment?payment_intent=' + encodeURIComponent(intentId))
+      .then(function (r) { return r.json().then(function (d) { return { ok: r.ok, d: d }; }); })
+      .then(function (r) {
+        if (r.ok && (r.d.paid || r.d.processing)) {
+          var order = { paid: !!r.d.paid, processing: !!r.d.processing, ref: r.d.ref, total: r.d.total, currency: r.d.currency, at: Date.now() };
+          try { sessionStorage.setItem(key, JSON.stringify(order)); } catch (e) {}
+          show(order);
+        } else {
+          fail('We could not confirm your payment', 'If money left your account, please contact us with the time of payment and we will check it.');
+        }
+      })
+      .catch(function () { fail('We could not confirm your payment', 'The payment service did not answer. If money left your account, please contact us.'); });
+  }
+})();
+</script>
+</body>
+</html>
