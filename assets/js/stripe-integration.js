@@ -224,11 +224,8 @@
   function handleReturn() {
     var q = new URLSearchParams(window.location.search);
     var id = q.get('payment_intent');
-    if (!id || q.get('card_return') !== '1') { return false; }
+    if (!id) { return false; }
     var status = q.get('redirect_status');
-
-    /* take the payment secrets out of the address bar */
-    try { window.history.replaceState({}, '', window.location.pathname); } catch (e) { /* ignore */ }
 
     var root = $('checkout-root');
     if (!root) { return true; }
