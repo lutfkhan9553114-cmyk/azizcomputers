@@ -2,25 +2,6 @@
    AZIZ COMPUTERS — BACKEND (Express on Render)
    --------------------------------------------------------------------------
    Serves the website files and takes card payments through Stripe.
-
-   WHAT CHANGED FROM THE FIRST VERSION
-   - The browser no longer tells the server HOW MUCH to charge (anyone could
-     edit that number and pay AED 1 for a laptop). The browser now sends only
-     product ids + quantities; the server looks up the prices in your own
-     assets/js/products.js and assets/js/config.js and works out the total,
-     delivery and 5% VAT itself.
-   - The customer's name, phone, address, items and order reference are saved
-     on the payment, so they show in Stripe (Payments -> click one -> Metadata).
-   - CORS is limited to your own site, the endpoint is rate limited, Stripe
-     error text is no longer sent to the browser, and server.js / package.json
-     / .env are no longer downloadable.
-
-   RENDER SETTINGS (Environment)
-     STRIPE_SECRET_KEY   sk_live_... (or sk_test_... while testing)   REQUIRED
-     ALLOWED_ORIGINS     optional, comma separated extra sites allowed to call
-                         this server, e.g. https://www.azizcomputers.com
-   Render sets RENDER_EXTERNAL_URL by itself, and the siteUrl in config.js is
-   allowed automatically.
    ========================================================================== */
 
 require('dotenv').config();
@@ -32,9 +13,6 @@ const crypto = require('crypto');
 
 /* ---------------------------------------------- reading products / config */
 
-/* products.js and config.js are JavaScript, not JSON. This reads the plain
-   data in them (objects, arrays, strings, numbers, true/false/null, comments,
-   trailing commas) without running them as code. */
 function parseJsValue(src, start) {
   let i = start;
   const fail = (msg) => { throw new Error(msg + ' at character ' + i); };
@@ -131,7 +109,6 @@ function createApp(options) {
   const rootDir = options.rootDir || __dirname;
   const env = options.env || process.env;
 
-  /* re-read your data files only when they change on disk */
   const cache = { products: null, config: null, mtime: '' };
   function siteData() {
     const pFile = path.join(rootDir, 'assets/js/products.js');
@@ -148,8 +125,6 @@ function createApp(options) {
     return cache;
   }
 
-  /* same rules as the cart on the website (app.js): sale price if lower,
-     free delivery over the threshold, VAT added on top of goods + delivery */
   function quote(items) {
     const { products, config } = siteData();
     const merged = {};
@@ -193,18 +168,22 @@ function createApp(options) {
   const makeRef = () => 'AZ-' + crypto.randomBytes(4).readUInt32BE(0).toString(36).toUpperCase().padStart(6, '0').slice(-6);
 
   const app = express();
-  app.set('trust proxy', 1); /* Render sits behind a proxy: needed for the real visitor IP */
+  app.set('trust proxy', 1);
 
-  /* only your own website may call the API from a browser */
+  /* Explicitly whitelist your production domain to prevent CORS blocking */
   function allowedOrigins() {
-    const list = [];
-    const add = (u) => { try { if (u) { list.push(new URL(u.trim()).origin); } } catch (e) { /* ignore bad value */ } };
-    try { add(siteData().config.siteUrl); } catch (e) { /* config unreadable: fall through */ }
+    const list = [
+      'https://azizcomputers.com',
+      'https://www.azizcomputers.com'
+    ];
+    const add = (u) => { try { if (u) { list.push(new URL(u.trim()).origin); } } catch (e) { /* ignore */ } };
+    try { add(siteData().config.siteUrl); } catch (e) { /* ignore */ }
     add(env.RENDER_EXTERNAL_URL);
     String(env.ALLOWED_ORIGINS || '').split(',').forEach(add);
     if (env.NODE_ENV !== 'production') { add('http://localhost:4242'); add('http://localhost:8080'); }
     return list;
   }
+
   app.use(cors({
     origin: (origin, cb) => {
       if (!origin || allowedOrigins().indexOf(origin) !== -1) { return cb(null, true); }
@@ -213,7 +192,6 @@ function createApp(options) {
   }));
   app.use(express.json({ limit: '20kb' }));
 
-  /* simple per-visitor limit on starting payments (stops card-testing spam) */
   const hits = new Map();
   function limit(max, windowMs) {
     return (req, res, next) => {
@@ -229,7 +207,6 @@ function createApp(options) {
 
   app.get('/healthz', (req, res) => res.json({ ok: true }));
 
-  /* ---- start a payment ------------------------------------------------ */
   app.post('/api/create-payment-intent', limit(20, 10 * 60 * 1000), async (req, res) => {
     try {
       const body = req.body || {};
@@ -237,7 +214,6 @@ function createApp(options) {
       const c = body.customer || {};
       if (!items.length || items.length > 50) { throw clientError('Your cart is empty.'); }
 
-      /* the same checks as the checkout form, repeated because browsers can't be trusted */
       const name = String(c.name || '').trim();
       const phone = String(c.phone || '').trim();
       const email = String(c.email || '').trim();
@@ -276,7 +252,6 @@ function createApp(options) {
     }
   });
 
-  /* ---- confirm a payment after Stripe sends the customer back ---------- */
   app.get('/api/verify-payment', limit(60, 10 * 60 * 1000), async (req, res) => {
     const id = String(req.query.payment_intent || '');
     if (!/^pi_[A-Za-z0-9]+$/.test(id)) { return res.status(400).json({ error: 'Invalid payment.' }); }
@@ -295,8 +270,6 @@ function createApp(options) {
     }
   });
 
-  /* ---- the website itself ------------------------------------------------
-     Serve the site files, but never the server's own files or secrets. */
   app.use((req, res, next) => {
     let p;
     try { p = decodeURIComponent(req.path).toLowerCase(); } catch (e) { return res.status(400).send('Bad request'); }
@@ -312,7 +285,6 @@ function createApp(options) {
 
 module.exports = { createApp, parseJsValue, readConst };
 
-/* ---------------------------------------------------------------- start */
 if (require.main === module) {
   if (!process.env.STRIPE_SECRET_KEY) {
     console.error('STRIPE_SECRET_KEY is not set. Add it in Render -> Environment.');
