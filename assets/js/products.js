@@ -101,7 +101,7 @@ const products = [
     subcategory: 'Gaming Laptop',
     price: 3309,
     salePrice: 4009,
-    images: ['https://cdn.shopify.com/s/files/1/0789/9784\\/8281\\/files\\/MSI-Thin-A15-Gaming-Laptop-9S7-16RK11-653-1_dea17b2a-c765-448a-a8d7-f1584d474009.webp'],
+    images: ['https://cdn.shopify.com/s/files/1/0789/9784/8281/files/MSI-Thin-A15-Gaming-Laptop-9S7-16RK11-653-1_dea17b2a-c765-448a-a8d7-f1584d474009.webp'],
     shortDescription: 'MSI Thin A15 Gaming Laptop with Ryzen 7 and RTX 3050.',
     description: `Processor: AMD Ryzen 7 7735HS | RAM: 8GB DDR5 | SSD: 512GB | Display: 15.6" 144Hz FHD (1920x1080) | Graphics: NVIDIA RTX 3050 | Graphics Memory: 4GB GDDR6 | Operating System: DOS | Keyboard: Blue Backlit English Keyboard | 1 Year Warranty`,
     specifications: {
