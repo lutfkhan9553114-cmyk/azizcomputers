@@ -59,7 +59,7 @@ function parseJsValue(src, start) {
         skip();
         if (src[i] === '}') { i++; return obj; }
         let key;
-        if (src[i] === "'" || src[i] === '"') { key = str(); }
+        if (src[i] === "'" || src[i] === '"' || src[i] === '`') { key = str(); }
         else {
           const m = /^[A-Za-z_$][\w$]*/.exec(src.slice(i, i + 80));
           if (!m) { fail('Expected a property name'); }
@@ -84,7 +84,7 @@ function parseJsValue(src, start) {
         if (src[i] === ',') { i++; }
       }
     }
-    if (c === "'" || c === '"') { return str(); }
+    if (c === "'" || c === '"' || c === '`') { return str(); }
     const rest = src.slice(i, i + 40);
     const num = /^-?\d+(\.\d+)?([eE][+-]?\d+)?/.exec(rest);
     if (num) { i += num[0].length; return parseFloat(num[0]); }
